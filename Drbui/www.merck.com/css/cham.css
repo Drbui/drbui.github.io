@@ -1,0 +1,577 @@
+/* ==========================================================================
+   PAGE GLOBALS
+   ========================================================================== */
+
+.shareBtn {
+    cursor: pointer;
+    position: relative;
+    z-index: 99;
+    width: 110px;
+    margin-top: 2%;
+}
+
+.shareBtn img {
+    max-width: 90%;
+}
+
+.quote-large {
+    font-family: "Times New Roman", serif;
+    position: relative;
+    font-size: 110px;
+    line-height: 0.5em;
+    top: 40px;
+}
+
+.quote {
+    font-family: 'Times New Roman', serif;
+}
+
+blockquote {
+    margin: 10px 0;
+    border: none;
+}
+
+blockquote p {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+blockquote .caption {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+
+/* ==========================================================================
+   MAIN HERO
+   ========================================================================== */
+
+.cham .main-hero-section {
+    margin-top: 105px;
+    background-color: #337478;
+}
+
+.cham .main-hero-section .container {
+    background-image: url("http://www.merck.com/images/about/cham/cham_bg_hero.jpg");
+    background-repeat: no-repeat;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: right top;
+    min-height: 550px;
+}
+
+.cham .main-hero-section h1 {
+    color: #ffffff;
+    font-size: 55px;
+    line-height: 1.1em;
+}
+
+.cham .main-hero-section h2 {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.cham .main-hero-section p {
+    color: #ffffff;
+    font-size: 37px;
+    max-width: 40%;
+}
+
+.cham .main-hero-section h1,
+.cham .main-hero-section h2,
+.cham .main-hero-section p {
+    text-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+
+
+/* ==========================================================================
+   CONTENT SECTIONS
+   ========================================================================== */
+
+.cham .content.one {
+    background-color: #02877C;
+}
+
+.cham .content.one p {
+    color: #ffffff;
+    font-size: 22px;
+    margin: 25px 0;
+    line-height: 1.5em;
+}
+
+.cham .content.two {
+    background-color: #02877C;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.cham .content.two p {
+    color: #ffffff;
+    font-size: 26px;
+    margin: 25px 0;
+    line-height: 1.2em;
+}
+
+.cham .content.two p {
+    padding-top: 15px;
+}
+
+.cham .content.two h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1em;
+}
+
+.cham .content.two .darker {
+    color: #86CAD3;
+    font-size: 46px;
+    line-height: 1em;
+}
+
+.cham .content.two .borderleftright {
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+}
+
+.cham .content.three {
+    background-color: #CEEBEE;
+}
+
+.cham .content.three .container {
+    background-image: url("http://www.merck.com/images/about/cham/cham_icon_dr.png");
+    background-repeat: no-repeat;
+    -o-background-size: 320px;
+    background-size: 320px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-position: 103% 152%;
+}
+
+.cham .content.three h1 {
+    font-size: 45px;
+    line-height: 1.0em;
+    color: #02877C;
+    width: 90%;
+}
+
+.cham .content.three p {
+    color: #2A1F20;
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+
+/* ==========================================================================
+   DIVIDER SECTIONS
+   ========================================================================== */
+
+.cham .divider {
+    background-color: #6CCAD3;
+    padding-top: 20px;
+}
+
+.cham .divider .container:after {
+    content: "";
+    position: relative;
+    top: 13px;
+    left: -5px;
+    border-top: 20px solid #6ccad3;
+    border-top-color: #6ccad3;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.cham .divider h1 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+
+/* ==========================================================================
+   INFOGRAFIC SECTIONS
+   ========================================================================== */
+
+.cham .infographic {
+    padding: 55px 0;
+}
+
+.cham .infographic .colored {
+    color: #028780;
+}
+
+.cham .infographic p {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.cham .infographic .left p {
+    padding-right: 25px;
+}
+
+.cham .infographic .center p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.cham .infographic.one .left p {
+    margin-top: 2px;
+}
+
+.cham .infographic.one .center p {
+    margin-top: 15px;
+}
+
+.cham .infographic.two .center p {
+    margin-top: 5px;
+}
+
+.cham .infographic.two .right p {
+    margin-top: 8px;
+}
+
+
+/* ==========================================================================
+   VIDEOBOX SECTION
+   ========================================================================== */
+
+.cham .videobox {
+    background-color: #37434A;
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+.cham .videobox h2 {
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.3em;
+}
+
+.cham .videobox .playicon {
+    display: inline-block;
+    float: left;
+    max-width: 85px;
+}
+
+.cham .videobox p {
+    font-size: 26px;
+    width: 75%;
+    display: inline-block;
+    text-align: left;
+    margin-left: 2%;
+}
+
+
+/* ==========================================================================
+   MEN-HERO SECTION
+   ========================================================================== */
+
+.cham .men-hero {
+    background-color: #02877c;
+}
+
+.cham .men-hero .container {
+    background-image: url("http://www.merck.com/images/about/cham/cham_bg_hero2.jpg");
+    background-repeat: no-repeat;
+    -o-background-size: 1030px;
+    background-size: 1030px;
+    background-position: right top;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.cham .men-hero h1 {
+    color: #ffffff;
+    font-size: 52px;
+    line-height: 1.1em;
+    width: 75%;
+}
+
+.cham .men-hero p {
+    color: #ffffff;
+    font-size: 38px;
+    width: 50%;
+}
+
+
+/* ==========================================================================
+   RESOURCES SECTION
+   ========================================================================== */
+
+.cham .resources {
+    padding: 20px 0 0;
+}
+
+.cham .resources h1 {
+    font-size: 42px;
+    color: #6CCAD3;
+    line-height: 1.1em;
+    padding-top: 15px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .cham .videobox h2 {
+        font-size: 30px;
+    }
+    .cham .men-hero h1 {
+        font-size: 40px;
+        margin-bottom: 35px;
+    }
+    .cham .men-hero p {
+        font-size: 30px;
+    }
+    .cham .men-hero .container {
+    	padding-top: 50px;
+    	padding-bottom: 50px;
+    }
+    .cham .content.three h1 {
+        font-size: 38px;
+    }
+    .cham .content.three p {
+        font-size: 28px;
+    }
+    .cham .content.three .container {
+        background-position: 103% 190%;
+    }
+    .cham .videobox p {
+    	font-size: 23px;
+    }
+    .cham .resources h1 {
+        font-size: 38px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .cham .main-hero-section {
+        margin-top: -2px;
+    }
+    .cham .main-hero-section h1 {
+        font-size: 45px;
+    }
+    .cham .main-hero-section h2 {
+        font-size: 38px;
+    }
+    .cham .main-hero-section p {
+        font-size: 32px;
+    }
+    .cham .content.one p {
+        font-size: 18px;
+        margin: 20px 0px;
+    }
+    .cham .infographic p {
+        font-size: 16px;
+    }
+    .cham .infographic {
+        padding: 35px 0px;
+    }
+    .cham .videobox h2 {
+		font-size: 22px;
+    }
+    .cham .videobox p {
+        font-size: 20px;
+        width: 65%;
+        margin-left: 3%;
+    }
+    .cham .videobox .playicon {
+        width: 30%;
+        margin-top: 8px;
+    }
+    .cham .men-hero h1 {
+        font-size: 32px;
+    }
+    .cham .men-hero .container {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        background-size: 820px;
+    }
+    .cham .men-hero p {
+        font-size: 24px;
+    }
+    .cham .content.two h2 {
+        font-size: 30px;
+    }
+    .cham .content.two .darker {
+        font-size: 38px;
+    }
+    .cham .content.two p {
+        font-size: 20px;
+        margin: 25px 0px;
+        line-height: 1.1em;
+    }
+    .cham .content.three h1 {
+    	font-size: 28px;
+    }
+    .cham .content.three p {
+    	font-size: 24px;
+    }
+    .cham .content.three .container {
+    	background-position: 103% 155%;
+    	background-size: 270px auto;
+    }
+    .cham .resources h1 {
+    	font-size: 30px;
+    	padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+	.cham .main-hero-section .container {
+		min-height: 385px;
+	}
+	.cham .main-hero-section h1 {
+		font-size: 28px;
+	}
+	.cham .main-hero-section h2 {
+		font-size: 26px;
+	}
+	.cham .main-hero-section p {
+		font-size: 22px;
+		max-width: 50%;
+	}
+	.cham .infographic .left p {
+		padding-right: 0;
+	}
+	.cham .infographic .center p {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.cham .infographic p {
+		font-size: 16px;
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+	.cham .videobox p {
+		width: 75%;
+		font-size: 27px;
+	}
+	.cham .videobox h2 {
+		font-size: 25px;
+	}
+	.cham .videobox .playicon {
+		margin-right: 10px;
+	}
+	.cham .men-hero h1 {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.cham .men-hero p {
+		font-size: 17px;
+	}
+	.cham .men-hero .container {
+		background-size: 550px auto;
+		padding-top: 15px;
+		padding-bottom: 40px;
+	}
+	.cham .content.two .darker {
+		font-size: 25px;
+	}
+	.cham .content.two p {
+		font-size: 17px;
+		margin: 10px 0px;
+	}
+	.cham .content.two .rightside p {
+		margin: 0px 0px;
+	}
+	.cham .content.two h2 {
+		font-size: 22px;
+	}
+	.cham .content.three h1 {
+		font-size: 18px;
+	}
+	.cham .content.three p {
+		font-size: 16px;
+	}
+	.cham .content.three .container {
+		background-position: 105% 125%;
+		background-size: 200px auto;
+	}
+	.cham .resources h1 {
+		font-size: 21px;
+	}
+	.cham .resources {
+		padding: 20px 0px 20px;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	
+	.shareBtn {
+		width: 85px;
+	}
+	.cham .main-hero-section .container {
+		min-height: 255px;
+	}
+	.cham .main-hero-section h1 {
+		font-size: 19px;
+	}
+	.cham .main-hero-section h2 {
+		font-size: 18px;
+	}
+	.cham .main-hero-section p {
+		font-size: 17px;
+		line-height: 1em;
+	}
+	.cham .content.one p {
+		font-size: 15px;
+	}
+	.cham .divider h1 {
+		font-size: 30px;
+	}
+	.cham .videobox h2 {
+		font-size: 20px;
+	}
+	.cham .videobox p {
+		font-size: 18px;
+	}
+	.cham .videobox .playicon {
+		margin-right: 0px;
+		width: 22%;
+		margin-top: 0;
+	}
+	.cham .men-hero h1 {
+		font-size: 15px;
+	}
+	.cham .men-hero p {
+		font-size: 15px;
+	}
+	.cham .men-hero .container {
+		background-size: 535px auto;
+		padding-top: 15px;
+		padding-bottom: 0px;
+	}
+	.cham .men-hero h1 {
+		font-size: 15px;
+	}
+	.cham .men-hero p {
+		font-size: 15px;
+	}
+	.cham .content.two h2 {
+		font-size: 15px;
+	}
+	.cham .content.two p {
+		font-size: 12px;
+	}
+	.cham .content.two .darker {
+		font-size: 15px;
+	}
+	.cham .content.three h1 {
+		font-size: 13px;
+	}
+	.cham .content.three p {
+		font-size: 13px;
+	}
+	.cham .content.three .container {
+		background-position: 105% 111%;
+		background-size: 140px auto;
+	}
+	.cham .resources h1 {
+		font-size: 15px;
+	}
+}

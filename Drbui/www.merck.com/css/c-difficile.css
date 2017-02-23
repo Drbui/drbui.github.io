@@ -1,0 +1,673 @@
+/**
+ * Description: Hepatitis C advocacy.
+ * Version: 3.0
+ * Last update: 09/24/2015
+ * Author: John Schibelli <jschibelli@spigroup.com>
+ *
+ * Summary:
+ *
+ *	0. PAGE GLOBALS
+ *	0.1. MAIN-HERO SECTION
+ *	0.2. DIVIDER-ONE
+ *	0.3. CONTENT-SECTION
+ *	0.4. DIVIDER-TWO
+ *	0.5. SECOND-HERO
+ *	0.6. DIVIDER-THREE
+ *	0.7. CONTENT-SECTION-TWO
+ *
+ * 	MEDIA QUERIES
+ *		-0.9. LARGE DEVICES, WIDE SCREENS
+ *		-1.0. MEDIUM DEVICES, DESKTOPS
+ *		-1.2. SMALL DEVICES, TABLETS
+ *		-1.3. EXTRA SMALL DEVICES, PHONES
+ *		-1.4. CUSTOM, iPHONE RETINA
+ */
+
+/* ==========================================================================
+   0. PAGE GLOBALS
+   ========================================================================== */
+	.c-difficile .blue-grey {
+		color: #37424a;
+	}
+	.c-difficile .orange {
+		color: #f59030;
+	}
+	.c-difficile .white {
+		color: #ffffff;
+	}
+	.c-difficile .bold-text {
+		font-weight: bold;
+	}
+	.c-difficile .uppercase {
+		text-transform: uppercase;
+	}
+	.c-difficile .text-center	 {
+		text-align: center;
+	}
+	.c-difficile .text-left {
+		text-align: left;
+	}
+	a.btn.btn-default {
+	    background-color: #13a29c;
+	    border-radius: 0px;
+	    border: 1px solid #107d78;
+	    border: none;
+	    color: #fff;
+	    padding: 6px 30px;
+	    position: relative;
+	    top: 20px;
+	}
+	a.btn-default:hover {
+	    background-color: #107D78;
+	    /* border: 1px solid #13a29c; */
+	    color: #ffffff;
+	}
+	.shareBtn {
+		cursor: pointer;
+		position: absolute;
+		right: 15%;
+		z-index: 99;
+	}
+/* 0.1. MAIN-HERO SECTION
+   ========================================================================== */
+	.c-difficile .main-hero-section {
+		margin-top: 105px;
+			   background: url('http://www.merck.com/images/about/c-difficile/cdiff_bg_hero.jpg') no-repeat center center fixed;
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+ 	}
+ 	.c-difficile .main-hero-section .jumbotron {
+	    padding: 30px 15px;
+	    margin-bottom: 30px;
+	    color: inherit;
+
+
+	}
+	.c-difficile .main-hero-section h1 {
+		font-size: 60px;
+		position: relative;
+		top: 45px;
+		line-height: 60px;
+		padding-bottom: 40px;
+		margin-top: 27px;
+	}
+	.c-difficile .main-hero-section p {
+		font-size: 30px;
+		padding-bottom: 10px;
+		line-height: 32px;
+	}
+	.c-difficile .main-hero-section .left-circle {
+		background: url('http://www.merck.com/images/about/c-difficile/cdiff_bg_stats.png') no-repeat 0 0;
+		width: 231px;
+		height: 232px;
+		margin: 0 auto;
+		color: #ffffff;
+		overflow: hidden;
+	}
+	.c-difficile .main-hero-section .left-circle #count-three {
+		color: #fff;
+		position: relative;
+		font-size: 45px;
+		font-weight: bold;
+		top: 73px;
+		left: 51px;
+
+	}
+	.c-difficile .main-hero-section .right-circle {
+		background: url('http://www.merck.com/images/about/c-difficile/cdiff_bg_stats.png') no-repeat 0 0;
+		width: 231px;
+		height: 232px;
+		margin: 0 auto;
+		margin-top: 70px;
+		margin-bottom: 48px;
+		color: #ffffff;
+		font-size: 25px;
+		overflow: hidden;
+	}
+	.c-difficile .main-hero-section .left-circle p {
+		position: relative;
+		top: 65px;
+		left: 59px;
+		font-size: 26px;
+
+	}
+	.c-difficile .main-hero-section .right-circle #count-three {
+		color: #fff;
+		position: relative;
+		font-size: 45px;
+		font-weight: bold;
+		top: 72px;
+		left: 60px;
+	}
+	.c-difficile .main-hero-section .right-circle p {
+		position: relative;
+		top: 63px;
+		left: 83px;
+		font-size: 26px;
+
+	}
+/* 0.2. DIVIDER-ONE
+   ========================================================================== */
+
+/* 0.3 CONTENT-SECTION
+   ========================================================================== */
+	.c-difficile .content-section,
+	 .c-difficile .content-section-two {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.c-difficile .content-section h3 {
+		font-size: 42px;
+		color: #37424a;
+	}
+	.c-difficile .content-section p,
+	.c-difficile .content-section-two p {
+		font-size: 20px;
+		color: #37424a;
+	}
+	.c-difficile .content-section img {
+		padding-top: 50px;
+	}
+
+/* 0.4 DIVIDER-TWO
+   ========================================================================== */
+	.c-difficile .divider-two h2 span.quotes{
+		background: url('http://www.merck.com/images/about/c-difficile/advocacy_quotes.png') no-repeat 0 0;
+		width: 45px;
+		padding-bottom: 20px;
+		padding-right: 50px;
+		position: relative;
+		bottom: 10px;
+	}
+	.c-difficile .divider-two span.close-quote {
+		font-family: "Times New Roman", Georgia, Serif;
+		font-size: 34px;
+		padding-right: 5px;
+		position: relative;
+		top: 4px;
+		font-weight: bold;
+	}
+/* 0.5. SECOND-HERO
+   ========================================================================== */
+   	.c-difficile .second-hero {
+   		background-color: #243444;
+   		padding-top: 60px;
+   		padding-bottom: 60px;;
+   	}
+   	.c-difficile .second-hero h1 {
+   		font-size : 55px;
+   		font-weight: normal;
+   		color: #69c8c1;
+   		padding-top: 41px;
+   	}
+   	.c-difficile .second-hero p {
+   		font-size : 20px;
+   		fontweight: normal;
+   		color:#ffffff;
+   	}
+/* 0.6. DIVIDER-THREE
+   ========================================================================== */
+   	.c-difficile .divider-three  {
+   		background-color: #e0e3e5;
+   		padding-top: 40px;
+   		padding-bottom: 10px;
+   	}
+   	.c-difficile .divider-three h1  {
+   		font-size : 45px;
+   		color: #6175a2;
+   		text-transform: uppercase;
+   		font-weight: normal;
+   		padding-top: 20px;
+   	}
+   	.c-difficile .divider-three h2 {
+   		font-size : 31px;
+   		fontweight: normal;
+   		color: #243444;
+   		padding-bottom: 20px;
+   	}
+   	.c-difficile .divider-three p.learn-more {
+   		font-size: 23px;
+   		color: #243444;
+   		padding-bottom: 30px;
+   	}
+   	.c-difficile .divider-three .thumbnail {
+   		background: none;
+   		border: 0px;
+   	}
+   	.c-difficile .divider-three .thumbnail img {
+		padding-bottom: 20px;
+   	}
+   	.c-difficile .divider-three .caption {
+   		font-size: 20px;
+   		text-align: center;
+   	}
+   	.c-difficile .divider-three .caption.text-left {
+   		font-size: 26px;
+   		text-align: left;
+   		padding-bottom: 15px;;
+   	}
+/* 0.7. CONTENT-SECTION-TWO
+   ========================================================================== */
+   	.c-difficile .content-section-two h1 {
+   		font-size: 45px;
+   		color: #6175a2;
+   		text-transform: uppercase;
+   		font-weight: normal;
+   		padding-top: 20px;
+   	}
+/* 0.8. LOWER-HERO
+   ========================================================================== */
+   	.c-difficile .lower-hero {
+   		background-color: #009894;
+   		padding-top: 50px;
+   		padding-bottom: 80px;
+   	}
+   	   	.c-difficile .lower-hero p.lead{
+   			font-size: 35px;
+   			margin-bottom: 0px;
+   			line-height: 40px;
+   	   	}
+ 	.c-difficile .lower-hero h2 {
+		color: #37424a;
+		font-size: 25px;
+		font-weight: normal;
+		margin-top: 0px;;
+	}
+	.c-difficile .lower-hero img {
+		padding: 30px;
+	}
+	.c-difficile .lower-hero a.btn.btn-default {
+		color: #007470;
+		text-transform: uppercase;
+		margin-top: -17px;
+		background-color: #e6e6e6;
+	}
+
+/* 	-0.9. LARGE DEVICES, WIDE SCREENS
+	========================================================================== */
+	@media only screen and (max-width : 1200px){
+		.c-difficile .main-hero-section {
+			background-color: #243444;
+			margin-top: 105px;
+		}
+		.c-difficile .main-hero-section h1 {
+		    font-size: 55px;
+		    position: relative;
+		    top: 45px;
+		    line-height: 60px;
+		    padding-bottom: 40px;
+		}
+		.c-difficile .content-section h3 {
+		    font-size: 35px;
+		    color: #37424a;
+		}
+		.c-difficile .content-section img {
+		    padding-top: 80px;
+		}
+		.c-difficile .second-hero h1 {
+		    font-size: 50px;
+		    font-weight: normal;
+		    color: #69c8c1;
+		    padding-top: 41px;
+		}
+		.c-difficile .second-hero img {
+			padding-top: 36px;
+		}
+		.c-difficile .divider-three p.learn-more {
+		    font-size: 22px;
+		    color: #243444;
+		    padding-bottom: 30px;
+		}
+		.c-difficile .lower-hero p.lead {
+		    font-size: 32px;
+		    margin-bottom: 0px;
+		    line-height: 40px;
+		}
+		.shareBtn {
+			right: 5%;
+		}
+	}
+/* 	-1.0 MEDIUM DEVICES, DESKTOPS
+	========================================================================== */
+	@media only screen and (max-width : 992px){
+		.c-difficile .main-hero-section {
+			background-color: #243444;
+		    margin-top: 0px;
+		}
+		.c-difficile .main-hero-section .light-grey-bg {
+			background: #3f5463;
+		}
+		.c-difficile .main-hero-section h1 {
+		    font-size: 50px;
+		    position: relative;
+		    top: 45px;
+		    line-height: 60px;
+		    padding-bottom: 60px;
+		}
+		.c-difficile .main-hero-section p.sm-xs-padd {
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+		.c-difficile .content-section img {
+		    padding-top: 50px;
+		}
+
+	}
+/* 	-1.2 SMALL DEVICES, TABLETS
+	========================================================================== */
+	@media only screen and (max-width : 768px){
+
+		.c-difficile .main-hero-section h1 {
+			font-size: 45px;
+		    position: relative;
+		    top: 30px;
+		    line-height: 60px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.c-difficile .main-hero-section p {
+		    font-size: 20px;
+		    line-height: 28px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.c-difficile .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 30px;
+		    text-align: center;
+		    font-size: 30px;
+		    line-height: 32px;
+		}
+		.c-difficile .content-section img {
+			padding-bottom: 30px;
+			padding-right: 155px;
+			padding-left: 155px;
+		}
+		.c-difficile .content-section h3 {
+		    font-size: 40px;
+		    color: #37424a;
+		}
+		.c-difficile .second-hero {
+		    background-color: #243444;
+		    padding-top: 60px;
+		    padding-bottom: 60px;
+		}
+		.c-difficile .second-hero img {
+		    padding-right: 155px;
+		    padding-left: 155px;
+		}
+		.c-difficile .second-hero h1 {
+		    font-size: 55px;
+		    font-weight: normal;
+		    color: #69c8c1;
+		    padding-top: 41px;
+		    text-align: center;
+		    padding-bottom: 10px;
+		}
+		.c-difficile .divider-three h2 {
+		    font-size: 25px;
+		    fontweight: normal;
+		    color: #243444;
+		    padding-bottom: 20px;
+		}
+		.c-difficile .divider-three p.learn-more {
+		    font-size: 20px;
+		    color: #243444;
+		    padding-bottom: 30px;
+		}
+		.c-difficile .content-section-two {
+		    padding-top: 20px;
+		    padding-bottom: 60px;
+		}
+		.c-difficile .content-section-two h1 {
+		    font-size: 45px;
+		    color: #6175a2;
+		    text-transform: uppercase;
+		    font-weight: normal;
+		    text-align: center;
+		}
+		.c-difficile .content-section-two p {
+			text-align: center;
+		}
+		.c-difficile .content-section-two .sm-xs-img {
+		    padding: 0 155px 0;
+
+		}
+		.c-difficile .lower-hero p.lead {
+		    font-size: 23px;
+		    margin-bottom: 0px;
+		    line-height: 30px;
+		}
+		.c-difficile .divider-one h2, .c-difficile .divider-two h2 {
+		    color: #37424a;
+		    font-size: 25px;
+		    font-weight: normal;
+		    padding-top: 10px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.shareBtn {
+			width: 125px;
+			right: 2%;
+		}
+		.c-difficile .main-hero-section .left-circle, .c-difficile .main-hero-section .right-circle {
+			margin: 0 auto;
+			margin-top: 0;
+		}
+		.c-difficile .main-hero-section .left-circle p, .c-difficile .main-hero-section .right-circle p {
+			left: 0;
+		}
+	}
+
+/* 	-1.3EXTRA SMALL DEVICES, PHONES
+	========================================================================== */
+	@media only screen  and (max-width : 480px){
+		.c-difficile .main-hero-section h1 {
+			font-size: 40px !important;
+		    position: relative;
+		    line-height: 0;
+		    text-align: center;
+		    padding: 20px 0 30px;
+		}
+		.c-difficile .main-hero-section p {
+		    font-size: 20px;
+		    line-height: 28px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.c-difficile .main-hero-section .left-circle, .c-difficile .main-hero-section .right-circle {
+			margin: 0 auto;
+		}
+		.c-difficile .main-hero-section .left-circle p, .c-difficile .main-hero-section .right-circle p {
+			left: 0;
+		}
+		.c-difficile .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		    font-size: 18px;
+		    line-height: 22px;
+		}
+		.c-difficile .divider-one h2, .c-difficile .divider-two h2 {
+		    color: #37424a;
+		    font-size: 22px;
+		    font-weight: normal;
+		    padding-top: 5px;
+		    padding-bottom: 5px;
+
+		}
+		.c-difficile .content-section img {
+		    padding-left: 0px;
+		    padding-right: 0px;
+		    padding-bottom: 30px;
+		    padding-top: 0px;
+		}
+		.c-difficile .content-section h3 {
+		    font-size: 30px;
+		    color: #37424a;
+		    margin-top: 0px;;
+		}
+		.c-difficile .second-hero {
+		    background-color: #243444;
+		    padding-top: 0;
+		    padding-bottom: 25px;
+		}
+		.c-difficile .second-hero img {
+		    padding-left: 0;
+		    padding-right: 0;
+		    padding-bottom: 20px;
+		}
+		.c-difficile .second-hero h1 {
+		    font-size: 38px;
+		    font-weight: normal;
+		    color: #69c8c1;
+		    text-align: center;
+		    line-height: 40px;
+		    padding-top: 0px;
+		}
+		.c-difficile .divider-three h1 {
+		    font-size: 41px;
+		    color: #6175a2;
+		    text-transform: uppercase;
+		    font-weight: normal;
+		    padding-top: 20px;
+		    line-height: 35px;
+		}
+
+		.c-difficile .second-hero p {
+		    font-size: 20px;
+		    fontweight: normal;
+		    color: #ffffff;
+		    text-align: center;
+		}
+		.c-difficile .divider-three h2 {
+		    font-size: 23px;
+		    fontweight: normal;
+		    color: #243444;
+		    padding-bottom: 20px;
+		    line-height: 25px;
+		}
+
+		.c-difficile .content-section-two h1 {
+		    font-size: 42px;
+		    color: #6175a2;
+		    text-transform: uppercase;
+		    font-weight: normal;
+		    padding-top: 20px;
+		    text-align: center;
+		}
+		.c-difficile .content-section-two p {
+		    text-align: left;
+		}
+		.c-difficile .content-section-two .sm-xs-img {
+			padding: 0 50px 0;
+		}
+
+		.c-difficile .lower-hero {
+		    background-color: #009894;
+		    padding-top: 30px;
+		padding-bottom: 80px;
+		}
+		.c-difficile .lower-hero .sm-block {
+		    padding-top: 57px;
+
+		}
+		.c-difficile .lower-hero img {
+		    padding: 10px 0;
+		}
+		.shareBtn {
+			width: 100px;
+			right: 0;
+		}
+	}
+/* 	-1.4 CUSTOM, iPHONE RETINA
+	========================================================================== */
+	@media only screen and (min-device-width : 320px) and(max-width : 479px){
+		.c-difficile .main-hero-section h1 {
+		    font-size: 18px;
+		    position: relative;
+		    top: 30px;
+		    line-height: 0;
+		    padding-bottom: 40px;
+		    text-align: center;
+		}
+		.c-difficile .second-hero h1 {
+		    font-size: 55px;
+		    font-weight: normal;
+		    color: #69c8c1;
+		    padding-top: 41px;
+		    text-align: center;
+		    padding-bottom: 10px;
+		}
+		.col-xs-12.col-sm-12.hidden-md.hidden-lg {
+			padding-bottom: 0px;
+		}
+	}
+	@media only screen and (min-device-width: 481px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+		.c-difficile .main-hero-section h1 {
+		position: relative;
+		    top: 30px;
+		    line-height: 0;
+		    text-align: center;
+		    padding: 20px 0 30px;
+		}
+		.c-difficile .content-section img {
+		padding: 0 100px 0;
+
+		}
+		.c-difficile .content-section h3 {
+		    font-size: 35px;
+		    color: #37424a;
+		}
+		.c-difficile .content-section p, .c-difficile .content-section-two p {
+		    font-size: 19px;
+		    color: #37424a;
+		}
+		.c-difficile .second-hero h1 {
+		    font-size: 40px;
+		    font-weight: normal;
+		    color: #69c8c1;
+		    padding-top: 18px;
+		    text-align: center;
+		    line-height: 40px;
+		    padding-bottom: 0;
+		}
+		.c-difficile .divider-three h1 {
+		    font-size: 32px;
+		    color: #6175a2;
+		    text-transform: uppercase;
+		    font-weight: normal;
+		    padding-top: 0;
+		}
+		.c-difficile .divider-three h2 {
+		    font-size: 23px;
+		    fontweight: normal;
+		    color: #243444;
+		    padding-bottom: 0px;
+		    line-height: 23px;
+		}
+		.c-difficile .content-section-two .sm-xs-img {
+			padding: 0px;
+			padding-left: 120px;
+			padding-right: 120px;
+		}
+		.c-difficile .divider-three .thumbnail img {
+		    padding: 0 80px 0;
+		}
+		.c-difficile .second-hero img {
+		    padding-right: 80px;
+		    padding-left: 80px;
+		    padding-top: 30px;
+		}
+		.c-difficile .lower-hero p.lead {
+		    font-size: 30px;
+		    margin-bottom: 0px;
+		    line-height: 30px;
+		}
+		.c-difficile .lower-hero .sm-block {
+		padding-top: 50px;
+
+		}
+	}

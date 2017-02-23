@@ -1,0 +1,1191 @@
+    /* ==========================================================================
+    PAGE GLOBALS
+    ========================================================================== */
+        /*body { font-size: 25px; }*/
+        .merck-green-text-color { color: #009994 !important; }
+        .merck-white-text-color { color: #fff !important; opacity: 1; }
+        .merck-dark-gray-text-color { color: #243444 !important; }
+        .merck-light-pink-text-color { color: #9B6080 !important; }
+        .merck-lavender-text-color { color: #7f8dc1 !important; }
+        .merck-purple-text-color { color: #662045 !important; }
+        .merck-orange-text-color { color: #f7912f !important; }
+        .merck-green-bg-color { background: #009994 !important; }
+        .merck-navy-blue-bg-color { background: #243444 !important; }
+        .merck-white-bg-color { background: #fff !important; }
+        .merck-light-pink-bg-color { background: #9B6080 !important; }
+        .merck-light-blue-bg-color { background: #E2F1F4 !important; }
+        .row.no-gutters {
+          margin-right: 0;
+          margin-left: 0;
+          overflow: hidden;
+        }
+        .row.no-gutters > [class^="col-"],
+        .row.no-gutters > [class*=" col-"] {
+          padding-right: 0;
+          padding-left: 0;
+          overflow: hidden;
+        }
+        .row-eq-height {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display:         flex;
+        }
+        .dark-gray-bg-color { background: #243444; }
+        .bubbles {
+            /*background: #243444 url("/images/circles2.png") no-repeat scroll bottom right;*/
+        }
+        .intro-section {
+            background: #243444;
+        }
+            .intro-section h1 { 
+                color: #fff;
+                font-size: 60px;
+                line-height: normal;
+            }
+            .intro-section h2 {
+                color: #33cbc5;
+                margin-bottom: 0;
+                font-weight: normal;
+            }
+            .intro-section p { color: #fff; font-size: 18px; }
+            .intro-section .intro-copy-container {
+                /*background: url(/images/circles.png) no-repeat left top;*/
+                padding-bottom: 25px;
+            }
+            .intro-section .intro-copy { 
+                text-align: left;
+                width: 75%; 
+            }
+        .loading { background: url(http://www.merck.com/images/loading.gif) 50% 50% no-repeat }
+
+        .effect-desc .info::before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            /*background: -webkit-linear-gradient(top, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+            background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);*/
+            content: '';
+            opacity: 0;
+            -webkit-transform: translate3d(0,50%,0);
+            transform: translate3d(0,50%,0);
+        }
+
+        .effect-desc h2 {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            color: #484c61;
+            -webkit-transition: -webkit-transform 0.35s, color 0.35s;
+            transition: transform 0.35s, color 0.35s;
+            -webkit-transform: translate3d(0,-50%,0);
+            transform: translate3d(0,-50%,0);
+        }
+
+        .effect-desc .info::before,
+        .effect-desc p {
+            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+            transition: opacity 0.35s, transform 0.35s;
+        }
+
+        .effect-desc p {
+            position: absolute;
+            text-align: center;
+            color: #fff;
+            bottom: 0;
+            left: 0;
+            font-size: 25px;
+            padding: 11em 2em 2em;
+            width: 100%;
+            opacity: 0;
+            -webkit-transform: translate3d(0,10px,0);
+            transform: translate3d(0,10px,0);
+        }
+        .effect-desc p:hover { text-decoration: none; }
+        .effect-desc:hover h2 {
+            color: #fff;
+            -webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+            transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+
+        }
+
+        .effect-desc:hover .info::before,
+        .effect-desc:hover p {
+            opacity: 1;
+            -webkit-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+
+        }
+        .circle-plus-icon {
+            background: url('http://www.merck.com/images/circle-plus-icon.png') no-repeat;
+            height: 44px;
+            width: 44px;
+            padding: 22px;
+        }
+            .effect-desc p:hover .circle-plus-icon {
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        .BWFilter.BWfade { left: 0 !important; }    
+        .space-top-bottom { margin: 50px 0; }
+        .padding-top-bottom { 
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+		a.white {
+		color: #fff;
+		text-decoration: underline;
+		}
+        .btn-primary { color: #fff !important; }
+        .padding-top-bottom-20 { padding: 20px 0; }
+        .padding-50 { padding: 50px; }
+        .space-top { padding-top: 40px; }
+        .space-bottom { margin-bottom: 40px; }
+        .image-space-bottom { margin-bottom: 15px; }
+        h2 { font-size: 1.5em; }
+        h4 { font-size: 30px; }
+        .shareBtn {
+            cursor: pointer;
+            position: absolute;
+            right: 20%;
+            z-index: 99;
+            top: 25px;
+        }
+        .medium-text {
+            font-size: 50px !important;
+            line-height: normal;
+        }
+        .large-text {
+            font-size: 70px !important;
+            line-height: normal;
+        }
+        .text-left { text-align: left !important; }
+        .size25 { font-size: 25px; }
+        #homevideo:hover { cursor: pointer; }
+        .pop {
+
+        }
+            .pop .popover-heading {
+
+            }
+            .pop .popover-body {
+
+            }
+        .popover {
+            background: #243444 none repeat scroll 0 0;
+            border: 5px solid #fff;
+            color: #fff;
+            opacity: 0.9 !important;
+            z-index: 1;
+         }
+            .popover > .arrow { padding: 0; }
+        .popover-title {
+            background-color: transparent;
+            font-size: 20px;
+            border-bottom: 0 none;
+        }
+        /*.btn {
+            border: medium none;
+            border-radius: 0px;
+            background-color: #009994;
+            color: #FFF !important;
+        }
+        
+        .btn:hover {
+            color: #000 !important;
+            border: 1px solid #939393;
+            margin-bottom: -2px;
+        }
+        
+        .btn:active {
+            background-color: #E6E6E6;
+        }*/
+        .media-middle {
+            vertical-align: middle;
+        }
+        .media-body, .media-left, .media-right {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .media-left, .media > .pull-left {
+            padding-right: 10px;
+        }
+        .footer_container {
+            position: relative;
+            top: 0;
+        }
+        .footer_container p { font-size: 15px; }
+        @media only screen and (max-width: 479px) {
+            .col-xxs-12 {
+                width: 100%;
+            }
+            .col-xxs-hidden {
+                display: none;
+            }
+        }
+    /* HERO SECTION
+    ========================================================================== */
+        
+        .water .hero-section {
+            background-image: url("http://www.merck.com/images/about/our-work/diabetes/db_bg_hero.jpg");
+            background-size: cover;
+            background-position: right top;
+            margin-top: 105px;
+            height: 440px;
+            margin-bottom: -1px;
+        }
+        .hero-section img.awake {
+            margin-top: 100px;
+            margin-bottom: 20px;
+        }
+        .water .hero-section h1 {
+            font-size: 60px;
+            font-weight: bold;
+            color: #243444;
+            line-height: normal;
+            margin-bottom: 0;
+        }
+        .mothers {
+            color: #662045;
+            font-size: 75px;
+        }
+        .water .hero-section p { font-size: 21px; line-height: normal;}
+
+        .water .hero-clear {
+            clear: left;
+            margin-top: 10%;
+        }
+
+    /* DIVIDER SECTION
+    ========================================================================== */
+
+        .water .divider {
+            background-color: #fff;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .water .divider p {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .divider.woman {
+            background: url('http://www.merck.com/images/about/our-work/diabetes/db_bg_video.jpg') left top / cover;
+            min-height: 500px;
+        }
+
+        .doors {
+            background-color: #ffffff;
+            overflow-x: hidden;
+        }
+        .doors .box {
+            height: 657px;
+        }
+        .doors .section-container {
+            padding-left: 40px;
+        }
+        .doors.one .right {
+            background-image: url("http://www.merck.com/images/about/our-work/diabetes/db_engel.jpg");
+            background-position: center center;
+            background-size: cover;
+            z-index: 10;
+        }
+        .doors.two .left {
+            background-image: url("http://www.merck.com/images/about/our-work/diabetes/db_rode.jpg");
+            background-position: center center;
+            background-size: cover;
+            z-index: 10;
+        }
+        .doors.one .left {
+            background-color: #009994;
+            z-index: 11;
+        }
+        .doors.one .left blockquote {
+            border-left: medium none;
+            color: #fff;
+            font-size: 32px;
+            line-height: 1.2em;
+            padding: 0;
+        }
+        .doors.one .left blockquote footer {
+            text-align: right;
+            color: #fff;
+        }
+        .doors.one .left blockquote .before {
+            font-family: "Times New Roman",serif;
+            font-size: 4em;
+            margin-right: 0.05em;
+            position: relative;
+            top: 45px;
+        }
+        .doors.one .left blockquote .after {
+            font-family: "Times New Roman",serif;
+        }
+        .doors .left .arrow-right {
+            border-bottom: 58px solid transparent;
+            border-left: 58px solid #009994;
+            border-top: 58px solid transparent;
+            height: 0;
+            position: absolute;
+            left: 0;
+            top: 41.1%;
+            width: 0;
+        }
+
+        .doors .right .arrow-left {
+            border-bottom: 58px solid transparent;
+            border-right: 58px solid #009994;
+            border-top: 58px solid transparent;
+            height: 0;
+            right: 0;
+            position: absolute;
+            top: 48.5%;
+            width: 0;
+        }
+        .doors .left .section-container {
+            float: right;
+            font-size: 25px;
+            margin-top: 60px;
+            padding-left: 15px;
+            padding-right: 30px;
+            width: 575px;
+        }
+        .doors .right .section-container {
+            float: left;
+            padding-left: 30px;
+            padding-right: 15px;
+            width: 575px;
+        }
+        .doors.one .left {
+            color: #ffffff;
+        }
+        .doors.one .left .arrow-left {
+            border-bottom: 58px solid transparent;
+            border-right: 58px solid #009994;
+            border-top: 58px solid transparent;
+            border-left: 0;
+            height: 0;
+            position: absolute;
+            left: -55px;
+            top: 48.5%;
+            width: 0;
+        }
+        .doors.two .right .arrow-left {
+            border-bottom: 58px solid transparent;
+            border-left: 58px solid #009994;
+            border-top: 58px solid transparent;
+            border-right: 0;
+            height: 0;
+            position: absolute;
+            right: -55px;
+            top: 48.5%;
+            width: 0;
+        }
+        .doors h3 {
+            color: #ffffff;
+            font-size: 35px;
+            font-weight: normal;
+            margin-bottom: 50px;
+            margin-left: 10px;
+            margin-top: 60px;
+        }
+        .doors.two .right {
+            background-color: #009994;
+            font-size: 35px;
+            z-index: 11;
+        }
+        .doors.two .right blockquote {
+            border-left: medium none;
+            color: #fff;
+            font-size: 32px;
+            line-height: 1.2em;
+            padding: 0;
+        }
+        .doors.two .right blockquote footer {
+            text-align: right;
+            color: #fff;
+        }
+        .doors.two .right blockquote .before {
+            font-family: "Times New Roman",serif;
+            font-size: 4em;
+            margin-right: 0.05em;
+            position: relative;
+            top: 45px;
+        }
+        .doors.two .right blockquote .after {
+            font-family: "Times New Roman",serif;
+        }
+        .doors.two .btn {
+            font-size: 20px;
+            margin-left: 10px;
+            margin-top: 40px;
+            padding: 10px 25px;
+        }
+        .doors .icon-container {
+            float: right;
+            max-width: 135px;
+            position: relative;
+        }
+        .doors .icon-container p {
+            font-size: 35px !important;
+            left: 37%;
+            position: absolute;
+            top: 18%;
+        }
+        .doors .right h3 {
+        }
+    /* LIFEBLOOD SECTION
+    ========================================================================== */
+
+        .water .lifeblood {
+            background-color: white;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .water .lifeblood h2 {
+            font-size: 33px;
+            text-align: center;
+            font-weight: normal;
+            line-height: 1.1em;
+            margin-bottom: 50px;
+        }
+
+        .water .lifeblood p {
+            font-size: 24px;
+            color: #243444;
+        }
+        .water .lifeblood p.merck-green-text-color { color: #009994; }
+        blockquote { border-left: none; padding: 0 20px; }
+        blockquote .caption {
+            font-size: 24px !important;
+            font-weight: normal;
+        }
+        .quote-large {
+            font-family: "Times New Roman",serif;
+            font-size: 110px;
+            position: relative;
+            top: 40px;
+        }
+
+
+    /* ACCESS SECTION
+    ========================================================================== */
+
+        .water .access {
+            background-color: #ffffff;
+            overflow-x: hidden;
+        }
+        
+        .water .access .box {
+            height: 809px;
+        }
+        
+        .water .access .section-container {
+            padding-left: 40px;
+        }
+        .water .access .left {
+            background-image: url("http://www.merck.com/images/about/featured_stories/mm_bg_employees.jpg");
+            background-size: cover;
+            background-position: center bottom;
+        }
+
+        .water .access .right {
+            background-color: #009895;
+        }
+
+        .water .access .icon-container {
+            position: relative;
+            float: right;
+            max-width: 135px;
+        }
+
+        .water .access .icon-container p {
+            position: absolute;
+            font-size: 35px !important;
+            top: 18%;
+            left: 37%;
+        }
+
+        .water .access .right h3 {
+            color: #fff;
+            font-size: 40px;
+            margin-top: 40px;
+        }
+
+        .water .access .right .paragraphs {
+            margin-top: 5px;
+        }
+
+        .water .access .right p {
+            color: #ffffff;
+            font-size: 30px;
+        }
+
+        .water .access .right p.bigger {
+            font-size: 28px;
+            margin-top: 40px;
+        }
+
+
+    /* REDUCING SECTION
+    ========================================================================== */
+
+    .water .reducing {
+        background-color: #d2eff2;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .water .reducing h2 {
+        font-size: 33px;
+        text-align: left;
+        font-weight: normal;
+        line-height: 1.1em;
+        margin-bottom: 25px;
+        margin-top: 80px;
+    }
+
+    .water .reducing p {
+        color: #243444;
+        font-size: 25px;
+        text-align: left;
+    }
+
+    /* MANUFACTURING SECTION
+    ========================================================================== */
+    
+    .water .manufacturing {
+        background-color: #e7f6f8;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .water .manufacturing h3 {
+        text-align: center;
+        font-size: 28px;
+        color: #243444;
+        font-weight: normal;
+        margin-bottom: 40px;
+    }
+    .water .manufacturing h4 {
+        text-align: center;
+        font-size: 26px;
+        color: #243444;
+        font-weight: normal;
+        margin-bottom: 35px;
+    }
+
+    .water .manufacturing h4.top {
+        margin-top: 30px;
+    }
+
+    .water .manufacturing p {
+        text-align: center;
+        font-size: 20px;
+        color: #243444;
+        margin-top: 20px;
+    }
+
+    .water .manufacturing .big {
+        font-size: 38px;
+        margin-top: 20px;
+        line-height: 1em;
+        width: 180px;
+    }
+
+    .water .manufacturing .small {
+        width: 152px;
+    }
+
+    .water .manufacturing .small p {
+        font-size: 24px;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .water .manufacturing .col-stats {
+        display: inline-block;
+    }
+
+    .water .manufacturing .col-icon {
+        margin-left: 15%;
+    }
+
+    .water .manufacturing .col-icon, .water .manufacturing .col-stats {
+        padding: 0;
+    }
+
+    .water .manufacturing .pad-left .col-icon {
+        padding-right: 10px;
+    }
+
+
+    /* ADDITIONAL-INFO SECTION
+    ========================================================================== */
+
+    .water .additional-info {
+        background-color: #6bcad4;
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+
+    .water .additional-info h2 {
+        color: #ffffff;
+        text-align: center;
+        font-weight: normal;
+        font-size: 38px;
+        margin-bottom: 40px;
+    }
+
+    .water .additional-info p {
+        color: #ffffff;
+        font-size: 26px;
+    }
+
+    .water .additional-info p.top {
+        margin-top: 10px;
+    }
+
+    .water .additional-info p a {
+        color: #ffffff;
+    }
+
+    .water .additional-info img {
+        float: right;
+        width: 125px;
+    }
+
+    /*  LARGE DEVICES, WIDE SCREENS
+    ========================================================================== */
+        @media (max-width: 1600px){
+            .shareBtn {
+                cursor: pointer;
+                position: absolute;
+                right: 10%;
+                top: 25px;
+                z-index: 99;
+            }
+        }
+        @media only screen and (max-width: 1499px) {
+            .water .hero-section {
+                height: 352px;
+            }
+        }
+        @media (max-width: 1280px){
+            .shareBtn {
+                cursor: pointer;
+                position: absolute;
+                right: 10%;
+                top: 25px;
+                z-index: 99;
+            }
+            .water .access .right p {
+                font-size: 26px;
+            }
+        }
+        @media only screen and (max-width: 1199px) {
+            .water .hero-section {
+                height: 291px;
+            }
+            .water .hero-section h1 {
+                font-size: 50px;
+                margin-top: 75px;
+            }
+            .shareBtn {
+                right: 5%;
+            }
+            .water .lifeblood h2 {
+                font-size: 30px;
+            }
+            .water .access .right h3 {
+                font-size: 31px;
+                margin-top: 20px;
+            }
+            .water .access .right p {
+                font-size: 25px;
+            }
+            .water .access .right p.bigger {
+                font-size: 24px;
+                margin-top: 12px;
+            }
+            .water .access .icon-container p {
+                font-size: 20px !important;
+            }
+            .water .access .box {
+                height: 690px;
+            }
+            .water .manufacturing h3 {
+                font-size: 26px;
+            }
+            .water .additional-info p {
+                font-size: 24px;
+            }
+            .water .access .icon-container {
+                max-width: 100%;
+            }
+            
+        }
+    /*  MEDIUM DEVICES, DESKTOPS
+    ========================================================================== */
+        @media only screen and (max-width: 1024px){
+                .hero-section img.awake {
+                    margin-bottom: 20px;
+                    margin-top: 45px;
+                }
+                .water .hero-section h1 { margin-top: 0; }
+
+                .doors .left .section-container { width: 470px; margin-top: 100px; }
+                .doors .right .section-container { width: 470px; margin-top: 150px; }
+                .doors.one .left blockquote,
+                .doors.two .right blockquote { font-size: 25px; }
+                .divider.woman {
+                    background-position: center top;
+                }
+                .large-text { font-size: 55px !important; }
+                .small-text { font-size: 20px !important; }
+            }
+        @media only screen and (max-width: 991px) {
+            .shareBtn {
+                top: 100px;
+                width: 110px;
+            }
+            .water .hero-section {
+                margin-top: 0px;
+                height: 225px;
+            }
+            .water .hero-section h1 {
+                font-size: 40px;
+                margin-top: 70px;
+            }
+            .water .divider p {
+                font-size: 26px;
+            }
+            .water .lifeblood h2 {
+                font-size: 24px;
+                margin-bottom: 28px;
+            }
+            .water .lifeblood p {
+                font-size: 19px;
+            }
+            .water .access .left {
+			    background-position: center top;
+			}
+            .water .access .box {
+                height: 400px;
+            }
+            .water .access .right h3 {
+                text-align: center;
+            }
+            .water .access .right p.bigger {
+                font-size: 26px;
+                margin-top: 45px;
+            }
+            .water .access .right p {
+                font-size: 25px;
+            }
+            .water .access .right .paragraphs {
+                margin-top: 20px;
+            }
+            .water .access .icon-container p {
+                font-size: 34px !important;
+            }
+            .water .reducing h2 {
+                font-size: 28px;
+            }
+            .water .reducing p {
+                font-size: 20px;
+            }
+            .water .manufacturing h3 {
+                font-size: 20px;
+                margin-bottom: 25px;
+            }
+            .water .manufacturing .big {
+                font-size: 28px;
+                margin-top: 10px;
+                width: 133px;
+            }
+            .water .manufacturing .small {
+                width: 126px;
+            }
+            .water .manufacturing .small p {
+                font-size: 20px;
+            }
+            .water .manufacturing p {
+                font-size: 16px;
+            }
+            .water .manufacturing h4 {
+                font-size: 19px;
+                margin-bottom: 20px;
+            }
+            .water .manufacturing h4.top {
+                margin-top: 15px;
+            }
+            .water .additional-info h2 {
+                font-size: 33px;
+                margin-bottom: 30px;
+            }
+            .water .additional-info p {
+                font-size: 19px;
+            }
+            .water .additional-info p.top {
+                margin-top: 6px;
+            }
+        }
+
+    /*  SMALL DEVICES, TABLETS
+    ========================================================================== */
+            @media only screen and (max-width:768px){
+                body { font-size: 18px; }
+                .no-gutters { text-align: center; }
+                .padding-50 {
+                    padding: 20px 0 0 0;
+                }
+                .water .divider p {
+                    font-size: 18px;
+                }
+                .size25 { font-size: 18px; }
+                .water .hero-section h1 { font-size: 30px; margin-top: 0; }
+                .hero-section img.awake {
+                    margin-bottom: 20px;
+                    margin-top: 15px;
+                }
+                .doors .left .section-container { width: 380px; margin-top: 100px; }
+                .doors .right .section-container { width: 380px; margin-top: 150px; }
+                .doors.one .left blockquote,
+                .doors.two .right blockquote { font-size: 22px; }
+                .doors.one .left blockquote .before,
+                .doors.two .right blockquote .before { top: 28px; }
+            }
+            @media only screen and (max-width: 767px) {
+                .water .hero-section {
+                    height: 225px;
+                }
+                .water .hero-section h1 {
+                    font-size: 24px;
+                    margin-top: 40px;
+                }
+                .woman .copy {
+                    display: table-cell;
+                    height: 225px;
+                    vertical-align: middle;
+                    width: 470px;
+                }
+                .doors .box {
+                    height: 390px;
+                }
+                .doors .left .section-container,
+                .doors .right .section-container {
+                    width: 100%;
+                    margin-top: 0;
+                }
+                .shareBtn {
+                    width: 90px;
+                    top: 80px;
+                }
+                .water .divider {
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                }
+                .water .divider p {
+                    font-size: 22px;
+                }
+                .water .lifeblood h2 {
+                    font-size: 19px;
+                    margin-bottom: 20px;
+                }
+                .water .lifeblood p {
+                    font-size: 16px;
+                    text-align: center;
+                }
+                .water .access .box {
+				    height: 265px;
+				}
+                .water .access .box h3 {
+	                display: none;
+	            }
+                .water .access .right h3 {
+                    font-size: 28px;
+                }
+                .water .access .right p {
+                    font-size: 17px;
+                }
+                .water .access .right p.bigger {
+                    font-size: 21px;
+                    margin-top: 17px;
+                }
+                .water .access .icon-container p {
+                    font-size: 19px !important;
+                }
+                .water .reducing h2 {
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+                .water .reducing {
+                    padding-top: 10px;
+                    padding-bottom: 20px;
+                }
+                .water .reducing p {
+                    font-size: 16px;
+                }
+                .water .manufacturing {
+                    padding-top: 5px;
+                    padding-bottom: 15px;
+                }
+                .water .manufacturing .big {
+                    font-size: 32px;
+                    width: 180px;
+                }
+                .water .manufacturing .small p {
+                    font-size: 23px;
+                    width: 152px;
+                }
+                .water .manufacturing p {
+                    font-size: 14px;
+                    margin-top: 5px;
+                }
+                .water .manufacturing h3 {
+                    font-size: 17px;
+                    margin-bottom: 15px;
+                }
+                .water .manufacturing h4 {
+                    font-size: 16px;
+                }
+                .water .manufacturing h4.top {
+                    margin-top: 8px;
+                }
+                .water .manufacturing .xs-center {
+                    margin-left: auto;
+                    margin-right: auto;
+                    overflow-x: auto;
+                    width: 400px;
+                }
+                .water .additional-info h2 {
+                    font-size: 28px;
+                    margin-bottom: 35px;
+                }
+                .water .additional-info p {
+                    font-size: 16px;
+                }
+                .water .additional-info p.top {
+                    margin-top: -15px;
+                }
+                .water .additional-info {
+                    padding-top: 10px;
+                    padding-bottom: 35px;
+                }
+            }
+            @media (max-width:667px){
+                body { overflow-x: hidden; }
+                .hero-section img.awake {
+                    margin-bottom: 20px;
+                    margin-top: 15px;
+                    width: 150px;
+                }
+                .water .hero-section {
+                    height: 210px;
+                }
+                .water .hero-section h1 {
+                    font-size: 24px;
+                    margin-top: 24px;
+                }
+                .water .lifeblood p {
+                    font-size: 22px;
+                    text-align: left;
+                }
+                .water .access .right p {
+                    font-size: 22px;
+                }
+                .water .reducing p {
+                    font-size: 22px;
+                }
+                img.doctor { width: 350px; margin: 15px auto;}
+            }
+            @media only screen and (max-width: 600px) {
+                .water .hero-section {
+                    height: 129px;
+                }
+            }
+
+    /* EXTRA SMALL DEVICES, PHONES
+    ========================================================================== */
+            @media (max-width: 480px){
+                .shareBtn {
+                    top: 50px;
+                    width: 50px;
+                }
+                .divider.woman {
+                    background-position: -650px 0;
+                }
+                .woman .copy {
+                    background: #fff none repeat scroll 0 0;
+                    display: table-cell;
+                    height: 160px;
+                    opacity: 0.7;
+                    padding: 10px;
+                    position: relative;
+                    top: 250px;
+                    width: 100%;
+                }
+                img.adc {
+                    width: 275px;
+                    margin-bottom: 35px;
+                }
+                .medium-text {
+                    font-size: 40px !important;
+                    margin-bottom: 35px;
+                    line-height: normal;
+                }
+                .large-text {
+                    font-size: 35px !important;
+                }
+                #mobile_menu a { font-size: 15px; top: 0; }
+                .water .hero-section {
+                    height: 140px;
+                    background-position: center top;
+                }
+                .water .hero-clear {
+                    margin-top: 5%;
+                }
+                .hero-section img.awake {
+                    margin-bottom: 20px;
+                    margin-top: 15px;
+                    width: 90px;
+                }
+                .water .hero-section h1 {
+                    font-size: 16px;
+                    margin-top: 0;
+                }
+                .water .hero-section p {
+                    font-size: 13px;
+                    line-height: normal;
+                }
+                .hero-section img.awake {
+                    margin-bottom: 5px;
+                    margin-top: 15px;
+                    width: 90px;
+                }
+                .water .divider p {
+                    font-size: 18px;
+                }
+                .mothers {
+                    font-size: 35px;
+                }
+                blockquote .caption {
+                    font-size: 15px !important;
+                    font-weight: normal;
+                }
+                .col-xs-offset-3 {
+                    margin-left: 20%;
+                }
+                .col-xs-9 {
+                    width: 90%;
+                }
+                img.doctor { width: 150px; margin: 15px auto;}
+                .water .reducing p,
+                .water .access .right p,
+                .water .lifeblood p,
+                .water .lifeblood p,
+                .btn-sm, .btn-group-sm > .btn {
+                    font-size: 25px;
+                }
+                .water .access .box {
+                    height: 620px;
+                }
+            }
+            @media only screen and (max-width: 479px) {
+
+                .quote-large {
+					font-size: 40px;
+					top: 5px;
+				}
+
+                .water .lifeblood h2 {
+                    font-size: 17px;
+                }
+                /*.water .lifeblood p {
+                    font-size: 18px;
+                }*/
+                .water .access .right h3 {
+                    font-size: 18px;
+                }
+                .water .access .right p.bigger {
+                    font-size: 16px;
+                    margin-top: 3px;
+                }
+                .water .access .right .paragraphs {
+                    margin-top: 5px;
+                }
+                /*.water .access .right p {
+                    font-size: 18px;
+                }*/
+                
+                .water .reducing h2 {
+                    font-size: 20px;
+                    margin-bottom: 15px;
+                }
+                /*.water .reducing p {
+                    font-size: 18px;
+                }*/
+                .water .manufacturing h3 {
+                    font-size: 15px;
+                }
+                .water .manufacturing .big {
+                    font-size: 30px;
+                    width: 142px;
+                }
+                .water .manufacturing .small p {
+                    font-size: 21px;
+                }
+                .water .manufacturing p {
+                    font-size: 14px;
+                    margin-top: 15px;
+                }
+                .water .manufacturing h4 {
+                    font-size: 15px;
+                }
+                .water .manufacturing h4.top {
+                    margin-top: 15px;
+                }
+                .water .manufacturing .xs-center {
+                    width: 251px;
+                }
+                .water .manufacturing .col-icon {
+                    width: 96px;
+                    float: left;
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: inline-block;
+                }
+                .water .manufacturing .col-stats {
+                    width: 155px;
+                    float: left;
+                    margin-right: auto;
+                    display: inline-block;
+                    margin-left: auto;
+                }
+                .water .additional-info p {
+                    font-size: 16px;
+                    text-align: center;
+                }
+                .water .additional-info h2 {
+                    font-size: 24px;
+                    margin-bottom: 25px;
+                }
+                .water .additional-info .xxs-hidden {
+                    display: none;
+                }
+                .water .additional-info .col-xxs-8 {
+                    width: 100%;
+                }
+            }
+            /*@media only screen and (max-width: 370px) {
+                .water .hero-section {
+                    height: 109px;
+                }
+            }*/

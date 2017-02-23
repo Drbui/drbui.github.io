@@ -1,0 +1,330 @@
+html,
+body {
+	height: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -20px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer { height: 20px; }
+#footer {
+background-color: #f5f5f5;
+}
+h1,h2,h3,h4,h5,h6 { 
+	/*color: #768dc1;*/ 
+	color: #00877C;
+}
+h2 {
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 5px;
+	line-height: 18px;
+}
+h3 {
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 5px;
+	line-height: 16px;
+}
+h4, h5, h6 {
+	font-size: 13px;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 5px;
+	line-height: 14px;
+}
+
+blockquote p {
+  font-size: 14px;
+}
+table th {
+		
+}
+.lead { 
+	font-size: 16px; 
+	line-height: 17px;
+	margin-bottom: 10px;
+	color: #333;
+	font-weight: bold;
+}
+.teal { color: #00877c; }
+.teal_bg { 
+	background: #00877C; 
+	color: #fff;
+}
+.border_bottom {
+	border-bottom: 1px solid #ccc;	
+}
+.header_container {
+	background: #fff;
+	height: 76px;
+	box-shadow: 0px 0px 3px #000;
+	width: 100%;
+	opacity: 0.95;
+	z-index: 9;
+}
+.btn-link {
+	color: #fff;	
+	text-shadow: none;
+	text-align: left;
+	line-height: 15px;
+}
+	.btn-link:hover {
+		color: #fff;	
+	}
+header {
+	/*height: 105px;*/
+	background: #00877C;
+	margin-bottom: 25px;	
+	width: 100%;
+}
+	header h1 {
+		color: #fff;
+		font-size: 25px;
+		margin: 20px 0 0 0;
+		font-family: "UniversLTW01-47LightCn", "Arial Narrow", Arial, sans-serif;
+		font-weight:bold;
+		/*font-size: 30px;
+		margin: 35px 0 5px 0;*/
+	}
+	header p {
+		color: #fff;	
+		margin-bottom: 0;
+	}
+.logo {
+	margin-top: 5px;	
+}
+.header_title {
+	text-transform: uppercase;	
+}
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
+	color: #00877c;	
+}
+.nav li a {
+	background: #eee;	
+	color: #666;
+	margin-right: 5px;
+}
+.nav li.active a {
+	font-weight:bold;	
+}
+.nav li a:hover,
+.nav li a:focus {
+	background: #fff;	
+	color: #000;
+	margin-bottom: -1px;
+}
+.sidenav ul {
+		
+}
+	.sidenav ul li {
+		margin-bottom: 10px;;
+	}
+		.sidenav ul li a {
+			text-transform: uppercase;
+			color: #000;
+		}
+.green_box {
+	background: #00877c;
+	padding: 10px;	
+	margin-bottom: 25px;
+}
+	.green_box h2 {
+		color: #fff;
+		margin-bottom: 10px;	
+		font-size: 22px;
+	}
+	.green_box form {
+		margin-bottom: 0;	
+	}
+		.green_box .control-group.last {
+			margin-bottom: 0;	
+		}
+		.green_box .control-group .controls {
+			margin-left: 0;	
+		}
+		.green_box .control-label { 
+			color: #fff; 
+			text-align: left;
+		}
+		
+		.green_box select {
+			/*width: 140px;
+			width: 200px;*/
+			width: 176px;
+			font-size: 12px;
+			margin-bottom: 10px;
+		}
+.white_box {
+	background: #fff;
+	padding: 10px;
+	margin-bottom: 25px;	
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 3px #ccc;
+}
+	.white_box h2 {
+		color: #00877c;
+		margin-bottom; 10px;
+		font-size: 16px;	
+		font-weight: bold;
+	}
+	.white_box a {
+		color: #00877c;
+		text-decoration: none;	
+		font-weight: bold;
+	}
+	.white_box ul li.one {
+		background: url("../images/01.png") no-repeat;
+		padding: 0 0 0 55px;
+		margin-bottom: 10px;
+	}
+	.white_box ul li.two {
+		background: url("../images/02.png") no-repeat;
+		padding: 0 0 0 55px;
+		margin-bottom: 10px;
+	}
+	.white_box ul li.three {
+		background: url("../images/03.png") no-repeat;
+		padding: 0 0 0 55px;
+	}
+/*#form1 table .radio input[type="radio"], 
+#form1 table .checkbox input[type="checkbox"] {
+	margin-left: 0 !important;	
+}*/	
+.radio input[type="radio"], .checkbox input[type="checkbox"] {
+	margin-left: 0;	
+	margin-right: 5px;
+}
+.share_icons {
+	border-top: 1px solid #00877c;
+	border-bottom: 1px solid #00877c;
+	padding: 5px 0;	
+	margin-bottom: 25px;
+}
+	.share_icons ul {
+		margin-bottom: 0;	
+	}
+		.share_icons ul li {
+			font-size: 11px;
+		}
+.footer_container {
+	border-top: 13px solid #CACBCD;
+	padding: 15px 0;
+	clear: both;	
+}
+#footer { 
+	background: none !important; 
+	clear: both;
+}
+footer ul li a {
+	color: 	#999999;
+}
+	footer ul li a:hover {
+		color: #999999;	
+	}
+	
+  .introText {
+	font-size: 20px;
+	color: #999;
+	line-height: 23px;
+  }	
+  
+ #sideModule {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #D6D6D6;
+	margin-bottom: 15px;
+ }
+ 
+ /* UTILITY CSS */
+ 
+ .utility-buttons {
+    background: none repeat scroll 0 0 #F1F2F2;
+    border: 1px solid #D4D4D4;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+/*	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;*/
+    margin-bottom: 15px;
+    padding: 4px;
+    width: 132px;
+	float:right;
+	margin-right: 20px;
+	margin-top:-25px;
+}
+ul.utility-buttons li.printButton a {
+    background-image: url("http://www.merck.com/images/global/btn-print.png");
+    padding-left: 15px;
+    width: 38px;
+}
+.utility-buttons li.printButton a {
+    background: url("http://www.merck.com/images/global/btn-print.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    padding-left: 22px !important;
+    width: 37px !important;
+}
+ul.utility-buttons li a {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    float: left;
+    height: 20px;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+ul.utility-buttons li {
+    *display: inline;
+}
+
+.utility-buttons li a {
+    color: #424141 !important;
+    float: none;
+    font-size: 10px !important;
+    text-indent: 0 !important;
+}
+ul.utility-buttons li.shareButton a {
+    background: url("http://www.merck.com/images/global/btn-share.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding-left: 15px;
+    width: 51px;
+}
+.utility-buttons li.shareButton a {
+    background: url("http://www.merck.com/images/global/btn-share.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    padding-left: 27px !important;
+    width: 44px !important;
+}
+ul.utility-buttons li.textSizeButton a {
+    background: url("http://www.merck.com/images/global/btn-text-size-small-off.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    width: 60px;
+}
+.utility-buttons li.textSizeButton a, .alternativeSize ul.utility-buttons li.textSizeButton a:hover {
+    background: url("http://www.merck.com/images/global/btn-text-size-large-off.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+.utility-buttons li.textSizeButton a, .alternativeSize ul.utility-buttons li.textSizeButton a {
+    background: url("http://www.merck.com/images/global/btn-text-size-large-off.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    padding-left: 27px !important;
+    width: 27px !important;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    min-height: 1px;
+}
+ol.utility-buttons, ul.utility-buttons {
+    list-style: none outside none;
+}

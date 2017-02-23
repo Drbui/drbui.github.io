@@ -1,0 +1,842 @@
+    /* ==========================================================================
+    PAGE GLOBALS
+    ========================================================================== */
+        
+        .shareBtn {
+            cursor: pointer;
+            position: absolute;
+            right: 15%;
+            z-index: 99;
+            top: 80px;
+        }
+        
+        .btn.light {
+            border: medium none;
+            border-radius: 0px;
+            background-color: #FFF;
+            color: #009994 !important;
+        }
+
+        .btn.dark {
+            border: medium none;
+            border-radius: 0px;
+            background-color: #009994;
+            color: #ffffff !important;
+        }
+
+
+        .btn:hover {
+            color: #000 !important;
+            border: 1px solid #939393;
+            margin-bottom: -2px;
+        }
+
+        .btn:active {
+            background-color: #E6E6E6;
+        }
+        
+        @media only screen and (max-width: 479px) {
+            .col-xxs-12 {
+                width: 100%;
+            }
+            .col-xxs-hidden {
+                display: none;
+            }
+        }
+    /* HERO SECTION
+    ========================================================================== */
+        
+        .women .hero-section {
+            background-image: url("http://www.merck.com/images/about/women-in-the-world/wp_bg_hero.jpg");
+            background-size: cover;
+            background-position: right top;
+            margin-top: 55px;
+            height: 555px;
+            margin-bottom: -1px;
+        }
+        
+        .women .hero-section h1 {
+            font-size: 55px;
+            font-weight: bold;
+            color: #ffffff;
+            margin-top: 190px;
+        }
+
+        .women .hero-section h2 {
+            font-size: 42px;
+            font-weight: bold;
+            color: #243444;
+            line-height: 1.2em;
+        }
+
+        .women .hero-clear {
+            clear: left;
+        }
+
+
+    /* QUOTE SECTION
+    ========================================================================== */
+        
+        .women .quote {
+            background-color: #243444;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .women .quote blockquote {
+            color: #ffffff;
+            border-left: none;
+            padding: 0;
+            font-size: 34px;
+            line-height: 1.5em;
+            margin-bottom: 40px;
+        }
+
+        .women .quote blockquote .before {
+            font-family: 'Times New Roman', serif;
+            color: #ffffff;
+            position: relative;
+            font-size: 4em;
+            top: 45px;
+            margin-right: 0.01em;
+        }
+
+        .women .quote blockquote .after {
+            font-family: 'Times New Roman', serif;
+            color: #ffffff;
+        }
+
+        .women .quote .attrib {
+            position: absolute;
+            bottom: 5px;
+            right: 15px;
+            color: #ffffff;
+            font-size: 25px;
+        }
+
+    /* FOURTH-YEAR SECTION
+    ========================================================================== */
+
+        .women .fourth-year {
+            background-color: #ffffff;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        .women .fourth-year .top p {
+            color: #009993;
+            font-weight: bold;
+            text-align: center;
+            font-size: 28px;
+        }
+        .women .fourth-year .top p .mfm {
+            color: #4b0049;
+        }
+        .women .fourth-year .bottom p {
+            color: #243444;
+            font-size: 25px;
+        }
+        .women .fourth-year .bottom {
+            padding-top: 25px;
+        }
+        .women .fourth-year .bottom .text-container {
+            margin-top: 15px;
+        }
+
+    /* VIDEO SECTION
+    ========================================================================== */
+
+        .women .video {
+            background-color: #009994;
+            padding-top: 40px;
+            padding-bottom: 30px;
+        }
+
+        .women .video p {
+            color: #ffffff;
+            font-size: 22px;
+            padding-bottom: 20px;
+            padding-top: 10px;
+        }
+
+        .women .video .btn {
+            font-size: 23px;
+        }
+        
+
+
+    /* INNOVATION SECTION
+    ========================================================================== */
+
+        .women .innovation {
+            background-color: #ffffff;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+        .women .innovation h4 {
+            color: #6176a3;
+            font-size: 35px;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            font-weight: normal;
+        }
+        .women .innovation p {
+            color: #243444;
+            font-size: 24px;
+        }
+        .women .innovation p .mfm {
+            color: #6e0048;
+            font-weight: bold;
+        }
+        .women .innovation .icons {
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+        .women .innovation .icons p {
+            margin-top: 10px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .women .innovation .img-container {
+            margin: 0 auto;
+            margin-top: 1px;
+        }
+        .women .innovation .left .img-container {
+            max-width: 160px;
+        }
+        .women .innovation .center .img-container {
+            max-width: 270px;
+            margin-top: -13%;
+            margin-bottom: -18%;
+        }
+        .women .innovation .right .img-container {
+            max-width: 140px;
+            margin-top: 18px;
+        }
+
+        /* DOORS SECTION
+        ========================================================================== */
+
+        .women .doors {
+            background-color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        .women .doors .box {
+            height: 657px;
+        }
+
+        .women .doors .section-container {
+            padding-left: 40px;
+        }
+        .women .doors.one .right {
+            background-image: url("http://www.merck.com/images/about/women-in-the-world/wp_women.jpg");
+            background-size: cover;
+            background-position: left top;
+            z-index: 10;
+        }
+
+        .women .doors.two .left {
+            background-image: url("http://www.merck.com/images/about/women-in-the-world/wp_woman.jpg");
+            background-size: cover;
+            background-position: right bottom;
+            z-index: 10;
+        }
+
+        .women .doors.one .left {
+            background-color: #009994;
+            z-index: 11;
+        }
+
+        .women .doors .left .arrow-right {
+            width: 0;
+            height: 0;
+            border-top: 58px solid transparent;
+            border-bottom: 58px solid transparent;
+            border-left: 58px solid #009994;
+
+            position: absolute;
+            right: -58px;
+            top: 41.1%;
+        }
+
+        .women .doors .right .arrow-left {
+            width: 0;
+            height: 0;
+            border-top: 58px solid transparent;
+            border-bottom: 58px solid transparent;
+            border-right:58px solid #8ecbcb;
+
+            position: absolute;
+            left: -58px;
+            top: 48.5%;
+        }
+
+        .women .doors .left .section-container {
+            float: right;
+            width: 575px;
+            padding-left: 15px;
+            padding-right: 30px;
+            margin-top: 60px;
+            font-size: 25px;
+        }
+
+        .women .doors .right .section-container {
+            float: left;
+            width: 575px;
+            padding-left: 30px;
+            padding-right: 15px;
+        }
+
+        .women .doors.one .left {
+            color: #ffffff;
+        }
+
+        .women .doors h3 {
+            color: #ffffff;
+            font-weight: normal;
+            font-size: 35px;
+            margin-left: 10px;
+            margin-bottom: 50px;
+            margin-top: 60px;
+        }
+
+        .women .doors.two .right {
+            background-color: #8ecbcb;
+            z-index: 11;
+            font-size: 35px;
+        }
+
+        .women .doors.two .btn {
+            margin-left: 10px;
+            margin-top: 40px;
+            font-size: 20px;
+            padding: 10px 25px;
+        }
+
+        .women .doors .icon-container {
+            position: relative;
+            float: right;
+            max-width: 135px;
+        }
+
+        .women .doors .icon-container p {
+            position: absolute;
+            font-size: 35px !important;
+            top: 18%;
+            left: 37%;
+        }
+
+        .women .doors .right h3 {
+        }
+
+
+
+    /* LEARN-MORE SECTION
+    ========================================================================== */
+
+        .women .learn-more {
+            background-color: #ffffff;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 10px;
+        }
+
+        .women .learn-more h4 {
+            font-size: 35px;
+            font-weight: normal;
+            margin-bottom: 100px;
+        }
+
+        .women .learn-more p {
+            font-size: 24px;
+        }
+
+        .women .learn-more .mfm .img-container img {
+            border: 1px solid #989898;
+            margin-bottom: 3.5%;
+        }
+
+        .women .learn-more .img-container {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .women .learn-more .social .img-container {
+            max-width: 100px;
+        }
+
+
+    /*  LARGE DEVICES, WIDE SCREENS
+    ========================================================================== */
+        
+        @media only screen and (max-width: 1499px) {
+            .women .hero-section {
+                height: 350px;
+                margin-top: 75px;
+            }
+            .women .hero-section h1 {
+                margin-top: 85px;
+            }
+            .women .hero-section h2 {
+                font-size: 39px;
+            }
+            .shareBtn {
+                top: 58px;
+            }
+        }
+        
+        @media only screen and (max-width: 1199px) {
+            .women .hero-section {
+                height: 335px;
+            }
+            .women .hero-section h1 {
+                font-size: 50px;
+                margin-top: 75px;
+            }
+            .shareBtn {
+                right: 5%;
+            }
+            .women .innovation .center .img-container {
+                margin-top: -20%;
+            }
+            .women .doors .box {
+                height: 414px;
+            }
+            .women .doors .left .section-container {
+                width: 485px;
+            }
+            .women .doors .left .section-container {
+                margin-top: 15px;
+                font-size: 19px;
+            }
+            .women .doors h3 {
+                font-size: 32px;
+                margin-bottom: 23px;
+                margin-top: 18px;
+            }
+            .women .doors.two .btn {
+                margin-top: 22px;
+                font-size: 17px;
+            }
+            .women .doors.two .img-container {
+                width: 60%;
+            }
+            .women .doors .left .arrow-right {
+                right: -38px;
+                top: 36%;
+            }
+            .women .doors .right .arrow-left {
+                left: -38px;
+                top: 42.5%;
+            }
+            .women .learn-more .social .img-container {
+                max-width: 85px;
+            }
+        }
+    /*  MEDIUM DEVICES, DESKTOPS
+    ========================================================================== */
+        
+        @media only screen and (max-width: 991px) {
+            .shareBtn {
+                top: 105px;
+                width: 110px;
+            }
+            .women .hero-section {
+                margin-top: 0px;
+                height: 225px;
+            }
+            .women .hero-section h1 {
+                font-size: 38px;
+                margin-top: 50px;
+                margin-bottom: 7px;
+            }
+            .women .hero-section h2 {
+                font-size: 29px;
+                line-height: 1.1em;
+                margin-top: 0px;
+            }
+            .women .quote blockquote {
+                font-size: 25px;
+            }
+            .women .quote .attrib {
+                font-size: 21px;
+            }
+            .women .doors .box {
+                height: 342px;
+            }
+            .women .fourth-year .bottom p {
+                font-size: 22px;
+            }
+            .women .fourth-year .bottom .text-container {
+                margin-top: -10px;
+            }
+            .women .fourth-year .top p {
+                font-size: 24px;
+            }
+            .women .video p {
+                font-size: 20px;
+                padding-bottom: 5px;
+                padding-top: 0px;
+            }
+            .women .video .btn {
+                font-size: 21px;
+            }
+            .women .innovation h4 {
+                font-size: 30px;
+            }
+            .women .innovation p {
+                font-size: 22px;
+            }
+            .women .innovation .center .img-container {
+                margin-top: -20%;
+            }
+            .women .innovation .left .img-container {
+                max-width: 135px;
+            }
+            .women .innovation .right .img-container {
+                max-width: 125px;
+                margin-top: 10px;
+            }
+            .women .doors .left .section-container {
+                width: 375px;
+                margin-top: 15px;
+                font-size: 17px;
+            }
+            .women .doors h3 {
+                font-size: 30px;
+            }
+            .women .doors .left .arrow-right {
+                right: -32px;
+                top: 33%;
+            }
+            .women .doors.two .img-container {
+                width: 55%;
+            }
+            .women .doors.two .btn {
+                margin-top: 20px;
+                font-size: 14px;
+            }
+            .women .doors .right .arrow-left {
+                left: -32px;
+                top: 35.5%;
+            }
+            .women .learn-more h4 {
+                font-size: 30px;
+                margin-bottom: 40px;
+            }
+            .women .learn-more .mfm .img-container img {
+                border: 1px solid #989898;
+                margin-bottom: 13.5%;
+            }
+            .women .learn-more p {
+                font-size: 19px;
+            }
+            .women .learn-more .mfm .img-container img {
+                margin-bottom: 8%;
+                margin-top: 5%;
+            }
+            .women .learn-more .social .img-container {
+                max-width: 75px;
+            }
+        }
+
+    /*  SMALL DEVICES, TABLETS
+    ========================================================================== */
+            @media only screen and (max-width: 767px) {
+                .women .hero-section {
+                    height: 175px;
+                }
+                .women .hero-section h1 {
+                    font-size: 24px;
+                    margin-top: 10px;
+                    margin-bottom: 0px;
+                }
+                .women .hero-section h2 {
+                    font-size: 21px;
+                }
+                .shareBtn {
+                    width: 90px;
+                    top: 90px;
+                }
+                .women .quote blockquote {
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                }
+                .women .quote blockquote .before {
+                    top: 32px;
+                }
+                .women .quote .attrib {
+                    font-size: 18px;
+                }
+                .women .quote blockquote {
+                    font-size: 16px;
+                    margin-bottom: 9px;
+                }
+                .women .quote .attrib {
+                    font-size: 14px;
+                }
+                .women .fourth-year .top p {
+                    font-size: 19px;
+                }
+                .women .fourth-year .img-container {
+                    width: 40%;
+                    margin: 0 auto;
+                }
+                .women .fourth-year .bottom p {
+                    font-size: 19px;
+                }
+                .women .fourth-year .bottom .text-container {
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+                .women .video .img-container {
+                    width: 65%;
+                    margin: 0 auto 15px;
+                }
+                .women .video p {
+                    font-size: 18px;
+                    text-align: center;
+                }
+                .women .video .btn-container {
+                    text-align: center;
+                }
+                .women .video .btn {
+                    font-size: 17px;
+                }
+                .women .innovation h4 {
+                    font-size: 26px;
+                    margin-top: 0px;
+                    margin-bottom: 25px;
+                }
+                .women .innovation p {
+                    font-size: 19px;
+                }
+                .women .innovation .center .img-container {
+                    margin-top: -60px;
+                    margin-bottom: -65px;
+                }
+                .women .doors .box {
+                    height: 442px;
+                }
+                .women .doors.one .right {
+                    background-size: 133%;
+                    background-position: -62px top;
+                }
+                .women .doors .section-container {
+                    width: 100% !important;
+                    padding-left: 15px !important;
+                    padding-right: 15px !important;
+                    text-align: center;
+                }
+                .women .doors.one .box.left, .women .doors.two .box.right {
+                    height: 100%;
+                }
+                .women .doors .right .section-container {
+                    margin-bottom: 25px;
+                }
+                .women .doors .left .section-container {
+                    margin-top: 15px;
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                }
+                .women .doors.two .img-container {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .women .doors h3 {
+                    margin-bottom: 15px;
+                }
+                .women .doors ul {
+                    text-align: left;
+                }
+                .women .doors .right h3 {
+                    font-size: 26px;
+                }
+                .women .doors.two .btn {
+                    padding: 7px 15px;
+                }
+                .women .learn-more h4 {
+                    font-size: 26px;
+                }
+                .women .learn-more p {
+                    font-size: 14px;
+                }
+                .women .learn-more .mfm .img-container img {
+                    margin-bottom: 12px;
+                    margin-top: 3%;
+                }
+                .women .learn-more .img-container {
+                    width: 120px;
+                }
+                .women .learn-more .social .img-container {
+                    max-width: 57px;
+                }
+            }
+            @media only screen and (max-width: 600px) {
+                .women .hero-section {
+                    height: 140px;
+                }
+                .women .hero-section h2 {
+                    font-size: 19px;
+                }
+                .women .doors.one .right {
+                    background-size: 133%;
+                    background-position: -40px top;
+                }
+                .women .learn-more .img-container {
+                    width: 90px;
+                }
+                .women .learn-more .social .img-container {
+                    max-width: 46px;
+                }
+                .women .learn-more p {
+                    font-size: 11px;
+                }
+            }
+
+    /* EXTRA SMALL DEVICES, PHONES
+    ========================================================================== */
+            @media only screen and (max-width: 479px) {
+                .women .xxs-12 {
+                    width: 100%;
+                }
+                .women .hero-section {
+                    height: 125px;
+                }
+                .women .hero-section h1 {
+                    font-size: 14px;
+                    margin-top: 12px;
+                }
+                .women .hero-section h2 {
+                    font-size: 15px;
+                    margin-bottom: 0px;
+                }
+                .shareBtn {
+                    width: 80px;
+                    top: 45px;
+                }
+                .women .quote {
+                    margin-top: 0px;
+                }
+                .women .quote blockquote {
+                    font-size: 19px;
+                }
+                .women .fourth-year {
+                    padding-top: 20px;
+                    padding-bottom: 30px;
+                }
+                .women .fourth-year .top p {
+                    font-size: 16px;
+                }
+                .women .fourth-year .bottom p {
+                    font-size: 16px;
+                }
+                .women .video {
+                    padding-top: 30px;
+                }
+                .women .video p {
+                    font-size: 16px;
+                }
+                .women .video .btn {
+                    font-size: 15px;
+                }
+                .women .innovation {
+                    padding-bottom: 15px;
+                }
+                .women .innovation h4 {
+                    font-size: 22px;
+                }
+                .women .innovation p {
+                    font-size: 16px;
+                }
+                .women .innovation .icons p {
+                    font-size: 19px;
+                }
+                .women .innovation .left .img-container {
+                    max-width: 95px;
+                }
+                .women .innovation .center .img-container {
+                    max-width: 190px;
+                    margin-top: -40px;
+                    margin-bottom: -40px;
+                }
+                .women .innovation .right .img-container {
+                    max-width: 100px;
+                }
+                .women .doors .left .section-container {
+                    font-size: 17px;
+                }
+                .women .doors .box {
+                    height: 340px;
+                }
+                .women .doors .right h3 {
+                    font-size: 22px;
+                }
+                .women .doors.two .img-container {
+                    width: 70%;
+                }
+                .women .learn-more h4 {
+                    font-size: 22px;
+                    margin-bottom: 25px;
+                }
+                .women .learn-more .img-container {
+                    width: 55%;
+                }
+                .women .learn-more .social .img-container {
+                    max-width: 25%;
+                }
+                .women .learn-more p {
+                    font-size: 17px;
+                    margin-bottom: 15px;
+                }
+            }
+            @media only screen and (max-width: 370px) {
+                .women .hero-section {
+                    height: 120px;
+                }
+
+                .women .hero-section h2 {
+                    font-size: 14px;
+                }
+                .women .quote blockquote {
+                    font-size: 16px;
+                }
+                .women .quote blockquote .before {
+                    top: 27px;
+                }
+                .women .fourth-year .top p {
+                    font-size: 15px;
+                }
+                .women .fourth-year .bottom p {
+                    font-size: 15px;
+                }
+                .women .video p {
+                    font-size: 15px;
+                }
+                .women .video .btn {
+                    font-size: 14px;
+                }
+                .women .innovation h4 {
+                    font-size: 20px;
+                }
+                .women .doors .right h3 {
+                    font-size: 20px;
+                }
+                .women .doors.one .right {
+                    background-position: -26px top;
+                }
+                .women .learn-more h4 {
+                    font-size: 20px;
+                    margin-bottom: 15px;
+                }
+                .women .doors .box {
+                    height: 293px;
+                }
+                .women .doors.two .img-container {
+                    width: 75%;
+                }
+                .women .learn-more p {
+                    font-size: 15px;
+                }
+            }

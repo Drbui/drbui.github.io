@@ -1,0 +1,227 @@
+.merck-green-text-color { color: #009994 !important; }
+.merck-white-text-color { color: #fff !important; opacity: 1; }
+.merck-dark-gray-text-color { color: #243444 !important; }
+.merck-light-pink-text-color { color: #9B6080 !important; }
+.merck-lavender-text-color { color: #7f8dc1 !important; }
+.merck-purple-text-color { color: #662045 !important; }
+.merck-orange-text-color { color: #f7912f !important; }
+.merck-light-teal-text-color { color: #65c8cc !important; }
+.merck-light-green-text-color { color: #25f5ec !important; }
+.merck-yellow-text-color { color: #f7e96f !important; }
+
+.merck-green-bg-color { background: #009994 !important; }
+.merck-light-teal-bg-color { background: #34b8aa !important; }
+.merck-lighter-teal-bg-color { background: #dbf0f0 !important; }
+.merck-navy-blue-bg-color { background: #243444 !important; }
+.merck-light-navy-blue-bg-color { background: #275f76 !important; }
+.merck-white-bg-color { background: #fff !important; }
+.merck-light-pink-bg-color { background: #9B6080 !important; }
+.merck-blue-bg-color { background: #428ec5 !important; }
+.merck-light-blue-bg-color { background: #E2F1F4 !important; }
+.merck-light-gray-bg-color { background: #F2F3F5 !important; }
+.merck-orange-bg-color { background: #f7912f !important; }
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+.row.no-gutter {
+    margin-right: 0;
+    margin-left: 0;
+}
+/* WORLDWIDE CAREER SITES */
+.worldwide-columns {   
+    -moz-column-width: 11.5em; /* Firefox */
+    -webkit-column-width: 11.5em; /* webkit, Safari, Chrome */
+    column-width: 11.5em;
+}
+.worldwide-columns ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.worldwide-columns ul li:first-child { margin-top: 0px; }
+/* END OF WORLDWIDE CAREER SITES */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.popover .arrow { padding: 0; }
+.shareBtn { margin-top: 3% !important; }
+.shareBtn {
+    cursor: pointer;
+    position: relative;
+    z-index: 99;
+    width: 110px;
+    margin-top: 10px !important;
+}
+.shareBtn img { width: 70%; }
+.large-text { font-size: 175%; }
+.padding-top-bottom-100 { padding: 100px 0; }
+.padding-top-bottom-25 { padding: 25px 0; }
+.padding25{
+    padding: 25px !important;
+}
+.space-bottom-15 { margin-bottom: 15px; }
+.space-bottom-25 { margin-bottom: 25px; }
+.quote-large {
+    font-family: "Times New Roman",serif;
+    position: relative;
+    font-size: 65px;
+    line-height: 0.5em;
+    top: 20px;
+}
+.quote {
+    font-family: 'Times New Roman', serif;
+}
+.footer_container p { font-size: inherit; }
+h1 {
+    color: #fff;
+    font-size: 35px;
+}
+h2 { font-size: 1.8em; }
+p {
+    font-size: 20px;
+    line-height: normal;
+}
+.unbold { font-weight: normal; }
+.capitalize { text-transform: uppercase; }
+.btn { 
+    border-radius: 0; 
+    padding: 6px 25px;
+}
+.btn.btn-fade {
+    background: #009994 none repeat scroll 0 0;
+    border: 1px solid #33cbc5;
+    padding: 6px 25px;
+    border-radius: 0;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease 0s, background-color 0.3s ease 0s, border-color 0.3s ease 0s;
+    white-space: normal;
+    z-index: 1;
+}
+.btn.btn-fade:hover {
+    background: #f2f3f5 none repeat scroll 0 0;
+    border: 1px solid #243444;
+    color: #243444;
+}
+.hero_container {
+    background-color: #337478;
+    background-image: url('http://www.merck.com/images/careers/application-tips/careers_header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 235px;
+}
+.hero_container .page-title {
+    bottom: 10px;
+    position: absolute;
+}
+.hero_container h2 {
+    bottom: auto;
+    /*background: url(/images/pixel.png);*/
+    left: 0;
+    text-transform: capitalize;
+    position: relative;
+    top: auto;
+    width: auto;
+    font-size: 40px;
+    font-weight: normal;
+    /*padding: 10px 30px;*/
+}
+.search_jobs .list-inline>li {
+    vertical-align: middle;
+}
+#searchform {
+    margin-bottom: 15px;
+}
+.bg-image {
+    background: url(http://www.merck.com/images/careers/military/cm_soldier.jpg) no-repeat center center;
+    background-size: cover;
+}
+.bubbles {
+    background-color: #f4f4f4;
+    background-image: url("http://www.merck.com/images/careers/military/cm_logo_h4h.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+#accordion .panel-default>.panel-heading {
+    color: #fff;
+    background: #6176a3;
+    border-color: #ddd;
+}
+#accordion .panel-title {
+    padding: 10px;
+}
+#accordion .panel-title a:hover,
+#accordion .panel-title a:focus {
+    color: #fff;
+}
+#accordion p { font-size: inherit; }
+
+@media (max-width: 1499px) {
+
+}
+@media (max-width: 1199px) {
+    .hero_container {
+        background-position: center center;
+    }
+}
+@media (max-width: 991px) {
+    .shareBtn {
+        margin-top: 10px !important;
+    }
+    .shareBtn img {
+        width: 72px;
+    }
+}
+@media (max-width: 768px){
+    .bg-image {
+        background-position: -270px center;
+    }
+}
+@media (max-width: 767px) {
+    .shareBtn {
+        width: 60px;
+    }
+    .shareBtn img { width: 100%; }
+    .intro-statement {
+        font-size: 26px;
+    }
+    .bg-image {
+        background-position: center center;
+    }
+}
+@media (max-width: 600px) {
+
+}
+@media (max-width: 480px){
+    h1 {
+        color: #fff;
+        font-size: 25px;
+    }
+    .bg-image {
+        background-position: -270px center;
+    }
+    .shareBtn {
+        margin-top: 5px !important;
+    }
+    .hero_container {
+        background-position: -700px center;
+        height: 235px;
+    }
+}
+@media (max-width: 320px) {
+    .hero_container {
+        background-position: -635px center;
+        height: 205px;
+    }
+}

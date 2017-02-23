@@ -1,0 +1,1441 @@
+.merck-black-text-color { color: #000 !important; }
+        .merck-green-text-color { color: #009994 !important; }
+        .merck-white-text-color { color: #fff !important; opacity: 1; }
+        .merck-dark-gray-text-color { color: #243444 !important; }
+        .merck-light-pink-text-color { color: #9B6080 !important; }
+        .merck-lavender-text-color { color: #7f8dc1 !important; }
+        .merck-purple-text-color { color: #662045 !important; }
+        .merck-orange-text-color { color: #f7912f !important; }
+        .merck-light-teal-text-color { color: #65c8cc !important; }
+        .merck-green-bg-color { background: #009994 !important; }
+        .merck-light-teal-bg-color { background: #34b8aa !important; }
+        .merck-navy-blue-bg-color { background: #243444 !important; }
+        .merck-light-navy-blue-bg-color { background: #275f76 !important; }
+        .merck-white-bg-color { background: #fff !important; }
+        .merck-light-pink-bg-color { background: #9B6080 !important; }
+        .merck-light-blue-bg-color { background: #E2F1F4 !important; }
+        .merck-light-gray-bg-color { background: #F2F3F5 !important; }
+        .row.no-gutters {
+          margin-right: 0;
+          margin-left: 0;
+          overflow: hidden;
+        }
+        .row.no-gutters > [class^="col-"],
+        .row.no-gutters > [class*=" col-"] {
+          padding-right: 0;
+          padding-left: 0;
+          overflow: hidden;
+        }
+        .row-eq-height {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display:         flex;
+        }
+        .medium-text {
+            font-size: 24px;
+            line-height: normal;
+        }
+        .large-text {
+            font-size: 30px;
+            line-height: normal;
+        }
+        .small-text {
+            font-size: 90%;
+        }
+        .shareBtn-container {
+            position: absolute;
+        }
+        .shareBtn {
+            cursor: pointer;
+            margin-top: 10px !important;
+            position: relative;
+            width: 110px;
+            z-index: 99;
+        }
+        .shareBtn img {
+            width: 70%;
+        }
+        .btn { border-radius: 0; }
+        h2 {
+            font-size: 30px;
+            line-height: normal;
+        }
+        p { font-size: 24px; }
+        .media-body { 
+            display: table-cell; 
+            vertical-align: middle;
+        }
+        .hero-section {
+            /*
+            background-image: url("http://placehold.it/2000x500");
+            background-position: center center;
+            background-size: cover;
+            */
+            /*height: 440px;
+            margin-bottom: -1px;*/
+            margin-top: 127px;
+            width: 100%;
+            height: 640px;
+            /*background: rgba(81, 150, 191, 0.60);*/
+            position: relative;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            overflow: hidden;
+        }
+            .hero-section .hero-clear {
+                clear: left;
+                margin-top: 10%;
+            }
+            .hero-section h1 {
+                color: #243444;
+                font-size: 60px;
+                font-weight: bold;
+                line-height: normal;
+                margin-bottom: 0;
+            }
+            .hero-section p {
+                color: #243444;
+                font-size: 30px;
+                font-weight: bold;
+                line-height: normal;
+                margin-bottom: 0;
+            }
+            #my-video {
+                position: absolute;
+                top: 16%;
+                left: 50%;
+                min-width: 100%;
+                min-height: 100%;
+                width: auto;
+                height: auto;
+                z-index: -100;
+                -webkit-transform: translateX(-50%) translateY(-50%);
+                transform: translateX(-50%) translateY(-50%);
+                background: url('http://www.merck.com/images/about/about-hero.jpg') no-repeat;
+                background-size: cover;
+            }
+            #myVideo-container {
+			    height: 0;
+			    overflow: hidden;
+			    padding-bottom: 56.25%;
+			    padding-top: 30px;
+			    position: relative;
+			}
+            #myVideo-container iframe, 
+            #myVideo-container object, 
+            #myVideo-container embed {
+			    height: 100%;
+			    left: 0;
+			    position: absolute;
+			    top: 0;
+			    width: 100%;
+			}
+            .video-section {
+                /*background-image: url('/images/about/about-hero.jpg');
+                background-repeat: no-repeat;
+                background-position: 0 -230px;
+                background-size: cover;
+                height: 882px;
+                */
+               
+                height: 100%;
+            }
+
+			.video-section .pattern-overlay {
+    			background-color: rgba(71, 71, 71, 0.2);
+    			padding: 70px 0 50px;
+    			min-height: 640px; 
+    			/* Incase of overlay problems just increase the min-height*/
+			}
+			/*.video-section iframe#mbYTP_bgndVideo {
+				margin-top: -330.5px !important;
+			}*/
+			.video-section h1, .video-section h3{
+    			text-align:center;
+    			color:#fff;
+			}
+			.video-section h1{
+                color: #34E2D6;
+    			font-size:70px;
+    			font-weight: normal;
+                margin-top: 30px;
+    			/*margin: 40px auto 0px;
+    			
+                text-shadow: 1px 1px 1px #000;
+    			-webkit-text-shadow: 1px 1px 1px #000;
+    			-moz-text-shadow: 1px 1px 1px #000;
+                */
+			}
+			.video-section h3{
+    			font-size: 30px;
+    			font-weight:lighter;
+    			margin: 0px auto 15px;
+			}
+			.video-section .buttonBar{display:none;}
+			.player {font-size: 1px;}
+            .loaded .ytplayer-container {
+  display: block;
+}
+
+.loaded .placeholder-image {
+  opacity: 0;
+}
+
+.ytplayer-container {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  min-width: 100%;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: -239px;
+  z-index: 3;
+}
+
+.placeholder-image {
+  height: 100%;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  /*position: fixed;*/
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.ytplayer-shield {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.ytplayer-player {
+  position: absolute;
+}
+.master-slider img, .ms-slide-bgvideocont video {
+    margin-left: 0 !important;
+    max-width: none;
+    width: 100% !important;
+}
+.video-caption {
+    color: #fff;
+    font-size: 52px;
+    font-weight: normal;
+    left: 106px;
+    padding: 12px 10px;
+    text-align: center;
+    top: 14% !important;
+    width: 85%;
+}
+.video-caption2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: normal;
+    left: 106px;
+    padding: 12px 10px;
+    text-align: center;
+    top: 30% !important;
+    width: 85%;
+    line-height: normal !important;
+}
+        .page-scroll-container {
+            position: absolute;
+            width: 100%;
+        }
+		.page-scroll {
+		    text-align: center;
+		    position: relative;
+		    top: 540px;
+            z-index: 1;
+		}
+		.btn-scroll-light {
+		    background-color: #009994;
+            border: 2px solid #009994;
+            border-radius: 75px;
+            color: #fff !important;
+            height: 125px;
+            width: 125px;
+		}
+            .btn-scroll-light:focus { outline: none; }
+		.sink {
+			display: inline-block;
+			-webkit-transition-duration: .3s;
+			transition-duration: .3s;
+			-webkit-transition-property: -webkit-transform;
+			transition-property: transform;
+			-webkit-transform: translateZ(0);
+			-ms-transform: translateZ(0);
+			transform: translateZ(0);
+			box-shadow: 0 0 1px rgba(0,0,0,0)
+		}
+		.sink:hover {
+			-webkit-transform: translateY(5px);
+			-ms-transform: translateY(5px);
+			transform: translateY(5px)
+		}
+        .get-to-know-merck {
+            font-size: 18px;
+        }
+		#vision-mission-section {
+			padding-top: 127px;
+			padding-bottom: 100px;
+		}
+        .valign-content {
+            display: table-cell;
+            vertical-align: middle;
+            height: 290px;
+        }
+        .content-container {
+            background-color: #fff;
+            padding-bottom: 40px;
+            padding-top: 40px;
+        }
+        .image-space-bottom { margin-bottom: 50px; }
+        .space-top-bottom {
+            padding-bottom: 40px;
+            padding-top: 40px;
+        }
+        .space-bottom {
+        	margin-bottom: 40px;
+        }
+        .space-bottom-20 { margin-bottom: 20px; }
+
+		.animate-stat-container {
+    		height: 150px;
+    	}
+    		.animate-stat-container img {
+
+    		}
+    		.animate-stat-container .animate-stat {
+			    color: #65c8cc;
+			    font-size: 45px;
+			    margin: 0 auto;
+			    position: absolute;
+			    text-align: center;
+			    top: 95px;
+			    width: 267px;
+			}
+		#ourValues.carousel {
+		    margin-left:auto;
+			margin-right:auto;
+			margin-bottom: 0;
+			padding: 0;
+		    /*max-width: 530px;
+		    padding: 0 0 30px;*/
+		}
+		#ourValues.carousel .carousel-indicators-outer-container {
+			background: #009994 none repeat scroll 0 0;
+		    position: absolute;
+		    width: 100%;
+		    z-index: 11;
+		    bottom: 250px;
+		    opacity: .8;
+		}
+		#ourValues.carousel .carousel-indicators-container {
+			display: table;
+		    margin: 0 auto;
+		    position: relative;
+		    text-align: center;
+		    z-index: 9;
+		}
+		#ourValues.carousel .carousel-indicators {
+		    background: #009994 none repeat scroll 0 0;
+		    bottom: 0;
+		    display: table;
+		    left: 0;
+		    list-style: outside none none;
+		    margin: 0 auto;
+		    overflow: hidden;
+		    position: relative;
+		    text-align: center;
+		    width: 100%;
+		    z-index: 5;
+		}
+		#ourValues.carousel .carousel-indicators li{
+		    width:15%;
+		    height:55px;
+		    cursor: pointer;
+		    text-align:center;
+			border-style: solid;
+			border-color: #fff;
+			border-width: 0 1px 0 0;
+		    border-radius: 0px;
+			text-indent: 0px;
+			background: none;
+			font-size: 18px;
+			font-weight: normal;
+			color: #FFF;
+			/*display:inline-block;*/
+		  display: table-cell;
+		  vertical-align: middle;
+		  padding: 5px 0;
+		}
+		#ourValues.carousel .carousel-indicators li.last { border-right: none; }
+		#ourValues.carousel .carousel-indicators .active {
+			margin: 0px;
+		    background-color: #fff;
+		    color: #009994;
+			 width:15%;
+		    height:55px;
+		    cursor: pointer;
+		    text-align:center;
+		}
+		#ourValues.carousel .carousel-inner img {
+			/*height: 900px;
+			width: 2000px;*/
+		}
+		#ourValues.carousel .carousel-caption {
+			top: 130px;
+			text-shadow: none;
+            width: 100%;
+            left: 0;
+		}
+        #ourValues.carousel .carousel-caption h3 { font-size: 35px; }
+        #ourValues.carousel .carousel-caption p {
+            font-size: 25px;
+        }
+        #ourValues.carousel .carousel-caption p.subtext {
+            font-size: 18px;
+            color: #000;
+        }
+        .effect-desc .info::before {
+            content: "";
+            height: 100%;
+            left: 0;
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            transform: translate3d(0px, 50%, 0px);
+            width: 100%;
+        }
+        .effect-desc h2 {
+            color: #484c61;
+            left: 0;
+            position: absolute;
+            top: 50%;
+            transform: translate3d(0px, -50%, 0px);
+            transition: transform 0.35s ease 0s, color 0.35s ease 0s;
+            width: 100%;
+        }
+        .effect-desc .info::before, .effect-desc p {
+            transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+        }
+        .effect-desc p {
+            bottom: 0;
+            color: #fff;
+            font-size: 25px;
+            left: 0;
+            opacity: 0;
+            padding: 11em 2em 2em;
+            position: absolute;
+            text-align: center;
+            transform: translate3d(0px, 10px, 0px);
+            width: 100%;
+        }
+        .effect-desc p:hover {
+            text-decoration: none;
+        }
+        .effect-desc:hover h2 {
+            color: #fff;
+            transform: translate3d(0px, -50%, 0px) translate3d(0px, -40px, 0px);
+        }
+        .effect-desc:hover .info::before, .effect-desc:hover p {
+            opacity: 1;
+            transform: translate3d(0px, 0px, 0px);
+        }
+        .circle-plus-icon {
+            background: rgba(0, 0, 0, 0) url("http://www.merck.com/images/circle-plus-icon.png") no-repeat scroll 0 0;
+            height: 44px;
+            padding: 22px;
+            width: 44px;
+        }
+        .effect-desc p:hover .circle-plus-icon {
+            transform: rotate(360deg);
+        }
+        .BWFilter.BWfade {
+            left: 0 !important;
+        }
+		.discover {
+		    display: block;
+		    margin: 0 auto;
+		    max-width: 400px;
+		    position: relative;
+		}
+		.discover .caption {
+		    background: rgba(62, 68, 77, 0.9) none repeat scroll 0 0;
+		    height: 100%;
+		    opacity: 0;
+		    position: absolute;
+		    transition: all 0.5s ease 0s;
+		    width: 100%;
+		}
+		.discover .caption:hover {
+		    opacity: 1;
+		}
+		.discover .caption .caption-content {
+		    color: #fff;
+		    font-size: 20px;
+		    height: 20px;
+		    margin-top: -12px;
+		    position: absolute;
+		    text-align: center;
+		    top: 50%;
+		    width: 100%;
+		}
+		.discover .caption .caption-content i {
+		    margin-top: -12px;
+		}
+		.discover .caption .caption-content h3,
+		.discover .caption .caption-content h4 {
+			color: #fff;
+		    margin: 0;
+		}
+
+        .doors {
+            background-color: #ffffff;
+            overflow-x: hidden;
+        }
+        .doors .box {
+
+        }
+        .doors .section-container {
+        }
+        .doors.one .right {
+
+        }
+        .doors.one .left {
+            z-index: 11;
+        }
+        .doors.one .left blockquote {
+            border-left: medium none;
+            color: #fff;
+            font-size: 32px;
+            line-height: 1.2em;
+            padding: 0;
+        }
+        .doors.one .left blockquote footer {
+            color: #fff;
+            text-align: right;
+        }
+        .doors.one .left blockquote .before {
+            font-family: "Times New Roman",serif;
+            font-size: 4em;
+            margin-right: 0.05em;
+            position: relative;
+            top: 45px;
+        }
+        .doors.one .left blockquote .after {
+            font-family: "Times New Roman",serif;
+        }
+        .doors .left .arrow-right {
+            border-bottom: 58px solid transparent;
+            border-left: 58px solid #009994;
+            border-top: 58px solid transparent;
+            height: 0;
+            left: 0;
+            position: absolute;
+            top: 41.1%;
+            width: 0;
+        }
+        .doors .right .arrow-left {
+            border-bottom: 58px solid transparent;
+            border-right: 58px solid #009994;
+            border-top: 58px solid transparent;
+            height: 0;
+            position: absolute;
+            right: 0;
+            top: 48.5%;
+            width: 0;
+        }
+        .doors .left .section-container {
+            float: right;
+            font-size: 25px;
+            margin-top: 60px;
+            padding-left: 15px;
+            padding-right: 30px;
+            width: 575px;
+        }
+        .doors .right .section-container {
+            float: left;
+            font-size: 25px;
+            margin-top: 60px;
+            padding-left: 30px;
+            padding-right: 15px;
+            width: 575px;
+        }
+        .doors.one .left {
+            color: #ffffff;
+        }
+        .doors.one .left .arrow-left {
+            border-color: transparent #009994 transparent -moz-use-text-color;
+            border-style: solid solid solid none;
+            border-width: 58px 58px 58px 0;
+            height: 0;
+            left: -55px;
+            position: absolute;
+            top: 48.5%;
+            width: 0;
+        }
+        .box-container .box-content {
+
+        }
+        .doors.box-container.one .right img.space-bottom { margin-bottom: 20px; }
+        .doors.box-container.one .right p {
+        	font-size: 19px;
+        }
+        .box-container.two .left {
+            background-image: url("http://www.merck.com/images/about/about_ken_frazier_mfm.jpg");
+            background-position: center center;
+            background-size: cover;
+            z-index: 10;
+        }
+        .box-container.two .right {
+            background-image: url("http://www.merck.com/images/about/about_humans4health.jpg");
+            background-position: center center;
+            background-size: cover;
+            z-index: 10;
+        }
+        .box-container.two .box {
+            height: 657px;
+        }
+        .box-container.two .box .section-container { 
+            height: 540px;
+            position: relative; 
+        }
+        .box-container.two .box.left .section-container {
+            width: 100%;
+        }
+            .box-container.two .box .section-container-content { 
+                position: absolute;
+                bottom: 0;
+
+            }
+                .box-container.two .box.left .section-container-content {
+                    left: 200px;
+                    width: 575px;
+                }
+                .box-container.two .box.right .section-container-content {
+                    left: 200px;
+                    width: 575px;
+                }
+            	.box-container.two .box .section-container-content p { 
+	                font-size: 32px;
+	            }
+        .box-container.three .left {
+            background-image: url("http://www.merck.com/images/about/about_patient_assistance.jpg");
+            background-position: center center;
+            background-size: cover;
+            z-index: 10;
+        }
+        .box-container.three .right {
+            /*background-image: url("/images/about/about_humans4health.jpg");
+            background-position: center center;
+            background-size: cover;
+            z-index: 10;*/
+        }
+        .box-container.three .box {
+            height: 657px;
+        }
+        .box-container.three .box .section-container { 
+            height: 540px;
+            position: relative; 
+        }
+            .box-container.three .box .section-container-content { 
+                position: relative;
+                top: 150px;
+            }
+        .mfm {
+            background-image: url('http://www.merck.com/images/about/about_mfm.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            
+            /*height: 820px;
+            overflow: hidden;
+            position: relative;
+            width: 100%;*/
+        }
+        .content-container.mfm {
+            padding-bottom: 0;
+        }
+        .mfm .onmobileview,
+        .our-work .onmobileview { display: none; }
+        img.parallax-img {
+            position: absolute;
+            bottom:0;
+            left: 0;
+        }
+            .mfm .section-container { 
+                height: 910px;
+                position: relative; 
+            }
+                .mfm .section-container .section-container-content { 
+                    position: absolute;
+                    bottom: 0px;
+                }
+                	.mfm .section-container .section-container-content p.description { 
+	                    font-size: 20px;
+	                    margin: 0 auto;
+	                }
+            .mfm .section-container2 { 
+                 position: relative;
+                 z-index: 1;
+            }
+                .mfm .section-container2 .section-container-content { 
+                    position: absolute;
+                }
+        .mt125 h3 { margin-top: 0; }
+        .our-work {
+            background-image: url('http://www.merck.com/images/about/about_our_work.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            height: 730px;
+            /*height: 820px;
+            overflow: hidden;
+            position: relative;
+            width: 100%;*/
+        }
+            .our-work h2 {
+                margin-bottom: 0;
+            }
+            .our-work ul {
+                margin-bottom: 20px;
+            }
+                .our-work ul li {
+                    color: #fff;
+                    font-size: 24px;
+                }
+            .our-work p { margin-bottom: 50px; }
+            .our-work .section-container { 
+                height: 675px;
+                position: relative; 
+            }
+                .our-work .box-container .left .section-container .section-container-content { 
+                    position: absolute;
+                    top: 350px;
+                    text-align: left;
+                }
+                .our-work .box-container .right .section-container .section-container-content { 
+                    position: absolute;
+                    top: 100px;
+                }
+            .our-work .section-container2 { 
+                 position: relative;
+                 z-index: 1;
+            }
+                .our-work .section-container2 .section-container-content { 
+                    position: absolute;
+                }
+            .our-work .core-areas { text-align: center; }
+        .btn.btn-about {
+		    background: #009994 none repeat scroll 0 0;
+		    border: 1px solid #33cbc5;
+		    border-radius: 0;
+		    color: #fff;
+		    font-size: 18px;
+		    padding: 10px;
+		    transition: color 0.3s ease 0s, background-color 0.3s ease 0s, border-color 0.3s ease 0s;
+		    white-space: normal;
+		    z-index: 1;
+		}
+		.btn.btn-about:hover {
+		    background: #f2f3f5 none repeat scroll 0 0;
+		    border: 1px solid #243444;
+		    color: #243444;
+		}
+        .content_container, .footer_container {
+            top: 0;
+        }
+        .footer_container p { font-size: 15px; }
+.chart {
+    color: #999;
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 25px;
+    position: relative;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.chart figcaption {
+  border: 10px solid #f0f0f0;
+    border-radius: 100px;
+    height: 0;
+    line-height: 0;
+    padding: 40px 0;
+    width: 95px;
+}
+
+.chart img {
+  position: absolute;
+  max-width: 100px;
+  max-height: 100px;
+  background: white;
+}
+/* END Container styles */
+
+p.counter {
+    font-size: 75px;
+    line-height: 140px;
+}
+
+.html + svg .outer {
+  stroke: #e34f26;
+}
+
+.css {
+  top: 55px;
+  left: 48px;
+}
+
+.css + svg .outer {
+  stroke: #0d84ce;
+}
+
+.javascript {
+  max-width: 90px;
+  max-height: 90px;
+  top: 45px;
+  left: 45px;
+}
+
+.javascript + svg .outer {
+  stroke: #f0e040;
+}
+
+.node {
+  width: 200px;
+  height: 200px;
+  top: 45px;
+  left: 45px;
+}
+
+.node + svg .outer {
+  stroke: #83cd29;
+}
+
+.chart svg {
+  position: absolute;
+  top: -55px;
+  left: -55px;
+}
+
+.outer {
+  fill: transparent;
+  stroke: #65c8cc;
+  stroke-width: 10;
+  stroke-dasharray: 485;
+  transition: stroke-dashoffset 1s;
+  -webkit-animation-play-state: running;
+  
+  /* firefox bug fix - won't rotate at 90deg angles */
+  -moz-transform: rotate(-89deg) translateX(-190px);
+}
+.outer2 {
+  fill: transparent;
+  stroke: #65c8cc;
+  stroke-width: 10;
+  stroke-dasharray: 500;
+  transition: stroke-dashoffset 1s;
+  -webkit-animation-play-state: running;
+  
+  /* firefox bug fix - won't rotate at 90deg angles */
+  -moz-transform: rotate(-89deg) translateX(-190px);
+}
+/*.chart:hover .outer {
+  stroke-dashoffset: 133 !important;
+  -webkit-animation-play-state: paused;
+}*/
+.chart .outer.animateit {
+  stroke-dashoffset: 133 !important;
+  -webkit-animation-play-state: paused;
+}
+.chart .outer2.animateit {
+  stroke-dashoffset: 360 !important;
+  -webkit-animation-play-state: paused;
+}
+/* END Circle colors and graphic positions */
+
+
+/* Set the initial values for the animation */
+.chart[data-percent='100'] .outer {
+  stroke-dashoffset: 0;
+  -webkit-animation: show100 2s;
+  animation: show100 2s;
+}
+
+.chart[data-percent='75'] .outer {
+  stroke-dashoffset: 485;
+  -webkit-animation: show75 2s;
+  animation: show75 2s;
+}
+
+.chart[data-percent='50'] .outer {
+  stroke-dashoffset: 267;
+  -webkit-animation: show50 2s;
+  animation: show50 2s;
+}
+
+.chart[data-percent='25'] .outer2 {
+  stroke-dashoffset: 500;
+  -webkit-animation: show25 2s;
+  animation: show25 2s;
+}
+/* END set initial animation values */
+
+/* Keyframes for the initial animation */
+@-webkit-keyframes show100 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes show100 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes show75 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+    stroke-dashoffset: 134;
+  }
+}
+
+@keyframes show75 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+    stroke-dashoffset: 124;
+  }
+}
+
+@-webkit-keyframes show50 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+    stroke-dashoffset: 267;
+  }
+}
+
+@keyframes show50 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+    stroke-dashoffset: 267;
+  }
+}
+
+@-webkit-keyframes show25 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+    stroke-dashoffset: 401;
+  }
+}
+
+@keyframes show25 {
+  from {
+    stroke-dashoffset: 537;
+  }
+  
+  to {
+    stroke-dashoffset: 401;
+  }
+}
+/* END Keyframes for the initial animation */
+@media (max-width: 1600px){
+    .box-container.two .box.left .section-container-content,
+    .box-container.two .box.right .section-container-content {
+        left: 100px;
+        width: 575px;
+    }
+}
+@media (max-width: 1440px){
+    #ourValues.carousel .carousel-caption {
+        top: 40px;
+    }
+}
+@media (max-width: 1280px){
+    .hero-section { height: 500px; }
+    .video-section { background-position: 0 -85px; }
+    .video-section .pattern-overlay { min-height: 500px; }
+    .page-scroll { top: 210px; }
+    #ourValues.carousel .carousel-inner img { height: 550px; width: 100%; }
+    #ourValues.carousel .carousel-caption { top: 50px; }
+    #ourValues.carousel .carousel-indicators-outer-container { bottom: 60px; }
+    #ourValues.carousel .carousel-caption h3 {
+        font-size: 30px;
+    }
+    #ourValues.carousel .carousel-caption p {
+        font-size: 19px;
+    }
+    .page-scroll {
+        top: 445px;
+    }
+    .box-container.two .box.left .section-container-content {
+        left: 25px;
+        width: 575px;
+    }
+    .box-container.two .box.right .section-container-content {
+        left: 25px;
+        width: 575px;
+    }
+}
+@media (max-width: 1024px){
+	h2, h3 { 
+		font-size: 24px; 
+		margin: 0 0 20px 0;
+	}
+	.hero-section {
+	    margin-top: 127px;
+        height: 345px;
+	}
+	.video-section {
+	    background-position: left center;
+	}
+	.video-section .pattern-overlay {
+	    padding: 150px 0 50px;
+	}
+    #my-video { width: 100%; }
+	.get-to-know-merck { font-size: 13px; }
+	.btn-scroll-light {
+	    background-color: #009994;
+	    border: 2px solid #009994;
+	    border-radius: 50px;
+	    color: #fff !important;
+	    height: 100px;
+	    width: 100px;
+	}
+	.page-scroll {
+	    top: 300px;
+	}
+	p { font-size: 20px; }
+	.valign-content {
+	    height: auto;
+	    text-align: center;
+	    width: 100%;
+	    display: table;
+	}
+	.doors.one .valign-content {
+	    display: table-cell;
+	    height: 429px;
+	    text-align: center;
+	    width: 100%;
+	    vertical-align: middle;
+	}
+	#ourValues.carousel .carousel-caption { top: 60px; }
+    #ourValues.carousel .carousel-caption p { font-size: 18px; }
+	.doors .left .section-container,
+	.doors .right .section-container { width: 100%; }
+    #ourValues.carousel .carousel-caption h3 { font-size: 30px; }
+	#ourValues.carousel .carousel-inner img { height: 580px; }
+	.mfm .section-container2 .section-container-content {
+	    position: absolute;
+	    top: 215px;
+	}
+	.box-container.two .right { background-position: center left; }
+	.btn.btn-about { font-size: 15px; }
+	.box-container.two .box .section-container-content { width: 75%; }
+
+    .box-container.two .box.left .section-container-content {
+        left: 70px;
+        width: 75%;
+    }
+    .box-container.two .box.right .section-container-content {
+        left: 70px;
+        width: 75%;
+    }
+	.our-work .box-container .left .section-container .section-container-content { top: 475px; }
+	.doors.one .valign-content {
+	    height: 300px;
+	}
+	.animate-stat-container .animate-stat {
+	    color: #65c8cc;
+	    font-size: 45px;
+	    margin: 0 auto;
+	    position: absolute;
+	    text-align: center;
+	    top: 88px;
+	    width: 88%;
+	}
+}	
+@media (max-width: 991px){
+    .header-container { position: relative; }
+    .hero-section { margin-top: 0; }
+    .header-section { margin-top: 0; }
+
+}
+@media (max-width: 768px){
+    .hero-section { height: 329px; }
+    #my-video { top: 37%; }
+	.doors.one .valign-content {
+	    height: 300px;
+	}
+	.doors.box-container.one .right p {
+	    font-size: 17px;
+	}
+	.box-container.two .box .section-container-content p {
+	    font-size: 25px;
+	}
+	.mfm .section-container2 .section-container-content {
+	    top: 75px;
+	}
+	.mfm .section-container .section-container-content p.description {
+	    font-size: 17px;
+	}
+    #ourValues.carousel .carousel-inner .carousel-caption { 
+        top: 15px; 
+        left: 0;
+    }
+    #ourValues.carousel .carousel-caption p {
+        font-size: 17px;
+    }
+	#ourValues.carousel .carousel-inner img {
+	    height: 450px;
+	}
+	#ourValues.carousel .carousel-indicators-outer-container {
+	    bottom: 20px;
+	}
+    #ourValues.carousel .bkg {
+        background: #fff;
+        opacity: .9;
+        padding: 10px 10px 0;
+    }
+    #ourValues.carousel .carousel-caption p.subtext {
+        font-size: 16px;
+    }
+    .box-container.two .box {
+        height: 450px;
+    }
+    .box-container.two .box .section-container {
+        height: 450px;
+    }
+    .doors .left .section-container,
+    .doors .right .section-container {
+        margin-top: 0;
+    }
+    .box-container.two .left {
+        background-position: -200px 0;
+    }
+    .space-bottom-20 { margin-bottom: 20px; }
+    .btn.btn-about {
+        font-size: 12px;
+    }
+    .no-space-bottom { margin-bottom: 0 !important; }
+}
+@media (max-width: 767px){
+	.mfm {
+	    background: none;
+	}
+	.mfm br { display: none; }
+	.mfm .onmobileview { display: block; }
+	.mfm h2 { color: #768dc1 !important; }
+	.mfm p { color: #000 !important; }
+	.mfm .section-container { height: auto; }
+	.mfm .section-container2 .section-container-content {
+	    top: 0;
+	    position: relative;
+	}
+	.mfm .section-container .section-container-content {
+	    bottom: 0;
+	    position: relative;
+	}
+	p.counter {
+	    font-size: 75px;
+	    line-height: normal;
+	}
+	.animate-stat-container .animate-stat {
+	    top: 65px;
+	    width: 96%;
+	}
+	.mfm .btn-about { margin-bottom: 40px; }
+	.our-work { background: none; }
+	.our-work .onmobileview { display: block; }
+	.our-work h2 { color: #768dc1 !important; }
+	.our-work p { color: #000 !important; }
+	/*.our-work .section-container {
+	    height: auto;
+	    position: relative;
+	}*/
+	.our-work .section-container {
+	    height: 910px;
+	    position: relative;
+	}
+	.our-work .box-container .right .section-container .section-container-content {
+	    position: relative;
+	    top: 0;
+	}
+	.our-work .box-container .left .section-container .section-container-content {
+		position: relative;
+	    top: 0;
+	}
+	.our-work ul li {
+	    color: #333;
+	    font-size: 20px;
+	}
+    
+}
+@media (max-width: 667px){
+    .shareBtn-container {
+        right: 0;
+    }
+	.video-section h1 {
+	    font-size: 60px;
+	}
+	.video-section .pattern-overlay { min-height: 300px; }
+	.hero-section { height: 300px; }
+	.video-section .pattern-overlay {
+	    padding: 50px 0 50px;
+	}
+	.page-scroll {
+        top: 255px;
+    }
+    video::-webkit-media-controls-start-playback-button {
+              display: none !important;
+            }
+	#ourValues.carousel .carousel-indicators-outer-container { display: none; }
+    #ourValues.carousel .carousel-caption {
+        position: relative;
+        bottom: auto;
+    }
+    #ourValues.carousel .carousel-caption .carousel-caption-content { position: relative !important; }
+    #ourValues.carousel .carousel-caption div h3,
+    #ourValues.carousel .carousel-inner .carousel-caption p { text-align: left; }
+    #ourValues.carousel .carousel-inner img {
+        height: auto;
+    }
+    .box-container.two .left {
+        background-position: 0 center;
+    }
+	.doors .left .section-container, 
+	.doors .right .section-container {
+	    width: 95%;
+	    float: left;
+	}
+	.box-container.two .box .section-container-content {
+	    width: 100%;
+	}
+	.box-container.two .box.right .section-container {
+		padding-left: 15px;
+	}
+    .box-container.three .box { padding-top: 20px; }
+	.mt125 { margin-bottom: 25px; }
+	.our-work { height: auto; padding-top: 0;}
+	.our-work .box-container .left .section-container .section-container-content {
+	    top: 0;
+	}
+	.our-work .section-container {
+	    height: auto;
+	}
+	.our-work .core-areas {
+	    text-align: left;
+	}
+    .our-work .onmobileview { display: none; }
+    .mfm p.merck-light-teal-text-color {
+                color: #13a29c !important;
+                font-weight: bold;
+            }
+	.discover-about-merck-section {
+
+	}
+		.discover-about-merck-section img.image-space-bottom {
+			margin-bottom: 15px;
+		}
+			.discover-about-merck-section p {
+				margin-bottom: 30px;
+			}
+	.mfm {
+	    background-position: -475px 0;
+	}
+
+			.box-container.three .box {
+			    height: 300px;
+			}
+			.box-container.three .box .section-container {
+			    height: 240px;
+			    position: relative;
+			}
+			.box-container.three .box .section-container-content {
+			    position: relative;
+			    top: 0;
+			}
+		
+}	
+		@media (max-width: 480px) {
+            h2, h3 {
+                font-size: 20px;
+            }
+			.video-section h1 {
+			    font-size: 30px;
+			}
+			.video-section h3 {
+			    font-size: 20px;
+			}
+			.video-section .pattern-overlay { min-height: 300px; }
+			.hero-section { height: 160px; }
+            .video-caption {
+                    font-size: 20px !important;
+            }
+            .video-caption2 {
+                font-size: 14px !important;
+            }
+			.page-scroll {
+			    top: 115px;
+			}
+            .get-to-know-merck {
+                font-size: 9px;
+                height: 75px;
+                width: 75px;
+            }
+            #vision-mission-section {
+                padding-bottom: 50px;
+                padding-top: 80px;
+            }
+            #ourValues.carousel .carousel-caption .carousel-caption-content { padding: 0 10px; }
+            #ourValues.carousel .carousel-inner .carousel-caption {
+                top: 5px;
+            }
+            .glyphicon-chevron-down.medium-text { font-size: 24px; }
+            .shareBtn-container { width: 100%; }
+            .shareBtn img {
+                float: right;
+                position: relative;
+                right: 5%;
+                width: 50%;
+            }
+            .ms-layer {
+                left: auto !important;
+                width: 100% !important;
+            }
+			#ourValues.carousel .carousel-indicators {
+				top: -10px;
+				overflow: hidden;
+				list-style: none;
+				background: none; /* IE8 fallback*/	
+				background: rgba(52, 56, 58, .0);
+			}
+			#ourValues.carousel .carousel-indicators li {
+				display: none;
+				width:300px;
+				height: auto;
+				color: #333333;
+				font-size: 16px;
+				text-align:left;
+				padding: 1px 1px 1px 10px ;
+			}
+			#ourValues.carousel .carousel-indicators .active {
+				display: list-item;
+				width:300px;
+				height: auto;
+				text-align:left;
+				color: #009c95;
+				background-color: #FFFFFF;
+				cursor: pointer;
+			}
+
+			#ourValues.carousel p {
+				font-size: 18px;
+			}
+			#ourValues.carousel .carousel-caption {
+			    left: 0;
+			    padding: 5px 0 0;
+			    top: 75px;
+			    width: 100%;
+			    opacity: .9;
+			    height: 100%;
+			}
+				#ourValues.carousel .carousel-caption div {
+					margin: 0;
+    				width: 100%
+				}
+                #ourValues.carousel .carousel-caption .carousel-caption-content-container {
+                    height: 350px;
+                    position: relative;
+                }
+                #ourValues.carousel .carousel-caption .carousel-caption-content {
+                    position: absolute;
+                    bottom: 10px;
+                    background: #fff;
+                    padding: 10px;
+                }
+					#ourValues.carousel .carousel-caption div h3 { 
+						margin: 0; 
+						font-size: 20px;
+					}
+					#ourValues.carousel .carousel-caption div p { 
+                        font-size: 16px; 
+                        /*background: #fff;
+                        padding: 10px;
+                        position: relative;
+                        top: 165px;*/
+                    }
+					#ourValues.carousel .carousel-caption div p a { padding: 5px; }
+                    .box-container.two .box {
+                        height: 500px;
+                    }
+                    .box-container.two .left {
+                        background-position: -275px 0;
+                    }
+                    .box-container.two .box .section-container {
+                        height: 440px;
+                    }
+			.doors .left .section-container, .doors .right .section-container {
+			    float: left;
+			    width: 92%;
+			}
+			
+			.mfm p.counter.merck-light-teal-text-color {
+                font-weight: normal;
+            }
+            .mfm .section-container .section-container-content p.description {
+                margin-bottom: 40px;
+            }
+			.box-container.three .box {
+			    height: 400px;
+			}
+			.box-container.three .box .section-container {
+			    height: 240px;
+			    position: relative;
+			}
+			.box-container.three .box .section-container-content {
+			    position: relative;
+			    top: 0;
+			}
+            #ourValues.carousel .carousel-inner .carousel-caption p {
+                font-size: 16px;
+            }
+            /*.our-work { height: 1100px; }*/
+            .content-container.discover-about-merck-section { padding-top: 0; }
+            .mt125 {
+                margin-bottom: 0;
+            }
+            .no-space-bottom { margin-bottom: 40px !important; }
+		}

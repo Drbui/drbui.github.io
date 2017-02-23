@@ -1,0 +1,2021 @@
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+html.mm-background .mm-page {
+    overflow: hidden;
+}
+
+.content-section {
+    background: #fff;
+}
+
+.row.row-sm {
+    background: #fff;
+}
+
+
+/*==========  HIV Anniversary October 2015  ==========*/
+
+.lead {
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.container.fullwidth {
+    width: 100%;
+    padding-left: -15px;
+    padding-right: -15px;
+}
+
+.header_section {
+    background: transparent;
+}
+
+
+/*====================================
+=            HERO SECTION            =
+====================================*/
+
+.jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-bottom: 0px;
+}
+
+.jumbotron .jumbo-inner {
+    position: absolute;
+    top: 200px;
+    visibility: hidden;
+}
+
+.jumbotron .jumbo-inner h1 {
+    color: #6BCAD4;
+    line-height: 70px;
+    font-weight: bold;
+    /*visibility: visible;*/
+}
+
+.jumbotron .jumbo-inner p {
+    color: #ffffff;
+    margin-bottom: 0px;
+    line-height: 49px;
+}
+
+.jumbotron .jumbo-inner sup {
+    font-size: 50px;
+    line-height: 0;
+    position: relative;
+    top: 30px;
+}
+
+.jumbotron img {
+    width: 100%;
+}
+
+.hero-section #slideSpace {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.hero-section #slideSpace #slides_1 .slides-container {
+    background: url('http://www.merck.com/images/about/tired_bg_hero.jpg') no-repeat 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 900px;
+}
+
+.hero-section #slideSpace #slides_1 .slides-container img#heroImages {
+    padding-top: 122px;
+}
+
+.heros-section #slideSpace #slides_1 .slide-container .slides-header-content {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    text-align: right;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------
+\
+/* Carousel base class */
+
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+    z-index: 10;
+}
+
+
+/* Declare heights because of positioning of img element */
+
+.carousel .item {
+    height: 500px;
+    background-color: #777;
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+
+/*=======================================
+=            CONTENT-SECTION            =
+=======================================*/
+
+.content-section {
+    padding: 55px 0;
+}
+
+.content-section p {
+    color: #243444;
+    line-height: 1.3;
+}
+
+.content-section p.lead {
+    color: #6176a3;
+    padding: 0px;
+    text-align: center;
+}
+
+.content-section h2 {
+    color: #6176A3;
+}
+
+.content-section.one h3 {
+    color: #6E0048;
+}
+
+.content-section.two {
+    background-color: #CEEBEE;
+}
+
+.content-section.two p {
+    color: #243444;
+}
+
+.content-section.three {
+    background-color: #6BCAD4;
+}
+
+.content-section.three p {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.content-section.three .info {
+    padding-top: 15px;
+}
+
+.content-section.three .text-bottom {
+    padding-top: 80px;
+    text-align: center;
+    /*font-size: 28px;*/
+}
+
+
+/*=======================================
+=            QUOTE-SECTION              =
+=======================================*/
+
+.alz-quotes .quote {
+    background-image: url("http://www.merck.com/images/about/quote-mark.png");
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.alz-quotes .caption,
+.alz-quotes .quote {
+    position: relative;
+}
+
+
+/*.alz-quotes .container {
+    width: 100%;
+} */
+
+.alz-quotes .quote {
+    line-height: 1;
+    font-weight: bold;
+}
+
+.alz-quotes .text-container {
+    position: absolute;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+}
+
+.alz-quotes {
+    background-image: url("http://www.merck.com/images/about/alz_bg_kerr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+
+/*=======================================
+=            ART-FOR-ALL-SECTION        =
+=======================================*/
+
+.art-for-all {
+    background-image: url("http://www.merck.com/images/about/alz_bg_art.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    color: #009994;
+}
+
+.art-for-all h2 {
+    color: #6176A3;
+}
+
+.art-for-all p {}
+
+.art-for-all .btn-default {
+    border: medium none;
+    border-radius: 5px;
+    padding: 6px 30px;
+    color: #FFF;
+    background-color: #13A29C;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+
+/*=====================================
+=            STATS SECTION            =
+=====================================*/
+
+.scroller-stats {
+    color: #243444;
+    background-color: #FFFFFF;
+    padding: 34px 0 53px;
+    text-align: center;
+}
+
+.scroller-stats #count-one.timer {
+    margin-left: -5px !important;
+}
+
+.scroller-stats .countOne-scroll .col-lg-2,
+.scroller-stats .countOne-scroll .col-md-2 {
+    padding: 0px;
+    width: 11%;
+}
+
+.scroller-stats .countOne-scroll .col-lg-3,
+.scroller-stats .countOne-scroll .col-md-3 {
+    padding-top: 40px;
+}
+
+.scroller-stats a {
+    color: #243444;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.scroller-stats .scroller-image {
+    display: inline-block;
+}
+
+.scroller-stats .scroller-image img {
+    /*max-height: 267px;*/
+    margin-bottom: 20px;
+}
+
+.scroller-stats .count-one-text,
+.scroller-stats .count-two-text {
+    text-align: center;
+    line-height: 1;
+}
+
+.number-scroller p {
+    font-size: 22px;
+}
+
+.number-scroller p.h2 {
+    color: #000;
+    font-weight: normal;
+}
+
+.scroller-stats .scroller1,
+.scroller-stats .scroller2 {
+    font-weight: bold;
+}
+
+
+/*===========================================
+=            DIVIDER SECTIONS               =
+===========================================*/
+
+.divider-one {
+    background-color: #6BCAD3;
+    height: 100%;
+    color: #243444;
+}
+
+.divider-one .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.divider-one p {
+    color: #243444;
+    font-size: 26px;
+}
+
+.divider-two {
+    background-color: #243444;
+    height: 100%;
+    padding: 20px 0;
+}
+
+.divider-two p {
+    color: #6BCAD4;
+    padding: 20px 50px;
+}
+
+.divider-three {
+    background-color: #243444;
+    height: 100%;
+    color: #6BCAD4;
+}
+
+.divider-three .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.divider-three p {
+    color: #6BCAD4;
+}
+
+.divider-four {
+    background-color: #6BCAD4;
+    height: 100%;
+}
+
+.divider-four p {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.divider-five {
+    background-color: #DFF2F5;
+    height: 100%;
+}
+
+.divider-five .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.divider-five p {
+    color: #243444;
+}
+
+.divider-five h2 {
+    color: #6176A3;
+}
+
+.divider-six {
+    background-color: #DFF2F5;
+    height: 100%;
+}
+
+.divider-six p {
+    color: #243444;
+}
+
+.divider-six h3 {
+    color: #149A95;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+
+/*=======================================
+=            RESOURCES SECTION          =
+=======================================*/
+
+.resources-icons {
+    background-color: #C8E5EC;
+}
+
+
+/*=======================================
+=            Toll Section               =
+=======================================*/
+
+.toll .container {
+    /* width: 100%; */
+    overflow: hidden;
+}
+
+.toll .container .caretakers,
+.toll .container .healthcare {
+    padding: 0;
+    margin: 0;
+}
+
+.toll .container .toll-bg {
+    width: 100%;
+}
+
+.toll .circle {
+    background-color: rgba(36, 52, 68, .8);
+    position: relative;
+    border-radius: 100000px;
+    color: #ffffff;
+    font-weight: bold;
+    opacity: 1;
+    transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .15s ease-in-out;
+    -o-transition: opacity .15s ease-in-out;
+}
+
+.toll .container .fadein {
+    position: absolute;
+    top: 0px;
+    background-color: rgba(36, 52, 68, .8);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .15s ease-in-out;
+    -o-transition: opacity .15s ease-in-out;
+}
+
+.toll .container .fadein .text-container {
+    width: 65%;
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.toll .fadein h2 {
+    color: #EDD60D;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.1em;
+}
+
+.toll .fadein p {
+    color: #ffffff;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+
+/* =====================================
+=            video section            =
+=====================================*/
+
+.video-box .img-responsive,
+.video-box audio {
+    width: 100%;
+}
+
+.video-box-heading {
+    padding: 75px 0 0px;
+    border-bottom: 8px solid #890059;
+}
+
+.video-box .col-lg-12,
+.video-box .col-md-12 {
+    padding-right: 0px;
+}
+
+.video-box .col-lg-8,
+.video-box .col-sm-8 {
+    padding-right: 0px;
+}
+
+.video-box {
+    background: -webkit-linear-gradient(right, #009994 50%, #90A33D 50%);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #009994 50%, #90A33D 50%);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #009994 50%, #90A33D 50%);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #009994 50%, #90A33D 50%);
+    padding: 50px 0 50px 0;
+}
+
+.video-box .col-lg-4,
+.video-box .col-md-4,
+.video-box .col-sm-4 {
+    padding-right: 0px;
+    width: 33.2%;
+}
+
+.video-two-three .col-lg-6,
+.video-two-three .col-md-6,
+.video-two-three .col-sm-6 {
+    padding-bottom: 16px;
+    padding-right: 0px;
+    width: 50%;
+}
+
+.video-four-five .col-lg-6,
+.video-four-five .col-md-6,
+.video-four-five .col-sm-6 {
+    padding-right: 0px;
+}
+
+.video-box .video-title p {
+    color: #ffffff;
+    text-align: center;
+}
+
+.video-box .video-title img.icon {
+    display: inline;
+}
+
+.video-box .video-caption p {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.row .video-box .container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-box .column-container .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+body {
+    font-family: "UniversLTW01-47LightCn", "Arial Narrow", Arial, sans-serif;
+    font-size: 16px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #fff;
+}
+
+.border-left {
+    border-left: 1px solid #fff;
+}
+
+.uppercase {
+    text-decoration: uppercase;
+}
+
+.border-left {
+    border-left: 1px solid #ccc;
+}
+
+.spacing {
+    margin-bottom: 30px;
+}
+
+.spacing-10px {
+    margin: 10px 0;
+}
+
+.fa-search {
+    color: #fff;
+}
+
+.fa-twitter,
+.fa-facebook,
+.fa-envelope-o {
+    font-size: 1.5em;
+    margin-top: 28px;
+    position: relative;
+    left: 40px;
+}
+
+input[type=search] {
+    background: transparent url('http://www.merck.com/images/search-black.png') no-repeat 9px center;
+    border: none;
+    padding: 9px 28px 9px 32px;
+    width: 55px;
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    border-radius: 10em;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+input[type=search]:focus {
+    width: 130px;
+    background-color: #fff;
+    border-color: #6dcff6;
+    -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+    -moz-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+    box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+}
+
+
+/* placeholder */
+
+input:-moz-placeholder {
+    color: #999;
+}
+
+input::-webkit-input-placeholder {
+    color: #999;
+}
+
+.content-container {
+    padding: 25px 0;
+}
+
+.content-container h4 {
+    color: #71fadf;
+    font-size: 30px;
+}
+
+.content-container p {
+    color: #fff;
+}
+
+.footer-container {
+    background: #00877c;
+    padding: 15px 0;
+}
+
+footer ul li {
+    color: #fff;
+}
+
+footer ul li a {
+    color: #fff;
+}
+
+footer ul li a:hover {
+    color: #fff;
+}
+
+footer p {
+    color: #fff;
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'feathericons';
+    src: url('../fonts/feathericons/feathericons3869.html?-8is7zf');
+    src: url('../fonts/feathericons/feathericonsd41d.html?#iefix-8is7zf') format('embedded-opentype'), url('../fonts/feathericons/feathericons3869-2.html?-8is7zf') format('woff'), url('../fonts/feathericons/feathericons3869-3.html?-8is7zf') format('truetype'), url('../fonts/feathericons/feathericons3869-4.html?-8is7zf#feathericons') format('svg');
+}
+
+
+/*======================================
+=            media quieries            =
+======================================*/
+
+@media (max-width: 991px) {
+    .divider-two p {
+        padding: 20px 0;
+    }
+    .content-section {
+        padding: 25px 0;
+    }
+    .video-box .container {
+        width: 100%;
+    }
+    .video-box .column-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .video-box .column-container .row {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .links-image {
+        max-width: 80%;
+    }
+    .art-for-all p {
+        text-shadow: .5px 0.5px black;
+    }
+    /*.row .video-box .container, .row .toll .container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }*/
+    .row .video-box .healthcare,
+    .row .video-box .caretakers {
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 479px) {
+    .video-box .column-container .row {
+        width: 100%;
+        margin: auto;
+    }
+    .art-for-all .col-xs-7 {
+        width: 100%;
+    }
+}
+
+@media (max-device-width: 320px) {
+    .jumbotron {
+        padding: 0px;
+    }
+    .jumbotron .jumbo-inner {
+        position: absolute;
+        top: 100px;
+        visibility: hidden;
+    }
+    .hands-divider {
+        background: url('http://www.merck.com/images/about/bg_hands.jpg') no-repeat 0 0;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 175px;
+    }
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {
+    .divider-two p {
+        font-size: 16px;
+    }
+    .jumbotron {
+        padding: 0px;
+    }
+    .video-box {
+        padding: 0px;
+    }
+    .video-box .column-container {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .video-box .video-text {
+        text-align: center;
+    }
+    .video-box .video iframe {
+        width: 600px;
+        height: 451px;
+    }
+    .video-box .video-title p {
+        font-size: 18px;
+    }
+    .video-box .video-caption p {
+        color: #FFF;
+        font-size: 17px;
+    }
+    .video-box .column-container.left {
+        /*padding-right: 0px;*/
+        background-color: #90A33D;
+    }
+    .video-box .column-container.right {
+        /*padding-right: 0px;*/
+        background-color: #009994;
+    }
+    .video-box .video.right {
+        padding-top: 0px;
+    }
+    .video-box .video-title img.icon {
+        width: 20px;
+        margin: 1px 5px 5px;
+    }
+    .video-box .video-caption {
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+    .shareBtn {
+        position: relative;
+        visibility: visible;
+        top: -90px;
+        right: 30px;
+        width: 80px;
+    }
+    .jumbotron .jumbo-inner {
+        position: absolute;
+        top: 85px;
+        visibility: hidden;
+        width: 95%;
+    }
+    .jumbotron .jumbo-inner h1 {
+        font-size: 13px;
+        line-height: 13px;
+        margin-bottom: 0px;
+        padding-left: 20px;
+    }
+    .jumbotron .jumbo-inner p {
+        font-size: 13px;
+        margin-bottom: 0px;
+        line-height: 10px;
+        padding-left: 20px;
+        width: 243px;
+    }
+    .jumbotron .jumbo-inner sup {
+        font-size: 30px;
+        line-height: 0;
+        position: relative;
+        top: 15px;
+    }
+    .jumbotron .jumbo-inner .text-container {
+        width: 220px;
+    }
+    .row-sm {
+        height: 150px;
+    }
+    .content-section {
+        padding: 25px 0 25px;
+    }
+    .content-section p {
+        font-size: 16px;
+        padding: 0px;
+    }
+    .divider-one p {
+        font-size: 13px;
+        padding: 0 15px 0 15px;
+    }
+    .divider-one div.container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .divider-two {
+        padding: 0px;
+    }
+    .divider-two p {
+        font-size: 28px;
+    }
+    .divider-three p {
+        font-size: 18px;
+    }
+    .divider-four p {
+        font-size: 28px;
+    }
+    .divider-four {
+        padding: 20px 0px;
+    }
+    .divider-five .container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .divider-six {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .content-section p.lead {
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+    .content-section h2 {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .content-section.one h3 {
+        font-size: 18px;
+        margin: 0px 0px 20px;
+    }
+    .content-section .inline-logo {
+        display: inline-block;
+    }
+    .content-section.one .inline-logo {
+        float: right;
+        width: 80px;
+        margin-left: 10px;
+    }
+    .content-section.three .inline-logo {
+        float: left;
+        width: 80px;
+        margin-right: 10px;
+    }
+    .content-section.four .inline-logo {
+        float: right;
+        width: 80px;
+        margin-left: 10px;
+    }
+    .content-section.two .trials-image {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-section.two .trials-image.extrapad {
+        padding-top: 18px;
+        padding-bottom: 22px;
+    }
+    .content-section.three .info p {
+        padding-bottom: 15px;
+        max-width: 100%;
+        left: 0%;
+        position: relative;
+        text-align: center;
+    }
+    .content-section.three .lead {
+        position: relative;
+        height: initial;
+    }
+    .content-section.three p.lead.extrapad {
+        padding-top: initial;
+    }
+    .content-section.three .text-bottom {
+        padding-top: 10px;
+    }
+    .content-section.one,
+    .content-section.two,
+    .content-section.four {
+        padding-bottom: 15px;
+    }
+    .scroller-stats {
+        padding: 5px 0px 5px;
+    }
+    .scroller-stats .scroller-item {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .scroller-stats .pre-scroller,
+    .scroller-stats .post-scroller {
+        font-size: 13px;
+    }
+    .scroller-stats .scroller1,
+    .scroller-stats .scroller3 {
+        font-size: 52px;
+    }
+    .scroller-stats .scroller-image .extrapad {
+        padding-top: 25px;
+    }
+    .scroller-stats .scroller-image img {
+        max-height: 190px;
+    }
+    .scroller-stats p {
+        font-size: 22px;
+    }
+    .scroller-stats p.smaller {
+        font-size: 19px;
+    }
+    .alz-quotes {
+        height: 230px;
+        background-position: -191px top;
+    }
+    .alz-quotes .quotes-inner .caption {
+        font-size: 12px;
+        top: 160px;
+        margin-left: 44px;
+        width: 115px;
+    }
+    .alz-quotes .quotes-inner .quote {
+        font-size: 14px;
+        width: 56%;
+        float: right;
+        background-size: 32px auto;
+        margin-top: -65px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .resources-icons img {
+        width: 70%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .toll .circle {
+        width: 160px;
+        height: 160px;
+        padding-top: 20px;
+        margin-top: -70%;
+        margin-bottom: 94%;
+        font-size: 15px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .toll .container .fadein p {
+        font-size: 14px;
+        width: 98%;
+        margin-left: 1%;
+        line-height: 1;
+    }
+    .toll .container .fadein h2 {
+        font-size: 26px;
+        line-height: .9;
+    }
+    .toll .container .caretakers,
+    .toll .container .healthcare {
+        margin-bottom: -283px;
+    }
+    .toll .caretakers .circle img {
+        width: 80px;
+    }
+    .toll .healthcare .circle img {
+        width: 110px;
+    }
+    .toll .container .fadein .text-container {
+        padding-top: 0px;
+        margin: auto;
+    }
+    .toll .container .text-subcontainer {
+        margin-top: 12px;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {
+    .video-box {
+        padding: 0px;
+    }
+    .video-box .column-container {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .video-box .video-text {
+        text-align: center;
+    }
+    .video-box .video iframe {
+        width: 600px;
+        height: 451px;
+    }
+    .video-box .video-title p {
+        font-size: 25px;
+    }
+    .video-box .video-caption p {
+        color: #FFF;
+        font-size: 17px;
+    }
+    .video-box .column-container.left {
+        /*padding-right: 0px;*/
+        background-color: #90A33D;
+    }
+    .video-box .column-container.right {
+        /*padding-right: 0px;*/
+        background-color: #009994;
+    }
+    .video-box .video.right {
+        padding-top: 0px;
+    }
+    .video-box .video-title img.icon {
+        width: 40px;
+        margin: 5px 15px 10px;
+    }
+    .video-box .video-caption {
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+    .divider-two {
+        padding: 0px;
+    }
+    .divider-two p {
+        font-size: 28px;
+    }
+    .divider-three p {
+        font-size: 22px;
+    }
+    .divider-four p {
+        font-size: 26px;
+    }
+    .divider-four {
+        padding: 20px 0px;
+    }
+    .divider-five .container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .divider-six {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .video-box .video iframe {
+        width: 420px;
+        height: 315px;
+    }
+    .jumbotron {
+        padding: 0px;
+    }
+    .shareBtn {
+        position: relative;
+        top: -120px;
+        right: 30px;
+        width: 90px;
+    }
+    .st_sharethis_custom {
+        top: -125px;
+    }
+    .jumbotron .jumbo-inner {
+        position: absolute;
+        top: 85px;
+        visibility: hidden;
+        width: 97%;
+    }
+    .jumbotron .jumbo-inner h1 {
+        font-size: 25px;
+        line-height: 25px;
+        margin-top: 15px;
+    }
+    .jumbotron .jumbo-inner p {
+        font-size: 15px;
+        margin-bottom: 0px;
+        line-height: 14px;
+        padding-left: 20px;
+        width: 353px;
+    }
+    .jumbotron .jumbo-inner .text-container {
+        width: 358px;
+    }
+    .row-sm {
+        height: 205px;
+    }
+    .content-section p {
+        font-size: 18px;
+        padding: 0 0px;
+    }
+    .content-section h2 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .content-section.one h3 {
+        font-size: 20px;
+    }
+    .divider-one p {
+        font-size: 17px;
+        padding: 0 20px;
+    }
+    .content-section.one .inline-logo {
+        width: 120px;
+        padding-bottom: 10px;
+    }
+    .content-section.three .inline-logo {
+        width: 120px;
+    }
+    .content-section.four .inline-logo {
+        width: 120px;
+        padding-bottom: 10px;
+    }
+    .content-section.two .trials-image {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-section.two .trials-image.extrapad {
+        padding-top: 40px;
+        padding-bottom: 21px;
+    }
+    .content-section.three .lead {
+        position: relative;
+    }
+    .content-section.three .info p {
+        padding-bottom: 15px;
+        /* max-width: 80%;
+            left: 10%; */
+        position: relative;
+        text-align: center;
+    }
+    .content-section.three .text-bottom {
+        padding-top: 10px;
+    }
+    .content-section.one,
+    .content-section.two,
+    .content-section.four {
+        padding-bottom: 50px;
+    }
+    .scroller-stats {
+        padding: 34px 0px 40px;
+    }
+    .scroller-stats .scroller-item {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .scroller-stats .pre-scroller,
+    .scroller-stats .post-scroller {
+        font-size: 22px;
+    }
+    .scroller-stats .scroller1,
+    .scroller-stats .scroller3 {
+        font-size: 50px;
+    }
+    .scroller-stats .scroller-image .extrapad {
+        padding-top: 35px;
+    }
+    .scroller-stats .scroller-image img {
+        max-height: 267px;
+    }
+    .scroller-stats p {
+        font-size: 31px;
+    }
+    .scroller-stats p.smaller {
+        font-size: 26px;
+    }
+    .alz-quotes {
+        height: 203px;
+        background-position: -112px top;
+    }
+    .alz-quotes .quotes-inner .caption {
+        font-size: 14px;
+        top: 136px;
+        margin-left: 57px;
+        width: 154px;
+    }
+    .alz-quotes .quotes-inner .quote {
+        font-size: 16px;
+        width: 50%;
+        float: right;
+        background-size: 32px auto;
+        margin-top: -57px;
+    }
+    .resources-icons img {
+        width: 70%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .toll .circle {
+        width: 200px;
+        height: 200px;
+        padding-top: 45px;
+        margin-top: -70%;
+        margin-bottom: 89%;
+        font-size: 20px;
+    }
+    .toll .container .fadein p {
+        font-size: 20px;
+        width: 98%;
+        margin-left: 1%;
+        line-height: 1;
+    }
+    .toll .container .fadein h2 {
+        font-size: 50px;
+        line-height: .9;
+    }
+    .toll .container .caretakers,
+    .toll .container .healthcare {
+        margin-bottom: -350px;
+    }
+    .toll .caretakers .circle img {
+        width: 80px;
+    }
+    .toll .healthcare .circle img {
+        width: 110px;
+    }
+    .toll .container .fadein .text-container {
+        padding-top: 0px;
+    }
+    .toll .container .text-subcontainer {
+        margin-top: 40px;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+    .video-box {
+        padding: 0px;
+    }
+    .video-box .column-container {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .video-box .video-text {
+        text-align: center;
+    }
+    .video-box .video iframe {
+        width: 600px;
+        height: 451px;
+    }
+    .video-box .video-title p {
+        font-size: 50px;
+    }
+    .video-box .video-caption p {
+        color: #FFF;
+        font-size: 18px;
+    }
+    .video-box .column-container.left {
+        /*padding-right: 0px;*/
+        background-color: #90A33D;
+    }
+    .video-box .column-container.right {
+        /*padding-right: 0px;*/
+        background-color: #009994;
+    }
+    .video-box .video.right {
+        padding-top: 24px;
+    }
+    .video-box .video-title img.icon {
+        width: 70px;
+        margin: 0px 15px 10px;
+    }
+    .video-box .video-caption {
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+    .divider-one p {
+        font-size: 21px;
+        padding: 5px 20px;
+    }
+    .divider-two {
+        background-color: #243444;
+        height: 100%;
+        padding: 20px 0px;
+    }
+    .divider-two p {
+        font-size: 35px;
+        padding: 10px;
+    }
+    .divider-three p {
+        font-size: 21px;
+    }
+    .divider-four p {
+        font-size: 38px;
+        padding: 10px;
+    }
+    .divider-five .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .divider-five p,
+    .divider-six p {
+        font-size: 22px;
+    }
+    .divider-six .container {
+        padding: 30px;
+    }
+    .shareBtn {
+        position: relative;
+        top: -200px;
+        right: -222px;
+    }
+    .jumbotron .jumbo-inner {
+        position: absolute;
+        top: 110px;
+        visibility: hidden;
+        width: 498px;
+    }
+    .jumbotron .jumbo-inner h1 {
+        font-size: 40px;
+        line-height: 48px;
+        margin-top: 0px;
+    }
+    .jumbotron .jumbo-inner p {
+        font-size: 21px;
+        margin-bottom: 0px;
+        line-height: 18px;
+        width: 100%;
+    }
+    .jumbotron .jumbo-inner sup {
+        font-size: 40px;
+        line-height: 0;
+        position: relative;
+        top: 25px;
+    }
+    .jumbotron .jumbo-inner .text-container {
+        width: 498px;
+    }
+    .content-section h2,
+    .art-for-all h2,
+    .divider-five h2 {
+        font-size: 26px;
+    }
+    .content-section p.lead {
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 1.4;
+        text-transform: uppercase;
+    }
+    .content-section.one h3 {
+        font-size: 21px;
+        margin: 20px 0px;
+    }
+    .content-section p {
+        font-size: 18px;
+        padding: 10px 0px 0px;
+    }
+    .content-section.two .trials-image {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-section.two .trials-image.extrapad {
+        padding-top: 81px;
+        padding-bottom: 21px;
+    }
+    .content-section.three p {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+    .content-section.three .info p {
+        padding-bottom: 15px;
+        max-width: 450px;
+        left: 16.5%;
+        position: relative;
+        text-align: center;
+    }
+    .content-section.three .lead {
+        position: relative;
+    }
+    .content-section.three .text-bottom {
+        font-size: 20px;
+        padding-top: 80px;
+    }
+    .content-section.four .icon {
+        margin-top: 0px;
+    }
+    .scroller-stats {
+        padding: 34px 0px 0px;
+    }
+    .scroller-stats .scroller-item {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .content-section.one,
+    .content-section.two,
+    .content-section.four {
+        padding-bottom: 25px;
+    }
+    .scroller-stats .pre-scroller,
+    .scroller-stats .post-scroller {
+        font-size: 28px;
+    }
+    .scroller-stats .scroller1,
+    .scroller-stats .scroller3 {
+        font-size: 52px;
+    }
+    .scroller-stats .scroller-image .extrapad {
+        padding-top: 25px;
+    }
+    .scroller-stats .scroller-image img {
+        max-height: 163px;
+    }
+    .scroller-stats p {
+        font-size: 16px;
+    }
+    .scroller-stats p.smaller {
+        font-size: 15px;
+    }
+    .alz-quotes {
+        background-position: -180px top;
+        height: 315px;
+    }
+    .alz-quotes .quotes-inner .caption {
+        font-size: 20px;
+        top: 205px;
+        margin-left: 90px;
+        width: 260px;
+    }
+    .alz-quotes .quotes-inner .quote {
+        font-size: 21px;
+        width: 50%;
+        float: right;
+        background-size: 40px;
+        margin-top: -15px;
+    }
+    .art-for-all {
+        background-position: right bottom;
+    }
+    .art-for-all p {
+        font-size: 17px;
+        width: 80%;
+    }
+    .art-for-all .btn-default {
+        font-size: 25px;
+    }
+    .art-for-all .container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .resources-icons {
+        padding: 30px 0px;
+    }
+    .resources-icons img {
+        width: 100%;
+    }
+    .toll .circle {
+        width: 350px;
+        height: 350px;
+        padding-top: 45px;
+        margin-top: -58%;
+        margin-bottom: 58%;
+        font-size: 38px;
+    }
+    .toll .container .fadein p {
+        font-size: 26px;
+        width: 98%;
+        margin-left: 1%;
+        line-height: 1;
+    }
+    .toll .container .fadein h2 {
+        font-size: 60px;
+        line-height: 1.1;
+    }
+    .toll .container .caretakers,
+    .toll .container .healthcare {
+        margin-bottom: -350px;
+    }
+    .toll .caretakers .circle img {
+        width: 150px;
+    }
+    .toll .healthcare .circle img {
+        width: 200px;
+    }
+    .toll .container .fadein .text-container {
+        padding-top: 30px;
+    }
+    .toll .container .text-subcontainer {
+        margin-top: 40px;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+    .video-box {
+        padding: 50px 0px;
+    }
+    .video-box .column-container {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .video-box .video iframe {
+        width: 480px;
+        height: 305px;
+    }
+    .video-box .video-title p {
+        font-size: 32px;
+    }
+    .video-box .video-caption p {
+        color: #FFF;
+        font-size: 20px;
+    }
+    .video-box .column-container.left {
+        padding-right: 50px;
+        padding-left: 0px;
+        background-color: none;
+    }
+    .video-box .column-container.right {
+        padding-left: 50px;
+        padding-right: 0px;
+        background-color: none;
+    }
+    .video-box .video.right {
+        padding-top: 23px;
+    }
+    .video-box .video-title img.icon {
+        width: 60px;
+        margin: 0 15px 10px;
+    }
+    .video-box .video-caption {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .divider-one p {
+        padding: 10px;
+        font-size: 28px;
+    }
+    .divider-two p {
+        font-size: 40px;
+        padding: 20px;
+    }
+    .divider-three p {
+        font-size: 26px;
+    }
+    .divider-four p {
+        font-size: 35px;
+    }
+    .divider-four .container {
+        padding: 35px 0;
+    }
+    .divider-five p,
+    .divider-six p {
+        font-size: 25px;
+    }
+    .divider-six .container {
+        padding: 30px;
+    }
+    .shareBtn {
+        position: relative;
+        right: -265px;
+        top: -260px;
+    }
+    .video-box .video-text {
+        padding: 0px 0 5px !important;
+        text-align: center;
+    }
+    .jumbotron .jumbo-inner {
+        top: 145px;
+        width: 677px;
+    }
+    .jumbotron .jumbo-inner .text-container {
+        width: 677px;
+    }
+    .jumbotron .jumbo-inner h1 {
+        font-size: 55px;
+        line-height: 58px;
+    }
+    .jumbotron {
+        padding-top: 105px;
+    }
+    .jumbotron .jumbo-inner p {
+        font-size: 30px;
+        margin-bottom: 0px;
+        line-height: 27px;
+    }
+    .jumbotron .jumbo-inner sup {
+        font-size: 40px;
+        line-height: 0;
+        position: relative;
+        top: 25px;
+    }
+    .row-sm {
+        height: 230px;
+    }
+    .content-section.one h3 {
+        font-size: 25px;
+        padding: 20px 0px;
+    }
+    .content-section p {
+        font-size: 20px;
+        padding: 15px 0px 0px;
+    }
+    .content-section h2,
+    .art-for-all h2,
+    .divider-five h2 {
+        font-size: 33px;
+    }
+    .content-section.two .trials-image {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-section.two .trials-image.extrapad {
+        padding-top: 81px;
+        padding-bottom: 21px;
+    }
+    .content-section.three .info p {
+        padding-bottom: 0px;
+        max-width: 100%;
+    }
+    .content-section.three .lead {
+        position: relative;
+        height: 152px;
+        font-size: 28px;
+    }
+    .content-section.three p {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .content-section.four .icon {
+        margin-top: -28px;
+    }
+    .content-section.one,
+    .content-section.two,
+    .content-section.four {
+        padding-bottom: 50px;
+    }
+    .scroller-stats {
+        padding: 60px 0px 0px;
+    }
+    .scroller-stats .scroller-item {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .scroller-stats .pre-scroller,
+    .scroller-stats .post-scroller {
+        font-size: 23px;
+    }
+    .scroller-stats .scroller1,
+    .scroller-stats .scroller3 {
+        font-size: 52px;
+    }
+    .scroller-stats .scroller-image .extrapad {
+        padding-top: 35px;
+    }
+    .scroller-stats .scroller-image img {
+        max-height: 217px;
+    }
+    .scroller-stats p {
+        font-size: 22px;
+    }
+    .scroller-stats p.smaller {
+        font-size: 20px;
+    }
+    .alz-quotes {
+        background-position: -215px top;
+        height: 378px;
+    }
+    .alz-quotes .quotes-inner .caption {
+        font-size: 20px;
+        top: 240px;
+        margin-left: 142px;
+        width: 260px;
+    }
+    .alz-quotes .quotes-inner .quote {
+        font-size: 27px;
+        width: 50%;
+        float: right;
+        background-size: 45px;
+        margin-top: 0px;
+    }
+    .art-for-all {
+        background-position: right bottom;
+    }
+    .art-for-all p {
+        font-size: 20px;
+        width: 80%;
+    }
+    .art-for-all .btn-default {
+        font-size: 30px;
+    }
+    .art-for-all .container {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .resources-icons {
+        padding: 24px;
+    }
+    .toll .circle {
+        width: 200px;
+        height: 200px;
+        padding-top: 45px;
+        margin-top: -70%;
+        margin-bottom: 94%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .toll .container .fadein p {
+        font-size: 20px;
+        width: 98%;
+        margin-left: 1%;
+        line-height: 1;
+    }
+    .toll .container .fadein h2 {
+        font-size: 50px;
+        line-height: .9;
+    }
+    .toll .container .caretakers,
+    .toll .container .healthcare {
+        margin-bottom: -350px;
+    }
+    .toll .caretakers .circle img {
+        width: 80px;
+    }
+    .toll .healthcare .circle img {
+        width: 110px;
+    }
+    .toll .container . .fadein .text-container {
+        padding-top: 0px;
+        width: 485px;
+    }
+    .toll .container .text-subcontainer {
+        margin-top: 40px;
+    }
+    .toll .container .caretakers:hover .fadein {
+        opacity: 1 !important;
+    }
+    .toll .container .caretakers:hover .circle {
+        opacity: 0 !important;
+    }
+    .toll .container .healthcare:hover .fadein {
+        opacity: 1 !important;
+    }
+    .toll .container .healthcare:hover .circle {
+        opacity: 0 !important;
+    }
+    .toll .container .caretakers .fadein .text-container {
+        float: right;
+        margin-right: 5.5%;
+    }
+    .toll .container .caretakers .circle {
+        float: right;
+        margin-right: 20.5%;
+    }
+    .toll .container .healthcare .fadein .text-container {
+        float: left;
+        margin-left: 5.5%;
+    }
+    .toll .container .healthcare .circle {
+        float: left;
+        margin-left: 20.5%;
+    }
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {
+    .shareBtn {
+        position: relative;
+        right: -475px;
+        top: -315px;
+    }
+    .jumbotron .jumbo-inner h1 {
+        font-size: 55px;
+        line-height: 70px;
+        padding-top: 30px;
+    }
+    .jumbotron .jumbo-inner p {
+        font-size: 30px;
+        margin-bottom: 0px;
+        line-height: 27px;
+        padding-top: 5px;
+    }
+    .jumbotron .jumbo-inner sup {
+        font-size: 50px;
+        line-height: 0;
+        position: relative;
+        top: 30px;
+    }
+    .video-box .video-title p {
+        font-size: 32px;
+    }
+    .video-box .video-title img.icon {
+        width: 60px;
+    }
+    .video-box .video.right {
+        padding-top: 28px;
+    }
+    .divider-one p {
+        font-size: 30px;
+        padding: 50px;
+    }
+    .divider-two p {
+        font-size: 45px;
+        font-weight: bold;
+    }
+    .divider-three p {
+        font-size: 33px;
+    }
+    .divider-four p {
+        font-size: 45px;
+    }
+    .divider-four .container {
+        padding: 40px 0;
+    }
+    .content-section p {
+        font-size: 25px;
+        padding: 25px 0px 5px;
+    }
+    .content-section.three p {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+    .content-section h2,
+    .art-for-all h2,
+    .divider-five h2 {
+        font-size: 40px;
+    }
+    .content-section.one h3 {
+        font-size: 35px;
+    }
+    .content-section.two .trials-image {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-section.two .trials-image.extrapad {
+        padding-top: 100px;
+        padding-bottom: 21px;
+    }
+    .content-section.three .lead {
+        position: relative;
+        height: 126px;
+        font-size: 30px;
+    }
+    .content-section.three p {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+    .content-section.one,
+    .content-section.two,
+    .content-section.four {
+        padding-bottom: 50px;
+    }
+    .scroller-stats .pre-scroller,
+    .scroller-stats .post-scroller {
+        font-size: 28px;
+    }
+    .scroller-stats .scroller1,
+    .scroller-stats .scroller3 {
+        font-size: 52px;
+    }
+    .scroller-stats .scroller-image .extrapad {
+        padding-top: 50px;
+    }
+    .scroller-stats .scroller-image img {
+        max-height: 267px;
+    }
+    .scroller-stats p {
+        font-size: 27px;
+    }
+    .scroller-stats p.smaller {
+        font-size: 24px;
+    }
+    .content-section.four .icon {
+        margin-top: -14px;
+    }
+    .video-box .video-title p {
+        font-size: 40px;
+    }
+    .alz-quotes {
+        background-position: left top;
+        height: 368px;
+    }
+    .alz-quotes .quotes-inner {
+        /*height: 370px;*/
+    }
+    .alz-quotes .quotes-inner .caption {
+        font-size: 20px;
+        top: 240px;
+        margin-left: 14.5%;
+        width: 260px;
+    }
+    .alz-quotes .quotes-inner .quote {
+        font-size: 32px;
+        width: 50%;
+        float: right;
+        margin-left: 545px;
+        background-size: initial;
+        margin-top: -40px;
+    }
+    .art-for-all p {
+        font-size: 35px;
+        width: 100%;
+    }
+    .art-for-all .btn-default {
+        font-size: 25px;
+    }
+    .art-for-all .container {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .divider-five h2,
+    .divider-six h3 {
+        font-size: 40px;
+    }
+    .divider-five p,
+    .divider-six p {
+        font-size: 30px;
+    }
+    .divider-six .container {
+        padding: 40px;
+    }
+    .resources-icons {
+        padding: 60px;
+    }
+    .resources-icons img {
+        padding: 20px;
+    }
+    .toll .circle {
+        width: 350px;
+        height: 350px;
+        padding-top: 45px;
+        margin-top: -58%;
+        margin-bottom: 58%;
+        font-size: 38px;
+    }
+    .toll .container .fadein p {
+        font-size: 26px;
+        width: 98%;
+        margin-left: 1%;
+        line-height: 1;
+    }
+    .toll .container .fadein h2 {
+        font-size: 60px;
+        line-height: 1.1;
+    }
+    .toll .container .caretakers,
+    .toll .container .healthcare {
+        margin-bottom: -350px;
+    }
+    .toll .caretakers .circle img {
+        width: 150px;
+    }
+    .toll .healthcare .circle img {
+        width: 200px;
+    }
+    .toll .container .fadein .text-container {
+        padding-top: 30px;
+        width: 520px;
+    }
+    .toll .container .text-subcontainer {
+        margin-top: 40px;
+    }
+}
+
+.st_sharethis_custom {
+    max-width: 134px;
+    height: auto;
+    float: right;
+}

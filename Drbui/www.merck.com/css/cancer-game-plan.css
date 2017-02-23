@@ -1,0 +1,1392 @@
+.content-section { background: #fff; }
+.row.row-sm { background: #fff; }
+
+/* ==========================================================================
+   0. PAGE GLOBALS
+   ========================================================================== */
+	h1 {
+		color: #6176a3;
+		font-size: 37px;
+		text-transform: uppercase;
+		line-height: 1em;
+	}
+	h2 {
+		color: #6176a3;
+		font-size: 30px;
+		line-height: 1.2em;
+		margin: 25px 0 8px 0;
+		padding: 0;
+	}
+	h3 {
+		margin-bottom: 0;
+	}
+	h1.small_title {
+		font-size: 45px;
+		padding: 0;
+	}
+	p {
+		font-size: 20px;
+		line-height: 1.2em;
+	}
+	.shareBtn {
+		cursor: pointer;
+		position: absolute;
+		top: 0;
+		right: 8%;
+		z-index: 99;
+   	}
+	.shareBtn img {
+		max-width: 90%;
+	}
+    .quote-large {
+        font-family: "Times New Roman",serif;
+		position: relative;
+		font-size: 110px;
+		line-height: 0.5em;
+		top: 40px;
+    }
+    .quote {
+        font-family: 'Times New Roman', serif;
+    }
+    blockquote {
+    	margin: 0 10px 20px 0;
+    	border: none;
+    }
+    blockquote p {
+        font-size: 28px !important;
+        font-weight: bold;
+    }
+    blockquote .caption {
+        font-size: 24px !important;
+        font-weight: normal;
+    }
+    img.video {
+    	width: 100%;
+    	padding: 0;
+    }
+    .pad30 {
+    	margin: 0 auto;
+    	padding: 30px 30px 0 30px;
+    }
+    .padleft20 {
+    	padding-left: 20px;
+    }
+    .padleft30 {
+    	padding-left: 30px;
+    }
+    .padleft40 {
+    	padding-left: 40px;
+    	margin-top: -8px;
+    }
+    .icon-padding {
+    	margin: 0 auto;
+    	padding: 20px;
+    }
+    .thumbnail {
+    	width: 18%;
+    	margin: 3px 8px 0 0;
+    	padding: 0;
+    }
+    .smaller-img {
+    	width: 85%;
+    	padding: 8px;
+    }
+	#button {
+	    display: inline-block;
+	    background: #009994 none repeat scroll 0 0;
+	    border: 1px solid #33cbc5;
+	    border-radius: 0;
+	    color: #fff;
+	    font-size: 18px;
+	    padding: 10px;
+	    transition: color 0.3s ease 0s, background-color 0.3s ease 0s, border-color 0.3s ease 0s;
+	    white-space: normal;
+	    text-transform: uppercase;
+	    text-decoration: none;
+	    z-index: 1;
+	}
+	#button:hover {
+		background: #f2f3f5 none repeat scroll 0 0;
+		text-decoration: none;
+		border: 1px solid #243444;
+		color: #243444;
+	}
+	.counter {
+		font-size: 68px;
+		line-height: 0.5em;
+	}
+	.no-line-height {
+		line-height: 0;
+	}
+	.counter span.superior {
+		position: absolute;
+		font-size: 50%;
+		top: -6%;
+	}
+	h1.below-counter {
+		margin: 0 auto;
+	}
+	p.counter-text {
+		font-size: 30px !important;
+		padding: 0 !important;
+	}
+	.header-img-adjust {
+		padding-top: 1.5%;
+	}
+	.header-img {
+
+	}
+	.header-img-adjust:after, .header-img:after {
+		clear: both;
+	}
+	.published{
+	    padding-top: 30px;
+	}
+	.published p{
+	    font-size: 15px;
+	    color: #676767;
+	}
+	.social-icon {
+		display: inline-block;
+		max-width: 6%;
+	}
+	.footer1 p {
+		font-size: 15px;
+	}
+
+/* __________________________________________________________________________________
+
+	SPACERS
+_____________________________________________________________________________________ */
+
+.spacer10 {
+	width: 100%;
+	height: 10px;
+	clear: both;
+	float: none;
+}
+
+.spacer20 {
+	width: 100%;
+	height: 20px;
+	clear: both;
+	float: none;
+}
+
+.spacer30 {
+	width: 100%;
+	height: 30px;
+	clear: both;
+	float: none;
+}
+
+.spacer40 {
+	width: 100%;
+	height: 40px;
+	clear: both;
+	float: none;
+}
+
+.spacer50 {
+	width: 100%;
+	height: 50px;
+	clear: both;
+	float: none;
+}
+
+.spacer60 {
+	width: 100%;
+	height: 60px;
+	clear: both;
+	float: none;
+}
+
+.spacer70 {
+	width: 100%;
+	height: 70px;
+	clear: both;
+	float: none;
+}
+
+.spacer80 {
+	width: 100%;
+	height: 80px;
+	clear: both;
+	float: none;
+}
+
+.spacer90 {
+	width: 100%;
+	height: 90px;
+	clear: both;
+	float: none;
+}
+
+.spacer100 {
+	width: 100%;
+	height: 100px;
+	clear: both;
+	float: none;
+}
+.no-padding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.embed-responsive.embed-responsive-16by9 {
+	position: relative;
+	padding-top: 0px;
+	padding-bottom: 51%;
+	height: 0;
+	overflow: hidden;
+}
+.embed-responsive.embed-responsive-16by9 object, .embed-responsive.embed-responsive-16by9 embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* __________________________________________________________________________________
+
+	COLORS
+_____________________________________________________________________________________ */
+
+
+	.bkgd_bluegray {
+		background-color: #243444;
+	}
+	.bkgd_white {
+		background-color: #ffffff;
+	}
+	.white {
+		color: #ffffff;
+	}
+	.teal {
+		color: #159a95;
+	}
+	.teal60 {
+		color: #52b8b7;
+	}
+	.teal40 {
+		color: #8dcbcb;
+	}
+	.teal20 {
+		color: #c4e1df;
+	}
+	.bkgd_teal {
+		background-color: #159a95;
+	}
+	.bkgd_teal60 {
+		background-color: #52b8b7;
+	}
+	.bkgd_teal40 {
+		background-color: #8dcbcb;
+	}
+	.bkgd_teal20 {
+		background-color: #c4e1df;
+	}
+	.lightteal {
+		color: #63ceca;
+	}
+	.lightteal60 {
+		color: #a9dde1;
+	}
+	.lightteal40 {
+		color: #c5e7eb;
+	}
+	.lightteal20 {
+		color: #e0f2f2;
+	}
+	.bkgd_lightteal {
+		background-color: #63ceca;
+	}
+	.bkgd_lightteal60 {
+		background-color: #a9dde1;
+	}
+	.bkgd_lightteal40 {
+		background-color: #c5e7eb;
+	}
+	.bkgd_lightteal20 {
+		background-color: #e0f2f2;
+	}
+	.purple {
+		color: #6d1548;
+	}
+	.purple60 {
+		color: #9b5e7f;
+	}
+	.purple40 {
+		color: #b88aa1;
+	}
+	.purple20 {
+		color: #d6bdc9;
+	}
+	.bkgd_purple {
+		background-color: #6d1548;
+	}
+	.bkgd_purple60 {
+		background-color: #9b5e7f;
+	}
+	.bkgd_purple40 {
+		background-color: #b88aa1;
+	}
+	.bkgd_purple20 {
+		background-color: #d6bdc9;
+	}
+	.darkgray {
+		color: #37424a;
+	}
+	.darkgray60 {
+		color: #66717e;
+	}
+	.darkgray40 {
+		color: #8e969f;
+	}
+	.darkgray20 {
+		color: #bfc1c9;
+	}
+	.bkgd_darkgray {
+		background-color: #37424a;
+	}
+	.bkgd_darkgray60 {
+		background-color: #66717e;
+	}
+	.bkgd_darkgray40 {
+		background-color: #8e969f;
+	}
+	.bkgd_darkgray20 {
+		background-color: #bfc1c9;
+	}
+	.lightgray {
+		color: #aaaaaa;
+	}
+	.bkgd_lightgray {
+		background-color: #e8e8e8;
+	}
+	.orange {
+		color: #d47b22;
+	}
+	.orange60 {
+		color: #fcb87d;
+	}
+	.orange40 {
+		color: #fed0a4;
+	}
+	.orange20 {
+		color: #fee5cc;
+	}
+	.bkgd_orange {
+		background-color: #d47b22;
+	}
+	.bkgd_orange60 {
+		background-color: #fcb87d;
+	}
+	.bkgd_orange40 {
+		background-color: #fed0a4;
+	}
+	.bkgd_orange20 {
+		background-color: #fee5cc;
+	}
+	.green {
+		color: #879637;
+	}
+	.green60 {
+		color: #b7c381;
+	}
+	.green40 {
+		color: #cbd3a5;
+	}
+	.green20 {
+		color: #e0e6ce;
+	}
+	.bkgd_green {
+		background-color: #879637;
+	}
+	.bkgd_green60 {
+		background-color: #b7c381;
+	}
+	.bkgd_green40 {
+		background-color: #cbd3a5;
+	}
+	.bkgd_green20 {
+		background-color: #e0e6ce;
+	}
+	.yellow {
+		color: #e1cd00;
+	}
+	.yellow60 {
+		color: #ede166;
+	}
+	.yellow40 {
+		color: #f3eb99;
+	}
+	.yellow20 {
+		color: #f9f5cc;
+	}
+	.bkgd_yellow {
+		background-color: #e1cd00;
+	}
+	.bkgd_yellow60 {
+		background-color: #ede166;
+	}
+	.bkgd_yellow40 {
+		background-color: #f3eb99;
+	}
+	.bkgd_yellow20 {
+		background-color: #f9f5cc;
+	}
+
+/* 0.1. HERO SECTION
+   ========================================================================== */
+	.cancer-game-plan .main-hero-section {
+		background-color: #243444;
+		background: url('http://www.merck.com/images/about/cancer-game-plan/cgp_hero.jpg') no-repeat center right;
+		background-size: 150%;
+		margin-top: 105px;
+	}
+	.cancer-game-plan .main-hero-section h1 {
+		font-size: 42px;
+		position: relative;
+		top: 20px;
+		line-height: 42px;
+		padding: 75px 0;
+	}
+	.cancer-game-plan .main-hero-section h1 img.play-video:hover {
+		cursor: pointer;
+	}
+	.cancer-game-plan .main-hero-section h1 span.basic {
+		text-transform: none;
+		font-size: 70%;
+	}
+	.cancer-game-plan .main-hero-section p {
+		color: white;
+		font-size: 28px;
+		line-height: 28px;
+		padding-bottom: 5%;
+	}
+	.cancer-game-plan .second-hero {
+		padding: 15px 0;
+	}
+	.cancer-game-plan .second-hero h2 {
+		font-size: 35px;
+		text-transform: uppercase;
+	}
+/* 0.2. DIVIDER SECTION
+   ========================================================================== */
+ 	
+	.cancer-game-plan .divider.one {
+		padding: 0px;
+	}
+	.cancer-game-plan .divider h1 {
+		text-transform: none;
+		font-size: 40px;
+		vertical-align: middle;
+	}
+	.cancer-game-plan .divider h1.ampersand {
+		font-size: 100px;
+		padding-top: 8px;
+		vertical-align: middle;
+	}
+ 	.cancer-game-plan .divider h2 {
+		font-size: 25px;
+		text-transform: initial;
+		font-weight: normal;
+		margin: auto;
+		padding-top: 25px;
+		padding-bottom: 25px;
+ 	}
+ 	.cancer-game-plan .divider p {
+		font-size: 25px;
+		font-weight: normal;
+		padding-top: 10px;
+		padding-bottom: 10px;
+ 	}
+ 	.cancer-game-plan .divider.two {
+		background-image: url("http://www.merck.com/images/about/nobel-prize/np_bg_clinical_trials.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: left center;
+		padding: 90px 0px;
+	}
+	.cancer-game-plan .divider.two img {
+		padding-right: 60px;
+	}
+/* 0.3 CONTENT-SECTION
+   ========================================================================== */
+	.cancer-game-plan .content-section.one {
+		padding: 50px 0px;
+	}
+	.cancer-game-plan .content-section.one a {
+		color: #213444;
+	}
+	.melanoma .content-section.resources p {
+		font-size: 20px;
+		padding: 8px;
+	}
+	.cancer-game-plan .content-section .medal-img {
+		display: inline-block;
+		float: right;
+		width: 23%;
+		padding: 5px;
+		margin-top: -18px;
+	}
+	.cancer-game-plan .content-section.one p {
+		font-size: 20px;
+	}
+	.cancer-game-plan .content-section.one p span {
+		line-height: 0;
+	}
+	.cancer-game-plan .content-section.one ol, .cancer-game-plan .content-section.one ul {
+		padding: 10% 8px;
+		font-size: 26px;
+	}
+	.cancer-game-plan .content-section.one p.extra-pad {
+		padding-top: 20px;
+	}
+	.cancer-game-plan .content-section .quote {
+		font-size: 26px;
+		font-weight: 900;
+		padding-top: 45px;
+		padding-bottom: 20px;
+	}
+	.cancer-game-plan .content-section.two {
+		background-color: #243444;
+		background: url('http://www.merck.com/images/about/cancer-game-plan/cgp_jim_img.jpg') no-repeat left top;
+		background-position-y: -20px;
+	}
+	.cancer-game-plan .content-section.two h2 {
+		font-size: 38px;
+		color: white;
+		padding: 20px 0px;
+	}
+	.cancer-game-plan .content-section.two p {
+		font-size: 22px;
+		margin-top: 3%;
+	}
+	.cancer-game-plan .content-section.three {
+		background-color: #1F9C96;
+		background-image: url("http://www.merck.com/images/about/nobel-prize/np_statue2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: right top;
+		color: white;
+		padding: 20px 0px 140px;
+	}
+	.cancer-game-plan .content-section.three h2 {
+		font-size: 38px;
+		color: white;
+		padding: 20px 0px;
+	}
+	.cancer-game-plan .content-section.three p {
+		font-size: 26px;
+	}
+	.cancer-game-plan .content-section.three a {
+		color: white;
+		text-decoration: underline;
+	}
+	.cancer-game-plan .content-section.four {
+		color: #233444;
+		padding: 40px 0px;
+	}
+	.cancer-game-plan .content-section.four p {
+		margin-top: 5%;
+		font-size: 35px;
+	}
+	.cancer-game-plan .content-section.four p.larger {
+		font-size: 45px;
+		margin-bottom: 0px;
+	}
+	.cancer-game-plan .content-section.four p.top {
+		font-size: 30px;
+		padding: 40px 0px;
+	}
+	.cancer-game-plan .content-section.four p.bottom {
+		font-size: 26px;
+		padding: 40px 0px;
+		font-weight: 400;
+	}
+
+/* 0.4 QUOTE-SECTION
+   ========================================================================== */
+	.cancer-game-plan .quote-section.one {
+		background-color: #90A33C;
+		color: white;
+	}
+	.cancer-game-plan .quote-section.one .frazier {
+		margin-top: 7%;
+	}
+	.cancer-game-plan .quote-section.one p.img-caption {
+		position: absolute;
+		bottom: 0px;
+		left: 10%;
+		color: white;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.cancer-game-plan .quote-section.two {
+		background-color: #C6E7EE;
+		padding-bottom: 50px;
+	}
+	.cancer-game-plan .quote-section.two p {
+		font-size: 26px;
+	}
+	.cancer-game-plan .quote-section.two img {
+		padding-top: 15%;
+	}
+	.cancer-game-plan .quote-section.two .caption {
+		font-size: 26px;
+	}
+
+/* 0.3 FULLWIDTH-CONTENT-SECTION
+   ========================================================================== */
+	.cancer-game-plan .fullwidth-content-section {
+
+	}
+	.cancer-game-plan .fullwidth-content-section .left,
+	.cancer-game-plan .fullwidth-content-section .right {
+		font-weight: normal;
+		color: white;
+		position: relative;
+		bottom: 0px;
+	}
+	.cancer-game-plan .fullwidth-content-section .left a:hover,
+	.cancer-game-plan .fullwidth-content-section .right a:hover {
+		color: #FFFFFF;
+	}
+	.cancer-game-plan .fullwidth-content-section h2 {
+		text-transform: uppercase;
+		font-size: 30px;
+		margin-top: 15px;
+	}
+	.cancer-game-plan .fullwidth-content-section p {
+		font-size: 20px;
+	}
+	.cancer-game-plan .fullwidth-content-section .right p, .cancer-game-plan .fullwidth-content-section .right ul {
+		font-size: 20px;
+	}
+	.cancer-game-plan .fullwidth-content-section .right blockquote p {
+		font-size: 35px !important;
+	}
+	.cancer-game-plan .fullwidth-content-section .left .half-container {
+	    position: absolute;
+	    max-width: 585px;
+		bottom: 5px;
+		right: 0px;
+		padding-right: 50px;
+		padding-left: 15px;
+		z-index: 100;
+	    /* transition: bottom .15s ease-in-out;
+	    -moz-transition: bottom .15s ease-in-out;
+	    -webkit-transition: bottom .15s ease-in-out;
+	    -o-transition: bottom .15s ease-in-out; */
+	}
+	.cancer-game-plan .fullwidth-content-section .right .half-container {
+	    position: absolute;
+	    max-width: 585px;
+		bottom: 5px;
+		left: 0px;
+		padding-left: 50px;
+		padding-right: 15px;
+		z-index: 100;
+	    /* transition: bottom .10s ease-in-out;
+	    -moz-transition: bottom .10s ease-in-out;
+	    -webkit-transition: bottom .10s ease-in-out;
+	    -o-transition: bottom .10s ease-in-out; */
+	}
+	.cancer-game-plan .fullwidth-content-section .fadeIn {
+		position: absolute;
+	    top: 0px;
+	    background-color: black;
+	    height: 100%;
+	    width: 100%;
+	    opacity: 0;
+	    transition: opacity .10s ease-in-out;
+	    -moz-transition: opacity .10s ease-in-out;
+	    -webkit-transition: opacity .10s ease-in-out;
+	    -o-transition: opacity .10s ease-in-out;
+	}
+	.cancer-game-plan .fullwidth-content-section .gradient {
+		background: linear-gradient(to bottom , transparent 20%, rgba(0, 0, 0, .95) 80%);
+		background: -webkit-linear-gradient(top , transparent 20%, rgba(0, 0, 0, .95) 80%);
+		background: -o-linear-gradient(top , transparent 20%, rgba(0, 0, 0, .95) 80%);
+		background: -moz-linear-gradient(top , transparent 20%, rgba(0, 0, 0, .95) 80%);
+		position: absolute;
+	    top: 0px;
+	    height: 100%;
+	    width: 100%;
+	}
+
+	.cancer-game-plan .fullwidth-content-section .jimface {
+		background: url('http://www.merck.com/images/about/cancer-game-plan/cgp_jimface_img.jpg') no-repeat;
+		background-position: center center;
+		background-size: cover;
+		height: 500px;
+	}
+
+
+/* 	-0.9. LARGE DEVICES, WIDE SCREENS
+	========================================================================== */
+	@media only screen and (min-width: 1600px) {
+		.cancer-game-plan .fullwidth-content-section .right p, .cancer-game-plan .fullwidth-content-section .right ul {
+			font-size: 24px;
+		}
+		.cancer-game-plan .fullwidth-content-section h2 {
+			margin-top: 35px;
+		}
+		.embed-responsive.embed-responsive-16by9 {
+			padding-bottom: 55%;
+		}
+		.embed-responsive.embed-responsive-16by9 object, .embed-responsive.embed-responsive-16by9 embed {
+			padding-bottom: 10%;
+		}
+	}
+	@media only screen and (max-width: 1199px){
+		.cancer-game-plan .main-hero-section {
+			background-color: #243444;
+			/* margin-top: 121px; */
+		}
+		.cancer-game-plan .main-hero-section h1 {
+		    font-size: 30px;
+			position: relative;
+			line-height: 35px;
+		}
+		.cancer-game-plan .main-hero-section p {
+			padding-bottom: 20px;
+		}
+		.shareBtn {
+			top: 0.5%;
+			right: 5%;
+		}
+		blockquote p {
+    		font-size: 24px;
+    	}
+    	.quote-large {
+		    font-size: 90px;
+		    top: 30px;
+		}
+		blockquote .caption {
+    		font-size: 25px;
+    	}
+		.cancer-game-plan .quote-section.one .frazier {
+    		margin-top: 9.6%;
+    	}
+	 	.cancer-game-plan .divider h2 {
+			font-size: 25px;
+			padding: 25px 50px;
+	 	}
+    	.cancer-game-plan .content-section.two p {
+		    margin-top: 1%;
+		}
+		.cancer-game-plan .fullwidth-content-section .left .half-container{
+			max-width: 485px;
+			bottom: 20px;
+		    font-size: 15px;
+		    padding-right: 25px;
+		}
+		.cancer-game-plan .fullwidth-content-section .right .half-container {
+		    max-width: 485px;
+		    bottom: 0px;
+		    font-size: 15px;
+		    padding-left: 25px;
+		}
+		.cancer-game-plan .divider.two img {
+		    padding-right: 0px;
+		    padding-top: 5px;
+		}
+		.cancer-game-plan .content-section.two {
+    		background-position-x: -75px;
+    	}
+		.cancer-game-plan .content-section.three {
+    		padding: 0px 0px 50px;
+    	}
+    	.cancer-game-plan .content-section.three h2 {
+    		font-size: 33px;
+    	}
+    	.cancer-game-plan .content-section.three p {
+		    font-size: 20px;
+		}
+		.cancer-game-plan .content-section.four p.top {
+		    font-size: 25px;
+		    padding: 35px 0px;
+		}
+		.cancer-game-plan .content-section.four p.bottom {
+		    font-size: 22px;
+		    padding: 35px 0px;
+		}
+		.cancer-game-plan .content-section.four p.larger {
+    		font-size: 45px;
+    		margin-bottom: -10px;
+    	}
+    	.cancer-game-plan .content-section.four p {
+    		font-size: 30px;
+    	}
+    	.cancer-game-plan .quote-section.two img {
+		    padding-top: 34%;
+		}
+		.cancer-game-plan .fullwidth-content-section .right p, .cancer-game-plan .fullwidth-content-section .right ul {
+			font-size: 16px;
+		}
+		.cancer-game-plan .fullwidth-content-section h2 {
+			font-size: 20px;
+		}
+		.cancer-game-plan .fullwidth-content-section p {
+			font-size: 17px;
+		}
+		.embed-responsive.embed-responsive-16by9 {
+			padding-bottom: 51%;
+		}
+		.embed-responsive.embed-responsive-16by9 object, .embed-responsive.embed-responsive-16by9 embed {
+			padding-bottom: 0;
+		}
+	}
+
+/* 	-1.0 MEDIUM DEVICES, DESKTOPS
+	========================================================================== */
+	@media only screen and (max-width : 991px){
+		.shareBtn {
+			top: 1.7%;
+		}
+		.cancer-game-plan .main-hero-section {
+			background-position: center right;
+			background-size: cover !important;
+		    margin-top: 0px;
+		}
+		.cancer-game-plan .fullwidth-content-section img {
+			max-width: 100%;
+		    width: 100%;
+		    margin-left: 0;
+		}
+		.cancer-game-plan .main-hero-section h1 {
+			position: relative;
+			top: 0;
+		    font-size: 35px;
+			line-height: 35px;
+		}
+		.cancer-game-plan .main-hero-section p {
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
+		.cancer-game-plan .content-section .medal-img {
+			width: 26%;
+			margin-top: -18px;
+		}
+		.cancer-game-plan h2 {
+			font-size: 25px;
+		}
+		.cancer-game-plan .divider h1, .cancer-game-plan .divider h2 {
+			padding-left: 30px !important;
+			padding-right: 30px !important;
+		}
+		.cancer-game-plan .divider p {
+			font-size: 20px;
+			padding: 10px 30px;
+		}
+		.cancer-game-plan .divider.one {
+			padding: 0px;
+		}
+		blockquote p {
+		    font-size: 18px;
+		}
+		blockquote .caption {
+		    font-size: 22px;
+		}
+		.cancer-game-plan .quote-section.one .frazier {
+		    margin-top: 12%;
+		}
+		.quote-large {
+		    font-size: 70px;
+		    top: 25px;
+		}
+		.cancer-game-plan .content-section.two h2 {
+		    font-size: 32px;
+		}
+		.cancer-game-plan .content-section.two p {
+		    margin-top: -1%;
+		    font-size: 18px;
+		}
+		.cancer-game-plan .content-section.two {
+			background-position-x: -105px;
+			padding: 0px 0px 40px;
+		}
+		.cancer-game-plan .content-section.two img {
+		    margin: 0 auto;
+		}
+		.cancer-game-plan .fullwidth-content-section .left .half-container,
+		.cancer-game-plan .fullwidth-content-section .container-fluid .left:hover .half-container,
+		.cancer-game-plan .fullwidth-content-section .right .half-container,
+		.cancer-game-plan .fullwidth-content-section .container-fluid .right:hover .half-container {
+		    max-width: 100%;
+		    bottom: 10px;
+		    font-size: 19px;
+		}
+		.cancer-game-plan .divider.two p {
+			padding-top: 0px;
+		}
+		.cancer-game-plan .content-section.three h2 {
+		    font-size: 25px;
+		    padding: 0px;
+		}
+		.cancer-game-plan .content-section.three {
+		    padding: 10px 0px 35px;
+		}
+		.cancer-game-plan .content-section.three p {
+		    font-size: 18px;
+		}
+		.cancer-game-plan .content-section.four p.top {
+		    font-size: 22px;
+		    padding: 25px 0px;
+		}
+		.cancer-game-plan .content-section.four p.larger {
+    		font-size: 40px;
+    	}
+    	.cancer-game-plan .content-section.four p {
+		    font-size: 28px;
+		}
+		.cancer-game-plan .content-section.four p.bottom {
+		    font-size: 19px;
+		    padding: 25px 0px;
+		}
+		.cancer-game-plan .quote-section.two p {
+		    font-size: 20px;
+		}
+		.cancer-game-plan .quote-section.two .caption {
+		    font-size: 20px;
+		}
+		.cancer-game-plan .quote-section.two {
+		    background-color: #C6E7EE;
+		    padding-bottom: 25px;
+		}
+		.cancer-game-plan .fullwidth-content-section .right p, .cancer-game-plan .fullwidth-content-section .right ul {
+			font-size: 20px;
+		}
+		.embed-responsive.embed-responsive-16by9 {
+			padding-bottom: 51%;
+		}
+	}
+/* 	-1.2 SMALL DEVICES, TABLETS
+	========================================================================== */
+	@media only screen and (max-width: 769px) {
+		.cancer-game-plan .main-hero-section-img {
+			width: 50%;
+		}
+		h1.small_title {
+			text-align: center;
+		}
+		.cancer-game-plan .content-section.one ol, .cancer-game-plan .content-section.one ul {
+			font-size: 22px;
+			padding: 0 20px;
+		}
+	    .thumbnail {
+	    	width: 15%;
+	    	margin: 0px 8px 8px 0;
+	    	padding: 0;
+	    }
+	    .counter span.superior {
+	    	top: 20%;
+	    }
+	    .padleft40 {
+	    	padding-left: 55px;
+	    }
+	    .counter {
+	    	font-size: 50px;
+	    }
+		.cancer-game-plan .fullwidth-content-section h2 {
+			font-size: 20px;
+		}
+		.cancer-game-plan .fullwidth-content-section p {
+			font-size: 15px;
+		}
+	}
+
+	@media only screen and (max-width : 767px){
+		.cancer-game-plan .main-hero-section {
+			background-position-x: -285px;
+			background-size: cover;
+			min-height: 230px;
+		}
+		.cancer-game-plan .main-hero-section h1 {
+		    font-size: 27px;
+			position: relative;
+			line-height: 25px;
+		}
+		.cancer-game-plan .main-hero-section p {
+		    font-size: 20px;
+		    line-height: 28px;
+		    padding-bottom: 10px;
+		}
+		.cancer-game-plan .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.cancer-game-plan .fullwidth-content-section .jimface {
+			height: 300px;
+		}
+		h1.small_title {
+			text-align: center;
+		}
+		.shareBtn {
+			width: 80px;
+			right: 0%;
+		}
+	    .icon-padding {
+	    	margin: 0 auto;
+	    	padding: 20px 60px 0px 60px;
+	    }
+	 	.cancer-game-plan .divider h2 {
+			font-size: 20px;
+	 	}
+		.cancer-game-plan .content-section.one p.extra-pad {
+		    padding-top: 5px;
+		}
+		.cancer-game-plan .divider.one {
+		    padding: 10px 0px;
+		}
+		blockquote {
+			margin: 0 0 20px 0;
+			padding: 5px 0px;
+		}
+		blockquote p {
+		    font-size: 14px;
+		}
+		.quote-large {
+		    font-size: 50px;
+		    top: 18px;
+		}
+		.cancer-game-plan .quote-section.one p.img-caption {
+			font-size: 14px;
+			left: 15%;
+		}
+		blockquote .caption {
+		    font-size: 15px;
+		}
+		.cancer-game-plan .quote-section.one .row {
+			font-size: 0px;
+		}
+		.cancer-game-plan .quote-section.one .frazier {
+		    margin-top: 0%;
+		    padding-top: 2%;
+			vertical-align: bottom;
+		}
+		.cancer-game-plan .quote-section.one .quotes {
+			padding-bottom: 3%;
+		}
+		.cancer-game-plan .quote-section.one .allow-v-align {
+			float: none;
+			display: inline-block;
+		}
+		.cancer-game-plan .content-section.two {
+		    background-position-x: -100px;
+		    padding: 0px 0px 20px;
+		}
+		.cancer-game-plan .content-section.two h2 {
+		    font-size: 27px;
+		}
+		.cancer-game-plan .content-section.two p {
+		    margin-top: -1%;
+		    margin-bottom: 20px;
+		    font-size: 15px !important;
+		}
+		.cancer-game-plan .content-section.two img {
+		    margin-top: -10%;
+		    margin-bottom: 30%;
+		}
+		.cancer-game-plan .fullwidth-content-section .left .half-container, .cancer-game-plan .fullwidth-content-section .container-fluid .left:hover .half-container, .cancer-game-plan .fullwidth-content-section .right .half-container, .cancer-game-plan .fullwidth-content-section .container-fluid .right:hover .half-container {
+		    font-size: 15px;
+		    bottom: 0px;
+		}
+		.cancer-game-plan .divider.two {
+		    padding: 50px 0px;
+		}
+		.cancer-game-plan .divider.two img {
+		    padding-right: 0px;
+		    padding-top: 0px;
+		}
+		.cancer-game-plan .content-section.three {
+		    padding: 10px 0px 2%;
+		    min-height: 195px;
+		}
+		.cancer-game-plan .content-section.three h2 {
+		    font-size: 15px;
+		    padding: 0px;
+		    margin: 2px 0px;
+		}
+		.cancer-game-plan .content-section.three p {
+		    font-size: 14px;
+		}
+		.cancer-game-plan .content-section.four {
+		    padding: 10px 0px;
+		}
+		.cancer-game-plan .content-section.four p.top {
+		    font-size: 16px;
+		    padding: 15px 0px;
+		}
+		.cancer-game-plan .content-section.four p.larger {
+		    font-size: 24px;
+		    margin-bottom: -5px;
+		}
+		.cancer-game-plan .content-section.four p {
+		    font-size: 17px;
+		}
+		.cancer-game-plan .content-section.four p.bottom {
+		    font-size: 15px;
+		    padding: 15px 0px;
+		}
+		.cancer-game-plan .quote-section.two p {
+		    font-size: 15px;
+		}
+		.cancer-game-plan .quote-section.two .caption {
+		    font-size: 16px;
+		}
+		.cancer-game-plan .quote-section.two img {
+		    padding-top: 10%;
+		    max-height: 135px;
+		}
+		.cancer-game-plan .content-section.three p {
+		    font-size: 13px;
+		}
+	    .thumbnail {
+	    	width: 15%;
+	    }
+	    .clear-padding-xs {
+	    	padding: 0 !important;
+	    }
+	    .cancer-game-plan h1.counter {
+	    	font-size: 50px;
+	    	margin-top: 20px;
+	    	line-height: 0.25em;
+	    }
+	    .counter span.superior {
+	    	top: 5%;
+	    }
+	}
+
+/* 	-1.3EXTRA SMALL DEVICES, PHONES
+	========================================================================== */
+	@media only screen and (max-width : 479px){
+		.cancer-game-plan .main-hero-section-img {
+			width: 100%;
+			padding: 35px 0;
+		}
+		.cancer-game-plan .fullwidth-content-section .jimface {
+			height: 200px;
+		}
+    	.row .col-xxs-12 {
+    		width: 100% !important;
+    	}
+    	h1 {
+    		font-size: 28px;
+    	}
+		.cancer-game-plan .main-hero-section {
+			-o-background-size: cover;
+			background-size: cover;
+			padding: 0px 0px 3%;
+			background-position: -350px 0;
+			min-height: auto;
+		}
+		.cancer-game-plan .main-hero-section h1 {
+		    font-size: 20px;
+		    line-height: 1em;
+		    position: relative;
+		    padding: 30px 0;
+		}
+		.cancer-game-plan .main-hero-section .col-xs-12 {
+			padding: 0px;
+		}
+		.cancer-game-plan .main-hero-section p {
+		    font-size: 15px;
+		    line-height: 1.2em;
+		    padding-bottom: 0;
+		}
+		.cancer-game-plan .main-hero-section blockquote {
+		    margin-top: 0 !important;
+		}
+		.cancer-game-plan .main-hero-section blockquote p {
+		    font-size: 15px !important;
+		    padding-bottom: 0;
+		}
+		.cancer-game-plan .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.shareBtn {
+			width: 70px;
+			right: 0;
+		}
+		.cancer-game-plan .divider h1 {
+		    font-size: 28px;
+		}
+		.cancer-game-plan .divider h2 {
+		    font-size: 17px;
+		}
+		.cancer-game-plan .divider p {
+		    font-size: 17px;
+		    padding: 0;
+		}
+		.cancer-game-plan .divider h1, .cancer-game-plan .divider h2, .cancer-game-plan .divider p {
+			padding-left: 10px !important;
+			padding-right: 10px !important;
+		}
+		.cancer-game-plan .divider.one {
+		    padding: 25px 0px;
+		}
+		.cancer-game-plan .content-section.one {
+		    padding: 25px 0px;
+		}
+		.cancer-game-plan .content-section.one p {
+		    font-size: 19px;
+		}
+		.cancer-game-plan .content-section.one ol, .cancer-game-plan .content-section.one ul {
+			font-size: 22px;
+		}
+		.cancer-game-plan .content-section .medal-img {
+		    margin-top: -10px;
+		}
+		.cancer-game-plan .quote-section.one p.img-caption {
+		    font-size: 12px;
+		    left: 31%;
+		}
+		blockquote p {
+		    font-size: 13px;
+		}
+		.cancer-game-plan .quote-section.one .frazier {
+		    margin-top: 0%;
+		    padding-top: 2%;
+		    vertical-align: bottom;
+		    max-width: 100%;
+		}
+		.cancer-game-plan .quote-section.one .frazier .img-responsive {
+			max-width: 50%;
+			margin: 0 auto;
+		}
+		.cancer-game-plan .quote-section.one .quotes {
+		    padding-bottom: 3%;
+		    max-width: 100%;
+		}
+		.cancer-game-plan .content-section.two {
+		    background-position-x: -210px;
+		}
+		.cancer-game-plan .content-section.two blockquote {
+			margin: -35px 0 20px 0;
+			padding: 5px 0px;
+		}
+		.cancer-game-plan .content-section.two img {
+		    margin: 0% auto;
+		}
+		.cancer-game-plan .content-section.two h2 {
+		    font-size: 18px;
+		}
+		.cancer-game-plan .content-section.two p {
+		    margin-top: 3%;
+		    margin-bottom: 0px;
+		    font-size: 13px;
+		}
+		.cancer-game-plan .content-section.two p.caption {
+		    margin-top: 0;
+		    margin-bottom: 0px;
+		    padding: 0;
+		    font-size: 13px;
+		}
+		.cancer-game-plan .fullwidth-content-section .left .half-container, .cancer-game-plan .fullwidth-content-section .container-fluid .left:hover .half-container, .cancer-game-plan .fullwidth-content-section .right .half-container, .cancer-game-plan .fullwidth-content-section .container-fluid .right:hover .half-container {
+		    font-size: 14px;
+		    font-weight: 500;
+		    min-height: 120px;
+		}
+		.cancer-game-plan .fullwidth-content-section .gradient {
+			display: none;
+		}
+		.cancer-game-plan .fullwidth-content-section h2 {
+			font-size: 22px;
+		}
+		.cancer-game-plan .fullwidth-content-section p {
+			padding: 0 10px;
+		}
+		.cancer-game-plan .counter {
+			font-size: 40px !important;
+		}
+		.cancer-game-plan .fullwidth-content-section .half-container p {
+			padding-top: 3%;
+		}
+		.cancer-game-plan .fullwidth-content-section .left .half-container p {
+			padding-top: 5%;
+		}
+		.cancer-game-plan .divider.two img {
+			max-width: 35%;
+			margin: 0 auto;
+		}
+		.cancer-game-plan .divider.two p {
+		    padding-top: 20px;
+		}
+		.cancer-game-plan .content-section.three h2 {
+		    font-size: 14px;
+		}
+		.cancer-game-plan .content-section.three p {
+		    font-size: 13px;
+		    padding-right: 2px;
+		}
+		.cancer-game-plan .content-section.three {
+			background-position: 88.5% top;
+		}
+		.cancer-game-plan .content-section.four p.top {
+		    font-size: 14px;
+		    padding: 10px 0px;
+		}
+		.cancer-game-plan .content-section.four p.larger {
+		    font-size: 13px;
+		    margin-bottom: -2px;
+		}
+		.cancer-game-plan .content-section.four p.smaller {
+			font-size: 13px;
+			line-height: .8em;
+		}
+		.cancer-game-plan .content-section.four .col-xs-4,
+		.cancer-game-plan .content-section.four .col-xs-3 {
+			padding: 0px;
+		}
+
+		.cancer-game-plan .content-section.four img {
+			max-height: 100%;
+			margin: 0px auto;
+		}
+		.cancer-game-plan .content-section.four p.bottom {
+		    font-size: 13px;
+		    padding: 15px 0px;
+		}
+		.cancer-game-plan .quote-section.two p {
+		    font-size: 13px;
+		}
+		.cancer-game-plan .quote-section.two .caption {
+		    font-size: 14px;
+		}
+		.quote-large {
+		    font-size: 40px;
+		    top: 13px;
+		}
+		.cancer-game-plan .quote-section.two img {
+		    padding-top: 5%;
+		    max-width: 20%;
+		    margin: 0 auto;
+		}
+		.header-img {
+			width: 55%;
+		}
+	}
+	
+	@media only screen and (max-width : 400px){
+		.cancer-game-plan .content-section.three {
+			background-image: none;
+		}
+		.cancer-game-plan .content-section.three .col-xs-7 {
+			width: 100%;
+		}
+		.cancer-game-plan .content-section.three h2 {
+		    font-size: 16px;
+		    margin-bottom: 10px;
+		}
+		.cancer-game-plan .content-section.three p {
+		    font-size: 14px;
+		    padding-right: 0px;
+		}
+	}

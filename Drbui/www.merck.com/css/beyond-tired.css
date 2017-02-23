@@ -1,0 +1,3061 @@
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+html.mm-background .mm-page { overflow: hidden; }
+.content-section { background: #fff; }
+.row.row-sm { background: #fff; }
+.beyond-tired .row {
+    /*margin-right: 0px;*/
+}
+/*==========  MECTIZAN August 2015  ==========*/
+
+.bold-text {
+    font-weight: bold;
+}
+p.partnershipModal {
+    font-size: 24px;
+    padding: 20px;
+}
+.lead {
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+.header_section { background: transparent; }
+/*====================================
+=            HERO SECTION            =
+====================================*/
+.jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.jumbotron .jumbo-inner {
+    position: absolute;
+    top: 200px;
+    visibility: hidden;
+}
+.jumbotron .jumbo-inner h1 {
+    font-size: 85px;
+    color: #009994;
+    width: 59%;
+    line-height: 70px;
+    visibility: visible;
+}
+.jumbotron .jumbo-inner p {
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 0px;
+    line-height: 49px;
+}
+.jumbotron .jumbo-inner sup {
+    font-size: 50px;
+    line-height: 0;
+    position: relative;
+    top: 30px;
+}
+.jumbotron img {
+    width:100%;
+}
+
+.hero-section #slideSpace {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.hero-section #slideSpace #slides_1 .slides-container {
+    background: url('http://www.merck.com/images/about/tired_bg_hero.jpg') no-repeat 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 900px;
+}
+.hero-section #slideSpace #slides_1 .slides-container img#heroImages {
+    padding-top: 122px;
+}
+.heros-section #slideSpace #slides_1 .slide-container .slides-header-content {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    text-align: right;
+}
+/*/* hands divider */
+h1.slide-heading {
+    color: #6bcad4 !important;
+    font-size: 26px;
+    padding: 45px 0 0 45px;
+    margin-bottom: 0px;
+}
+p.slide-quote {
+    color: #ffffff !important;
+    font-size: 42px ;
+}
+h1.slide-heading {
+    color: #6bcad4 !important;
+    font-size: 36px;
+    padding: 75px 0 0 45px;
+    margin-bottom: 0px;
+}
+p.slide-quote {
+    color: #ffffff ;
+    font-size: 54px ;
+}
+.hands-divider {
+    background: url('http://www.merck.com/images/about/bg_hands.jpg') no-repeat 0 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 245px;
+}
+.hands-divider img {
+    z-index: -1;
+}
+.parallax-window {
+    min-height: 245px;
+    /* background: transparent;*/
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------
+\
+/* Carousel base class */
+
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+    z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+
+.carousel .item {
+    height: 500px;
+    background-color: #777;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+/*=======================================
+=            CONTENT-SECTION            =
+=======================================*/
+
+.content-section {
+    padding: 55px 0;
+}
+.content-section p {
+    font-size: 20px;
+    padding: 0 15px;
+}
+.donation-logo p {
+    font-size: 17px;
+    text-align: center;
+    padding-top: 20px;
+}
+/*=====================================
+=            STATS SECTION            =
+=====================================*/
+
+.mectizan-stats {
+    background: #e9e9e9;
+}
+.mectizan-stats h3 {
+    font-size: 30px;
+    color: #000;
+    padding: 35px 150px 0;
+}
+.mectizan-stats span.bold.darkBlue {
+    font-weight: bold;
+    color: #243444;
+}
+.mectizan-stats p.h5 {
+    font-size: 22px;
+    color: #243444;
+    padding: 0 80px 45px;
+}
+.mectizan-stats .call-outs {
+    padding: 0 0 20px;
+}
+.mectizan-stats #count-one {
+    font-size: 52px;
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+.mectizan-stats #count-one:after {
+    content: "MILLION";
+    padding-left: 10px;
+    font-size: 52px;
+}
+.scroller-stats {
+    color: #243444;
+    padding: 34px 0 53px;
+}
+.scroller-stats p.h2 {
+    color: #243444;
+    font-size: 23px;
+    font-weight: normal;
+}
+.scroller-stats p.h2.bold-text {
+    color: #243444;
+    font-size: 23px;
+    font-weight: bold;
+}
+.scroller-stats #count-two {
+    font-size: 117px;
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+.scroller-stats #count-two:after {
+    padding-left: 10px;
+    font-size: 117px;
+    font-weight: bold;
+}
+.scroller-stats .countTwo-scroll .col-lg-2,
+.scroller-stats .countTwo-scroll .col-md-2 {
+    padding: 0px;
+    width: 11%;
+}
+.scroller-stats .countTwo-scroll .col-lg-3,
+.scroller-stats .countTwo-scroll .col-md-3 {
+    padding-top: 40px;
+}
+.scroller-stats img.pill-bottle {
+    width: 65%;
+    padding-top: 30px;
+}
+.scroller-stats img.hand {
+    width: 78%;
+    padding-top: 30px;
+}
+.scroller-stats .countTwo-stat {
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 44px;
+}
+.scroller-stats a {
+    color: #243444;
+    font-size: 23px;
+    text-decoration: none;
+}
+.scroller-stats #count-three {
+    font-size: 75px;
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+.scroller-stats #count-three:after {
+    padding-left: 10px;
+    font-size: 75px;
+    font-weight: bold;
+}
+.scroller-stats .communities {
+    font-size: 40px;
+    position: relative;
+    bottom: 27px;
+    font-weight: bold;
+}
+.more-information .btn-default {
+    position: relative;
+    top: 20px;
+    color: #fff;
+    background-color: #13a29c;
+    border: none;
+    border-radius: 0px;
+    padding: 6px 30px;
+}
+.more-information .btn-default:hover {
+    background-color: #12729c;
+}
+.mectizan-stats .stat-icon img {
+    width: 166px;
+}
+.mectizan-stats .stat-icon p {
+    font-size: 22px;
+    padding: 0 60px;
+    color: #243444;
+    font-weight: bold;
+}
+.mectizan-stats .stat-icon p.stat-two {
+    font-size: 22px;
+    padding: 0 80px;
+}
+/*===========================================
+=            DIVIDER ONE SECTION            =
+===========================================*/
+
+.divider-one {
+    background-color: #f7902f;
+    height: 100%;
+}
+.divider-one .container {
+    padding: 40px 0;
+}
+.divider-one p {
+    color: #ffffff;
+    font-size: 26px;
+}
+.divider-one p.divider-one-quote {
+    color: #fffff;
+    font-size: 34px;
+}
+.divider-one p.heading {
+    color: #6bcad4;
+    position: relative;
+    top: 40px;
+    padding-bottom: 50px;
+}
+.divider-two {
+    background-color: #e0e2e4;
+    height: 100%;
+}
+.divider-two p {
+    /* font-size: 20px; */
+    color: #243444;
+    padding: 20px 50px;
+}
+.groupOne {
+    z-index: 10001;
+}
+.groupTwo {
+    z-index: 10002;
+    margin-top: -245px;
+}
+.groupThree {
+    z-index: 10003;
+    margin-top: -312px;
+}
+.groupOne img,
+.groupTwo img,
+.groupThree img {
+
+}
+/*=======================================
+=            NUMBER SCROLLER            =
+=======================================*/
+
+.number-scroller p {
+    font-size: 22px;
+}
+.number-scroller p.h2 {
+    color: #000;
+    font-weight: normal;
+}
+/*===================================
+=            STAFF QUOTE            =
+===================================*/
+
+.staff-quote {
+    background-color: #90a33c;
+    height: 100%;
+}
+blockquote {
+    border-left: 0px;
+}
+.pullquote {
+    padding: 46px 22px 20px 46px;
+    position: relative;
+    float: left;
+    font-size: 33px;
+    line-height: 1.3;
+    -webkit-font-smoothing: antialiased;
+    color: #FFF;
+    text-align: center;
+}
+.pullquote br {
+    display: none;
+}
+span.quoteMark img {
+    position: relative;
+    /*top: 275px;*/
+    width: inherit;
+}
+.pullquote:before,
+.pullquote:after {
+    content: "";
+    font-family: Georgia;
+    font-size: 400%;
+    position: absolute;
+    color: #ffffff;
+}
+.pullquote:before {
+    top: .25rem;
+    left: .5rem;
+}
+.pullquote:after {
+    content: "”";
+    font-size: 33px;
+}
+.staff-quote cite {
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.staff-quote cite span.lower-cite {
+    font-size: 26px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+}
+.staff-quote img {
+    position: relative;
+    top: 58px;
+    right: 100px;
+}
+/*================================
+=            TIMELINE            =
+================================*/
+
+#theheading {
+    background: url('http://www.merck.com/images/about/header_bg.png');
+    background-repeat: repeat-x;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+#theheading p {
+    font-size: 45px;
+    color: #9aaf3d;
+    padding: 85px 0;
+}
+#theheading h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 30px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+}
+.previous,
+.next {
+    margin-top: 152px;
+}
+.previous img,
+.next img {
+    height: 110px;
+}
+
+.timelines {
+    background: url('http://www.merck.com/images/about/bg_timeline.jpg') no-repeat 0 0;
+}
+.timelines .row {
+    margin: 0px;
+}
+#timeline {
+    width: 100%;
+    height: 588px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    overflow: hidden;
+}
+#timeline #bkgd {
+    overflow: hidden;
+}
+#slides {
+    margin: 0 auto;
+    float: left;
+    left: 0;
+}
+#timeline #bkgd #slides img {
+    max-width: 2299px;
+    height: 214px;
+}
+#bkgd {
+    height: 924px;
+}
+.timelineBar {} .timelineBar .bar {
+    background: url('http://www.merck.com/images/about/timelineBar-bg.png');
+    background-repeat: repeat-x;
+    display: block;
+    max-width: 100%;
+    bottom: top;
+    margin: -84px 0 0 0;
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+.timelineBar ul {
+    position: relative;
+    bottom: 20px;
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+    clear: both;
+}
+.timelineBar ul li {
+    float: left;
+    list-style: none;
+    margin: 0 3px;
+    padding: 0 15px 0 0;
+    text-align: center;
+}
+.timelineBar ul li a.timelineDate {
+    text-decoration: none;
+    font-size: 26px;
+    color: #000;
+    cursor: pointer;
+}
+.timelineBar ul li a.timelineDate:hover {
+    color: #000;
+    font-weight: bold;
+    text-shadow: none;
+    cursor: pointer;
+}
+.timelineBar ul li.first {
+    margin-left: 8px;
+}
+.timelineBar ul li:hover {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+}
+.timelineBar ul li a.active {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+    color: #c96b09;
+    text-decoration: none;
+    font-size: 26px;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+}
+#arrow {
+    position: relative;
+    width: 31px;
+    height: 20px;
+    margin: 0 6px;
+    left: 8px;
+    bottom: 35px;
+}
+#arrow img {
+    width: 20px;
+}
+hr.timeRule {
+    background: #e8ba00;
+    position: absolute;
+    float: none;
+    width: 490px;
+    margin: 8px 12px 2px 18px;
+}
+#1978, #1981, #1987, #1988,
+#1991, #1993, #1995, #1998,
+#1999, #2002, #2008, #2010,
+#2011, #2012, #2013, #2014 {
+    display: block;
+}
+#w1978, #w1981, #w1987, #w1988,
+#w1991, #w1993, #w1995, #w1998,
+#w1999, #w2002, #w2008, #w2010,
+#w2011, #w2012, #w2013, #w2014 {
+    background: none;
+    float: left;
+    margin: 38px 0 0 600px;
+    width: 500px;
+    height: 85px;
+    padding: 5px;
+    z-index: 9;
+    position: absolute;
+    display: block;
+    opacity: 1;
+}
+#w1978 h1, #w1981 h1, #w1987 h1, #w1988 h1,
+#w1991 h1, #w1993 h1, #w1995 h1, #w1998 h1,
+#w1999 h1, #w2002 h1, #w2008 h1, #w2010 h1,
+#w2011 h1, #w2012 h1, #w2013 h1, #w2014 h1 {
+    float: left;
+    margin: 0 20px;
+    padding: 65px 45px 65px 0;
+    line-height: 100%;
+    font-size: 170px;
+    color: #c96b09;
+    letter-spacing: -2px;
+    font-style: normal;
+    font-weight: bold;
+    text-shadow: 0 0 20px rgba(255, 255, 255, .8);
+    border-right: 4px solid #7a7a7a;
+}
+#w1978 p, #w1981 p, #w1987 p, #w1988 p,
+#w1991 p, #w1993 p, #w1995 p, #w1998 p,
+#w1999 p, #w2002 p, #w2008 p, #w2010 p,
+#w2011 p, #w2012 p, #w2013 p, #w2014 p {
+    margin: 70px 10px 10px 10px;
+    font-size: 27px;
+    width: 900px;
+    font-style: normal;
+    font-weight: bold;
+    color: #000;
+}
+/* =====================================
+=            video section            =
+=====================================*/
+
+.video-box .img-responsive {
+    width: 100%;
+}
+.video-box-heading {
+    padding: 75px 0 0px;
+    border-bottom: 8px solid #890059;
+}
+.video-box .col-lg-12,
+.video-box .col-md-12 {
+    padding-right: 0px;
+}
+.video-box .col-lg-8,
+.vodeo-box .col-sm-8 {
+    padding-right: 0px;
+}
+.video-box-heading .col-lg-2.col-md-2 {
+    width: 11.7777%;
+}
+.video-box-heading p.h2 {
+    font-size: 42px;
+    color: #890059;
+    margin: 0px 0px 5px;
+}
+.video-box-heading p {
+    font-size: 26px;
+}
+.video-box {
+    padding: 0 0 10px 0;
+}
+.video-box img.video-one {
+    padding-left: 4px;
+}
+.video-box .col-lg-4,
+.video-box .col-md-4,
+.video-box .col-sm-4 {
+    padding-right: 0px;
+    width: 33.2%;
+}
+.video-box .col-lg-4 .row,
+.video-box .col-md-4 .row,
+.video-box .col-sm-4 .row {
+    /*        margin-left: 5px;
+        margin-right: 6px;*/
+}
+.video-box .col-lg-8,
+.video-box .col-md-8,
+.video-box .col-sm-8,
+.video-box .col-lg-6,
+.video-box .col-md-6,
+.video-box .col-sm-6 {
+    /*       padding: 0 5px 10px;*/
+}
+.video-two-three .col-lg-6,
+.video-two-three .col-md-6,
+.video-two-three .col-sm-6 {
+    padding-bottom: 16px;
+    padding-right: 0px;
+    width: 50%;
+}
+img.video-two,
+img.video-four {
+    width: 99.3%;
+}
+.video-four-five .col-lg-6,
+.video-four-five .col-md-6,
+.video-four-five .col-sm-6 {
+    padding-right: 0px;
+}
+
+.video-box .video {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+/*==============================
+=            MODALS            =
+==============================*/
+#myModal-worldwide .row {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#partnership .modal-dialog {
+    width: 30%;
+}
+#partnership .modal-dialog h4 {
+    font-size: 28px;
+        font-weight: bold;
+        color: #666;
+}
+#partnership .modal-dialog .close span {
+    font-size: 34px;
+}
+#videoOne.modal .modal-dialog {
+    width: 85%;
+}
+/*
+.modal .modal-body {
+    padding: 15px 0;
+}
+*/
+.modal .video-box-heading {
+    padding: 0px;
+    border-bottom: 0px;
+}
+.modal .video-bg {
+    background: url("http://www.merck.com/images/about/video-bg.png") repeat-x #d9d9d9;
+}
+.modal .video-container {
+    padding: 40px 0;
+    width: 80%;
+}
+.modal .video-container iframe {
+    border: 5px solid #fff;
+    box-shadow: 10px 10px 20px #888888;
+}
+.filmstrip {
+    padding-left: 20px;
+}
+.filmstrip .col-lg-2 {
+    width: 19.666667%;
+    padding-bottom: 20px;
+}
+.filmstrip p.strip-heading {
+    color: #890059;
+    font-size: 23px;
+    padding-top: 25px;
+}
+.filmstrip img {
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 15px #333;
+}
+.mectizan-30-modal .modal .embed-responsive.embed-responsive-16by9 {
+    padding-bottom: 56.25%;
+    overflow: visible;
+}
+
+
+/*=======================================
+=            GALLERY SECTION            =
+=======================================*/
+
+figure.effect-oscar:hover figcaption {
+    background-color: rgba(58, 52, 42, 0);
+}
+.gallery-container .africa h2,
+.gallery-container .india h2 {
+    border-radius: 150px;
+    height: 180px;
+    width: 180px;
+    bottom: 24%;
+}
+.africa a,
+.india a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+}
+.africa a span.title,
+.india a span.title {
+    font-size: 30px !important;
+}
+span.small-text {
+    color: #fff !important;
+    font-size: 13px !important;
+}
+span.medium-text {
+    color: #fff !important;
+    font-size: 33px !important;
+    line-height: 10px !important;
+}
+@media (max-width: 767px) {
+    .team-bio {
+        font-size: 18px;
+        padding-bottom: 35px;
+    }
+    .shareBtn {
+        width: 100%;
+    }
+    .jumbotron .jumbo-inner {
+        width: 100%;
+    }
+    .st_sharethis_custom {
+        position: relative;
+        top: -80px;
+
+    }
+    .mectizan-stats h3 {
+        font-size: 30px;
+        color: #000;
+        padding: 35px 0;
+    }
+    .mectizan-stats p.h5 {
+        font-size: 22px;
+        color: #000;
+        padding: 0 0 45px;
+    }
+
+    .mectizan-stats #count-one {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .mectizan-stats #count-one:after {
+        content: "MILLION";
+        padding-left: 10px;
+        font-size: 40px;
+    }
+    .scroller-stats #count-two {
+        font-size: 40px;
+    }
+    .scroller-stats #count-two:after {
+        padding-left: 10px;
+        font-size: 40px;
+    }
+    .more-information .btn-default {
+        position: relative;
+        top: 20px;
+        color: #fff;
+        background-color: #13a29c;
+        border: none;
+        border-radius: 0px;
+        padding: 6px 30px;
+    }
+    .gallery-container {
+        display: none;
+    }
+    .gallery-container2 {
+        display: block !important;
+    }
+    .media.africa {
+        background: #00877c;
+        width: 100%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .media.africa .media-body {
+        display: table-cell;
+    }
+    .media.africa .media-body h4 {
+        color: #fff;
+        font-size: 50px;
+    }
+    .africa-content {
+        padding: 15px;
+    }
+    span.medium-text {
+        font-size: 23px !important;
+    }
+}
+body {
+    font-family: "UniversLTW01-47LightCn", "Arial Narrow", Arial, sans-serif;
+    font-size: 16px;
+}
+.border-bottom {
+    border-bottom: 1px solid #fff;
+}
+.border-left {
+    border-left: 1px solid #fff;
+}
+.uppercase {
+    text-decoration: uppercase;
+}
+.border-left {
+    border-left: 1px solid #ccc;
+}
+.text-color-teal {
+    color: #00877c;
+}
+.text-color-gray {
+    color: #666;
+}
+.text-color-orange {
+    color: #eb891c;
+}
+.background-white-color {
+    background: #fff;
+}
+.background-gray-color {
+    background: #333;
+}
+.background-dark-gray-color {
+    background: #303A43;
+}
+.background-navy-color {
+    background: #2f3a43;
+}
+.background-teal-color {
+    background: #00877c;
+}
+.border-color-maroon {
+    border-top: 3px solid #7a003b;
+}
+.border-color-orange {
+    border-top: 3px solid #eb891c;
+}
+.border-color-teal {
+    border-top: 3px solid #00877c;
+}
+.spacing {
+    margin-bottom: 30px;
+}
+.spacing-10px {
+    margin: 10px 0;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-default {
+    background: transparent;
+    border: none;
+}
+.navbar-nav.middle {
+    width: 60%;
+    margin: 15px 0 0 60px;
+}
+.navbar-nav.middle li a {
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav.middle > li > a {
+    color: #00877c;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    background: transparent;
+    color: #00877c;
+}
+.nav > li > a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dropdown-menu {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#slides {
+    max-height: 550px !important;
+}
+#slides h1 {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 83px;
+    color: #EB6750;
+    text-shadow: 0 1px 1px #666;
+    margin: 40px auto;
+    width: 565px;
+    text-align: center;
+}
+#slides p {
+    color: #fff;
+    text-shadow: 0 1px 1px #555;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 48px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    width: 75%;
+}
+#slides .contrast {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+    padding: 15px 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#slides .slides-header-content {
+    position: absolute;
+    right: 20%;
+}
+.divider {} .divider p {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    line-height: 65px;
+}
+.divider p.bold-text {
+    font-weight: bold;
+}
+.divider span {
+    font-size: 60px;
+    color: #68c8c6;
+}
+.gallery-container .india,
+.gallery-container .africa {
+    padding: 0;
+}
+.gallery-container .africa figcaption,
+.gallery-container .india figcaption {
+    position: absolute;
+    z-index: 1;
+    background: transparent;
+}
+.gallery-container .africa p,
+.gallery-container .india p {
+    margin-top: 40px;
+    font-size: 16px;
+}
+.gallery-container .africa p a,
+.gallery-container .india p a {
+    color: #fff;
+    text-decoration: underline;
+}
+.gallery-container .africa h2,
+.gallery-container .india h2 {
+    background: #00877c;
+    height: 200px;
+    width: 200px;
+    display: table;
+    bottom: 25%;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 26px;
+    left: 30%;
+    position: relative;
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+.gallery-container .africa h2 span,
+.gallery-container .india h2 span {
+    color: #879637;
+    font-size: 40px;
+}
+#nt-example1 {
+    height: auto !important;
+}
+input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+    display: none;
+}
+/* search input field */
+
+.fa-search {
+    color: #fff;
+}
+.fa-twitter,
+.fa-facebook,
+.fa-envelope-o {
+    font-size: 1.5em;
+    margin-top: 28px;
+    position: relative;
+    left: 40px;
+}
+input[type=search] {
+    background: transparent url('http://www.merck.com/images/search-black.png') no-repeat 9px center;
+    border: none;
+    padding: 9px 28px 9px 32px;
+    width: 55px;
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    border-radius: 10em;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+input[type=search]:focus {
+    width: 130px;
+    background-color: #fff;
+    border-color: #6dcff6;
+    -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+    -moz-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+    box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+}
+/* placeholder */
+
+input:-moz-placeholder {
+    color: #999;
+}
+input::-webkit-input-placeholder {
+    color: #999;
+}
+/* #searchbox */
+
+#searchbox {
+    margin-top: 20px;
+    position: absolute;
+    z-index: 1;
+}
+#searchbox input[type=search] {
+    width: 15px;
+    padding-left: 10px;
+    color: transparent;
+    cursor: pointer;
+}
+#searchbox input[type=search]:focus {
+    width: 250px;
+    padding-left: 32px;
+    color: #000;
+    background: #fff url('http://www.merck.com/images/search-black.png') no-repeat 9px center;
+    cursor: auto;
+}
+#searchbox input:-moz-placeholder {
+    color: transparent;
+}
+#searchbox input::-webkit-input-placeholder {
+    color: transparent;
+}
+.content-container {
+    padding: 25px 0;
+}
+.content-container h4 {
+    color: #71fadf;
+    font-size: 30px;
+}
+.content-container p {
+    color: #fff;
+}
+.didyouknow-container {
+    padding: 25px 0;
+    background: #f2f2f2;
+}
+.timer1 {
+    color: #b1215b;
+    font-size: 100px;
+    font-weight: bold;
+}
+.percent {
+    color: #b1215b;
+    font-size: 100px;
+    font-weight: bold;
+}
+.counter {
+    text-align: center;
+}
+.counter p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+.news-container {
+    padding: 15px 0;
+    min-height: 240px;
+}
+.news-container h3 {
+    color: #fff;
+}
+.news-container p {
+    color: #fff;
+}
+.senior {} .senior-content {
+    bottom: 165px;
+    left: 100px;
+    position: absolute;
+}
+.senior .senior-content h3 {
+    color: #fff;
+    font-size: 40px;
+    line-height: 43px;
+    text-transform: uppercase;
+}
+.senior .senior-content p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 23px;
+}
+.senior .senior-content a {
+    background: #fff;
+    border: 1px solid #fff;
+    color: #666;
+    opacity: .5;
+    padding: 15px;
+    font-size: 20px;
+    line-height: 23px;
+}
+.footer-container {
+    background: #00877c;
+    padding: 15px 0;
+}
+footer ul li {
+    color: #fff;
+}
+footer ul li a {
+    color: #fff;
+}
+footer ul li a:hover {
+    color: #fff;
+}
+footer p {
+    color: #fff;
+}
+@media (max-width: 1024px) {
+    .navbar-nav.middle {
+        margin: 15px 0 0 30px;
+    }
+    .navbar-default .navbar-nav.middle > li > a {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 13px;
+    }
+    .didyouknow-container .border-left {
+        text-align: center;
+    }
+
+}
+.yamm .nav,
+.yamm .collapse,
+.yamm .dropup,
+.yamm .dropdown {
+    position: static;
+}
+.yamm .container {
+    position: relative;
+}
+.yamm .dropdown-menu {
+    left: auto;
+}
+.yamm .yamm-content {
+    padding: 20px 30px;
+}
+.yamm .dropdown.yamm-fw .dropdown-menu {
+    left: 0;
+    right: 0;
+}
+#slides {
+    position: relative;
+}
+#slides .slides-container {
+    display: none;
+}
+#slides .scrollable {
+    *zoom: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+}
+#slides .scrollable:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.slides-navigation {
+    margin: 0 auto;
+    position: absolute;
+    z-index: 3;
+    top: 46%;
+    width: 100%;
+}
+.slides-navigation a {
+    position: absolute;
+    display: block;
+}
+.slides-navigation a.prev {
+    left: 0;
+}
+.slides-navigation a.next {
+    right: 0;
+}
+.slides-pagination {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+.slides-pagination a {
+    border: 2px solid #222;
+    border-radius: 15px;
+    width: 10px;
+    height: 10px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=");
+    margin: 2px;
+    overflow: hidden;
+    text-indent: -100%;
+}
+.slides-pagination a.current {
+    background: #222;
+}
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'feathericons';
+    src: url('../fonts/feathericons/feathericons3869.html?-8is7zf');
+    src: url('../fonts/feathericons/feathericonsd41d.html?#iefix-8is7zf') format('embedded-opentype'), url('../fonts/feathericons/feathericons3869-2.html?-8is7zf') format('woff'), url('../fonts/feathericons/feathericons3869-3.html?-8is7zf') format('truetype'), url('../fonts/feathericons/feathericons3869-4.html?-8is7zf#feathericons') format('svg');
+}
+.grid {
+    position: relative;
+    margin: 0 auto;
+    padding: 1em 0 4em;
+    max-width: 1000px;
+    list-style: none;
+    text-align: center;
+}
+/* Common style */
+
+.grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 360px;
+    width: 48%;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+}
+.grid figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+}
+.grid figure figcaption {
+    padding: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+    pointer-events: none;
+}
+.grid figure figcaption,
+.grid figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+
+.grid figure figcaption > a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+.grid figure h2 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+}
+.grid figure h2 span {
+    font-weight: 800;
+}
+.grid figure h2,
+.grid figure p {
+    margin: 0;
+}
+.grid figure p {
+    letter-spacing: 1px;
+    font-size: 68.5%;
+}
+
+/*---------------*/
+/***** Oscar *****/
+/*---------------*/
+
+figure.effect-oscar {
+
+    background: -webkit-linear-gradient(45deg, #00877c 0%, #00877c 40%, #00877c 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: linear-gradient(45deg, #00877c 0%, #00877c 40%, #00877c 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+figure.effect-oscar img {
+    opacity: 0.9;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+figure.effect-oscar figcaption {
+    padding: 3em;
+    background-color: rgba(58, 52, 42, 0.7);
+    -webkit-transition: background-color 0.35s;
+    transition: background-color 0.35s;
+}
+figure.effect-oscar figcaption::before {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    content: '';
+}
+figure.effect-oscar h2 {
+    margin: 20% 0 10px 0;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    text-align: center;
+}
+figure.effect-oscar figcaption::before,
+figure.effect-oscar p {
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+figure.effect-oscar:hover h2 {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+figure.effect-oscar:hover figcaption::before,
+figure.effect-oscar:hover p {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    color: #fff;
+}
+figure.effect-oscar:hover figcaption {
+    background-color: rgba(58, 52, 42, 0);
+}
+figure.effect-oscar:hover img {
+    opacity: 0.2;
+}
+
+@media screen and (max-width: 50em) {
+    .content {
+        padding: 0 10px;
+        text-align: center;
+    }
+    .grid figure {
+        display: inline-block;
+        float: none;
+        margin: 10px auto;
+        width: 100%;
+    }
+}
+/*======================================
+=            media quieries            =
+======================================*/
+
+@media (max-width: 990px) {
+    .divider-two p {
+        padding: 20px 0;
+    }
+}
+    .content-section {
+        padding: 25px 0;
+    }
+    /* scroller stats */
+    .scroller-stats #count-two {
+        font-size: 84px;
+    }
+
+    .small-gallery .col-sm-6 {
+        padding: 0px;
+    }
+    .small-gallery .gallery-box {
+        background-color:  #00877c;
+    }
+    .small-gallery .gallery-box .col-sm-6 {
+        background: #00877c;
+        position: relative;
+        height: 381px;
+    }
+    .small-gallery .gallery-box .col-sm-6 h2 {
+        font-size: 26px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .small-gallery .gallery-box .col-sm-6 p {
+        padding: 0 50px;
+        color: #fff;
+        font-size: 18px;
+    }
+    .scroller-stats #count-two {
+        font-size: 84px;
+        margin-left: -20px;
+    }
+    .scroller-stats #count-three {
+        font-size: 62px;
+        margin-bottom: -10px;
+        font-weight: bold;
+    }
+
+    .scroller-stats #count-two:after {
+        padding-left: 10px;
+        font-size: 84px;
+    }
+    .scroller-stats #count-three {
+        font-size: 48px;
+        margin-bottom: -10px;
+        font-weight: bold;
+    }
+    .scroller-stats #count-three:after {
+        /* padding-left: 10px; */
+        font-size: 48px;
+        font-weight: bold;
+    }
+    .countThree-scroll {
+        margin-top: 13px;
+        position: relative;
+        right: 20px;
+    }
+        /* gallery */
+        .gallery-container .india,
+        .gallery-container .africa {
+            padding: 0;
+        }
+        .gallery-container .africa figcaption,
+        .gallery-container .india figcaption {
+            position: absolute;
+            z-index: 1;
+            background: transparent;
+        }
+        .gallery-container .africa p a,
+        .gallery-container .india p a {
+            color: #fff;
+            text-decoration: underline;
+        }
+        .gallery-container .africa h2,
+        .gallery-container .india h2 {
+            background: #00877c;
+            height: 200px;
+            width: 200px;
+            display: table;
+            bottom: 25%;
+            border-radius: 100px;
+            color: #fff;
+            font-size: 26px;
+            left: 30%;
+            position: relative;
+            margin: 0;
+            padding: 25px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .gallery-container .africa h2 span,
+        .gallery-container .india h2 span {
+            color: #879637;
+            font-size: 40px;
+        }
+
+        figure.effect-oscar {
+            background: -webkit-linear-gradient(45deg, #00877c 0%, #00877c 40%, #00877c 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+            background: linear-gradient(45deg, #00877c 0%, #00877c 40%, #00877c 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+        }
+        figure.effect-oscar img {
+            opacity: 0.9;
+            -webkit-transition: opacity 0.35s;
+            transition: opacity 0.35s;
+        }
+        figure.effect-oscar figcaption {
+            padding: 3em;
+            background-color: rgba(58, 52, 42, 0.7);
+            -webkit-transition: background-color 0.35s;
+            transition: background-color 0.35s;
+        }
+        figure.effect-oscar figcaption::before {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            bottom: 30px;
+            left: 30px;
+            content: '';
+        }
+        figure.effect-oscar h2 {
+            margin: 20% 0 10px 0;
+            -webkit-transition: -webkit-transform 0.35s;
+            transition: transform 0.35s;
+            -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+            text-align: center;
+        }
+        figure.effect-oscar figcaption::before,
+        figure.effect-oscar p {
+            opacity: 0;
+            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+            transition: opacity 0.35s, transform 0.35s;
+            -webkit-transform: scale(0);
+            transform: scale(0);
+        }
+        figure.effect-oscar:hover h2 {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+        figure.effect-oscar:hover figcaption::before,
+        figure.effect-oscar:hover p {
+            opacity: 1;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            color: #fff;
+        }
+        figure.effect-oscar:hover figcaption {
+            background-color: rgba(58, 52, 42, 0);
+        }
+        figure.effect-oscar:hover img {
+            opacity: 0.2;
+        }
+
+        .video-box-heading p {
+            font-size: 14px;
+        }
+        .filmstrip p.strip-heading {
+            color: #890059;
+            font-size: 18px;
+            padding-top: 25px;
+        }
+    }
+    @media (max-device-width: 320px) {
+        .jumbotron {
+            padding: 0px;
+        }
+        .jumbotron .jumbo-inner {
+            position: absolute;
+            top: 100px;
+            visibility: hidden;
+        }
+        .hands-divider {
+            background: url('http://www.merck.com/images/about/bg_hands.jpg') no-repeat 0 0;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center;
+            height: 175px;
+        }
+    }
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+        .divider-two p {
+            font-size: 15px;
+        }
+        .quotes-inner .pullquote {
+            background-size: 33px;
+            background-position: 0px 22px;
+            margin-right: -90px;
+        }
+        span.quoteMark img {
+            position: relative;
+            top: 210px;
+            width: 32px;
+        }
+        .quotes-inner p {
+            padding-left: 15px;
+            padding-top: 10px;
+        }
+        .beyond-quotes {
+            background-position: right -80px top;
+            background-size: 200%;
+        }
+        .countThree-scroll {
+            margin-top: 0;
+            position: relative;
+            right: 0;
+            text-align: center;
+            padding-right: 30px;
+        }
+        .countThree-scroll .counter-three-map {
+            /* background-size: 206px auto;
+            background-position: 0px -20px; */
+            width: 90px;
+            background-size: 90px auto;
+            background-position: 0px -7px;
+            padding-bottom: 60px;
+            padding-left: 0px;
+            padding-top: 20px;
+            margin-right: 0px;
+        }
+        .scroller-stats #count-three {
+            font-size: 30px;
+            margin-bottom: -10px;
+            font-weight: bold;
+            position: relative;
+            bottom: 5px;
+            left: -7px;
+        }
+        .scroller-stats .countThree-scroll .counter-caption {
+            font-size: 30px;
+            left: -11px;
+            bottom: 5px;
+        }
+        .scroller-stats #count-two {
+            font-size: 50px;
+            position: relative;
+            right: -4px;
+            bottom: 5px;
+        }
+        .countTwo-scroll .counter-two-circle {
+            background-size: 80px auto;
+            margin-right: -10px;
+        }
+        .scroller-stats .countTwo-scroll .counter-caption {
+            font-size: 20px;
+            position: relative;
+            bottom: 20px;
+            left: -8px;
+        }
+        .scroller-stats .not-alone{
+            font-size: 35px;
+        }
+        .jumbotron {
+            padding: 0px;
+        }
+
+        .video-box .video-text {
+            padding: 0 !important;
+        }
+        .video-box .video iframe {
+            width: 260px;
+            height: 195px;
+            margin-bottom: 20px;
+        }   
+        .shareBtn {
+            position: relative;
+        }
+        .jumbotron .jumbo-inner {
+            position: absolute;
+            top: 100px;
+            visibility: hidden;
+        }
+        .jumbotron .jumbo-inner h1 {
+            font-size: 30px;
+            color: #009994;
+            width: 67%;
+            line-height: 30px;
+            margin-bottom: 5px;
+            padding-left: 20px;
+        }
+        .jumbotron .jumbo-inner p {
+            font-size: 20px;
+            color: #ffffff;
+            margin-bottom: 0px;
+            line-height: 20px;
+            padding-left: 20px;
+        }
+        .jumbotron .jumbo-inner sup {
+            font-size: 30px;
+            line-height: 0;
+            position: relative;
+            top: 15px;
+        }
+        .row-sm {
+            height: 150px;
+        }
+        .hands-divider {
+            background: url('http://www.merck.com/images/about/bg_hands.jpg') no-repeat 0 0;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center;
+            height: 175px;
+        }
+        h1.slide-heading {
+            color: #6bcad4 !important;
+            font-size: 20px;
+            padding: 40px 0 0 15px;
+            margin-bottom: 0px;
+        }
+        p.slide-quote {
+            color: #ffffff;
+            font-size: 18px;
+            padding-left: 15px;
+        }
+        .content-section {
+            padding: 0 0 25px;
+        }
+        .content-section p {
+            font-size: 16px;
+            padding: 0 15px;
+        }
+        p.partnershipModal {
+            font-size: 21px;
+            padding: 20px;
+        }
+        .mectizan-stats h3 {
+            font-size: 24px;
+            color: #000;
+            padding: 15px;
+        }
+        .mectizan-stats p.h5 {
+            font-size: 20px;
+            color: #000;
+            padding: 0 25px 30px 25px;
+        }
+        .mectizan-stats .stat-icon img {
+            width: 130px;
+        }
+        .small-gallery .col-xs-12 {
+            padding: 0px;
+        }
+        .small-gallery .gallery-box {
+            background-color:  #00877c;
+        }
+        .small-gallery .gallery-box .col-xs-12 {
+            background: #00877c;
+            position: relative;
+            height: 100%;
+            padding-bottom: 20px;
+        }
+        .small-gallery .gallery-box .col-xs-12 h2 {
+            font-size: 26px;
+            color: #fff;
+            font-weight: bold;
+        }
+        .small-gallery .gallery-box .col-xs-12 p {
+            padding: 0 53px;
+            color: #fff;
+            font-size: 18px;
+        }
+        .divider-one p {
+            color: #ffffff;
+            font-size: 24px;
+        }
+        .divider-one p.apoc-director {
+            color: #ffffff;
+            font-size: 18px;
+            padding: 0 67px;
+        }
+        .divider-one p.divider-one-quote {
+            color: #fffff;
+            font-size: 26px;
+        }
+        .scroller-stats img.pill-bottle {
+            width: 40%;
+            padding-top: 30px;
+        }
+        .scroller-stats #count-two {
+            position: relative;
+            right: 0px;
+            font-size: 30px;
+            /*font-size: 84px;
+            position: relative;
+            right: 20px;*/
+        }
+        .scroller-stats .countTwo-stat {
+            font-size: 35px;
+            font-weight: bold;
+            line-height: 35px;
+            position: relative;
+            bottom: 14px;
+
+        }
+        .scroller-stats img.hand {
+            width: 40%;
+            padding-top: 30px;
+        }
+        .pullquote {
+            padding: 27px 0px 0px 35px;
+            position: relative;
+            float: left;
+            font-size: 19px;
+            line-height: 1.3;
+            -webkit-font-smoothing: antialiased;
+            color: #FFF;
+            text-align: center;
+        }
+        .scroller-stats p.h2 {
+            color: #243444;
+            font-size: 20px;
+            font-weight: normal;
+        }
+        #partnership .modal-dialog {
+            width: 90%;
+        }
+        .staff-quote cite {
+            font-size: 24px;
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        .staff-quote cite span.lower-cite {
+            font-size: 18px;
+            color: #ffffff;
+            text-align: center;
+            position: relative;
+            bottom: 15px;
+        }
+        .content-section p.lead {
+          margin-bottom: 20px;
+          font-size: 20px;
+          font-weight: 300;
+          line-height: 1.2;
+          color: #7d8590;
+        }
+    }
+
+     /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+        .divider-two p {
+            font-size: 17px;
+        }
+        .beyond-quotes {
+            background-position: right -110px top;
+            background-size: cover;
+        }
+        .quotes-inner p{
+            font-size: 15px;
+            padding-top: 70px;
+        }
+        .quotes-inner .pullquote {
+            background-size: 33px;
+            background-position: 0px 22px;
+            margin-right: 0px;
+        }
+        span.quoteMark img {
+            position: relative;
+            top: 210px;
+            width: 32px;
+        }
+        .quotes-inner {
+            padding-left: 15px;
+        }
+        .countThree-scroll {
+            padding-right: 30px;
+        }
+        .countThree-scroll .counter-three-map {
+            /* background-size: 206px auto;
+            background-position: 0px -20px; */
+            width:145px;
+            background-size: 140px auto;
+            background-position: 0px -10px;
+            padding-bottom: 60px;
+            padding-left: 0px;
+            padding-top: 20px;
+            margin-right: -20px;
+            float: right;
+        }
+        .scroller-stats #count-three {
+            font-size: 50px;
+            margin-bottom: -10px;
+            font-weight: bold;
+            position: relative;
+            bottom: -2px;
+            left: -12px;
+        }
+        .scroller-stats .countThree-scroll .counter-caption {
+            font-size: 45px;
+            left: -15px;
+        }
+        .scroller-stats #count-two {
+            font-size: 50px;
+            position: relative;
+            right: -4px;
+            bottom: 5px;
+        }
+        .countTwo-scroll .counter-two-circle {
+            background-size: 122px auto !important;
+        }
+        .scroller-stats .countTwo-scroll .counter-caption {
+            font-size: 30px;
+            position: relative;
+            bottom: 25px;
+            left: -3px;
+        }
+        .video-box .video iframe {
+            width: 420px;
+            height: 315px;
+        }
+        .jumbotron {
+            padding: 0px;
+        }
+        .st_sharethis_custom{
+            top: -125px;
+        }
+        .jumbotron .jumbo-inner {
+            position: absolute;
+            top: 130px;
+            visibility: hidden;
+        }
+        .jumbotron .jumbo-inner h1 {
+            font-size: 45px;
+            color: #009994;
+            width: 59%;
+            line-height: 45px;
+        }
+        .shareBtn {
+            position: relative;
+        }
+        .row-sm {
+            height: 205px;
+        }
+        .content-section p {
+            font-size: 18px;
+            padding: 0 15px;
+        }
+        h1.slide-heading {
+            color: #6bcad4 !important;
+            font-size: 25px;
+            padding: 75px 0 0 45px;
+            margin-bottom: 0px;
+        }
+        p.slide-quote {
+            color: #ffffff;
+            font-size: 30px;
+            padding-left: 15px;
+        }
+        .hands-divider {
+            background: url('http://www.merck.com/images/about/bg_hands.jpg') no-repeat 0 0;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center;
+            height: 230px;
+        }
+        h1.slide-heading {
+            color: #6bcad4 !important;
+            font-size: 25px;
+            padding: 40px 0 0 15px;
+            margin-bottom: 0px;
+        }
+        .mectizan-stats h3 {
+            font-size: 23px;
+            color: #000;
+            padding: 20px 15px;
+            margin-top: 0px;
+        }
+        .mectizan-stats .stat-icon p.stat-two {
+            font-size: 22px;
+            padding: 0px;
+        }
+        .mectizan-stats .stat-icon img {
+            width: 130px;
+        }
+        .mectizan-stats p.h5 {
+            font-size: 20px;
+            color: #000;
+            padding: 0 15px;
+        }
+        .small-gallery .col-xs-12 {
+            padding: 0px;
+        }
+        .small-gallery .gallery-box {
+            background-color:  #00877c;
+        }
+        .small-gallery .gallery-box .col-xs-12 {
+            background: #00877c;
+            position: relative;
+            height: 100%;
+            padding-bottom: 20px;
+        }
+        .small-gallery .gallery-box .col-xs-12 h2 {
+            font-size: 26px;
+            color: #fff;
+            font-weight: bold;
+        }
+        .small-gallery .gallery-box .col-xs-12 p {
+            color: #fff;
+            font-size: 18px;
+        }
+        .divider-one p {
+            color: #ffffff;
+            font-size: 24px;
+            padding: 0 20px;
+        }
+         p.apoc-director {
+            color: #ffffff;
+            font-size: 18px;
+            padding: 0 67px;
+        }
+        .scroller-stats img.pill-bottle {
+            width: 33%;
+            padding-top: 30px;
+        }
+        .scroller-stats img.hand {
+            width: 40%;
+            padding-top: 30px;
+        }
+        .scroller-stats .countTwo-stat {
+            font-size: 35px;
+            font-weight: bold;
+            line-height: 35px;
+            position: relative;
+            bottom: 14px;
+            left: 31px;
+        }
+        
+        .pullquote {
+            padding: 27px 0px 0px 35px;
+            position: relative;
+            float: left;
+            font-size: 19px;
+            line-height: 1.3;
+            -webkit-font-smoothing: antialiased;
+            color: #FFF;
+            text-align: center;
+        }
+        .staff-quote cite {
+            font-size: 24px;
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        .scroller-stats p.h2 {
+            color: #243444;
+            font-size: 20px;
+            font-weight: normal;
+            padding: 0 20px;
+        }
+    }
+
+     /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        .video-box .video-text {
+            padding: 80px 30px !important;
+        }
+        .video-box .video iframe {
+            width: 330px;
+            height: 248px;
+        }
+        .divider-two p {
+            font-size: 20px;
+        }
+        .beyond-quotes {
+            background-position: right -100px top;
+        }
+        .quotes-inner .pullquote {
+            background-size: 40px   ;
+            background-position: 0px 22px;
+        }
+        .countThree-scroll {
+            padding-right: 0px;
+        }
+        .countThree-scroll .counter-three-map {
+            margin-right: -40px;
+            padding-bottom: 60px;
+            padding-top: 0px;
+            background-position: 30px -39px;
+            background-size: 220px auto;
+            padding-left: 0px;
+            width: 265px;
+            float: initial;
+        }
+        .quotes-inner p {
+            font-size: 25px;
+            padding-left: 7px;
+        }
+        span.quoteMark img {
+            top: 310px;
+        }
+        .scroller-stats #count-three {
+            margin-left: 2px !important;
+        }
+        .scroller-stats .countThree-scroll .counter-caption{
+            font-size: 70px;
+            bottom: -13px;
+            position: relative;
+        }
+        .countTwo-scroll .counter-two-circle {
+            background-size: 140px auto !important;
+            background-position: 3px -1px;
+            padding-top: 10px;
+        }
+        .scroller-stats .countTwo-scroll .counter-caption {
+            font-size: 30px;
+            bottom: 35px;
+            left: 6px;
+        }
+        .jumbotron {
+            padding-top: 0px;
+        }
+        .shareBtn {
+            position: relative;
+            top: -165px;
+            right: -422px;
+        }
+        .jumbotron .jumbo-inner {
+            position: absolute;
+            top: 125px;
+            visibility: hidden;
+        }
+        .jumbotron .jumbo-inner h1 {
+            font-size: 55px;
+            color: #009994;
+            width: 59%;
+            line-height: 48px;
+        }
+        .jumbotron .jumbo-inner p {
+            font-size: 35px;
+            color: #ffffff;
+            margin-bottom: 0px;
+            line-height: 35px;
+        }
+        .jumbotron .jumbo-inner sup {
+            font-size: 40px;
+            line-height: 0;
+            position: relative;
+            top: 25px;
+        }
+        h1.slide-heading {
+            color: #6bcad4 !important;
+            font-size: 30px;
+            padding: 75px 0 0 45px;
+            margin-bottom: 0px;
+        }
+        p.slide-quote {
+            color: #ffffff;
+            font-size: 35px;
+        }
+        .content-section {
+            /*padding: 80px 0;*/
+        }
+        .content-section p {
+            font-size: 18px;
+            padding: 0 15px;
+        }
+        .mectizan-stats .stat-icon p {
+            font-size: 22px;
+            padding: 0px;
+            color: #243444;
+            font-weight: bold;
+        }
+        .mectizan-stats .stat-icon p.stat-two {
+            font-size: 22px;
+
+        }
+        #theheading p {
+            font-size: 40px;
+            color: #9aaf3d;
+            padding: 25px 0;
+        }
+        .timelineBar ul li a.active {
+            text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+            color: #c96b09;
+            text-decoration: none;
+            font-size: 19px;
+        }
+        .gallery-container .india h2,
+        .gallery-container .africa h2 {
+            background: #00877c;
+            left: 30%;
+            top: -48px;
+            bottom: 136px;
+            position: relative;
+            margin: 0;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .gallery-container .india p {
+            margin-top: 6px;
+            font-size: 18px;
+            position: relative;
+            bottom: 34px;
+            margin-bottom: 0px;
+            padding: 2px 30px;
+
+        }
+        .gallery-container .africa p {
+            margin-top: 6px;
+            font-size: 18px;
+            position: relative;
+            bottom: 34px;
+            margin-bottom: 0px;
+            padding: 2px 0;
+        }
+        #theheading p {
+            font-size: 25px;
+            color: #9aaf3d;
+            padding: 20px 71px;
+        }
+        #w1978 h1, #w1981 h1, #w1987 h1, #w1988 h1,
+        #w1991 h1, #w1993 h1, #w1995 h1, #w1998 h1,
+        #w1999 h1, #w2002 h1, #w2008 h1, #w2010 h1,
+        #w2011 h1, #w2012 h1, #w2013 h1, #w2014 h1 {
+            float: left;
+            margin: 0 20px;
+            padding: 65px 45px 100px 0;
+            line-height: 100%;
+            font-size: 150px;
+            color: #c96b09;
+            letter-spacing: -2px;
+            font-style: normal;
+            font-weight: bold;
+            text-shadow: 0 0 20px rgba(255, 255, 255, .8);
+            border-right: 4px solid #7a7a7a;
+        }
+        #w1978 p, #w1981 p, #w1987 p, #w1988 p,
+        #w1991 p, #w1993 p, #w1995 p, #w1998 p,
+        #w1999 p, #w2002 p, #w2008 p, #w2010 p,
+        #w2011 p, #w2012 p, #w2013 p, #w2014 p {
+            margin: 40px 10px 10px 10px;
+            font-size: 20px;
+            width: 675px;
+            font-style: normal;
+            font-weight: bold;
+            color: #000;
+        }
+        #timeline {
+            width: 100%;
+            height: 733px;
+            margin: 0 auto;
+            position: relative;
+            top: 50px;
+            overflow: hidden;
+        }
+        .timelineBar .bar {
+            background: url('http://www.merck.com/images/about/timelineBar-bg.png');
+            background-repeat: repeat-x;
+            display: block;
+            max-width: 100%;
+            bottom: top;
+            width: 100%;
+            height: auto;
+            padding: 0;
+            position: relative;
+            bottom: 25px;
+        }
+        .timelineBar ul {
+            position: relative;
+            bottom: 0;
+            margin: 0 auto;
+            padding: 0;
+            float: none;
+            clear: both;
+        }
+        .timelineBar ul li {
+            float: left;
+            list-style: none;
+            margin: 0 3px;
+            padding: 0 2px;
+            text-align: center;
+        }
+        .timelineBar ul li a.timelineDate {
+            text-decoration: none;
+            font-size: 19px;
+            color: #000;
+            cursor: pointer;
+        }
+        .timelineBar ul li a.timelineDate:hover{
+            text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+            color: #d06f28;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .divider-one .groupOne {
+            position: relative;
+                left: 23%;
+                z-index: 1;
+        }
+        .scroller-stats #count-three {
+            font-size: 70px;
+            font-weight: bold;
+            text-align: left;
+            position: relative;
+            top: 14px;
+        }
+        .scroller-stats .communities {
+            font-size: 29px;
+            position: relative;
+            bottom: 14px;
+            font-weight: bold;
+        }
+        .scroller-stats img.pill-bottle {
+            width: 70%;
+            padding-top: 30px;
+        }
+        .scroller-stats #count-two {
+            font-size: 70px !important;
+            margin-left: -15px;
+        }
+        .scroller-stats span.countTwo-stat {
+            font-size: 35px;
+            font-weight: bold;
+            line-height: 33px;
+            position: relative;
+            bottom: 11px;
+            right: 20px;
+            left: -10px;
+        }
+        .scroller-stats .countTwo-scroll .col-lg-2, .scroller-stats .countTwo-scroll .col-md-2 {
+            padding: 0px;
+            /* width: 11%; */
+            margin-left: 0px;
+        }
+        .scroller-stats img.hand {
+            width: 81%;
+            padding-top: 30px;
+        }
+        .scroller-stats .communities {
+            font-size: 29px;
+            position: relative;
+            bottom: 3px;
+            font-weight: bold;
+        }
+        .staff-quote img {
+            position: relative;
+            top: 0px;
+            right: 0px;
+        }
+        .pullquote {
+            padding: 32px 0 0 32px;
+            position: relative;
+            float: left;
+            font-size: 22px;
+            line-height: 1.3;
+            -webkit-font-smoothing: antialiased;
+            color: #FFF;
+            text-align: center;
+        }
+        .staff-quote cite {
+            font-size: 26px;
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        .staff-quote cite span.lower-cite {
+            font-size: 20px;
+            color: #ffffff;
+            text-align: center;
+            position: relative;
+            bottom: 15px;
+        }
+        .staff-quote cite span.lower-cite {
+            font-size: 18px;
+            color: #ffffff;
+            text-align: center;
+            position: relative;
+            bottom: 15px;
+        }
+        .scroller-stats p.h2 {
+            color: #243444;
+            font-size: 23px;
+            font-weight: normal;
+        }
+        #partnership .modal-dialog {
+            width: 80%;
+        }
+        .video-box-heading {
+            padding: 45px 0 0px;
+            border-bottom: 8px solid #890059;
+        }
+        .video-box-heading p.h2 {
+            font-size: 20px;
+            color: #890059;
+            margin: 0px 0px 5px;
+        }
+        .video-box-heading p {
+            font-size: 14px;
+        }
+      .content-section p.lead {
+        margin-bottom: 20px;
+        font-size: 26px;
+        font-weight: 300;
+        line-height: 1.4;
+        color: #7d8590;
+      }
+
+    }
+
+     /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+        .video-box .video iframe {
+            width: 420px;
+            height: 315px;
+        }
+        span.quoteMark img {
+            top: 285px;
+            width: 40px;
+        }
+        .beyond-quotes {
+            background-position: right -100px top;
+        }
+        .quotes-inner .pullquote {
+            background-size: initial;
+            background-position: 0px 42px;
+        }
+        .countThree-scroll {
+            padding-right: 0px;
+        }
+        .countThree-scroll .counter-three-map {
+            margin-right: -20px;
+            padding-top: 7px;
+            padding-left: 0px;
+            background-position: 78px -36px;
+            background-size: 230px auto;
+            float: initial;
+            width: 318.33px;
+        }
+        .scroller-stats #count-three {
+            font-size: 70px;
+            margin-bottom: -10px;
+            font-weight: bold;
+            margin-left: 35px !important;
+        }
+        .countTwo-scroll .counter-two-circle {
+            background-size: 140px auto !important;
+            background-position: 3px -1px;
+            padding-top: 10px;
+        }
+        .scroller-stats .countTwo-scroll .counter-caption {
+            font-size: 30px;
+            bottom: 35px;
+            left: 6px;
+        }
+        .shareBtn {
+            position: relative;
+            right: -590px;
+            top: -195px;
+        }
+        .video-box .video-text {
+            padding: 80px 70px !important;
+            text-align: center;
+        }
+        .jumbotron .jumbo-inner {
+            top: 165px;
+        }
+        .jumbotron .jumbo-inner h1 {
+            font-size: 65px;
+            color: #009994;
+            width: 59%;
+            line-height: 58px;
+        }
+        .jumbotron {
+            padding-top: 105px;
+        }
+        .jumbotron .jumbo-inner p {
+            font-size: 40px;
+            color: #ffffff;
+            margin-bottom: 0px;
+            line-height: 40px;
+        }
+        .jumbotron .jumbo-inner sup {
+            font-size: 40px;
+            line-height: 0;
+            position: relative;
+            top: 25px;
+        }
+        .row-sm {
+            height: 230px;
+        }
+        .content-section p {
+            font-size: 20px;
+            padding: 0 15px;
+        }
+        .mectizan-stats .stat-icon p.stat-two {
+            font-size: 22px;
+            padding: 0 20px;
+        }
+        #theheading p {
+            font-size: 30px;
+            color: #9aaf3d;
+            padding: 25px 71px;
+        }
+        #w1978 h1, #w1981 h1, #w1987 h1, #w1988 h1,
+        #w1991 h1, #w1993 h1, #w1995 h1, #w1998 h1,
+        #w1999 h1, #w2002 h1, #w2008 h1, #w2010 h1,
+        #w2011 h1, #w2012 h1, #w2013 h1, #w2014 h1 {
+            float: left;
+            margin: 0 20px;
+            padding: 65px 45px 100px 0;
+            line-height: 100%;
+            font-size: 125px;
+            color: #c96b09;
+            letter-spacing: -2px;
+            font-style: normal;
+            font-weight: bold;
+            text-shadow: 0 0 20px rgba(255, 255, 255, .8);
+            border-right: 4px solid #7a7a7a;
+        }
+        #w1978 p, #w1981 p, #w1987 p, #w1988 p,
+        #w1991 p, #w1993 p, #w1995 p, #w1998 p,
+        #w1999 p, #w2002 p, #w2008 p, #w2010 p,
+        #w2011 p, #w2012 p, #w2013 p, #w2014 p {
+            margin: 60px 10px 10px 10px;
+            font-size: 24px;
+            width: 887px;
+            font-style: normal;
+            font-weight: bold;
+            color: #000;
+        }
+        .timelineBar .bar {
+            background: url('http://www.merck.com/images/about/timelineBar-bg.png');
+            background-repeat: repeat-x;
+            display: block;
+            max-width: 100%;
+            bottom: top;
+            width: 100%;
+            height: auto;
+            padding: 0;
+            position: relative;
+            bottom: 25px;
+        }
+        .timelineBar ul {
+            position: relative;
+            bottom: 0;
+            margin: 0 auto;
+            padding: 0;
+            float: none;
+            clear: both;
+        }
+        .timelineBar ul li a.timelineDate {
+            text-decoration: none;
+            font-size: 23px;
+            color: #000;
+            /* font-family: Arial, Helvetica, sans-serif; */
+            cursor: pointer;
+        }
+        .timelineBar ul li {
+            float: left;
+            list-style: none;
+            margin: 0 3px;
+            padding: 0 5px;
+            text-align: center;
+        }
+        .timelineBar ul li a.timelineDate:hover{
+            text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+            color: #d06f28;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .timelineBar ul li a.active {
+            text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+            color: #c96b09;
+            text-decoration: none;
+            font-size: 23px;
+        }
+        .scroller-stats img.pill-bottle {
+            width: 65%;
+            padding-top: 30px;
+        }
+        .scroller-stats span.countTwo-stat {
+            font-size: 45px;
+            font-weight: bold;
+            line-height: 40px;
+            position: relative;
+            bottom: 2px;
+            right: 20px;
+        }
+        .scroller-stats #count-two {
+            font-size: 104px;
+            margin-left: -20px;
+        }
+        
+        .scroller-stats img.pill-bottle {
+            width: 65%;
+            padding-top: 30px;
+        }
+        .groupOne {
+            position: relative
+            left: 25%;
+        }
+        .pullquote {
+            padding: 38px 22px 0px 46px;
+            position: relative;
+            float: left;
+            font-size: 27px;
+            line-height: 1.3;
+            -webkit-font-smoothing: antialiased;
+            color: #FFF;
+            text-align: center;
+        }
+        .staff-quote img {
+            position: relative;
+            top: 0px;
+            right: 0px;
+        }
+        .staff-quote cite {
+            font-size: 26px;2603
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        .staff-quote cite span.lower-cite {
+            font-size: 22px;
+            color: #ffffff;
+            text-align: center;
+            position: relative;
+            bottom: 15px;
+        }
+        #partnership .modal-dialog {
+            width: 50%;
+        }
+        .video-box-heading {
+            padding: 45px 0 0px;
+            border-bottom: 8px solid #890059;
+        }
+        .video-box-heading p.h2 {
+            font-size: 28px;
+            color: #890059;
+            margin: 0px 0px 5px;
+        }
+        .video-box-heading p {
+            font-size: 18px;
+        }
+        .scroller-stats .communities {
+            font-size: 35px;
+            position: relative;
+            bottom: 3px;
+            font-weight: bold;
+        }
+
+    }
+
+     /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+        
+        span.quoteMark img {
+            top: 275px;
+            width: inherit;
+        }
+        .beyond-quotes {
+            background-position: right top;
+        }
+        .countThree-scroll .counter-three-map {   
+            background-position: 110px 6px;
+            padding: 50px;
+            padding-left: 75px;
+            background-size: 230px auto;
+            float: initial;
+            width: 385px;
+        }
+        .countTwo-scroll .counter-two-circle {
+            background-size: 140px auto !important;
+            background-position: 3px -1px;
+            padding-top: 10px;
+        }
+        .scroller-stats .countTwo-scroll .counter-caption {
+            font-size: 30px;
+            bottom: 35px;
+            left: 6px;
+        }
+        div.countTwo-scroll{
+            padding-top: 25px;
+        }
+        .shareBtn {
+            position: relative;
+            right: -690px;
+            top: -229px;
+        }
+        .jumbotron .jumbo-inner h1 {
+            /*font-size: 85px;*/
+            color: #009994;
+            width: 59%;
+            line-height: 70px;
+        }
+        .jumbotron .jumbo-inner p {
+            font-size: 50px;
+            color: #ffffff;
+            margin-bottom: 0px;
+            line-height: 49px;
+        }
+        .jumbotron .jumbo-inner sup {
+            font-size: 50px;
+            line-height: 0;
+            position: relative;
+            top: 30px;
+        }
+        #w1978 h1, #w1981 h1, #w1987 h1, #w1988 h1,
+        #w1991 h1, #w1993 h1, #w1995 h1, #w1998 h1,
+        #w1999 h1, #w2002 h1, #w2008 h1, #w2010 h1,
+        #w2011 h1, #w2012 h1, #w2013 h1, #w2014 h1 {
+            float: left;
+            margin: 0 20px;
+            padding: 65px 45px 65px 0;
+            line-height: 100%;
+            font-size: 170px;
+            color: #c96b09;
+            letter-spacing: -2px;
+            font-style: normal;
+            font-weight: bold;
+            text-shadow: 0 0 20px rgba(255, 255, 255, .8);
+            border-right: 4px solid #7a7a7a;
+        }
+        .timelineBar ul li a.timelineDate {
+            text-decoration: none;
+            font-size: 26px;
+            color: #000;
+            cursor: pointer;
+        }
+        .timelineBar ul li {
+            float: left;
+            list-style: none;
+            margin: 0 3px;
+            padding: 0 15px 0 0;
+            text-align: center;
+        }
+        .scroller-stats #count-two {
+            font-size: 128px;
+            margin-left: -20px;
+            position: relative;
+            bottom: 5px;
+        }
+        .scroller-stats span.countTwo-stat {
+            font-size: 57px;
+            font-weight: bold;
+            line-height: 48px;
+            position: relative;
+            bottom: 2px;
+            right: 20px;
+        }
+        .scroller-stats #count-three {
+            font-size: 70px;
+            margin-bottom: -10px;
+            font-weight: bold;
+        }
+        .staff-quote {
+            background-color: #90a33c;
+            height: 100%;
+        }
+        blockquote {
+            border-left: 0px;
+        }
+        .pullquote {
+            padding: 46px 22px 20px 55px;
+            position: relative;
+            float: left;
+            font-size: 33px;
+            line-height: 1.3;
+            -webkit-font-smoothing: antialiased;
+            color: #FFF;
+            text-align: center;
+        }
+        .pullquote br {
+            display: none;
+        }
+        .pullquote:before {
+
+        }
+        .pullquote:after {
+            content: "";
+            font-family: Georgia;
+            font-size: 400%;
+            position: absolute;
+            color: #ffffff;
+        }
+        .pullquote:before {
+            top: .25rem;
+            left: .5rem;
+        }
+        .pullquote:after {
+            content: "”";
+            font-size: 33px;
+        }
+        .staff-quote cite {
+            font-size: 32px;
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        .staff-quote cite span.lower-cite {
+            font-size: 26px;
+            color: #ffffff;
+            text-align: center;
+            position: relative;
+            bottom: 15px;
+        }
+        .staff-quote img {
+            position: relative;
+            top: 97px;
+            right: 100px;
+        }
+        #partnership .modal-dialog {
+            width: 40%;
+        }
+        .divider-one p.apoc-director {
+            color: #ffffff;
+            font-size: 27px;
+            padding: 0 67px;
+        }
+        .divider-one p.divider-one-quote {
+            color: #fffff;
+            font-size: 36px;
+        }
+        .divider-one p {
+            color: #ffffff;
+            font-size: 40px;
+            padding: 0 20px;
+        }
+        .divider-one .groupOne {
+            /*z-index: 10002;*/
+            z-index: 11;
+            top: 0px;
+            position: relative;
+            left: 20px;
+        }
+
+        .divider-one .groupTwo {
+            z-index: 11;
+            top: 0px;
+            position: relative;
+            bottom: 0px;
+            left: 20px;
+        }
+
+        #theheading p {
+            font-size: 47px;
+            color: #9aaf3d;
+            padding: 25px 71px;
+        }
+        .video-box-heading {
+            padding: 75px 0 0px;
+            border-bottom: 8px solid #890059;
+        }
+        .video-box-heading p.h2 {
+            font-size: 42px;
+            color: #890059;
+            margin: 0px 0px 5px;
+        }
+        .video-box-heading p {
+            font-size: 18px;
+        }
+        .lead {
+          margin-bottom: 20px;
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 1.4;
+        }
+    }
+    @media (max-width: 1024px){
+            .divider-one .groupOne {
+        left: 0;
+    }
+    .groupOne img, .groupTwo img, .groupThree img { display: inline; }
+    }
+
+.shareBtn{
+    visibility: visible !important;
+    /* position: relative;
+    top: -229px;
+    right: -690px; */
+}
+.beyond-team {
+    background-color: #009994;
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+.beyond-team .team-name h2{
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -15px;
+    color: #243444;
+}
+.beyond-team .team-bio {
+    color: white;
+}
+
+.video-box {
+    background-color: #54b8b7;
+    padding: 50px 0 50px 0;
+}
+.video-box .video-text {
+    padding: 80px 70px;
+    text-align: center;
+}
+/* .video-box .video iframe{
+    float: right;
+} */
+.video-box .video-title p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.video-box .video-caption p{
+    color: #243444;
+    font-size: 22px;
+}
+.scroller-stats .countThree-scroll .counter-caption{
+    /* font-size: 70px; */
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+}
+
+.scroller-stats #count-two {
+    /*font-size: 70px;*/
+    /*margin: 0px;*/
+}
+
+.scroller-stats .countTwo-scroll .counter-caption{
+    /* font-size: 30px; */
+    font-weight: bold;
+    display: inline-block;
+    /* bottom: 35px; */
+    position: relative;
+    /* left: 6px; */
+}
+
+.scroller-stats .not-alone{
+    color: #FFF;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.scroller-stats {
+    background-color: #243444;    
+}
+.scroller-stats p.h2{
+    color: #54b8b7;
+}
+.scroller-stats img.bed{
+    width: 100%;
+}
+
+.countThree-scroll .counter-three-map {
+    background-image: url("http://www.merck.com/images/about/tired_bg_stat_map.png");
+    background-repeat: no-repeat;
+    /*background-size: 230px;*/
+}
+
+.countTwo-scroll .counter-two-circle {
+    /* position: relative;
+    left: 115px;
+    top: 15px; */
+    background-image: url("http://www.merck.com/images/about/tired_bg_stat_circle.png");
+    /* background-size: 140px; */
+    background-repeat: no-repeat;
+    /* background-position: 3px -1px; */
+    overflow: visible;
+    padding-top: 10px;
+    color: white;
+}
+.countTwo-scroll .counter-two-circle span, .countTwo-scroll .counter-two-circle div {
+    margin-left: 15px !important;
+}
+
+
+
+.beyond-quotes .container{
+    max-width: 100%;
+}
+
+.beyond-quotes {
+    background-image: url("http://www.merck.com/images/about/tired_bg_zac.jpg");
+    background-repeat: no-repeat;
+}
+.quotes-inner .pullquote{
+    background-image: url("http://www.merck.com/images/about/quote-mark-blue.png");
+    background-repeat: no-repeat;
+}
+.quotes-inner {
+    /*position: absolute;*/
+    width: 65%;
+}
+
+.quotes-inner p {
+    color: white;
+    /* font-size: 25px; */
+    /* padding-top: 70px; */
+}
+
+.pullquote, .pullquote:after {
+    color: #54B8B7 !important;
+}
+.beyond-quotes img{
+    width:100%;
+}
+
+.stat-info .h2 span {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.stat-info .h2 span.green {
+    color: #90a33c;
+}
+
+.stat-info .h2 span.orange {
+    color: #f6902f;
+}
+.st_sharethis_custom {
+    max-width: 134px;
+    height: auto;
+    float: right;
+}

@@ -1,0 +1,1275 @@
+.content-section { background: #fff; }
+.row.row-sm { background: #fff; }
+.breadcrumb .megamenu_drop,
+.breadcrumb .slash:first-of-type { display: none; }
+/* ==========================================================================
+   0. PAGE GLOBALS
+   ========================================================================== */
+	h1 {
+		color: #6176a3;
+		font-size: 65px;
+		text-transform: uppercase;
+		line-height: 1em;
+	}
+	h1.small_title {
+		font-size: 45px;
+		padding: 0;
+	}
+	sup {
+		font-size: 80%;
+		vertical-align: baseline;
+		top: -.2em;
+	}
+	.shareBtn {
+		cursor: pointer;
+		position: relative;
+		z-index: 99;
+		width: 110px;
+		margin-top: 2%;
+	}
+	.shareBtn img {
+		max-width: 90%;
+	}
+    .quote-large {
+        font-family: "Times New Roman",serif;
+		position: relative;
+		font-size: 110px;
+		line-height: 0.5em;
+		top: 40px;
+    }
+    .quote {
+        font-family: 'Times New Roman', serif;
+    }
+    blockquote {
+    	margin: -20px 10px 20px 0;
+    	border: none;
+    }
+    blockquote p {
+        font-size: 28px !important;
+        font-weight: bold;
+    }
+    blockquote .caption {
+        font-size: 24px !important;
+        font-weight: normal;
+    }
+	.blockquote-rule {
+		border-top: solid 2px #00877c;
+	}
+    img.video {
+    	padding: 50px 0 0 0;
+    }
+    .pad30 {
+    	margin: 0 auto;
+    	padding: 30px 30px 0 30px;
+    }
+    .smaller-img {
+    	width: 70%;
+    	padding: 8px;
+    }
+	#button {
+	    background: #009994 none repeat scroll 0 0;
+	    border: 1px solid #33cbc5;
+	    color: #ffffff;
+		font-size: 22px;
+		padding: 10px;
+		text-transform: uppercase;
+		text-decoration: none;
+		display: inline-block;
+	    -webkit-transition: all 0.5s ease-in-out;
+	    -moz-transition: all 0.5s ease-in-out;
+	    -o-transition: all 0.5s ease-in-out;
+	    transition: all 0.5s ease-in-out;
+	}
+	#button:hover {
+		background: #f2f3f5 none repeat scroll 0 0;
+	    border: 1px solid #243444;
+	    color: #243444;
+	}
+	.thumbnail-inline {
+		width: 10%;
+		padding: 0 10px;
+	}
+	.thumbnail-text {
+		font-size: 18px !important;
+		padding: 8px 0;
+	}
+	.container-padding {
+		padding: 25px;
+	}
+	.explore-us-btn {
+		cursor: pointer;
+	}
+/* __________________________________________________________________________________
+
+	SPACERS
+_____________________________________________________________________________________ */
+
+.spacer10 {
+	width: 100%;
+	height: 10px;
+	clear: both;
+	float: none;
+}
+
+.spacer20 {
+	width: 100%;
+	height: 20px;
+	clear: both;
+	float: none;
+}
+
+.spacer30 {
+	width: 100%;
+	height: 30px;
+	clear: both;
+	float: none;
+}
+
+.spacer40 {
+	width: 100%;
+	height: 40px;
+	clear: both;
+	float: none;
+}
+
+.spacer50 {
+	width: 100%;
+	height: 50px;
+	clear: both;
+	float: none;
+}
+
+.spacer60 {
+	width: 100%;
+	height: 60px;
+	clear: both;
+	float: none;
+}
+
+.spacer70 {
+	width: 100%;
+	height: 70px;
+	clear: both;
+	float: none;
+}
+
+.spacer80 {
+	width: 100%;
+	height: 80px;
+	clear: both;
+	float: none;
+}
+
+.spacer90 {
+	width: 100%;
+	height: 90px;
+	clear: both;
+	float: none;
+}
+
+.spacer100 {
+	width: 100%;
+	height: 100px;
+	clear: both;
+	float: none;
+}
+/* __________________________________________________________________________________
+
+	COLORS
+_____________________________________________________________________________________ */
+
+	.generic_text_color {
+		color: #333;
+	}
+	.bkgd_bluegray {
+		background-color: #243444;
+	}
+	.bkgd_indigo {
+		background-color: #275f76;
+	}
+	.bkgd_white {
+		background-color: #ffffff;
+	}
+	.white {
+		color: #ffffff;
+	}
+	.teal {
+		color: #159a95;
+	}
+	.teal60 {
+		color: #52b8b7;
+	}
+	.teal40 {
+		color: #8dcbcb;
+	}
+	.teal20 {
+		color: #c4e1df;
+	}
+	.bkgd_teal {
+		background-color: #159a95;
+	}
+	.bkgd_teal60 {
+		background-color: #52b8b7;
+	}
+	.bkgd_teal40 {
+		background-color: #8dcbcb;
+	}
+	.bkgd_teal20 {
+		background-color: #c4e1df;
+	}
+	.lightteal {
+		color: #63ceca;
+	}
+	.lightteal60 {
+		color: #a9dde1;
+	}
+	.lightteal40 {
+		color: #c5e7eb;
+	}
+	.lightteal20 {
+		color: #e0f2f2;
+	}
+	.bkgd_lightteal {
+		background-color: #63ceca;
+	}
+	.bkgd_lightteal60 {
+		background-color: #a9dde1;
+	}
+	.bkgd_lightteal40 {
+		background-color: #c5e7eb;
+	}
+	.bkgd_lightteal20 {
+		background-color: #e0f2f2;
+	}
+	.purple {
+		color: #6d1548;
+	}
+	.purple60 {
+		color: #9b5e7f;
+	}
+	.purple40 {
+		color: #b88aa1;
+	}
+	.purple20 {
+		color: #d6bdc9;
+	}
+	.bkgd_purple {
+		background-color: #6d1548;
+	}
+	.bkgd_purple60 {
+		background-color: #9b5e7f;
+	}
+	.bkgd_purple40 {
+		background-color: #b88aa1;
+	}
+	.bkgd_purple20 {
+		background-color: #d6bdc9;
+	}
+	.darkgray {
+		color: #37424a;
+	}
+	.darkgray60 {
+		color: #66717e;
+	}
+	.darkgray40 {
+		color: #8e969f;
+	}
+	.darkgray20 {
+		color: #bfc1c9;
+	}
+	.bkgd_darkgray {
+		background-color: #37424a;
+	}
+	.bkgd_darkgray60 {
+		background-color: #66717e;
+	}
+	.bkgd_darkgray40 {
+		background-color: #8e969f;
+	}
+	.bkgd_darkgray20 {
+		background-color: #bfc1c9;
+	}
+	.lightgray {
+		color: #aaaaaa;
+	}
+	.bkgd_lightgray {
+		background-color: #e8e8e8;
+	}
+	.orange {
+		color: #d47b22;
+	}
+	.orange60 {
+		color: #fcb87d;
+	}
+	.orange40 {
+		color: #fed0a4;
+	}
+	.orange20 {
+		color: #fee5cc;
+	}
+	.bkgd_orange {
+		background-color: #d47b22;
+	}
+	.bkgd_orange60 {
+		background-color: #fcb87d;
+	}
+	.bkgd_orange40 {
+		background-color: #fed0a4;
+	}
+	.bkgd_orange20 {
+		background-color: #fee5cc;
+	}
+	.green {
+		color: #879637;
+	}
+	.green60 {
+		color: #b7c381;
+	}
+	.green40 {
+		color: #cbd3a5;
+	}
+	.green20 {
+		color: #e0e6ce;
+	}
+	.bkgd_green {
+		background-color: #879637;
+	}
+	.bkgd_green60 {
+		background-color: #b7c381;
+	}
+	.bkgd_green40 {
+		background-color: #cbd3a5;
+	}
+	.bkgd_green20 {
+		background-color: #e0e6ce;
+	}
+
+/* 0.1. HERO SECTION
+   ========================================================================== */
+	.products .main-hero-section {
+		background-color: #0F9491;
+		margin-top: 106px;
+		background-image: url("http://www.merck.com/images/products/products_bg_hero.jpg");
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: 250%;
+	}
+	.products .main-hero-section h1 {
+		text-transform: uppercase;
+		position: relative;
+		padding-bottom: 55px;
+		padding-top: 350px;
+	}
+	.products .main-hero-section p {
+		font-size: 28px;
+		line-height: 28px;
+		padding-bottom: 10px;
+	}
+	.products .explore_btn {
+		position: absolute;
+		left: 45%;
+		margin-top: -55px;
+	}
+/* 0.2. DIVIDER SECTION
+   ========================================================================== */
+ 	
+	.products .divider.one {
+		padding: 40px 0px;
+	}
+	.products .divider h2 {
+		font-size: 40px;
+		line-height: 1.2em;
+		text-transform: uppercase;
+		padding-top: 60px;
+	}
+	.products .divider p.larger {
+		font-size: 25px;
+		font-weight: normal;
+		padding-top: 50px;
+	}
+ 	.products .divider p {
+ 		font-size: 30px;
+		padding: 10px 10px 10px 10px;
+ 	}
+ 	.products .divider.two {
+		padding: 90px 0px;
+	}
+	.products .divider.two .no-padding {
+		padding: 0;
+	}
+
+/* 0.3 CONTENT-SECTION
+   ========================================================================== */
+	.products .content-section.one {
+		padding: 50px 0px;
+	}
+	.products .content-section.one h2 {
+		font-size: 30px;
+		text-transform: uppercase;
+	}
+	.products .content-section.one a {
+		color: #213444;
+		text-decoration: underline;
+	}
+	.products .content-section .medal-img {
+		display: inline-block;
+		float: right;
+		width: 23%;
+		padding: 5px;
+		margin-top: -18px;
+	}
+	.products .content-section.one p {
+		font-size: 24px;
+	}
+	.products .content-section.one p.extra-pad {
+		padding-top: 20px;
+	}
+	.products .content-section .quote {
+		font-size: 26px;
+		font-weight: 900;
+		padding-top: 45px;
+		padding-bottom: 20px;
+	}
+	.products .content-section.two {
+		color: white;
+	}
+	.products .content-section.two h2 {
+		font-size: 38px;
+		color: white;
+		padding: 20px 0px;
+	}
+	.products .content-section.two p {
+		font-size: 22px;
+		margin-top: 3%;
+	}
+	.products .content-section.three {
+		background-color: #1F9C96;
+		background-image: url("http://www.merck.com/images/about/nobel-prize/np_statue2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: right top;
+		color: white;
+		padding: 20px 0px 140px;
+	}
+	.products .content-section.three h2 {
+		font-size: 38px;
+		color: white;
+		padding: 20px 0px;
+	}
+	.products .content-section.three p {
+		font-size: 26px;
+	}
+	.products .content-section.three a {
+		color: white;
+		text-decoration: underline;
+	}
+	.products .content-section.four {
+		background-color: white;
+		color: #233444;
+		padding: 20px 0px;
+	}
+	.products .content-section.four p {
+		font-size: 35px;
+		font-weight: 700;
+		text-align: center;
+	}
+	.products .content-section.four p.larger {
+		font-size: 55px;
+		margin-bottom: 0px;
+	}
+	.products .content-section.four p.top {
+		font-size: 30px;
+		padding: 40px 0px;
+	}
+	.products .content-section.four p.bottom {
+		font-size: 26px;
+		padding: 40px 0px;
+		font-weight: 400;
+	}
+
+/* 0.4 QUOTE-SECTION
+   ========================================================================== */
+	.products .quote-section.one {
+		background-color: #90A33C;
+		color: white;
+	}
+	.products .quote-section.one .frazier {
+		margin-top: 7%;
+	}
+	.products .quote-section.one p.img-caption {
+		position: absolute;
+		bottom: 0px;
+		left: 10%;
+		color: white;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.products .quote-section.two {
+		background-color: #C6E7EE;
+		padding-bottom: 50px;
+	}
+	.products .quote-section.two p {
+		font-size: 26px;
+	}
+	.products .quote-section.two img {
+		padding-top: 15%;
+	}
+	.products .quote-section.two .caption {
+		font-size: 26px;
+	}
+
+/* 0.3 FULLWIDTH-CONTENT-SECTION
+   ========================================================================== */
+	.products .fullwidth-content-section {
+		background: #275f76;
+	}
+	.products .fullwidth-content-section .section-container {
+		width: 80%;
+		margin: 0 auto;
+		padding: 0 30px;
+	}
+	.products .fullwidth-content-section h2 {
+		margin-top: 15%;
+		text-transform: uppercase;
+	}
+	.products .fullwidth-content-section .learn_products {
+		width: 100%;
+		margin: 0 auto;
+		background: #bcbdbc;
+		padding: 4px 0;
+	}
+	.products .fullwidth-content-section .learn_products h2 {
+		margin: 0 auto;
+	}
+	.products .fullwidth-content-section .icon_box {
+		width: 33.3%;
+		height: 450px;
+		float: left;
+		margin: 0 auto;
+		padding: 0;
+	    -webkit-transition: all 0.5s ease-in-out;
+	    -moz-transition: all 0.5s ease-in-out;
+	    -o-transition: all 0.5s ease-in-out;
+	    transition: all 0.5s ease-in-out;
+	}
+	.products .fullwidth-content-section .icon_box:hover {
+		background: #d47b22;
+	}
+	.products .fullwidth-content-section .icon_box img {
+		padding: 28% 30% 10px 30%;
+	}
+	.products .fullwidth-content-section .icon_box p {
+		font-size: 22px;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 0 20%;
+		color: white;
+	}
+	.products .fullwidth-content-section img {
+		width: 100%;
+	}
+	.products .fullwidth-content-section .no-padding {
+		padding: 0;
+	}
+	.products .fullwidth-content-section .left,
+	.products .fullwidth-content-section .right {
+		font-size: 23px;
+		position: relative;
+		bottom: 0px;
+	}
+	.products .fullwidth-content-section .right blockquote p {
+		font-size: 35px !important;
+	}
+	.products .fullwidth-content-section .left .half-container {
+	    position: absolute;
+	    max-width: 585px;
+		bottom: 5px;
+		right: 0px;
+		padding-right: 50px;
+		padding-left: 15px;
+		z-index: 100;
+	    /* transition: bottom .15s ease-in-out;
+	    -moz-transition: bottom .15s ease-in-out;
+	    -webkit-transition: bottom .15s ease-in-out;
+	    -o-transition: bottom .15s ease-in-out; */
+	}
+	.products .fullwidth-content-section .right .half-container {
+	    position: absolute;
+	    max-width: 585px;
+		bottom: 5px;
+		left: 0px;
+		padding-left: 50px;
+		padding-right: 15px;
+		z-index: 100;
+	    /* transition: bottom .10s ease-in-out;
+	    -moz-transition: bottom .10s ease-in-out;
+	    -webkit-transition: bottom .10s ease-in-out;
+	    -o-transition: bottom .10s ease-in-out; */
+	}
+	.products .fullwidth-content-section .fadeIn {
+		position: absolute;
+	    top: 0px;
+	    background-color: black;
+	    height: 100%;
+	    width: 100%;
+	    opacity: 0;
+	    transition: opacity .10s ease-in-out;
+	    -moz-transition: opacity .10s ease-in-out;
+	    -webkit-transition: opacity .10s ease-in-out;
+	    -o-transition: opacity .10s ease-in-out;
+	}
+	.products .fullwidth-content-section .gradient {
+		background: linear-gradient(to bottom , transparent 20%, rgba(0, 0, 0, .95) 80%);
+		background: -webkit-linear-gradient(top , transparent 20%, rgba(0, 0, 0, .95) 80%);
+		background: -o-linear-gradient(top , transparent 20%, rgba(0, 0, 0, .95) 80%);
+		background: -moz-linear-gradient(top , transparent 20%, rgba(0, 0, 0, .95) 80%);
+		position: absolute;
+	    top: 0px;
+	    height: 100%;
+	    width: 100%;
+	}
+
+	.products .fullwidth-content-section .vet {
+		background: url('http://www.merck.com/images/products/products_bg_hospital.jpg') no-repeat;
+		background-position: top center;
+		background-size: cover;
+		height: 400px;
+	}
+
+	.products .fullwidth-content-section .vet2 {
+		background-position: top left;
+		overflow: hidden;
+		height: 457px;
+	}
+
+	.products .fullwidth-content-section .paying_for_medicine {
+		background: url('http://www.merck.com/images/products/products_bg_paying.jpg') no-repeat;
+		background-position: top right;
+		background-size: cover;
+	}
+	.products .fullwidth-content-section .paying_for_medicine h1 {
+		font-size: 45px;
+		margin-top: 8%;
+	}
+	.products .fullwidth-content-section .paying_for_medicine p {
+		font-size: 25px;
+	}
+
+/* 	-0.9. LARGE DEVICES, WIDE SCREENS
+	========================================================================== */
+	@media only screen and (max-width : 1199px){
+		.products .main-hero-section {
+			background-color: #243444;
+			/* margin-top: 121px; */
+		}
+		.products .main-hero-section h1 {
+		    font-size: 45px;
+			position: relative;
+			top: -20px;
+			line-height: 42px;
+			padding-bottom: 40px;
+		}
+		.shareBtn {
+			right: 5%;
+		}
+		blockquote p {
+    		font-size: 24px;
+    	}
+    	.quote-large {
+		    font-size: 90px;
+		    top: 30px;
+		}
+		blockquote .caption {
+    		font-size: 25px;
+    	}
+		.products .quote-section.one .frazier {
+    		margin-top: 9.6%;
+    	}
+    	.products .content-section.two p {
+		    margin-top: 1%;
+		}
+		.products .fullwidth-content-section .left, .products .fullwidth-content-section .right {
+			font-size: 20px;
+		}
+		.products .fullwidth-content-section .left .half-container{
+			max-width: 485px;
+			bottom: 20px;
+		    font-size: 15px;
+		    padding-right: 25px;
+		}
+		.products .fullwidth-content-section .right .half-container {
+		    max-width: 485px;
+		    bottom: 0px;
+		    font-size: 15px;
+		    padding-left: 25px;
+		}
+		.products .content-section.three {
+    		padding: 0px 0px 50px;
+    	}
+    	.products .content-section.three h2 {
+    		font-size: 33px;
+    	}
+    	.products .content-section.three p {
+		    font-size: 20px;
+		}
+		.products .content-section.four p.top {
+		    font-size: 25px;
+		    padding: 35px 0px;
+		}
+		.products .content-section.four p.bottom {
+		    font-size: 22px;
+		    padding: 35px 0px;
+		}
+		.products .content-section.four p.larger {
+    		font-size: 45px;
+    		margin-bottom: -10px;
+    	}
+    	.products .content-section.four p {
+    		font-size: 30px;
+    	}
+    	.products .quote-section.two img {
+		    padding-top: 34%;
+		}
+	}
+
+/* 	-1.0 MEDIUM DEVICES, DESKTOPS
+	========================================================================== */
+	@media only screen and (max-width : 1024px){
+		.products .main-hero-section h1 {
+		    font-size: 35px;
+			position: relative;
+			top: -35px;
+			line-height: 35px;
+			padding-top: 250px;
+			padding-bottom: 10px;
+		}
+		.products .content-section .medal-img {
+			width: 26%;
+			margin-top: -18px;
+		}
+		.products .divider.one {
+			padding: 20px 0px;
+		}
+		blockquote p {
+		    font-size: 18px;
+		}
+		blockquote .caption {
+		    font-size: 22px;
+		}
+		.products .quote-section.one .frazier {
+		    margin-top: 12%;
+		}
+		.quote-large {
+		    font-size: 70px;
+		    top: 25px;
+		}
+		.products .content-section.two h2 {
+		    font-size: 32px;
+		}
+		.products .content-section.two p {
+		    margin-top: -1%;
+		    font-size: 18px;
+		}
+		.products .content-section.two {
+			padding: 0px 0px 40px;
+		}
+		.products .content-section.two img {
+		    margin: 0 auto;
+		}
+		.products .fullwidth-content-section .left .half-container,
+		.products .fullwidth-content-section .container-fluid .left:hover .half-container,
+		.products .fullwidth-content-section .right .half-container,
+		.products .fullwidth-content-section .container-fluid .right:hover .half-container {
+		    max-width: 100%;
+		    bottom: 10px;
+		    font-size: 19px;
+		}
+		.products .divider.two p.larger {
+			padding-top: 20px;
+			padding-left: 20px;
+		}
+		.products .divider.two p {
+			padding: 10px 10px 0 20px;
+		}
+		.products .content-section.three h2 {
+		    font-size: 25px;
+		    padding: 0px;
+		}
+		.products .content-section.three {
+		    padding: 10px 0px 35px;
+		}
+		.products .content-section.three p {
+		    font-size: 18px;
+		}
+		.products .content-section.four p.top {
+		    font-size: 22px;
+		    padding: 25px 0px;
+		}
+		.products .content-section.four p.larger {
+    		font-size: 40px;
+    	}
+    	.products .content-section.four p {
+		    font-size: 28px;
+		}
+		.products .content-section.four p.bottom {
+		    font-size: 19px;
+		    padding: 25px 0px;
+		}
+		.products .quote-section.two p {
+		    font-size: 20px;
+		}
+		.products .quote-section.two .caption {
+		    font-size: 20px;
+		}
+		.products .quote-section.two {
+		    background-color: #C6E7EE;
+		    padding-bottom: 25px;
+		}
+		.products .fullwidth-content-section .icon_box {
+			width: 33.3%;
+			height: 450px;
+			float: left;
+			margin: 0 auto;
+			padding: 0;
+		}
+		.products .fullwidth-content-section .icon_box img {
+			padding: 30% 30% 10px 30%;
+		}
+		.products .fullwidth-content-section .icon_box p {
+			font-size: 18px;
+			text-transform: uppercase;
+			text-align: center;
+			padding: 0 20%;
+			color: white;
+		}
+		.products .fullwidth-content-section img {
+			width: 100%;
+		}
+		.products .fullwidth-content-section .no-padding {
+			padding: 0;
+		}
+		.products .fullwidth-content-section .left,
+		.products .fullwidth-content-section .right {
+			font-size: 18px;
+			position: relative;
+			bottom: 0px;
+		}
+		.products .fullwidth-content-section .vet {
+			height: 330px;
+		}
+		.products .fullwidth-content-section .vet2 {
+			height: 330px;
+		}
+		.products .fullwidth-content-section .paying_for_medicine h1 {
+			font-size: 25px;
+			margin-top: 3%;
+		}
+		.products .fullwidth-content-section .paying_for_medicine p {
+			font-size: 17px;
+		}
+		#button {
+			font-size: 17px;
+			padding: 8px 15px;
+		}
+	}
+/* 	-1.2 SMALL DEVICES, TABLETS
+	========================================================================== */
+	@media only screen and (max-width: 769px) {
+		.products .main-hero-section {
+		    margin-top: 0px;
+		}
+		.products .main-hero-section h1 {
+			padding-top: 190px;
+		}
+		h1.small_title {
+			text-align: center;
+		}
+		.products .content-section.one {
+			padding: 15px 0 30px 0;
+		}
+	 	.products .divider h2 {
+	 		padding-top: 0;
+	 	}
+	 	.products .divider p {
+			font-size: 18px;
+	 	}
+	 	.products .content-section.one h2 {
+	 		font-size: 22px;
+	 		margin-bottom: 15px;
+	 	}
+	 	.products .content-section.one p {
+	 		font-size: 20px;
+	 	}
+	 	.products .divider.two {
+	 		padding: 30px 0;
+	 	}
+		.products .fullwidth-content-section .icon_box img {
+			padding: 15% 30% 10px 30%;
+		}
+		.products .fullwidth-content-section .left,
+		.products .fullwidth-content-section .right {
+			font-size: 20px;
+			position: relative;
+			bottom: 0px;
+		}
+		.products .fullwidth-content-section .box.adjust {
+			height: 180px;
+		}
+		.products .fullwidth-content-section .box.adjust p {
+			padding: 0 70px;
+		}
+		.products .fullwidth-content-section h2 {
+			margin-top: 5%;
+			margin-bottom: 5px;
+		}
+		.products .fullwidth-content-section .vet {
+			height: 200px;
+		}
+		.products .fullwidth-content-section .paying_for_medicine {
+			background: none;
+		}
+	}
+
+	@media only screen and (max-width : 767px){
+		.products .fullwidth-content-section .section-container {
+			width: 100%;
+			padding: 0 10px;
+		}
+		.products .fullwidth-content-section .section-container h2 {
+			line-height: 1em;
+		}
+		.products .fullwidth-content-section .section-container p {
+			font-size: 15px;
+			line-height: 1em;
+		}
+		.products .fullwidth-content-section .box.adjust h2 {
+			margin-top: 25px;
+			line-height: 1em;
+		}
+		.products .fullwidth-content-section .box.adjust p {
+			font-size: 17px;
+			padding: 0;
+		}
+		.products .explore_btn {
+			width: 75px;
+			left: 45%;
+			margin-top: -18px;
+		}
+		.products .main-hero-section h1 {
+		    font-size: 28px;
+			position: relative;
+			top: -5px;
+			line-height: 18px;
+			padding-top: 130px;
+			padding-bottom: 0px;
+		}
+		.products .main-hero-section p {
+		    font-size: 20px;
+		    line-height: 28px;
+		    padding-bottom: 10px;
+		}
+		.products .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		h1.small_title {
+			text-align: center;
+		}
+		.shareBtn {
+			width: 80px;
+			right: 0%;
+		}
+		.products .content-section.one p.extra-pad {
+		    padding-top: 5px;
+		}
+		.products .divider.one {
+		    padding: 10px 0px;
+		}
+		blockquote {
+			margin: 0 0 20px 0;
+			padding: 5px 0px;
+		}
+		blockquote p {
+		    font-size: 14px;
+		}
+		.quote-large {
+		    font-size: 55px;
+		    top: 18px;
+		}
+		.products .quote-section.one p.img-caption {
+			font-size: 14px;
+			left: 15%;
+		}
+		blockquote .caption {
+		    font-size: 15px;
+		}
+		.products .quote-section.one .row {
+			font-size: 0px;
+		}
+		.products .quote-section.one .frazier {
+		    margin-top: 0%;
+		    padding-top: 2%;
+			vertical-align: bottom;
+		}
+		.products .quote-section.one .quotes {
+			padding-bottom: 3%;
+		}
+		.products .quote-section.one .allow-v-align {
+			float: none;
+			display: inline-block;
+		}
+		.products .content-section.two {
+		    padding: 0px 0px 20px;
+		}
+		.products .content-section.two h2 {
+		    font-size: 27px;
+		}
+		.products .content-section.two p {
+		    margin-top: -1%;
+		    margin-bottom: 20px;
+		    font-size: 15px;
+		}
+		.products .content-section.two img {
+		    margin-top: -10%;
+		    margin-bottom: 30%;
+		}
+		.products .fullwidth-content-section .left .half-container, .products .fullwidth-content-section .container-fluid .left:hover .half-container, .products .fullwidth-content-section .right .half-container, .products .fullwidth-content-section .container-fluid .right:hover .half-container {
+		    font-size: 15px;
+		    bottom: 0px;
+		}
+		.products .divider.two {
+		    padding: 50px 0px;
+		}
+		.products .divider.two img {
+		    padding-right: 0px;
+		    padding-top: 0px;
+		}
+		.products .content-section.three {
+		    padding: 10px 0px 2%;
+		    min-height: 195px;
+		}
+		.products .content-section.three h2 {
+		    font-size: 15px;
+		    padding: 0px;
+		    margin: 2px 0px;
+		}
+		.products .content-section.three p {
+		    font-size: 14px;
+		}
+		.products .content-section.four {
+		    padding: 10px 0px;
+		}
+		.products .content-section.four p.top {
+		    font-size: 16px;
+		    padding: 15px 0px;
+		}
+		.products .content-section.four p.larger {
+		    font-size: 24px;
+		    margin-bottom: -5px;
+		}
+		.products .content-section.four p {
+		    font-size: 17px;
+		}
+		.products .content-section.four p.bottom {
+		    font-size: 15px;
+		    padding: 15px 0px;
+		}
+		.products .quote-section.two p {
+		    font-size: 15px;
+		}
+		.products .quote-section.two .caption {
+		    font-size: 16px;
+		}
+		.products .quote-section.two img {
+		    padding-top: 10%;
+		    max-height: 135px;
+		}
+		.products .content-section.three p {
+		    font-size: 13px;
+		}
+	}
+/* 	-1.3EXTRA SMALL DEVICES, PHONES
+	========================================================================== */
+	@media only screen and (max-width : 479px){
+		.products .divider.two {
+			padding: 15px 0;
+		}
+		.thumbnail-inline {
+			width: 15%;
+			padding: 0 5px;
+		}
+    	.row .col-xxs-12 {
+    		width: 100% !important;
+    	}
+		.products .main-hero-section {
+			padding: 0px 0px 3%;
+		}
+		.products .main-hero-section h1 {
+		    font-size: 18px;
+		    font-weight: bold;
+		    line-height: 1em;
+		    position: relative;
+		    padding-top: 50px;
+		    padding-bottom: 0px;
+		}
+		.products .divider p.larger {
+			font-size: 17px;
+		}
+		.products .explore_btn {
+			width: 75px;
+			left: 38%;
+			margin-top: -18px;
+		}
+		.products .main-hero-section .col-xs-12 {
+			padding: 0px;
+		}
+		.products .main-hero-section p {
+		    font-size: 15px;
+		    line-height: 1.2em;
+		    padding-bottom: 10px;
+		}
+		.products .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.shareBtn {
+			width: 70px;
+			right: 0;
+		}
+		.products .divider.one {
+		    padding: 5px 0px;
+		}
+		.products .content-section.one {
+		    padding: 10px 0 30px 0;
+		}
+		.products .content-section .medal-img {
+		    margin-top: -10px;
+		}
+		.products .quote-section.one p.img-caption {
+		    font-size: 12px;
+		    left: 31%;
+		}
+		blockquote p {
+		    font-size: 13px;
+		}
+		.products .quote-section.one .frazier {
+		    margin-top: 0%;
+		    padding-top: 2%;
+		    vertical-align: bottom;
+		    max-width: 100%;
+		}
+		.products .quote-section.one .frazier .img-responsive {
+			max-width: 50%;
+			margin: 0 auto;
+		}
+		.products .quote-section.one .quotes {
+		    padding-bottom: 3%;
+		    max-width: 100%;
+		}
+		.products .content-section.two img {
+		    margin: 0% auto;
+		}
+		.products .content-section.two h2 {
+		    font-size: 18px;
+		}
+		.products .content-section.two p {
+		    margin-top: 3%;
+		    margin-bottom: 20px;
+		    font-size: 13px;
+		}
+		.products .fullwidth-content-section .left .half-container, .products .fullwidth-content-section .container-fluid .left:hover .half-container, .products .fullwidth-content-section .right .half-container, .products .fullwidth-content-section .container-fluid .right:hover .half-container {
+		    font-size: 14px;
+		    font-weight: 500;
+		    min-height: 120px;
+		}
+		.products .fullwidth-content-section .gradient {
+			display: none;
+		}
+		.products .fullwidth-content-section .half-container p {
+			padding-top: 3%;
+		}
+		.products .fullwidth-content-section .left .half-container p {
+			padding-top: 5%;
+		}
+		.products .divider.two p {
+		    padding-top: 20px;
+		}
+		.products .content-section.three h2 {
+		    font-size: 14px;
+		}
+		.products .content-section.three p {
+		    font-size: 13px;
+		    padding-right: 2px;
+		}
+		.products .content-section.three {
+			background-position: 88.5% top;
+		}
+		.products .content-section.four p.top {
+		    font-size: 14px;
+		    padding: 10px 0px;
+		}
+		.products .content-section.four p.larger {
+		    font-size: 13px;
+		    margin-bottom: -2px;
+		}
+		.products .content-section.four p.smaller {
+			font-size: 13px;
+			line-height: .8em;
+		}
+		.products .content-section.four .col-xs-4,
+		.products .content-section.four .col-xs-3 {
+			padding: 0px;
+		}
+
+		.products .content-section.four img {
+			max-height: 100%;
+			margin: 0px auto;
+		}
+		.products .content-section.four p.bottom {
+		    font-size: 13px;
+		    padding: 15px 0px;
+		}
+		.products .quote-section.two p {
+		    font-size: 13px;
+		}
+		.products .quote-section.two .caption {
+		    font-size: 14px;
+		}
+		.quote-large {
+		    top: 13px;
+		}
+		.products .quote-section.two img {
+		    padding-top: 5%;
+		    max-width: 20%;
+		    margin: 0 auto;
+		}
+		.products .fullwidth-content-section .vet, .products .fullwidth-content-section .vet2 {
+			background-size: 155%;
+			height: 200px;
+		}
+		.products .fullwidth-content-section .icon_box p {
+			font-size: 13px;
+		}
+		.products .divider h2 {
+			font-size: 23px;
+		}
+	}
+	
+	@media only screen and (max-width : 400px){
+		.products .content-section.three {
+			background-image: none;
+		}
+		.products .content-section.three .col-xs-7 {
+			width: 100%;
+		}
+		.products .content-section.three h2 {
+		    font-size: 16px;
+		    margin-bottom: 10px;
+		}
+		.products .content-section.three p {
+		    font-size: 14px;
+		    padding-right: 0px;
+		}
+	}

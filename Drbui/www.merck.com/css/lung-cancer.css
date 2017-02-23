@@ -1,0 +1,941 @@
+/**
+ * Description: Hepatitis C advocacy.
+ * Version: 3.0
+ * Last update: 09/24/2015
+ * Author: John Schibelli <jschibelli@spigroup.com>
+ *
+ * Summary:
+ *
+ *	0. PAGE GLOBALS
+ *	0.1. MAIN-HERO SECTION
+ *	0.2. DIVIDER-ONE
+ *	0.3. CONTENT-SECTION
+ *	0.4. DIVIDER-TWO
+ *	0.5. SECOND-HERO
+ *	0.6. DIVIDER-THREE
+ *	0.7. CONTENT-SECTION-TWO
+ *
+ * 	MEDIA QUERIES
+ *		-0.9. LARGE DEVICES, WIDE SCREENS
+ *		-1.0. MEDIUM DEVICES, DESKTOPS
+ *		-1.2. SMALL DEVICES, TABLETS
+ *		-1.3. EXTRA SMALL DEVICES, PHONES
+ *		-1.4. CUSTOM, iPHONE RETINA
+ */
+
+/* ==========================================================================
+   0. PAGE GLOBALS
+   ========================================================================== */
+	.spacer20 {
+		width: 100%;
+		height: 20px;
+		clear: both;
+		float: none;
+	}
+	iframe {
+		margin: 0 0 30px 0;
+	}
+	.shareBtn {
+		cursor: pointer;
+		position: absolute;
+		right: 15%;
+		z-index: 99;
+	}
+    .quote-large {
+        font-family: 'Times New Roman', serif;
+        position: relative;
+        font-size: 75px;
+        line-height: 0.5em;
+        top: 15px;
+    }
+    .quote-large.white {
+        color: #fff;
+    }
+    .quote {
+        font-family: 'Times New Roman', serif;
+    }
+    blockquote {
+    	margin: 10px 0;
+    	border: none;
+    }
+    blockquote p {
+        font-size: 30px !important;
+        font-weight: bold;
+    }
+    blockquote p.white {
+        color: #fff;
+    }
+    blockquote p.teal {
+    	color: #159a95;
+    }
+    blockquote .caption {
+        font-size: 20px;
+        font-weight: normal;
+    }
+	#lungCancer30 .blue-grey {
+		color: #37424a;
+	}
+	#lungCancer30 .orange {
+		color: #009894;
+	}
+	#lungCancer30 .blue {
+		color: #009894;
+	}
+	#lungCancer30 .white {
+		color: #ffffff;
+	}
+	#lungCancer30 .yellow {
+		color: #ead71b;
+	}
+	#lungCancer30 .bold-text {
+		font-weight: bold;
+	}
+
+	#lungCancer30 .uppercase {
+		text-transform: uppercase;
+	}
+	#lungCancer30 .text-center	 {
+		text-align: center;
+	}
+	#lungCancer30 .text-left {
+		text-align: left;
+	}
+	#lungCancer30 .large {
+		font-size: 40px;
+	}
+	#lungCancer30 .medium {
+		font-size: 33px;
+	}
+/* 0.1. MAIN-HERO SECTION
+   ========================================================================== */
+	#lungCancer30 .main-hero-section {
+		background-color: #243444;
+		margin-top: 105px;
+
+	}
+	#lungCancer30 .main-hero-section .container-fluid {
+		background-color: #243444;
+		background: url('http://www.merck.com/images/about/lung_cancer/lc_bg_hero.jpg') no-repeat 0 0;;;
+	}
+	#lungCancer30 .main-hero-section .container {
+		width: 90%;
+	}
+	#lungCancer30 .main-hero-section h1 {
+		font-size: 75px;
+		position: relative;
+		top: 45px;
+		line-height: 77px;
+		padding-bottom: 55px;
+	}
+	#lungCancer30 .main-hero-section p {
+		font-size: 33px;
+		line-height: 37px;
+		padding-bottom: 10px;
+	}
+	#lungCancer30 .main-hero-section img.img-responsive {
+		width: 59%;
+		padding: 50px 0 20px 0;
+	}
+	.fitted {
+		width: 90%;
+	}
+/* 0.2. DIVIDER-ONE
+   ========================================================================== */
+   	#lungCancer30 .divider-one {
+   		background-color: #6bcad4;
+   	}
+   	#lungCancer30 .divider-two {
+   	background-color: #e0e3e6;
+   	}
+ 	#lungCancer30 .divider-one h2,
+ 	#lungCancer30 .divider-two h2 {
+		color: #37424a;
+		font-size: 25px;
+		font-weight: normal;
+		line-height: 34px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+ 	}
+/* 0.3 CONTENT-SECTION
+   ========================================================================== */
+	#lungCancer30 .content-section {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	 #lungCancer30 .content-section-two {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		background-color: #009894;
+	}
+	#lungCancer30 .content-section p {
+		font-size: 30px;
+		color: #37424a;
+		line-height: 34px;
+		padding-top: 50px;
+	}
+	#lungCancer30 .content-section .quote {
+		font-size: 26px;
+		color: #159a95;
+		font-weight: 900;
+		padding-top: 45px;
+		padding-bottom: 20px;
+	}
+	#lungCancer30 .content-section p.quote span.upper-quote{
+		background: url('http://www.merck.com/images/about#lungCancer-30/advocacy_upper_quotes.png') no-repeat 0 0;
+		width: 45px;
+		padding-bottom: 20px;
+		padding-right: 50px;
+		position: relative;
+		bottom: 15px;
+	}
+	#lungCancer30 .content-section span.open-quote {
+		font-family: "Times New Roman", Georgia, Serif;
+		font-size: 30px;
+		padding-left: 5px;
+		position: relative;
+		top: 5px;
+	}
+	#lungCancer30 .content-section span.close-quote {
+		font-family: "Times New Roman", Georgia, Serif;
+		font-size: 30px;
+		padding-right: 5px;
+		position: relative;
+		top: 5px;
+		font-weight: bold;
+	}
+	#lungCancer30 .content-section .left-circle {
+		margin-bottom: -105px;;
+	}
+	#lungCancer30 .content-section .left-circle span.percent {
+		font-size: 60px;
+		font-weight: bold;
+		bottom: 269px;
+		position: relative;
+		color: #000;
+	}
+	#lungCancer30 .content-section .left-circle #count-three {
+		font-size: 130px;
+		color: #000;
+		position: relative;
+		bottom: 222px;
+		font-weight: bold;
+	}
+
+/* 0.4 DIVIDER-TWO
+   ========================================================================== */
+	#lungCancer30 .divider-two p {
+		font-size: 30px;
+		padding: 75px 0 75px 33px;
+	}
+	#lungCancer30 .divider-two img {
+		padding-top: 85px;
+
+	}
+/* 0.5. SECOND-HERO
+   ========================================================================== */
+   	#lungCancer30 .second-hero {
+   		background-color: #6d164a;
+   		padding-top: 40px;
+   		padding-bottom: 40px;
+   	}
+   	#lungCancer30 .second-hero p.lead {
+		font-size: 26px;
+		margin-bottom: 0px;
+   	}
+   	#lungCancer30  .second-hero p.lower-lead {
+		font-size: 20px;
+		padding-bottom: 25px;
+   	}
+
+   	#lungCancer30 .second-hero span.cta-head {
+   		font-size: 25px;
+   	}
+   	#lungCancer30 .second-hero .thumbnail {
+   		background: none;
+   		border: 0px;
+   	}
+   	#lungCancer30 .second-hero .caption {
+   		font-size: 20px;
+   		text-align: center;
+   	}
+   	#lungCancer30 .second-hero .caption p,
+   	#lungCancer30 .divider-three .caption p {
+   		color: #ffffff;
+   		font-style: 25px;
+   	}
+/* 0.6. DIVIDER-THREE
+   ========================================================================== */
+   	#lungCancer30 .divider-three  {
+   		background-color: #6acad3;
+   		padding-top: 40px;
+   		padding-bottom: 10px;
+   	}
+   	#lungCancer30 .divider-three h1 {
+   		font-size: 50px;
+   		color: #243444;
+   		margin-bottom: 5px;
+   	}
+   	#lungCancer30 .divider-three span {
+   		font-size: 50px;
+   	}
+   	#lungCancer30 .divider-three .thumbnail {
+   		background: none;
+   		border: 0px;
+   	}
+   	#lungCancer30 .divider-three img {
+		padding: 30px 0 100px;
+   	}
+   	#lungCancer30 .divider-three .caption {
+   		font-size: 18px;
+   		text-align: center;
+   	}
+   	#lungCancer30 .divider-three .caption.text-left {
+   		font-size: 26px;
+   		text-align: left;
+   		padding-bottom: 15px;;
+   	}
+/* 0.7. CONTENT-SECTION-TWO
+   ========================================================================== */
+   	#lungCancer30 .content-section-two{
+   		background: url('http://www.merck.com/images/about/lung_cancer/lc_bg_newcases.jpg')  0 0;
+   	}
+   	#lungCancer30 .content-section-two p {
+		font-size: 45px;
+		line-height: 55px;
+		padding-top: 100px;
+   	}
+   	#lungCancer30 .content-section-two .left-circle {
+   		margin-bottom: -140px;
+   	}
+   	#lungCancer30 .content-section-two .left-circle #count-three {
+   		font-size: 125px;
+   		color: #fff;
+   		position: relative;
+   		bottom: 245px;
+   		font-weight: bold;
+   		left: 80px;
+   	}
+	.video-responsive {
+		width: 640px;
+		margin: 100px auto 20px auto;
+	}
+/* 0.8. LOWER-HERO
+   ========================================================================== */
+   	#lungCancer30 .lower-hero {
+   		background-color: #243444;
+   		padding-top: 30px;
+   		padding-bottom: 30px;
+   	}
+   	#lungCancer30 .lower-hero p.lead{
+		font-size: 44px;
+		margin-bottom: 0px;
+   	}
+   	#lungCancer30 .lower-hero  .men img {
+		padding: 20px 150px 70px;
+   	}
+   	#lungCancer30 .lower-hero  .women img {
+		padding: 20px 0px 70px 0;
+   	}
+   	#lungCancer30 .lower-hero a.btn-default {
+   		background-color: #13a29c;
+   		    border-radius: 0px;
+   		    border: 1px solid #107d78;
+   		    border: none;
+   		    color: #fff;
+   		    padding: 6px 30px;
+   		    border: 1px solid #13a29c;
+   	}
+   	#lungCancer30 .lower-hero a.btn-default:hover {
+   		    border: 1px solid #13a29c;
+   		    background-color: #107d78;
+   		}
+   	#lungCancer30 .lower-section {
+   		background-color: #c8e5ec;
+   	}
+   	#lungCancer30 .lower-section h1 {
+   		font-size: 45px;
+   		line-height: 1em;
+   		color: #6176a3;
+   		padding-top: 30px;
+   	}
+   	#lungCancer30 .lower-section .img-responsive {
+   		display: block;
+   		    max-width: 75%;
+   		    height: auto;
+   		    padding-bottom: 50px;
+   	}
+
+
+/* 	-0.9. LARGE DEVICES, WIDE SCREENS
+	========================================================================== */
+	@media only screen and (max-width : 1200px){
+		#lungCancer30 .main-hero-section {
+			background-color: #243444;
+			margin-top: 105px;
+		}
+		#lungCancer30 .main-hero-section h1 {
+		    font-size: 55px;
+		    position: relative;
+		    top: 45px;
+		    line-height: 60px;
+		    padding-bottom: 40px;
+		}
+		#lungCancer30 .main-hero-section img.img-responsive {
+		    position: relative;
+		    padding: 50px 0 20px 0;
+		    width: 59%;
+		    left: 50px;
+		}
+		#lungCancer30 .main-hero-section p {
+		}
+		#lungCancer30 .divider-one h2, #lungCancer30 .divider-two h2 {
+		    color: #37424a;
+		    font-size: 24px;
+		    font-weight: normal;
+		    line-height: 34px;
+		    padding-top: 10px;
+		    padding-bottom: 10px;
+		}
+		#lungCancer30 .content-section .left-circle #count-three {
+		    font-size: 110px;
+		    color: #000;
+		    position: relative;
+		    bottom: 182px;
+		    font-weight: bold;
+		    left: 5px;
+		}
+		#lungCancer30 .content-section .left-circle span.percent {
+		    font-size: 47px;
+		    font-weight: bold;
+		    bottom: 224px;
+		    position: relative;
+		    color: #000;
+		}
+		#lungCancer30 .content-section p {
+		    font-size: 25px;
+		    color: #37424a;
+		    line-height: 30px;
+		    padding-top: 30px;
+		}
+		#lungCancer30 .second-hero .container-fluid {
+			padding-right: 0;
+			padding-left: 0;
+		}
+		#lungCancer30 .second-hero .container {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		#lungCancer30 .second-hero .large {
+			font-size: 35px;
+		}
+		#lungCancer30 .second-hero .medium {
+		    font-size: 29px;
+		}
+		#lungCancer30 .second-hero p.white.medium {
+			padding-top: 30px;
+		}
+		#lungCancer30 .second-hero .col-sm-12 img {
+			width: 30%;
+			padding-bottom: 20px;
+			padding-top: 20px;
+		}
+
+		#lungCancer30 .divider-two p {
+		    font-size: 22px;
+		    padding: 50px 0;
+		}
+		#lungCancer30 .divider-two img {
+			padding-top: 42px;
+		}
+		#lungCancer30 .content-section-two .left-circle #count-three {
+		    font-size: 100px;
+		    color: #fff;
+		    position: relative;
+		    bottom: 203px;
+		    font-weight: bold;
+		    left: 68px;
+		}
+		#lungCancer30 .content-section-two p {
+		    font-size: 36px;
+		    line-height: 42px;
+		    padding-top: 100px;
+		}
+		.shareBtn {
+			right: 5%;
+		}
+	}
+/* 	-1.0 MEDIUM DEVICES, DESKTOPS
+	========================================================================== */
+	@media only screen and (max-width : 992px){
+		#lungCancer30 .main-hero-section {
+		    background-color: #243444;
+		    margin-top: 0px;
+		}
+		#lungCancer30 .main-hero-section img.img-responsive {
+		width: 59%;
+		position: relative;
+		padding: 0;
+		left: 0;
+		}
+		#lungCancer30 .main-hero-section h1 {
+		    font-size: 55px;
+		    position: relative;
+		    top: 45px;
+		    line-height: 65px;
+		    padding-bottom: 60px;
+		    text-align: center;
+		}
+		#lungCancer30 .main-hero-section h1 {
+		    font-size: 55px;
+		    position: relative;
+		    top: 45px;
+		    line-height: 60px;
+		    padding-bottom: 10px;
+		}
+		#lungCancer30 .divider-one h2, #lungCancer30 .divider-two h2 {
+		    color: #37424a;
+		    font-size: 26px;
+		    font-weight: normal;
+		    line-height: 34px;
+		    padding-top: 10px;
+		    padding-bottom: 10px;
+		}
+		#lungCancer30 .content-section .left-circle #count-three {
+		    font-size: 110px;
+		    color: #000;
+		    position: relative;
+		    bottom: 186px;
+		    font-weight: bold;
+		}
+		#lungCancer30 .content-section .left-circle span.percent {
+		    font-size: 50px;
+		    font-weight: bold;
+		    bottom: 226px;
+		    position: relative;
+		    color: #000;
+		}
+		#lungCancer30 .content-section p {
+		    font-size: 26px;
+		    color: #37424a;
+		    line-height: 34px;
+		    padding-top: 0;
+		    text-align: center;
+		}
+		#lungCancer30 .content-section-two .left-circle #count-three {
+		    font-size: 136px;
+		    color: #fff;
+		    position: relative;
+		    bottom: 272px;
+		    font-weight: bold;
+		    left: 140px;
+		}
+		#lungCancer30 .content-section-two p {
+		    font-size: 49px;
+		    line-height: 50px;
+		    text-align: center;
+		    padding-top: 0px;
+		}
+		.video-responsive {
+			width: 100%;
+			margin: 100px auto 20px auto;
+		}
+
+	}
+/* 	-1.2 SMALL DEVICES, TABLETS
+	========================================================================== */
+	@media only screen and (min-width : 768px) and (max-width: 991px) {
+		#lungCancer30 .main-hero-section p {
+		    font-size: 34px;
+		    line-height: 37px;
+		    padding-bottom: 30px;
+		    padding-top: 30px;
+		    text-align: center;
+		}
+		#lungCancer30 .content-section img {
+		    width: 100%;
+		    padding: 0 30%;
+		}
+		#lungCancer30 .content-section .left-circle #count-three {
+		    font-size: 114px;
+		    color: #000;
+		    position: relative;
+		    bottom: 220px;
+		    font-weight: bold;
+		    left: 0;
+		}
+		#lungCancer30 .content-section-two .left-circle #count-three {
+		    font-size: 79px;
+		    color: #fff;
+		    position: relative;
+		    bottom: 200px;
+		    font-weight: bold;
+		    left: 220px;
+		}
+		#lungCancer30 .content-section .left-circle span.percent {
+		    font-size: 51px;
+		    font-weight: bold;
+		    position: relative;
+		    color: #000;
+		    bottom: 270px;
+		}
+		#lungCancer30 .second-hero .container-fluid {
+			padding-right: 0;
+			padding-left: 0;
+		}
+		#lungCancer30 .second-hero .container {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		#lungCancer30 .second-hero .large {
+			font-size: 36px;
+			text-align: center;
+		}
+		#lungCancer30 .second-hero .medium {
+		    font-size: 35px;
+		}
+		#lungCancer30 .second-hero p.white.medium {
+			text-align: center;
+		}
+		#lungCancer30 .second-hero .col-sm-12 img {
+			width: 30%;
+			padding-bottom: 20px;
+			padding-top: 20px;
+		}
+		#lungCancer30 .divider-two img {
+		    padding-top: 85px;
+		    width: 50%;
+		}
+		#lungCancer30 .divider-two .container-fluid {
+		    padding-left: 0px;
+		    padding-right: 0px;
+		}
+		#lungCancer30 .divider-two p {
+		    font-size: 28px;
+		    padding:20px 0;
+		    text-align: center;
+		}
+		#lungCancer30 .lower-hero .container-fluid {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		#lungCancer30 .lower-hero p.lead {
+		    font-size: 26px;
+		    margin-bottom: 0px;
+		    line-height: 28px;
+		}
+		#lungCancer30 .lower-hero .men img {
+		    padding: 20px 70px 45px;
+		}
+		.shareBtn {
+			width: 125px;
+			right: 2%;
+		}
+		.fluid-width-video-wrapper {
+			margin-top: 115px;
+		}
+		.shrink_graphic {
+			padding: 0 30%;
+		}
+
+
+	}
+	@media only screen and (max-width : 767px){
+		#lungCancer30 .main-hero-section {
+		    background-color: #243444;
+		    margin-top: 0px;
+		}
+		#lungCancer30 .main-hero-section img.img-responsive {
+		margin: 0 auto;
+		}
+		#lungCancer30 .main-hero-section h1 {
+		    font-size: 55px;
+		    position: relative;
+		    top: 45px;
+		    line-height: 65px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		#lungCancer30 .main-hero-section p {
+		font-size: 34px;
+		line-height: 37px;
+		padding-bottom: 30px;
+		padding-top: 30px;
+		text-align: center;
+		}
+		#lungCancer30 .divider-one h2, #lungCancer30 .divider-two h2 {
+		    color: #37424a;
+		    font-size: 26px;
+		    font-weight: normal;
+		    line-height: 34px;
+		    padding-top: 10px;
+		    padding-bottom: 10px;
+		}
+		#lungCancer30 .content-section img {
+			width: 35%;
+			}
+		#lungCancer30 .content-section .left-circle {
+		    margin-bottom: -90px;
+		}
+		#lungCancer30 .content-section .left-circle #count-three {
+		    font-size: 101px;
+		    color: #000;
+		    position: relative;
+		    bottom: 175px;
+		    font-weight: bold;;
+		}
+		#lungCancer30 .content-section .left-circle span.percent {
+		    font-size: 42px;
+		    font-weight: bold;
+		    bottom: 220px;
+		    position: relative;
+		    color: #000;
+		}
+		#lungCancer30 .content-section p {
+		    font-size: 24px;
+		    color: #37424a;
+		    line-height: 30px;
+		    padding-top: 0;
+		}
+		#lungCancer30 .second-hero .container-fluid {
+			padding-right: 0;
+			padding-left: 0;
+		}
+		#lungCancer30 .second-hero .container {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		#lungCancer30 .second-hero .large {
+			font-size: 27px;
+			text-align: center;
+		}
+		#lungCancer30 .second-hero .medium {
+		    font-size: 27px;
+		}
+		#lungCancer30 .second-hero p.white.medium {
+			text-align: center;
+		}
+		#lungCancer30 .second-hero .col-sm-12 img {
+			width: 30%;
+			padding-bottom: 20px;
+			padding-top: 20px;
+		}
+		#lungCancer30 .divider-two img {
+		    padding-top: 42px;
+		    width: 50%;
+		}
+		#lungCancer30 .divider-two p {
+		    font-size: 22px;
+		    padding:20px 0;
+		    text-align: center;
+		}
+		#lungCancer30 .content-section-two img {
+			width: 69%;
+		}
+		#lungCancer30 .content-section-two .left-circle #count-three {
+		    font-size: 79px;
+		    color: #fff;
+		    position: relative;
+		    bottom: 200px;
+		    font-weight: bold;
+		    left: 160px;
+		}
+		#lungCancer30 .content-section-two p {
+		    font-size: 29px;
+		    line-height: 35px;
+		    padding-top: 50px;
+		text-align: center;
+		}
+		#lungCancer30 .divider-three h1 {
+		    font-size: 35px;
+		    color: #243444;
+		    margin-bottom: 5px;
+		}
+		#lungCancer30 .divider-three span {
+		    font-size: 37px;
+		    line-height: 35px;
+		}
+		#lungCancer30 .divider-three img {
+		    padding: 30px 0 40px;
+		}
+		#lungCancer30 .lower-hero .container-fluid {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		#lungCancer30 .lower-hero p.lead {
+		    font-size: 26px;
+		    margin-bottom: 0px;
+		    line-height: 28px;
+		}
+		#lungCancer30 .lower-hero .men img {
+		    padding: 20px 70px 45px;
+		}
+		#lungCancer30 .lower-section  .last .img-responsive {
+		    display: block;
+		    max-width: 38%;
+		    height: auto;
+		    padding-bottom: 50px;
+		    margin-top: 0px;
+		}
+		.shareBtn {
+			width: 125px;
+			right: 2%;
+		}
+		.fluid-width-video-wrapper {
+			margin-top: 115px;
+		}
+		.shrink_graphic {
+			padding: 0 30%;
+		}
+		.pull-right-sm {
+			float: right;
+		}
+
+	}
+/* 	-1.3EXTRA SMALL DEVICES, PHONES
+	========================================================================== */
+	@media only screen and (max-width : 480px){
+		#lungCancer30 .main-hero-section .container-fluid {
+			padding-top: 50px;
+		}
+		#lungCancer30 .main-hero-section .container {
+			padding-right: 0px;
+			padding-left: 0px;
+		}
+		#lungCancer30 .main-hero-section h1 {
+		    font-size: 40px;
+		    position: relative;
+		    top: 19px;
+		    margin-bottom: 0;
+		    padding-bottom: 10px;
+		    line-height: 42px;;
+		}
+		#lungCancer30 .main-hero-section .lungs img.img-responsive {
+		    position: relative;
+		    padding: 0;
+		    left: 0;
+		    width: 76%;;
+		}
+		#lungCancer30 .main-hero-section p {
+		    font-size: 22px;
+		    line-height: 25px;
+		    text-align: center;
+		    padding: 20px 0;
+		}
+		#lungCancer30 .divider-one h2, #lungCancer30 .divider-two h2 {
+		    color: #37424a;
+		    font-size: 22px;
+		    font-weight: normal;
+		    line-height: 24px;
+		    padding-top: 10px;
+		    padding-bottom: 10px;
+		}
+		#lungCancer30 .content-section p {
+		    font-size: 21px;
+		    color: #37424a;
+		    line-height: 24px;
+		    padding-top: 0;
+		    text-align: center;
+		}
+		#lungCancer30 .content-section img {
+			width: 50%;
+			}
+		#lungCancer30 .content-section .left-circle #count-three {
+		    font-size: 75px;
+		    color: #000;
+		    position: relative;
+		    bottom: 128px;
+		    font-weight: bold;
+		    left: 5px;
+		}
+		#lungCancer30 .content-section .left-circle span.percent {
+		    font-size: 28px;
+		    font-weight: bold;
+		    bottom: 159px;
+		    position: relative;
+		    color: #000;
+		}
+		#lungCancer30 .second-hero .container-fluid {
+			padding-right: 0;
+			padding-left: 0;
+		}
+		#lungCancer30 .second-hero .container {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		#lungCancer30 .second-hero .large {
+			font-size: 22px;
+			text-align: center;
+		}
+		#lungCancer30 .second-hero .medium {
+		    font-size: 22px;
+		}
+		#lungCancer30 .second-hero .col-sm-12 img {
+			width: 50%;
+			padding-bottom: 20px;
+		}
+		#lungCancer30 .divider-two .container-fluid {
+			padding-left: 0px;
+			padding-right: 0px;;
+		}
+		#lungCancer30 .divider-two p {
+		    font-size: 19px;
+		    padding: 25px 0;
+		}
+		#lungCancer30 .content-section-two img {
+			width: 100%;;
+		}
+		#lungCancer30 .content-section-two .left-circle #count-three {
+		    font-size: 56px;
+		    color: #fff;
+		    position: relative;
+		    bottom: 130px;
+		font-weight: bold;
+		    left: 55px;
+		    text-align: center;
+		}
+		#lungCancer30 .content-section-two p {
+		    font-size: 22px;
+		    line-height: 29px;
+		    padding-top: 77px;
+		    text-align: center;
+		}
+		#lungCancer30 .divider-three .container-fluid {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		#lungCancer30 .divider-three h1 {
+		    font-size: 35px;
+		    color: #243444;
+		    margin-bottom: 5px;
+		}
+		#lungCancer30 .lower-hero .container-fluid {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		#lungCancer30 .lower-hero p.lead {
+		    font-size: 19px;
+		    margin-bottom: 0px;
+		}
+		#lungCancer30 .lower-hero .men img {
+		    padding: 20px 30px 45px;
+		}
+		#lungCancer30 .lower-section  .last .img-responsive {
+		    display: block;
+		    max-width: 38%;
+		    height: auto;
+		    padding-bottom: 50px;
+		    margin-top: 0px;
+		}
+		.shareBtn {
+			width: 100px;
+			right: 0;
+		}
+		.fluid-width-video-wrapper {
+			margin-top: 130px;
+		}
+	}
+/* 	-1.4 CUSTOM, iPHONE RETINA
+	========================================================================== */
+	@media only screen and (max-width : 1200px){
+
+	}

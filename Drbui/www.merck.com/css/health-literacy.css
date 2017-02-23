@@ -1,0 +1,1142 @@
+.content-section { background: #fff; }
+.row.row-sm { background: #fff; }
+
+/* ==========================================================================
+   0. PAGE GLOBALS
+   ========================================================================== */
+	.merck-white-bg-color { background: #fff !important; }
+	.merck-green-text-color { color: #009994 !important; }
+	h1 {
+		color: #6176a3;
+		font-size: 37px;
+		text-transform: uppercase;
+		line-height: 1em;
+	}
+	h2 {
+		color: #6176a3;
+		font-size: 30px;
+		text-transform: uppercase;
+		line-height: 1em;
+		margin: 25px 0 8px 0;
+		padding: 0;
+	}
+	h1.small_title {
+		font-size: 45px;
+		padding: 0;
+	}
+	p {
+		margin: 0 0 15px;
+	}
+	.shareBtn {
+		cursor: pointer;
+		position: relative;
+		z-index: 99;
+		width: 110px;
+		margin-top: 2%;
+	}
+	.shareBtn img {
+		max-width: 90%;
+	}
+    .quote-large {
+        font-family: "Times New Roman",serif;
+		position: relative;
+		font-size: 110px;
+		line-height: 0.5em;
+		top: 40px;
+    }
+    .quote {
+        font-family: 'Times New Roman', serif;
+    }
+    blockquote {
+    	margin: 0 10px 20px 0;
+    	border: none;
+    }
+    blockquote p {
+        font-size: 28px !important;
+        font-weight: bold;
+    }
+    blockquote .caption {
+        font-size: 24px !important;
+        font-weight: normal;
+    }
+    img.video {
+    	padding: 50px 0 0 0;
+    }
+    .pad30 {
+    	margin: 0 auto;
+    	padding: 30px 30px 0 30px;
+    }
+    .icon-padding {
+    	margin: 0 auto;
+    	padding: 20px;
+    }
+    .smaller-img {
+    	width: 70%;
+    	padding: 8px;
+    }
+	#button {
+		background: #6d1548;
+		color: #ffffff;
+		font-size: 18px;
+		margin: 10px;
+		padding: 6px 20px;
+		text-transform: uppercase;
+		text-shadow: 0px 1px 3px rgba(0,0,0,0.6);
+		text-decoration: none;
+		display: inline-block;
+	}
+	#button:hover {
+		background-color: #159a95;
+	}
+/* __________________________________________________________________________________
+
+	SPACERS
+_____________________________________________________________________________________ */
+
+.spacer10 {
+	width: 100%;
+	height: 10px;
+	clear: both;
+	float: none;
+}
+
+.spacer20 {
+	width: 100%;
+	height: 20px;
+	clear: both;
+	float: none;
+}
+
+.spacer30 {
+	width: 100%;
+	height: 30px;
+	clear: both;
+	float: none;
+}
+
+.spacer40 {
+	width: 100%;
+	height: 40px;
+	clear: both;
+	float: none;
+}
+
+.spacer50 {
+	width: 100%;
+	height: 50px;
+	clear: both;
+	float: none;
+}
+
+.spacer60 {
+	width: 100%;
+	height: 60px;
+	clear: both;
+	float: none;
+}
+
+.spacer70 {
+	width: 100%;
+	height: 70px;
+	clear: both;
+	float: none;
+}
+
+.spacer80 {
+	width: 100%;
+	height: 80px;
+	clear: both;
+	float: none;
+}
+
+.spacer90 {
+	width: 100%;
+	height: 90px;
+	clear: both;
+	float: none;
+}
+
+.spacer100 {
+	width: 100%;
+	height: 100px;
+	clear: both;
+	float: none;
+}
+/* __________________________________________________________________________________
+
+	COLORS
+_____________________________________________________________________________________ */
+
+
+	.bkgd_lightpurple {
+		background-color: #6176a3;
+	}
+	.bkgd_bluegray {
+		background-color: #243444;
+	}
+	.bkgd_white {
+		background-color: #ffffff;
+	}
+	.white {
+		color: #ffffff;
+	}
+	.teal {
+		color: #159a95;
+	}
+	.teal60 {
+		color: #52b8b7;
+	}
+	.teal40 {
+		color: #8dcbcb;
+	}
+	.teal20 {
+		color: #c4e1df;
+	}
+	.bkgd_teal {
+		background-color: #159a95;
+	}
+	.bkgd_teal60 {
+		background-color: #52b8b7;
+	}
+	.bkgd_teal40 {
+		background-color: #8dcbcb;
+	}
+	.bkgd_teal20 {
+		background-color: #c4e1df;
+	}
+	.lightteal {
+		color: #63ceca;
+	}
+	.lightteal60 {
+		color: #a9dde1;
+	}
+	.lightteal40 {
+		color: #c5e7eb;
+	}
+	.lightteal20 {
+		color: #e0f2f2;
+	}
+	.bkgd_lightteal {
+		background-color: #63ceca;
+	}
+	.bkgd_lightteal60 {
+		background-color: #a9dde1;
+	}
+	.bkgd_lightteal40 {
+		background-color: #c5e7eb;
+	}
+	.bkgd_lightteal20 {
+		background-color: #e0f2f2;
+	}
+	.purple {
+		color: #6d1548;
+	}
+	.purple60 {
+		color: #9b5e7f;
+	}
+	.purple40 {
+		color: #b88aa1;
+	}
+	.purple20 {
+		color: #d6bdc9;
+	}
+	.bkgd_purple {
+		background-color: #6d1548;
+	}
+	.bkgd_purple60 {
+		background-color: #9b5e7f;
+	}
+	.bkgd_purple40 {
+		background-color: #b88aa1;
+	}
+	.bkgd_purple20 {
+		background-color: #d6bdc9;
+	}
+	.darkgray {
+		color: #243444;
+	}
+	.darkgray60 {
+		color: #66717e;
+	}
+	.darkgray40 {
+		color: #8e969f;
+	}
+	.darkgray20 {
+		color: #bfc1c9;
+	}
+	.bkgd_darkgray {
+		background-color: #243444;
+	}
+	.bkgd_darkgray60 {
+		background-color: #66717e;
+	}
+	.bkgd_darkgray40 {
+		background-color: #8e969f;
+	}
+	.bkgd_darkgray20 {
+		background-color: #bfc1c9;
+	}
+	.lightgray {
+		color: #aca9b2;
+	}
+	.bkgd_lightgray {
+		background-color: #e8e8e8;
+	}
+	.orange {
+		color: #d47b22;
+	}
+	.orange60 {
+		color: #fcb87d;
+	}
+	.orange40 {
+		color: #fed0a4;
+	}
+	.orange20 {
+		color: #fee5cc;
+	}
+	.bkgd_orange {
+		background-color: #d47b22;
+	}
+	.bkgd_orange60 {
+		background-color: #fcb87d;
+	}
+	.bkgd_orange40 {
+		background-color: #fed0a4;
+	}
+	.bkgd_orange20 {
+		background-color: #fee5cc;
+	}
+	.green {
+		color: #879637;
+	}
+	.green60 {
+		color: #b7c381;
+	}
+	.green40 {
+		color: #cbd3a5;
+	}
+	.green20 {
+		color: #e0e6ce;
+	}
+	.bkgd_green {
+		background-color: #879637;
+	}
+	.bkgd_green60 {
+		background-color: #b7c381;
+	}
+	.bkgd_green40 {
+		background-color: #cbd3a5;
+	}
+	.bkgd_green20 {
+		background-color: #e0e6ce;
+	}
+	.yellow {
+		color: #e1cd00;
+	}
+	.yellow60 {
+		color: #ede166;
+	}
+	.yellow40 {
+		color: #f3eb99;
+	}
+	.yellow20 {
+		color: #f9f5cc;
+	}
+	.bkgd_yellow {
+		background-color: #e1cd00;
+	}
+	.bkgd_yellow60 {
+		background-color: #ede166;
+	}
+	.bkgd_yellow40 {
+		background-color: #f3eb99;
+	}
+	.bkgd_yellow20 {
+		background-color: #f9f5cc;
+	}
+
+/* 0.1. HERO SECTION
+   ========================================================================== */
+	.health-literacy .main-hero-section {
+		background-color: #0F9491;
+		margin-top: 106px;
+		background-image: url("http://www.merck.com/images/about/health-literacy/hl_bg_hero.jpg");
+		background-repeat: no-repeat;
+		-o-background-size: cover;
+		   background-size: cover;
+		background-position: center top;
+	}
+	.health-literacy .main-hero-section h1 {
+		text-transform: uppercase;
+		font-size: 55px;
+		position: relative;
+		line-height: 60px;
+		padding-top: 80px;
+	}
+	.health-literacy .main-hero-section p {
+		color: white;
+		font-size: 28px;
+		line-height: 28px;
+		padding-bottom: 130px;
+	}
+/* 0.2. DIVIDER SECTION
+   ========================================================================== */
+ 	
+	.health-literacy .divider.one {
+		padding: 20px 0px;
+	}
+ 	.health-literacy .divider h2 {
+		color: white;
+		font-size: 35px;
+		text-transform: none;
+		font-weight: normal;
+		margin: 0 auto;
+		padding-top: 10px;
+		padding-bottom: 10px;
+ 	}
+ 	.health-literacy .divider p {
+		color: white;
+		font-size: 25px;
+		font-weight: normal;
+		padding-bottom: 10px;
+ 	}
+ 	.health-literacy .divider.two {
+		background-image: url("http://www.merck.com/images/about/nobel-prize/np_bg_clinical_trials.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: left center;
+		padding: 90px 0px;
+	}
+	.health-literacy .divider.two img {
+		padding-right: 60px;
+	}
+/* 0.3 CONTENT-SECTION
+   ========================================================================== */
+	.smalltext {
+		font-size: 18px !important;
+	}
+	.largertext {
+		font-size: 28px;
+	}
+	.health-literacy .content-section.one {
+		padding: 50px 0px;
+	}
+	.health-literacy .content-section.one a {
+		color: #213444;
+		text-decoration: underline;
+	}
+	.health-literacy .content-section.one p {
+		font-size: 24px;
+		color: #213444;
+	}
+	.health-literacy .content-section.one p.callout {
+		color: #ffffff;
+		font-size: 20px;
+	}
+	.health-literacy .content-section.one p.extra-pad {
+		padding-top: 20px;
+	}
+	.health-literacy .content-section .quote {
+		font-size: 26px;
+		font-weight: 900;
+		padding-top: 45px;
+		padding-bottom: 20px;
+	}
+	.health-literacy .content-section.two {
+		color: white;
+	}
+	.health-literacy .content-section.two h2 {
+		font-size: 38px;
+		color: white;
+		padding: 20px 0px;
+	}
+	.health-literacy .content-section.two p {
+		font-size: 22px;
+		margin-top: 3%;
+	}
+	.health-literacy .content-section.three {
+		background-image: url("http://www.merck.com/images/about/health-literacy/hl_light_diffusion.png");
+		background-repeat: no-repeat;
+		background-position: left top;
+		color: white;
+		padding: 20px 0px 50px;
+	}
+	.health-literacy .content-section.three h2 {
+		font-size: 38px;
+		color: white;
+		padding: 20px 0px;
+	}
+	.health-literacy .content-section.three p {
+		font-size: 26px;
+	}
+	.health-literacy .content-section.three a {
+		color: white;
+		text-decoration: underline;
+	}
+	.health-literacy .content-section.four {
+		background-color: white;
+		color: #233444;
+		padding: 20px 0px;
+	}
+	.health-literacy .content-section.four p {
+		font-size: 35px;
+		font-weight: 700;
+		text-align: center;
+	}
+	.health-literacy .content-section.four p.larger {
+		font-size: 55px;
+		margin-bottom: 0px;
+	}
+	.health-literacy .content-section.four p.top {
+		font-size: 30px;
+		padding: 40px 0px;
+	}
+	.health-literacy .content-section.four p.bottom {
+		font-size: 26px;
+		padding: 40px 0px;
+		font-weight: 400;
+	}
+
+/* 0.4 QUOTE-SECTION
+   ========================================================================== */
+	.health-literacy .quote-section.one {
+		background-color: #90A33C;
+		color: white;
+	}
+	.health-literacy .quote-section.one .frazier {
+		margin-top: 7%;
+	}
+	.health-literacy .quote-section.one p.img-caption {
+		position: absolute;
+		bottom: 0px;
+		left: 10%;
+		color: white;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.health-literacy .quote-section.two {
+		background-color: #C6E7EE;
+		padding-bottom: 50px;
+	}
+	.health-literacy .quote-section.two p {
+		font-size: 26px;
+	}
+	.health-literacy .quote-section.two img {
+		padding-top: 15%;
+	}
+	.health-literacy .quote-section.two .caption {
+		font-size: 26px;
+	}
+
+/* 0.3 FULLWIDTH-CONTENT-SECTION
+   ========================================================================== */
+	.health-literacy .fullwidth-content-section {
+		background-color: teal;
+	}
+	.health-literacy .fullwidth-content-section .no-padding {
+		padding: 0;
+	}
+	.health-literacy .fullwidth-content-section .left,
+	.health-literacy .fullwidth-content-section .right {
+		font-weight: normal;
+		color: white;
+		position: relative;
+		bottom: 0px;
+	}
+	.health-literacy .fullwidth-content-section h2 {
+		text-transform: uppercase;
+		font-size: 30px;
+		margin-top: 15px;
+	}
+	.health-literacy .fullwidth-content-section p {
+		font-size: 20px;
+	}
+	.health-literacy .fullwidth-content-section .right p, .health-literacy .fullwidth-content-section .right ul {
+		font-size: 20px;
+	}
+	.health-literacy .fullwidth-content-section .right blockquote p {
+		font-size: 35px !important;
+	}
+	.health-literacy .fullwidth-content-section .left .half-container {
+	    position: absolute;
+	    max-width: 585px;
+		bottom: 5px;
+		right: 0px;
+		padding-right: 50px;
+		padding-left: 15px;
+		z-index: 100;
+	    /* transition: bottom .15s ease-in-out;
+	    -moz-transition: bottom .15s ease-in-out;
+	    -webkit-transition: bottom .15s ease-in-out;
+	    -o-transition: bottom .15s ease-in-out; */
+	}
+	.health-literacy .fullwidth-content-section .right .half-container {
+	    position: absolute;
+	    max-width: 585px;
+		bottom: 5px;
+		left: 0px;
+		padding-left: 50px;
+		padding-right: 15px;
+		z-index: 100;
+	    /* transition: bottom .10s ease-in-out;
+	    -moz-transition: bottom .10s ease-in-out;
+	    -webkit-transition: bottom .10s ease-in-out;
+	    -o-transition: bottom .10s ease-in-out; */
+	}
+	.health-literacy .fullwidth-content-section .fadeIn {
+		position: absolute;
+	    top: 0px;
+	    background-color: black;
+	    height: 100%;
+	    width: 100%;
+	    opacity: 0;
+	    transition: opacity .10s ease-in-out;
+	    -moz-transition: opacity .10s ease-in-out;
+	    -webkit-transition: opacity .10s ease-in-out;
+	    -o-transition: opacity .10s ease-in-out;
+	}
+	.health-literacy .fullwidth-content-section .gradient {
+		background: linear-gradient(to bottom , transparent 20%, rgba(0, 0, 0, .95) 80%);
+		background: -webkit-linear-gradient(top , transparent 20%, rgba(0, 0, 0, .95) 80%);
+		background: -o-linear-gradient(top , transparent 20%, rgba(0, 0, 0, .95) 80%);
+		background: -moz-linear-gradient(top , transparent 20%, rgba(0, 0, 0, .95) 80%);
+		position: absolute;
+	    top: 0px;
+	    height: 100%;
+	    width: 100%;
+	}
+
+
+/* 	-0.9. LARGE DEVICES, WIDE SCREENS
+	========================================================================== */
+	@media only screen and (min-width : 1600px) {
+		.health-literacy .fullwidth-content-section .right p, .health-literacy .fullwidth-content-section .right ul {
+			font-size: 24px;
+		}
+		.health-literacy .fullwidth-content-section h2 {
+			margin-top: 35px;
+		}
+	}
+	@media only screen and (max-width : 1199px){
+		
+		.health-literacy .main-hero-section {
+			background-color: #243444;
+			/* margin-top: 121px; */
+		}
+		.health-literacy .main-hero-section h1 {
+		    font-size: 45px;
+			position: relative;
+			line-height: 42px;
+		}
+		.shareBtn {
+			right: 5%;
+		}
+		blockquote p {
+    		font-size: 24px;
+    	}
+    	.quote-large {
+		    font-size: 90px;
+		    top: 30px;
+		}
+		blockquote .caption {
+    		font-size: 25px;
+    	}
+		.health-literacy .quote-section.one .frazier {
+    		margin-top: 9.6%;
+    	}
+	 	.health-literacy .divider h2 {
+			font-size: 30px;
+	 	}
+    	.health-literacy .content-section.two p {
+		    margin-top: 1%;
+		}
+		.health-literacy .fullwidth-content-section .left .half-container{
+			max-width: 485px;
+			bottom: 20px;
+		    font-size: 15px;
+		    padding-right: 25px;
+		}
+		.health-literacy .fullwidth-content-section .right .half-container {
+		    max-width: 485px;
+		    bottom: 0px;
+		    font-size: 15px;
+		    padding-left: 25px;
+		}
+		.health-literacy .fullwidth-content-section img {
+			width: 50%;
+		}
+		.health-literacy .divider.two img {
+		    padding-right: 0px;
+		    padding-top: 5px;
+		}
+		.health-literacy .content-section.three {
+    		padding: 0px 0px 50px;
+    	}
+    	.health-literacy .content-section.three h2 {
+    		font-size: 33px;
+    	}
+    	.health-literacy .content-section.three p {
+		    font-size: 20px;
+		}
+		.health-literacy .content-section.four p.top {
+		    font-size: 25px;
+		    padding: 35px 0px;
+		}
+		.health-literacy .content-section.four p.bottom {
+		    font-size: 22px;
+		    padding: 35px 0px;
+		}
+		.health-literacy .content-section.four p.larger {
+    		font-size: 45px;
+    		margin-bottom: -10px;
+    	}
+    	.health-literacy .content-section.four p {
+    		font-size: 30px;
+    	}
+    	.health-literacy .quote-section.two img {
+		    padding-top: 34%;
+		}
+		.health-literacy .fullwidth-content-section .right p, .health-literacy .fullwidth-content-section .right ul {
+			font-size: 16px;
+		}
+	}
+
+/* 	-1.0 MEDIUM DEVICES, DESKTOPS
+	========================================================================== */
+	@media only screen and (max-width : 991px){
+		
+		.health-literacy .main-hero-section {
+		    margin-top: 0px;
+		}
+		.health-literacy .fullwidth-content-section img {
+			width: 40%;
+		    margin-left: 0;
+			display: block;
+			margin: 0 auto;
+		}
+		.health-literacy .main-hero-section h1 {
+		    font-size: 35px;
+			position: relative;
+			top: 0;
+			line-height: 35px;
+			padding-top: 30px;
+			padding-bottom: 10px;
+		}
+		.health-literacy .main-hero-section p {
+			padding-bottom: 60px;
+		}
+		.health-literacy .content-section .medal-img {
+			width: 26%;
+			margin-top: -18px;
+		}
+		.health-literacy h2 {
+			font-size: 25px;
+		}
+		.health-literacy .divider p {
+			font-size: 20px;
+		}
+		.health-literacy .divider.one {
+			padding: 20px 0px;
+		}
+		blockquote p {
+		    font-size: 18px;
+		}
+		blockquote .caption {
+		    font-size: 22px;
+		}
+		.health-literacy .quote-section.one .frazier {
+		    margin-top: 12%;
+		}
+		.quote-large {
+		    font-size: 70px;
+		    top: 25px;
+		}
+		.health-literacy .content-section.two h2 {
+		    font-size: 32px;
+		}
+		.health-literacy .content-section.two p {
+		    margin-top: -1%;
+		    font-size: 18px;
+		}
+		.health-literacy .content-section.two {
+			padding: 0px 0px 40px;
+		}
+		.health-literacy .content-section.two img {
+		    margin: 0 auto;
+		}
+		.health-literacy .fullwidth-content-section .left .half-container,
+		.health-literacy .fullwidth-content-section .container-fluid .left:hover .half-container,
+		.health-literacy .fullwidth-content-section .right .half-container,
+		.health-literacy .fullwidth-content-section .container-fluid .right:hover .half-container {
+		    max-width: 100%;
+		    bottom: 10px;
+		    font-size: 19px;
+		}
+		.health-literacy .divider.two p {
+			padding-top: 0px;
+		}
+		.health-literacy .content-section.three h2 {
+		    font-size: 25px;
+		    padding: 0px;
+		}
+		.health-literacy .content-section.three {
+		    padding: 10px 0px 35px;
+		}
+		.health-literacy .content-section.three p {
+		    font-size: 18px;
+		}
+		.health-literacy .content-section.four p.top {
+		    font-size: 22px;
+		    padding: 25px 0px;
+		}
+		.health-literacy .content-section.four p.larger {
+    		font-size: 40px;
+    	}
+    	.health-literacy .content-section.four p {
+		    font-size: 28px;
+		}
+		.health-literacy .content-section.four p.bottom {
+		    font-size: 19px;
+		    padding: 25px 0px;
+		}
+		.health-literacy .quote-section.two p {
+		    font-size: 20px;
+		}
+		.health-literacy .quote-section.two .caption {
+		    font-size: 20px;
+		}
+		.health-literacy .quote-section.two {
+		    background-color: #C6E7EE;
+		    padding-bottom: 25px;
+		}
+		.health-literacy .fullwidth-content-section .right p, .health-literacy .fullwidth-content-section .right ul {
+			font-size: 20px;
+		}
+	}
+/* 	-1.2 SMALL DEVICES, TABLETS
+	========================================================================== */
+	@media only screen and (max-width: 769px) {
+		h1.small_title {
+			text-align: center;
+		}
+	}
+
+	@media only screen and (max-width : 767px){
+		.health-literacy .main-hero-section h1 {
+		    font-size: 27px;
+			position: relative;
+			top: -5px;
+			line-height: 25px;
+			padding-top: 20px;
+			padding-bottom: 0px;
+		}
+		.health-literacy .main-hero-section p {
+		    font-size: 20px;
+		    line-height: 28px;
+		    padding-bottom: 10px;
+		}
+		.health-literacy .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		h1.small_title {
+			text-align: center;
+		}
+		.shareBtn {
+			width: 80px;
+			right: 0%;
+		}
+	    .icon-padding {
+	    	margin: 0 auto;
+	    	padding: 20px 60px 0px 60px;
+	    }
+	 	.health-literacy .divider h2 {
+			font-size: 20px;
+	 	}
+		.health-literacy .content-section.one p.extra-pad {
+		    padding-top: 5px;
+		}
+		.health-literacy .divider.one {
+		    padding: 10px 0px;
+		}
+		blockquote {
+			margin: 0 0 20px 0;
+			padding: 5px 0px;
+		}
+		blockquote p {
+		    font-size: 14px;
+		}
+		.quote-large {
+		    font-size: 50px;
+		    top: 18px;
+		}
+		.health-literacy .quote-section.one p.img-caption {
+			font-size: 14px;
+			left: 15%;
+		}
+		blockquote .caption {
+		    font-size: 15px;
+		}
+		.health-literacy .quote-section.one .row {
+			font-size: 0px;
+		}
+		.health-literacy .quote-section.one .frazier {
+		    margin-top: 0%;
+		    padding-top: 2%;
+			vertical-align: bottom;
+		}
+		.health-literacy .quote-section.one .quotes {
+			padding-bottom: 3%;
+		}
+		.health-literacy .quote-section.one .allow-v-align {
+			float: none;
+			display: inline-block;
+		}
+		.health-literacy .content-section.two {
+		    padding: 0px 0px 20px;
+		}
+		.health-literacy .content-section.two h2 {
+		    font-size: 27px;
+		}
+		.health-literacy .content-section.two p {
+		    margin-top: -1%;
+		    margin-bottom: 20px;
+		    font-size: 15px;
+		}
+		.health-literacy .content-section.two img {
+		    margin-top: -10%;
+		    margin-bottom: 30%;
+		}
+		.health-literacy .fullwidth-content-section .left .half-container, .health-literacy .fullwidth-content-section .container-fluid .left:hover .half-container, .health-literacy .fullwidth-content-section .right .half-container, .health-literacy .fullwidth-content-section .container-fluid .right:hover .half-container {
+		    font-size: 15px;
+		    bottom: 0px;
+		}
+		.health-literacy .divider.two {
+		    padding: 50px 0px;
+		}
+		.health-literacy .divider.two img {
+		    padding-right: 0px;
+		    padding-top: 0px;
+		}
+		.health-literacy .content-section.three {
+		    padding: 10px 0px 2%;
+		    min-height: 195px;
+		}
+		.health-literacy .content-section.three h2 {
+		    font-size: 15px;
+		    padding: 0px;
+		    margin: 2px 0px;
+		}
+		.health-literacy .content-section.three p {
+		    font-size: 14px;
+		}
+		.health-literacy .content-section.four {
+		    padding: 10px 0px;
+		}
+		.health-literacy .content-section.four p.top {
+		    font-size: 16px;
+		    padding: 15px 0px;
+		}
+		.health-literacy .content-section.four p.larger {
+		    font-size: 24px;
+		    margin-bottom: -5px;
+		}
+		.health-literacy .content-section.four p {
+		    font-size: 17px;
+		}
+		.health-literacy .content-section.four p.bottom {
+		    font-size: 15px;
+		    padding: 15px 0px;
+		}
+		.health-literacy .quote-section.two p {
+		    font-size: 15px;
+		}
+		.health-literacy .quote-section.two .caption {
+		    font-size: 16px;
+		}
+		.health-literacy .quote-section.two img {
+		    padding-top: 10%;
+		    max-height: 135px;
+		}
+		.health-literacy .content-section.three p {
+		    font-size: 13px;
+		}
+	}
+
+/* 	-1.3EXTRA SMALL DEVICES, PHONES
+	========================================================================== */
+	@media only screen and (max-width : 479px){
+    	
+		img {
+		max-width: 70% !important;
+		}
+		.row .col-xxs-12 {
+    		width: 100% !important;
+    	}
+    	h1 {
+    		font-size: 28px;
+    	}
+		.health-literacy .main-hero-section {
+			background-position: -55px;
+			padding: 0px 0px 3%;
+		}
+		.health-literacy .main-hero-section h1 {
+		    font-size: 22px;
+		    line-height: 1em;
+		    position: relative;
+		    margin-bottom: 8px;
+		    padding-bottom: 0px;
+		    text-align: left;
+		}
+		.health-literacy .main-hero-section .col-xs-12 {
+			padding: 0px;
+		}
+		.health-literacy .main-hero-section p {
+		    font-size: 15px;
+		    line-height: 1.2em;
+		    padding-bottom: 0;
+		}
+		.health-literacy .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.shareBtn {
+			width: 70px;
+			right: 0;
+		}
+		.health-literacy .divider.one {
+		    padding: 5px 0px;
+		}
+		.health-literacy .content-section.one {
+		    padding: 25px 0px;
+		}
+		.health-literacy .content-section.one p {
+		    font-size: 19px;
+		}
+		.health-literacy .content-section .medal-img {
+		    margin-top: -10px;
+		}
+		.health-literacy .quote-section.one p.img-caption {
+		    font-size: 12px;
+		    left: 31%;
+		}
+		blockquote p {
+		    font-size: 13px;
+		}
+		.health-literacy .quote-section.one .frazier {
+		    margin-top: 0%;
+		    padding-top: 2%;
+		    vertical-align: bottom;
+		    max-width: 100%;
+		}
+		.health-literacy .quote-section.one .frazier .img-responsive {
+			max-width: 50%;
+			margin: 0 auto;
+		}
+		.health-literacy .quote-section.one .quotes {
+		    padding-bottom: 3%;
+		    max-width: 100%;
+		}
+		.health-literacy .content-section.two img {
+		    margin: 0% auto;
+		}
+		.health-literacy .content-section.two h2 {
+		    font-size: 18px;
+		}
+		.health-literacy .content-section.two p {
+		    margin-top: 3%;
+		    margin-bottom: 20px;
+		    font-size: 13px;
+		}
+		.health-literacy .fullwidth-content-section .left .half-container, .health-literacy .fullwidth-content-section .container-fluid .left:hover .half-container, .health-literacy .fullwidth-content-section .right .half-container, .health-literacy .fullwidth-content-section .container-fluid .right:hover .half-container {
+		    font-size: 14px;
+		    font-weight: 500;
+		    min-height: 120px;
+		}
+		.health-literacy .fullwidth-content-section .gradient {
+			display: none;
+		}
+		.health-literacy .fullwidth-content-section .half-container p {
+			padding-top: 3%;
+		}
+		.health-literacy .fullwidth-content-section .left .half-container p {
+			padding-top: 5%;
+		}
+		
+		.health-literacy .divider.two img {
+			max-width: 35%;
+			margin: 0 auto;
+		}
+		.health-literacy .divider.two p {
+		    padding-top: 20px;
+		}
+		.health-literacy .content-section.three h2 {
+		    font-size: 14px;
+		}
+		.health-literacy .content-section.three p {
+		    font-size: 13px;
+		    padding-right: 2px;
+		}
+		.health-literacy .content-section.three {
+			background-position: 88.5% top;
+		}
+		.health-literacy .content-section.four p.top {
+		    font-size: 14px;
+		    padding: 10px 0px;
+		}
+		.health-literacy .content-section.four p.larger {
+		    font-size: 13px;
+		    margin-bottom: -2px;
+		}
+		.health-literacy .content-section.four p.smaller {
+			font-size: 13px;
+			line-height: .8em;
+		}
+		.health-literacy .content-section.four .col-xs-4,
+		.health-literacy .content-section.four .col-xs-3 {
+			padding: 0px;
+		}
+
+		.health-literacy .content-section.four img {
+			max-height: 100%;
+			margin: 0px auto;
+		}
+		.health-literacy .content-section.four p.bottom {
+		    font-size: 13px;
+		    padding: 15px 0px;
+		}
+		.health-literacy .quote-section.two p {
+		    font-size: 13px;
+		}
+		.health-literacy .quote-section.two .caption {
+		    font-size: 14px;
+		}
+		.quote-large {
+		    font-size: 40px;
+		    top: 13px;
+		}
+		.health-literacy .quote-section.two img {
+		    padding-top: 5%;
+		    max-width: 20%;
+		    margin: 0 auto;
+		}
+	}
+	
+	@media only screen and (max-width : 400px){
+		.health-literacy .content-section.three {
+			background-image: none;
+		}
+		.health-literacy .content-section.three .col-xs-7 {
+			width: 100%;
+		}
+		.health-literacy .content-section.three h2 {
+		    font-size: 16px;
+		    margin-bottom: 10px;
+		}
+		.health-literacy .content-section.three p {
+		    font-size: 14px;
+		    padding-right: 0px;
+		}
+	}

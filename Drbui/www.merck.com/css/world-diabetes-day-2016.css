@@ -1,0 +1,625 @@
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+html.mm-background .mm-page { overflow: hidden; }
+.content-section { background: #fff; }
+.row.row-sm { background: #fff; }
+.world-diabetes-day .row {
+    margin-right: 0px;
+}
+/*==========  MECTIZAN August 2015  ==========*/
+
+.bold-text {
+    font-weight: bold;
+}
+p.partnershipModal {
+    font-size: 24px;
+    padding: 20px;
+}
+.lead {
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+.header_section { background: transparent; }
+/*====================================
+=            HERO SECTION            =
+====================================*/
+.jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.jumbotron .jumbo-inner {
+    position: absolute;
+    top: 200px;
+    visibility: hidden;
+}
+.jumbotron .jumbo-inner h1 {
+    font-size: 85px;
+    color: #A9DDDE;
+    width: 80%;
+    line-height: 50px;
+    visibility: visible;
+}
+.jumbotron .jumbo-inner p {
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 0px;
+    line-height: 49px;
+    width: 54%;
+}
+.jumbotron .jumbo-inner sup {
+    font-size: 50px;
+    line-height: 0;
+    position: relative;
+    top: 30px;
+}
+.jumbotron img {
+    width:100%;
+}
+
+.hero-section #slideSpace {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.hero-section #slideSpace #slides_1 .slides-container {
+    background: url('http://www.merck.com/images/about/world-diabetes-day/wd_bg_hero.jpg') no-repeat 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 900px;
+}
+.hero-section #slideSpace #slides_1 .slides-container img#heroImages {
+    padding-top: 122px;
+}
+.heros-section #slideSpace #slides_1 .slide-container .slides-header-content {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    text-align: right;
+}
+
+
+/*======================================
+*         World Diabetes Day           *
+=======================================*/
+
+.jumbotron{
+    margin:0;
+}
+
+.jumbotronMobileCopy{
+    background-color:#8CCBD4; 
+    color: #ffffff; 
+    font-size:21px;
+}
+
+.jumbotronMobileCopy div{
+    padding:20px; 
+    text-align:center;
+}
+
+/*.interstitial1Mobile{
+    background-color:#93A63D; 
+    color: #ffffff; 
+    font-size:21px;
+}
+
+.interstitial1Mobile div{
+    padding:20px; 
+    text-align:center;
+}*/
+
+.eyes-diabetes{
+    background-color: #6CCAD4;
+    color: #243444;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.verticalLine{
+    border-left: 1px solid #6277A4;
+}
+
+.info-image{
+    padding-left: 30px;
+}
+
+.section2Container{
+    position:absolute;
+}
+.section2{
+    padding-bottom: 13px;
+    background-color: #A9DDDE;
+}
+
+
+.stats1 > .container{
+      padding-left:30px; 
+      padding-right:15px;
+}
+
+.stats1seperator{
+      padding-top:30px;
+}
+
+.stats3-inner{
+   padding-right:0px;
+}
+
+.stats3Detail{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.stats4 .container{
+    position: relative;
+}
+
+.stats4{
+    background-color: #C7E6EB;
+    padding-right: 0px;
+}
+.stats4-inner{
+    /* position: absolute; */
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.stats4-inner img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stats4-outer{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    padding: 0px 14px !important;
+}
+
+.stats2-inner{
+    position: relative;
+    /*top: 70px;*/
+}
+
+
+.stats2b{
+    background-image: url("http://www.merck.com/images/about/world-diabetes-day-16/wd2_bg_money.jpg");
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-size: 35px;
+    padding: 50px 0 50px 0;
+}
+.stats2b-inner{
+    /*text-align: center;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.shareBtn{
+    position: absolute;
+    top: 214px;
+    right: 10%;
+    
+}
+
+.shareBtn img{
+    width: 100px;
+}
+
+
+#careerBtn{
+    background-color: #009994;
+    cursor: pointer;
+    width: 300px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.mobileTitle{
+    background-color:#8CCBD4; 
+    color: #ffffff; 
+    font-size:30px; 
+    height: 40px;
+}
+
+.mobileTitle p{
+    padding-bottom:0px;
+    margin-bottom:0px;
+}
+
+.mobileTitle div{
+    padding:0px; 
+    text-align:center;
+}
+
+.container{
+    padding-right: 0px;
+}
+
+.careerText{
+    padding-left:26px;
+}
+
+.interstitial2{
+    background-color: #A9DDDE;
+    padding: 50px 0 50px 0;
+    font-size: 27px;
+}
+
+.stats1 {
+    background-color: #009895;
+    color: #ffffff;
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+
+.stats1 .info{
+    font-size:25px;
+}
+
+.stats1 .stat{
+    font-size:100px;
+    font-weight:bold;
+}
+
+.stats1 .stat1Subtitle{
+    font-size:50px;
+    font-weight:bold;
+}
+
+.stats1 .stat2Subtitle{
+    font-size:30px;
+    font-weight:normal;
+}
+
+.stats1Detail{
+    font-size: 27px;
+    padding-top: 20px;
+}
+
+.statBlock{
+    line-height: normal;
+}
+
+
+.stats3 {
+    background-color: #ffffff;
+    padding: 50px 0 50px 0;
+    text-align: center;
+    color: #6277A4;
+    text-align: center;
+   
+}
+
+.stats3Detail{
+    /*font-weight: bold;*/
+    font-size: 33px;
+    padding-bottom:70px;
+}
+
+.stats3Diseases{
+    font-size: 24px;
+    margin-right: 0px !important; 
+    margin-left:0px !important;
+}
+
+.diseaseIcon{
+    opacity: 0;
+    font-size: 16px;
+}
+
+.diseaseIcon img{
+    position: relative;
+    top: -100px;
+}
+
+/*======================================
+=            media quieries            =
+======================================*/
+    
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+    .jumbotron {
+        padding: 0px;
+    }
+
+    .jumbotron .jumbo-inner {
+        position: absolute;
+        top: 86px;
+        visibility: hidden;
+    }
+    .jumbotron .jumbo-inner h1 {
+        font-size: 20px;
+        color: #ffffff;
+        width: 80%;
+        line-height: 20px;
+        margin-bottom: 5px;
+        padding-left: 20px;
+    }
+    .jumbotron .jumbo-inner p {
+        font-size: 14px;
+        color: #587783;
+        margin-bottom: 0px;
+        line-height: 12px;
+        padding-left: 20px;
+    }
+
+    .stats1 .stat {
+        font-size: 80px;
+    }
+
+    .stats1 .stat1Subtitle {
+        font-size: 40px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+     p{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .footer1 p{
+        font-size: 15px;
+    }
+
+    .verticalLine{
+        border-left: none;
+    }
+
+    .info-image{
+        padding-left: 0px;
+    }
+
+    .stats2b{
+        padding: 50px 0 0 0;
+    }
+
+    .shareBtn {
+        position: absolute;
+        top: 125px;
+        right: 10%;
+    }
+
+}
+
+/*@media (max-width: 767px) {
+
+    .jumbotron .jumbo-inner {
+        width: 100%;
+    }
+    
+}*/
+
+@media (max-width: 768px){
+
+     p{
+        font-size: 24px;
+    }
+
+    .footer1 p{
+        font-size: 15px;
+    }
+
+}
+
+ /* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+
+    .jumbotron .jumbo-inner h1 {
+        font-size: 30px;
+        color: #A9DDDE;
+        width: 80%;
+        line-height: 35px;
+    }
+    .jumbotron .jumbo-inner p {
+        font-size: 18px;
+        color: #ffffff;
+        margin-bottom: 0px;
+        line-height: 20px;
+    }
+    .jumbotron .jumbo-inner sup {
+        font-size: 40px;
+        line-height: 0;
+        position: relative;
+        top: 25px;
+    }
+   
+
+    .icon-text{
+        color:#243444;
+        font-size: 20px;
+    }
+
+   .stats2{
+        font-size: 30px;
+        padding: 5px;
+        margin: 0px;
+   }
+   .stats2 .container{
+        font-size: 33px;
+   }
+
+   .shareBtn{
+        top: 50px;
+        right: 3%;
+   }
+
+   .shareBtn img {
+        width: 90px;
+    }
+
+   
+}
+
+@media (max-width: 736px){
+
+    p{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .footer1 p{
+        font-size: 15px;
+    }
+
+    .verticalLine{
+        border-left: none;
+    }
+
+    .info-image{
+        padding-left: 0px;
+    }
+
+    .shareBtn img {
+        width: 80px;
+    }
+
+}
+
+ /* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    
+    .jumbotron .jumbo-inner {
+        top: 165px;
+    }
+    .jumbotron .jumbo-inner h1 {
+        font-size: 40px;
+        color: #A9DDDE;
+        width: 85%;
+        line-height: 45px;
+    }
+    .jumbotron {
+        padding-top: 105px;
+    }
+    .jumbotron .jumbo-inner p {
+        font-size: 20px;
+        color: #ffffff;
+        margin-bottom: 0px;
+        line-height: 30px;
+    }
+    .jumbotron .jumbo-inner sup {
+        font-size: 40px;
+        line-height: 0;
+        position: relative;
+        top: 25px;
+    }
+    
+    /*.st_sharethis_custom {
+        max-width: 135px;
+        height: auto;
+        float: right;
+    }*/
+
+    /*.stats4Detail {
+        font-size: 20px;
+        padding-top: 65px;
+    }*/
+
+    .stats4 .container{
+        position: absolute;
+    }
+
+
+    .stats2{
+        font-size: 10px;
+        padding: 5px;
+        margin: 0px;
+    }
+
+    .stats4-inner{
+       padding: 60px 30px 0px 30px;
+    }
+
+     .stats2-inner{
+        position: relative;
+        top: 176px;
+    }
+
+    .shareBtn{
+        top: 120px;
+        right: 5%;
+    }
+
+   /* .shareBtn img{
+        width: auto;
+    }*/
+
+    .stats4 .container{
+        position: absolute !important;
+    }
+
+
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+    .jumbotron{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+
+
+    }
+
+    .jumbotron .jumbo-inner {
+        top: 200px;
+    }
+
+    .jumbotron .jumbo-inner h1 {
+        /*font-size: 85px;*/
+        color: #A9DDDE;
+        width: 84%;
+        line-height: 50px;
+    }
+    .jumbotron .jumbo-inner p {
+           font-size: 30px;
+            color: #ffffff;
+            margin-bottom: 0px;
+            line-height: 33px;
+            /*font-weight: bold;*/
+            padding-top:30px;
+            width: 600px;
+    }
+    .jumbotron .jumbo-inner sup {
+        font-size: 50px;
+        line-height: 0;
+        position: relative;
+        top: 30px;
+    }
+    
+    .section2Content{
+        position: absolute;
+
+    }
+
+    .stats2-inner{
+        position: relative;
+        top: 232px;
+    }
+
+    .shareBtn{
+        top: 120px;
+        right: 10%;
+    }
+
+}
+
+

@@ -1,0 +1,491 @@
+h1 { 
+	color: #aaa; 
+	font-size: 26px;
+	font-weight: normal;
+	line-height: 30px;
+	margin-top: 0;
+}
+h2 {
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+.module h2 {
+	color: #768dc1;
+}
+table h5 {
+	margin: 0;	
+	color: #676767;
+}
+.dashed-line {
+	/*background: url("../images/dashed-line.gif") repeat-x scroll left bottom rgba(0, 0, 0, 0);*/
+	background-image: url('http://www.merck.com/images/global/dashed-line.gif');
+	background-repeat: repeat-x;
+	background-position: left bottom;
+    padding: 28px 0 23px;	
+}
+/* HR - Divider */
+.dashedRule {
+	background: url("http://www.merck.com/images/global/dashed-line.gif") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+	background-image: url('http://www.merck.com/images/global/dashed-line.gif');
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	height: 1px;
+	margin: 20px 0;
+	width: 100%;
+}
+.hero_container h2 {
+	color: #aaa; 
+	font-size: 26px;
+	font-weight: normal;
+	line-height: 30px;
+}
+
+.header-container { height: 127px; }
+.hero_container {
+	background: #337478;
+	/*height: 179px;*/
+	position: relative;
+	/*top: 122px;*/
+	top: 127px;
+}
+	.hero_container h2 {
+		position: absolute;	
+		width: 34%;
+		font-weight: normal;
+		line-height: 1em;
+		top: 10%;
+		left: 57%;
+		color: #fff;
+		margin-top: 0;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+.content_container,
+.footer_container {
+	position: relative;
+	top: 127px;
+}
+.content_container .column_left,
+.content_container .column_middle {
+	margin-top: 20px;	
+}
+
+/** 
+ * IE show #text nodes in, this adds some line-height, floating them cause them to go away
+ * but there's no reason to float cause of design, therefore clear it right after to not really do anything
+ */
+ .active-link {
+	font-weight: bold;
+}
+.sideNav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+}
+.sideNav ul, 
+.sideNav ul li, 
+.sideNav ul li a { 
+	float: left; 
+	clear: left; 
+	width: 100%;
+}
+.sideNav ul ul { margin: 0 0 0 10px; }
+.sideNavHeader { color:#289392; font-size:25px; font-weight:bold; }
+
+.sideNav a.active {font-weight:bold;},
+.sideNav a.active:hover { color: grey !important; text-decoration: none; cursor: default; },
+.sideNav ul li a.altactive { font-weight:bold; color: grey !important; text-decoration:none; cursor: default; },
+.sideNav ul li a.altactive:hover { color: grey !important; text-decoration:none; cursor: default;}
+
+/* level 1 */
+	.sideNav { background-color: #fff; }
+	.sideNav a:hover { text-decoration: underline; color: #676767; }
+	.sideNav ul li { background: url(http://www.merck.com/images/sidenav-nav_separator.gif) 0 100% no-repeat; padding-bottom: 6px; margin: 0; }
+	
+	/* level 1 only have arrows, everything else are bullets */
+	.sideNav ul li a { 
+		color: #424141; 
+		line-height:1.1em; 
+		background: url(http://www.merck.com/images/sidenav-arrow_right.gif) 12px 8px no-repeat; 
+		text-decoration: none; 
+		display: block; 
+		/*width: 147px; */
+		padding: 6px 0 8px 27px; 
+		font-size: 15px; 
+	}
+	.sideNav ul li a.on { background: url(http://www.merck.com/images/sidenav-arrow_down.gif) 10px 10px no-repeat; }
+/* end of level 1 */
+
+/* level 2 */
+.menu_sub li ul li.active-link a {
+	font-weight: bold;
+}
+.sideNav ul ul li { background: none; padding-bottom: 4px; }
+.sideNav ul ul a { 
+	color: #424141; 
+	padding: 3px 0 3px 27px; 
+	background: url(http://www.merck.com/images/sidenav-bullet-lg_grey.gif) 18px 7px no-repeat; 
+	font-size: 13px; 
+	font-weight: normal;
+}
+
+/* level 3 */
+/* .sideNav ul ul ul a { padding-left: 46px; background: url( /images/nav/sidenav-bullet-sm_ltgrey.gif ) 37px 9px no-repeat; color: #9d9d9d; } Updated by Amit Gaur on September 22, 2010 to fix the width issue - T4 pages links*/
+.sideNav ul ul ul a { padding-left: 40px; background: url(http://www.merck.com/images/sidenav-bullet-sm_ltgrey.gif) 31px 9px no-repeat; }
+
+.leftSideNavNewsroom ul, .leftSideNavNewsroom ul li, .leftSideNavNewsroom ul li a { float: left; clear: left; }
+
+.leftSideNavNewsroom a { color:#9D9D9D !important; }
+
+.leftSideNavNewsroom a.active {font-weight:bold;},
+.leftSideNavNewsroom a.active:hover { color: grey !important; text-decoration: none; cursor: default; },
+.leftSideNavNewsroom ul li a.altactive { font-weight:bold; color: grey !important; text-decoration:none; cursor: default; },
+.leftSideNavNewsroom ul li a.altactive:hover { color: grey !important; text-decoration:none; cursor: default;}
+
+/* level 1 */
+	.leftSideNavNewsroom { background-color: #fff; }
+	.leftSideNavNewsroom a:hover { text-decoration: underline; color: #676767; }
+	.leftSideNavNewsroom ul li { background: url(http://www.merck.com/images/sidenav-nav_separator.gif) 0 100% no-repeat; padding-bottom: 6px; margin: 0; }
+	
+	/* level 1 only have arrows, everything else are bullets */
+	.leftSideNavNewsroom ul li a { color: #9d9d9d; line-height:12px; background: url(http://www.merck.com/images/sidenav-arrow_right.gif) 12px 8px no-repeat; color: #9d9d9d; text-decoration: none; display: block; width: 147px; padding: 6px 0 8px 27px; font-size: 12px; }
+	.leftSideNavNewsroom ul li a.on { background: url(http://www.merck.com/images/sidenav-arrow_down.gif) 10px 10px no-repeat; }
+/* end of level 1 */
+
+/* level 2 */
+.leftSideNavNewsroom ul ul li { background: none; padding-bottom: 4px; }
+.leftSideNavNewsroom ul ul a { color: #9d9d9d; padding: 3px 0 3px 27px; background: url( http://www.merck.com/images/sidenav-bullet-lg_grey.gif) 18px 7px no-repeat; font-size: 11px; }
+
+/* level 3 */
+.leftSideNavNewsroom ul ul ul a { padding-left: 46px; background: url(http://www.merck.com/images/sidenav-bullet-sm_ltgrey.gif) 37px 9px no-repeat; color: #9d9d9d; }
+.utility-buttons {
+    background: none repeat scroll 0 0 #f1f2f2;
+    border: 1px solid #d4d4d4;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 15px;
+    padding: 4px;
+    width: 187px;
+}
+.utility-buttons li {
+    border: 0 none;
+    display: inline;
+    margin: 0 4px !important;
+}
+.utility-buttons li a {
+    color: #424141 !important;
+    float: none;
+    font-size: 10px !important;
+    text-indent: 0 !important;
+}
+.utility-buttons li.printButton a {
+    background: url("http://www.merck.com/images/btn-print.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+	.ie8 background-image: url('http://www.merck.com/images/btn-print.png');
+    padding-left: 22px !important;
+    width: 27px !important;
+	padding-top: 2px;
+}
+.utility-buttons li.printButton a:hover {
+    background: url("http://www.merck.com/images/btn-print.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+.utility-buttons li.shareButton a {
+    background: url("http://www.merck.com/images/btn-share.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    .ie8 background-image: url("http://www.merck.com/images/btn-share.png");!important;
+	padding-left: 27px !important;
+    width: 28px !important;
+	padding-top: 2px;
+}
+.utility-buttons li.shareButton a:hover {
+    background: url("http://www.merck.com/images/btn-share.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+.utility-buttons li.textSizeButton a, .alternativeSize ul.utility-buttons li.textSizeButton a {
+    background: url("http://www.merck.com/images/btn-text-size-large-off.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    padding-left: 27px !important;
+    width: 27px !important;
+	padding-top: 3px;
+}
+.utility-buttons li.textSizeButton a, .alternativeSize ul.utility-buttons li.textSizeButton a:hover {
+    background: url("http://www.merck.com/images/btn-text-size-large-off.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+.utility-buttons.pipeline {
+    float: right;
+    width: 125px;
+}
+.utility-buttons.pipeline li.printButton span {
+    background: url("http://www.merck.com/images/btn-print.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    cursor: pointer;
+    font-size: 10px;
+    padding-left: 22px !important;
+    width: 27px !important;
+}
+.utility-buttons.pipeline li.printButton span:hover {
+    background: url("http://www.merck.com/images/btn-print.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    text-decoration: underline;
+}
+.utility-buttons.pipeline li.shareButton span {
+    background: url("http://www.merck.com/images/btn-share.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    cursor: pointer;
+    font-size: 10px;
+    padding-left: 27px !important;
+    width: 28px !important;
+}
+.utility-buttons.pipeline li.shareButton span:hover {
+    background: url("http://www.merck.com/images/btn-share.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    text-decoration: underline;
+}
+.column_middle h4 {
+	color: #768dc1;
+}
+.column_right .module {
+    /*background: url("../images/dashed-line.gif") repeat-x scroll left bottom rgba(0, 0, 0, 0);*/
+	background-image: url('http://www.merck.com/images/dashed-line.gif');
+	background-repeat: repeat-x;
+	background-position: left bottom;
+    padding: 20px 0;
+}
+.column_right .module h4 {
+	color: #768dc1;
+    font-size: 1.1em; /* original 1.3 */
+    line-height: 1em;
+    text-transform: uppercase;
+	font-weight:normal;
+}
+.column_right .module img {
+    margin-bottom: 7px;
+}
+.column_right .module p {
+    line-height: 1.5em;
+}
+
+.column_right .module blockquote {
+    color: #bbb;
+    font-size: 15px;
+    padding-bottom: 9px;
+}
+.column_right .module span.byline {
+    color: #aaa;
+    float: right;
+    font-size: 9px;
+    font-style: italic;
+    text-align: right;
+}
+p.devComment {
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+.column_right p.devComment {
+    display: inline-block;
+    font-size: 9px;
+    line-height: 1em;
+    width: 180px !important;
+}
+.pdf {
+	/*background: url("../images/icon_link-bg-pdf.gif") no-repeat scroll 0 5px rgba(0, 0, 0, 0);*/
+	background-image: url('http://www.merck.com/images/icon_link-bg-pdf.gif');
+	background-repeat: no-repeat;
+	background-position: 0 5px;
+	padding: 1px 0 1px 28px;
+}
+.textList {
+	list-style: none;
+	margin: 0 0 0 30px;
+	padding: 0;
+}
+	.textList li {	
+		/*background: url("../images/global/bullet-point.gif") no-repeat scroll 0 7px rgba(0, 0, 0, 0);*/
+		background-image: url('http://www.merck.com/images/global/bullet-point.gif');
+		background-repeat: no-repeat;
+		background-position: 0 7px;
+		padding-left: 20px;
+	}
+.linkList {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.linkList ul {
+	list-style: none;	
+	padding-left: 15px;
+}
+	/*.linkList li {
+		background: url("../images/icon_link-bg-arrow.gif") no-repeat scroll 0 5px rgba(0, 0, 0, 0);
+		padding: 1px 0 1px 10px;
+		margin: 5px 0;
+	}*/
+	.linkList li a {
+		/*background: url("../images/icon_link-bg-arrow.gif") no-repeat scroll 0 5px rgba(0, 0, 0, 0);*/
+		background: url("http://www.merck.com/images/icon_link-bg-arrow.gif") no-repeat scroll 0 5px;
+		padding: 1px 0 1px 10px;
+		margin: 5px 0;
+		display: inline-block;
+	}
+		.linkList li a.pdf {
+			background-image: url('http://www.merck.com/images/icon_link-bg-pdf.gif');
+			background-repeat: no-repeat;
+			background-position: 0 5px;
+			padding: 1px 0 1px 28px;
+			display: inline-block;
+		}
+		/*.linkList li.pdf {
+			background-image: url('../images/pdf-icon.gif');
+			background-repeat: no-repeat;
+			background-position: 0 5px;
+			padding: 1px 0 1px 28px;
+			display: inline-block;
+		}*/
+.arrow {
+	/*background: url("../images/icon_link-bg-arrow.gif") no-repeat scroll 0 5px rgba(0, 0, 0, 0);*/
+	background-image: url('http://www.merck.com/images/icon_link-bg-arrow.gif');
+	background-repeat: no-repeat;
+	background-position: 0 5px;
+	padding: 1px 0 1px 10px;
+}
+
+.linkOnly {
+	background: url("http://www.merck.com/images/global/icon_link-bg-arrow.gif") no-repeat scroll 0 1px rgba(0, 0, 0, 0);
+	color: rgb(255, 114, 0);
+	padding: 0 0 1px 10px;
+}
+ul.share {
+	margin: 0;
+	padding: 0;
+}
+ul.share li {
+    display: inline;
+    margin: 0;
+}
+ul.share li a {
+    font-size: 1.2em;
+}
+.module-bucket {
+	background: #F2F1F1;
+	padding: 15px;
+	margin-top:20px;
+	overflow: auto;
+}
+.module-gray-border {
+	border: 1px solid #d4d4d4;
+	padding: 15px;
+}
+.alphabetic-selector {
+	background: url("http://www.merck.com/images/modules/module-middle-gradientrule.gif") no-repeat scroll center bottom rgba(0, 0, 0, 0);
+	height: 22px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style: none;
+}
+	.alphabetic-selector li {
+		background: url("http://www.merck.com/images/global/alphabet-navigation-bg-rule.gif") no-repeat left bottom;
+		color: #9c9c9c;
+		float: left;
+		height: 11px;
+		left: -1px;
+		line-height: 11px;
+		position: relative;
+		text-align: center;
+		width: 3.84%;	
+	}
+.alphabetic-content .alpha {
+	background: url("http://www.merck.com/images/global/alphabet-section-bg-rule.gif") no-repeat scroll left bottom rgba(0, 0, 0, 0);
+	overflow: visible;
+	padding-bottom: 5px;
+	position: relative;
+	top: 20px;
+}
+	.alphabetic-content .alpha-anchor {
+		color: #768dc1;
+		display: block;
+		font-size: 24px;
+		padding: 6px 0 20px;
+		text-align: center;
+		width: 56px;	
+	}
+/* CAROUSEL - HORIZONTAL */
+.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+/* The controlsy */
+.carousel-control {
+	left: -12px;
+    height: 40px;
+	width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 30px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+/* The indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+	background: #cecece;
+}
+.carousel-indicators .active {
+background: #428bca;
+}
+/* END OF CAROUSEL - HORIZONTAL */
+
+.footer_container {
+	margin-top: 25px;
+}
+.footer_container ul.legal_nav {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.footer_container ul.legal_nav li {
+    display: inline;
+    margin: 0 0 0 8px;
+}
+.footer_container ul.legal_nav li a {
+    color: #289392;
+    font-size: 12px;
+}
+.footer1 {
+	border-top: 1px solid #ccc;
+	padding-top: 10px;	
+}
+.footer2 .rightcol .social_icons {
+    text-align: right;
+}
+.footer2 .rightcol .social_icons li {
+    display: inline;
+    margin: 0 10px;
+}
+.footer2 .rightcol .social_icons li.last {
+    margin-right: 0;
+}
+
+/* Custom Careers Search CSS */
+
+.search_jobs .btn {
+	display: inline-block;
+	padding: 2px 5px 2px 5px;
+	margin-top: -4px;	
+}
+#keywordsearch-q {
+	width:130px;
+}
+
+/* Custom Products CSS overrides */
+sup {
+top: -0em;
+}
+sub, sup {
+position: relative;
+/*font-size: 130%;*/
+line-height: 0;
+/*vertical-align: baseline;*/
+vertical-align: text-top;
+}

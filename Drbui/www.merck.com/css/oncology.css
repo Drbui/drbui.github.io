@@ -1,0 +1,744 @@
+   /* ==========================================================================
+   PAGE GLOBALS
+   ========================================================================== */
+    #page{
+        background-color: #fff;
+    }
+    .shareBtn {
+        cursor: pointer;
+        position: absolute;
+        right: 18%;
+        z-index: 99;
+        top: 25px;
+    }
+
+    .blue{
+        color: #65C8D1;
+    }
+
+    .white{
+        color: #ffffff;
+    }
+
+    .centered {
+       margin-left: auto;
+       margin-right: auto;
+    }
+
+
+    /* HERO SECTION
+   ========================================================================== */
+    
+    .oncology .hero-section {
+        background-image: url("http://www.merck.com/images/about/our-work/oncology/on_bg_hero.jpg");
+        background-size: cover;
+        background-position: right center;
+        margin-top: 105px;
+        height: 470px;
+    }
+    .oncology .hero-section .img-container {
+        margin-top: 20px;
+    }
+    .oncology .hero-section .img-container img {
+        max-width: 50%;
+    }
+
+    .oncology .hero-section .container{
+        margin-top: 120px;
+    }
+
+    .oncology .hero-section .header{
+        font-size: 55px;
+        font-weight: bold;
+        display: block;
+        position: relative;
+    }
+
+
+  /* CONTENT SECTIONS (GENERIC)
+   ========================================================================== */
+   .content-section{
+        margin-top: 50px;
+        text-align: center;
+   }
+
+   .content-section h1{
+        font-size: 44px;
+        color: #818ABD;
+        font-weight: normal;
+        line-height: inherit;
+   }
+
+    .content-section h2{
+        font-size: 30px;  
+        color: #293545;  
+        font-weight: normal;    
+   }
+
+   .content-section h3{
+        font-size: 22px;  
+        color: #293545;  
+        font-weight: normal;   
+        text-align: left; 
+   }
+   .content-section .strong{
+        font-weight: bold;
+        font-size: 53px;
+   }
+   
+    /*  STATS SECTION
+   ========================================================================== */
+   .content-section.stats{
+        padding-bottom: 25px;
+        background-color: #fff;
+   }
+
+   .content-section.stats h2{
+        padding-bottom: 55px;
+   }
+
+
+  /* VISIONARY SCRINCE SECTION
+   ========================================================================== */
+   .content-section.visionary-science{
+        padding-top: 50px;
+        padding-bottom: 90px;
+        background-color: #293645;
+   }
+
+   .content-section.visionary-science h1{
+        color: #65C8D2;
+   }
+   .content-section.visionary-science h2{
+        color: #ffffff;
+        font-size: 20px;
+   }
+
+
+   /* CAROUSEL
+   ==========================================================================*/
+   .content-section.visionary-science-slider{
+        margin-top: 0px;
+   }
+
+   .content-section.visionary-science-slider .container-fluid{
+        padding-left: 0px;
+        padding-right: 0px;
+   }
+   .carouselCol { background-color: #55AAA7; }
+   .carousel {
+        /*
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom: 0;
+        max-width: 530px;
+        padding: 0 0 30px;
+        */
+        padding:0;
+        margin:0;
+    }
+
+    .carousel-indicators {
+         position: relative;
+         top: 280px;
+         left: 0px;
+         z-index: 5;
+         margin: 0px;
+        list-style: none;
+        background: rgb(52, 56, 58); /* IE8 fallback*/
+        background: rgba(52, 56, 58, .8);
+        overflow: hidden;
+        width:100%;
+        display:none;
+    }
+
+    .carousel-indicators li{
+        width:20%;
+        height:55px;
+        cursor: pointer;
+        text-align:center;
+        border: 0px solid #fff;
+        border-radius: 0px;
+        text-indent: 0px;
+        background: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: #FFF;
+        /*display:inline-block;*/
+      display: table-cell;
+      vertical-align: middle;
+      padding: 5px;
+    }
+
+    .carousel-indicators .active {
+        margin: 0px;
+        background-color: #009c95;
+         width:20%;
+        height:55px;
+        cursor: pointer;
+        text-align:center;
+    }
+
+     .carousel-caption{
+        position: absolute;
+        right: 15%;
+        bottom: 0px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+     }
+
+    .carousel-caption h1{        
+        color: #ffffff;
+        font-weight: bold;
+        line-height: inherit;
+        font-size: 27px;
+        quotes: "“" "”" "‘" "’";
+        text-align: left;
+        width: 50%; /*was 80*/
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        left: 200px; /*was 222*/
+        top: -25px;
+     }
+
+     .carousel-caption h1::before{
+        font-family:  TimesNewRoman, 'Times New Roman', Times, serif;
+        content: open-quote;
+        font-size: 55px;
+     }
+     .carousel-caption h1::after{
+        font-family:  TimesNewRoman, 'Times New Roman', Times, serif;
+        content: close-quote;
+     }
+
+     .carousel-caption h2{ 
+        color: #ffffff;
+        font-weight: normal;
+        font-size: 16px;
+        text-align: left;
+        width: 41%; /*was 37*/
+        position: relative;    
+        margin-left: auto;
+     }
+
+    .carousel-control {
+        height: 40px;
+        width: 40px;
+        background: none;
+        border: none;        
+        margin-top: 30px;
+        background-image: none !important;
+    }
+
+    .carousel-control.right {
+        right: 12px;
+        top: 92px;
+    }
+    .carousel-control.left {
+        left: 12px;
+        top: 92px;
+    }
+
+    /* VIDEO SECTION
+    =================================================================================*/
+
+    .content-section.video {
+        background-image: url("http://www.merck.com/images/about/our-work/oncology/on_bg_video.jpg");
+        background-size: cover;
+        background-position: right center;
+        margin-top: 0px;
+        height: 761px;
+        cursor: pointer;
+    }
+
+
+    /* Content section Past-Present-Future
+    ====================================================================================*/
+    .content-section.past-present-future h1{
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 38px;
+    }
+
+    .content-section.past-present-future h2{
+        color: #8BA449;
+        font-size: 30px;
+    }
+
+    .content-section.past-present-future h3{
+       text-align: center;
+    }
+
+     .content-section.past-present-future img{
+        padding: 15px;
+     }
+
+     .content-section.past-present-future button{
+        background-color: #009893;
+        color:#ffffff;
+        border: none;
+        padding: 10px;
+     }
+
+     .content-section.past-present-future button:hover{
+        background-color:#E1F5F7;
+        color:  #009893;
+     }
+
+    /* Content section Our Inspiration
+    ====================================================================================*/
+    .content-section.our-inspiration{
+        background-color: #E1F5F7;        
+    }
+
+    .content-section.our-inspiration h1{
+        text-align: left;
+        font-size: 33px;
+        padding-top: 40px;
+    }
+
+    .content-section.our-inspiration h2{
+        text-align: left;
+        font-size: 20px;
+        color: #009692;
+        line-height: inherit;
+        font-weight: bold;
+    }
+
+    .content-section.our-inspiration h3{
+        text-align: left;
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .content-section.our-inspiration img{
+        left: -120px;
+        position: relative;
+    }
+
+     .content-section.our-inspiration .container-fluid{
+            padding-left: 0px;
+            padding-right: 0px;
+      }
+
+      .doors {
+            background-color: #E1F5F7;
+            overflow-x: hidden;
+        }
+
+        .doors .box {
+            height: 657px;
+        }
+
+        .doors .section-container {
+            padding-left: 40px;
+        }
+        .doors.one .left {
+            background-image: url("http://www.merck.com/images/about/our-work/oncology/on_bg_inspiration.jpg");
+            background-size: cover;
+            background-position: left top;
+            z-index: 10;
+        }
+
+      
+        .doors.one .left {
+            background-color: #009994;
+            z-index: 11;
+        }
+
+        .doors .left .arrow-right {
+            width: 0;
+            height: 0;
+            border-top: 58px solid transparent;
+            border-bottom: 58px solid transparent;
+            border-left: 58px solid #009994;
+
+            position: absolute;
+            right: -58px;
+            top: 41.1%;
+        }
+
+        .doors .right .arrow-left {
+            width: 0;
+            height: 0;
+            border-top: 58px solid transparent;
+            border-bottom: 58px solid transparent;
+            border-right:58px solid #8ecbcb;
+
+            position: absolute;
+            left: -58px;
+            top: 48.5%;
+        }
+
+        .doors .left .section-container {
+            float: right;
+            width: 575px;
+            padding-left: 15px;
+            padding-right: 30px;
+            margin-top: 60px;
+            font-size: 25px;
+        }
+
+        .doors .right .section-container {
+            float: left;
+            width: 575px;
+            padding-left: 30px;
+            padding-right: 15px;
+            background-color: #E1F5F7;
+        }
+
+        .doors.one .left {
+            color: #ffffff;
+        }
+
+        .doors h3 {
+            font-weight: normal;
+            font-size: 35px;
+            margin-left: 10px;
+            margin-bottom: 50px;
+            margin-top: 13px;
+        }
+
+        .doors .icon-container {
+            position: relative;
+            float: right;
+            max-width: 135px;
+        }
+
+        .doors .icon-container p {
+            position: absolute;
+            font-size: 35px !important;
+            top: 18%;
+            left: 37%;
+        }
+
+        .doors .right h3 {
+        }
+   
+   /* Section - Resources
+   ================================================================================*/
+   .content-section.resources{
+        margin-top: 0px;
+        background-color: #44A8A4;
+        padding-bottom: 20px;
+    }
+
+    .content-section.resources h1{
+        color: #ffffff;
+        font-weight: normal;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        font-size: 37px;
+    }
+
+    .content-section.resources h2{
+        color:#ffffff;
+        font-size: 17px;
+    }
+
+    .content-section.resources a{
+        color: #ffffff;
+        font-size: 17px;
+        text-decoration: none;
+        font-weight: normal !important;
+    }
+
+	.content-section.resources a:hover{
+        text-decoration: underline;
+    }
+
+    /* 	LARGE DEVICES, WIDE SCREENS
+	========================================================================== */
+    /* iPad Horizontal */
+    @media only screen and (max-width: 1199px) {
+        .oncology .hero-section {
+            height: 355px;
+        }
+        .shareBtn {
+            right: 5%;
+        }
+        .carousel-control.right, .carousel-control.left{
+                top: 49px;
+        }
+        .carousel-caption h1{
+            line-height: 27px;
+            top: 14px;
+            position: relative;
+            font-size: 22px;            
+            width: 80%;
+            left: 168px;
+        }
+
+        .content-section.our-inspiration .container-fluid{
+            padding-left: 0px;
+        }
+
+        .content-section.our-inspiration h2, .content-section.our-inspiration h3{
+            padding-right: 76px;
+        }
+
+
+       
+    }
+    /*  MEDIUM DEVICES, DESKTOPS
+	========================================================================== */
+    /* iPad Vertical */
+    @media only screen and (max-width: 991px) {
+        .shareBtn {
+            top: 80px;
+        }
+        .oncology .hero-section {
+            margin-top: 0px;
+            height: 260px;
+        }
+        .oncology .hero-section .container {
+            margin-top: 61px;
+        }
+        .content-section.stats h3{
+            text-align: center;
+        }
+        .carousel-caption h1::before{
+             font-size: 25px;
+        }
+        .carousel-caption h1{                  
+            position: relative;
+            top: 50px;
+            font-size: 11px;
+            width: 60%;
+            line-height: inherit;
+            margin-left: auto;
+            margin-right: auto;
+            width: 114px;
+        }
+        .carousel-caption h2{
+            font-size: 13px;
+            width: 57%;
+            position: relative;
+            top: 11px;
+        }
+
+        .carousel-control.right, .carousel-control.left{
+                top: 27px;
+        }
+        .carousel-caption h1{
+            top: 13px;
+            font-size: 24px;
+            width: 79%;
+            line-height: 20px;
+            left: 121px;
+            position: relative;
+        }
+        .content-section.our-inspiration img{
+            left: inherit;
+        }
+        .doors .right .section-container{
+                width: 100%;
+        }
+        .content-section.our-inspiration h1{
+            text-align: center;
+        }
+
+        .content-section.our-inspiration .container-fluid{
+            padding-left: 0px;
+        }
+
+        .content-section.our-inspiration h2, .content-section.our-inspiration h3{
+            padding-right: 0px;
+        }
+    }   
+
+        /*  SMALL DEVICES, TABLETS
+	========================================================================== */
+        /* iPhone Horizontal*/
+        @media only screen and (max-width: 767px) {
+            .oncology .hero-section {
+                height: 227px;
+            }
+            .oncology .hero-section .container {
+                margin-top: 35px;                
+            }
+            .shareBtn {
+                width: 90px;
+                top: 80px;
+            }
+            .carousel-control.right, .carousel-control.left{
+                top: 0px;
+            }
+
+            .carousel-caption h1{
+                top: 21px;
+                width: 80%;
+                line-height: 20px;
+                font-size: 17px;
+            }
+            .content-section.our-inspiration img{
+                left: inherit;
+            }
+            .doors .right .section-container{
+                width: 100%;
+            }
+
+            .content-section.our-inspiration h2, .content-section.our-inspiration h3{
+                padding-right: 0px;
+            }
+
+              .content-section.past-present-future h1,  .content-section.past-present-future h3{
+                padding: 0px 25px;
+            }
+        }
+
+        /* iPhone Vertical */
+        @media only screen and (max-width: 600px) {
+            .oncology .hero-section {
+                height: 177px;
+            }
+            .oncology .hero-section .container {
+                margin-top: 61px;
+            }
+             .carousel-control.right, .carousel-control.left{
+                top: 0px;
+            }
+            .content-section.our-inspiration img{
+                left: inherit;
+            }
+            #slide1{
+                content:url("http://www.merck.com/images/about/our-work/oncology/on_slider_bg_atkan_m.jpg");
+            }
+            #slide2{
+                content:url("http://www.merck.com/images/about/our-work/oncology/on_slider_bg_ebbinghaus_m.jpg");
+            }
+            #slide3{
+                content:url("http://www.merck.com/images/about/our-work/oncology/on_slider_bg_kaufman_m.jpg");
+            }
+            .doors .right .section-container{
+                width: 100%;
+            }
+
+            .content-section.stats h1,  .content-section.stats h2, .content-section.stats h3{
+                padding: 0px 25px;
+            }
+
+
+            .content-section.visionary-science h1,  .content-section.visionary-science h2, .content-section.visionary-science h3{
+                padding: 0px 25px;
+            }
+
+            .content-section.our-inspiration h2, .content-section.our-inspiration h3{
+                padding-right: 0px;
+            }
+            .content-section.past-present-future h1,  .content-section.past-present-future h3{
+                padding: 0px 25px;
+            }
+
+            .content-section.our-inspiration h1,  .content-section.our-inspiration h2, .content-section.our-inspiration h3{
+                padding: 0px 25px;
+            }
+
+            .content-section.resources h1,  .content-section.resources h2, .content-section.resources h3{
+                padding: 0px 25px;
+            }
+        }
+        /* EXTRA SMALL DEVICES, PHONES
+	========================================================================== */
+        @media only screen and (max-width: 479px) {
+            .oncology .xxs-12 {
+                width: 100%;
+            }
+            .oncology .xxs-hidden {
+                display: none;
+            }
+            .oncology .hero-section {
+                height: 142px;
+            }
+            .shareBtn {
+                width: 75px;
+                top: 45px;
+                right: 16%;
+            }
+            .oncology .hero-section .container {
+                margin-top: 22px;
+            }
+
+            .oncology .hero-section .header{
+                font-size: 24px;
+            }
+            .content-section.stats h3{
+                text-align: center;
+            }
+            .content-section.our-inspiration h1, .content-section.our-inspiration h2, .content-section.our-inspiration h3{
+                text-align: center;
+            }
+            .carousel-caption h1::before{
+                 font-size: 15px;
+            }
+            .carousel-caption h1{                  
+                    font-size: 27px;                  
+                    position: absolute;
+                    top: -5px;
+                    font-size: 13px;
+                    width: 80%;
+                    line-height: inherit;
+                    left:64px;
+            }
+            .carousel-caption h2{
+                font-size: 8px;
+            }
+            .content-section.our-inspiration img{
+                left: inherit;
+            }
+            #slide1{
+                content:url("http://www.merck.com/images/about/our-work/oncology/on_slider_bg_atkan_m.jpg");
+            }
+            #slide2{
+                content:url("http://www.merck.com/images/about/our-work/oncology/on_slider_bg_ebbinghaus_m.jpg");
+            }
+            #slide3{
+                content:url("http://www.merck.com/images/about/our-work/oncology/on_slider_bg_kaufman_m.jpg");
+            }
+
+        }
+        @media only screen and (max-width: 370px) {
+            .oncology .hero-section {
+                height: 120px;
+            }
+            .shareBtn {
+                right: 12%;
+            }
+        }
+
+    @media (max-width: 480px) {
+      .carousel-indicators {
+        top: -10px;
+        overflow: hidden;
+        list-style: none;
+        background: none; /* IE8 fallback*/ 
+        background: rgba(52, 56, 58, .0);
+        }
+        
+      .carousel-indicators li{
+        display: none;
+        width:300px;
+        height: auto;
+        color: #333333;
+        font-size: 16px;
+        text-align:left;
+        padding: 1px 1px 1px 10px ;
+      }
+      
+       .carousel-indicators .active {
+            display: list-item;
+            width:300px;
+            height: auto;
+            text-align:left;
+            color: #009c95;
+            background-color: #FFFFFF;
+            cursor: pointer;
+        }   
+    }

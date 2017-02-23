@@ -1,0 +1,823 @@
+/* __________________________________________________________________________________
+
+	SPACERS
+_____________________________________________________________________________________ */
+
+.spacer10 {
+	width: 100%;
+	height: 10px;
+	clear: both;
+	float: none;
+}
+
+.spacer20 {
+	width: 100%;
+	height: 20px;
+	clear: both;
+	float: none;
+}
+
+.spacer30 {
+	width: 100%;
+	height: 30px;
+	clear: both;
+	float: none;
+}
+
+.spacer40 {
+	width: 100%;
+	height: 40px;
+	clear: both;
+	float: none;
+}
+
+.spacer50 {
+	width: 100%;
+	height: 50px;
+	clear: both;
+	float: none;
+}
+
+.spacer60 {
+	width: 100%;
+	height: 60px;
+	clear: both;
+	float: none;
+}
+
+.spacer100 {
+	width: 100%;
+	height: 100px;
+	clear: both;
+	float: none;
+}
+
+/* __________________________________________________________________________________
+
+	SOCIAL MEDIA
+_____________________________________________________________________________________ */
+
+iframe[id*="twitter-widget-"], div[class*="fb_iframe_widget"] {
+	border: 3px solid #fff !important;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/* __________________________________________________________________________________
+
+	GENERIC BASIC STYLES
+_____________________________________________________________________________________ */
+
+h1, h2, h3, h4, h5, p, a {
+	line-height: 1.2em;
+	margin: 0 auto;
+	padding: 0;
+}
+
+h1 {
+	font-size: 60px;
+	line-height: 1em;
+	padding: 5px 0;
+}
+
+h2 {
+	font-size: 42px;
+}
+
+h3 {
+	font-size: 30px;
+	line-height: 1em;
+	padding: 15px 0 0 0;
+}
+
+h4 {
+	font-size: 30px;
+	line-height: 1em;
+	padding: 0 0 15px 0;
+}
+
+h5 {
+	font-size: 20px;
+	padding: 8px 0;
+}
+
+p {
+	font-size: 17px;
+	padding: 5px 0 15px 0;
+}
+
+p.copyright {
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+p.copyright2 {
+	font-size: 15px;
+	border-top: 1px solid #aaa;
+	margin-top: 20px;
+}
+
+#fullpage {
+	margin: 0 auto;
+}
+.section {
+	padding: 50px 0;
+}
+a.anchor {
+    display: block;
+    position: relative;
+    top: -135px;
+    visibility: hidden;
+}
+.tab-pane {
+	width: 100%;
+	display: inline-block;
+	padding: 20px;
+}
+.accordion-link {
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+#button {
+	color: #ffffff;
+	font-size: 22px;
+	margin: 10px;
+	padding: 15px 30px;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 3px rgba(0,0,0,0.6);
+	text-decoration: none;
+	display: inline-block;
+}
+#button:hover {
+	color: #37424a;
+	background-color: #fff;
+}
+.panel-title {
+	font-size: 25px;
+	font-weight: bold;
+	padding: 10px 15px;
+}
+.download p {
+	font-size: 15px;
+}
+.icon {
+	color: #aaa;
+	width: 20px;
+	margin: 0 auto;
+}
+.fp-tableCell {
+	padding-top: 10px;
+}
+.quote-large {
+    font-family: 'Times New Roman', serif;
+    position: relative;
+    font-size: 75px;
+    line-height: 0.5em;
+    top: 15px;
+}
+.quote {
+    font-family: 'Times New Roman', serif;
+}
+blockquote {
+	margin: 10px 0;
+	border: none;
+}
+blockquote p {
+    font-size: 30px !important;
+    font-weight: bold;
+}
+blockquote .caption {
+    font-size: 20px;
+    font-weight: normal;
+}
+.shareBtn {
+	cursor: pointer;
+	position: absolute;
+	top: 100px;
+	right: 15%;
+	z-index: 99;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+
+.rotator {
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+}
+
+.rotator:hover {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+}
+
+/* __________________________________________________________________________________
+
+	COLORS
+_____________________________________________________________________________________ */
+
+
+.bkgd_bluegray {
+	background-color: #243444;
+}
+.bkgd_white {
+	background-color: #ffffff;
+}
+.white {
+	color: #ffffff;
+}
+.teal {
+	color: #159a95;
+}
+.teal60 {
+	color: #52b8b7;
+}
+.teal40 {
+	color: #8dcbcb;
+}
+.teal20 {
+	color: #c4e1df;
+}
+.bkgd_teal {
+	background-color: #159a95;
+}
+.bkgd_teal60 {
+	background-color: #52b8b7;
+}
+.bkgd_teal40 {
+	background-color: #8dcbcb;
+}
+.bkgd_teal20 {
+	background-color: #c4e1df;
+}
+.lightteal {
+	color: #63ceca;
+}
+.lightteal60 {
+	color: #a9dde1;
+}
+.lightteal40 {
+	color: #c5e7eb;
+}
+.lightteal20 {
+	color: #e0f2f2;
+}
+.bkgd_lightteal {
+	background-color: #63ceca;
+}
+.bkgd_lightteal60 {
+	background-color: #a9dde1;
+}
+.bkgd_lightteal40 {
+	background-color: #c5e7eb;
+}
+.bkgd_lightteal20 {
+	background-color: #e0f2f2;
+}
+.purple {
+	color: #6d1548;
+}
+.purple60 {
+	color: #9b5e7f;
+}
+.purple40 {
+	color: #b88aa1;
+}
+.purple20 {
+	color: #d6bdc9;
+}
+.bkgd_purple {
+	background-color: #6d1548;
+}
+.bkgd_purple60 {
+	background-color: #9b5e7f;
+}
+.bkgd_purple40 {
+	background-color: #b88aa1;
+}
+.bkgd_purple20 {
+	background-color: #d6bdc9;
+}
+.darkgray {
+	color: #37424a;
+}
+.darkgray60 {
+	color: #66717e;
+}
+.darkgray40 {
+	color: #8e969f;
+}
+.darkgray20 {
+	color: #bfc1c9;
+}
+.bkgd_darkgray {
+	background-color: #37424a;
+}
+.bkgd_darkgray60 {
+	background-color: #66717e;
+}
+.bkgd_darkgray40 {
+	background-color: #8e969f;
+}
+.bkgd_darkgray20 {
+	background-color: #bfc1c9;
+}
+.lightgray {
+	color: #aaaaaa;
+}
+.bkgd_lightgray {
+	background-color: #e8e8e8;
+}
+.orange {
+	color: #d47b22;
+}
+.orange60 {
+	color: #fcb87d;
+}
+.orange40 {
+	color: #fed0a4;
+}
+.orange20 {
+	color: #fee5cc;
+}
+.bkgd_orange {
+	background-color: #d47b22;
+}
+.bkgd_orange60 {
+	background-color: #fcb87d;
+}
+.bkgd_orange40 {
+	background-color: #fed0a4;
+}
+.bkgd_orange20 {
+	background-color: #fee5cc;
+}
+.green {
+	color: #879637;
+}
+.green60 {
+	color: #b7c381;
+}
+.green40 {
+	color: #cbd3a5;
+}
+.green20 {
+	color: #e0e6ce;
+}
+.bkgd_green {
+	background-color: #879637;
+}
+.bkgd_green60 {
+	background-color: #b7c381;
+}
+.bkgd_green40 {
+	background-color: #cbd3a5;
+}
+.bkgd_green20 {
+	background-color: #e0e6ce;
+}
+
+
+/* __________________________________________________________________________________
+
+	SECONDARY NAVIGATION MENU
+_____________________________________________________________________________________ */
+
+.secondary_nav_container {
+	background: #13a29c;
+	position: fixed;
+	width: 100%;
+	top: 127px;
+	z-index: 1;
+	-webkit-box-shadow: 0px 1px 4px #333;
+	-moz-box-shadow: 0px 1px 4px #333;
+	-o-box-shadow: 0px 1px 4px #333;
+	box-shadow: 0px 1px 4px #333;
+	display: none;
+}
+#secondary-menu {
+	margin: 0;
+	padding: 8px 0;
+	text-align: right;
+}
+#secondary-menu li.first { margin-left: 0; }
+
+#secondary-menu .left-space { margin-left: 480px; }
+#secondary-menu li {
+	display: inline;
+	margin: 0 10px;
+}
+#secondary-menu li a {
+	color: #fff;
+	font-size: 20px;
+}
+#secondary-menu li a:hover { text-decoration: none; color: #71f0fd; }
+#secondary-menu li.active a { color: #71f0fd;}
+#secondary-menu li.first a { font-size: 1.5em; color: #fff; }
+
+/* __________________________________________________________________________________
+
+	NEWSROOM STYLES
+_____________________________________________________________________________________ */
+
+#newsroom {
+	margin: 0 auto;
+	padding: 0;
+}
+
+#callout-news-box {
+	background: none;
+	margin: 0 auto;
+	padding: 0;	
+}
+
+#callout-news-box img {
+	margin: 0;
+	padding: 10px 0;
+}
+
+.perspectives {
+	background: url(http://www.merck.com/images/newsroom/perspectives-ken-frazier.jpg) top left no-repeat;
+	background-size: 100%;
+}
+
+.feedEkList, .rss-box {
+	list-style: none;
+	margin: 0 auto;
+	padding: 18px 0;
+}
+
+.rss-box .rss-items {
+	list-style: none;
+	padding: 0;
+}
+
+.rss-box .rss-items .rss-item, .feedEkList .itemTitle {
+	font-size: 22px;
+	line-height: 1.2em;
+	padding: 0 0 20px 0;
+}
+
+.rss-date, .feedEkList .itemDate {
+	font-size: 15px;
+}
+
+/* __________________________________________________________________________________
+
+	JCAROUSEL SCRIPT CSS
+_____________________________________________________________________________________ */
+
+.jcarousel-wrapper {
+    margin: 0 auto;
+    position: relative;
+    border: none;
+    width: 100%;
+    height: 260px;
+}
+
+
+.jcarousel-wrapper .photo-credits {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+    opacity: .66;
+}
+
+.jcarousel-wrapper .photo-credits a {
+    color: #fff;
+}
+
+/** Carousel **/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+	width: 345px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+
+/** Carousel Controls **/
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+    position: absolute;
+    top: 125px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: none;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 24px/27px Arial, sans-serif;
+}
+
+.jcarousel-control-prev {
+    left: -50px;
+}
+
+.jcarousel-control-next {
+    right: -50px;
+}
+
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {
+    display: block;
+}
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+    opacity: .5;
+    cursor: default;
+}
+
+/** Carousel Pagination **/
+
+.jcarousel-pagination {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+}
+
+.jcarousel-pagination a {
+    text-decoration: none;
+    display: inline-block;
+    
+    font-size: 11px;
+    line-height: 14px;
+    min-width: 14px;
+    
+    background: #fff;
+    color: #4E443C;
+    border-radius: 14px;
+    padding: 3px;
+    text-align: center;
+    
+    margin-right: 2px;
+    
+    opacity: .75;
+}
+
+.jcarousel-pagination a.active {
+    background: #4E443C;
+    color: #fff;
+    opacity: 1;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+}
+
+.jcarousel .carousel-caption {
+	position: relative;
+	margin: 0 auto;
+	padding-bottom: 0;
+	left: 0;
+	right: 0;
+	text-shadow: none;
+}
+
+.jcarousel .carousel-caption h3 {
+	font-size: 22px;
+}
+
+.jcarousel .carousel-caption p {
+	font-size: 15px;
+	color: #37424a;
+}
+
+/* __________________________________________________________________________________
+
+	RESPONSIVE MEDIA (MAX-WIDTH: 1200px)
+_____________________________________________________________________________________ */
+
+	@media only screen and (max-width : 1200px){
+		.shareBtn {
+			right: 5%;
+		}
+	}
+
+/* __________________________________________________________________________________
+
+	RESPONSIVE MEDIA (MIN-WIDTH: 768px) and (MAX-WIDTH: 1024px)
+_____________________________________________________________________________________ */
+
+	@media only screen and (min-width: 768px) and (max-width: 1024px){
+		h1 {
+			font-size: 45px;
+		}
+		h2 {
+			font-size: 38px;
+		}
+		h3, h4 {
+			font-size: 25px;
+		}
+		p {
+			font-size: 14px;
+		}
+		#secondary-menu .left-space {
+			margin-left: 53px;
+		}
+		.perspectives {
+			background: url(http://www.merck.com/images/newsroom/perspectives-ken-frazier.jpg) top left no-repeat;
+			background-size: 145%;
+			background-color: #37424a;
+			background-position: -100px 0%;
+		}
+		.jcarousel li {
+			width: 295px;
+		}
+	}
+
+/* __________________________________________________________________________________
+
+	RESPONSIVE MEDIA (MAX-WIDTH: 992px)
+_____________________________________________________________________________________ */
+
+	@media only screen and (max-width : 992px){
+		#fp-nav {
+			display: none;
+		}
+		.secondary_nav_container {
+			display: none;
+			top: 0;
+		}
+		.video-responsive {
+			width: 100%;
+			margin: 0 auto;
+		}
+	}
+
+/* __________________________________________________________________________________
+
+	RESPONSIVE MEDIA (MAX-WIDTH: 768px)
+_____________________________________________________________________________________ */
+
+	@media only screen and (max-width : 768px){
+		.section {
+			padding: 30px 0;
+		}
+		#newsroom p {
+			font-size: 16px;
+		}
+		#newsroom .download p {
+			font-size: 17px;
+		}
+		.tab-content>.active {
+			display: inline-block;
+		}
+		#button {
+			font-size: 18px;
+			margin: 8px;
+			padding: 8px 10px;
+			text-transform: uppercase;
+			text-shadow: 0px 1px 3px rgba(0,0,0,0.6);
+			text-decoration: none;
+			display: inline-block;
+		}
+		.perspectives {
+			background: url(http://www.merck.com/images/newsroom/perspectives-ken-frazier.jpg) top left no-repeat;
+			background-size: 165%;
+			background-color: #37424a;
+		}
+		.rss-box .rss-items .rss-item {
+			font-size: 18px;
+		}
+		.shareBtn {
+			width: 125px;
+			right: 2%;
+			top: 80px;
+		}
+		.clear_padding_xs {
+			padding: 0;
+		}
+		.display {
+			font-size: 19px;
+			line-height: 1em;
+			font-weight: bold;
+			margin: 0 auto;
+			padding: 0;
+		}
+		.display_large {
+			font-size: 30px;
+			line-height: 1em;
+			font-weight: bold;
+			text-transform: uppercase;
+			margin: 0 auto;
+			padding: 0;
+		}
+		.drop-overlay-sm {
+			margin-top: 65%;
+		}
+		.tab-pane {
+			text-align: center;
+		}
+		.jcarousel li {
+			width: 315px;
+		}
+	}
+
+/* __________________________________________________________________________________
+
+	RESPONSIVE MEDIA (MAX-WIDTH: 480px)
+_____________________________________________________________________________________ */
+
+	@media only screen and (max-width : 480px){
+		#newsroom h1 {
+			font-size: 40px;
+		}
+		#newsroom h3, #newsroom h4 {
+			font-size: 20px;
+		}
+		#newsroom .download p {
+			font-size: 15px;
+		}
+		.perspectives {
+			background: url(http://www.merck.com/images/newsroom/perspectives-ken-frazier.jpg) top left no-repeat;
+			background-size: 180%;
+			background-color: #37424a;
+		}
+		.carousel {
+			height: 250px;
+			overflow: hidden;
+		}
+		.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+			margin-right: 15px;
+		}
+		.shareBtn {
+			width: 100px;
+			right: 0;
+		}
+		#button {
+			font-size: 15px;
+			margin: 8px;
+			padding: 8px 15px;
+			text-transform: uppercase;
+			text-shadow: 0px 1px 3px rgba(0,0,0,0.6);
+			text-decoration: none;
+			display: inline-block;
+		}
+		.jcarousel li {
+			width: 235px;
+		}
+	}
+
+/* __________________________________________________________________________________
+
+	RESPONSIVE MEDIA (MAX-WIDTH: 480px to 767px)(LANDSCAPE)
+_____________________________________________________________________________________ */
+
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		h3, h4 {
+			font-size: 20px;
+		}
+		#newsroom .download p {
+			font-size: 15px;
+		}
+		.col-xsl-4 {
+			width: 33.33333333%;
+		}
+		.clear_padding_xsl {
+			padding: 0;
+		}
+		.carousel {
+			height: 350px;
+			overflow: hidden;
+		}
+		.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+			margin-right: 15px;
+		}
+		.jcarousel li {
+			width: 250px;
+		}
+	}

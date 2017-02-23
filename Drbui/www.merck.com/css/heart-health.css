@@ -1,0 +1,379 @@
+        /* ==========================================================================
+   PAGE GLOBALS
+   ========================================================================== */
+    
+    .shareBtn {
+        cursor: pointer;
+        position: absolute;
+        right: 15%;
+        z-index: 99;
+        top: 25px;
+    }
+    /* HERO SECTION
+   ========================================================================== */
+    
+    .heart-health .hero-section {
+        background-image: url("http://www.merck.com/images/about/heart-health/heart_bg_hero.jpg");
+        background-size: cover;
+        background-position: right top;
+        margin-top: 105px;
+        height: 565px;
+    }
+    
+    .heart-health .hero-section h1 {
+        font-size: 50px;
+        font-weight: bold;
+        /*position: absolute;
+    bottom: 365px;*/
+        color: #ffffff;
+        margin-top: 100px;
+    }
+    /* DIVIDER
+   ========================================================================== */
+    
+    .heart-health .divider {
+        background-color: #6e0048;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .heart-health .divider p {
+        color: #ffffff;
+        font-size: 25px;
+        text-align: center;
+    }
+    /* CONTENT-SECTION
+   ========================================================================== */
+    
+    .heart-health .content-section {
+        background-color: #ffffff;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    
+    .heart-health .content-section p.content {
+        font-size: 22px;
+        color: #243444;
+        margin-top: 10%;
+    }
+    
+    .heart-health .content-section .map-container {
+        padding-left: 100px;
+    }
+    
+    .heart-health .content-section p.map-text {
+        font-size: 34px;
+        color: #ffffff;
+        position: absolute;
+        left: 143px;
+        top: 60px;
+        line-height: 0.8em;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .heart-health .content-section p.map-text .small {
+        font-size: 21px;
+    }
+    /* PERCENTS
+   ========================================================================== */
+    
+    .heart-health .percents {
+        background-color: #243444;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    
+    .heart-health .percents .percent-container {
+        position: relative;
+    }
+    
+    .heart-health .percents .percent-container img {
+        max-width: 190px;
+    }
+    
+    .heart-health .percents .percent-container p {
+        color: #ffffff;
+        padding: 0;
+        font-size: 80px;
+        position: absolute;
+        top: 38px;
+        left: 42%;
+    }
+    
+    .heart-health .percents .percent-container .psymbol {
+        font-size: 35px;
+        vertical-align: super;
+    }
+    
+    .heart-health .percents h2 {
+        color: #69CAD3;
+        font-size: 24px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .heart-health .percents p {
+        color: #ffffff;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 25px;
+    }
+    
+    .heart-health .percents p.blue {
+        color: #6bcad4;
+    }
+    
+    .heart-health .percents span {
+        color: #ffffff;
+    }
+    /* ICON SECTION
+   ========================================================================== */
+    
+    .heart-health .icon-section {
+        background-color: #009994;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .heart-health .icon-section img {
+        padding: 5%;
+    }
+    
+    .heart-health .icon-section h2 {
+        color: #ffffff;
+        text-align: center;
+        font-size: 26px;
+        font-weight: normal;
+        margin-bottom: 50px;
+    }
+    
+    .heart-health .icon-section p {
+        color: #ffffff;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    
+    .heart-health .icon-section .small {
+        display: inline-block;
+        line-height: 1.1em;
+    }
+    /* ORG-SECTION
+   ========================================================================== */
+    
+    .heart-health .org-section {
+        background-color: #ffffff;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .heart-health .org-section h2 {
+        color: #6176a3;
+        text-align: center;
+        font-size: 26px;
+        font-weight: normal;
+        margin-bottom: 50px;
+    }
+    
+    .heart-health .org-section p {
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .heart-health .org-section a {
+        color: #243444;
+        text-decoration: underline;
+        font-size: 22px;
+    }
+    
+    .heart-health .org-section img {
+        max-width: 250px;
+    }
+    /* 	LARGE DEVICES, WIDE SCREENS
+	========================================================================== */
+    
+    @media only screen and (max-width: 1199px) {
+        .heart-health .hero-section {
+            height: 355px;
+        }
+        .shareBtn {
+            right: 5%;
+        }
+        .heart-health .content-section .map-container {
+            padding-left: 30px;
+        }
+        .heart-health .content-section p.map-text {
+            left: 73px;
+            top: 65px;
+        }
+        .heart-health .percents .percent-container p {
+            left: 41%;
+        }
+    }
+    /*  MEDIUM DEVICES, DESKTOPS
+	========================================================================== */
+    
+    @media only screen and (max-width: 991px) {
+        .shareBtn {
+            top: 80px;
+        }
+        .heart-health .hero-section {
+            margin-top: 0px;
+            height: 294px;
+        }
+        .heart-health .hero-section h1 {
+            font-size: 40px;
+            margin-top: 70px;
+        }
+        .heart-health .divider p {
+            font-size: 21px;
+        }
+        .heart-health .content-section .map-container {
+            padding-left: 0px;
+        }
+        .heart-health .content-section p.map-text {
+            left: 35px;
+            top: 54px;
+            font-size: 30px;
+        }
+        .heart-health .content-section p.content {
+            font-size: 19px;
+        }
+        .heart-health .content-section p.map-text .small {
+            font-size: 18px;
+        }
+        .heart-health .percents h2 {
+            font-size: 20px;
+        }
+        .heart-health .percents .percent-container p {
+            left: 38%;
+        }
+        .heart-health .icon-section .sm-clear {
+            clear: left;
+        }
+        .heart-health .icon-section img {
+            padding: 10px 23% 0;
+        }
+        .heart-health .org-section img {
+            max-width: 100%;
+        }
+        .heart-health .org-section a {
+            font-size: 16px;
+        }
+        /*  SMALL DEVICES, TABLETS
+	========================================================================== */
+        @media only screen and (max-width: 767px) {
+            .heart-health .hero-section {
+                height: 227px;
+            }
+            .heart-health .hero-section h1 {
+                font-size: 24px;
+                margin-top: 40px;
+            }
+            .heart-health .hero-section .hero-clear {
+                clear: left;
+            }
+            .shareBtn {
+                width: 90px;
+                top: 80px;
+            }
+            .heart-health .divider p {
+                font-size: 19px;
+            }
+            .heart-health .content-section .map-container img {
+                width: 270px;
+            }
+            .heart-health .content-section p.map-text {
+                top: 69px;
+                left: 50%;
+                margin-left: -91px;
+            }
+            .heart-health .content-section p.content {
+                margin-top: 30px;
+                font-size: 18px;
+            }
+            .heart-health .percents {
+                padding-bottom: 20px;
+            }
+            .heart-health .percents p {
+                padding-bottom: 25px;
+            }
+            .heart-health .percents .percent-container p {
+                font-size: 65px;
+                top: 28px;
+            }
+            .heart-health .percents .percent-container img {
+                max-width: 150px;
+            }
+            .heart-health .percents h2 {
+                font-size: 19px;
+            }
+            .heart-health .percents .percent-container p {
+                left: 50%;
+                margin-left: -35px;
+                top: 25px;
+            }
+            .heart-health .icon-section h2 {
+                font-size: 21px;
+                margin-bottom: 20px;
+            }
+            .heart-health .icon-section img {
+                padding: 10px 15% 0px;
+            }
+            .heart-health .icon-section p {
+                font-size: 15px;
+            }
+            .heart-health .org-section h2 {
+                font-size: 21px;
+            }
+        }
+        @media only screen and (max-width: 600px) {
+            .heart-health .hero-section {
+                height: 177px;
+            }
+        }
+        /* EXTRA SMALL DEVICES, PHONES
+	========================================================================== */
+        @media only screen and (max-width: 479px) {
+            .heart-health .hero-section {
+                height: 142px;
+            }
+            .heart-health .hero-section h1 {
+                font-size: 21px;
+                margin-top: 35px;
+            }
+            .shareBtn {
+                width: 90px;
+                top: 50px;
+            }
+            .heart-health .hero-section h1 {
+                font-size: 16px;
+            }
+            .heart-health .divider p {
+                font-size: 16px;
+            }
+            .heart-health .percents h2 {
+                font-size: 16px;
+            }
+            .heart-health .percents p {
+                font-size: 17px;
+            }
+            .heart-health .icon-section h2 {
+                font-size: 17px;
+            }
+            .heart-health .icon-section p {
+                font-size: 14px;
+            }
+            .heart-health .org-section h2 {
+                font-size: 18px;
+            }
+            .heart-health .org-section a {
+                font-size: 13px;
+            }
+        }
+        @media only screen and (max-width: 370px) {
+            .heart-health .hero-section {
+                height: 120px;
+            }
+        }

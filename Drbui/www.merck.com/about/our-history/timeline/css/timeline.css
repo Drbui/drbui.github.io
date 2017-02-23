@@ -1,0 +1,453 @@
+
+@import url("../../../../../fast.fonts.net/t/1a8c4.css?apiType=css&amp;projectid=35024326-4878-4b91-bc05-90e61b3baf52");
+@font-face{
+font-family:"UniversLTW01-47LightCn";
+src:url("../../../../uniFonts/296c59c2-74b0-41c1-bcfd-23d22a713f86d41d.eot?#iefix");
+src:url("../../../../uniFonts/296c59c2-74b0-41c1-bcfd-23d22a713f86d41d.eot?#iefix") format("eot"),url("../../../../uniFonts/d4a01ff3-d1c6-49c0-a4e8-350a6eef9880.woff2") format("woff2"),url("../../../../uniFonts/609beecf-8d23-4a8c-bbf5-d22ee8db2fc9.woff") format("woff"),url("../../../../uniFonts/a6595b8d-d4a3-4f01-bf21-0b53617d4b1c.ttf") format("truetype"),url("../../../../uniFonts/1cd9ef2f-b358-4d39-8628-6481d9e1c8ce.svg#1cd9ef2f-b358-4d39-8628-6481d9e1c8ce") format("svg");
+}
+@font-face{
+font-family:"UniversLTW01-57Condense 723821";
+src:url("../../../../uniFonts/aefefc4e-9cb8-4e8e-8599-dda705456734d41d.eot?#iefix");
+src:url("../../../../uniFonts/aefefc4e-9cb8-4e8e-8599-dda705456734d41d.eot?#iefix") format("eot"),url("../../../../uniFonts/87512e82-56b3-4356-97ab-9cd7b2957e37.woff2") format("woff2"),url("../../../../uniFonts/1eaf27c0-f4de-4273-9f4c-1b3236ad2f3c.woff") format("woff"),url("../../../../uniFonts/9b913baf-b1f0-47d2-8c76-42f59650058f.ttf") format("truetype"),url("../../../../uniFonts/0abcce12-2274-4ee7-b6d5-0066b5f5f670.svg#0abcce12-2274-4ee7-b6d5-0066b5f5f670") format("svg");
+}
+@font-face{
+font-family:"UniversLTW01-57Condense 723818";
+src:url("../../../../uniFonts/6fc47523-fa84-47de-b974-533db32eacd8d41d.eot?#iefix");
+src:url("../../../../uniFonts/6fc47523-fa84-47de-b974-533db32eacd8d41d.eot?#iefix") format("eot"),url("../../../../uniFonts/142786d1-4a72-4273-9130-a80a339bd4e0.woff2") format("woff2"),url("../../../../uniFonts/34e6ea2e-62b2-49c9-b5e6-128fddfd9f6c.woff") format("woff"),url("../../../../uniFonts/01a871ba-586f-4d5e-8924-d4ec3b44f723.ttf") format("truetype"),url("../../../../uniFonts/5ebb44ef-5450-4b20-9612-66b2a127178b.svg#5ebb44ef-5450-4b20-9612-66b2a127178b") format("svg");
+}
+@font-face{
+font-family:"UniversLTW01-67BoldCn";
+src:url("../../../../uniFonts/076b8d7a-91b5-4c89-86a1-546b980072c7d41d.eot?#iefix");
+src:url("../../../../uniFonts/076b8d7a-91b5-4c89-86a1-546b980072c7d41d.eot?#iefix") format("eot"),url("../../../../uniFonts/6fac29ee-4085-4f88-bea6-47a93dd7d682.woff2") format("woff2"),url("../../../../uniFonts/21decb60-b395-4de2-bd04-e38eb2a56d2f.woff") format("woff"),url("../../../../uniFonts/091058d4-36b2-43f6-80d3-16c88e098061.ttf") format("truetype"),url("../../../../uniFonts/827d22bc-e38b-4ccf-8a21-1f9aaa76e402.svg#827d22bc-e38b-4ccf-8a21-1f9aaa76e402") format("svg");
+}
+@font-face{
+font-family:"UniversLTW01-67BoldCnOb";
+src:url("../../../../uniFonts/6881ee98-4e9b-4409-9695-e5b0118c7c84d41d.eot?#iefix");
+src:url("../../../../uniFonts/6881ee98-4e9b-4409-9695-e5b0118c7c84d41d.eot?#iefix") format("eot"),url("../../../../uniFonts/840cfc23-f993-41c8-a18e-f8ce37d4ec61.woff2") format("woff2"),url("../../../../uniFonts/53f66cd7-168f-4c66-9514-9dd103c763a0.woff") format("woff"),url("../../../../uniFonts/774a1d99-085d-4249-8c2c-0ce23fa975a6.ttf") format("truetype"),url("../../../../uniFonts/056a520c-7f4a-4b3a-8465-a841cfe0b6b3.svg#056a520c-7f4a-4b3a-8465-a841cfe0b6b3") format("svg");
+}
+
+
+#stage
+{
+	background-color: #ffffff;
+	border: 1px solid black;
+	position:absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow: hidden;
+	height: 552px;
+}
+
+#categoryContainer
+{
+	overflow: hidden;
+	background: url('../assets/images/backgroundCollage.gif') no-repeat;
+
+}
+
+#categories
+{
+	width: 971px;
+	height: 364px; 
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;
+	background-color: #ffffff;
+	
+}
+
+/*
+.category:nth-child(1)
+{
+	margin-left: 44px;
+}*/
+
+.firstcategory
+{
+	margin-left: 44px !important;
+}
+
+
+.category
+{
+	width: 131px;
+	height: 303px; 
+	background-position: 0 0;
+	float: left;
+	margin-left: 15px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.category:hover
+{
+	background-position: -131px 0;
+	
+}
+
+.ghost
+{
+	/*
+	opacity:0.2;
+    filter:alpha(opacity=20);
+    */
+}
+
+.activeCategory
+{
+	background-position: -131px 0;
+}
+
+.categoryName
+{
+	font-size: 15px;
+	width: 131px;
+	text-align: center;
+	position: absolute;
+	bottom: 8px;
+	font-family:'UniversLTW01-47LightCn';
+}
+
+
+
+#timelineContainer
+{
+	width: 975px;
+	height: 188px; 
+	background: url('../assets/images/grey_bg.png') no-repeat;
+	position: absolute;
+	text-align: center;
+	overflow: hidden;
+
+	/*for IE8 */
+	position: absolute;
+	top: 364px;
+
+	
+}
+
+#timelineCover
+{
+	background: url('../assets/images/timelineCover.png') no-repeat;
+	width: 975px;
+ 	height: 188px;
+	z-index: 20;
+	position: relative;
+	top: 0;
+}
+
+#timePeriodsContainer
+{
+	width: 800px;
+	height: 188px;
+	overflow: hidden;
+	left: 0px;
+	position: relative;
+	float: left;
+}
+
+#timePeriods
+{
+	
+	left: 0px;
+	position: relative;
+}
+
+#viewCompleteHistoryBtn
+{
+	background: url('../assets/images/btn_viewCompleteTimelineSpriteSheet.png') no-repeat;
+	width: 92px;
+	height: 24px;
+	z-index: 30;
+	background-position: 0 0;
+	position: relative;
+	top: 20px;
+	left: 778px;
+}
+
+#viewCompleteHistoryBtn:hover
+{
+	background-position: 0 -24px;
+	cursor: pointer;
+}
+
+#timeline
+{
+	width: 900px;
+	height: 178px;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	top: 10px;
+}
+
+.timePeriod
+{
+	width: 133px;
+	height: 188px;
+	float: left;
+	display: block;
+}
+
+.eventYear
+{
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.yearLine
+{
+	background: url('../assets/images/h_line.gif') repeat-x;
+	height: 20px;
+	background-position: center;
+}
+
+/* This makes the first element of the timeline appear to begin with a "dot" by shifting the line over*/
+.firstTimePeriod .yearLine
+{
+	background: url('../assets/images/h_line.gif') no-repeat;
+	height: 20px;
+	background-position: 50px;
+}
+
+/* This makes the last element of the timeline appear to begin with a "dot" by shifting the line over*/
+.lastTimePeriod .yearLine
+{
+	background: url('../assets/images/h_line.gif') no-repeat;
+	height: 20px;
+	background-position: -50px;
+}
+
+.yearLineDot
+{
+	position: relative;
+	top: 4px;
+}
+
+.eventLine
+{
+	background: url('../assets/images/v_line.gif') repeat-y;
+	height: 20px;
+	background-position: center;
+}
+
+.eventLine:hover
+{
+	background: url('../assets/images/v_line-hover.gif') repeat-y;
+	height: 20px;
+	background-position: center;
+}
+
+.eventLine2
+{
+	/*height: 40px;*/
+	height: 15px;
+}
+
+.eventLine2:hover
+{
+	/*height: 40px;*/
+	height: 15px;
+}
+
+.eventName
+{
+	color: #ffffff;
+	height: 32px;
+	font-size: 14px;
+	padding-top: 5px;
+	position: relative;
+	cursor: pointer;
+	font-family:'UniversLTW01-47LightCn';
+}
+
+.eventName:hover
+{
+	color: #f8af12;
+}
+
+.selectedEvent
+{
+   color: #c0a373;
+}
+
+.eventViewed
+{
+	color: #c0a373;
+}
+
+#btnClose
+{
+	background: url('../assets/images/btn_close.png') no-repeat;
+	width: 47px;
+	height: 18px;
+	position: relative;
+	right: -912px;
+	top: 3px;
+	cursor: pointer;
+}
+
+#tooltip
+{
+	background: url('../assets/images/tooltipBody3.png') no-repeat;
+	width: 259px;
+	height: 160px;
+	z-index: 100;
+	position: absolute;
+	display: none;
+	background-size: cover;
+}
+
+.tooltipTab
+{
+	color: #f9d736;
+}
+
+
+.tooltipImage
+{
+	width: 242px;
+	height: 86px;
+	background: url('../assets/images/timelinePopupImage.png') no-repeat;
+	position: relative;
+	top: 2px;
+	left: 14px;
+}
+
+.tooltipImageLeft
+{
+	left: -1px;
+}
+
+.tooltipText
+{
+	font-size: 12px;
+	overflow: hidden;
+	height: 49px;
+	position: relative;
+	left: 19px;
+	top: 2px;
+	width: 232px;
+	overflow: hidden;
+}
+
+.tooltipTextLeft
+{
+	left: 5px;
+}
+
+.tooltipLink
+{
+	font-size: 13px;
+	color: #d97c1e;
+	padding: 5px 10px 0px 30px;
+	font-weight: bold;
+	background: url('../assets/images/magnifyingGlassIcon.png') no-repeat;
+	background-position: 8px 4px;
+	cursor: pointer;
+	position: relative;
+	left: 15px;
+	top: 0px;
+}
+
+.tooltipLinkLeft
+{
+	left:5px;
+}
+
+#fullDescriptionDiv
+{
+	width: 840px;
+	height: 730px;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	top: 468px; 
+	left: 70px;
+
+}
+
+#backToTimelineBtn
+{
+	background: url('../assets/images/btn_backToTimeline.png') no-repeat;
+	width: 98px;
+	height: 15px;
+	background-position: 0 0;
+	position: relative;
+	top: 19px;
+	left: 770px;
+	cursor: pointer;
+}
+
+#leftScrollArea
+{
+	height: 200px;
+	width: 50px;
+	float: left;
+}
+
+#leftScrollArrow
+{
+	cursor: pointer;
+}
+
+#rightScrollArea
+{
+	height: 200px;
+	width: 50px;
+	position: absolute;
+	right: 0px;
+}
+
+#rightScrollArrow
+{
+	cursor: pointer;
+}
+
+#fullDescriptionImage
+{
+	width: 310px;
+	height: 330px;
+	float: left;
+}
+
+#fullDescriptionImage img
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#fullDescriptionTextContainer
+{
+	width: 520px;
+	height: 530px;
+	float: left;
+}
+
+#fullDescriptionText
+{
+	color: #ffffff;
+	font-family: "UniversLTW01-47LightCn","Arial Narrow",Arial,Helvetica,serif;
+	padding: 10px 30px 10px 30px;
+	height: 350px;
+	overflow: auto;
+	margin-top: 30px;
+	margin-right: 5px;
+}
+.date  {font-size: 33px; color: #ffffff; font-family: "UniversLTW01-67BoldCn","Arial Narrow",Arial,Helvetica,serif;}
+.shadow 
+{
+	-moz-box-shadow: 3px 3px 4px #000;
+	-webkit-box-shadow: 3px 3px 4px #000;
+	box-shadow: 3px 3px 4px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+.yearLineDotViewed
+{
+	/* empty css rule ( used for tagging ) */
+}

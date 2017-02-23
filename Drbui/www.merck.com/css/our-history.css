@@ -1,0 +1,767 @@
+body{
+	/*overflow: hidden;*/
+}
+
+sup { 
+	    line-height: 23px;
+}
+
+.mm-listview{
+	text-align: left;
+}
+
+
+.content-section { background: #fff; overflow: hidden;}
+.row.row-sm { background: #fff; }
+
+/* ==========================================================================
+   0. PAGE GLOBALS
+   ========================================================================== */
+	.shareBtn {
+		cursor: pointer;
+		position: relative;
+		z-index: 99;
+		width: 110px;
+		margin-top: 2%;
+		margin-right: 0px;
+	}
+	.shareBtn img {
+		max-width: 90%;
+	}
+	.btn { border-radius: 0; }
+	.merck-teal-bg { background: #00877c !important; 
+	}
+	.merck-white { color: #fff !important; 
+	}
+	.row-centered {
+    text-align:center;
+	}
+	.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+	}
+	.col-fixed-left {
+    /* custom width */
+    width:385px;
+	}
+	.col-fixed-right {
+    /* custom width */
+    width:320px;
+	vertical-align: top;
+	}
+	.carousel-control {
+	margin-top: 225px !important;
+	}
+    
+/* 0.1. HERO SECTION
+   ========================================================================== */
+	.plain-template .main-hero-section {
+		background-color: #ffffff;
+		margin-top: 106px;
+		background-image: url("http://www.merck.com/images/about/our-history/mh_bg_hero.jpg");
+		background-repeat: no-repeat;
+		background-size: cover !important;
+		background-position: left top;
+		overflow: hidden;
+		background-size: 180%;
+		padding-bottom: 30px;
+	}
+	.plain-template .main-hero-section h1 {
+		text-transform: uppercase;
+		color: white;
+		font-size: 55px;
+		position: relative;
+		line-height: 60px;
+		padding-top: 80px;
+	}
+
+	.plain-template .main-hero-section span[class='blue']{
+		color:#64C7D1;
+	}
+	.plain-template .main-hero-section p {
+		color: white;
+		font-size: 28px;
+		line-height: 28px;
+		padding-bottom: 130px;
+	}
+
+	.plain-template .main-hero-section img{
+		width: 180px;
+	}
+
+	.plain-template .main-hero-section .container{
+		position:relative;
+	}
+
+/* 0.2. DIVIDER SECTION
+   ========================================================================== */
+ 	
+	.spacer20 {
+	width: 100%;
+	height: 20px;
+	clear: both;
+	float: none;
+	}
+	.plain-template .divider {
+		background-color: #293645;
+		padding: 40px 0px;
+	}
+ 	.plain-template .divider p {
+		color: white;
+		font-size: 35px;
+		font-weight: normal;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
+ 	}
+
+ 	.plain-template .divider.whiteBackground p {
+		color: #000000;
+	}
+	
+	.plain-template .divider.whiteBackground h1 {
+		color: #243444;
+	}
+
+	.plain-template .divider.tealBackground {
+		background-color: #009793;
+	}
+
+	.plain-template .divider.tealBackground p {
+		color: #ffffff;
+		font-size: 28px;
+	}
+
+	.plain-template .divider.tealBackground.patientsAndWorld{
+		padding-bottom: 20px;
+		background-color: #54b8b7;
+	}
+	.bkgd_teal {
+		background-color: #54b8b7;
+	}
+
+	.plain-template .divider.tealBackground.patientsAndWorld img{
+		width: 25%;
+		margin-left: auto;
+    	margin-right: auto;
+    	position: relative;
+    	top: -177px;
+    	opacity: 0;
+	}
+	
+	.plain-template .divider.tealBackground.patientsAndWorld h1{
+		font-size:22px;
+		color:#fff;
+		padding-top: 10px;
+	}
+
+	.plain-template .divider.whiteBackground {
+		background-color: #ffffff;
+		padding: 30px 0px;
+	}
+
+	.plain-template .divider.whiteBackground p {
+		color: #7684AA;
+		font-size: 35px;
+	}
+
+	.plain-template .divider.whiteBackground.merckProud{
+		padding-top: 10px;
+	}
+
+	.plain-template .divider.whiteBackground.merckProud h1{
+		color:#7684AA ;
+		padding-top: 45px;
+		font-size: 35px;
+	}
+
+	.plain-template .divider.whiteBackground.merckProud p{
+		text-align: left;
+		padding-top: 0px;
+		font-size: 23px;
+		color: #243444;
+	}
+
+	.plain-template .divider.whiteBackground.merckProud a:link{
+		color:#009894;
+	}
+	.plain-template .divider.whiteBackground.merckProud a:visited{
+		color:#009894;
+	}
+	.plain-template .divider.whiteBackground.merckProud a:active{
+		color:#009894;
+	}
+	.plain-template .divider.whiteBackground.merckProud img{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.plain-template .divider.lighttealBackground.beakerSection img{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.plain-template .divider.lighttealBackground {
+		background-color: #54b8b7;
+	}
+	.plain-template .divider.lighttealBackground.beakerSection p{
+		color: #ffffff;
+		font-size: 20px;
+		text-align: left;
+	}
+
+	.plain-template .quoteSection{
+		background-color: #243444;
+	}
+
+	.plain-template .quoteSection h1{
+		color: #ffffff;
+	}
+
+
+    /* ELIAV BARR SECTION
+    ==========================================================================*/
+
+.plain-template .eliav-barr-section {
+		background-color: #ffffff;
+		background-image: url("http://www.merck.com/images/about/our-history/mh_bg_moments.jpg");
+		background-repeat: no-repeat;
+		background-size: cover !important;
+		background-position: right top;
+		overflow: hidden;
+		background-size: 100%;
+		padding-bottom: 30px;
+		height: 400px;
+		position: relative;
+	}
+	.plain-template .eliav-barr-section h1 {
+	    color: #ffffff;
+	    font-size: 20px;
+	    position: relative;
+	    text-align: left;
+	    width: 80%;
+	    padding-top: 50px;
+	    line-height: initial;
+	}
+
+	.plain-template .eliav-barr-section span[class='blue']{
+		color:#64C7D1;
+	}
+	.plain-template .eliav-barr-section p {
+		color: #ffffff;
+		font-size: 20px;
+		line-height: 18px;
+		padding-bottom: 10px;
+		top: 165px;
+    	position: relative;
+    	opacity: 0;
+    	line-height: normal;
+    	width: 80%;
+	}
+
+	
+
+	.plain-template .eliav-barr-section .container{
+		position:relative;
+	}
+
+
+	q, blockquote {
+		border:none;	
+		margin-bottom:-30px;
+
+	}
+
+	blockquote h1 {
+	    font-size:21px;
+	    
+	}
+
+	
+
+	.plain-template .eliav-barr-section .imageCaption{
+		position:relative;
+		right:0px;
+		bottom:0px;	
+		height: 363px;
+	}
+	.plain-template .eliav-barr-section .imageCaption h1{
+		width:100%;
+		font-size: 13px;
+		text-align: right;
+		color:#000;
+		line-height: inherit;
+		position: absolute;
+    	bottom: 0px;
+	}
+
+
+	.plain-template .quoteSection .imageCaption{
+		position:relative;
+		right:0px;
+		bottom:0px;		
+	}
+	.plain-template .quoteSection .imageCaption h1{
+		width:100%;
+		font-size: 13px;
+		text-align: right;
+		color:#ffffff;
+		line-height: inherit;
+	}
+
+ 	/* 0.3 CONTENT-SECTION
+   ========================================================================== */
+
+	.plain-template .content-section {
+		padding: 5px 0px;
+	}
+	.plain-template .content-section .content-img {
+		display: inline-block;
+		float: right;
+		width: 35%;
+		padding: 30px;
+		margin-top: -18px;
+	}
+	.plain-template .content-section p {
+		font-size: 24px;
+		color: #213444;
+		/*padding-right: 15%;*/
+	}
+	.plain-template .content-section p.extra-pad {
+		padding-top: 20px;
+	}
+
+	.plain-template .content-section h1 {
+		text-align: center;
+		color: #008376;
+	    font-size: 57px;
+	    font-weight: bold;
+	    line-height: normal;
+	    letter-spacing: 4px;
+	}
+
+	.plain-template .content-section h2 {
+		font-size: 33px;
+		color: #7E7D7A;
+		font-weight: normal;
+		text-align: center;
+	}
+
+	.plain-template .content-section h3 {
+		color: #008376;
+	    font-size: 30px;
+	    font-weight: normal;
+	    line-height: normal;
+	    text-align: left;
+	}
+
+	.plain-template .content-section hr{
+		color: #000000;
+	    border-style: solid;
+    	border-color: black;
+    	border-width: 1px 0 0 0;
+	}
+
+
+
+
+   /*. misc
+   ========================================================================== */
+	.plain-template .content-section p.caption{
+		font-size: 14px;
+		padding: 0;
+	}
+	.plain-template .content-section .section1{
+		overflow: hidden;
+	}
+	#video1{
+		width: 100%;
+	}
+
+	#hillemanImageContainer{
+		overflow: hidden;
+		padding-left: 0px;
+	}
+
+	#hillemanImage{
+    	margin-left: auto;
+    	margin-right: auto;
+    	position: relative;	
+		margin-top: 30px;
+		margin-left: 0;
+	}
+
+	.plain-template .content-section .hillemanRow{
+		padding: 60px 0px;
+	}
+
+	.plain-template .content-section .center-content{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	.plain-template .content-section .callout1{
+		    right: -555px;
+		    opacity: 0;
+	}
+
+
+	.plain-template .content-section .campbellCallout{
+		padding-left: 0px;
+	}
+
+	.plain-template .content-section .campbellText p{
+		display: inline;
+	}
+
+	.examplesText{
+		/*margin-bottom: 50px;*/
+	}
+
+	.plain-template .main-hero-section .share-icon {
+	    position: absolute;
+	    top: 31px;
+	    right: 17%;
+	    width: 92px;
+	 }
+	.share-icon:hover { cursor: pointer; }
+
+	.extra-padding-top{
+		padding-top: 40px !important;
+	}
+
+
+
+	/* 	-0.9. IPAD PORTRAIT
+	========================================================================== */
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 		
+	
+		.plain-template .content-section h1{
+			letter-spacing: 0px;
+		}
+
+		.plain-template .content-section h2{
+			margin-top: 0px;	
+		}
+
+		.plain-template .eliav-barr-section h1{
+			font-size: 20px;
+			padding-top: 12px;
+		}
+		.plain-template .main-hero-section {
+		background-position: center top;
+		}
+		
+
+	}
+
+	/* 	-0.9. IPAD LANDSCAPE
+	========================================================================== */
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 	
+		/*
+		.main-hero-section{
+			border:3px solid red;
+			padding-right: 0px;
+			margin-right: 0px;
+			background-color: blue;
+			width: 100%;
+
+		}*/
+		.plain-template .content-section h1{
+			letter-spacing: 0px;
+		}
+		.plain-template .content-section h2{
+			text-align: center;
+		}
+		
+	}
+}
+
+
+/* 	-0.9. LARGE DEVICES, WIDE SCREENS
+	========================================================================== */
+	@media only screen and (max-width : 1199px){
+		.plain-template .main-hero-section {
+			background-color: #ffffff;
+		}
+		.plain-template .main-hero-section h1 {
+		    font-size: 45px;
+			position: relative;
+			top: -20px;
+			line-height: 42px;
+			padding-bottom: 40px;
+		}
+		.shareBtn img {
+		    max-width: 70%;
+		}
+		.shareBtn {
+			right: 5%;
+		}
+
+		
+	}
+
+/* 	-1.0 MEDIUM DEVICES, DESKTOPS
+	========================================================================== */
+	@media only screen and (max-width : 991px){
+		.plain-template .main-hero-section {
+		    margin-top: 0px;
+		}
+		.plain-template .main-hero-section h1 {
+		    font-size: 32px;
+			position: relative;
+			top: -35px;
+			line-height: 35px;
+			padding-bottom: 10px;
+		}
+		.plain-template .divider {
+		    padding: 20px 0px;
+		}
+		.plain-template .divider p {
+			font-size: 24px;
+		}
+		.plain-template .content-section {
+		    padding: 30px 0px;
+		}
+		.plain-template .content-section p {
+			font-size: 18px;
+		}
+		.plain-template .content-section .content-img {
+			padding: 15px;
+			margin-top: -5px;
+		}
+		.plain-template .content-section h2 {
+			font-size: 50px;
+    		text-align: center;
+		}
+
+	}
+/* 	-1.2 SMALL DEVICES, TABLETS
+	========================================================================== */
+	@media only screen and (max-width : 767px){
+
+		.plain-template .main-hero-section h1 {
+		    font-size: 20px;
+			position: relative;
+			top: -5px;
+			line-height: 18px;
+			padding-top: 20px;
+			padding-bottom: 10px;
+			text-align: left;
+		}
+		.plain-template .main-hero-section p {
+		    font-size: 20px;
+		    line-height: 28px;
+		    padding-bottom: 10px;
+			text-align: left;
+		}
+		.plain-template .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.shareBtn {
+			width: 80px;
+			right: 0%;
+		}
+		.plain-template .divider {
+		    padding: 10px 0px;
+		}
+		.plain-template .divider p {
+		    font-size: 15px;
+		}
+		.plain-template .content-section p {
+		    font-size: 15px;
+		}
+		.plain-template .content-section h2 {
+		   font-size: 39px;
+		}
+
+
+		body{
+			text-align: center;
+		}
+
+		.plain-template .content-section p{
+			padding-right: 0px;
+		}
+
+
+		.plain-template .content-section h1{
+			letter-spacing: 0px;
+		}
+
+		.plain-template .main-hero-section .share-icon{
+		    right: 2%;
+		}
+
+		.plain-template .main-hero-section img{
+			width: 140px;
+		}
+
+		.plain-template  .divider p{
+			font-size: 18px;
+		}
+
+		.plain-template .eliav-barr-section .imageCaption{
+			right: 3%;
+		}
+
+		.plain-template .divider.tealBackground.patientsAndWorld p{
+			font-size: 20px;
+		}
+
+		.plain-template .beakerSection p{
+			font-size: 18px;
+		}
+
+
+
+		.plain-template .divider.whiteBackground.beakerSection img{
+			width: 50%;
+		}
+
+
+	}
+/* 	-1.3EXTRA SMALL DEVICES, PHONES
+	========================================================================== */
+	@media only screen and (max-width : 479px){
+    	.row .col-xxs-12 {
+    		width: 100% !important;
+    	}
+		.plain-template .main-hero-section {
+			padding: 0px 0px 20px;
+		}
+		.plain-template .main-hero-section h1 {
+		    font-size: 16px;
+		    position: relative;
+		    margin: 0px auto;
+		    padding-bottom: 0px;
+		    text-align: left;
+		}
+		.plain-template .main-hero-section .col-xs-12 {
+			padding: 0px;
+		}
+		.plain-template .main-hero-section p {
+		    font-size: 15px;
+		    line-height: 1.2em;
+		    padding-bottom: 10px;
+			text-align: left;
+		}
+		.plain-template .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: left;
+		}
+		.shareBtn {
+			width: 70px;
+			right: 100px;
+		}
+		.plain-template .divider {
+		    padding: 5px 0px;
+		}
+		.plain-template .divider p {
+		    font-size: 14px;
+		}
+		.plain-template .content-section .content-img {
+		    padding: 10px;
+		    width: 45%;
+		}
+		.plain-template .content-section p {
+		    font-size: 16px;
+		}
+		.plain-template .content-section h2 {
+		    font-size: 27px;
+		    width: 100%;
+		    right: -19px;
+		}
+		.plain-template .content-section {
+		    padding: 0px;
+		}
+
+		.plain-template .content-section h1{
+			font-size: 38px;
+		}
+		
+
+		body{
+			text-align: center;
+		}
+
+		.plain-template .content-section p{
+			padding-right: 0px;
+		}
+
+		
+		.plain-template .main-hero-section img{
+			width: 50%;
+		}
+
+		.plain-template .main-hero-section .share-icon{
+		    width: 34%;
+		    top: 10px;
+		    right: 2%;
+		}
+
+		.plain-template .main-hero-section img{
+			width: 78px;
+		}
+
+		.plain-template .content-section h1{
+			letter-spacing: 0px;
+		}
+
+		.plain-template  .divider p{
+			font-size: 18px;
+		}
+
+		.plain-template .eliav-barr-section h1{
+			font-size: 15px;
+		    width: 100%;
+		    text-align: right;
+		    line-height: initial;
+		}
+
+		.plain-template .divider.whiteBackground.merckProud p{
+			text-align: center;
+		}
+		
+		.plain-template .divider.whiteBackground.merckProud h1{
+			font-size: 28px;
+		}
+
+		.plain-template .divider.tealBackground p {
+		color: #ffffff;
+		font-size: 20px;
+	}
+		
+		.plain-template .divider.tealBackground.patientsAndWorld img
+		{
+			width: 50%;
+		}
+   
+		.plain-template .eliav-barr-section .imageCaption{
+			right: 3%;
+		}
+
+		.plain-template .divider.whiteBackground.patientsAndWorld p{
+			font-size: 28px;
+		}
+
+
+		.shareBtn{
+			margin-right: 0px;
+		}
+
+		.plain-template .divider.whiteBackground.beakerSection img{
+			width: 70%;
+		}
+		
+		.textList {
+		font-size: 18px;
+		}
+	
+	}

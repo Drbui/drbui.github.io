@@ -1,0 +1,244 @@
+.content-section { background: #fff; }
+.row.row-sm { background: #fff; }
+
+/* ==========================================================================
+   0. PAGE GLOBALS
+   ========================================================================== */
+	.shareBtn {
+		cursor: pointer;
+		position: relative;
+		z-index: 99;
+		width: 110px;
+		margin-top: 2%;
+	}
+	.shareBtn img {
+		max-width: 90%;
+	}
+    
+/* 0.1. HERO SECTION
+   ========================================================================== */
+	.plain-template .main-hero-section {
+		background-color: #0F9491;
+		margin-top: 106px;
+		background-image: url("http://www.merck.com/images/about/plain-template/plain_bg_hero.jpg");
+		background-repeat: no-repeat;
+		-o-background-size: cover;
+		   background-size: cover;
+		background-position: left top;
+	}
+	.plain-template .main-hero-section h1 {
+		text-transform: uppercase;
+		color: white;
+		font-size: 55px;
+		position: relative;
+		line-height: 60px;
+		padding-bottom: 130px;
+		text-align: center;
+		padding-top: 60px;
+	}
+	.plain-template .main-hero-section p {
+		font-size: 28px;
+		line-height: 28px;
+		padding-bottom: 10px;
+	}
+
+/* 0.2. DIVIDER SECTION
+   ========================================================================== */
+ 	
+	.plain-template .divider {
+		background-color: #199995;
+		padding: 40px 0px;
+	}
+ 	.plain-template .divider p {
+		color: white;
+		font-size: 28px;
+		font-weight: normal;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
+ 	}
+
+ 	/* 0.3 CONTENT-SECTION
+   ========================================================================== */
+
+	.plain-template .content-section {
+		padding: 50px 0px;
+	}
+	.plain-template .content-section .content-img {
+		display: inline-block;
+		float: right;
+		padding: 30px;
+		margin-top: -18px;
+	}
+	.plain-template .content-section p, li.bullettext{
+		font-size: 20px;
+		color: #213444;
+	}
+	.plain-template .content-section p.extra-pad {
+		padding-top: 20px;
+	}
+	.plain-template .content-section h2 {
+		    font-size: 25px;
+		    color: #213444;
+		    font-weight: 700;
+		}
+	.plain-template .content-section  .smalltext {
+		    font-size: 16px;
+		 }
+
+/* 	-0.9. LARGE DEVICES, WIDE SCREENS
+	========================================================================== */
+	@media only screen and (max-width : 1199px){
+		.plain-template .main-hero-section {
+			background-color: #243444;
+
+		}
+		.plain-template .main-hero-section h1 {
+		    font-size: 45px;
+			position: relative;
+			top: -20px;
+			line-height: 42px;
+			padding-bottom: 40px;
+		}
+		.shareBtn img {
+		    max-width: 70%;
+		}
+		.shareBtn {
+			right: 5%;
+		}
+	}
+
+/* 	-1.0 MEDIUM DEVICES, DESKTOPS
+	========================================================================== */
+	@media only screen and (max-width : 991px){
+		.plain-template .main-hero-section {
+		    margin-top: 0px;
+		}
+		.plain-template .main-hero-section h1 {
+		    font-size: 32px;
+			position: relative;
+			top: -35px;
+			line-height: 35px;
+			padding-bottom: 10px;
+		}
+		.plain-template .divider {
+		    padding: 20px 0px;
+		}
+		.plain-template .divider p {
+			font-size: 24px;
+		}
+		.plain-template .content-section {
+		    padding: 30px 0px;
+		}
+		.plain-template .content-section p, li.bullettext {
+			font-size: 18px;
+		}
+		.plain-template .content-section .content-img {
+			padding: 15px;
+			margin-top: -5px;
+		}
+		.plain-template .content-section h2 {
+			font-size: 22px;
+		}
+		.plain-template .content-section  .smalltext {
+		    font-size: 14px;
+		 }	
+	}
+/* 	-1.2 SMALL DEVICES, TABLETS
+	========================================================================== */
+	@media only screen and (max-width : 767px){
+
+		.plain-template .main-hero-section h1 {
+		    font-size: 20px;
+			position: relative;
+			top: -5px;
+			line-height: 18px;
+			padding-top: 20px;
+			padding-bottom: 10px;
+		}
+		.plain-template .main-hero-section p {
+		    font-size: 20px;
+		    line-height: 28px;
+		    padding-bottom: 10px;
+		}
+		.plain-template .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.shareBtn {
+			width: 80px;
+			right: 0%;
+		}
+		.plain-template .divider {
+		    padding: 10px 0px;
+		}
+		.plain-template .divider p {
+		    font-size: 15px;
+		}
+		.plain-template .content-section p, li.bullettext {
+		    font-size: 15px;
+		}
+		.plain-template .content-section h2 {
+		    font-size: 17px;
+		}
+		.plain-template .content-section  .smalltext {
+		    font-size: 12px;
+		 }	
+	}
+/* 	-1.3EXTRA SMALL DEVICES, PHONES
+	========================================================================== */
+	@media only screen and (max-width : 479px){
+    	.row .col-xxs-12 {
+    		width: 100% !important;
+    	}
+		.plain-template .main-hero-section {
+			padding: 0px 0px 20px;
+		}
+		.plain-template .main-hero-section h1 {
+		    font-size: 16px;
+		    position: relative;
+		    margin: 0px auto;
+		    padding-bottom: 0px;
+		    text-align: center;
+		}
+		.plain-template .main-hero-section .col-xs-12 {
+			padding: 0px;
+		}
+		.plain-template .main-hero-section p {
+		    font-size: 15px;
+		    line-height: 1.2em;
+		    padding-bottom: 10px;
+		}
+		.plain-template .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.shareBtn {
+			width: 70px;
+			right: 0;
+		}
+		.plain-template .divider {
+		    padding: 5px 0px;
+		}
+		.plain-template .divider p {
+		    font-size: 14px;
+		}
+		.plain-template .content-section .content-img {
+		    padding: 10px;
+		    width: 45%;
+		}
+		.plain-template .content-section p, li.bullettext {
+		    font-size: 13px;
+		}
+		.plain-template .content-section h2 {
+		    font-size: 14px;
+		}
+		.plain-template .content-section {
+		    padding: 20px 0px;
+		}
+		.plain-template .content-section  .smalltext {
+		    font-size: 12px;
+		 }
+	}

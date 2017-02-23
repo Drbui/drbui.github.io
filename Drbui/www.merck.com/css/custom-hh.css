@@ -1,0 +1,728 @@
+.button {
+  position: relative;
+  font-weight: 400;
+  font-style: normal;
+  font-size: .6em;
+  color: #ffffff;
+  display: inline-block;
+  padding: .65em 2.8em;
+  margin: .75em 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button.outline {
+  background: 0 0;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+}
+
+
+a.button{
+  color:#ffffff;
+}
+a.button:hover{
+  background-color:#0c0107;
+   border-color: #fff; /* fallback */
+  border-color: rgba(255, 255, 255, 0.2);
+  background-color: #fff; /* fallback */
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: border-color 0.3s ease-in,  
+                     background-color 0.3s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+.row
+{
+	/*background-color: #DEBE07;*/
+	border: none;
+}
+#nav{
+	background-color: #ffffff;
+	padding-top: 10px;
+}
+
+#tiles{
+	background-color: #ffffff;
+	padding-top: 5px;
+	padding-left: 0px;
+	padding-right:0px;
+
+}
+#news{
+	background-color:  #303a43;
+	min-height: 	240px;
+	padding: 10px 40px 10px 5px;
+}
+#carousel{
+	/*height: 515px; */
+	position: 	relative;	
+	
+}
+#footerTiles{
+	background-color: #00958f;
+}
+#footer{
+	background-color: #00958f;
+	padding: 15px 15px 15px 15px;
+	border-top: 1px solid #68c8c6;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footer ul{
+	color: #ffffff;
+	list-style: none;
+}
+
+#footer ul > li:first-child{
+	font-weight: bold;
+}
+#footer a{
+	color: #fbfcfd;
+	text-decoration: none;
+}
+#footer a:hover{
+	color: #aeaeae;
+}
+
+
+#newsTitle{
+	color: #a3a1a2;
+}
+.feedItem{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: normal;
+}
+.feedSummary{
+	color: #ffffff;
+}
+.feedLink{
+	color: #f9b202;
+}	
+#footerTiles{
+	padding-top: 10px;
+	color: #ffffff;
+	text-align: center;
+}
+#footerTiles  p{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footerTail{
+	background-color: #00958f;
+	color: #bfe4e3;
+	padding: 10px 0px 0px 0px;
+	border-top: 1px solid #68c8c6;
+	margin-bottom: 	20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+}
+#footerTail a{
+	color: #ffffff;
+	text-decoration: none;
+}
+#footerTail a:hover{
+	color: #aeaeae;
+}
+
+#footerTail ul{
+	color: #ffffff;
+	list-style: none;
+	display: block;
+	text-align: center;
+	padding: 15px 0 0 0;
+}
+#footerTail ul > li{
+	padding-right: 6px;
+             display: inline-block;
+	font-size: 18px;
+}
+
+.img-center {margin:0 auto;}
+
+#menuicon{
+	min-width: 40px;
+	padding: 0px 0px 0px 14px;
+	margin:0;
+}
+
+#menuicon ul{
+	display: block;	
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+
+#menuicon ul > li{
+	display: inline-block;	
+	float:left;
+	font-size: 20px;
+}
+
+
+
+#share{
+	background-color: #ffffff;
+}
+#share ul{
+	list-style:  none;
+	display: block;
+	min-width: 210px;
+	padding-left: 0;
+}
+#share  li{
+	display: inline-block;
+	padding-right: 	1px;
+	padding-bottom:  10px;
+}
+
+#dropdown{
+	color: #00877c;
+}
+.nav-tabs{
+	border-bottom: 	none;
+}
+.navbar-default{
+	background-color: #ffffff;
+	border-color:  #ffffff;
+}
+.nav a{
+	font-weight: bold;
+	color: #009590;
+}
+
+#callout1{
+	position: absolute;
+	top: 14%;
+	left: 3%;
+	font-size: 30px;
+	font-weight: bold;
+	color:  #fff;
+}
+
+#callout2{
+	position: absolute;
+	top:0;
+	left:0;
+	color: #39766f;
+	background-color: 	#ffffff;
+	padding: 8px 20px 8px 20px;
+	font-size: 20px;
+	left: 50%;
+	top: 64%;
+	opacity:  0.9;
+	width:300px;
+	margin-left: 	-150px;
+	text-align: 	center;	
+}
+
+#callout3{
+	position: absolute;
+	color: #ffffff;
+	left: 0;
+	top: 45%;
+	width: 500px;
+	text-align: center;
+}
+
+#callout3 > h1{
+	font-size: 29px;
+	letter-spacing: 0.2em;
+}
+
+#callout3 > p{
+	font-size: 22px;
+}
+
+#callout4{
+	position: absolute;
+	top:0;
+	left:0;
+	color: #ffffff;
+	background-color: 	#808080;
+	padding: 8px 20px 8px 20px;
+	font-size: 16px;
+	left: 50%;
+	top: 99%;
+	opacity:  0.9;
+	width:300px;
+	margin-left: 	-150px;
+	text-align: 	center;	
+	opacity:  0.7;
+	font-weight: 	bold;	
+	border: 1px solid white;
+}
+
+#videoCallout{
+	position: absolute;
+	bottom: 53px;
+	right: 14px;
+	color: #ffffff;
+	background-color: #000000;
+	padding: 0px 20px 8px 20px;
+	opacity: 0.8;
+	z-index: 1000;
+}
+#videoCallout h2{
+	font-size: 	19px;
+	font-weight: 	bold;	
+		color: #ffffff;
+}
+
+#videoNav{
+	position: absolute;
+	bottom: 53px;
+	left: 0px;
+	color: #ffffff;
+	background-color: #000000;
+	padding: 0px 20px 8px 4px;
+	opacity: 0.8;
+	z-index: 1000;
+}
+#videoNav h2{
+	font-size: 	19px;
+	font-weight: 	bold;	
+}
+
+#videoNav ul{
+	display: block;	
+	list-style: none;	
+	padding-left: 0;
+	margin-left: 0;
+	color: #000000;
+}
+#videoNav ul > li{
+	display: inline-block	;	
+	margin-right: 3px;
+	background-color: #000000;
+	opacity:  0.8;
+	padding: 12px 3px 0px 3px;
+	font-size: 16px;
+	font-weight:  bold;
+}
+#videoNavCaption{
+	color:#ffffff;
+}
+
+#newsroom{
+	position: absolute;
+	top:0;
+	left:0;
+	color: #ffffff;
+	background-color: 	#808080;
+	padding: 8px 20px 8px 20px;
+	font-size: 16px;
+	left: 50%;
+	top: 99%;
+	opacity:  0.9;
+	width:300px;
+	margin-left: 	-150px;
+	text-align: 	center;	
+	opacity:  0.7;
+	font-weight: 	bold;	
+	border: 1px solid white;
+	margin-top: 20px;
+}
+
+#dropdowns{
+	z-index: 5;
+}
+#dropdowns > ul {
+	display: block;
+	list-style: none;
+}
+#dropdowns > ul  > li{
+	display: inline-block;
+	color: #049792;
+	font-size: 19px;
+	font-weight: bold;
+	padding: 0px 8px 0px 8px;
+}
+.bannerText1{
+	font-family:'UniversLTW01-47LightCn',"Arial Narrow",Arial,sans-serif !important;
+}
+.bannerText2{
+	font-family:'UniversLTW01-67Cn',"Arial Narrow",Arial,sans-serif !important;
+}
+.bannerText3{
+	font-family:'UniversLTW01-47LightCn',"Arial Narrow",Arial,sans-serif !important;
+}
+.smallTile .circle{
+	background-image: url('http://www.merck.com/images/circle.png');
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color:#000000;
+	width:  100px;
+	height: 100px;
+	text-align:  center;
+	top: 58%;
+	left: 34%;
+}
+
+.smallTile .circle .circleText
+{
+	position:relative;
+	top:25px
+}
+
+
+.largeTile .circle{
+	background-image: url('http://www.merck.com/images/circle.png');
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color:#000000;
+	width:  100px;
+	height: 100px;
+	text-align:  center;
+	top: 79%;
+	left: 33%;
+}
+
+.largeTile .circle .circleText
+{
+	position:relative;
+	top:33px
+}
+
+.tileDetailText{
+	position: absolute;
+	top: 19px;
+	left: 0px; 
+	height:100%; 
+	width:100%; 
+	padding:13px; 
+	font-size:15px;
+	line-height: 1.2em;
+}
+
+
+
+#noCarousel{
+	position: absolute;
+	top:0;
+	left:0;
+	color: #39766f;
+	background-color: 	#ffffff;
+	padding: 8px 20px 8px 20px;
+	font-size: 20px;
+	left: 50%;
+	top: 64%;
+	opacity:  0.9;
+
+	width:300px;
+	margin-left: 	-150px;
+	text-align: 	center;	
+}
+
+#altGrid {
+	background-color: 	#E8E8E8;
+	margin: 0;
+}
+#altGrid ul{
+	display: block;	
+	list-style: none;
+}
+#altGrid ul > li{
+	display: inline-block	;	
+}
+#altGrid > a > .row{
+	background-color: 	#ffffff;
+	margin: 6px;
+	border: 	1px solid rgb(192, 191, 191);
+}
+#altGrid > a > .row h2{
+	font-size: 20px;
+	text-align: center;	
+	color: #00877C;
+}
+#altGrid > a > .row img{	
+	padding	: 5px;
+	padding-right: 0;
+	margin-right: 0;
+	text-align: right;
+}
+#altGrid >a > .row > div{
+		padding-right: 0px;
+}
+#altGrid > a > .row > div:nth-child(2){
+	padding-left: 	0;
+}
+.Xoneinsix_line1{
+	font-family: "UniversLTW01-47LightCn","Arial Narrow",Arial,sans-serif !important; 
+}
+.Xoneinsix_line2{
+	font-family: "UniversLTW01-47LightCn","Arial Narrow",Arial,sans-serif !important; 
+}
+.Xoneinsix_line3{
+	font-family: "UniversLTW01-47LightCn","Arial Narrow",Arial,sans-serif !important; 
+}
+.Xoneinsix_digit{
+	font-family: "UniversLTW01-47LightCn","Arial Narrow",Arial,sans-serif !important; 
+}
+
+/*
+.artGroup.slide{
+	overflow:hidden;
+}
+.artGroup.slide .detail{
+	bottom: -364px;
+}
+.artGroup.flip{
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	perspective: 800px;
+}
+.artGroup.flip .artwork{
+	-webkit-transition: -webkit-transform 1s;
+	-moz-transition: -webkit-transform 1s;
+	-o-transition: -webkit-transform 1s;
+	transition: -webkit-transform 1s;
+
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.artGroup.flip .detail{
+	background-color:  #cccccc;
+	width: 	200px;
+}
+.artGroup.flip .detail, .artGroup.flip .theFlip{
+	-webkit-transform: rotateY(-180deg);
+	-moz-transform: rotateY(-180deg);
+	-o-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+}
+.artGroup.flip img, .artGroup.flip .detail{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.artGroup.flip .detail, .artGroup.flip .theReverseFlip{
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+.artGroup.flip .detail{
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index: 	200;
+}
+.artGroup.slide .detail{
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index: 	200;
+}
+.artGroup.slide .detail{
+	background-color:  #cccccc;
+	width: 	200px;
+}
+*/
+#newNav ul {
+    -webkit-font-smoothing:antialiased;
+    /*text-shadow:0 1px 0 #FFF;*/
+    /*background: #ddd; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+#newNav  li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    /*min-width: 25%;*/
+}
+#newNav  a {
+    /* background: #ddd; */
+    color: #00958F;
+    display: block;
+    font-size: 16px;
+    font-weight: 	normal;
+    padding: 0 14px;
+    text-align: left;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+#newNav  .dropdown:after {
+   content:' \25bc';
+}
+#newNav  .dropdown:hover:after{
+   content:' \25bc';
+}
+/*drop-down list items*/
+#newNav  li:hover a {
+    background: #2F3A43;
+    color: #fff;
+}
+
+/*drop-down list  heading (on hover) */
+#newNav  .dropdown:hover {
+    background: #2F3A43;
+    color: #fff;
+}
+
+#newNav ul  li:hover{
+    -webkit-border-radius: 6px; 
+    -moz-border-radius: 6px; 
+    -ms-border-radius: 6px; 
+    -o-border-radius: 6px; 
+    border-radius: 6px; 	
+}
+/*sub-menu item hover*/
+#newNav  li ul a:hover {
+    background: #2F3A43;
+}
+
+
+#newNav  li ul {
+    float: left;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0px; /* was 0 */
+    visibility: hidden;
+    z-index: 1;
+
+   box-shadow:  inset 0 0 75px 75px #00958F, 0 0 0 #00958F;
+
+    -webkit-transition: all .95s ease;
+    -moz-transition: all .95s ease;
+    -ms-transition: all .95s ease;
+    -o-transition: all .95s ease;
+    transition: all .95s ease;
+
+}
+#newNav  li:hover ul {
+    opacity: 0.8;
+    top: 20px;
+    visibility: visible;
+    box-shadow: inset 0 0 35px 35px transparent, 0 0 75px 50px transparent;
+}
+#newNav  li ul li {
+    float: none;
+    width: 100%;
+}
+
+.darkHeader{
+	background: #00958F !important;
+}
+
+
+/* Clearfix */
+
+.cf:after, .cf:before {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+.cf {
+    zoom:1;
+}​
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------DEVICE OVERRIDES-------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------*/
+/* XS Devices is the default values (above)                                                                */
+/* ( includes Samsung Note 4 ( lanscape+portrait)  and iPod (landscape+portrait)   */
+/*--------------------------------------------------------------------------------------------------------*/
+/**/
+/* XS Landscape */
+@media (max-width: 768px)  and (orientation:landscape){ 
+	
+}
+/* XS Portrait */
+@media (max-width: 768px)  and (orientation:portrait){ 
+	.tileDetailText{ font-size:21px;}
+}
+
+/*------------------------------------------------------*/
+/*  Small devices (tablets, 768px and up)     */
+/* ( includes iPad  (Portrait) )                        */
+/*------------------------------------------------------*/
+@media (min-width: 768px) { 
+      #footerTail{ padding-left:0;  width:100%; text-align: left;}
+      #footerTail  ul{ padding-left: 0;}
+      #footerTail ul > li{ float: left; padding-right: 36px; font-size: 15px;}
+      .tileDetailText{ font-size:16px;}
+      .smallTile .circle{ top: 37%;}
+      .largeTile .circle{ top: 69%;}
+ }
+ /* SM Portrait */
+@media (min-width: 768px)  and (orientation:portrait){ 
+     .tileDetailText{ font-size:13px;}
+     #videoCallout h2{ font-size:13px;}
+     .smallTile .circle{ top: 37%;}
+     .largeTile .circle{ top: 69%;}
+}
+
+/*--------------------------------------------------------*/
+/* Medium devices (desktops, 992px and up) */
+/* ( includes iPad ( Landscape ) )                   */
+/*--------------------------------------------------------*/
+@media (min-width: 992px) { 
+     #footerTail{ padding-left:0;  width:100%; text-align: left;}
+     #footerTail ul{ padding-top: 0;}
+     #footerTail ul > li{ float: right; font-size: 15px; padding-right: 13px; }
+     #dropdowns > ul > li{ font-size: 16px;}
+     .tileDetailText{font-size:20px;}
+ }
+   /* MD Landscape */
+@media (min-width: 992px)  and (orientation:landscape){ 
+     .tileDetailText{ font-size:19px;}
+      #dropdowns > ul  {padding-top: 10px;}
+     #dropdowns > ul  > li{font-size: 12px;}
+     #newNav{padding-top: 11px;}
+     #newNav a{ font-size: 12px; padding: 0 10px;}
+     #newNav  li:hover ul { top: 17px;}
+}
+
+/*--------------------------------------------------------------*/
+/* Large devices (large desktops, 1200px and up) */
+/*--------------------------------------------------------------*/
+@media (min-width: 1200px ){ 
+     #footerTail{ padding-left:0;  width:100%; text-align: left;}
+     #footerTail ul > li{ float: right; padding-right: 21px;}
+     #dropdowns > ul > li{ font-size: 18px;}
+     .tileDetailText{font-size:25px;}
+     #newNav{padding-top: 11px;}
+     #newNav a{ font-size: 16px; padding: 0 15px;}
+     #newNav  li:hover ul { top: 20px;}
+     h2, .h2 {font-size: 43px;}
+     .rsABlock > p {font-size: 22px;}
+ }
+

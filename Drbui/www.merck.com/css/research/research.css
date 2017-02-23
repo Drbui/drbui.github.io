@@ -1,0 +1,2564 @@
+			#preloader {
+			    background-color: rgba(255, 255, 255, 1);
+			    bottom: 0;
+			    display: block;
+			    left: 0;
+			    position: fixed;
+			    right: 0;
+			    top: 0;
+			    z-index: 9999;
+			}
+				#preloader .loader {
+				    /*height: 50px;*/
+				    left: 50%;
+				    margin: -30px 0 0 -30px;
+				    position: absolute;
+				    text-align: center;
+				    top: 50%;
+				    /*width: 100%;*/
+				}
+					#preloader .loader .loader-img {
+					    background: rgba(0, 0, 0, 0) url("http://www.merck.com/images/loading-white.gif") repeat scroll 0 0;
+					    display: block;
+					    height: 60px;
+					    width: 60px;
+					    margin: 0 auto;
+					}
+			.merck-teal { color: #00877c !important; }
+	        .merck-light-teal { color: #63ceca !important; }
+	        .merck-dark-gray { color: #37424a !important; }
+	        .merck-light-gray { color: #bcbdbc !important; }
+	        .merck-green { color: #879637 !important; }
+	        .merck-orange { color: #d47b22 !important; }
+	        .merck-green { color: #879637 !important; }
+	        .merck-yellow { color: #e1cd00 !important; }
+	        .merck-purple { color: #662046 !important; }
+	        .merck-white { color: #fff !important; }
+
+	        .row.no-gutters {
+	          margin-right: 0;
+	          margin-left: 0;
+	          overflow: hidden;
+	        }
+	        .row.no-gutters > [class^="col-"],
+	        .row.no-gutters > [class*=" col-"] {
+	          padding-right: 0;
+	          padding-left: 0;
+	          overflow: hidden;
+	        }
+	        .row-eq-height {
+	          display: -webkit-box;
+	          display: -webkit-flex;
+	          display: -ms-flexbox;
+	          display:         flex;
+	        }
+	        .large-text {
+	        	color: #5ad8dd !important;  
+	        	text-transform: uppercase; 
+	        	line-height: normal; 
+	        	font-size: 42px;
+	        }
+	        .small-text {
+	        	color: #5ad8dd !important;  
+	        	text-transform: uppercase; 
+	        	line-height: normal; 
+	        	font-size: 30px;
+	        }
+	        .blur {
+				-webkit-filter: blur(3px);
+			    -moz-filter: blur(3px);
+			    filter: blur(3px);
+			}
+			.mm-menu .mm-listview > li.mm-selected > a:not(.mm-next), .mm-menu .mm-listview > li.mm-selected > span { background: transparent; }
+			 .rotator {
+	            -webkit-transition: all 1s ease-in-out;
+	            -moz-transition: all 1s ease-in-out;
+	            -o-transition: all 1s ease-in-out;
+	            -ms-transition: all 1s ease-in-out;
+	        }
+
+	        .rotator:hover {
+	            -webkit-transform: rotate(360deg);
+	            -moz-transform: rotate(360deg);
+	            -o-transform: rotate(360deg);
+	            -ms-transform: rotate(360deg);
+	        }
+
+	        .call-out-tip {
+			    bottom: 43px;
+			    display: block;
+			    height: 26px;
+			    left: 0;
+			    line-height: 26px;
+			    opacity: 0;
+			    position: absolute;
+			    text-align: center;
+			    transition: all 0.2s ease-in-out 0s;
+			    width: 100%;
+			}
+			.call-out-tip span {
+			    background-color: #fff;
+			    border-radius: 13px;
+			    display: inline-block;
+			    padding: 0 20px;
+			}
+			.call-out-tip span::after {
+			    border-bottom: 4px solid #fff;
+			    border-left: 4px solid transparent;
+			    border-right: 4px solid transparent;
+			    content: "";
+			    left: 50%;
+			    margin-left: -4px;
+			    position: absolute;
+			    top: -4px;
+			}
+			.call-out-range:hover .call-out-icon, .call-out-icon:hover + .call-out-tip {
+			    opacity: 1;
+			}
+			.call-out-icon:hover + .call-out-tip {
+			    bottom: 33px;
+			}
+			.notransition {
+				-webkit-transition: none !important;
+				-moz-transition: none !important;
+				-o-transition: none !important;
+				-ms-transition: none !important;
+				transition: none !important;
+			}
+			.space-top-25px { margin-top: 25px !important; }
+			.space-bottom-25px { margin-bottom: 25px !important; }
+			.space-top-50px { margin-top: 50px !important; }
+			.space-bottom-50px { margin-bottom: 50px !important; }
+			/* MERCK LOGO */
+	        .logo {
+
+	        }
+	        /* END OF MERCK LOGO */
+
+	        /* MAIN NAVIGATION */
+          .secondary_nav {
+            padding-left: 0;
+            padding-right: 0;
+          }
+          	.secondary_nav .secondary_navigation { margin-top: 0; }
+          	.secondary_nav .secondary_navigation .menu-button { 
+          		font-size: 1.2em; 
+          		background-position: 0 1.2em;
+          	}
+	        /*.header-container { background: #fff; height: 105px; padding-top: 10px; }*/
+	        .header-container { background: #fff; height: 127px; padding-top: 10px; }
+	        .megamenu_dark_bar .megamenu {
+            background: none;
+            float: right;
+          }
+	        .megamenu > li > a { font-size: 20px; }
+	        .megamenu_dark_bar .megamenu > li .megamenu_drop { background: none; }
+	        .megamenu_dark_bar .megamenu > li > a {
+	        	color: #000;
+	        	font-weight: normal;
+	        }
+	        .megamenu_dark_bar .megamenu > li > a:hover { color: #00958f; }
+	        .megamenu_dark_bar .megamenu > li:hover > a { color: #00958f; }
+	        .secondary_navigation .menu-label { font-weight: normal; }
+	        .megamenu > li .searchBox { left: auto; }
+	        .searchBox .glyphicon-search::before { color: #000; }
+	        .searchBox form { margin-top: 0; }
+	        .megamenu .show-third-level-nav { 
+	        	display: block !important; 
+	        	list-style: none; 
+	        	margin-bottom: 0;
+	       	}
+	       	/*.megamenu ul.menu_sub li:hover a { color: #fff; }*/
+
+	       	/*.megamenu ul.menu_sub li .show-third-level-nav li {
+			    background: transparent url("/images/arrow_menu_right_dark.png") no-repeat scroll 10px 10px;
+			}
+			.megamenu ul.menu_sub li:hover .show-third-level-nav li  {
+			    background: #455660 url("/images/arrow_menu_right.png") no-repeat scroll 10px 10px;
+			}*/
+
+
+          	.secondary_navigation li:hover .menu-button {
+			    /*background: none repeat scroll 0 0;*/
+			    background: transparent url("http://www.merck.com/images/dot_separator.png") no-repeat scroll 0 1.2em;
+			    color: #00877c;
+			    text-decoration: underline;
+			}
+				.secondary_navigation li:hover a.menu-button.first {
+				    background: none repeat scroll 0 0;
+				}
+	        /* END OF MAIN NAVIGATION */
+
+	        /* RESEARCH MENU */
+	        .research-menu-container {
+	        	background: #13a29c;
+	        	position: relative;
+	        	/*top: 110px;*/
+	        	top: 132px;
+	        	z-index: 3;
+	        	width: 100%;
+	        }
+		        #research-menu {
+		        	margin: 0;
+		        	padding: 0;
+		        	text-align: right;
+		        }
+		        	#research-menu li.first { margin-left: 0; }
+
+		        	#research-menu .left-space { margin-left: 175px; }
+		        	#research-menu li {
+		        		display: inline;
+		        		margin: 0 10px;
+		        	}
+		        		#research-menu li a {
+		        			color: #fff;
+		        			font-size: 20px;
+		        		}
+		        		#research-menu li a:hover { text-decoration: none; color: #71f0fd; }
+		        		#research-menu li.active a { color: #71f0fd;}
+		        		#research-menu li.first a { color: #fff; }
+
+	        /* END OF RESEARCH MENU */
+
+	        .merck-button {
+				background-color: #26a69a !important;
+				color: #fff !important;
+				letter-spacing: 0.5px;
+				text-align: center;
+				text-decoration: none;
+				cursor: pointer;
+				display: inline-block;
+				overflow: hidden;
+				position: relative;
+				transition: all 0.3s ease-out 0s;
+				vertical-align: middle;
+				will-change: opacity, transform;
+				z-index: 1;
+				border-radius: 2px;
+				padding: 5px 10px;
+				text-shadow: none;
+				font-size: .8em;
+				text-transform: uppercase;
+			}
+				.merck-button:hover {
+					text-decoration: none;
+				}
+
+          /* SEARCH */
+          #wrap {
+
+            /*margin: 50px 100px;
+            display: inline-block;
+            position: relative;
+            height: 60px;
+            float: right;
+            padding: 0;*/
+
+            position: relative;
+          }
+
+			/*input#search[type="text"] {
+			  height: 40px;
+			  font-size: 18px;
+			  display: inline-block;
+			  font-weight: 100;
+			  font-family: "UniversLTW01-57Condense 723821",Arial,Helvetica,serif;
+			  border: none;
+			  outline: none;
+			  color: #fff;
+			  padding: 3px 10px;
+			  width: 0px;
+			  position: absolute;
+			  top: 0;
+			  right: 0;
+			  background: #fff url('/img/search-icon.png') center 15px no-repeat;
+			  z-index: 3;
+			  transition: width .1s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+			  cursor: pointer;
+			}
+
+			input#search[type="text"]:focus:hover {
+			  border-bottom: 1px solid #BBB;
+
+			}
+
+			input#search[type="text"]:hover {
+			  width: 450px;
+			  z-index: 1;
+			  border-bottom: 1px solid #BBB;
+			  cursor: text;
+			  background: #289392 url("/img/search-icon-white.png") no-repeat scroll 98% center;
+			  border-radius: 10em;
+			}
+			input#search[type="text"]::-ms-clear {display: none; width:0; height:0;}
+			input#search_submit[type="submit"] {
+			  height: 40px;
+			  width: 15px;
+			  display: inline-block;
+			  color:red;
+			  background: none;
+			  text-indent: -10000px;
+			  border: none;
+			  cursor: pointer;
+			  transition: opacity .4s ease;
+			}
+
+			input#search_submit[type="submit"]:hover {
+			  opacity: 0.8;
+			}*/
+
+          /* END OF SEARCH */
+
+			/* FULLPAGE */
+				#fp-nav ul li a span,
+				.fp-slidesNav ul li a span { background: #fff; }
+			/* END OF FULLPAGE */
+
+			/*NAVIGATION DOTS*/
+			#fp-nav ul li, .fp-slidesNav ul li {
+				height: 18px;
+				width: 19px;
+			}
+			#fp-nav ul li .fp-tooltip { 
+				top: -3px; 
+				font-size: 16px;
+				font-weight: bold;
+				font-family: "UniversLTW01-47LightCn","Arial Narrow",Arial,sans-serif;
+			}
+			#fp-nav ul li a span, .fp-slidesNav ul li a span {
+				width: 5px;
+				height: 5px;
+				border: 2px solid #fff;
+			}
+			#fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span {
+				height: 15px;
+				width: 15px;
+			}
+			#fp-nav ul li a.active span, 
+			.fp-slidesNav ul li a.active span, 
+			#fp-nav ul li:hover a.active span, 
+			.fp-slidesNav ul li:hover a.active span {
+				background: #5df3ed;
+				border: 2px solid #5df3ed;
+				/*margin: -6px 0 0 -4px;*/
+			}
+			#fp-nav ul li .fp-tooltip.left { 
+				left: 30px; 
+				font-size: 17px;
+				top: -5px;
+			}
+
+			#fp-nav ul li:hover .fp-tooltip, 
+			#fp-nav.fp-show-active a.active + .fp-tooltip {
+				color: #5df3ed;
+				border-radius: 3px;
+				padding: 2px 5px;
+			}
+			/*END OF NAVIGATION DOTS*/
+
+			#introVideo {
+				/*width: 100%;
+				margin: 31px 0;
+				overflow: hidden;
+				*/
+
+				height: auto;
+			    max-height: 4000%;
+			    max-width: 1000%;
+			    min-height: 100%;
+			    min-width: 100%;
+			    overflow: hidden;
+			    position: absolute;
+			    /*position: absolute;
+			    top: 0;
+			    */
+			    width: auto;
+			    z-index: 1;
+			}
+			.ie11 #introVideo {
+				width: 100%;
+				/*height: 100%;
+				max-height: 4000%;
+			    max-width: 1000%;
+			    min-height: 100%;
+			    min-width: 100%;*/
+			}
+			/*#myVideo{
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				top:0;
+				right:0;
+				
+				background-size: 100% 100%;
+		 		background-color: black; 
+		  		background-image: ;
+		  		background-position: center center;
+		  		background-size: contain;
+		   		object-fit: cover; 
+		   		z-index:0;
+
+		   		height: auto;
+			    max-height: 4000%;
+			    max-width: 1000%;
+			    min-height: 100%;
+			    min-width: 100%;
+			    overflow: hidden;
+			}*/
+			#myVideo-container {
+				position:relative;
+				padding-bottom:56.25%;
+				padding-top:30px;
+				height:0;
+				overflow:hidden;
+			}
+
+			#myVideo-container iframe, #myVideo-container object, #myVideo-container embed {
+				position:absolute;
+				top:0;
+				left:0;
+				width:100%;
+				height:100%;
+			}
+			.ie11 #myVideo { width: 100%; }
+			.layer-container {
+			    position: absolute;
+			    top: 25%;
+			    width: 100%;
+			}
+			.layer {
+				position: relative;
+				margin: 0 auto;
+				width: 60%;
+				/*left: 41.5%;
+				top: 25%;*/
+				z-index: 3;
+				/*height: 250px;
+				width: 250px;
+				border-radius: 125px;
+				background-image: url('/images/pixel.png');*/
+			}
+				.layer h1 {
+					color: #fff;
+					font-size: 3em;
+					font-weight: bold;
+					line-height: 1.0em;
+					margin: 0;
+					padding: 0;
+					position: relative;
+					top: 22%;
+					text-align: center;
+				}
+				.layer h3 {
+					color: #fff;
+					font-size: 3em;
+					font-weight: bold;
+					line-height: 1.0em;
+					margin: 0;
+					padding: 0;
+					position: relative;
+					top: 22%;
+					text-align: center;
+				}
+				.layer h2 {
+					color: #fff;
+					font-size: 1.5em;
+					font-weight: normal;
+					line-height: normal;
+					padding: 0;
+					position: relative;
+					top: 22%;
+					text-align: center;
+				}
+				.layer .horizontal-line {
+
+				}
+				.layer .horizontal-line .slide-arrow { cursor: pointer; }
+				.layer p {
+					position: relative;
+					top: 35%;
+					font-size: 14px;
+					margin: 0;
+					padding: 0;
+					text-align: center;
+					color: #ccc;
+				}
+				.play-video:hover { cursor: pointer; }
+				#parent {
+					background-image: url('http://www.merck.com/images/research/slide-to-watch-dash-lines.png');
+					background-repeat: no-repeat;
+					border-right: 3px solid #fff;
+					width: 145px;
+					height: 45px;
+					margin: 0 auto;
+					position: relative;
+					top: 27%;
+				}
+		      	.pep {
+		      		height: 100%;
+		      		width: 41px;
+		      		background: transparent url("http://www.merck.com/images/research/slide-to-watch-arrow.png") no-repeat scroll 0 0;
+		      		color: white;
+		      	}
+				#object {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					width: 300px;
+					height: 300px;
+					margin-left: -150px;
+					margin-top: -150px;
+					background: rgb(120, 200, 200);
+				}
+				.controls {
+					position: absolute;
+					/*position: relative;*/
+					z-index: 3;
+					width: 70px;
+					top: 75%;
+					left: 45%;
+				}
+				.ie11 .controls {
+					top: 68%;
+					position: absolute;
+				}
+					.controls .button {
+						background: #ffcc00;
+						height: 20px;
+						width: 50px;
+						content: "Pause";
+					}
+						.controls .button:hover { cursor: pointer; }
+					.controls .play {
+						/*
+						background: #ffcc00;
+						height: 20px;
+						width: 50px;
+						content: "Play";
+						*/
+					}
+					.controls .pause {
+						/*
+						background: #ff0000;
+						height: 20px;
+						width: 50px;
+						content: "Pause";
+						*/
+					}
+						.controls .play .glyphicon,
+						.controls .pause .glyphicon {
+							font-size: 4em;
+							border-radius: 10px;
+							color: #fff;
+							background: #13a29c;
+							padding: 5px 0 7px 5px;
+						}
+						.controls .play:hover,
+						.controls .pause:hover { cursor: pointer; }
+			.background-layer {
+			    background: rgba(0, 0, 0, 0) url("http://www.merck.com/images/pixel.png") repeat scroll 0 0 !important;
+			    height: 100%;
+			    opacity: 0.65;
+			    position: absolute;
+			    width: 100%;
+			    z-index: 2;
+			}
+
+			#section0,
+			#section1,
+			#section2,
+			#section3,
+			#section4,
+			#section5,
+			#section6 {
+				background-size: cover;
+				background-attachment: fixed;
+			}
+				#section1 .intro.outer,
+				#Modal-Publications .intro.outer,
+			#section2 .intro.outer,
+			#section3 .intro.outer,
+			#section4 .intro.outer,
+			#section5 .intro.outer,
+			#section6 .intro.outer {
+				display: table;
+			    /*position: absolute;*/
+			    height: 100%;
+			    width: 100%;
+			}
+				.intro p{
+				color: #fff;
+			}
+				#section1 .middle,
+				#Modal-Publications .middle,
+				#section2 .middle,
+				#section3 .middle,
+				#section4 .middle,
+				#section5 .middle,
+				#section6 .middle {
+					/*display: table-cell;
+    				vertical-align: middle;*/
+    				display: table-cell;
+    				vertical-align: middle;
+    				position: relative;
+    				bottom: 0;
+				}
+				#section2 .middle,
+				#section3 .middle,
+				#section4 .middle,
+				#section5 .middle,
+				#section6 .middle { height: 100%; }
+					#section1 .inner,
+					#Modal-Publications .inner,
+					#section2 .inner,
+					#section3 .inner,
+					#section4 .inner,
+					#section5 .inner,
+					#section6 .inner {
+						margin-left: auto;
+					    margin-right: auto;
+					    width: 100%;
+					}
+						#section1 .inner p,
+						#Modal-Publications p,
+						#section2 .inner p,
+						#section3 .inner p,
+						#section4 .inner p,
+						#section5 .inner p,
+						#section6 .inner p {
+							font-size: 25px;
+						}
+					#section1 #slide1 .inner,
+					#Modal-Publications .inner,
+					#section2 #slide1 .inner,
+					#section5 #slide1 .inner,
+					#section6 .inner {
+						position: absolute;
+					    bottom: 5%;
+					}
+
+					#section1 #slide1 .top {
+						background-size: cover !important;
+						
+						/*height: 55%;*/
+						height: 45%;
+					}
+						#section1 #slide1 .top.loadImage {
+							background: url('http://www.merck.com/images/research/our-people-image.jpg') no-repeat center top;
+						}
+			#section4 #slide1 {
+				background-size: cover !important;
+				background: url('http://www.merck.com/images/research/pipeline_background.jpg') no-repeat center center;
+			}
+			#section4 #slide1 .top {
+				height: 35%;
+			}
+				#section4 #slide1 .inner {
+					position: relative;
+					top: 15%;
+				}
+				#section4 #slide1 .top h2 { font-size: 35px; text-shadow: none;}
+				.top h2 {
+					color: #fff;
+				}
+			#section4 #slide1 .bottom{
+				padding: 20px;
+				height: 65%;
+			}
+			#section5 #slide1 .top {
+				background-size: cover !important;
+				height: 55%;
+			}
+				#section5 #slide1 .top.loadImage {
+					background: url('http://www.merck.com/images/research/clinical_trials_background.jpg') no-repeat top center;
+				}
+			#section6 .top {
+				background-size: cover !important;
+				height: 50%;
+			}
+				#section6 .top.loadImage {
+					background: url('http://www.merck.com/images/research/work_with_us_background.jpg') no-repeat top center;
+				}
+			#section1 #slide1 .bottom {
+				background: #fff;
+				padding: 20px;
+				height: 55%;
+			}
+			/*#section1 #slide1 .bottom,*/
+			#section5 .bottom {
+				background: #fff;
+				padding: 20px;
+				height: 45%;
+			}
+			#section6 .bottom {
+				background: #fff;
+				padding: 20px;
+				height: 35%;
+			}
+				#section6 .bottom h3 {
+					font-size: 20px;
+				}
+				#section6 .bottom p {
+					font-size: 17px;
+				}
+				#section6 .footer_container {
+					top: 0;
+				}
+				#section1 h2,
+				#section2 h2,
+				#section5 h2,
+				#section6 h2 {
+					font-size: 50px;
+					line-height: normal;
+					font-weight: bold;
+					padding: 0 50px;
+				}
+			.section .bottom p { font-size: 20px; }
+			#section1 #slide4 .top {
+				/*background-size: cover !important;
+				background: url('/images/research/section1-slide3.jpg') no-repeat center center;*/
+				height: 100%;
+			}
+				#section1 #slide4 .top .one,
+				#section1 #slide4 .top .two {
+					display: table;
+					height: 100%;
+					background-color: #37424a;
+				}
+					#section1 #slide4 .top .one {
+						background-image: url("http://www.merck.com/images/research/section1-slide3-spencer.jpg");
+						background-size: 100% 100%;
+					}
+						#section1 #slide4 .top .one .left-content {
+							position: absolute;
+							bottom: 20%;
+							width: 100%;
+							text-align: center;
+						}
+						#section1 #slide4 .top .two .right-content {
+							position: absolute;
+							bottom: 15%;
+							width: 100%;
+							text-align: center;
+							padding: 0 100px;
+						}
+							#section1 #slide4 .top .two .right-content h2 {
+								font-size: 45px;
+								line-height: normal;
+							}
+			#section1 #slide4 .bottom {
+				background: #fff;
+				padding: 20px;
+				height: 45%;
+			}
+			#section2 #slide1 .top {
+				background-size: cover !important;
+				height: 55%;
+			}
+				#section2 #slide1 .top.loadImage {
+					/*background: url('/images/research/how_we_work_background.jpg') no-repeat top center;*/
+				}
+					#section2 #slide1 .top #RDProcessVideo {
+						/*height: 100%;
+						width: 100%;*/
+						-webkit-transform: translateX(-50%) translateY(-50%);
+						-moz-transform: translateX(-50%) translateY(-50%);
+						-ms-transform: translateX(-50%) translateY(-50%);
+						-o-transform: translateX(-50%) translateY(-50%);
+						transform: translateX(-50%) translateY(-50%);
+						position: absolute;
+						top: 25%;
+						left: 50%;
+						min-width: 100%;
+						/*min-height: 100%;*/
+						width: auto;
+						height: auto;
+						z-index: -100;
+					}
+				#section2 #slide1 .top h1,
+				#section2 #slide1 .top p { text-shadow: 1px 1px 1px #000; }
+			#section2 #slide1 .bottom {
+				background: #fff;
+				padding: 20px;
+				height: 45%;
+			}
+
+			/*#section2 #slide2 .top {
+				background-size: cover !important;
+				background: url('/images/research/section2-slide2.jpg') no-repeat center center;
+				height: 60%;
+			}
+				#section2 #slide2 .top h1,
+				#section2 #slide2 .top p { color: #37424A; }
+			#section2 #slide2 .bottom {
+				background: #37424A;
+				padding: 20px;
+				height: 40%;
+			}
+				#section2 #slide2 .bottom p { color: #fff; }
+				*/
+			#section2 #slide2 .top {
+				/*background-size: cover !important;
+				background: url('/images/research/section2-slide2.jpg') no-repeat center center;*/
+				height: 55%;
+			}
+				#section2 #slide2 .top .road {
+					/*background: url("/images/research/road.png") repeat-x;
+					bottom: 50%;
+					height: 47px;
+					width: 100%;
+					position: absolute;
+					z-index: 1;*/
+
+					background: url("http://www.merck.com/images/research/road.png") repeat-x;
+				    top: 50%;
+				    height: 47px;
+				    position: absolute;
+				    width: 100%;
+				    z-index: 1;
+				}
+				#section2 #slide2 .top .one,
+				#section2 #slide2 .top .two,
+				#section2 #slide2 .top .three,
+				#section2 #slide2 .top .four,
+				#section2 #slide2 .top .five,
+				#section2 #slide2 .top .six {
+					background-size: 80% 80%;
+					background-repeat: no-repeat;
+					background-position: center top;
+					height: 100%;
+				}
+				#section2 #slide2 .top .one {
+					/*background-image: url("http://placehold.it/768x756/879637");*/
+					background-color: #bdd292;
+					background-image: url('http://www.merck.com/images/research/bg_discovery.png');
+					border-right: 5px solid #fff;
+				}
+				#section2 #slide2 .top .two {
+					/*background-image: url("http://placehold.it/768x756/879637");*/
+					background-color: #dde8c6;
+					background-image: url('http://www.merck.com/images/research/bg_preclinical.png');
+					border-right: 5px solid #fff;
+				}
+				#section2 #slide2 .top .three {
+					/*background-image: url("http://placehold.it/768x756/879637");*/
+					background-color: #bdd292;
+					background-image: url('http://www.merck.com/images/research/bg_clinical.png');
+					border-right: 5px solid #fff;
+				}
+				#section2 #slide2 .top .four {
+					/*background-image: url("http://placehold.it/768x756/879637");*/
+					background-color: #dde8c6;
+					background-image: url('http://www.merck.com/images/research/bg_regulatory.png');
+				}
+				#section2 #slide2 .top .five {
+					background-image: url("http://placehold.it/768x756/63ceca");
+				}
+				#section2 #slide2 .top .six {
+					background-image: url("http://placehold.it/768x756/bcbdbc");
+				}
+				#section2 #slide2 .top h1,
+				#section2 #slide2 .top p { color: #37424A; }
+				#section2 #slide2 .middle .content {
+					position: relative;
+					top: 25%;
+				}
+					#section2 #slide2 .middle .content h2 {
+						color: #00877c;
+						font-size: 2.5em;
+						text-shadow: none;
+					}
+					#section2 #slide2 .middle .content p {
+
+					}
+				#section2 #slide2 .bottom {
+				background: #fff;
+				padding: 20px;
+				height: 45%;
+			}
+				#section2 #slide2 .bottom h2 {
+					color: #333;
+					font-size: 2.5em;
+					text-align: center;
+				}
+				#section2 #slide2 .bottom p {
+					color: #333;
+					text-align: center;
+					font-size: 30px;
+				}
+					#section3 #slide1 .top {
+				/*background-size: cover !important;
+				background: url('/images/research/section2-slide2.jpg') no-repeat center center;*/
+				height: 55%;
+			}
+				#section3 #slide1 .top .one,
+				#section3 #slide1 .top .two,
+				#section3 #slide1 .top .three,
+				#section3 #slide1 .top .four,
+				#section3 #slide1 .top .five,
+				#section3 #slide1 .top .six {
+					/*background-size: 100% 100%;*/
+					background-size: cover;
+					background-repeat: no-repeat;
+					height: 100%;
+					background-position: center center;
+				}
+				#section3 #slide1 .top .one {
+					/*background-image: url("http://placehold.it/768x756/662046");*/
+					background-image: url('http://www.merck.com/images/research/focus_oncology.jpg');
+				}
+				#section3 #slide1 .top .two {
+					/*background-image: url("http://placehold.it/768x756/e1c000");*/
+					background-image: url('http://www.merck.com/images/research/focus_hepatitis.jpg');
+				}
+				#section3 #slide1 .top .three {
+					/*background-image: url("http://placehold.it/768x756/879637");*/
+					background-image: url('http://www.merck.com/images/research/focus_diabetes.jpg');
+				}
+				#section3 #slide1 .top .four {
+					/*background-image: url("http://placehold.it/768x756/d47b22");*/
+					background-image: url('http://www.merck.com/images/research/focus_infectious.jpg');
+				}
+				#section3 #slide1 .top .five {
+					/*background-image: url("http://placehold.it/768x756/63ceca");*/
+					background-image: url('http://www.merck.com/images/research/focus_vaccine.jpg');
+				}
+				#section3 #slide1 .top .six {
+					/*background-image: url("http://placehold.it/768x756/bcbdbc");*/
+					background-image: url('http://www.merck.com/images/research/focus_alzheimers.jpg');
+				}
+				#section3 #slide1 .top h1,
+				#section3 #slide1 .top p { color: #fff; }
+
+			#section3 #slide1 .bottom {
+				background: #37424A;
+				padding: 20px;
+				height: 45%;
+			}
+				#section3 #slide1 .bottom p {
+					color: #fff;
+					text-align: center;
+					font-size: 30px;
+				}
+				#section4 h2 {
+				color: #00958f;
+			}
+			#section4 p {
+				color: #333;
+			}
+				#Modal-Oncology h2,
+			#Modal-Hepatitis h2,
+			#Modal-Vaccines h2,
+			#Modal-Diabetes h2,
+			#Modal-Infectives h2,
+			#Modal-Alzheimer h2,
+			#Modal-Discovery h2,
+			#Modal-Preclinical h2,
+			#Modal-Clinical h2,
+			#Modal-Drugapproval h2 {
+				color: #fff;
+				font-size: 2.5em;
+				line-height: normal;
+				font-weight: normal;
+			}
+			#Modal-Oncology a,
+			#Modal-Hepatitis a,
+			#Modal-Vaccines a,
+			#Modal-Diabetes a,
+			#Modal-Infectives a,
+			#Modal-Alzheimer a,
+			#Modal-Discovery a,
+			#Modal-Preclinical a,
+			#Modal-Clinical a,
+			#Modal-Drugapproval a {
+				text-decoration: underline;
+			}
+			.modal-body ul li {
+				font-size: 20px;
+				color: #fff;
+			}
+			.effect-desc .info::before {
+	            position: absolute;
+	            top: 0;
+	            left: 0;
+	            width: 100%;
+	            height: 100%;
+	            /*background: -webkit-linear-gradient(top, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+	            background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);*/
+	            content: '';
+	            opacity: 0;
+	            -webkit-transform: translate3d(0,50%,0);
+	            transform: translate3d(0,50%,0);
+	        }
+
+        .effect-desc h2 {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            color: #484c61;
+            -webkit-transition: -webkit-transform 0.35s, color 0.35s;
+            transition: transform 0.35s, color 0.35s;
+            -webkit-transform: translate3d(0,-50%,0);
+            transform: translate3d(0,-50%,0);
+        }
+
+        .effect-desc .info::before,
+        .effect-desc p {
+            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+            transition: opacity 0.35s, transform 0.35s;
+        }
+
+        .effect-desc p {
+            position: absolute;
+            text-align: center;
+            color: #fff;
+            bottom: 0;
+            left: 0;
+            font-size: 25px;
+            padding: 11em .5em 2em;
+            width: 100%;
+            opacity: 1;
+            z-index: 1;
+            -webkit-transform: translate3d(0,10px,0);
+            transform: translate3d(0,10px,0);
+        }
+        .effect-desc p:hover { text-decoration: none; }
+        .effect-desc:hover h2 {
+            color: #fff;
+            -webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+            transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+
+        }
+
+        .effect-desc:hover .info::before,
+        .effect-desc:hover p {
+            opacity: 1;
+            -webkit-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+
+        }
+        /* REMOVE LATER */
+        .effect-desc2 .info::before {
+	            position: absolute;
+	            top: 0;
+	            left: 0;
+	            width: 100%;
+	            height: 100%;
+	            /*background: -webkit-linear-gradient(top, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+	            background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);*/
+	            content: '';
+	            opacity: 0;
+	            /*-webkit-transform: translate3d(0,50%,0);
+	            transform: translate3d(0,50%,0);*/
+	        }
+
+        .effect-desc2 h2 {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            color: #484c61;
+            /*-webkit-transition: -webkit-transform 0.35s, color 0.35s;
+            transition: transform 0.35s, color 0.35s;
+            -webkit-transform: translate3d(0,-50%,0);
+            transform: translate3d(0,-50%,0);*/
+        }
+
+        .effect-desc2 .info::before,
+        .effect-desc2 p {
+            /*-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+            transition: opacity 0.35s, transform 0.35s;*/
+        }
+
+        .effect-desc2 p {
+            position: absolute;
+            text-align: center;
+            color: #fff;
+            bottom: 0;
+            left: 0;
+            font-size: 25px;
+            padding: 11em .5em 2em;
+            width: 100%;
+            opacity: 1;
+            /*z-index: 1;
+            -webkit-transform: translate3d(0,10px,0);
+            transform: translate3d(0,10px,0);*/
+        }
+        /*.effect-desc2 p:hover { text-decoration: none; }
+        .effect-desc2:hover h2 {
+            color: #fff;
+            -webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+            transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+
+        }
+
+        .effect-desc2:hover .info::before,
+        .effect-desc2:hover p {
+            opacity: 1;
+            -webkit-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+
+        }*/
+        /* END OF REMOVE LATER */
+        .circle-plus-icon {
+            background: url('http://www.merck.com/images/circle-plus-icon.png') no-repeat;
+            height: 44px;
+            width: 44px;
+            padding: 22px;
+        }
+            .effect-desc p:hover .circle-plus-icon {
+                -webkit-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        .circle-close-icon {
+            background: url('http://www.merck.com/images/circle-close-icon.png') no-repeat;
+            height: 44px;
+            width: 45px;
+            padding: 50px 22px 22px 7px;
+            float: right;
+            position: relative;
+            /*top: 80px;*/
+            z-index: 4;
+            color: #fff;
+            margin-bottom: 100px;
+            margin-top: 95px;
+        }
+        	.circle-close-icon:hover {
+        		color: #fff;
+        	}
+        	.circle-close-icon:focus,
+        	.circle-close-icon:active,
+        	.circle-close-icon:active:focus {
+        		background: url("http://www.merck.com/images/circle-close-icon.png") no-repeat;
+        		color: #fff;
+        	}
+
+
+
+/*modal - fullscreen*/
+
+.btn {
+  height: 40px;
+  border-radius: 0;
+}
+.btn:focus,
+.btn:active,
+.btn:active:focus {
+  box-shadow: none;
+  outline: none;
+}
+.btn-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -100px;
+  width: 200px;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  font-weight: 300;
+  font-size: 1.6rem;
+  color: #767b93;
+  color: #fff;
+  text-align: center;
+  background: #60cc69;
+  border: 1px solid #36a940;
+  border-bottom: 3px solid #36a940;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+.btn-primary:active,
+.btn-primary:hover:active,
+.btn-primary:focus:active,
+.btn-primary:active:active {
+  border-bottom: 1px solid #36a940;
+}
+.btn-default,
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+  font-weight: 300;
+  font-size: 1.6rem;
+  color: #fff;
+  text-align: center;
+  background: #bfc5ce;
+  border: 1px solid #a2aab8;
+  border-bottom: 3px solid #a2aab8;
+}
+.btn-default:active,
+.btn-default:hover:active,
+.btn-default:focus:active,
+.btn-default:active:active {
+  border-bottom: 1px solid #a2aab8;
+}
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+  color: #cc7272;
+  background: transparent;
+  border: 0;
+}
+
+/*end of modal*/
+
+/*CUSTOM CAROUSEL*/
+			#myCarousel .desc,
+	        #myCarousel .indic {
+
+	        }
+	        #myCarousel .description {
+	            position: absolute;
+	            z-index: 15;
+	            margin: 0;
+	            padding: 0;
+	            width: 100%;
+	        }
+	            #myCarousel .description li {
+	                width: 25%;
+	                height: 20%;
+	            }
+	        .carousel {
+	        	padding: 0;
+	        	width: 100%;
+	        }
+	        .carousel-indicators {
+	            left: 0;
+	            width: 100%;
+	            bottom: 10%;
+	            margin-left: 0;
+	            margin-bottom: 0;
+	        }
+	        .carousel-indicators li {
+	            background: #37424A;
+	            border-top: 5px solid #37424A;
+	            /*border-top: none;*/
+	            border-left: 1px solid #bcbdbc;
+	            border-right: none;
+	            border-bottom: none;
+	            border-radius: 0;
+	            height: 20%;
+	            width: 25%;
+	            text-indent: 0;
+	            margin: 0;
+	            padding: 0 10px;
+	            float: left;
+	        }
+	        	.carousel-indicators li.first {
+	        		border-left: none;
+	        	}
+	        	.carousel-indicators li h2 {
+	        		color: #fff;
+	        		font-size: 25px;
+	        	}
+	        	.carousel-indicators li p {
+	        		color: #fff;
+	        		font-size: 17px;
+	        	}
+	        .carousel-indicators .active {
+	            border-top: 5px solid #879637;
+	            margin: 0;
+	            height: 20%;
+	            width: 25%;
+	            background: #37424A;
+	        }
+	        .carousel-indicators .social-media-icons {
+
+	        }
+	        	.carousel-indicators .social-media-icons li {
+	        		border: none;
+	        		color: #fff;
+	        		width: 30px;
+	        		float: none;
+	        	}
+	        .carousel-caption {
+	            /*background: #ffcc00;*/
+	            right: 1%;
+	            top: 15%;
+	            width: 50%;
+	            padding-top: 0;
+	            padding-bottom: 0;
+	            bottom: auto;
+	            left: auto;
+	            text-align: left;
+	        }
+	            .carousel-caption h2 {
+	                margin: 0;
+	            }
+	        .carousel-caption .carousel-title {
+
+	        }
+	            .carousel-caption .carousel-title h3 {
+	                margin-bottom: 5%;
+	                color: #fff;
+	                line-height: normal;
+	                font-size: 1.6em;
+	            }
+	            	.carousel-caption .carousel-title h3 a {
+
+	            	}
+	        .carousel-caption .description {
+
+	        }
+	            .carousel-caption .description .box {
+	                display: inline-block;
+	                width: 32%;
+	                vertical-align: top;
+	                border-left: 1px solid #fff;
+	                padding: 0 10px;
+	            }
+	            	.carousel-caption .description .box p {
+	            		text-shadow: none;
+	            		font-size: 17px;
+	            		line-height: normal;
+	            	}
+	        .carousel .item.scientists .carousel-caption {
+	        	width: 40%;
+	        }
+	        .carousel .item.scientists .carousel-caption .carousel-title h3 {
+	        	font-size: 2.5em;
+	        }
+	        /* Animation delays */
+	        .carousel-caption h3:first-child {
+	            -webkit-animation-delay: 1s;
+	            animation-delay: 1s;
+	        }
+	        .carousel-caption h3:nth-child(2) {
+	            -webkit-animation-delay: 1s;
+	            animation-delay: 1s;
+	        }
+	        .carousel-caption .box {
+	            -webkit-animation-delay: 1s;
+	            animation-delay: 1s;
+	        }
+	        .carousel-caption .box:nth-child(2) {
+	            -webkit-animation-delay: 1.5s;
+	            animation-delay: 1.5s;
+	        }
+	        .carousel-caption .box:nth-child(3) {
+	            -webkit-animation-delay: 2s;
+	            animation-delay: 2s;
+	        }
+	        /* End of animation delays */
+			/*END OF CUSTOM CAROUSEL*/
+
+/*----------  Global Modal  ----------*/
+
+.modal {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+.modal-dialog {
+	position: fixed;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+.modal-content {
+	/*background: #37424A;*/
+	background: url('http://www.merck.com/images/research/modal-bg-img.png');
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	/*border: 2px solid #3c7dcf;*/
+	border-radius: 0;
+	box-shadow: none;
+}
+.modal-header {
+	background: #333;
+	position: absolute;
+	top: 0;
+	right: 0;
+	/* left: 0; */
+	height: 100%;
+	width: 65px;
+	padding: 10px;
+	border: 0;
+	text-align: center;
+	z-index: 2;
+}
+.modal-header .circle-plus-icon {
+	float: right;
+}
+.modal-header .circle-plus-icon:focus,
+.modal-header .circle-plus-icon:active {
+	color: #fff;
+}
+.modal-header .fa-facebook,
+.modal-header .fa-twitter,
+.modal-header .fa-linkedin,
+.modal-header .fa-share-alt {
+	font-size: 2.5em;
+	color: #fff;
+	margin: 20px 0 0 0;
+}
+.modal-header .fa-facebook:hover { color: #3b5998; }
+.modal-header .fa-twitter:hover { color: #659fcb; }
+.modal-header .fa-linkedin:hover { color: #0177b5; }
+.modal-title {
+	font-weight: 300;
+	font-size: 2em;
+	color: #fff;
+	line-height: 30px;
+}
+.modal-body {
+	position: absolute;
+	top: -9px;
+	/*bottom: 60px;*/
+	width: 100%;
+	font-weight: 300;
+	z-index: 1;
+	padding-right: 65px;
+	padding-left: 0px;
+	padding-top: 0px;
+
+	bottom: 0;
+	padding-bottom: 0;
+}
+#Modal-Dreher .modal-body { padding-right: 65px !important; }
+.modal-body p { color: #fff; }
+.modal-footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 60px;
+	padding: 10px;
+	background: #f1f3f5;
+}
+/*----------  Publications Modal  ----------*/
+
+#Modal-Publications .inner h1 {
+	font-size: 50px;
+	line-height: normal;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 20px;
+}
+#Modal-Publications p {
+	font-size: 20px;
+	color: #333;
+}
+#Modal-Publications .inner p {
+	font-size: 25px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+#Modal-Publications .top {
+	background-size: cover !important;
+	background: url('http://www.merck.com/images/research/our-people-slide2-image.jpg') no-repeat center center;
+	height: 55%;
+}
+#Modal-Publications .bottom {
+	padding: 20px 20px 80px;
+	background-color: #fff;
+}
+
+
+/*----------  Fellowship Modal  ----------*/
+#Modal-Dreher .left-col .col-lg-9,
+#Modal-Dreher .left-col .col-md-9 {
+	width: 80%;
+}
+
+
+#Modal-Dreher .top {
+	/*background-size: cover !important;
+	background: url('/images/research/section1-slide3.jpg') no-repeat center center;*/
+	height: 100%;
+}
+#Modal-Dreher .top .one,
+#Modal-Dreher .top .two {
+	display: table;
+	height: 100%;
+	background-color: #37424a;
+}
+#Modal-Dreher .one {
+	/*		background-image: url("/images/research/post_doc.jpg");
+	background-size: 100% 100%;*/
+}
+#Modal-Dreher .dreher-img {
+	position: relative;
+	top: 120px;
+}
+#Modal-Dreher .one .left-content {
+position: absolute;
+    bottom: -66px;
+    width: 100%;
+    text-align: center;
+    left: 52px;
+}
+#Modal-Dreher .two .right-content {
+	position: relative;
+	top: 173px;
+	text-align: center;
+
+}
+#Modal-Dreher .two .right-content h2 {
+	font-size: 45px;
+	line-height: normal;
+}
+#Modal-Dreher .two .right-content p {
+	font-size: 20px;
+}
+#Modal-Dreher .bottom {
+	background: #fff;
+	padding: 20px;
+	height: 45%;
+}
+/*
+#Modal-Spencer .modal-video {
+	position: relative;
+	top: 10%;
+}
+*/
+/* END GLOBAL MODALS
+
+/* PIPELINE */
+.phase2 {
+				color: #fff;
+			    /*cursor: pointer;*/
+			    font-size: 1.0em;
+			    font-weight: bold;
+			    left: 225px;
+			    position: absolute;
+			    text-transform: uppercase;
+			    top: 110px;
+			}
+			.phase3 {
+				color: #fff;
+			    /*cursor: pointer;*/
+			    font-size: 1.0em;
+			    font-weight: bold;
+			    left: 225px;
+			    position: absolute;
+			    text-transform: uppercase;
+			    top: 150px;
+			}
+			.under-review {
+				color: #fff;
+			    /*cursor: pointer;*/
+			    font-size: 1.0em;
+			    font-weight: bold;
+			    left: 225px;
+			    position: absolute;
+			    text-transform: uppercase;
+			    top: 190px;
+			}
+				.pipeline a {
+					color: #fff;
+					text-decoration: none;
+				}
+					.pipeline a:hover { text-decoration: underline; }
+			.phase2-leftcol {
+				color: #fff;
+			    /*cursor: pointer;*/
+			    left: 495px;
+			    position: absolute;
+			    top: 5px;
+			    text-align: left;
+			}
+				.phase2-leftcol li {
+
+				}
+					.phase2-leftcol li a {
+
+					}
+						.phase2-leftcol li a:hover { text-decoration: underline; }
+			.phase2-rightcol {
+				color: #fff;
+			    /*cursor: pointer;*/
+			    left: 630px;
+			    position: absolute;
+			    top: 5px;
+			    text-align: left;
+			}
+				.phase2-rightcol li {
+
+				}
+					.phase2-rightcol li a {
+
+					}
+						.phase2-rightcol li a:hover { text-decoration: underline; }
+			.phase3-leftcol {
+				color: #fff;
+			    /*cursor: pointer;*/
+			    left: 495px;
+			    position: absolute;
+			    top: 105px;
+			    text-align: left;
+			}
+			.phase3-middlecol {
+				color: #fff;
+			    /*cursor: pointer;*/
+			    left: 630px;
+			    position: absolute;
+			    top: 105px;
+			    text-align: left;
+			}
+			.phase3-rightcol {
+				color: #fff;
+			    /*cursor: pointer;*/
+			    left: 755px;
+			    position: absolute;
+			    top: 105px;
+			    text-align: left;
+			}
+			
+			.phase3-rightcol2 {
+				color: #fff;
+			    /*cursor: pointer;*/
+			    left: 880px;
+			    position: absolute;
+			    top: 105px;
+			    text-align: left;
+			}
+			.phase3-rightcol3 {
+				color: #fff;
+			    /*cursor: pointer;*/
+			    left: 1005px;
+			    position: absolute;
+			    top: 105px;
+			    text-align: left;
+			}
+			
+			.under-review-leftcol {
+				color: #fff;
+			    /*cursor: pointer;*/
+			    left: 495px;
+			    position: absolute;
+			    top: 205px;
+			    text-align: left;
+			}
+			.under-review-rightcol {
+				color: #fff;
+			    /*cursor: pointer;*/
+			    left: 630px;
+			    position: absolute;
+			    top: 205px;
+			    text-align: left;
+			}
+			#Modal-Dreher .modal-body,
+			#Modal-Spencer .modal-body,
+			#Modal-Oncology .modal-body,
+			#Modal-Hepatitis .modal-body,
+			#Modal-Diabetes .modal-body,
+			#Modal-Infectives .modal-body,
+			#Modal-Vaccines .modal-body,
+			#Modal-Alzheimer .modal-body,
+			#Modal-Discovery .modal-body,
+			#Modal-Preclinical .modal-body,
+			#Modal-Clinical .modal-body,
+			#Modal-Drugapproval .modal-body {
+				overflow-x: hidden;
+			}
+
+/* END OF PIPELINE */
+
+			.share-icon {
+				background: url('http://www.merck.com/images/share-icon-research.png') no-repeat;
+				color: #fff;
+			    font-size: 1.5em;
+			    padding-right: 25px;
+			    position: relative;
+			    text-align: right;
+			    top: 148px;
+			    right: 0;
+			    z-index: 4;
+			    width: 120px;
+			    height: 42px;
+			}
+	        .share-icon:hover { 
+	        	background: url('http://www.merck.com/images/share-icon-green-research.png') no-repeat;
+	        	cursor: pointer; 
+	        	text-align: right;
+	        }
+
+			[data-sr] { visibility: hidden; }
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+.explore {
+  position: relative;
+  bottom: 0;
+  top: 54%;
+  /*left: 37%;*/
+  left: 0;
+  width: 100%;
+  /*height: 66px;*/
+  z-index: 1;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
+
+}
+.arrow {
+  position: relative;
+  cursor: pointer;
+  bottom: 0;
+  top: 0;
+  /*left: 50%;*/
+  left: 0;
+  /*margin-left: -35px;*/
+  text-align: center;
+  /*width: 80px;*/
+  width: 100%;
+  height: 45px;
+  z-index: 1;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yOTMuNzUxLDQ1NS44NjhjLTIwLjE4MSwyMC4xNzktNTMuMTY1LDE5LjkxMy03My42NzMtMC41OTVsMCwwYy0yMC41MDgtMjAuNTA4LTIwLjc3My01My40OTMtMC41OTQtNzMuNjcyICBsMTg5Ljk5OS0xOTBjMjAuMTc4LTIwLjE3OCw1My4xNjQtMTkuOTEzLDczLjY3MiwwLjU5NWwwLDBjMjAuNTA4LDIwLjUwOSwyMC43NzIsNTMuNDkyLDAuNTk1LDczLjY3MUwyOTMuNzUxLDQ1NS44Njh6Ii8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMjIwLjI0OSw0NTUuODY4YzIwLjE4LDIwLjE3OSw1My4xNjQsMTkuOTEzLDczLjY3Mi0wLjU5NWwwLDBjMjAuNTA5LTIwLjUwOCwyMC43NzQtNTMuNDkzLDAuNTk2LTczLjY3MiAgbC0xOTAtMTkwYy0yMC4xNzgtMjAuMTc4LTUzLjE2NC0xOS45MTMtNzMuNjcxLDAuNTk1bDAsMGMtMjAuNTA4LDIwLjUwOS0yMC43NzIsNTMuNDkyLTAuNTk1LDczLjY3MUwyMjAuMjQ5LDQ1NS44Njh6Ii8+DQo8L3N2Zz4=);
+  background-size: contain;
+  background-position: center center;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: bold;
+  color: #00958f;
+  text-shadow: 1px 1px 1px #333;
+}
+
+.bounce {
+  /*-moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;*/
+  -moz-animation: bounce 2s;
+  -webkit-animation: bounce 2s;
+  animation: bounce 2s;
+}
+/*.start-arrow {
+	bottom: 35%;
+	position: relative;
+	width: 354px;
+}*/
+.start-arrow-container {
+    bottom: 20%;
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+}
+.start-arrow {
+    position: relative;
+    width: 354px;
+    z-index: 2;
+}
+.start-arrow img:hover { cursor: pointer; }
+.down-arrow-container {
+	/*position: absolute;
+	bottom: 11%;
+	width: 100%;*/
+}
+.down-arrow {
+	background: transparent url("http://www.merck.com/images/arrow_down.png") no-repeat;
+	border-color: transparent;
+	height: 36px;
+	width: 67px;
+	cursor: pointer;
+	position: relative;
+	margin: 0 auto;
+}
+
+#four-col-img {
+	width: 260px;
+	margin: -8px 0 8px 0;
+}
+
+@media (min-width:1280px){
+	#fp-nav { top: 38%; }
+	.start-arrow-container { bottom: 30%; }
+	.start-arrow img { height: 100px; }
+		.controls {
+		top: 63%;
+		left: 47%;
+	}
+	#section1 h2, #section2 h2, #section5 h2, #section6 h2 { font-size: 40px; }
+	#section2 #slide1 .top #RDProcessVideo { top: 30%; }
+	#section3 #slide1 .top { height: 60%; }
+	#section3 #slide1 .bottom { height: 45%; }
+	#section4 #slide1 .bottom { height: 60%; }
+		#section4 #slide1 .inner { top: 20%; margin-top: 20px;}
+		#section4 #slide1 .top p { padding: 0 130px; }
+	#section4 #slide1 .top { height: 40%; }
+	#section5 #slide1 .top.loadImage { background-position: 0 30px; }
+	#section6 #slide1 .top.loadImage { background-position: 0 30px; }
+}
+@media (max-width: 1280px) {
+	#section1 #slide1 .top {
+	    height: 50%;
+	}
+	#section5 #slide1 .top, #section6 #slide1 .top {
+	    height: 55%;
+	}
+	#section1 #slide1 .top.loadImage {
+	    background-position: center 50px;
+	}
+	#section5 #slide1 .top.loadImage, #section6 #slide1 .top.loadImage {
+	    background-position: center 70px;
+	}
+	#section1 #slide1 .bottom, #section5 #slide1 .bottom {
+	    height: 53%;
+	}
+	#section6 #slide1 .bottom {
+	    height: 30%;
+	}
+	#section6 .top { height: 45%; }
+	#section6 .bottom {
+		background: #fff;
+		padding: 20px;
+		height: 35%;
+	}
+}
+@media (max-width: 1440px){
+	#Modal-Scientists .modal-body .carousel-indicators { bottom: 20%; }
+}
+@media (max-width: 1400px){
+	#Modal-Scientists .modal-body .carousel-indicators { bottom: 25%; }
+}
+@media screen and (min-width: 1700px) {
+	/*.layer {
+		left: 43%;
+	}*/
+	/*
+	.start-arrow {
+		bottom: 40%;
+	}
+	*/
+	.ie11 .start-arrow {
+		bottom: 50%;
+	}
+	.ie11 .controls { position: absolute; }
+}
+@media (min-width: 1600px){
+	#fp-nav { top: 30%; }
+
+	#section3 #slide1 .top { height: 60%; }
+	#section3 #slide1 .bottom { height: 45%; }
+	#section4 #slide1 .bottom { height: 58%; }
+	#section4 #slide1 .top { height: 42%; }
+
+}
+@media (max-width: 1199px){
+	#research-menu .left-space {
+	    margin-left: 112px;
+	}
+	#research-menu li a {
+	    font-size: 17px;
+	}
+}
+@media (max-width: 1024px){
+	.modal-content { background: #37424A; }
+	#myModal-myVideo.modal {
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		overflow: hidden;
+		outline: 0;
+	}
+		#myModal-myVideo.modal .modal-dialog {
+			position: relative;
+			width: 800px;
+			margin: 30px auto;
+		}
+			#myModal-myVideo.modal .modal-dialog .modal-content {
+				background-image: none;
+				position: relative;
+				background-color: #fff;
+				border: none;
+				border-radius: 6px;
+				outline: 0;
+			}
+			#myModal-myVideo.modal .modal-dialog .modal-content .modal-header {
+				background: transparent;
+				position: relative;
+				padding: 4px 15px;
+				border-bottom: 1px solid #e5e5e5;
+				width: 100%;
+			}
+			#myModal-myVideo.modal .modal-dialog .modal-content .modal-body {
+				position: relative;
+				padding: 15px;
+			}
+	#Modal-Scientists #myCarousel .carousel-inner .ayesha-picture .fill {
+		background-position: 0 -50px;
+	}
+	
+	.share-icon { top: 125px; }
+	#fp-nav { display: none !important; }
+	/*.layer h1,*/
+	.layer .space-bottom-25px { margin-bottom: 50px !important; }
+	.layer h3 { font-size: 2em; }
+	h3 { font-size: 20px; }
+	#research-menu .left-space { margin-left: 150px; }
+	#research-menu li a { font-size: 16px; }
+	.start-arrow img {
+		width: 70px;
+	}
+	.effect-desc p { font-size: 16px; }
+	.effect-desc2 p { font-size: 20px; }
+	.down-arrow-container { bottom: 5%; }
+	.down-arrow {
+		background: transparent url("http://www.merck.com/images/arrow_down.png") no-repeat scroll 0 0 / 40px auto;
+	    border-color: transparent;
+	    cursor: pointer;
+	    margin: 0 auto;
+	    position: relative;
+	    width: 40px;
+	}
+	.carousel-scientists .item.scientists .carousel-caption {
+		right: auto;
+		width: 75%;
+		top: 15%;
+	}
+	.carousel-scientists .carousel-indicators { bottom: 27%; }
+	.carousel-scientists .carousel-indicators li h2 { font-size: 18px; }
+	.carousel-scientists .carousel-inner .carousel-caption {
+		top: 28%;
+		width: 100%;
+		right: 0;
+		padding: 0 25px;
+	}
+	#Modal-Scientists #myCarousel .carousel-inner .ayesha-picture .carousel-caption { top: 25%;}
+	.phase2,
+	.phase3,
+	.under-review { left: 130px; }
+	.phase2-leftcol,
+	.phase3-leftcol,
+	.under-review-leftcol { left: 400px; }
+	.phase2-rightcol,
+	.phase3-middlecol,
+	.under-review-rightcol { left: 550px; }
+	.phase3-rightcol { left: 700px; }
+	/*#section0.section { 
+		background-image: url('/images/research/research-introvideo.jpg'); 
+		background-size: cover;
+		background-repeat: no-repeat;
+	}*/
+	#section0.section { 
+		background-color: #37424A;
+		background-image: url('http://www.merck.com/images/research/light-diffusion.png');
+		background-repeat: no-repeat;
+		background-position: left top; 
+		background-size: auto;
+	}
+	.background-layer { background: transparent !important; }
+	.layer-container { 
+		display: block !important;
+		top: 30%; }
+	.explore-journey {
+
+	}
+		.explore-journey p {
+		    border: 1px solid #63ceca;
+		    color: #63ceca;
+		    font-size: 30px;
+		    margin: 0 auto;
+		    padding: 30px;
+		    text-align: center;
+		    width: 55%;
+		}
+	.layer { width: 85%; }
+	.layer h3 { font-size: 3em; }
+	#Modal-Dreher .one .left-content {
+		bottom: -86px;
+		width: 70%;
+		left: 15%;
+	}
+	#Modal-Dreher .two .right-content { top: 0; }
+	#Modal-Dreher .two .right-content h2 { font-size: 35px; }
+	#Modal-Discovery .modal-body img,
+	#Modal-Preclinical .modal-body img,
+	#Modal-Clinical .modal-body img,
+	#Modal-Drugapproval .modal-body img { width: 400px; }
+	#section1 #slide1 .top.loadImage {
+		background-image: url('http://www.merck.com/images/research/our-people-image.jpg');
+	    background-position: center 70px;
+	}
+	.carousel .item.scientists .carousel-caption .carousel-title h3 { font-size: 1.5em; }
+	#section1 h2, #section2 h2, #section5 h2, #section6 h2 { 
+		opacity: 1 !important;
+		font-size: 35px; 
+	}
+	#section1 p, #section2 p, #section3 p, #section4 p, #section5 p, #section6 p { opacity: 1 !important; }
+	#section1 .inner p,
+	#Modal-Publications p,
+	#section2 .inner p,
+	#section3 .inner p,
+	#section4 .inner p,
+	#section5 .inner p,
+	#section6 .inner p { font-size: 20px; }
+	#section2 .bottom h3 { opacity: 1 !important; }
+	#section4 #slide1 .top { height: 42%; }
+	/*#section4 #slide1 .top .inner {
+		top: 30%;
+	}*/
+	#section4 #slide1 .top h2 {
+		font-size: 25px;
+		line-height: normal;
+	}
+	#section4 #slide1 .bottom { height: 58%; }
+	#section5 #slide1 .top.loadImage {
+		background-image: url('http://www.merck.com/images/research/clinical_trials_background.jpg');
+	    background-position: center 70px;
+	}
+	#section6 #slide1 .top.loadImage {
+		background-image: url('http://www.merck.com/images/research/work_with_us_background.jpg');
+	    background-position: center 50px;
+	}
+	#section6 .top { height: 45%; }
+	#section6 .bottom { height: 45%; }
+}
+
+@media (max-width: 768px){
+	.layer h3 { font-size: 3em; }
+	.modal-body { -webkit-overflow-scrolling: touch; }
+	.fadeIn { animation-name: none; }
+	.animated {
+		animation-duration: 0s;
+		animation-fill-mode: none;
+	}
+	iframe.spencer-video { width: 100%; }
+	.merck-button { margin-bottom: 30px; }
+	#myModal-myVideo.modal .modal-dialog {
+		position: relative;
+		width: 600px;
+		margin: 30px auto;
+	}
+	#section0.section,
+	#section0.section .fp-tableCell { height: 550px !important; }
+	#section2.section { height: 750px !important; }
+	#section3.section { height: 960px !important; }
+	#section4.section { height: 350px !important; }
+	#section5 .intro .inner p,
+	#section6 .intro .inner p { 
+		font-size: 35px;
+		color: #37424A;
+		text-align: left;
+	}
+	#section5 .intro .inner h2 { 
+		font-size: 35px;
+		color: #37424A;
+		text-align: left;
+		font-weight: normal;
+	}
+	#section5 .intro .inner h2.heading {
+		color: #00877C;
+		font-size: 50px;
+		line-height: normal;
+		font-weight: bold;
+	}
+	.header-container { height: 80px; }
+	.research-menu-container { display: none; }
+	#fp-nav,
+	#fp-nav ul,
+	#fp-nav ul .fp-tooltip { display: none !important; }
+	.down-arrow-container,
+	.arrow { display: none; }
+	/*#section0.section { 
+		background-color: #37424A;
+		background-image: url('/images/research/light-diffusion.png');
+		background-repeat: no-repeat;
+		background-position: left top; 
+		background-size: auto;
+	}*/
+	.share-icon {
+		position: absolute;
+		top: 2%;
+	}
+	.background-layer { 
+		background: transparent !important;
+		display: none !important;
+	}
+	.layer-container {
+		position: relative;
+		top: 10%;
+		padding: 0 10px;
+	}
+	.layer-container .layer { width: 100%; }
+	.layer-container .layer h1,
+	.layer-container .layer h2,
+	.layer-container .layer h3 { 
+		text-align: left; 
+		font-weight: normal;
+	}
+	.layer-container .layer h1 {
+		font-size: 4.5em;
+		font-weight: normal;
+		margin-bottom: 20px;
+		margin-top: 50px;
+		text-transform: uppercase;	
+	}
+	.explore-journey {
+
+	}
+		.explore-journey p {
+			padding: 15px;
+			border: 1px solid #63ceca;
+			color: #63ceca;
+			font-size: 30px;
+			margin: 0;
+			text-align: center;
+			width: 55%;
+		}
+	#introVideo {
+		width: 100%;
+		height: 100%;
+	}
+	.start-arrow-container { display: none !important; }	
+	#fp-nav { display: none; }
+	/*.section,
+	.fp-tableCell {
+		height: auto !important;
+	}*/
+	#section1 #slide1 .top,
+	#section1 #slide1 .top.loadImage {
+		/*background: transparent;*/
+		background: url('http://www.merck.com/images/research/our-people-image.jpg') no-repeat 0 0;
+		height: 40%;
+	}
+	#section1 #slide1 h2,
+	#section5 #slide1 h2,
+	#section6 #slide1 h2,
+	#section6 #slide1 .top p { color: #fff !important; }
+	/*#section6 #slide1 .bottom p { color: #333 !important;}*/
+	#section1 #slide1 .bottom { height: auto; }
+	/*#section1 #slide1 .bottom p { text-align: center; }*/
+	#section1 h2.heading {
+		color: #00877c;
+		font-size: 3.5em;
+		margin-top: 60px;
+	}
+	#section1 h2 {
+		color: #37424A;
+		text-align: left;
+	}
+	#section1 p {
+		color: #37424A;
+		text-align: center;
+	}
+	.carousel-scientists .carousel-indicators { bottom: 0; }
+	.carousel-scientists .item.scientists .carousel-caption {
+		left: 0 !important;
+		width: 100%;
+		top: 45%;
+	}
+	#Modal-Dreher .dreher-img { top: 0; }
+	#Modal-Dreher .dreher-img img { width: 500px; }
+	#Modal-Dreher .dreher-img .img-responsive { display: inline; }
+	#Modal-Dreher .one .left-content { bottom: 10%; }
+	#Modal-Dreher .two .right-content p {
+		font-size: 20px;
+		padding: 0 20px;
+	}
+	#section2 #slide1 .top,
+	#section2 #slide1 .top.loadImage {
+		/*background-image: none !important;
+		background-color: transparent;*/
+		background: url('http://www.merck.com/images/research/research-bubble.jpg') no-repeat;
+		background-position: -100px 0;
+		/*background: url('/images/research/how_we_work_background.jpg') no-repeat;*/
+		height: 40%;
+	}
+	#section2 .bottom h3 {
+		opacity: 1 !important;
+	}
+	#section2 h2.heading {
+		color: #37424a;
+		font-size: 3.5em;
+		margin-top: 60px;
+	}
+	#section2 #slide1 .bottom { 
+		/*padding: 20px 0;*/
+		height: auto;
+	}
+	#section2 #slide1 .bottom .candidate-discovery,
+	#section2 #slide1 .bottom .preclinical-development,
+	#section2 #slide1 .bottom .clinical-development,
+	#section2 #slide1 .bottom .regulatory-review-monitoring {
+		margin-bottom: 20px;
+	}
+	#section2 h2,
+	#section p { text-align: left; }
+
+	#section3 #slide1 .top { 
+		background: #37424A;
+		height: 100%; 
+	}
+		#section3 #slide1 .top .one,
+		#section3 #slide1 .top .two,
+		#section3 #slide1 .top .three,
+		#section3 #slide1 .top .four,
+		#section3 #slide1 .top .five,
+		#section3 #slide1 .top .six { 
+			height: 20%;
+		}
+			#section3 #slide1 .top h2.heading {
+				font-size: 3.5em;
+			}
+			#section3 #slide1 .top p {
+				font-size: 30px;
+				padding: 0 .5em 2.5em .5em;
+			}
+
+	#section3 #slide1 .bottom {
+		height: 25%;
+	}
+	#section4 #slide1 {
+		background: url('http://www.merck.com/images/research/pipeline_background.jpg') no-repeat 0 -200px;
+	}
+	#section4 #slide1 .top h2.heading {
+		color: #00877c;
+		font-size: 3.5em;
+		margin-top: 60px;
+	}
+	.pipelineIframeLink {
+	    border: 1px solid #37424a;
+	    color: #37424a !important;
+	    display: table;
+	    margin: 50px auto;
+	    padding: 15px;
+	    width: 50%;
+	}
+		.pipelineIframeLink:hover { text-decoration: none; }
+	#section5 #slide1 .top,
+	#section5 #slide1 .top.loadImage {
+		/*background-image: none !important;
+		background-color: transparent;
+		height: auto;*/
+		background: url('http://www.merck.com/images/research/clinical_trials_background.jpg') no-repeat 0 0;
+		height: 40%;
+	}
+		#section5 h2.heading {
+			color: #00877c;
+			font-size: 3.5em;
+			margin-top: 60px;
+		}
+	#section6 .top,
+	#section6 .top.loadImage {
+		/*background-image: none !important;
+		background-color: transparent;
+		height: auto;*/
+		background: url('http://www.merck.com/images/research/work_with_us_background.jpg') no-repeat 0 0;
+		height: 40%;
+	}
+		#section6 h2.heading {
+			color: #00877c;
+			font-size: 3.5em;
+			margin-top: 60px;
+			text-align: left;
+			text-transform: uppercase;
+		}
+	#section1 .middle, 
+	#Modal-Publications .middle, 
+	#section2 .middle, 
+	/*#section3 .middle,
+	#section4 .middle, */ 
+	#section5 .middle, 
+	#section6 .middle {
+		/*position: relative;
+		display: block;
+		bottom: none;
+		vertical-align: top;*/
+		vertical-align: bottom;
+	}
+	#section4 .middle { vertical-align: top; }
+	#section3 .middle { display: table-cell; }
+	#section1 #slide1 .inner, 
+	#Modal-Publications .inner, 
+	#section2 #slide1 .inner, 
+	#section5 #slide1 .inner, 
+	#section6 .inner {
+		position: relative;
+		bottom: none;
+	}
+	#section6 .bottom { bottom: 45%; }
+	#section6 .bottom h3 { 
+		margin-bottom: 10px; 
+		margin-top: 10px;
+	}
+	@keyframes fadeInDown {
+		0% {
+		    opacity: 1;
+		    transform: none;
+		}
+		100% {
+		    opacity: 1;
+		    transform: none;
+		}
+	}
+}
+@media (max-width: 767px){
+	#preloader .loader {
+		left: 40%;
+		top: 40%;
+	}
+	.header-container { height: 65px; }
+	.header-container .logo img { width: 150px; }
+	.layer-container h1 { font-size: 3.5em; }
+	.layer-container h3 { font-size: 2em; }
+	.explore-journey p { width: 75%; }
+	#myModal-myVideo.modal .modal-dialog { 
+		margin: 10px auto; 
+		width: 100%; 
+	}
+	#section1.section { height: 975px !important; }
+	#section2.section { height: 650px !important; }
+	#section5.section { height: 800px !important; }
+	#section6.section { height: 1500px !important; }
+	#section1 #slide1 .top,
+	#section1 #slide1 .top.loadImage,
+	#section2 #slide1 .top,
+	#section2 #slide1 .top.loadImage,
+	#section5 #slide1 .top,
+	#section5 #slide1 .top.loadImage,
+	#section6 #slide1 .top,
+	#section6 #slide1 .top.loadImage { height: 30%; }
+	#section6 #slide1 .top,
+	#section6 #slide1 .top.loadImage { background-position: -300px 50px; }
+	#section1 h2.heading, #section2 h2.heading, #section3 #slide1 .top h2.heading, #section4 h2.heading, #section5 h2.heading, #section6 h2.heading { font-size: 3em; }
+	#section1 h2, #section2 h2, #section3 #slide1 .top p, #section5 h2, #section6 h2, #section6 .intro .inner p { font-size: 25px; }
+	#section3 #slide1 .top .one,
+	#section3 #slide1 .top .two,
+	#section3 #slide1 .top .three,
+	#section3 #slide1 .top .four,
+	#section3 #slide1 .top .five,
+	#section3 #slide1 .top .six { height: 10%; }
+	#section3 #slide1 .top p { padding: 0 .5em .7em .5em; }
+	#section4 #slide1 { background-position: 0 0; }
+	#section1 #slide1 .bottom h3,
+	#section2 #slide1 .bottom h3,
+	#section5 #slide1 .bottom h3,
+	#section6 #slide1 .bottom h3 { font-size: 30px; }
+	#section1 #slide1 .bottom h3 { margin-top: 50px; }
+	#section2 #slide1 .top,
+	#section2 #slide1 .top.loadImage {
+		background-position: 0 0;
+	}
+	#Modal-Scientists .modal-header,
+	#Modal-Dreher .modal-header,
+	#Modal-Spencer .modal-header,
+	#Modal-Oncology .modal-header,
+	#Modal-Hepatitis .modal-header,
+	#Modal-Diabetes .modal-header,
+	#Modal-Infectives .modal-header,
+	#Modal-Vaccines .modal-header,
+	#Modal-Alzheimer .modal-header,
+	#Modal-Discovery .modal-header,
+	#Modal-Preclinical .modal-header,
+	#Modal-Clinical .modal-header,
+	#Modal-Drugapproval .modal-header {
+		position: relative;
+		height: 50px;
+		width: auto;
+		padding: 0;
+	}
+		#Modal-Scientists .modal-header .btn,
+		#Modal-Dreher .modal-header .btn,
+		#Modal-Spencer .modal-header .btn,
+		#Modal-Oncology .modal-header .btn,
+		#Modal-Hepatitis .modal-header .btn,
+		#Modal-Diabetes .modal-header .btn,
+		#Modal-Infectives .modal-header .btn,
+		#Modal-Vaccines .modal-header .btn,
+		#Modal-Alzheimer .modal-header .btn,
+		#Modal-Discovery .modal-header .btn,
+		#Modal-Preclinical .modal-header .btn,
+		#Modal-Clinical .modal-header .btn,
+		#Modal-Drugapproval .modal-header .btn {
+			padding: 45px 22px 0 7px;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	#Modal-Scientists .modal-body,
+	#Modal-Spencer .modal-body,
+	#Modal-Oncology .modal-body,
+	#Modal-Hepatitis .modal-body,
+	#Modal-Diabetes .modal-body,
+	#Modal-Infectives .modal-body,
+	#Modal-Vaccines .modal-body,
+	#Modal-Alzheimer .modal-body,
+	#Modal-Discovery .modal-body,
+	#Modal-Preclinical .modal-body,
+	#Modal-Clinical .modal-body,
+	#Modal-Drugapproval .modal-body {
+		position: relative;
+		width: auto;
+		height: 100%;
+		left: 0;
+		overflow-y: scroll;
+		padding-right: 0 !important;
+	}
+	#Modal-Dreher .modal-body {
+		position: relative;
+		width: auto;
+		height: 100%;
+		left: 0;
+		overflow-y: scroll;
+		padding-right: 0 !important;
+		padding-top: 20px;
+	}
+		#Modal-Oncology h2,
+		#Modal-Hepatitis h2,
+		#Modal-Vaccines h2,
+		#Modal-Diabetes h2,
+		#Modal-Infectives h2,
+		#Modal-Alzheimer h2,
+		#Modal-Discovery h2,
+		#Modal-Preclinical h2,
+		#Modal-Clinical h2,
+		#Modal-Drugapproval h2 {
+			font-size: 1em !important;
+		}
+		#Modal-Dreher .modal-body p,
+		#Modal-Spencer .modal-body p,
+		#Modal-Oncology .modal-body p,
+		#Modal-Hepatitis .modal-body p,
+		#Modal-Diabetes .modal-body p,
+		#Modal-Infectives .modal-body p,
+		#Modal-Vaccines .modal-body p,
+		#Modal-Alzheimer .modal-body p,
+		#Modal-Discovery .modal-body p,
+		#Modal-Preclinical .modal-body p,
+		#Modal-Clinical .modal-body p,
+		#Modal-Drugapproval .modal-body p {
+			font-size: 15px !important;
+		}
+		#Modal-Scientists .carousel-scientists .carousel-inner .scientists .mobile-slide {
+			background-size: cover;
+			height: 315px !important;
+			width: 767px !important;
+		}
+		#Modal-Dreher .modal-body .dreher-img {
+			top: 0;
+		}
+		#Modal-Dreher .modal-body .one .left-content {
+			bottom: 0;
+			position: relative;
+		}
+		#Modal-Dreher .modal-body .one .right-content {
+			top: 0;
+		}
+		#Modal-Dreher .modal-body img,
+		#Modal-Spencer .modal-body img,
+		#Modal-Oncology .modal-body img,
+		#Modal-Hepatitis .modal-body img,
+		#Modal-Diabetes .modal-body img,
+		#Modal-Infectives .modal-body img,
+		#Modal-Vaccines .modal-body img,
+		#Modal-Alzheimer .modal-body img,
+		#Modal-Discovery .modal-body img,
+		#Modal-Preclinical .modal-body img,
+		#Modal-Clinical .modal-body img,
+		#Modal-Drugapproval .modal-body img {
+			width: 200px;
+		}
+			#Modal-Dreher .modal-body .left-content img { width: auto; }
+		.small-text { font-size: 20px; }
+		#section6 .bottom { height: 55%; }
+
+}
+@media (max-width: 480px){
+	.large-text { font-size: 20px; }
+	.small-text { font-size: 15px; }
+	.mobile-image {}
+	#section1.section { height: 1100px !important; }
+	#section2.section { height: 650px !important; }
+	#section5.section { height: 650px !important; }
+	#section6.section { height: 1500px !important; }
+	#section1 #slide1 .bottom h3,
+	#section2 #slide1 .bottom h3,
+	#section5 #slide1 .bottom h3,
+	#section6 #slide1 .bottom h3 { font-size: 25px; }
+	.share-icon { top: 85px; }
+	.layer-container .layer h1 { font-size: 2.5em; }
+	.layer-container .layer h3 {
+		font-weight: normal;
+		font-size: 1.4em;
+		line-height: normal;
+	}
+	.explore-journey p { width: 100%; }
+	
+	#section1 #slide1 .top,
+	#section1 #slide1 .top.loadImage { background-position: -300px 0; }
+	#section1 h2.heading, #section2 h2.heading, #section4 h2.heading, #section5 h2.heading, #section6 h2.heading { font-size: 2.5em !important; }
+	#section1 h2, #section2 h2, #section5 h2, #section6 h2 { padding: 0; }
+	#section1 h2, #section2 h2, #section5 h2, #section6 h2, #section6 .intro .inner p { font-size: 20px !important; }
+	#Modal-Scientists .carousel-scientists .carousel-inner .scientists .mobile-slide {
+			background-size: cover;
+			height: 667px !important;
+			width: 375px !important;
+		}
+	#Modal-Oncology h2,
+	#Modal-Hepatitis h2,
+	#Modal-Vaccines h2,
+	#Modal-Diabetes h2,
+	#Modal-Infectives h2,
+	#Modal-Alzheimer h2,
+	#Modal-Discovery h2,
+	#Modal-Preclinical h2,
+	#Modal-Clinical h2,
+	#Modal-Drugapproval h2 {
+		font-size: 1.3em !important;
+	}
+	#section5 #slide1 .bottom h3 { opacity: 1 !important; }
+	#section6 .bottom { height: 58%; }
+	#section6 #slide1 .bottom h3 { font-size: 21px; }
+}

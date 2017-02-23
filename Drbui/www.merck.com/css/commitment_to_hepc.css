@@ -1,0 +1,755 @@
+body{
+	/*overflow: hidden;*/
+}
+
+sup { 
+	    line-height: 23px;
+}
+
+.mm-listview{
+	text-align: left;
+}
+
+
+.content-section { background: #fff; overflow: hidden;}
+.row.row-sm { background: #fff; }
+
+/* ==========================================================================
+   0. PAGE GLOBALS
+   ========================================================================== */
+	.shareBtn {
+		cursor: pointer;
+		position: relative;
+		z-index: 99;
+		width: 110px;
+		margin-top: 2%;
+		margin-right: 150px;
+	}
+	.shareBtn img {
+		max-width: 90%;
+	}
+    
+/* 0.1. HERO SECTION
+   ========================================================================== */
+	.plain-template .main-hero-section {
+		background-color: #ffffff;
+		margin-top: 106px;
+		background-image: url("http://www.merck.com/images/about/featured_stories/commitment_to_hepc/hcv_bg_hero.jpg");
+		background-repeat: no-repeat;
+		background-size: cover !important;
+		background-position: left top;
+		overflow: hidden;
+		background-size: 180%;
+		padding-bottom: 30px;
+	}
+	.plain-template .main-hero-section h1 {
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 55px;
+		position: relative;
+		line-height: 60px;
+		padding-bottom: 130px;
+		text-align: left;
+		padding-top: 60px;
+		opacity: 0;
+		top: 177px;
+		/*
+		filter: blur(10px);
+		  -webkit-filter: blur(10px);
+		  -moz-filter: blur(10px);
+		  -o-filter: blur(10px);
+		  -ms-filter: blur(10px);
+		  filter: url(#blur);
+		  filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius='10');
+		  */
+	}
+
+	.plain-template .main-hero-section span[class='blue']{
+		color:#64C7D1;
+	}
+	.plain-template .main-hero-section p {
+		font-size: 36px;
+		line-height: 28px;
+		padding-bottom: 10px;
+		top: 165px;
+    	position: relative;
+    	opacity: 0;
+    	line-height: normal;
+    	width: 80%;
+	}
+
+	.plain-template .main-hero-section img{
+		width: 180px;
+	}
+
+	.plain-template .main-hero-section .container{
+		position:relative;
+	}
+
+/* 0.2. DIVIDER SECTION
+   ========================================================================== */
+ 	
+	.plain-template .divider {
+		background-color: #293645;
+		padding: 40px 0px;
+	}
+ 	.plain-template .divider p {
+		color: white;
+		font-size: 28px;
+		font-weight: normal;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
+ 	}
+
+ 	.plain-template .divider.whiteBackground {
+		background-color: #ffffff;
+		padding: 40px 0px;
+	}
+
+	.plain-template .divider.whiteBackground p {
+		color: #000000;
+	}
+
+	.plain-template .divider.tealBackground {
+		background-color: #009793;
+		padding: 10px 0px;
+	}
+
+	.plain-template .divider.tealBackground p {
+		color: #ffffff;
+	}
+
+	.plain-template .divider.tealBackground p:nth-child(1){
+		padding-top:40px;
+	}
+
+	.plain-template .divider.tealBackground.patientsAndWorld{
+		padding-bottom: 40px;
+	}
+
+	.plain-template .divider.tealBackground.patientsAndWorld img{
+		width: 25%;
+		margin-left: auto;
+    	margin-right: auto;
+    	position: relative;
+    	top: -177px;
+    	opacity: 0;
+	}
+	
+	.plain-template .divider.tealBackground.patientsAndWorld h1{
+		font-size:22px;
+		color:#fff;
+		padding-top: 10px;
+	}
+
+	.plain-template .divider.whiteBackground {
+		background-color: #ffffff;
+		padding: 60px 0px;
+	}
+
+	.plain-template .divider.whiteBackground p {
+		color: #7684AA;
+	}
+
+	.plain-template .divider.whiteBackground.merckProud{
+		padding-top: 10px;
+	}
+
+	.plain-template .divider.whiteBackground.merckProud h1{
+		color:#7684AA ;
+		padding-top: 45px;
+		font-size: 30px;
+	}
+
+	.plain-template .divider.whiteBackground.merckProud p{
+		text-align: left;
+		padding-top: 0px;
+		font-size: 25px;
+	}
+
+	.plain-template .divider.whiteBackground.merckProud a:link{
+		color:#009894;
+		text-decoration: underline;
+	}
+	.plain-template .divider.whiteBackground.merckProud a:visited{
+		color:#009894;
+		text-decoration: underline;
+	}
+	.plain-template .divider.whiteBackground.merckProud a:active{
+		color:#009894;
+		text-decoration: underline;
+	}
+	.plain-template .divider.whiteBackground.merckProud img{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.plain-template .divider.whiteBackground.beakerSection img{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.plain-template .quoteSection{
+		background-color: #243444;
+	}
+
+	.plain-template .quoteSection h1{
+		color: #ffffff;
+	}
+
+
+    /* ELIAV BARR SECTION
+    ==========================================================================*/
+
+.plain-template .eliav-barr-section {
+		background-color: #ffffff;
+		background-image: url("http://www.merck.com/images/about/featured_stories/commitment_to_hepc/hcv_bg_barr.jpg");
+		background-repeat: no-repeat;
+		background-size: cover !important;
+		background-position: right top;
+		overflow: hidden;
+		background-size: 180%;
+		padding-bottom: 30px;
+		height: 400px;
+		position: relative;
+	}
+	.plain-template .eliav-barr-section h1 {
+	    color: #243444;
+	    font-size: 33px;
+	    position: relative;
+	    text-align: left;
+	    width: 80%;
+	    padding-top: 50px;
+	    font-weight: bold;
+	    line-height: initial;
+	}
+
+	.plain-template .eliav-barr-section span[class='blue']{
+		color:#64C7D1;
+	}
+	.plain-template .eliav-barr-section p {
+		font-size: 36px;
+		line-height: 28px;
+		padding-bottom: 10px;
+		top: 165px;
+    	position: relative;
+    	opacity: 0;
+    	line-height: normal;
+    	width: 80%;
+	}
+
+	.plain-template .eliav-barr-section img{
+		display:none;
+		width: 180px;
+	}
+
+	.plain-template .eliav-barr-section .container{
+		position:relative;
+	}
+
+
+	q, blockquote {
+		border:none;	
+		margin-bottom:-30px;
+		quotes: "“" "”" "‘" "’";
+	}
+
+	blockquote h1 {
+	    font-size:21px;
+	    
+	}
+
+	q:before, blockquote h1:before { 
+	    content: url("http://www.merck.com/images/about/featured_stories/commitment_to_hepc/open-quote.png");
+		padding-right: 5px;
+	} 
+	q:after, blockquote h1:after { 
+	    content: url("http://www.merck.com/images/about/featured_stories/commitment_to_hepc/close-quote.png");
+		padding-left: 5px;
+		padding-bottom:3px;
+	}
+
+	.plain-template .eliav-barr-section .imageCaption{
+		position:relative;
+		right:0px;
+		bottom:0px;	
+		height: 363px;
+	}
+	.plain-template .eliav-barr-section .imageCaption h1{
+		width:100%;
+		font-size: 13px;
+		text-align: right;
+		color:#000;
+		line-height: inherit;
+		position: absolute;
+    	bottom: 0px;
+	}
+
+
+	.plain-template .quoteSection .imageCaption{
+		position:relative;
+		right:0px;
+		bottom:0px;		
+	}
+	.plain-template .quoteSection .imageCaption h1{
+		width:100%;
+		font-size: 13px;
+		text-align: right;
+		color:#ffffff;
+		line-height: inherit;
+	}
+
+ 	/* 0.3 CONTENT-SECTION
+   ========================================================================== */
+
+	.plain-template .content-section {
+		padding: 5px 0px;
+	}
+	.plain-template .content-section .content-img {
+		display: inline-block;
+		float: right;
+		width: 35%;
+		padding: 30px;
+		margin-top: -18px;
+	}
+	.plain-template .content-section p {
+		font-size: 24px;
+		color: #213444;
+		/*padding-right: 15%;*/
+	}
+	.plain-template .content-section p.extra-pad {
+		padding-top: 20px;
+	}
+
+	.plain-template .content-section h1 {
+		text-align: center;
+		color: #008376;
+	    font-size: 57px;
+	    font-weight: bold;
+	    line-height: normal;
+	    letter-spacing: 4px;
+	}
+
+	.plain-template .content-section h2 {
+		font-size: 33px;
+		color: #7E7D7A;
+		font-weight: normal;
+		text-align: center;
+	}
+
+	.plain-template .content-section h3 {
+		color: #008376;
+	    font-size: 30px;
+	    font-weight: normal;
+	    line-height: normal;
+	    text-align: left;
+	}
+
+	.plain-template .content-section hr{
+		color: #000000;
+	    border-style: solid;
+    	border-color: black;
+    	border-width: 1px 0 0 0;
+	}
+
+
+
+
+   /*. misc
+   ========================================================================== */
+	.plain-template .content-section p.caption{
+		font-size: 14px;
+		padding: 0;
+	}
+	.plain-template .content-section .section1{
+		overflow: hidden;
+	}
+	#video1{
+		width: 100%;
+	}
+
+	#hillemanImageContainer{
+		overflow: hidden;
+		padding-left: 0px;
+	}
+
+	#hillemanImage{
+    	margin-left: auto;
+    	margin-right: auto;
+    	position: relative;	
+		margin-top: 30px;
+		margin-left: 0;
+	}
+
+	.plain-template .content-section .hillemanRow{
+		padding: 60px 0px;
+	}
+
+	.plain-template .content-section .center-content{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	.plain-template .content-section .callout1{
+		    right: -555px;
+		    opacity: 0;
+	}
+
+
+	.plain-template .content-section .campbellCallout{
+		padding-left: 0px;
+	}
+
+	.plain-template .content-section .campbellText p{
+		display: inline;
+	}
+
+	.examplesText{
+		/*margin-bottom: 50px;*/
+	}
+
+	.plain-template .main-hero-section .share-icon {
+	    position: absolute;
+	    top: 31px;
+	    right: 17%;
+	    width: 92px;
+	 }
+	.share-icon:hover { cursor: pointer; }
+
+	.extra-padding-top{
+		padding-top: 40px !important;
+	}
+
+
+
+	/* 	-0.9. IPAD PORTRAIT
+	========================================================================== */
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 		
+	
+		.plain-template .content-section h1{
+			letter-spacing: 0px;
+		}
+
+		.plain-template .content-section h2{
+			margin-top: 0px;	
+		}
+
+		.plain-template .eliav-barr-section h1{
+			font-size: 20px;
+			padding-top: 12px;
+		}
+		
+
+		
+
+	}
+
+	/* 	-0.9. IPAD LANDSCAPE
+	========================================================================== */
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 	
+		/*
+		.main-hero-section{
+			border:3px solid red;
+			padding-right: 0px;
+			margin-right: 0px;
+			background-color: blue;
+			width: 100%;
+
+		}*/
+		.plain-template .content-section h1{
+			letter-spacing: 0px;
+		}
+		.plain-template .content-section h2{
+			text-align: center;
+		}
+		
+	}
+}
+
+
+/* 	-0.9. LARGE DEVICES, WIDE SCREENS
+	========================================================================== */
+	@media only screen and (max-width : 1199px){
+		.plain-template .main-hero-section {
+			background-color: #ffffff;
+		}
+		.plain-template .main-hero-section h1 {
+		    font-size: 45px;
+			position: relative;
+			top: -20px;
+			line-height: 42px;
+			padding-bottom: 40px;
+		}
+		.shareBtn img {
+		    max-width: 70%;
+		}
+		.shareBtn {
+			right: 5%;
+		}
+
+		
+	}
+
+/* 	-1.0 MEDIUM DEVICES, DESKTOPS
+	========================================================================== */
+	@media only screen and (max-width : 991px){
+		.plain-template .main-hero-section {
+		    margin-top: 0px;
+		}
+		.plain-template .main-hero-section h1 {
+		    font-size: 32px;
+			position: relative;
+			top: -35px;
+			line-height: 35px;
+			padding-bottom: 10px;
+		}
+		.plain-template .divider {
+		    padding: 20px 0px;
+		}
+		.plain-template .divider p {
+			font-size: 24px;
+		}
+		.plain-template .content-section {
+		    padding: 30px 0px;
+		}
+		.plain-template .content-section p {
+			font-size: 18px;
+		}
+		.plain-template .content-section .content-img {
+			padding: 15px;
+			margin-top: -5px;
+		}
+		.plain-template .content-section h2 {
+			font-size: 50px;
+    		text-align: center;
+		}
+
+	}
+/* 	-1.2 SMALL DEVICES, TABLETS
+	========================================================================== */
+	@media only screen and (max-width : 767px){
+
+		.plain-template .main-hero-section h1 {
+		    font-size: 20px;
+			position: relative;
+			top: -5px;
+			line-height: 18px;
+			padding-top: 20px;
+			padding-bottom: 10px;
+		}
+		.plain-template .main-hero-section p {
+		    font-size: 20px;
+		    line-height: 28px;
+		    padding-bottom: 10px;
+		}
+		.plain-template .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.shareBtn {
+			width: 80px;
+			right: 0%;
+		}
+		.plain-template .divider {
+		    padding: 10px 0px;
+		}
+		.plain-template .divider p {
+		    font-size: 15px;
+		}
+		.plain-template .content-section p {
+		    font-size: 15px;
+		}
+		.plain-template .content-section h2 {
+		   font-size: 39px;
+		}
+
+
+		body{
+			text-align: center;
+		}
+
+		.plain-template .content-section p{
+			padding-right: 0px;
+		}
+
+
+		.plain-template .content-section h1{
+			letter-spacing: 0px;
+		}
+
+		.plain-template .main-hero-section .share-icon{
+		    right: 2%;
+		}
+
+		.plain-template .main-hero-section img{
+			width: 140px;
+		}
+
+		.plain-template  .divider p{
+			font-size: 18px;
+		}
+
+		.plain-template .eliav-barr-section .imageCaption{
+			right: 3%;
+		}
+
+		.plain-template .divider.tealBackground.patientsAndWorld p{
+			font-size: 20px;
+		}
+
+		.plain-template .beakerSection p{
+			font-size: 18px;
+		}
+
+		q:before, blockquote h1:before { 
+		    content: url("http://www.merck.com/images/about/featured_stories/commitment_to_hepc/open-quote-white.png");
+			padding-right: 5px;
+		} 
+		q:after, blockquote h1:after { 
+		    content: url("http://www.merck.com/images/about/featured_stories/commitment_to_hepc/close-quote-white.png");
+			padding-left: 5px;
+			padding-bottom:3px;
+		}
+
+		.plain-template .divider.whiteBackground.beakerSection img{
+			width: 50%;
+		}
+
+
+	}
+/* 	-1.3EXTRA SMALL DEVICES, PHONES
+	========================================================================== */
+	@media only screen and (max-width : 479px){
+    	.row .col-xxs-12 {
+    		width: 100% !important;
+    	}
+		.plain-template .main-hero-section {
+			padding: 0px 0px 20px;
+		}
+		.plain-template .main-hero-section h1 {
+		    font-size: 16px;
+		    position: relative;
+		    margin: 0px auto;
+		    padding-bottom: 0px;
+		    text-align: left;
+		}
+		.plain-template .main-hero-section .col-xs-12 {
+			padding: 0px;
+		}
+		.plain-template .main-hero-section p {
+		    font-size: 15px;
+		    line-height: 1.2em;
+		    padding-bottom: 10px;
+		}
+		.plain-template .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.shareBtn {
+			width: 70px;
+			right: 0;
+		}
+		.plain-template .divider {
+		    padding: 5px 0px;
+		}
+		.plain-template .divider p {
+		    font-size: 14px;
+		}
+		.plain-template .content-section .content-img {
+		    padding: 10px;
+		    width: 45%;
+		}
+		.plain-template .content-section p {
+		    font-size: 16px;
+		}
+		.plain-template .content-section h2 {
+		    font-size: 27px;
+		    width: 100%;
+		    right: -19px;
+		}
+		.plain-template .content-section {
+		    padding: 0px;
+		}
+
+		.plain-template .content-section h1{
+			font-size: 38px;
+		}
+		
+
+		body{
+			text-align: center;
+		}
+
+		.plain-template .content-section p{
+			padding-right: 0px;
+		}
+
+		
+		.plain-template .main-hero-section img{
+			width: 50%;
+		}
+
+		.plain-template .main-hero-section .share-icon{
+		    width: 34%;
+		    top: 10px;
+		    right: 2%;
+		}
+
+		.plain-template .main-hero-section img{
+			width: 78px;
+		}
+
+		.plain-template .content-section h1{
+			letter-spacing: 0px;
+		}
+
+		.plain-template  .divider p{
+			font-size: 18px;
+		}
+
+		.plain-template .eliav-barr-section h1{
+			font-size: 15px;
+		    width: 100%;
+		    text-align: right;
+		    line-height: initial;
+		}
+
+		.plain-template .divider.whiteBackground.merckProud p{
+			text-align: center;
+		}
+
+		.plain-template .divider.tealBackground.patientsAndWorld img
+		{
+			width: 50%;
+		}
+   
+		.plain-template .eliav-barr-section .imageCaption{
+			right: 3%;
+		}
+
+		.plain-template .divider.tealBackground.patientsAndWorld p{
+			font-size: 20px;
+		}
+
+		q:before, blockquote h1:before { 
+		    content: url("http://www.merck.com/images/about/featured_stories/commitment_to_hepc/open-quote-white.png");
+			padding-right: 5px;
+		} 
+		q:after, blockquote h1:after { 
+		    content: url("http://www.merck.com/images/about/featured_stories/commitment_to_hepc/close-quote-white.png");
+			padding-left: 5px;
+			padding-bottom:3px;
+		}
+
+		.shareBtn{
+			margin-right: 0px;
+		}
+
+		.plain-template .divider.whiteBackground.beakerSection img{
+			width: 70%;
+		}
+	
+	}

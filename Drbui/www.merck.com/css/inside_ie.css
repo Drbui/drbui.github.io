@@ -1,0 +1,39 @@
+.ie7 .secondary_navigation {
+	position: inherit;
+}
+.ie8 .modal {
+	/*width: 750px;	*/
+}
+
+.ie8 .searchBox { left: 400px !important; }
+.ie8 .searchBox input.text { width: 170px; }	
+.ie8 .megamenu {
+	padding-left: 0;
+}
+.ie8 .megamenu > LI .megamenu_drop {
+	padding-right: 26px;
+}
+.ie8 .secondary_navigation .menu-button {
+	font-size: 0.8em;
+	padding-right: 10px;
+	background-position-y: 1.8em;
+}
+
+.ie8 .utility-buttons {
+	
+}
+.ie8 .utility-buttons li.printButton a {
+	background: url('http://www.merck.com/images/btn-print.png') no-repeat;
+	height: 27px;
+	padding: 2px 0;
+}
+.ie8 .utility-buttons li.shareButton a {
+	background: url('http://www.merck.com/images/btn-share.png') no-repeat;
+	height: 27px;
+	padding: 2px 0;
+}
+.ie8 .utility-buttons li.textSizeButton a {
+	background: url('http://www.merck.com/images/btn-text-size-large-off.png') no-repeat;
+	height: 27px;
+	padding: 2px 0;
+}

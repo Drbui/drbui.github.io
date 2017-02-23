@@ -1,0 +1,359 @@
+.merck-green-text-color { color: #009994 !important; }
+
+.teal{
+    color: #1ca3a0;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+.row.no-gutter {
+    margin-right: 0;
+    margin-left: 0;
+}
+/* WORLDWIDE CAREER SITES */
+.worldwide-columns {   
+    -moz-column-width: 11.5em; /* Firefox */
+    -webkit-column-width: 11.5em; /* webkit, Safari, Chrome */
+    column-width: 11.5em;
+}
+.worldwide-columns ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.worldwide-columns ul li:first-child { margin-top: 0px; }
+/* END OF WORLDWIDE CAREER SITES */
+
+.shareBtn { margin-top: 3% !important; }
+.shareBtn {
+    cursor: pointer;
+    position: relative;
+    z-index: 99;
+    width: 110px;
+    margin-top: 10px !important;
+}
+.shareBtn img { width: 70%; }
+
+.section1 {
+    padding: 25px 0 300px 0; 
+    background-color: #ffffff;
+}
+
+.footer_container p { font-size: inherit; }
+h1 {
+    color: #fff;
+    font-size: 35px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1.2em;
+}
+
+p {
+    font-size: 20px;
+    line-height: normal;
+}
+
+.hero_container {
+    background-color: #337478;
+    background-image: url('http://www.merck.com/images/careers/application-tips/careers_header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 235px;
+}
+.hero_container .page-title {
+    bottom: 10px;
+    position: absolute;
+}
+
+/***** Search form **********/
+.search_jobs .list-inline>li {
+    vertical-align: middle;
+}
+
+.search_jobs{
+    padding: 5px 30px 5px 30px;
+}
+
+/*#keywordsearch-q {
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+    -moz-border-radius: 10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
+}*/
+
+/*.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+    border-right:0; 
+    box-shadow:0 0 0; 
+    border-color:#ccc;
+}
+.stylish-input-group button{
+    border: 0;
+    background:transparent;
+}
+
+.input-group-addon:last-child {
+    border-radius: 0 10px 10px 0 !important;
+    -moz-border-radius:  0 10px 10px 0 !important;
+    -webkit-border-radius:  0 10px 10px 0 !important;
+}*/
+
+#searchform {
+    margin-bottom: 15px;
+}
+
+/* button learn more  */
+.btn-more {
+    margin-top: 10px;
+    background-color: #009894;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.btn-more:visited {
+    background-color: #009894;
+    color: #ffffff;
+}
+
+.btn-more:hover {
+    background-color: #009894;
+    color: #ffffff;
+}
+
+.bg-image{
+     background: #EAE3DB url("http://www.merck.com/images/careers/compensation-benefits/stairwell-bg.jpg") no-repeat scroll 50% top / cover;
+    background-size: cover;
+    max-height: 750px;
+    height: 750px;
+}
+
+.box1{
+    background-color: #9aaf3c;
+    color: #ffffff;
+    border: 15px solid transparent;
+    background-clip:padding-box;
+    margin-top: -280px;
+}
+
+.box1 h2{
+    color: #ffffff;
+    padding-top: 5px;
+}
+
+.box2 h2{
+    color: #ffffff;
+    padding-top: 5px;
+}
+
+.box2{
+    background-color: #50bdc8;
+    color: #ffffff;
+    border: 15px solid transparent;
+    background-clip:padding-box;
+    margin-top: -280px;
+}
+
+.box-content1{
+    padding: 0 20px 146px 20px;
+}
+
+.box-content2{
+    padding: 0 20px 20px 20px;
+}
+
+.icon {
+    float: left;
+   padding-right: 1em;
+}
+
+
+.benefits h2{
+    color: #243444;
+}
+
+.benefits p{
+    color: #243444;
+}
+
+@media (max-width: 1499px) {
+    .box-content1 {
+        padding: 0 20px 180px 20px;
+    }
+
+    .bg-image {
+         background: #EAE3DB url("http://www.merck.com/images/careers/compensation-benefits/stairwell-bg.jpg") no-repeat scroll 63% top / cover;
+        background-size: cover;
+        /*max-height: 950px;
+        height: 950px;*/
+        height: 100%;
+        max-height: 100%;
+        padding-bottom: 80px;
+    }
+
+
+}
+
+
+/*  -0.9. LARGE DEVICES, WIDE SCREENS
+    ========================================================================== */
+    @media (max-width: 1199px){
+        .hero_container {
+            background-position: center center;
+        }
+
+        
+    }
+
+
+
+/*  -1.0 MEDIUM DEVICES, DESKTOPS
+    ========================================================================== */
+    @media (max-width: 991px){
+        .shareBtn {
+        margin-top: 10px !important;
+        }
+        .shareBtn img {
+            width: 72px;
+        }
+
+        .bg-image {
+            background-image: none;
+            /*max-height: 820px;
+            height: 820px;*/
+            height: 100%;
+            max-height: 100%;
+            padding-bottom: 40px;
+
+         }
+
+
+        .box2{
+            margin-top: -180px;
+        }
+        
+
+    }
+
+
+/*  -1.2 SMALL DEVICES, TABLETS
+    ========================================================================== */
+    @media (max-width: 767px) {
+    .shareBtn {
+            width: 60px;
+        }
+        .shareBtn img { width: 100%; }
+        .intro-statement {
+            font-size: 26px;
+        }
+
+         .bg-image{
+            background-image: none;
+           /* max-height: 850px;
+            height: 850px;*/
+            height: 100%;
+            max-height: 100%;
+            padding-bottom: 30px;
+        }
+    }
+
+    @media (max-width: 600px) {
+
+         .bg-image{
+            background-image: none;
+           /* max-height: 1000px;
+            height: 1000px;*/
+            height: 100%;
+            max-height: 100%;
+        }
+
+    }
+
+/*  -1.3EXTRA SMALL DEVICES, PHONES
+    ========================================================================== */
+   @media (max-width: 480px) {
+
+
+    .hero_container{
+       /* height: 180px;*/
+        background-position: -705px center;
+    }
+
+    .hero_container .page-title h1{
+        line-height: 1em;
+    }
+
+    /*.shareBtn {
+        margin-top: 10px !important;
+        right: 42%;
+    }*/
+
+    .shareBtn {
+        margin-top: 5px !important;
+    }
+
+    .box-content1 {
+        padding: 0 5px 20px 10px;
+    }
+
+    .box-content2 {
+        padding: 0 5px 20px 10px;
+    }
+
+    h2{
+        font-size: 27px;
+    }
+
+    .icon img{
+        width: 40px;
+        height: 40px;
+    }
+
+   .bg-image{
+        background-image: none;
+       /* max-height: 1370px;
+        height: 1370px;*/
+        height: 100%;
+        max-height: 100%;
+        padding-bottom: 20px;
+    }
+
+
+    .section1 {
+        padding: 25px 0 900px 0;
+    }
+
+    .box1 {
+        margin-top: -880px
+    }
+
+    .box2 {
+        margin-top: -470px;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+    .hero_container{
+        background-position: -650px center;
+        height: 210px;
+    }
+
+    .box2 {
+        margin-top: -400px;
+    }
+}

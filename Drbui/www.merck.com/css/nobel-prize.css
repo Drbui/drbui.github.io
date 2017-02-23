@@ -1,0 +1,779 @@
+.content-section { background: #fff; }
+.row.row-sm { background: #fff; }
+
+/* ==========================================================================
+   0. PAGE GLOBALS
+   ========================================================================== */
+	.shareBtn {
+		cursor: pointer;
+		position: relative;
+		z-index: 99;
+		width: 110px;
+		margin-top: 2%;
+	}
+	.shareBtn img {
+		max-width: 90%;
+	}
+    .quote-large {
+        font-family: "Times New Roman",serif;
+		position: relative;
+		font-size: 110px;
+		line-height: 0.5em;
+		top: 40px;
+    }
+    .quote {
+        font-family: 'Times New Roman', serif;
+    }
+    blockquote {
+    	margin: 10px 0;
+    	border: none;
+    }
+    blockquote p {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    blockquote .caption {
+        font-size: 30px;
+        font-weight: normal;
+    }
+/* 0.1. HERO SECTION
+   ========================================================================== */
+	.nobel-prize .main-hero-section {
+		background-color: #0F9491;
+		margin-top: 128px;
+		background-image: url("http://www.merck.com/images/about/nobel-prize/np_bg_hero.jpg");
+		background-repeat: no-repeat;
+		-o-background-size: cover;
+		   background-size: cover;
+		background-position: left top;
+	}
+	.nobel-prize .main-hero-section h1 {
+		text-transform: uppercase;
+		color: white;
+		font-size: 55px;
+		position: relative;
+		line-height: 60px;
+		padding-bottom: 130px;
+		float: right;
+		padding-top: 80px;
+	}
+	.nobel-prize .main-hero-section p {
+		font-size: 28px;
+		line-height: 28px;
+		padding-bottom: 10px;
+	}
+/* 0.2. DIVIDER SECTION
+   ========================================================================== */
+ 	
+	.nobel-prize .divider.one {
+		background-color: #243444;
+		padding: 40px 0px;
+	}
+ 	.nobel-prize .divider p {
+		color: white;
+		font-size: 25px;
+		font-weight: normal;
+		padding-top: 10px;
+		padding-bottom: 10px;
+ 	}
+ 	.nobel-prize .divider.two {
+		background-image: url("http://www.merck.com/images/about/nobel-prize/np_bg_clinical_trials.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: left center;
+		padding: 90px 0px;
+	}
+	.nobel-prize .divider.two img {
+		padding-right: 60px;
+	}
+/* 0.3 CONTENT-SECTION
+   ========================================================================== */
+	.nobel-prize .content-section.one {
+		padding: 50px 0px;
+	}
+	.nobel-prize .content-section.one a {
+		color: #213444;
+		text-decoration: underline;
+	}
+	.nobel-prize .content-section .medal-img {
+		display: inline-block;
+		float: right;
+		width: 23%;
+		padding: 5px;
+		margin-top: -18px;
+	}
+	.nobel-prize .content-section.one p {
+		font-size: 24px;
+		color: #213444;
+	}
+	.nobel-prize .content-section.one p.extra-pad {
+		padding-top: 20px;
+	}
+	.nobel-prize .content-section .quote {
+		font-size: 26px;
+		font-weight: 900;
+		padding-top: 45px;
+		padding-bottom: 20px;
+	}
+	.nobel-prize .content-section.two {
+		background-color: #199995;
+		color: white;
+	}
+	.nobel-prize .content-section.two h2 {
+		font-size: 38px;
+		color: white;
+		padding: 20px 0px;
+	}
+	.nobel-prize .content-section.two p {
+		font-size: 22px;
+		margin-top: 3%;
+	}
+	.nobel-prize .content-section.two img {
+		margin-bottom: 30%;
+	}
+	.nobel-prize .content-section.three {
+		background-color: #1F9C96;
+		background-image: url("http://www.merck.com/images/about/nobel-prize/np_statue2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: right top;
+		color: white;
+		padding: 20px 0px 140px;
+	}
+	.nobel-prize .content-section.three h2 {
+		font-size: 38px;
+		color: white;
+		padding: 20px 0px;
+	}
+	.nobel-prize .content-section.three p {
+		font-size: 26px;
+	}
+	.nobel-prize .content-section.three a {
+		color: white;
+		text-decoration: underline;
+	}
+	.nobel-prize .content-section.four {
+		background-color: white;
+		color: #233444;
+		padding: 20px 0px;
+	}
+	.nobel-prize .content-section.four p {
+		font-size: 35px;
+		font-weight: 700;
+		text-align: center;
+	}
+	.nobel-prize .content-section.four p.larger {
+		font-size: 55px;
+		margin-bottom: 0px;
+	}
+	.nobel-prize .content-section.four p.top {
+		font-size: 30px;
+		padding: 40px 0px;
+	}
+	.nobel-prize .content-section.four p.bottom {
+		font-size: 26px;
+		padding: 40px 0px;
+		font-weight: 400;
+	}
+
+/* 0.4 QUOTE-SECTION
+   ========================================================================== */
+	.nobel-prize .quote-section.one {
+		background-color: #90A33C;
+		color: white;
+	}
+	.nobel-prize .quote-section.one .frazier {
+		margin-top: 7%;
+	}
+	.nobel-prize .quote-section.one p.img-caption {
+		position: absolute;
+		bottom: 0px;
+		left: 10%;
+		color: white;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.nobel-prize .quote-section.two {
+		background-color: #C6E7EE;
+		padding-bottom: 50px;
+	}
+	.nobel-prize .quote-section.two p {
+		font-size: 26px;
+	}
+	.nobel-prize .quote-section.two img {
+		padding-top: 15%;
+	}
+	.nobel-prize .quote-section.two .caption {
+		font-size: 26px;
+	}
+
+/* 0.3 FULLWIDTH-CONTENT-SECTION
+   ========================================================================== */
+	.nobel-prize .fullwidth-content-section {
+		background-color: black;
+	}
+	.nobel-prize .fullwidth-content-section img {
+		width: 100%;
+	}
+	.nobel-prize .fullwidth-content-section .no-padding {
+		padding: 0;
+	}
+	.nobel-prize .fullwidth-content-section .left,
+	.nobel-prize .fullwidth-content-section .right {
+		font-size: 19px;
+		font-weight: 900;
+		color: white;
+		text-align: center;
+		position: relative;
+		bottom: 0px;
+	}
+	.nobel-prize .fullwidth-content-section .left .half-container {
+	    position: absolute;
+	    max-width: 585px;
+		bottom: 5px;
+		right: 0px;
+		padding-right: 50px;
+		padding-left: 15px;
+		z-index: 100;
+	    /* transition: bottom .15s ease-in-out;
+	    -moz-transition: bottom .15s ease-in-out;
+	    -webkit-transition: bottom .15s ease-in-out;
+	    -o-transition: bottom .15s ease-in-out; */
+	}
+	.nobel-prize .fullwidth-content-section .right .half-container {
+	    position: absolute;
+	    max-width: 585px;
+		bottom: 5px;
+		left: 0px;
+		padding-left: 50px;
+		padding-right: 15px;
+		z-index: 100;
+	    /* transition: bottom .10s ease-in-out;
+	    -moz-transition: bottom .10s ease-in-out;
+	    -webkit-transition: bottom .10s ease-in-out;
+	    -o-transition: bottom .10s ease-in-out; */
+	}
+	.nobel-prize .fullwidth-content-section .fadeIn {
+		position: absolute;
+	    top: 0px;
+	    background-color: black;
+	    height: 100%;
+	    width: 100%;
+	    opacity: 0;
+	    transition: opacity .10s ease-in-out;
+	    -moz-transition: opacity .10s ease-in-out;
+	    -webkit-transition: opacity .10s ease-in-out;
+	    -o-transition: opacity .10s ease-in-out;
+	}
+	.nobel-prize .fullwidth-content-section .gradient {
+		background: linear-gradient(to bottom , transparent 20%, rgba(0, 0, 0, .95) 80%);
+		background: -webkit-linear-gradient(top , transparent 20%, rgba(0, 0, 0, .95) 80%);
+		background: -o-linear-gradient(top , transparent 20%, rgba(0, 0, 0, .95) 80%);
+		background: -moz-linear-gradient(top , transparent 20%, rgba(0, 0, 0, .95) 80%);
+		position: absolute;
+	    top: 0px;
+	    height: 100%;
+	    width: 100%;
+	}
+
+	/* .nobel-prize .fullwidth-content-section .container-fluid .left:hover .fadeIn,
+	.nobel-prize .fullwidth-content-section .container-fluid .right:hover .fadeIn {
+		opacity: .85;
+	}
+	.nobel-prize .fullwidth-content-section .container-fluid .left:hover .half-container {
+		bottom: 45%;
+	}
+	.nobel-prize .fullwidth-content-section .container-fluid .right:hover .half-container {
+		bottom: 40%;
+	} */
+
+
+/* 	-0.9. LARGE DEVICES, WIDE SCREENS
+	========================================================================== */
+	@media only screen and (max-width : 1199px){
+		.nobel-prize .main-hero-section {
+			background-color: #243444;
+			/* margin-top: 121px; */
+		}
+		.nobel-prize .main-hero-section h1 {
+		    font-size: 45px;
+			position: relative;
+			top: -20px;
+			line-height: 42px;
+			padding-bottom: 40px;
+		}
+		.shareBtn {
+			right: 5%;
+		}
+		.nobel-prize .divider p, .nobel-prize .content-section.one p {
+			font-size: 22px;
+		}
+		blockquote p {
+    		font-size: 24px;
+    	}
+    	.quote-large {
+		    font-size: 90px;
+		    top: 30px;
+		}
+		blockquote .caption {
+    		font-size: 25px;
+    	}
+		.nobel-prize .quote-section.one .frazier {
+    		margin-top: 9.6%;
+    	}
+    	.nobel-prize .content-section.two p {
+		    margin-top: 1%;
+		}
+		.nobel-prize .fullwidth-content-section .left .half-container{
+			max-width: 485px;
+			bottom: 20px;
+		    font-size: 15px;
+		    padding-right: 25px;
+		}
+		.nobel-prize .fullwidth-content-section .right .half-container {
+		    max-width: 485px;
+		    bottom: 0px;
+		    font-size: 15px;
+		    padding-left: 25px;
+		}
+		.nobel-prize .divider.two img {
+		    padding-right: 0px;
+		    padding-top: 5px;
+		}
+		.nobel-prize .content-section.three {
+    		padding: 0px 0px 50px;
+    	}
+    	.nobel-prize .content-section.three h2 {
+    		font-size: 33px;
+    	}
+    	.nobel-prize .content-section.three p {
+		    font-size: 20px;
+		}
+		.nobel-prize .content-section.four p.top {
+		    font-size: 25px;
+		    padding: 35px 0px;
+		}
+		.nobel-prize .content-section.four p.bottom {
+		    font-size: 22px;
+		    padding: 35px 0px;
+		}
+		.nobel-prize .content-section.four p.larger {
+    		font-size: 45px;
+    		margin-bottom: -10px;
+    	}
+    	.nobel-prize .content-section.four p {
+    		font-size: 30px;
+    	}
+    	.nobel-prize .quote-section.two img {
+		    padding-top: 34%;
+		}
+	}
+
+/* 	-1.0 MEDIUM DEVICES, DESKTOPS
+	========================================================================== */
+	@media only screen and (max-width : 991px){
+		.nobel-prize .main-hero-section {
+		    margin-top: 0px;
+		}
+		.nobel-prize .main-hero-section h1 {
+		    font-size: 35px;
+			position: relative;
+			top: -35px;
+			line-height: 35px;
+			padding-bottom: 10px;
+		}
+		.nobel-prize .divider p, .nobel-prize .content-section.one p {
+		    font-size: 18px;
+		}
+		.nobel-prize .content-section .medal-img {
+			width: 26%;
+			margin-top: -18px;
+		}
+		.nobel-prize .divider.one {
+			padding: 20px 0px;
+		}
+		blockquote p {
+		    font-size: 18px;
+		}
+		blockquote .caption {
+		    font-size: 22px;
+		}
+		.nobel-prize .quote-section.one .frazier {
+		    margin-top: 12%;
+		}
+		.quote-large {
+		    font-size: 70px;
+		    top: 25px;
+		}
+		.nobel-prize .content-section.two h2 {
+		    font-size: 32px;
+		}
+		.nobel-prize .content-section.two p {
+		    margin-top: -1%;
+		    font-size: 18px;
+		}
+		.nobel-prize .content-section.two {
+			padding: 0px 0px 40px;
+		}
+		.nobel-prize .content-section.two img {
+		    margin-bottom: 45%;
+		}
+		.nobel-prize .fullwidth-content-section .left .half-container,
+		.nobel-prize .fullwidth-content-section .container-fluid .left:hover .half-container,
+		.nobel-prize .fullwidth-content-section .right .half-container,
+		.nobel-prize .fullwidth-content-section .container-fluid .right:hover .half-container {
+		    max-width: 100%;
+		    bottom: 10px;
+		    font-size: 19px;
+		}
+		.nobel-prize .divider.two p {
+			padding-top: 0px;
+		}
+		.nobel-prize .content-section.three h2 {
+		    font-size: 25px;
+		    padding: 0px;
+		}
+		.nobel-prize .content-section.three {
+		    padding: 10px 0px 35px;
+		}
+		.nobel-prize .content-section.three p {
+		    font-size: 18px;
+		}
+		.nobel-prize .content-section.four p.top {
+		    font-size: 22px;
+		    padding: 25px 0px;
+		}
+		.nobel-prize .content-section.four p.larger {
+    		font-size: 40px;
+    	}
+    	.nobel-prize .content-section.four p {
+		    font-size: 28px;
+		}
+		.nobel-prize .content-section.four p.bottom {
+		    font-size: 19px;
+		    padding: 25px 0px;
+		}
+		.nobel-prize .quote-section.two p {
+		    font-size: 20px;
+		}
+		.nobel-prize .quote-section.two .caption {
+		    font-size: 20px;
+		}
+		.nobel-prize .quote-section.two {
+		    background-color: #C6E7EE;
+		    padding-bottom: 25px;
+		}
+	}
+/* 	-1.2 SMALL DEVICES, TABLETS
+	========================================================================== */
+	@media only screen and (max-width : 767px){
+
+		.nobel-prize .main-hero-section h1 {
+		    font-size: 20px;
+			position: relative;
+			top: -5px;
+			line-height: 18px;
+			padding-top: 20px;
+			padding-bottom: 0px;
+		}
+		.nobel-prize .main-hero-section p {
+		    font-size: 20px;
+		    line-height: 28px;
+		    padding-bottom: 10px;
+		}
+		.nobel-prize .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.shareBtn {
+			width: 80px;
+			right: 0%;
+		}
+		.nobel-prize .divider p, .nobel-prize .content-section.one p {
+		    font-size: 16px;
+		}
+		.nobel-prize .content-section.one p.extra-pad {
+		    padding-top: 5px;
+		}
+		.nobel-prize .divider.one {
+		    padding: 10px 0px;
+		}
+		blockquote {
+			margin: 0px;
+			padding: 5px 0px;
+		}
+		blockquote p {
+		    font-size: 14px;
+		}
+		.quote-large {
+		    font-size: 50px;
+		    top: 18px;
+		}
+		.nobel-prize .quote-section.one p.img-caption {
+			font-size: 14px;
+			left: 15%;
+		}
+		blockquote .caption {
+		    font-size: 15px;
+		}
+		.nobel-prize .quote-section.one .row {
+			font-size: 0px;
+		}
+		.nobel-prize .quote-section.one .frazier {
+		    margin-top: 0%;
+		    padding-top: 2%;
+			vertical-align: bottom;
+		}
+		.nobel-prize .quote-section.one .quotes {
+			padding-bottom: 3%;
+		}
+		.nobel-prize .quote-section.one .allow-v-align {
+			float: none;
+			display: inline-block;
+		}
+		.nobel-prize .content-section.two {
+		    padding: 0px 0px 20px;
+		}
+		.nobel-prize .content-section.two h2 {
+		    font-size: 27px;
+		}
+		.nobel-prize .content-section.two p {
+		    margin-top: -1%;
+		    margin-bottom: 20px;
+		    font-size: 15px;
+		}
+		.nobel-prize .content-section.two img {
+		    margin-top: -10%;
+		    margin-bottom: 30%;
+		}
+		.nobel-prize .fullwidth-content-section .left .half-container, .nobel-prize .fullwidth-content-section .container-fluid .left:hover .half-container, .nobel-prize .fullwidth-content-section .right .half-container, .nobel-prize .fullwidth-content-section .container-fluid .right:hover .half-container {
+		    font-size: 15px;
+		    bottom: 0px;
+		}
+		.nobel-prize .divider.two {
+		    padding: 50px 0px;
+		}
+		.nobel-prize .divider.two img {
+		    padding-right: 0px;
+		    padding-top: 0px;
+		}
+		.nobel-prize .content-section.three {
+		    padding: 10px 0px 2%;
+		    min-height: 195px;
+		}
+		.nobel-prize .content-section.three h2 {
+		    font-size: 15px;
+		    padding: 0px;
+		    margin: 2px 0px;
+		}
+		.nobel-prize .content-section.three p {
+		    font-size: 14px;
+		}
+		.nobel-prize .content-section.four {
+		    padding: 10px 0px;
+		}
+		.nobel-prize .content-section.four p.top {
+		    font-size: 16px;
+		    padding: 15px 0px;
+		}
+		.nobel-prize .content-section.four p.larger {
+		    font-size: 24px;
+		    margin-bottom: -5px;
+		}
+		.nobel-prize .content-section.four p {
+		    font-size: 17px;
+		}
+		.nobel-prize .content-section.four p.bottom {
+		    font-size: 15px;
+		    padding: 15px 0px;
+		}
+		.nobel-prize .quote-section.two p {
+		    font-size: 15px;
+		}
+		.nobel-prize .quote-section.two .caption {
+		    font-size: 16px;
+		}
+		.nobel-prize .quote-section.two img {
+		    padding-top: 10%;
+		    max-height: 135px;
+		}
+		.nobel-prize .content-section.three p {
+		    font-size: 13px;
+		}
+	}
+/* 	-1.3EXTRA SMALL DEVICES, PHONES
+	========================================================================== */
+	@media only screen and (max-width : 479px){
+    	.row .col-xxs-12 {
+    		width: 100% !important;
+    	}
+
+		.nobel-prize .main-hero-section {
+			margin-left: -18%;
+			padding: 0px 0px 3%;
+		}
+		.nobel-prize .main-hero-section h1 {
+		    font-size: 16px;
+		    position: relative;
+		    margin: 0px auto;
+		    padding-bottom: 0px;
+		    text-align: left;
+		}
+		.nobel-prize .main-hero-section .col-xs-12 {
+			padding: 0px;
+		}
+		.nobel-prize .main-hero-section p {
+		    font-size: 15px;
+		    line-height: 1.2em;
+		    padding-bottom: 10px;
+		}
+		.nobel-prize .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.shareBtn {
+			width: 70px;
+			right: 0;
+		}
+		.nobel-prize .divider p, .nobel-prize .content-section.one p {
+		    font-size: 14px;
+		}
+		.nobel-prize .divider.one {
+		    padding: 5px 0px;
+		}
+		.nobel-prize .content-section.one {
+		    padding: 25px 0px;
+		}
+		.nobel-prize .content-section .medal-img {
+		    margin-top: -10px;
+		}
+		.nobel-prize .quote-section.one p.img-caption {
+		    font-size: 12px;
+		    left: 31%;
+		}
+		blockquote p {
+		    font-size: 13px;
+		}
+		.nobel-prize .quote-section.one .frazier {
+		    margin-top: 0%;
+		    padding-top: 2%;
+		    vertical-align: bottom;
+		    max-width: 100%;
+		}
+		.nobel-prize .quote-section.one .frazier .img-responsive {
+			max-width: 50%;
+			margin: 0 auto;
+		}
+		.nobel-prize .quote-section.one .quotes {
+		    padding-bottom: 3%;
+		    max-width: 100%;
+		}
+		.nobel-prize .content-section.two img {
+		    margin: 0% auto;
+		    max-width: 45%;
+		}
+		.nobel-prize .content-section.two h2 {
+		    font-size: 18px;
+		}
+		.nobel-prize .content-section.two p {
+		    margin-top: 3%;
+		    margin-bottom: 20px;
+		    font-size: 13px;
+		}
+		.nobel-prize .fullwidth-content-section .left .half-container, .nobel-prize .fullwidth-content-section .container-fluid .left:hover .half-container, .nobel-prize .fullwidth-content-section .right .half-container, .nobel-prize .fullwidth-content-section .container-fluid .right:hover .half-container {
+		    font-size: 14px;
+		    font-weight: 500;
+		    min-height: 120px;
+		}
+		.nobel-prize .fullwidth-content-section .gradient {
+			display: none;
+		}
+		.nobel-prize .fullwidth-content-section .img-responsive {
+			margin-bottom: 120px;
+		}
+		.nobel-prize .fullwidth-content-section .half-container p {
+			padding-top: 3%;
+		}
+		.nobel-prize .fullwidth-content-section .left .half-container p {
+			padding-top: 5%;
+		}
+		.nobel-prize .fullwidth-content-section {
+			background-color: #292C2B;
+		}
+		.nobel-prize .divider.two img {
+			max-width: 35%;
+			margin: 0 auto;
+		}
+		.nobel-prize .divider.two p {
+		    padding-top: 20px;
+		}
+		.nobel-prize .content-section.three h2 {
+		    font-size: 14px;
+		}
+		.nobel-prize .content-section.three p {
+		    font-size: 13px;
+		    padding-right: 2px;
+		}
+		.nobel-prize .content-section.three {
+			background-position: 88.5% top;
+		}
+		.nobel-prize .content-section.four p.top {
+		    font-size: 14px;
+		    padding: 10px 0px;
+		}
+		.nobel-prize .content-section.four p.larger {
+		    font-size: 13px;
+		    margin-bottom: -2px;
+		}
+		.nobel-prize .content-section.four p.smaller {
+			font-size: 13px;
+			line-height: .8em;
+		}
+		.nobel-prize .content-section.four .col-xs-4,
+		.nobel-prize .content-section.four .col-xs-3 {
+			padding: 0px;
+		}
+
+		.nobel-prize .content-section.four img {
+			max-height: 100%;
+			margin: 0px auto;
+		}
+		.nobel-prize .content-section.four p.bottom {
+		    font-size: 13px;
+		    padding: 15px 0px;
+		}
+		.nobel-prize .quote-section.two p {
+		    font-size: 13px;
+		}
+		.nobel-prize .quote-section.two .caption {
+		    font-size: 14px;
+		}
+		.quote-large {
+		    font-size: 40px;
+		    top: 13px;
+		}
+		.nobel-prize .quote-section.two img {
+		    padding-top: 5%;
+		    max-width: 20%;
+		    margin: 0 auto;
+		}
+	}
+	
+	@media only screen and (max-width : 400px){
+		.nobel-prize .content-section.three {
+			background-image: none;
+		}
+		.nobel-prize .content-section.three .col-xs-7 {
+			width: 100%;
+		}
+		.nobel-prize .content-section.three h2 {
+		    font-size: 16px;
+		    margin-bottom: 10px;
+		}
+		.nobel-prize .content-section.three p {
+		    font-size: 14px;
+		    padding-right: 0px;
+		}
+	}

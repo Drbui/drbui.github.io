@@ -1,0 +1,587 @@
+h1, h2, h3, h4, h5, h6, #thank-you {
+	font-family: "UniversLTW01-47LightCn","Arial Narrow", Arial, sans-serif;
+}
+#page address, #page p, #page ul{
+	font-size: 18px;
+}
+a:hover {
+	text-decoration: none;
+}
+h4 {
+	font-size: 28px;
+  color: #6175a2;
+  text-transform: uppercase;;
+  font-weight: normal;
+}
+h4.smaller{
+  text-transform: none;
+  margin-bottom: 10px;	
+}
+iframe {
+	position: relative;
+  width: 100%;
+  height: 350px;
+  border: 0;
+}
+i {
+	color: #676464;
+}
+td {
+	vertical-align: middle;
+}
+#page {
+	font-family: "Univers LT W01_45 Light","Arial Narrow", Arial, sans-serif;	
+}
+/*#first-three-col {
+  animation-duration: 2s;
+  animation-delay: .5s;
+	  -moz-animation-duration: 2s;
+	  -moz-animation-delay: .5s;
+	  -webkit-animation-duration: 2s;
+	  -webkit-animation-delay: .5s;
+	  -o-animation-duration: 2s;
+	  -o-animation-delay: .5s;
+	  -ms-animation-duration: 2s;
+	  -ms-animation-delay: .5s;
+  -webkit-backface-visibility: hidden;
+}*/
+.facts-of-interest {
+    display: block;
+    list-style: outside none disc;
+    text-align: center;
+}
+.facts-of-interest p {
+	font-weight: bold;
+}
+.facts-of-interest ul {
+	text-align: left;
+	float: left;
+}
+.facts-of-interest ul li {
+  background-image: url(http://www.merck.com/images/global/bullet-point.gif);
+  background-repeat: no-repeat;
+  background-position: 0px 7px;
+  padding-left: 20px;
+}
+.header-container {
+	position: relative;
+	height: inherit;
+	padding-top: 20px;
+}
+.content_container {
+	
+}
+.content_container, .footer_container {
+    top: 0;
+}
+.vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.content_container {
+	/*top: 1em;*/
+}
+
+#thank-you {
+	animation-duration: 3s;
+	  -moz-animation-duration: 3s;
+	  -webkit-animation-duration: 3s;
+	  -ms-animation-duration: 3s;
+	  -o-animation-duration: 3s;
+  text-align: center;
+	color: white;
+	position: absolute;
+	-webkit-backface-visibility: hidden;
+	bottom: 10%;
+	width: 100%;
+	padding: 0 3em;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";       /* IE 8 */
+	filter: alpha(opacity=50);  /* IE 5-7 */
+	-moz-opacity: 0.5;          /* Netscape */
+	-khtml-opacity: 0.5;        /* Safari 1.x */
+	opacity: 0.5;   
+}
+#faq-careers-row {
+	height: 25em;
+}
+#faq {
+	background-color: #009994;
+	height: 100%;
+	white-space: nowrap;
+  text-align: center;
+}
+#faq h4{
+	color:#fff;		
+}
+#faq .fa-stack-1x, #faq .fa-stack-2x{
+	color:#fff;	
+}
+#faq:before {
+	content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  /* adjust for white space between pseudo element and next sibling */
+  margin-right: -.25em;
+  /* stretch line height */
+  height: 100%; 
+}
+#faq-content {
+	display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+}
+#careers-content {
+	height: 25em;
+	background-image: url(http://www.merck.com/images/contact/careers.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 0 0px !important;
+}
+#careers-content .col-md-12 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  	-moz-transform: translateY(-50%);
+  	-o-transform: translateY(-50%);
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+}
+#careers-text {
+  position: static;
+}
+.darkened-background {
+	background: rgb(0, 0, 0); /*Fallback*/
+	background: rgba(0, 0, 0, 0.7);
+}
+#careers-at-merck, .explore-working-blurb {
+	color: white;
+}
+.explore-working {
+	background-color: #d47b22 !important;
+}
+#faq-button {
+	color: #007470;
+	text-transform: uppercase;
+	margin-top: -17px;
+	background-color: #e6e6e6;
+}
+#section-4 h4 {
+	margin-top: 2em;
+}
+a[role="tab"] {
+	font-size: 14px;
+}
+.nav {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nav-tabs {
+  border-bottom: none;
+}
+.nav-tabs > li {
+	margin-right: 9px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  background-color: #009690;
+  color: white;
+}
+.nav-tabs li a:active {
+	color: white;
+	background-color: #009690;
+	border: none;
+}
+.img-responsive {
+  margin-left: auto;
+  margin-right: auto;
+}
+#section-5 {
+	background-color: #233445;
+	color: white;
+	margin-top: -5px;
+	padding: 4em;
+}
+#section-5 h4 {
+	color: white;
+	padding-top: 1em;
+	margin-top: -4px;
+}
+#tab-content {
+	margin-top: 22px;
+}
+.driving-directions-container {
+	margin-right: auto;
+	margin-left: auto;
+	display: table;
+	clear: both;
+	margin-top: 20px;
+}
+.driving-directions-container a {
+	color: white;
+}
+.driving-directions {
+	background-color: #009690;
+	padding: 12px;
+	margin-right: auto;
+	margin-left: auto;
+	display: table;
+}
+#section-6 {
+	margin-bottom: 10px;
+}
+#section-6 h4 {
+  padding-top: 2em;
+}
+.discover-button {
+	border: 1px solid;
+	background-color: #009690;
+	color: white !important;
+	padding: 5px 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.history-button {
+	padding: 0 60px;
+}
+#social-media-icon-group {
+	/*padding: 2% 16%;*/
+}
+#social-media-icon-group a {
+	color: white;
+}
+.social-media-thumbnail {
+	/*margin: 0 auto;
+	display: table;*/
+	text-align: center;
+}
+.social-media-thumbnail img {
+	/*margin: 0 auto;
+	display: table;*/
+	display: block;
+	margin: auto;
+}
+#join-the-convo {
+	display: table;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0 16%;
+	font-size: 22px;
+}
+.thumbnail {
+	border: none;
+}
+.maps iframe{
+  pointer-events: none;
+}
+.thumbnail img {
+	height: 200px;
+	width: 200px;
+}
+.photo {
+	height: 20em;
+}
+#kenilworth-pic {
+	background-image: url(http://www.merck.com/images/contact/merck_kenilworth_nj.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+#rahway-pic {
+	background-image: url(http://www.merck.com/images/contact/merck_rahway_nj.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+#upper-gwynedd-pic {
+	background-image: url(http://www.merck.com/images/contact/merck_upper_gynedd_pa.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+#boston-pic {
+	background-image: url(http://www.merck.com/images/contact/merck_boston_ma.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+#west-point-pic {
+	background-image: url(http://www.merck.com/images/contact/merck_west_point_pa.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+.town-description {
+	padding: 0 2em;
+}
+.town-description address, .town-description p {
+	text-align: left;
+}
+.middle-text {
+  min-height: 110px;
+  max-height: 130px;
+  overflow: hidden;
+}
+/*IE 8 Styles*/
+#ie-image-container {
+	height: 30em;
+	display: table;
+	background: url("http://www.merck.com/images/contact/contact_us_merck_lobby.jpg") no-repeat;
+	width: 100%;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+		src='../contact/img/contact_us_merck_lobby.html',
+		sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  	src='/contact/img/contact_us_merck_lobby.jpg',
+  	sizingMethod='scale')";
+} 
+#thank-you-ie {
+  text-align: center;
+	color: white;
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+}
+#thank-you-ie p {
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
+  padding: 2%;
+	font-size: 32px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: 0;
+}
+#ie-careers-text {
+	position: relative;
+	padding-right: 30em;
+	padding-left: 8em;
+	padding-top: 5em;
+	color: white;
+	background-color: inherit !important;
+}
+.ie8 .well {
+  background: url(%c3%a2%c2%80%c2%98/images/pixel.html) !important;
+}
+/*End IE 8 Styles*/
+
+#common-faqs-link {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2em;
+  text-align: left;
+}
+ul {
+	list-style: none;
+}
+.arrow {
+  background-image: url(http://www.merck.com/images/icon_link-bg-arrow2.gif);
+  background-repeat: no-repeat;
+  background-position: 0 5px;
+  padding: 1px 0 1px 10px;
+}
+#help {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+.panel-title {
+	text-align: center;
+}
+.panel-heading {
+	padding: 10px;
+}
+#faq-icon {
+	margin-top: -7px;
+}
+.town-content {
+	padding: 0 1px;
+	background-color: #ececec;
+	height: 100%;
+}
+/*.town-content td {
+	height: 500px;
+}*/
+img[alt="50x50"] {
+  width: 50px;
+  height: 50px;
+}
+.well {
+  background: rgba(0, 0, 0, 0.65) none repeat scroll 0 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#88000000, endColorstr=#88000000)" !important;
+  /* Below IE7 supported */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#88000000, endColorstr=#88000000) !important;
+  border: transparent;
+  border-radius: 0;
+  margin-bottom: 0;
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+.well h4, .well p {
+	padding: 0 1em;
+}
+#faq-accordion {
+	padding-left: 0;
+}
+.faq-accordion-toggle {
+	cursor: pointer;
+	color: #fff;
+}
+.faq-accordion-content {
+	display: none;
+	padding: 11px 0 0 30px;
+	color:#ffffff;
+}
+.faq-accordion-content a{
+	 color:#ffffff;
+	 text-decoration:underline;
+ }
+.faq-accordion-content.default {
+	display: block;	
+}
+.fa-stack-2x {
+	color: #6175a2;
+}
+
+.fa-stack-1x {
+	color: #6175a2;
+}
+#animal-health ul li {
+	background-image: url(http://www.merck.com/images/global/bullet-point.gif);
+  background-repeat: no-repeat;
+  background-position: 0px 7px;
+  padding-left: 20px;
+  text-align: left;
+}
+@media (min-width: 1024px) {
+	#thank-you {
+		font-size: 45px;
+	}
+}
+@media (min-width: 992px) {
+	#product-inquiries {
+		padding: 0 27px;
+	}
+	#help-with-medicine {
+		padding: 0 37px;
+	}
+	.middle-text {
+		min-height: 130px;
+		max-height: 130px;
+	}
+	#accordion {
+		display: none;
+	}
+}
+
+/*The width of the window where the navbar becomes mobile-friendly*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.photo {
+		margin-top: 20px;
+	}
+	.intro-icons {
+		margin-top: 1em;
+	}
+	#faq-icon {
+		margin-top: -7px;
+	}
+	#product-inquiries {
+		padding: 0 27px;
+	}
+	.driving-directions-container {
+		margin-top: 13px;
+	}
+	#section-4 h4 {
+		margin-top: 15em;
+	}
+	#page {
+		/*margin-top: 19px;*/
+	}
+}
+@media (max-width: 991px){
+	.parallax-container { 
+		padding-top: 19px !important; 
+		margin-top: 0 !important;
+		position: relative;
+		z-index: 9;
+	}
+	.parallax {
+		background: #fff;
+	}
+	.parallax img { 
+		background: #fff; 
+		padding-top: 19px; 
+		position: relative !important;
+	}
+	.nav, .tab-content {
+		display: none;
+	}
+}
+@media (max-width: 1024px) {
+	#thank-you {
+		font-size: 36px;
+	}
+	#upper-gwynedd-pic {
+		background-position: left center;
+	}
+}
+@media (max-width: 768px) {
+	#join-the-convo {
+		padding-bottom: 1em;
+	}
+	#section-4 h4 {
+		margin-top: 15em;
+	}
+	#thank-you {
+		font-size: 32px;
+	}
+	.social-media-thumbnail {
+		padding-bottom: 30px;
+	}
+}
+
+@media (max-width: 480px) {
+	#thank-you { font-size: 20px; line-height: 1.0em;}
+}
+
+
+@media (max-width: 380px) {
+	#faq-content {
+		transform: translateY(4%);
+  	-moz-transform: translateY(4%);
+  	-o-transform: translateY(4%);
+  	-webkit-transform: translateY(4%);
+  	-ms-transform: translateY(4%);
+	}
+	#faq-careers-row {
+    height: 30em;
+	}
+	#section-4 h4 {
+		margin-top: 15em;
+	}
+}

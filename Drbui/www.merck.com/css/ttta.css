@@ -1,0 +1,666 @@
+.light-green-bg-color { background: #87d0ce !important; }
+    .light-gray-bg-color { background: #e4e4e4 !important; }
+    .green-bg-color { background: #009894 !important; }
+    .orange-bg-color { background: #f7902e !important; }
+    .navy-bg-color { background: #243444 !important; }
+    .white-text-color { color: #fff !important; }
+    .green-text-color { color: #009894 !important; }
+    .light-green-text-color { color: #009894 !important; }
+    .content-hero-container { margin: 30px 0; }
+    .content-container {
+        padding: 30px 0;
+        background: #fff;
+    }
+    p { font-size: 20px; }
+    .space-bottom { margin-bottom: 30px; }
+    .padding-10px { padding: 10px; }
+    .padding-20px { padding: 20px; }
+    .large-text { font-size: 170%; }
+    .btn { 
+    border-radius: 0; 
+    padding: 6px 25px;
+}
+.btn.btn-fade {
+    background: #009994 none repeat scroll 0 0;
+    border: 1px solid #33cbc5;
+    padding: 6px 25px;
+    border-radius: 0;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease 0s, background-color 0.3s ease 0s, border-color 0.3s ease 0s;
+    white-space: normal;
+    z-index: 1;
+}
+.btn.btn-fade:hover {
+    background: #f2f3f5 none repeat scroll 0 0;
+    border: 1px solid #243444;
+    color: #243444;
+}
+    .border-top-bottom {
+        border-top: 1px solid #009894;
+        border-bottom: 1px solid #009894;
+    }
+    .corporate-responsibility .main-hero-section {
+        margin-top: 127px;
+        background-color: #aec1e1;
+        background-image: url("http://www.merck.com/images/about/featured_stories/ttta/ttta_bg_hero.jpg");
+        background-repeat: no-repeat;
+        background-position: left top;
+        min-height: 485px;
+        background-size: cover;
+    }
+    .video-bg {
+        background: url('http://www.merck.com/images/about/featured_stories/ttta/ttta_video.jpg') no-repeat center center;
+        background-size: cover;
+        height: 675px;
+        padding: 0;
+    }
+    .video-bg img.video-img {
+        position: absolute;
+        height: 675px;
+        width: 100%;
+    }
+    .video-bg img.video-img:hover { cursor: pointer; }
+    .video-bg .ttta-video {
+
+    }
+    .corporate-responsibility .shareBtn {
+        width: 80px;
+        margin-top: 20px;
+    }
+	
+	.pep-btn-more {
+    margin-top: 15px;
+    background-color: #009994;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 0px;
+    font-size: 18px;
+	}
+
+	.pep-btn-more:visited {
+    background-color: #009994;
+    color: #ffffff;
+	}
+
+	.pep-btn-more:hover {
+    background-color: #009994;
+    color: #ffffff;
+	}
+    
+    .corporate-responsibility .main-hero-section .title, h2.title {
+        font-size: 25px;
+        color: #fff;
+        margin-top: 59px;
+        line-height: normal;
+    }
+    
+    .corporate-responsibility .divider {
+        background-color: #243444;
+        color: #fff;
+        text-align: center;
+        font-size: 28px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    
+    .corporate-responsibility .report-section {
+        background-color: #fff;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .corporate-responsibility .report-section .teal-button {
+        background: #159a95;
+        color: #ffffff;
+        font-size: 22px;
+        margin: 10px 10px 10px 0;
+        padding: 5px 20px;
+        text-transform: uppercase;
+        text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    .corporate-responsibility .report-section .teal-button:hover {
+        background-color: #6d1548;
+    }
+    .report-section h3 { margin-top: 0; }
+    .corporate-responsibility .report-section p {
+        font-size: 20px;
+        /* margin-top: 50px; */
+    }
+    
+    
+    .corporate-responsibility h2 {
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: normal;
+        line-height: 1;
+    }
+    .caption { text-transform: capitalize; }
+    .photo-credit { font-size: 11px; }
+    .corporate-responsibility .responsibility-approach {
+        background-color: #009894;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .corporate-responsibility .responsibility-approach h2 {
+        color: #fff;
+    }
+
+    .corporate-responsibility .responsibility-approach .img-caption {
+        color: #fff;
+    }
+
+    .corporate-responsibility .responsibility-approach p {
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .corporate-responsibility .responsibility-approach .row.top {
+        margin-bottom: 35px;
+    }
+
+    .corporate-responsibility .responsibility-approach .row.bottom {
+        margin-top: 40px;
+    }
+    
+    /*.corporate-responsibility .doors .section-container {
+        float: left;
+        width: 575px;
+        padding-left: 30px;
+        padding-right: 15px;
+    }*/
+
+    .corporate-responsibility .proud-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .corporate-responsibility .proud-section .row-one-img,
+    .corporate-responsibility .proud-section .row-two-img {
+        width: 110px;
+        border: 3px solid #d5d5d5;
+        margin: 0 10px 60px 0;
+    }
+    
+    .corporate-responsibility .proud-section h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .corporate-responsibility .proud-section p {
+        font-size: 17px;
+    }
+
+    .corporate-responsibility .doors {
+        overflow-x: hidden;
+    }
+
+    .corporate-responsibility .doors.two .door,
+    .corporate-responsibility .doors.two {
+        min-height: 475px;
+    }
+
+    .corporate-responsibility .doors.two .left.door {
+        
+        background-color: #243444;
+        padding-top: 40px;
+    }
+
+    .corporate-responsibility .doors.two .right.door {
+        background-image: url("http://www.merck.com/images/about/featured_stories/ttta/ttta_microscope.jpg");
+        background-size: cover;
+        background-position: right top;
+    }
+
+    .corporate-responsibility .doors.two .quote, .corporate-responsibility .doors.two .quote .caption {
+        color: #8ed4e1;
+    }
+    .corporate-responsibility .quote .large, .corporate-responsibility .quote .small {
+        font-family: "Times New Roman", serif;
+        font-weight: bold;
+    }
+
+    .corporate-responsibility .quote {
+        font-size: 30px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .corporate-responsibility .quote .large {
+        font-size: 3em;
+        position: relative;
+        top: 30px;
+        left: -5px;
+        line-height: 0;
+    }
+
+    .corporate-responsibility .doors.two .quote .caption {
+        margin-top: 10px;
+    }
+
+    .corporate-responsibility .doors.two p {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .corporate-responsibility .content {
+        background-color: #fff;
+        color: #2d3c4c;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .corporate-responsibility .frazier {
+        position: relative;
+        padding-top: 40px;
+        padding-bottom: 60px;
+        background-color: #cceaea;
+    }
+    .frazier h2 { color: #333; margin-top: 0; }
+
+    .corporate-responsibility .frazier .quote {
+        color: #243444;
+        margin-top: 35px;
+    }
+
+    .corporate-responsibility .frazier .quote .caption {
+        text-align: right;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .corporate-responsibility .frazier .bubbles {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20%;
+    }
+
+    .footer_container {
+        top: 0;
+    }
+
+    /*****************************************************************************/
+    
+    @media screen and (max-width: 1199px) {
+        .corporate-responsibility .main-hero-section {
+            min-height: 300px;
+        }
+        .corporate-responsibility .main-hero-section .title {
+            font-size: 30px;
+            margin-top: 55px;
+        }
+        .corporate-responsibility .divider {
+            font-size: 25px;
+        }
+        .corporate-responsibility .report-section p {
+            /* margin-top: 18px; */
+        }
+        .corporate-responsibility .doors .section-container {
+            width: 485px;
+        }
+        .corporate-responsibility h2 {
+            font-size: 26px;
+        }
+        .corporate-responsibility .proud-section {
+            padding-top: 20px;
+            padding-bottom: 0;
+        }
+        .corporate-responsibility .proud-section .row-one-img, .corporate-responsibility .proud-section .row-two-img {
+            width: 90px;
+        }
+        .corporate-responsibility .proud-section p {
+            font-size: 15px;
+        }
+        .corporate-responsibility .doors.two .door, .corporate-responsibility .doors.two {
+            min-height: 410px;
+        }
+        .corporate-responsibility .quote {
+            font-size: 25px;
+        }
+        .corporate-responsibility .quote .large {
+            top: 25px;
+        }
+        .corporate-responsibility .doors.two p {
+            font-size: 18px;
+        }
+    }
+    @media (max-width: 1024px){
+        .corporate-responsibility .main-hero-section {
+            background-position: -265px 0;
+        }
+        .video-bg,
+        .video-bg img.video-img {
+            height: 550px;
+        }
+    }
+    @media screen and (max-width: 991px) {
+        .corporate-responsibility .main-hero-section {
+            min-height: 230px;
+            margin-top: 0px;
+        }
+        .corporate-responsibility .shareBtn {
+            margin-right: 10px;
+        }
+        .corporate-responsibility .main-hero-section .title {
+            font-size: 23px;
+            margin-top: 30px;
+        }
+        .corporate-responsibility .divider {
+            font-size: 21px;
+            padding-top: 15px;
+            padding-bottom: 25px;
+        }
+        .corporate-responsibility .report-section p {
+            font-size: 17px;
+            margin-top: 0px;
+        }
+        .corporate-responsibility .report-section .teal-button {
+            font-size: 17px;
+        }
+        .corporate-responsibility h2 {
+            font-size: 22px;
+        }
+        .corporate-responsibility .responsibility-approach {
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+        .corporate-responsibility .responsibility-approach .row.top {
+            margin-bottom: 10px;
+        }
+        .corporate-responsibility .responsibility-approach .row.bottom {
+            margin-top: 20px;
+        }
+        .corporate-responsibility .responsibility-approach p {
+            font-size: 17px;
+        }
+        .corporate-responsibility .doors .section-container {
+            width: 375px;
+        }
+        .corporate-responsibility .proud-section {
+            padding-top: 0px;
+        }
+        .corporate-responsibility .proud-section .row-one-img, .corporate-responsibility .proud-section .row-two-img {
+            width: 60px;
+        }
+        .corporate-responsibility .proud-section p {
+            font-size: 13px;
+        }
+        .corporate-responsibility .doors.two .door, .corporate-responsibility .doors.two {
+            min-height: 340px;
+        }
+        .corporate-responsibility .quote {
+            font-size: 18px;
+        }
+        .corporate-responsibility .quote .large {
+            top: 18px;
+        }
+        .corporate-responsibility .doors.two p {
+            font-size: 15px;
+        }
+        .corporate-responsibility .content {
+            font-size: 17px;
+            padding-top: 20px;
+            padding-bottom: 15px;
+        }
+        .corporate-responsibility .frazier {
+            padding-top: 25px;
+            padding-bottom: 15px;
+        }
+        .corporate-responsibility .frazier .quote .caption {
+            font-size: 16px;
+        }
+    }
+    @media screen and (max-width: 768px){
+        .corporate-responsibility .main-hero-section {
+            height: 350px;
+            margin-top: 0px;
+        }
+        .corporate-responsibility .main-hero-section {
+            background-position: -160px 0;
+        }
+    	.corporate-responsibility .main-hero-section .title,
+	    h2.title {
+	        font-size: 20px;
+	        margin-top: 50px;
+	        line-height: normal;
+	    }
+        .corporate-responsibility .doors.two .right.door {
+            padding-top: 20px;
+        }
+        .bellamy.quote { margin-top: 25px; }
+        .page-title img { height: 75px; }
+        .video-bg,
+        .video-bg img.video-img {
+            height: 450px;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        .corporate-responsibility .shareBtn {
+            margin-right: 15px;
+            width: 55px;
+            margin-top: 12px;
+        }
+        .corporate-responsibility .main-hero-section .title {
+            font-size: 18px;
+        }
+        .corporate-responsibility .main-hero-section {
+            min-height: 180px;
+        }
+        .corporate-responsibility .divider {
+            font-size: 17px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+        .corporate-responsibility .report-section p {
+            font-size: 15px;
+        }
+        .corporate-responsibility .report-section .teal-button {
+            font-size: 15px;
+        }
+        .corporate-responsibility h2 {
+            font-size: 20px;
+        }
+        .corporate-responsibility .responsibility-approach .xxs-clear-left {
+            clear:  left;
+        }
+        .corporate-responsibility .responsibility-approach p {
+            font-size: 15px;
+        }
+        .corporate-responsibility .responsibility-approach img {
+            margin: 0 auto;
+            width:  200px;
+        }
+        .corporate-responsibility .proud-section .row-one-img, .corporate-responsibility .proud-section .row-two-img {
+            width: 120px;
+        }
+        .corporate-responsibility .proud-section p {
+            font-size: 15px;
+        }
+        .corporate-responsibility .doors.two .door, .corporate-responsibility .doors.two {
+            min-height: 300px;
+        }
+        .corporate-responsibility .doors .section-container {
+            width: 100%;
+        }
+        .corporate-responsibility .doors.two .right.door, .corporate-responsibility .doors.two {
+            min-height: auto;
+        }
+        .corporate-responsibility .doors.two .right.door {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .corporate-responsibility .doors.two p {
+            font-size: 15px;
+        }
+
+        .corporate-responsibility .content {
+            font-size: 16px;
+        }
+        .corporate-responsibility .frazier .quote {
+            margin-top: 10px;
+        }
+        .corporate-responsibility .frazier .quote .caption {
+            font-size: 15px;
+        }
+    }
+    @media (max-width: 667px){
+    	.main-hero-section .col-xxs {
+    		width: 45%;
+    	}
+        .frazier h2 {
+            margin-top: 30px;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .corporate-responsibility .main-hero-section {
+            min-height: 144px;
+        }
+        .corporate-responsibility .shareBtn {
+            width: 60px;
+            margin-top: 10px;
+        }
+        .corporate-responsibility .main-hero-section .title {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .corporate-responsibility .divider {
+            font-size: 15px;
+            padding-top: 10px;
+            padding-bottom: 15px;
+        }
+        .corporate-responsibility h2 {
+            font-size: 17px;
+        }
+        .corporate-responsibility .proud-section .row-one-img, .corporate-responsibility .proud-section .row-two-img {
+            margin: 0 10px 45px 0;
+        }
+        .corporate-responsibility .proud-section .row-one-img, .corporate-responsibility .proud-section .row-two-img {
+            width: 80px;
+        }
+        .corporate-responsibility .proud-section p {
+            font-size: 13px;
+        }
+        .corporate-responsibility .quote {
+            font-size: 15px;
+        }
+        .corporate-responsibility .content {
+            font-size: 14px;
+        }
+        .corporate-responsibility .doors.two p {
+            font-size: 14px;
+        }
+        .corporate-responsibility .frazier .quote .caption {
+            font-size: 13px;
+            margin-top: 10px;
+        }
+        .corporate-responsibility .frazier {
+            padding-top: 15px;
+            padding-bottom: 5px;
+        }
+    }
+    @media (max-width: 480px){
+        .corporate-responsibility .main-hero-section {
+            height: 160px;
+            background-position: -70px 0;
+        }
+        .page-title img {
+            height: 35px;
+        }
+        .video-bg, .video-bg img.video-img {
+            height: 230px;
+        }
+        .corporate-responsibility .main-hero-section .col-xxs {
+            margin-left: 0%;
+            width:60%;
+        }
+        .corporate-responsibility .quote {
+            font-size: 20px;
+        }
+        .corporate-responsibility .main-hero-section .title {
+            font-size: 10px;
+            margin-top: 17px;
+        }
+        .corporate-responsibility .main-hero-section .title p {
+            font-size: 11px;
+        }
+    }
+    @media screen and (max-width: 479px) {
+        .content-hero-container {
+            margin: 0;
+        }
+        
+        .corporate-responsibility .divider {
+            font-size: 14px;
+        }
+        .corporate-responsibility .report-section p {
+            font-size: 13px;
+        }
+        .corporate-responsibility .report-section .teal-button {
+            font-size: 13px;
+        }
+        .corporate-responsibility .responsibility-approach p {
+            font-size: 13px;
+        }
+        .corporate-responsibility .responsibility-approach .row.bottom {
+            margin-top: 5px;
+        }
+        .corporate-responsibility h2 {
+            font-size: 16px;
+        }
+        .corporate-responsibility .proud-section .col-xxs {
+            width: 100%;
+        }
+        .corporate-responsibility .proud-section .row-one-img, .corporate-responsibility .proud-section .row-two-img {
+            width: 100px;
+        }
+        .corporate-responsibility .proud-section p {
+            font-size: 14px;
+        }
+        .corporate-responsibility .doors.two .left.door {
+            min-height: 180px;
+        }
+        .corporate-responsibility .doors.two p {
+            font-size: 13px;
+        }
+        .corporate-responsibility .content {
+            font-size: 13px;
+        }
+        .corporate-responsibility .quote .large {
+            top: 14px;
+            left: -4px;
+        }
+        
+        .corporate-responsibility h2 {
+            font-size: 20px;
+        }
+    }
+    
+    @media screen and (max-width: 370px) {
+        .corporate-responsibility .main-hero-section {
+            min-height: 90px;
+        }
+        .corporate-responsibility .main-hero-section .title {
+            font-size: 12px;
+        }
+        .corporate-responsibility .report-section {
+            text-align: center;
+        }
+        .corporate-responsibility .report-section .col-xxs {
+            width: 100%;
+        }
+        .corporate-responsibility .report-section .xxs-img-width {
+            width: 250px;
+            margin:  0 auto 15px;
+        }
+
+    }

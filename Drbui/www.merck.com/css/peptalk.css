@@ -1,0 +1,355 @@
+/* ==========================================================================
+   0. PAGE GLOBALS
+   ========================================================================== */
+
+body {
+    font-family: "UniversLTW01-47LightCn","Arial Narrow", Arial, sans-serif;
+}
+
+.divider{
+	padding: 30px 0 25px 0;
+}
+
+.divider p {
+    font-size: 24px;
+    color: #243444;
+}
+
+.p-t{
+	padding-top: 20px;
+}
+
+.shareBtn{
+	cursor: pointer;
+    position: relative;
+    z-index: 99;
+    width: 100px;
+    margin-top: 2% !important;
+    margin-right: 0px;
+}
+
+.shareBtn img {
+    max-width: 90%;
+}
+
+/*.white{
+    color: #ffffff;
+}*/
+
+/* 0.1. HERO SECTION
+   ========================================================================== */
+.main-hero-section{
+    background: #354756 url("http://www.merck.com/images/about/featured_stories/peptalk/mfp_bg_hero.jpg") no-repeat scroll 60% top / cover;
+    background-size: cover;
+    max-height: 425px;
+    height: 425px;
+    margin-top: 120px;
+}
+
+
+.main-hero-section h1{
+	color: #ffffff;
+    font-size: 40px;
+    margin-top: 60px;
+   /* text-align: center;*/
+}
+
+.main-hero-section .teal{
+	color: #009693;
+    padding-left: 40px;
+    margin-top: -8px;
+    text-transform: uppercase;
+}
+
+/* 0.2. DIVIDER SECTION
+   ========================================================================== */
+.tealBackground{
+	background-color: #009693;
+	text-align: center;
+}
+
+.tealBackground p{
+	color: #ffffff;
+	text-align: center;
+}
+
+.whiteBackground{
+    background-color: #ffffff;
+}
+
+.skyBackground{
+	background-color: #DEF3F2;
+	text-align: center;
+	padding-bottom: 45px;
+}
+
+.skyBackground h1{
+	color: #768dc1;
+    font-size: 32px;
+} 
+
+.purpleBackground{
+	background-color: #601341;
+	text-align: center;
+}
+
+.purpleBackground h1{
+     color: #ffffff;
+     font-size: 32px;
+}
+
+.purpleBackground p{
+     color: #ffffff;
+}
+
+.pep{
+	text-align: center;
+}
+
+.pep h1{
+     font-size: 32px;
+     color: #243444;
+}
+
+.info{
+	text-align: center;
+}
+
+.info h1{
+    font-size: 32px;
+}
+
+.info h2{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.info h1, h2{
+	color: #768dc1;
+}
+
+.pep-btn-more {
+    margin-top: 15px;
+    background-color: #662046;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 0px;
+    font-size: 18px;
+}
+
+.pep-btn-more:visited {
+    background-color: #662046;
+    color: #ffffff;
+}
+
+.pep-btn-more:hover {
+    background-color: #662046;
+    color: #ffffff;
+}
+
+.btn-more {
+    margin-top: 15px;
+    background-color: #009894;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 0px;
+    font-size: 18px;
+}
+
+.btn-more:visited {
+    background-color: #009894;
+    color: #ffffff;
+}
+
+.btn-more:hover {
+    background-color: #009894;
+    color: #ffffff;
+}
+
+.mfm{
+        padding: 25px 0 10px 0
+}
+
+/*  -0.9. IPAD PORTRAIT
+    ========================================================================== */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {        
+    }
+
+    /*  -0.9. IPAD LANDSCAPE
+    ========================================================================== */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {   
+
+
+    }
+}
+
+
+/*  -0.9. LARGE DEVICES, WIDE SCREENS
+    ========================================================================== */
+    @media only screen and (max-width : 1199px){
+
+        .plain-template .main-hero-section h1 {
+            font-size: 45px;
+        }
+        .shareBtn img {
+            max-width: 70%;
+        }
+        .shareBtn {
+            right: 5%;
+        }
+
+        
+    }
+
+/*  -1.0 MEDIUM DEVICES, DESKTOPS
+    ========================================================================== */
+    @media only screen and (max-width : 991px){
+        .main-hero-section{
+            background: #354756 url("http://www.merck.com/images/about/featured_stories/peptalk/mfp_bg_hero.jpg") no-repeat scroll 40% top / cover;
+            background-size: cover;
+            max-height: 250px;
+            height: 250px;
+            margin-top: 0px;
+        }
+
+        .plain-template .main-hero-section h1 {
+            font-size: 32px;
+            /* margin-top: 20px;*/
+    
+        }
+        .plain-template .divider {
+            padding: 20px 0px;
+        }
+
+    }
+/*  -1.2 SMALL DEVICES, TABLETS
+    ========================================================================== */
+    @media only screen and (max-width : 767px){
+
+        .plain-template .main-hero-section h1 {
+            font-size: 30px;
+            /* margin-top: 20px;*/
+            text-align: left;
+        }
+
+        .main-hero-section{
+            background: #354756 url("http://www.merck.com/images/about/featured_stories/peptalk/mfp_bg_hero.jpg") no-repeat scroll 30% top / cover;
+            background-size: cover;
+            max-height: 230px;
+            height: 230px;
+            margin-top: 0px;
+        }
+
+        .main-hero-section .teal{
+            padding-left: 25px;
+        }
+
+        .plain-template .main-hero-section p {
+            font-size: 20px;
+            line-height: 28px;
+            padding-bottom: 10px;
+            text-align: left;
+        }
+        
+        .shareBtn {
+            width: 80px;
+            right: 0%;
+        }
+
+        .plain-template .divider {
+            padding: 20px 0px;
+        }
+
+        .plain-template .divider p {
+            font-size: 15px;
+        }
+
+        .plain-template  .divider p{
+            font-size: 18px;
+        }
+
+        .pep-img{
+            padding-top: 20px;
+        }
+
+        .btn-more{
+            width: 100%;
+            font-size: 20px;
+        }
+
+        .pep-btn-more{
+            width: 100%;
+            font-size: 20px;
+        }
+
+    }
+/*  -1.3EXTRA SMALL DEVICES, PHONES
+    ========================================================================== */
+    @media only screen and (max-width : 479px){
+
+
+        .main-hero-section{
+            background: #354756 url("http://www.merck.com/images/about/featured_stories/peptalk/mfp_bg_hero.jpg") no-repeat scroll 40% top / cover;
+            background-size: cover;
+            max-height: 110px;
+            height: 110px;
+            margin-top: 0px;
+        }
+
+        .divider h1{
+            line-height: 1em;
+        }
+
+        .plain-template .main-hero-section h1 {
+            font-size: 18px;
+            margin-top: 10px;
+           /* text-align: center;*/
+        }
+
+        .main-hero-section .teal{
+            position: relative;
+            top: -35px;
+        }
+
+        .main-hero-section .teal{
+            padding-left: 0px;
+        }
+       
+        .plain-template .main-hero-section p {
+            font-size: 15px;
+            line-height: 1.2em;
+            padding-bottom: 10px;
+            text-align: left;
+        }
+    
+        .shareBtn {
+            width: 70px;
+            right: 170px;
+            top: 5px;
+        }
+
+        .plain-template .divider {
+            padding: 20px 0px;
+        }
+
+        .plain-template  .divider p{
+            font-size: 18px;
+        }
+        
+        .pep-img{
+            padding-top: 20px;
+        }
+
+        .btn-more{
+            width: 100%;
+            font-size: 18px;
+        }
+
+        .pep-btn-more{
+            width: 100%;
+            font-size: 18px;
+        }
+    
+    }

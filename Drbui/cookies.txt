@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.merck.com	TRUE	/	FALSE	1999999999	unique_visitor	66.171.227.40.1487452847283216
+www.merck.com	TRUE	/	FALSE	1999999999	BIGipServerwww.merck.com-HTTP	42143916.20480.0000
+

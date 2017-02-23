@@ -1,0 +1,779 @@
+/* ==========================================================================
+   PAGE GLOBALS
+   ========================================================================== */
+body { font-size: 20px; }
+.breadcrumb a { font-size: 15px; }
+h4, .h4 {
+    font-size: 25px;
+}
+.merck-green-text-color { color: #009994 !important; }
+.merck-white-text-color { color: #fff !important; }
+.merck-darkgray-text-color { color: #2A333A !important; }
+.merck-white-bg-color { background: #fff !important; }
+.merck-teal-bg-color { background: #009994 !important; }
+.merck-skyblue-bg-color { background: #CCEFF1 !important; }
+.merck-darkgray-bg-color { background: #2A333A !important; }
+.large-text { font-size: 40px !important; line-height: normal; }
+.medium-text { font-size: 35px !important; line-height: normal; }
+.space-top-bottom { padding: 30px 0; }
+.image-space-bottom { margin-bottom: 15px; }
+.shareBtn {
+    cursor: pointer;
+    margin-top: 2%;
+    position: relative;
+    right: 175px;
+    width: 110px;
+    z-index: 99;
+}
+.shareBtn img {
+    max-width: 90%;
+}
+
+.quote-large {
+    font-family: "Times New Roman", serif;
+    position: relative;
+    font-size: 110px;
+    line-height: 0.5em;
+    top: 40px;
+}
+
+blockquote {
+    margin: 10px 0;
+    border: none;
+}
+blockquote {
+
+}
+
+blockquote p.quote {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+blockquote .caption {
+    font-size: 30px;
+    font-weight: normal;
+    line-height: normal;
+}
+.unbold { font-weight: normal !important; }
+.view-more-stories { 
+    width: 20%; 
+    margin: 0 auto;
+}
+.view-more-stories li {
+    display: table-cell;
+    vertical-align: middle;
+}
+.visit-cdc { 
+    width: 30%; 
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.visit-cdc li {
+    display: table-cell;
+    vertical-align: middle;
+}
+.visit-cdc li a { color: #2A333A; }
+.WIW-Assets-01 { width: 50%; }
+.WIW-Assets-02 { width: 50%; }
+.WIW-Assets-03 { width: 40%; }
+.WIW-Assets-04 { width: 23%; }
+.WIW-Assets-05 { width: 26%; }
+.WIW-Assets-06 { width: 40%; }
+.footer_container {
+    position: relative;
+    top: 0;
+}
+    .footer_container p { font-size: 15px; }
+    .footer_container ul.legal_nav li a {
+        color: #289392;
+        font-size: 11px;
+    }
+.media-body { display: table-cell; }
+/* ==========================================================================
+   MAIN HERO
+   ========================================================================== */
+
+.cham .main-hero-section {
+    margin-top: 105px;
+    background-color: #337478;
+
+    background-image: url("http://www.merck.com/images/about/featured_stories/hero_hpv_new.jpg");
+    background-repeat: no-repeat;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: right top;
+    min-height: 550px;
+}
+.cham .main-hero-section .hero-bg {
+    margin-top: 25%;
+    padding: 10px;
+}
+.cham .main-hero-section .container {
+
+}
+.bg-water {
+    background-image: url('http://www.merck.com/images/about/featured_stories/bg_water.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+.cham .main-hero-section h1 {
+    color: #fff;
+    font-size: 60px;
+    line-height: 1.1em;
+    margin-bottom: 0;
+}
+
+.cham .main-hero-section h2 {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.cham .main-hero-section p {
+    color: #ffffff;
+    font-size: 37px;
+    max-width: 40%;
+}
+
+.cham .main-hero-section h1,
+.cham .main-hero-section h2,
+.cham .main-hero-section p {
+    /*text-shadow: 2px 2px 10px rgb(0, 0, 0);*/
+}
+
+
+/* ==========================================================================
+   CONTENT SECTIONS
+   ========================================================================== */
+   #container {
+        background: url('http://www.merck.com/images/about/featured_stories/g10_video_prevention.jpg');
+        background-size: cover;
+        cursor:pointer;
+        width:350px;
+        height:200px;
+        margin:auto;
+        position:relative;
+    }
+.inactive-state {
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFUAAAAwCAIAAADvrqHkAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAVxJREFUeNpivD5DnmEEAyaGkQ1G/T/q/1H/j/p/1P+j/h/1/6j/RxpgoZ3RGmn3qWXUjVmKo/E/1OKfKlFHxUQ0iOKfU8xgRJd/0m4zOUR0R67/WbjEZDxmD4YgGLDyj4VLHBQEonojt/4HBYE7MAh0R6j/oRnBbRaHiM7Ibf+xcEuAUsEAlQWDov0DDIKBqhEGS/uPlUdSxn0W/YNgELV/QRnBYzafSsDI7f8BawReJc9h1f4nCXy4vvzt+Skj1P8fb615ebTu/78/IzH9f7y56sWhCjp7frDE/4drS16eaP3/7+9IrP+Aef7Vifb/f34MTIk7wMn+9nr65/nB4n9ggff8YDnD/38DWeMOYJ5/daJtYD0/YPkflOdPdf37833AS5+B8f+bsxP//fo8KFqctLaA1gO4w6r9T3/AOLr+iWHU/6P+H/X/qP9H/T/q/1H/j/p/1P8jBwAEGAAZsV2KaXSD7AAAAABJRU5ErkJggg==');
+    }
+    .hover-state {
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFUAAAAwCAIAAADvrqHkAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAU1JREFUeNrsmV1qwkAUhVOJ9b8PUZ+UFp+MW+iLuo8uzAW4FhFEBREsWsVSQZO2oM/WGYdB360k3jH33AVM8p0758yd5GHSerEYV8ziXeAHP/jBD37wgx/83MoOb2n39S2opd47bfT/3vofSOsC3EQG9T+VK7DOv1K1nsw6fPntx1TZbZogAVn+nSXI8z3/tQQNWgmIzz8tQT2ZcZjyawnS5VqDKguMmH+UBKUqjQSmzH/xRFpngcOU/2QEt/lUrPC9/6k4zOWfIzX//6u23ux3NWbKv/Pn3qInpeDIr+A3866UMmr334u2/WbqLfu3hzci/5Tn/c+BFAeaxCXe9t+L23veFH7l+fVH17Ik4TvYhJ73lwNaeDL/a88PhfgjTx8a/p+vkTjsjZg4w35A2B9wIzX/R6r/4f20Qf/BD37wgx/84Ac/+MF/ZR0FGAAHJFtR2l1ELgAAAABJRU5ErkJggg==');
+    }
+.cham .content.one {
+    background-color: #2F4049;
+    padding: 30px 0;
+}
+
+.cham .content.one p {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.5em;
+    text-align: right;
+}
+
+.cham .content.two {
+    background-color: #02877C;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.cham .content.two p {
+    color: #ffffff;
+    font-size: 26px;
+    margin: 25px 0;
+    line-height: 1.2em;
+}
+
+.cham .content.two p {
+    padding-top: 15px;
+}
+
+.cham .content.two h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1em;
+}
+
+.cham .content.two .darker {
+    color: #86CAD3;
+    font-size: 46px;
+    line-height: 1em;
+}
+
+.cham .content.two .borderleftright {
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+}
+
+.cham .content.three {
+    background-color: #CEEBEE;
+}
+
+.cham .content.three .container {
+    background-image: url("http://www.merck.com/images/about/cham/cham_icon_dr.png");
+    background-repeat: no-repeat;
+    -o-background-size: 320px;
+    background-size: 320px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-position: 103% 152%;
+}
+
+.cham .content.three h1 {
+    font-size: 45px;
+    line-height: 1.0em;
+    color: #02877C;
+    width: 90%;
+}
+
+.cham .content.three p {
+    color: #2A1F20;
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+
+/* ==========================================================================
+   DIVIDER SECTIONS
+   ========================================================================== */
+
+.cham .divider {
+    background-color: #6CCAD3;
+    padding-top: 20px;
+}
+
+.cham .divider .container:after {
+    content: "";
+    position: relative;
+    top: 13px;
+    left: 70px;
+    border-top: 20px solid #009994;
+    border-top-color: #009994;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.cham .divider h1 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+
+/* ==========================================================================
+   INFOGRAFIC SECTIONS
+   ========================================================================== */
+
+.cham .infographic {
+    padding: 55px 0;
+    background: #fff;
+}
+
+.cham .infographic .colored {
+    color: #028780;
+}
+
+.cham .infographic p {
+    
+    font-size: 20px;
+    /*text-align: center;
+    padding-top: 15px;*/
+}
+
+.cham .infographic .left p {
+    padding-right: 25px;
+}
+
+/*.cham .infographic .center p {
+    padding-left: 25px;
+    padding-right: 25px;
+}*/
+
+.cham .infographic.one .left p {
+    margin-top: 2px;
+}
+
+.cham .infographic.one .center p {
+    margin-top: 15px;
+}
+
+/*.cham .infographic.two .center p {
+    margin-top: 5px;
+}*/
+
+.cham .infographic.two .right p {
+    margin-top: 8px;
+}
+
+
+/* ==========================================================================
+   VIDEOBOX SECTION
+   ========================================================================== */
+
+.cham .videobox {
+    background-color: #37434A;
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+.cham .videobox h2 {
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.3em;
+}
+
+.cham .videobox .playicon {
+    display: inline-block;
+    float: left;
+    max-width: 85px;
+}
+
+.cham .videobox p {
+    font-size: 26px;
+    width: 75%;
+    display: inline-block;
+    text-align: left;
+    margin-left: 2%;
+}
+
+
+/* ==========================================================================
+   MEN-HERO SECTION
+   ========================================================================== */
+
+.cham .men-hero {
+    background-color: #02877c;
+}
+
+.cham .men-hero .container {
+    background-image: url("http://www.merck.com/images/about/cham/cham_bg_hero2.jpg");
+    background-repeat: no-repeat;
+    -o-background-size: 1030px;
+    background-size: 1030px;
+    background-position: right top;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.cham .men-hero h1 {
+    color: #ffffff;
+    font-size: 52px;
+    line-height: 1.1em;
+    width: 75%;
+}
+
+.cham .men-hero p {
+    color: #ffffff;
+    font-size: 38px;
+    width: 50%;
+}
+
+
+/* ==========================================================================
+   RESOURCES SECTION
+   ========================================================================== */
+
+.cham .resources {
+    padding: 20px 0 0;
+}
+
+.cham .resources h1 {
+    font-size: 42px;
+    color: #6CCAD3;
+    line-height: 1.1em;
+    padding-top: 15px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .cham .videobox h2 {
+        font-size: 30px;
+    }
+    .cham .men-hero h1 {
+        font-size: 40px;
+        margin-bottom: 35px;
+    }
+    .cham .men-hero p {
+        font-size: 30px;
+    }
+    .cham .men-hero .container {
+    	padding-top: 50px;
+    	padding-bottom: 50px;
+    }
+    .cham .content.three h1 {
+        font-size: 38px;
+    }
+    .cham .content.three p {
+        font-size: 28px;
+    }
+    .cham .content.three .container {
+        background-position: 103% 190%;
+    }
+    .cham .videobox p {
+    	font-size: 23px;
+    }
+    .cham .resources h1 {
+        font-size: 38px;
+    }
+}
+@media (max-width: 1024px){
+    .shareBtn {
+        right: -15px;
+    }
+    .cham .main-hero-section h1 {
+        color: #2a333a;
+        font-size: 40px;
+        line-height: 1.1em;
+        margin-bottom: 0;
+    }
+    .cham .main-hero-section h2 {
+        color: #2a333a;
+        font-size: 30px;
+        font-weight: normal;
+        margin-bottom: 0;
+    }
+    .medium-text { font-size: 30px !important; line-height: normal; }
+    .cham .main-hero-section .hero-bg {
+        background: #fff none repeat scroll 0 0;
+        margin-top: 50%;
+        opacity: 0.7;
+        padding: 10px;
+    }
+    .view-more-stories {
+        margin: 0 auto;
+        width: 25%;
+    }
+    .visit-cdc {
+        margin: 0 auto;
+        padding: 10px 0;
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .cham .main-hero-section {
+        margin-top: -2px;
+    }
+
+    .cham .main-hero-section p {
+        font-size: 32px;
+    }
+    .cham .content.one p {
+        font-size: 18px;
+        margin: 20px 0px;
+    }
+    .cham .infographic p {
+        font-size: 16px;
+    }
+    .cham .infographic {
+        padding: 35px 0px;
+    }
+    .cham .videobox h2 {
+		font-size: 22px;
+    }
+    .cham .videobox p {
+        font-size: 20px;
+        width: 65%;
+        margin-left: 3%;
+    }
+    .cham .videobox .playicon {
+        width: 30%;
+        margin-top: 8px;
+    }
+    .cham .men-hero h1 {
+        font-size: 32px;
+    }
+    .cham .men-hero .container {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        background-size: 820px;
+    }
+    .cham .men-hero p {
+        font-size: 24px;
+    }
+    .cham .content.two h2 {
+        font-size: 30px;
+    }
+    .cham .content.two .darker {
+        font-size: 38px;
+    }
+    .cham .content.two p {
+        font-size: 20px;
+        margin: 25px 0px;
+        line-height: 1.1em;
+    }
+    .cham .content.three h1 {
+    	font-size: 28px;
+    }
+    .cham .content.three p {
+    	font-size: 24px;
+    }
+    .cham .content.three .container {
+    	background-position: 103% 155%;
+    	background-size: 270px auto;
+    }
+    .cham .resources h1 {
+    	font-size: 30px;
+    	padding-top: 0;
+    }
+}
+@media (max-width: 768px){
+    .cham .content.one p {
+        font-size: 28px;
+    }
+    .WIW-Assets-07 {
+        width: 45%;
+    }
+    .large-text {
+        font-size: 25px !important;
+        line-height: normal;
+    }
+    .view-more-stories {
+        margin: 0 auto;
+        width: 25%;
+    }
+    .visit-cdc {
+        margin: 0 auto;
+        padding: 10px 0;
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .media { margin-bottom: 15px; }
+    .media .media-body h4 { margin-top: 0; }
+    .view-more-stories {
+        margin: 0 auto;
+        width: 35%;
+    }
+    .visit-cdc {
+        margin: 0 auto;
+        padding: 10px 0;
+        width: 48%;
+    }
+    .large-text { font-size: 28px !important; }
+	.cham .main-hero-section .container {
+		min-height: 385px;
+	}
+	
+	.cham .main-hero-section h2 {
+		font-size: 26px;
+	}
+	.cham .main-hero-section p {
+		font-size: 22px;
+		max-width: 50%;
+	}
+	.cham .infographic .left p {
+		padding-right: 0;
+	}
+	.cham .infographic p {
+		font-size: 16px;
+		margin-top: 0;
+		margin-bottom: 30px;
+        text-align: center;
+	}
+	.cham .videobox p {
+		width: 75%;
+		font-size: 27px;
+	}
+	.cham .videobox h2 {
+		font-size: 25px;
+	}
+	.cham .videobox .playicon {
+		margin-right: 10px;
+	}
+	.cham .men-hero h1 {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.cham .men-hero p {
+		font-size: 17px;
+	}
+	.cham .men-hero .container {
+		background-size: 550px auto;
+		padding-top: 15px;
+		padding-bottom: 40px;
+	}
+	.cham .content.two .darker {
+		font-size: 25px;
+	}
+	.cham .content.two p {
+		font-size: 17px;
+		margin: 10px 0px;
+	}
+	.cham .content.two .rightside p {
+		margin: 0px 0px;
+	}
+	.cham .content.two h2 {
+		font-size: 22px;
+	}
+	.cham .content.three h1 {
+		font-size: 18px;
+	}
+	.cham .content.three p {
+		font-size: 16px;
+	}
+	.cham .content.three .container {
+		background-position: 105% 125%;
+		background-size: 200px auto;
+	}
+	.cham .resources h1 {
+		font-size: 21px;
+	}
+	.cham .resources {
+		padding: 20px 0px 20px;
+	}
+}
+@media (max-width: 667px) {
+    .cham .infographic p {
+        font-size: 23px;
+    }
+    blockquote p.quote {
+        font-size: 25px;
+    }
+    .large-text {
+        font-size: 25px !important;
+        line-height: normal;
+    }
+    .WIW-Assets-01,
+    .WIW-Assets-02,
+    .WIW-Assets-03,
+    .WIW-Assets-04,
+    .WIW-Assets-05,
+    .WIW-Assets-06 { width: 20%; }
+    .WIW-Assets-07 {
+        width: 45%;
+    }
+}
+@media (max-width: 480px){
+    .view-more-stories {
+        margin: 0 auto;
+        width: 40%;
+    }
+    .visit-cdc {
+        margin: 0 auto;
+        padding: 10px 0;
+        width: 65%;
+    }
+    .large-text {
+        font-size: 30px !important;
+        line-height: normal;
+    }
+    .cham .main-hero-section {
+        min-height: 250px;
+    }
+    .cham .main-hero-section h1 {
+        font-size: 24px;
+    }
+    .cham .content.one p {
+        font-size: 23px !important;
+    }
+    blockquote p.quote {
+        font-size: 23px;
+        font-weight: bold;
+    }
+    blockquote .caption {
+        font-size: 24px;
+        font-weight: normal;
+        line-height: normal;
+    }
+    .cham .divider h1 {
+        font-size: 25px;
+        line-height: normal;
+    }
+    .cham .infographic p {
+        font-size: 21px;
+    }
+    .WIW-Assets-01, .WIW-Assets-02, .WIW-Assets-03, .WIW-Assets-04, .WIW-Assets-05, .WIW-Assets-06 {
+        margin-bottom: 30px;
+        width: 35%;
+    }
+    .large-text {
+        font-size: 23px !important;
+        line-height: normal;
+    }
+}
+@media only screen and (max-width: 479px) {
+	
+	.shareBtn {
+		width: 85px;
+	}
+	.cham .main-hero-section .container {
+		min-height: 255px;
+	}
+	.cham .main-hero-section h1 {
+		font-size: 19px;
+	}
+	.cham .main-hero-section h2 {
+		font-size: 18px;
+	}
+	.cham .main-hero-section p {
+		font-size: 17px;
+		line-height: 1em;
+	}
+	.cham .content.one p {
+		font-size: 15px;
+	}
+	.cham .divider h1 {
+		font-size: 30px;
+	}
+	.cham .videobox h2 {
+		font-size: 20px;
+	}
+	.cham .videobox p {
+		font-size: 18px;
+	}
+	.cham .videobox .playicon {
+		margin-right: 0px;
+		width: 22%;
+		margin-top: 0;
+	}
+	.cham .men-hero h1 {
+		font-size: 15px;
+	}
+	.cham .men-hero p {
+		font-size: 15px;
+	}
+	.cham .men-hero .container {
+		background-size: 535px auto;
+		padding-top: 15px;
+		padding-bottom: 0px;
+	}
+	.cham .men-hero h1 {
+		font-size: 15px;
+	}
+	.cham .men-hero p {
+		font-size: 15px;
+	}
+	.cham .content.two h2 {
+		font-size: 15px;
+	}
+	.cham .content.two p {
+		font-size: 12px;
+	}
+	.cham .content.two .darker {
+		font-size: 15px;
+	}
+	.cham .content.three h1 {
+		font-size: 13px;
+	}
+	.cham .content.three p {
+		font-size: 13px;
+	}
+	.cham .content.three .container {
+		background-position: 105% 111%;
+		background-size: 140px auto;
+	}
+	.cham .resources h1 {
+		font-size: 15px;
+	}
+}

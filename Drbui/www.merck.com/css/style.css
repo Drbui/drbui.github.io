@@ -1,0 +1,1258 @@
+body {
+	font-family: "UniversLTW01-47LightCn","Arial Narrow", Arial, sans-serif;	
+}
+
+/*  _______________________________________________
+
+    COLORS
+    _______________________________________________  */
+
+a,
+a:visited,
+a:active { 
+	color: #13A29C; 
+	text-decoration:none; 
+}
+a:hover { text-decoration:underline; }
+.lavender { color: #768DC1 !important; }
+.teal { color: #00958F !important; }
+.image_align_right {
+	float: right;	
+	margin: 0 0 10px 10px;
+}
+.image_align_left {
+	float: left;	
+	margin: 0 10px 10px 0;
+}
+.hide {
+	display: none;	
+}
+.white_color_text {
+	color: #fff !important;	
+}
+.muted {
+	color: #676767 !important;	
+}
+.header_container {
+	margin-top: 20px;
+}
+	.header_section { background: #fff; }
+#worldwide_content table td a {
+	background: url("http://www.merck.com/images/global/icon_link-bg-arrow.gif") no-repeat scroll 0 2px transparent;
+	padding: 1px 0 1px 10px;	
+}
+	#worldwide_content table td a.bottom_space {
+		margin-bottom: 10px;	
+	}
+.modal-header { padding: 4px 15px; }
+.modal-header h3 {
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 1.4em;	
+}
+/*  _______________________________________________
+
+    MAIN NAVIGATION
+    _______________________________________________  */
+	.main_nav {
+		z-index: 9;	
+	}
+	/*.modal {
+		width: 750px;	
+	}
+		.modal-body {
+			max-height: 600px;	
+		}*/
+/*  _______________________________________________
+
+    SEARCH BOX
+    _______________________________________________  */
+	.searchBox {
+		left: 430px;
+		top: 0;	
+	}
+.searchBox form {
+		margin-bottom: 0;	
+		margin-top: 9px;
+	}
+	.searchBox table {
+		background: #fff;
+	}
+	
+	.searchBox input.text { 
+		width: 130px; 
+		border: 0; 
+		color: #999; 
+		margin-bottom: 0;
+		padding: 1px 6px;
+		box-shadow: none;
+		border-radius: 0;
+		height: 20px;
+		font-size: 12px;
+	}
+	.searchBox input.butn { 
+		width: 20px; 
+		height: 10px; 
+		padding: 0 5px;
+	}		
+	#resultCountID {
+		font-size: 1.25em;	
+	}
+	.searchResults {
+		font-size: 1.25em;	
+	}
+/*  _______________________________________________
+
+    SECONDARY NAVIGATION
+    _______________________________________________  */
+#secondary_navigation_container {
+	/*max-height: 48px;*/	
+}
+	#secondary_navigation_container .megamenu_dark_bar .megamenu > li > a {
+		color: #000;	
+	}
+	#secondary_navigation_container .megamenu_dark_bar .megamenu > li .megamenu_drop { 
+		background: none;
+	}
+	#secondary_navigation_container .megamenu_dark_bar { background: #fff; }
+	#secondary_navigation_container .megamenu > li > a.quick_links {
+		font-weight: bold;
+		color: #00958F;
+	}
+	#secondary_navigation_container .megamenu > li > a.social_media {
+		padding: 6px 15px;
+	}	
+	.secondary_navigation {
+		font-size:12px;
+		background: #fff;
+		/*height:37px;*/
+		padding:0px 0px 0px 0px;
+		margin: 5px 0 10px 0px;
+		display:block;
+		line-height:1;
+		*position: relative;
+		*z-index: 9;
+		float: right;
+	}
+		.secondary_navigation h1, 
+		.secondary_navigation ul, 
+		.secondary_navigation p, 
+		.secondary_navigation img {
+			margin:0;
+			padding:0;
+			border:0;
+		}
+		.secondary_navigation h1 {
+			font-weight:normal;
+		}
+		.secondary_navigation ul {
+			list-style:none;
+		}
+		.secondary_navigation a {
+			text-decoration:none;
+			color:#fff;
+		}
+		.secondary_navigation .menu-label {
+			font-weight: bold;
+		}
+		.secondary_navigation .menu-label.quicklinks {
+			font-weight:bold;
+			text-transform: uppercase;
+		}
+		.secondary_navigation .menu-top li.search_box {
+				
+		}
+		.secondary_navigation .menu-top>li {
+			float:left;
+			position:relative;
+			text-align:center;
+		}
+		.secondary_navigation .menu-top>li:hover {
+			/*background-color:#00958f;*/
+		}
+		.secondary_navigation .menu-top .menu-right {
+			float:left;
+		}
+		.secondary_navigation .menu-button {
+			display:block;
+			line-height:37px;
+			padding:0 14px;
+			color:#455660;
+			font-size: 0.9em;
+			background: url("http://www.merck.com/images/dot_separator.png") no-repeat scroll 0 1.5em transparent;
+		}
+			.secondary_navigation .menu-button.first {
+				background: none;
+			}
+		.secondary_navigation .menu-button.social { 
+			background: none; 
+			padding-left: 5px;
+		}
+		.secondary_navigation li:hover .menu-button {
+			color:#455660;
+			background: #dcdcdc;
+		}
+		.secondary_navigation .menu-drop {
+			/*padding-right:10px;*/
+		}
+		.secondary_navigation .menu-drop .menu-label {
+			/*padding-right:20px;
+			background:url("../images/arrow_menu_down_dark.png") no-repeat right;*/
+		}
+		.secondary_navigation .menu-drop .menu-label.quicklinks,
+		.secondary_navigation .menu-drop .menu-label.social_media {
+			padding-right:20px;
+			background:url("http://www.merck.com/images/arrow_menu_down_dark.png") no-repeat right;
+		}
+		.secondary_navigation li:hover .menu-drop .menu-label {
+			/*background:url("../img/arrow_menu_down_dark.png") no-repeat right;*/
+		}
+		.secondary_navigation li:hover .menu-drop .menu-label.quicklinks,
+		.secondary_navigation li:hover .menu-drop .menu-label.social_media {
+			background:url("http://www.merck.com/images/arrow_menu_down_dark.png") no-repeat right;
+		}
+		.secondary_navigation .menu-dropdown {
+			text-align:left;
+			background-color:#fff;
+			position:absolute;
+			left:-5000px;
+			opacity:0;
+			/*z-index:100;*/
+			z-index: 999;
+		}
+		/*.secondary_navigation li:hover .menu-dropdown {
+			left:0;
+			opacity: 1;
+		}
+		*/
+		.secondary_navigation li:hover .menu-dropdown2 {
+			left: -99px;
+			opacity:1;
+		}
+		.secondary_navigation li:hover .menu-dropdown3 {
+			left: -201px;
+			opacity:1;
+		}
+		.secondary_navigation li:hover .menu-dropdown4 {
+			left: -305px;
+			opacity:1;
+		}
+		
+
+		/*ON HOVER SHOW THE QUICK LINKS
+		.secondary_navigation .menu-right:hover .menu-dropdown {
+			left:auto;
+			right:0;
+			opacity: 1;
+		}*/
+		.open-quicklinks {
+			left:auto !important;
+			right:0;
+			opacity: 1 !important;
+		}
+		
+		/*.secondary_navigation .menu-right .menu-dropdown7 {
+			left:-690px;
+			right:0;
+			opacity: 1;
+			
+		}*/
+		.secondary_navigation .menu-sub {
+			margin:5px 0;
+		}
+		.secondary_navigation .menu-sub li {
+			/*white-space:nowrap;
+			background:url("../img/arrow_menu_right_dark.png") no-repeat 10px;*/
+		}
+		.secondary_navigation .menu-sub li:hover {
+			/*background:#2a2a2a url("../img/arrow_menu_right.png") no-repeat 10px;*/
+		}
+		.secondary_navigation .menu-subbutton {
+			display:block;
+			/*padding:7px 20px;*/
+			line-height:1.3;
+			color:#666;
+			font-weight: normal;
+			font-size: 0.9em;
+		}
+			.secondary_navigation .menu-subbutton:hover {
+				text-decoration: underline;
+			}
+		.secondary_navigation .menu-sub li:hover .menu-subbutton {
+			color:#2A2A2A;
+		}
+		.secondary_navigation .menu-sub .menu-subbutton .menu-label {
+			font-weight: normal;
+		}
+		.secondary_navigation .menu-desc {
+			font-style:italic;
+			color:#a0a0a0;
+		}
+		.secondary_navigation .menu-sub li:hover .menu-desc {
+			color:#d0d0d0;
+		}
+		.secondary_navigation .menu-row {
+			vertical-align:text-top;
+			width: 146px;
+			display:inline-block;
+			zoom:1;
+			*display:inline;
+		}
+		.secondary_navigation .menu-row .menu-sub {
+			margin:0;
+		}
+		.secondary_navigation h1 {
+			font-size:2em;
+			color:#a0a0a0;
+		}
+		.secondary_navigation p {
+			color:#455660;
+			line-height: 1.5em;
+			font-size: 1.2em;
+		}
+		.secondary_navigation .emp {
+			font-weight:bold;
+		}
+		.secondary_navigation .quote {
+			font-style:italic;
+		}
+		.secondary_navigation .menu-dropdown1 {
+			padding-top: 20px;
+			/*white-space:nowrap;*/
+			width: 593px;
+		}
+		.secondary_navigation .menu-dropdown1 h1 {
+			margin:0 0 5px 0;
+		}
+		.secondary_navigation .menu-dropdown1 .menu-row {
+			
+			margin:5px 0;
+			padding: 0 15px;
+			width: 200px;
+		}
+		.secondary_navigation .menu-dropdown1 .menu-row.border-right {
+			border-right:1px dotted #707070;	
+		}
+		.secondary_navigation .menu-dropdown1 .menu-row.about {
+			width: 326px;
+		}
+		.secondary_navigation .menu-dropdown1 .menu-row:last-child {
+			border-right:0;
+		}
+		.secondary_navigation .menu-dropdown2 {
+			padding-top: 20px;
+			/*white-space:nowrap;*/
+			width: 593px;
+		}
+		.secondary_navigation .menu-dropdown2 h1 {
+			margin:0 0 5px 0;
+		}
+		.secondary_navigation .menu-dropdown2 .menu-row {
+			
+			margin:5px 0;
+			padding: 0 15px;
+			width: 200px;
+		}
+		.secondary_navigation .menu-dropdown2 .menu-row.border-right {
+			border-right:1px dotted #707070;	
+		}
+		.secondary_navigation .menu-dropdown2 .menu-row.research {
+			width: 326px;
+		}
+		.secondary_navigation .menu-dropdown2 .menu-row:last-child {
+			border-right:0;
+		}
+		.secondary_navigation .menu-dropdown3 {
+			padding-top: 20px;
+			/*white-space:nowrap;*/
+			width: 593px;
+		}
+		.secondary_navigation .menu-dropdown3 h1 {
+			margin:0 0 5px 0;
+		}
+		.secondary_navigation .menu-dropdown3 .menu-row {
+			
+			margin:5px 0;
+			padding: 0 15px;
+			width: 200px;
+		}
+		.secondary_navigation .menu-dropdown3 .menu-row.border-right {
+			border-right:1px dotted #707070;	
+		}
+		.secondary_navigation .menu-dropdown3 .menu-row.products {
+			width: 326px;
+		}
+		.secondary_navigation .menu-dropdown3 .menu-row:last-child {
+			border-right:0;
+		}
+		.secondary_navigation .menu-dropdown4 {
+			padding-top: 20px;
+			/*white-space:nowrap;*/
+			width: 593px;
+		}
+		.secondary_navigation .menu-dropdown4 h1 {
+			margin:0 0 5px 0;
+		}
+		.secondary_navigation .menu-dropdown4 .menu-row {
+			
+			margin:5px 0;
+			padding: 0 15px;
+			width: 200px;
+		}
+		.secondary_navigation .menu-dropdown4 .menu-row.border-right {
+			border-right:1px dotted #707070;	
+		}
+		.secondary_navigation .menu-dropdown4 .menu-row.careers {
+			width: 326px;
+		}
+		.secondary_navigation .menu-dropdown4 .menu-row:last-child {
+			border-right:0;
+		}	
+		.secondary_navigation .menu-dropdown6 {
+			width: 360px;
+			border: 1px solid #ccc;
+		}
+		.secondary_navigation .menu-dropdown6 img {
+			margin-right:5px;
+			vertical-align:middle;
+		}
+		.secondary_navigation .menu-dropdown6 .menu-label {
+			vertical-align:middle;
+		}
+		.secondary_navigation .menu-dropdown6 .menu-subbutton {
+			padding:5px 20px;
+		}
+		.secondary_navigation .menu-dropdown7 {
+			padding: 0px 20px 10px;
+			width:795px;
+			border: 1px solid #ccc;
+		}
+		.secondary_navigation .menu-dropdown7 p {
+			margin-top:7px;
+		}
+		.secondary_navigation .menu-dropdown7 h1 {
+			color:#455660;
+			padding-bottom:3px;
+			border-bottom:1px solid #858585;
+		}
+		.secondary_navigation .menu-dropdown7 h3 {
+			color:#455660;
+			padding-bottom:3px;
+			border-bottom:1px solid #858585;
+		}
+		.secondary_navigation .menu-dropdown7 h5 {
+			color:#455660;
+			padding-bottom:3px;
+			border-bottom:1px solid #858585;
+			margin-bottom: 0;
+		}
+		.secondary_navigation .menu-dropdown7 h6 {
+			margin-bottom: 0;
+			color: #455660;
+		}
+			.secondary_navigation .menu-row.one_third {
+				display: inline-block;
+				vertical-align: text-top;
+				width: 248px;
+			}
+				.secondary_navigation .menu.one_third.last {
+					
+				}
+			.secondary_navigation .menu-row.one_third .image {
+				float: left;
+				margin-right: 10px;	
+				width: 88px;
+			}
+			.secondary_navigation .menu-row.one_third .desc {
+				float: left;
+				width: 150px;				
+			}
+			.secondary_navigation .menu-row.one_third .desc p {
+				font-size: 1.25em;
+			}
+			.secondary_navigation .menu-row.one_third .desc a {
+				color: #00958F;	
+			}
+				.secondary_navigation .menu-row.one_third .desc a:hover {
+					text-decoration: underline;
+				}
+		.secondary_navigation table {
+			margin-top: 15px;
+		}
+			.secondary_navigation table th {
+				color:#455660;
+			}
+			.secondary_navigation table td {
+				padding: 3px 12px;
+				color:#455660;
+			}
+.hero_container {
+	background: #00958F;
+	width: 100%;
+}
+	.hero_container_inside {
+		width: 1330px;
+		margin-left: auto;
+		margin-right: auto;	
+	}
+.announcement_container {
+	background: #EEEEEE;
+	padding: 15px 0;
+	width: 100%;
+}
+.stories_container {
+	padding: 15px 0 30px 0;	
+}
+	.stories_section1,
+	.stories_section2,
+	.stories_section3,
+	.stories_section4 {
+		position: relative;	
+	}
+	.stories_section1 .stories_section_panel,
+	.stories_section2 .stories_section_panel,
+	.stories_section3 .stories_section_panel,
+	.stories_section4 .stories_section_panel {
+		position: absolute;
+		padding: 15px 20px;
+		background: url('http://www.merck.com/images/zoom.png') no-repeat center #333;
+		/*left: 164px;*/
+		left: 234px;
+		width: 30px;
+		height: 16px;
+		text-align: center;
+		text-indent: -9999px;
+		opacity: 0.8;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+		filter:alpha(opacity=80);
+	}
+		.tooltip_title p {
+			font-size: 18px; 
+			margin-bottom: 15px; 
+			padding-bottom: 10px;
+			border-bottom:1px dotted #707070;	
+			color: #00958F;
+		}
+		.tooltip_description a {
+			color: #00958F;	
+		}
+			.tooltip_description a:hover {
+			color: #00958F;	
+		}
+.social_media_container { 
+	background-color: #cbd4a7; 
+	padding: 30px 0;
+}
+.social_media_container p {
+	color: #fff;
+	font-size: 45px;
+}
+.social_media_feed_icon {
+	position: relative;
+	top: 10px;
+}
+.be_well_container {
+	background: #EEEEEE;	
+	padding: 30px 0;
+}
+	
+.merck_manuals_container {	
+	padding: 30px 0;
+}
+	.merck_manuals_container h2 { margin-top: 0; }
+.callout_container {	
+	padding: 5px 0;
+}
+#footer_latest_news {
+	padding: 10px 0;
+	background: #455660;
+	color: #fff;
+	font-size: 12px;
+	/*overflow: hidden;*/
+	z-index: 9;
+}
+	.shadow {
+		-moz-box-shadow: 0px 3px 4px #666;
+		-webkit-box-shadow: 0px 3px 4px #666;
+		box-shadow: 0px 3px 4px #666;
+		/* For IE 8 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#666666')";
+		/* For IE 5.5 - 7 */
+		filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#666666');
+	}
+	.social_media_icons {
+		list-style: none;
+		margin: 0;
+		padding: 0;	
+		text-align: right;
+	}
+		.social_media_icons li {
+			display: inline;
+			margin: 0 1px 0 6px;	
+		}
+		.chevron {
+			background: url("http://www.merck.com/images/chevron.png") no-repeat;	
+			height: 23px;
+			left: 165px;
+			margin-left: 10px;
+			padding: 5px 9px 0;
+			top: -60px;
+			z-index: 9;
+			text-indent:-9999px;
+			opacity:0.3;
+			position:fixed;
+			bottom:50px;
+			right:100px;
+			display:none;
+		}
+			
+#footer_container {
+	background: #EEEEEE;
+	padding: 20px 0;
+}
+	#footer_container p {
+		color: #455660;
+		font-size: 12px;
+		
+	}	
+	#footer_container ul.legal_nav {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		text-align: right;
+	}
+		#footer_container ul.legal_nav li {
+			display: inline;
+			margin: 0 0 0 8px;	
+		}
+			#footer_container ul.legal_nav li a {
+				color: #455660;	
+				font-size: 12px;
+			}
+/*
+@media (min-width: 1200px) {
+	.megamenu > li { margin: 0; }
+	.hero_container_inside {
+		width: 1330px;
+		margin-left: auto;
+		margin-right: auto;	
+	}
+	.jnewsbar {
+		right: auto;
+		width: 1170px;
+	}
+	.header_section .span4 {
+		width: 370px !important;	
+	}
+	.header_section .span6 {
+		width: 570px !important;	
+	}
+	.stories_section1 .stories_section_panel, .stories_section2 .stories_section_panel, .stories_section3 .stories_section_panel, .stories_section4 .stories_section_panel {
+		left: 234px;	
+	}
+	.be_well_container .span3.bewelltip img {
+		width: 93px;
+	}
+}
+@media only screen and (max-width: 1199px) {
+	.sm .span6 {
+		width: 54%;
+	}
+	.sm .span5 {
+		width: 33%;
+	}
+
+}
+@media (min-width: 1025px) and (max-width: 1199px) {
+	.header_section .span4 { width: 220px; }
+	.header_section .span6 { width: 540px; }
+	.megamenu { padding-left: 0; }
+	.megamenu > li { margin: 0 3px; }
+	.stories_section1 .stories_section_panel, .stories_section2 .stories_section_panel, .stories_section3 .stories_section_panel, .stories_section4 .stories_section_panel { left: 184px;	}
+	.descriptionArea .title { font-size: 35px; }
+	.descriptionArea {
+		right: 65px;
+		width: 300px;
+	}
+
+	.be_well_container .span3.bewelltip img {
+		width: 93px;
+	}
+	.details h4 {
+		font-size: 11px;
+		line-height: 12px;
+	}
+}
+@media (max-width: 1024px){
+	.megamenu { padding-left: 0; }
+	.megamenu > li { margin: 0; }
+	.megamenu > li .megamenu_drop {
+		padding-left: 7px;	
+	}
+	.header_section .span4 {
+		width: 220px;	
+	}
+	.header_section .span6 {
+		width: 540px;	
+	}
+	.descriptionArea {
+		right: 75px;	
+		width: 290px;
+	}
+	.descriptionArea .title {
+		font-size: 35px;
+	}	
+	.descriptionArea .description {
+		width: 290px;	
+	}
+	.stories_section1 .stories_section_panel, .stories_section2 .stories_section_panel, .stories_section3 .stories_section_panel, .stories_section4 .stories_section_panel {
+		display: none !important;	
+	}
+
+	.be_well_container .span3.bewelltip img {
+		width: 93px;
+	}
+	.details h4 {
+		font-size: 11px;
+		line-height: 12px;	
+	}
+}
+@media only screen and (max-width: 979px) {
+	.megamenu > li .searchBox {
+		left: 335px;
+	}
+	.sm .span6 {
+		width: 24%;
+	}
+	.sm .span5 {
+		width: 64%;
+	}
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	body {
+		background: url("../images/bg.jpg") no-repeat scroll -225px 0 transparent !important;	
+	}
+	.megamenu {
+		padding-left: 0;	
+	}
+	.megamenu > li > a { font-size: 11px; }
+	
+	.megamenu_container .megamenu > li > a { padding-left: 0 !important; }
+	.megamenu_container .megamenu > li > a.first { padding-left: 0 !important; }
+	.megamenu_container .megamenu > li .megamenu_drop { padding-right: 25px; }
+	.secondary_navigation .menu-dropdown7 {
+			padding: 20px 10px;
+			width:660px;
+		}
+		.secondary_navigation .menu-dropdown7 p {
+			margin-top:7px;
+		}
+		.secondary_navigation .menu-dropdown7 h1 {
+			color:#2a2a2a;
+			padding-bottom:3px;
+			border-bottom:1px solid #858585;
+		}
+		.secondary_navigation .menu-dropdown7 h3 {
+			color:#2a2a2a;
+			padding-bottom:3px;
+			border-bottom:1px solid #858585;
+		}
+		.secondary_navigation .menu-dropdown7 h5 {
+			color:#2a2a2a;
+			padding-bottom:3px;
+			border-bottom:1px solid #858585;
+			margin-bottom: 0;
+		}
+		.secondary_navigation .menu-dropdown7 h6 {
+			margin-bottom: 0;
+		}
+			.secondary_navigation .menu-row.one_third {
+				display: inline-block;
+				vertical-align: text-top;
+				width: 218px;
+			}
+				.secondary_navigation .menu.one_third.last {
+					
+				}
+			.secondary_navigation .menu-row.one_third .image {
+				float: left;
+				margin-right: 10px;	
+				width: 88px;
+			}
+			.secondary_navigation .menu-row.one_third .desc {
+				float: left;
+				width: 150px;				
+			}
+			.secondary_navigation .menu-row.one_third .desc p {
+				font-size: 1.0em;
+			}
+	.stories_section1 .stories_section_panel, 
+	.stories_section2 .stories_section_panel, 
+	.stories_section3 .stories_section_panel, 
+	.stories_section4 .stories_section_panel {
+		display: none;
+		background: none;	
+	}
+	.slider { width: 724px !important; }
+	
+	.descriptionArea {
+		background: url('/images/white_transparent.png');
+		bottom: 0;
+		right: 0;
+		top: 245px;
+		width: 100%;
+	}
+
+	.descriptionArea .title {
+		font-size: 25px;
+		line-height: 1.0em;
+		padding: 10px 10px 0;	
+	}
+	.descriptionArea .description {
+		line-height: 1.0em;	
+		padding: 0 10px 10px;
+		font-size: 16px;
+		width: 100%;
+	}
+	#leftScrollNavArea,
+	#rightScrollNavArea {
+		display: none;	
+	}
+	
+	.mosaic-block .mosaic-backdrop img { width: 100%; }
+	.stories_section1 .stories_section_panel, .stories_section2 .stories_section_panel, .stories_section3 .stories_section_panel, .stories_section4 .stories_section_panel {
+		left: 130px !important;
+	}
+	.stories_section1 p,
+	.stories_section2 p,
+	.stories_section3 p,
+	.stories_section4 p { font-size: 12px; }
+	.tooltip_title p { font-size: 14px; }
+	.tooltip_description p { font-size: 13px }
+	.details h4 { 
+		font-size: 11px; 
+		line-height: 1.2em;
+	}
+	.details p { font-size: 0.85em; }
+	.span4.logo {
+		width: 155px;
+	}
+	.span2.worldwide {
+		width: 80px;
+		margin-left: 0;
+	}
+	.span6.main_nav {
+		margin-left: 0;
+		width: 489px;
+	}
+	.modal {
+		width: 600px;	
+	}
+	.bx-wrapper p { font-size: 12px; }
+	.jnewsbar {
+		right: auto;
+		width: 724px;
+	}
+	.newsticker { width: 400px !important; }
+	#footer_container ul.legal_nav li { margin-left: 6px; }
+	.be_well_container .span3.bewelltip img {
+		width: 93px;
+	}
+	
+}
+@media (max-width: 768px) {
+	#fb-root,
+	.fb-like-box { 
+		overflow: hidden; 
+		padding-right: 10px;
+	}
+	.sm .span6 {
+		width: 70%;
+	}
+	.sm .span5 {
+		width: 16%;
+	}	
+	.megamenu_container .megamenu > li > a.first {
+		margin-left: 10px;
+	}
+	.descriptionArea .title,
+	.descriptionArea .description,
+	.descriptionArea .description a {
+		color: #5F5F5F !important;	
+	}
+	#rightImageBumper img { display: none; }
+}
+@media (max-width: 767px) {
+	.megamenu {
+		padding-left: 0;	
+	}
+	.megamenu h2,
+	.megamenu p { display: none; }
+	.megamenu_container .megamenu .col_5,
+	.megamenu_container .megamenu .col_6 {
+		margin-left: 0;
+		margin-right: 0;	
+	}
+	.megamenu li .dropdown_container, .megamenu li .dropdown_fullwidth, .megamenu li .dropdown_multilevel {
+		padding-top: 0;	
+	}
+	.secondary_navigation { float: none; }
+	.secondary_navigation .menu-dropdown7 {
+			padding: 20px 10px;
+			width:478px;
+		}
+		.secondary_navigation .menu-dropdown7 p {
+			margin-top:7px;
+		}
+		.secondary_navigation .menu-dropdown7 h1 {
+			color:#2a2a2a;
+			padding-bottom:3px;
+			border-bottom:1px solid #858585;
+		}
+		.secondary_navigation .menu-dropdown7 h3 {
+			color:#2a2a2a;
+			padding-bottom:3px;
+			border-bottom:1px solid #858585;
+		}
+		.secondary_navigation .menu-dropdown7 h5 {
+			color:#2a2a2a;
+			padding-bottom:3px;
+			border-bottom:1px solid #858585;
+			margin-bottom: 0;
+		}
+		.secondary_navigation .menu-dropdown7 h6 {
+			margin-bottom: 0;
+		}
+			.secondary_navigation .menu-row.one_third {
+				display: inline-block;
+				vertical-align: text-top;
+				width: 100%;
+				margin-bottom: 15px;
+			}
+				.secondary_navigation .menu.one_third.last {
+					
+				}
+			.secondary_navigation .menu-row.one_third .image {
+				float: left;
+				margin-right: 10px;	
+				width: 88px;
+			}
+			.secondary_navigation .menu-row.one_third .desc {
+				float: left;
+				width: 380px;				
+			}
+			.secondary_navigation .menu-row.one_third .desc p {
+				font-size: 1.0em;
+			}
+	.jnewsbar {
+		right: auto;
+		width: 535px !important;
+	}
+	
+	#footer_latest_news { 
+		width: 100%;
+	}
+	.social_media_icons { 
+		text-align: left; 
+		padding-left: 8px;
+	}
+	.social_media_icons li a.chevron { display: none; }
+	#footer_latest_news .span9 { margin-bottom: 15px; }
+	.mosaic-block .mosaic-backdrop img { width: 100%; }
+	.stories_container { padding-bottom: 0; }
+	.stories_container .span6 .span3 {
+		width: 313px;
+		float: left;
+		margin-left: 20px;
+	}
+	.stories_container .span6 .span3.first {
+		margin-left: 0;
+	}
+	.stories_section1 .stories_section_panel, .stories_section2 .stories_section_panel, .stories_section3 .stories_section_panel, .stories_section4 .stories_section_panel {
+		left: 277px;	
+	}
+	.stories_section1 img.stories_img, .stories_section2 img.stories_img,
+	.stories_section3 img.stories_img, .stories_section4 img.stories_img {
+		width: 100%;	
+	}
+	.be_well_container { 
+		background: transparent; 
+		padding-bottom: 0;
+	}
+	.be_well_container .span3 { margin-bottom: 20px; }
+	.be_well_container .span9 .span3 {
+		width: 313px;
+		float: left;
+		margin-left: 20px;
+	}
+	.be_well_container .span9 .span3.first {
+		margin-left: 0;
+	}
+	.merck_manuals_container { padding-top: 0; }
+	.merck_manuals_container .span12 .span9 {
+		float: left;
+		width: 487px;
+	}
+	.merck_manuals_container .span12 .span3 {
+		float: left;
+		width: 160px;
+	}
+	.merck_manuals_container .span12 .span9 .span2 {
+		float: left;
+		width: 125px;
+	}
+	.merck_manuals_container .span12 .span9 .span7 {
+		float: left;
+		margin-left: 20px;
+		padding: 0;
+		width: 340px;
+	}
+	.newsticker { width: 500px !important; }
+	.newsticker_wrapper h4 { padding: 0 8px; }
+	#footer_container ul.legal_nav { text-align: left; }
+	#footer_container ul.legal_nav li:first-child { margin-left: 0; }
+	#footer_container .span3 {
+		margin-bottom: 15px;	
+	}
+	#footer_container p {
+		padding-left: 8px;
+	}
+	#footer_container ul.legal_nav {
+		padding-left: 8px;	
+	}
+	#footer_container .span9 a { padding-left: 8px; }
+	.social_media_icons { padding-left: 0; }
+}
+@media (max-width: 320px) {
+	.megamenu {
+		padding-left: 0;	
+	}
+	.megamenu h2,
+	.megamenu p { display: none; }
+	.megamenu_container .megamenu .col_5,
+	.megamenu_container .megamenu .col_6 {
+		margin-left: 0;
+		margin-right: 0;	
+	}
+	.megamenu li .dropdown_container, .megamenu li .dropdown_fullwidth, .megamenu li .dropdown_multilevel {
+		padding-top: 0;	
+	}
+	.secondary_navigation { float: none; }
+	.secondary_navigation .menu-dropdown6,
+	.secondary_navigation .menu-dropdown7 { display: none; }
+	.secondary_navigation .menu-dropdown7 { display: none; }
+	.secondary_navigation .menu-drop .menu-label.quicklinks, 
+	.secondary_navigation .menu-drop .menu-label.social_media { 
+		background: none; 
+		padding-right: 0;
+	}
+	.secondary_navigation li:hover .menu-drop .menu-label.quicklinks,
+	.secondary_navigation li:hover .menu-drop .menu-label.social_media {
+		background: none;
+	}
+	.secondary_navigation .menu-button.social {
+		background: url("../img/dot_separator.png") no-repeat scroll 0 1em transparent;
+		padding: 0 10px;
+	}	
+	.span4.logo {
+		margin-bottom: 15px;	
+	}
+	.span2.worldwide {
+		margin-bottom: 15px;	
+	}
+	.megamenu_container { background-color: #00958F; }
+	.secondary_navigation .menu-button {
+		background: url("../images/dot_separator.png") no-repeat scroll 0 1em transparent;
+		line-height: 28px;
+		padding: 0 10px;
+	}
+	.secondary_navigation .menu-top .menu-right { display: none; }
+	.hero_container { margin-top: 10px; }
+	.stories_container .span6 .span3 {
+		width: 100%;
+		margin-left: 0;
+	}
+	.stories_section1 .stories_section_panel, .stories_section2 .stories_section_panel, .stories_section3 .stories_section_panel, .stories_section4 .stories_section_panel { 
+		display: none; 
+		background: none;
+	}
+	.stories_section1,
+	.stories_section2,
+	.stories_section3,
+	.stories_section4 { text-align: left; }
+	.mosaic-block .mosaic-backdrop img { width: 100%; }
+	.be_well_container {
+		background: none;	
+	}
+	.be_well_container .span9 .span3 {
+		width: 100%;
+		margin-left: 0;
+	}
+	.merck_manuals_container .span12 .span9 {
+		float: left;
+		width: 487px;
+	}
+	.merck_manuals_container .span12 .span3 {
+		float: none;
+		width: 238px;
+		text-align: center;
+	}
+	.merck_manuals_container .span12 .span9 .span2 {
+		float: none;
+		width: 238px;
+		text-align: center;
+	}
+	.merck_manuals_container .span12 .span9 .span7 {
+		float: left;
+		margin-left: 20px;
+		padding: 0;
+		width: 238px;
+	}
+	.bx-wrapper { margin-bottom: 15px; }
+	.newsticker { display: none; }
+	.newsticker_wrapper h4 { 
+		border-right: none; 
+		padding-left: 8px;
+	}
+	.social_media_icons li:first-child {
+		margin: 0 10px 0 0;
+	}
+	.social_media_icons li { 
+		margin-left: 0; 
+		margin-right: 10px;
+	}
+	#footer_container p {
+		padding-left: 8px;
+	}
+	#footer_container ul.legal_nav { padding-left: 8px; }
+	#footer_container .span9 a { padding-left: 8px; }
+	#footer_container .span9 a img { margin-bottom: 10px; }
+	.social_media_icons { padding-left: 8px; }
+	
+	.descriptionArea {
+		width: 228px;
+	}
+	.descriptionArea .description {
+		left: 15px;
+		width: 200px;
+	}
+	.descriptionArea .title {
+		font-size: 18px;
+		left: 15px;	
+		width: 200px;
+	}
+}
+@media (min-width: 321px) and (max-width: 480px) { 
+	.header_container .span12 { margin-bottom: 15px; }
+	.span4.logo {
+		margin-bottom: 15px;	
+	}
+	.span2.worldwide {
+		margin-bottom: 15px;	
+	}
+	.megamenu {
+		padding-left: 0;	
+	}
+	.megamenu_container { background-color: #00958F; }
+	.be_well_container {
+		margin-bottom: 10px;	
+	}
+	.secondary_navigation .menu-button {
+		background: url("../images/dot_separator.png") no-repeat scroll 0 1em transparent;
+		line-height: 28px;
+		padding: 0 10px;
+	}
+	.secondary_navigation .menu-dropdown6,
+	.secondary_navigation .menu-dropdown7 { display: none; }
+	.secondary_navigation .menu-dropdown7 { display: none; }
+	.secondary_navigation .menu-drop .menu-label.quicklinks, 
+	.secondary_navigation .menu-drop .menu-label.social_media { 
+		background: none; 
+		padding-right: 0;
+	}
+	.secondary_navigation li:hover .menu-drop .menu-label.quicklinks,
+	.secondary_navigation li:hover .menu-drop .menu-label.social_media {
+		background: none;
+	}
+	.secondary_navigation .menu-button.social {
+		background: url("../images/dot_separator.png") no-repeat scroll 0 1em transparent;
+		padding: 0 10px;
+	}
+	.secondary_navigation .menu-top .menu-right { display: none; }
+	.hero_container { margin-top: 10px; }
+	.jnews-toggle { display: none; }
+	.stories_section1,
+	.stories_section2,
+	.stories_section3,
+	.stories_section4 { text-align: left; }
+	.stories_container .span6 .span3 {
+		width: 100%;
+		margin-left: 0;
+	}
+	.stories_section1 .stories_section_panel, .stories_section2 .stories_section_panel, .stories_section3 .stories_section_panel, .stories_section4 .stories_section_panel { 
+		display: none; 
+		background: none;
+	}
+	.mosaic-block .mosaic-backdrop img { width: 100%; }
+	.be_well_container {
+		background: none;	
+	}
+	.be_well_container .span9 .span3 {
+		width: 182px;
+		margin-left: 20px;
+	}
+	.merck_manuals_container .span12 .span9 {
+		float: left;
+		width: 487px;
+	}
+	.merck_manuals_container .span12 .span3 {
+		float: none;
+		width: 385px;
+		text-align: center;
+	}
+	.merck_manuals_container .span12 .span9 .span2 {
+		float: none;
+		width: 385px;
+		text-align: center;
+	}
+	.merck_manuals_container .span12 .span9 .span7 {
+		float: left;
+		margin-left: 20px;
+		padding: 0;
+		width: 385px;
+	}
+	.megamenu_dark_bar { background: #00958F; }
+	.megamenu_light .megamenu h2 {
+		font-size: 13px;
+		line-height: 0;
+	}
+	.megamenu ul.menu_sub { padding: 0; }
+	.megamenu li ul li, .megamenu li ol li { font-size: 10px; }
+	.megamenu p { font-size: 1.0em; }
+	.border_right_dotted { border-right: none; }
+	.bx-wrapper { margin-bottom: 15px; }
+	.jnewsbar {
+		right: auto;
+		width: 385px !important;
+	}
+	#footer_container p {
+		padding-left: 8px;
+	}
+	#footer_container ul.legal_nav { padding-left: 8px; }
+	#footer_container .span9 a { padding-left: 8px; }
+	#footer_container .span9 a img { margin-bottom: 10px; }
+	.newsticker { display: none; }
+	.newsticker_wrapper h4 { 
+		border-right: none; 
+		padding-left: 8px;
+	}
+	.social_media_icons { padding-left: 8px; }
+	.social_media_icons li:first-child {
+		margin: 0 10px 0 0;
+	}
+	.social_media_icons li { 
+		margin-left: 0; 
+		margin-right: 10px;
+	}
+}
+*/

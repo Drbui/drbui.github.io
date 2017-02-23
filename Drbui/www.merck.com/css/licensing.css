@@ -1,0 +1,245 @@
+.breadcrumb .megamenu_drop,
+.breadcrumb .slash:first-of-type { display: none; }
+.merck-green-text-color { color: #009994 !important; }
+.merck-white-text-color { color: #fff !important; opacity: 1; }
+.merck-dark-gray-text-color { color: #243444 !important; }
+.merck-light-pink-text-color { color: #9B6080 !important; }
+.merck-lavender-text-color { color: #7f8dc1 !important; }
+.merck-purple-text-color { color: #662045 !important; }
+.merck-orange-text-color { color: #f7912f !important; }
+.merck-light-teal-text-color { color: #65c8cc !important; }
+.merck-light-green-text-color { color: #25f5ec !important; }
+.merck-yellow-text-color { color: #f7e96f !important; }
+.merck-green-bg-color { background: #009994 !important; }
+.merck-light-teal-bg-color { background: #34b8aa !important; }
+.merck-navy-blue-bg-color { background: #243444 !important; }
+.merck-light-navy-blue-bg-color { background: #275f76 !important; }
+.merck-white-bg-color { background: #fff !important; }
+.merck-light-pink-bg-color { background: #9B6080 !important; }
+.merck-blue-bg-color { background: #428ec5 !important; }
+.merck-light-blue-bg-color { background: #E2F1F4 !important; }
+.merck-light-gray-bg-color { background: #F2F3F5 !important; }
+.merck-orange-bg-color { background: #f7912f !important; }
+body { padding-top: 127px; }
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+.no-margin {
+    margin: 0 !important;
+}
+.padding25{
+    padding: 25px !important;
+}
+.padding-top-15 {
+    padding-top: 15px;
+}
+.padding-bottom-15 {
+    padding-bottom: 15px;
+}
+.padding-bottom-25 {
+    padding-bottom: 25px;
+}
+.border-1px-white { 
+    border: 1px solid #fff;
+    border-radius: 0; 
+    padding: 10px;
+}
+.space-bottom { margin-bottom: 25px; }
+.btn { 
+    border-radius: 0; 
+    padding: 6px 25px;
+}
+.btn.btn-fade {
+    background: #009994 none repeat scroll 0 0;
+    border: 1px solid #33cbc5;
+    padding: 6px 25px;
+    border-radius: 0;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease 0s, background-color 0.3s ease 0s, border-color 0.3s ease 0s;
+    white-space: normal;
+    z-index: 1;
+}
+.btn.btn-fade:hover {
+    background: #f2f3f5 none repeat scroll 0 0;
+    border: 1px solid #243444;
+    color: #243444;
+}
+.hero-image {
+    height: 550px;
+    background-color: #0F9491;
+    background-image: url("http://www.merck.com/images/licensing/licensing_hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 275%;
+}
+    .hero-image h1 {
+        font-size: 45px;
+        line-height: normal;
+    }
+    .hero-image h4 {
+        font-size: 25px;
+        font-weight: normal;
+    }
+.hero-content {
+    position: relative;
+    top: 245px;
+}
+.shareBtn { margin-top: 3% !important; }
+.shareBtn {
+        cursor: pointer;
+        position: relative;
+        z-index: 99;
+        width: 110px;
+        margin-top: 10px !important;
+    }
+.shareBtn img { width: 70%; }
+h2 { 
+    font-size: 30px; 
+    line-height: normal;
+}
+p {
+    font-size: 20px;
+    line-height: normal;
+}
+.bg1 {
+    background: url('http://www.merck.com/images/licensing/Urgency.jpg') no-repeat center center;
+    background-size: cover;
+}
+.bg2 {
+    background: url('http://www.merck.com/images/licensing/Status Quo.jpg') no-repeat center center;
+    background-size: cover;
+}
+.bg3 {
+    background: url('http://www.merck.com/images/licensing/scientists.jpg') no-repeat center center;
+    background-size: cover;
+}
+.fa-3 {
+    font-size: 2em;
+}
+.content_container, .footer_container {
+    top: 0; 
+    margin-top: 25px;
+    overflow: hidden;
+}
+.discover-us-btn-container {
+    width: 13%;
+}
+.discover-us-btn {
+    /*border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;*/
+}
+    .discover-us-btn:hover {
+        cursor: pointer;
+    }
+#discover-us { padding-top: 30px; }
+.slick-slider {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fff;
+}
+.slick-prev, .slick-next { 
+    width: 22px;
+    height: 21px;
+    border: 1px solid #666;
+    background: #666;
+    border-radius: 20px;
+}
+.slick-prev:hover::before, 
+.slick-prev:focus::before, 
+.slick-next:hover::before, 
+.slick-next:focus::before {
+    background: #666 none repeat scroll 0 0;
+    border-radius: 20px;
+    color: #fff;
+    opacity: 1;
+}
+.slick-prev:before, .slick-next:before {
+    opacity: 1;
+}
+.slider-our-partners .slick-slide { margin: 0 10px; }
+.slider-upcoming-events .slick-slide { margin: 0 5px; }
+.slick-slide img { margin: 0 auto; }
+@media (max-width: 1199px) {
+    .hero-image {
+        height: 450px;
+    }
+    .hero-content {
+        position: relative;
+        top: 145px;
+    }
+}
+@media (max-width: 991px){
+    body { padding-top: 0; }
+    .shareBtn { margin-top: 10px !important; }
+    .shareBtn img { width: 72px; }
+    .hero-image { height: 355px; }
+    .hero-content {
+        top: 81px;
+        z-index: 1;
+    }
+    .hero-image h1 {
+        line-height: 1em;
+    }
+    .hero-image h4 {
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 768px){
+    .content_container, .footer_container {
+        margin-top: 0;
+    }
+    
+}
+@media (max-width: 767px) {
+    .shareBtn { width: 60px; }
+    .shareBtn img { width: 100%; }
+    .discover-us-btn img {
+        width: 75px;
+        left: 45%;
+        margin-top: -18px;
+    }
+    .hero-image { height: 250px; }
+    .hero-image h1 {
+        font-size: 38px;
+    }
+    .hero-content {
+        top: 50px;
+    }
+
+}
+@media (max-width: 480px) {
+    .shareBtn { margin-top: 5px !important; }
+    .small-text {
+        font-size: 80%;
+    }
+    .hero-image {
+        height: 195px;
+    }
+    .hero-content {
+        position: relative;
+        top: 20px;
+        z-index: 1;
+    }
+    .hero-image h1 {
+        font-size: 24px;
+        line-height: normal;
+    }
+    .hero-image h4 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .discover-us-btn-container {
+        width: auto;
+    }
+    /*.slick-slider {
+        margin-bottom: 0;
+    }*/
+}

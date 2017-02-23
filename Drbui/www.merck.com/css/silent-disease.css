@@ -1,0 +1,316 @@
+.merck-teal { color: #00877c !important; }
+.merck-light-teal { color: #63ceca !important; }
+.merck-dark-gray { color: #37424a !important; }
+.merck-light-gray { color: #bcbdbc !important; }
+.merck-green { color: #879637 !important; }
+.merck-orange { color: #F7912F !important; }
+.merck-yellow { color: #e1cd00 !important; }
+.merck-purple { color: #662046 !important; }
+.merck-maroon { color: #6E0047 !important; }
+.merck-white { color: #fff !important; }
+.merck-black { color: #243444 !important; }
+.merck-black-bg { background: #243444 !important; }
+.merck-teal-bg { background: #00877c !important; }
+.merck-dark-blue-bg { background: #243444 !important; }
+.merck-dark-teal-bg { background: #159A95 !important; }
+.merck-light-teal-bg { background: #63ceca !important; }
+.merck-lighter-teal-bg { background: #dadfe5 !important; }
+.merck-dark-gray-bg { background: #37424a !important; }
+.merck-light-gray-bg { background: #ededed !important; }
+.merck-green-bg { background: #879637 !important; }
+.merck-orange-bg { background: #d47b22 !important; }
+.merck-green-bg { background: #879637 !important; }
+.merck-olive-green-bg { background: #91A33D !important; }
+.merck-yellow-bg { background: #e1cd00 !important; }
+.merck-purple-bg { background: #662046 !important; }
+.merck-white-bg { background: #fff !important; }
+.merck-maroon-bg { background: #6E0047 !important; }
+body { color: #243444; /*font-size: 20px;*/ }
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: normal;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: normal;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 35px;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+p {
+    line-height: normal;
+}
+.btn { border-radius: 0; }
+.large-text { font-size: 30px !important; }
+.large-text2x { font-size: 45px !important; }
+.small-text { font-size: 15px !important; }
+.text-unbold { font-weight: normal; }
+.padding-30px { padding: 30px; }
+.padding-30px60px { padding: 30px 60px; }
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-5ths {
+    /*width: 20%;
+    float: left;*/
+    float: left;
+    margin: 0 10px;
+    width: 18%;
+}
+.quote-large {
+    font-family: 'Times New Roman', serif;
+    position: relative;
+    font-size: 75px;
+    line-height: 0.5em;
+    top: 15px;
+}
+.quote-large.white {
+    color: #fff;
+}
+.quote {
+    font-family: 'Times New Roman', serif;
+}
+blockquote p {
+    font-size: 25px;
+    font-weight: bold;
+}
+blockquote p.white {
+    color: #fff;
+}
+blockquote .caption {
+    font-size: 20px;
+    font-weight: normal;
+}
+.well {
+    background: transparent;
+    border: 0 none;
+    box-shadow: none;
+    color: #fff;
+    margin-bottom: 0;
+}
+.well-sm {
+    border-radius: 0;
+}
+.hero-container {
+    background: url('http://www.merck.com/images/about/featured_stories/hcd_bg_hero.jpg') center center / cover;
+    padding: 75px 0 75px 0;
+    margin-top: 105px;
+    min-height: 400px;
+}
+	.hero-container p { font-size: 25px; }
+.footer_container {
+    margin-top: 0;
+    top: 0; 
+}
+.section {
+
+}
+.section .section-container p {
+    font-size: 20px;
+    line-height: 1.2em;
+}
+.space-top { padding-top: 45px; }
+.space-bottom { padding-bottom: 45px; }
+blockquote {
+    border: none;
+    margin-top: 10px;
+}
+blockquote footer, blockquote small, blockquote .small { font-size: 1em; }
+/* Stylesheet for ie8 browser message */
+#mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9000;
+    background-color: #333333;
+    display: none;
+}
+#boxes .window {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 440px;
+    height: 200px;
+    display: none;
+    z-index: 9999;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+}
+#boxes #dialog {
+    width: 550px;
+    height: 300px;
+    padding: 30px;
+    background-image: url("../img/ie8_bg.jpg");
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 15pt;
+    color: #333333;
+    border: 3px solid #00958f;
+}
+.shareBtn {
+    cursor: pointer;
+    position: absolute;
+    right: 15%;
+    z-index: 99;
+}  
+.icon-bg {
+    background: #159a95;
+    height: 90px;
+    width: 90px;
+    margin-bottom: 10px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 15px;
+} 
+.cow {
+    background-image: url('http://www.merck.com/images/about/ah_cow.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}         
+.media-left, .media-right, .media-body {
+    display: table-cell;
+}
+.center-div {
+    height: auto;
+      margin: 15px auto;
+      width: 300px;
+}
+@media (max-width: 1200px) {
+    .shareBtn {
+        right: 5%;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        /*width: 20%;
+        float: left;*/
+        float: left;
+        margin: 0 10px;
+        width: 18%;
+    }
+}
+@media (max-width: 1199px) {
+    .col-md-5ths {
+        /*width: 20%;
+        float: left;*/
+        float: left;
+        margin: 0 10px;
+        width: 17%;
+    }
+}
+@media (max-width: 1024px){
+    .media {
+        margin: 45px 0;
+    }
+}
+@media (max-width: 991px){
+    .hero-container {
+        margin-top: 0;
+    }
+}
+@media(max-width: 768px){
+    .hero-container {
+        background-position: 1000px 0;
+        padding: 230px 0 0 0;
+    }
+        .hero-container .content {
+            background: #fff none repeat scroll 0 0;
+            opacity: 0.6;
+            padding: 10px;
+        }
+        .hero-container .content h1 {
+            position: relative;
+            top: 100%;
+        }
+        .hero-container .content p {
+            position: relative;
+            top: 100%;
+
+        }
+    blockquote p { font-size: 20px; }
+    .shareBtn {
+        width: 125px;
+        right: 2%;
+    }
+
+    .col-sm-5ths {
+        /*width: 20%;
+        float: left;*/
+        float: left;
+        margin: 0 10px;
+        width: 17%;
+    }
+
+}
+
+@media (max-width: 767px){
+    .shareBtn { position: relative; z-index: 1; }
+    .liver {
+        padding-bottom: 0;
+    }
+    .liver img {
+        height: 150px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 667px){
+    .hero-container {
+        background-position: 1000px 0;
+        padding: 280px 0 0 0;
+    }
+    .col-sm-5ths {
+        float: left;
+        margin: 0 0 20px;
+        width: 100%;
+    }
+    /*.box-container .animated {
+        height: 775px !important;
+    }*/
+}
+@media (max-width: 480px){
+    .hero-container {
+        background-position: 720px 0;
+        padding: 280px 0 0 0;
+    }
+    .hero-container .content h1 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .hero-container .content p {
+        font-size: 18px;
+    }
+    .question-mark { height: 175px; }
+    .quote-spouse {  }
+    .shareBtn {
+        width: 100px;
+        right: 0;
+    }
+    .col-xs-5ths {
+        width: 100%;
+        float: left;
+    }
+    .box-container .box.why-the-liver-matters {
+        height: 725px !important;
+    }
+}
+@media (max-width: 320px){
+    h1 { font-size: 50px; }
+}

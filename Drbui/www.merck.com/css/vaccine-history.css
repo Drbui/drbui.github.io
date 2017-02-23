@@ -1,0 +1,864 @@
+    /* ==========================================================================
+PAGE GLOBALS
+========================================================================== */
+    
+    .shareBtn {
+        cursor: pointer;
+        position: absolute;
+        z-index: 99;
+        right: 14%;
+        /*top: 295px;*/
+    }
+    
+    .btn {
+        border: medium none;
+        border-radius: 0px;
+        background-color: #6D154A;
+        color: #ffffff !important;
+    }
+    
+    .btn:hover {
+        color: #000 !important;
+        border: 1px solid #939393;
+        margin-bottom: -2px;
+    }
+    
+    .btn:active {
+        background-color: #E6E6E6;
+        color: #000 !important;
+    }
+
+    /* HERO SECTION
+========================================================================== */
+    
+    .vacc-history .hero-section {
+        background-image: url("http://www.merck.com/images/about/vaccine-history/vh_bg_hero.jpg");
+        background-size: cover;
+        background-position: right top;
+        margin-top: 105px;
+        height: 350px;
+    }
+    
+    .vacc-history .hero-section h1 {
+        font-size: 60px;
+        font-weight: bold;
+        color: #6bcad4;
+        margin-top: 100px;
+    }
+    
+    .vacc-history .hero-section p {
+        color: #FFF;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    /* DIVIDER
+========================================================================== */
+    
+    .vacc-history .divider.one {
+        background-color: #009994;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .vacc-history .divider.one p {
+        color: #ffffff;
+        font-size: 28px;
+        text-align: center;
+    }
+    
+    .vacc-history .divider.two {
+        background-color: #ffffff;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    
+    .vacc-history .divider.two h4 {
+        text-align: center;
+        font-size: 35px;
+    }
+    
+    .vacc-history .divider.two p {
+        color: #243444;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    /* QUOTE SECTIONS
+========================================================================== */
+    
+    .vacc-history .quote blockquote {
+        color: #6c0247;
+        border-left: none;
+        padding: 0;
+        font-size: 32px;
+        line-height: 1.2em;
+    }
+    
+    .vacc-history .quote blockquote .green {
+        color: #009a93;
+    }
+    
+    .vacc-history .quote blockquote.white {
+        color: #ffffff;
+    }
+    
+    .vacc-history .quote blockquote .before {
+        font-family: 'Times New Roman', serif;
+        position: relative;
+        font-size: 4em;
+        top: 45px;
+        margin-right: 0.05em;
+    }
+    
+    .vacc-history .quote blockquote .after {
+        font-family: 'Times New Roman', serif;
+    }
+    
+    .vacc-history .quote.one {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        background-color: #ffffff;
+    }
+    
+    .vacc-history .quote.one .img-container {
+        padding: 10px 50px 0 0;
+    }
+    
+    .vacc-history .quote.one p {
+        font-size: 28px;
+        margin-top: 30px;
+    }
+    
+    .vacc-history .quote.two {
+        background-image: url("http://www.merck.com/images/about/vaccine-history/vh_bg_julie.jpg");
+        background-size: cover;
+        background-position: left top;
+    }
+    
+    .vacc-history .quote.two .container {
+        height: 508px;
+    }
+    
+    .vacc-history .quote.two .quote-caption {
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 20px;
+        position: absolute;
+        bottom: 0;
+        left: 135px;
+        width: auto !important;
+    }
+    
+    .vacc-history .quote.two p {
+        color: #ffffff;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .vacc-history .quote-two-extension {
+        display: none;
+    }
+
+    /* SLED SECTION
+========================================================================== */
+    
+    .vacc-history .sled-section {
+        background-image: url("http://www.merck.com/images/about/vaccine-history/vh_bg_dogs.jpg");
+        background-size: cover;
+        background-position: right top;
+        height: 530px;
+    }
+
+    .vacc-history .sled-section-extension {
+        background-image: url("http://www.merck.com/images/about/vaccine-history/vh_bg_dogs_extension.jpg");
+        background-size: contain;
+        background-repeat: repeat;
+        background-position: right top;
+        display: none;
+    }
+    
+    .vacc-history .sled-section .icon {
+        display: inline-block;
+        float: left;
+        max-width: 60px;
+        margin-right: 10px;
+    }
+    
+    .vacc-history .sled-section .left {
+        display: inline-block;
+        float: left;
+        width: 250px;
+    }
+    
+    .vacc-history .sled-section .center {
+        width: 190px;
+        margin: 0 auto;
+    }
+    
+    .vacc-history .sled-section .right {
+        display: inline-block;
+        float: right;
+        width: 310px;
+    }
+    
+    .vacc-history .sled-section .top {
+        font-size: 22px;
+        margin-top: 100px;
+    }
+    
+    .vacc-history .sled-section .stats {
+        margin-top: 70px;
+        font-size: 48px;
+    }
+    
+    .vacc-history .sled-section .bottom {
+        margin-top: 15px;
+        font-size: 30px;
+    }
+    /* CONTENT
+========================================================================== */
+    
+    .vacc-history .content {
+        background-color: #009994;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .vacc-history .content .top {
+        padding-bottom: 40px;
+    }
+    
+    .vacc-history .content h4 {
+        margin-top: 0;
+        color: #c6e8ea;
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    
+    .vacc-history .content p {
+        color: #ffffff;
+        font-size: 22px;
+    }
+    .vacc-history .content .img-container p {
+        font-size: 19px;
+        margin-top: 3px;
+    }
+    .vacc-history .content .btn {
+        font-size: 20px;
+        padding: 4px 18px;
+        margin-top: 5px;
+    }
+
+    /* CHILDREN MORE
+========================================================================== */
+    
+    .vacc-history .children {
+        background-color: #e8e7ec;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .vacc-history .children h4 {
+        font-size: 32px;
+    }
+    
+    .vacc-history .children p {
+        color: #243444;
+        font-size: 22px;
+    }
+    
+    .vacc-history .children .img-container {
+        padding-right: 30px;
+    }
+    
+    
+    /*  LARGE DEVICES, WIDE SCREENS
+========================================================================== */
+    
+    @media only screen and (max-width: 1499px) {
+        .vacc-history .sled-section {
+            height: 450px;
+        }
+        .vacc-history .sled-section .stats {
+            margin-top: 20px;
+        }
+        .vacc-history .quote.two .container {
+            height: 407px;
+        }
+        .vacc-history .quote.two .quote-caption {
+            left: 225px;
+        }
+        .shareBtn {
+            right: 6%;
+        }
+    }
+    
+    @media only screen and (max-width: 1199px) {
+        .vacc-history .hero-section {
+            height: 231px;
+        }
+        .vacc-history .hero-section h1 {
+            margin-top: 75px;
+        }
+        .shareBtn {
+            right: 6%;
+            width: 90px;
+            top: 190px;
+        }
+        .vacc-history .divider.one p {
+            font-size: 26px;
+        }
+        .vacc-history .quote blockquote {
+            font-size: 28px;
+        }
+        .vacc-history .quote.one p {
+            font-size: 23px;
+        }
+        .vacc-history .sled-section {
+            height: 410px;
+        }
+        .vacc-history .sled-section .top {
+            font-size: 20px;
+            margin-top: 65px;
+        }
+        .vacc-history .sled-section .stats {
+            font-size: 40px;
+        }
+        .vacc-history .sled-section .icon {
+            max-width: 50px;
+        }
+        .vacc-history .sled-section .left {
+            width: 205px;
+        }
+        .vacc-history .sled-section .center {
+            width: 158px;
+        }
+        .vacc-history .sled-section .right {
+            width: 260px;
+        }
+        .vacc-history .content h4 {
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+        .vacc-history .content p {
+            font-size: 19px;
+        }
+        .vacc-history .content .img-container p {
+            font-size: 15px;
+        }
+        .vacc-history .divider.two h4 {
+            font-size: 30px;
+        }
+        .vacc-history .divider.two p {
+            font-size: 24px;
+        }
+        .vacc-history .quote.two p {
+            font-size: 19px;
+        }
+        .vacc-history .quote.two .container {
+            height: 345px;
+        }
+        .vacc-history .quote.two blockquote {
+            margin-bottom: 15px;
+            line-height: 1.1em;
+        }
+        .vacc-history .quote.two blockquote.bottom {
+            margin-top: -10px;
+        }
+        .vacc-history .quote.two .quote-caption {
+            left: 190px;
+        }
+        .vacc-history .children h4 {
+            font-size: 28px;
+            margin-top: 0px;
+        }
+        .vacc-history .children p {
+            font-size: 19px;
+        }
+    }
+    /*  MEDIUM DEVICES, DESKTOPS
+========================================================================== */
+    
+    @media only screen and (max-width: 991px) {
+        .shareBtn {
+            top: 220px;
+            width: 80px;
+            right: 6%;
+        }
+        .vacc-history .hero-section {
+            margin-top: 0px;
+            height: 180px;
+        }
+        .vacc-history .hero-section h1 {
+            font-size: 40px;
+            margin-top: 45px;
+            margin-bottom: 10px;
+        }
+        .vacc-history .hero-section p {
+            font-size: 30px;
+        }
+        .vacc-history .divider.one p {
+            font-size: 21px;
+        }
+        .vacc-history .quote blockquote {
+            font-size: 21px;
+        }
+        .vacc-history .quote blockquote .before {
+            top: 30px;
+        }
+        .vacc-history .quote.one .img-container {
+            padding: 10px 0px 0px 0px;
+        }
+        .vacc-history .quote.one p {
+            font-size: 20px;
+            margin-top: 12px;
+        }
+        .vacc-history .sled-section {
+            height: 307px;
+        }
+        .vacc-history .sled-section .top {
+            font-size: 16px;
+            margin-top: 45px;
+        }
+        .vacc-history .sled-section .stats {
+            font-size: 26px;
+            margin-top: 10px;
+        }
+        .vacc-history .sled-section .icon {
+            max-width: 35px;
+        }
+        .vacc-history .sled-section .bottom {
+            margin-top: 5px;
+            font-size: 24px;
+        }
+        .vacc-history .sled-section .left {
+            width: 140px;
+        }
+        .vacc-history .sled-section .center {
+            width: 110px;
+        }
+        .vacc-history .sled-section .right {
+            width: 175px;
+        }
+        .vacc-history .content h4 {
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+        .vacc-history .content .img-container p {
+            font-size: 16px;
+        }
+        .vacc-history .content p {
+            font-size: 16px;
+        }
+        .vacc-history .divider.two h4 {
+            font-size: 26px;
+        }
+        .vacc-history .divider.two p {
+            font-size: 20px;
+        }
+        .vacc-history .quote.two .container {
+            height: 270px;
+        }
+        .vacc-history .quote.two .quote-caption {
+            left: 155px;
+            font-size: 16px;
+        }
+        .vacc-history .quote blockquote .before {
+            top: 35px;
+        }
+        .vacc-history .quote.two blockquote {
+            margin-bottom: 5px;
+            margin-top: -5px;
+        }
+        .vacc-history .quote.two p {
+            font-size: 17px;
+        }
+        .vacc-history .quote.two blockquote.bottom {
+            margin-top: -20px;
+        }
+        .vacc-history .children h4 {
+            font-size: 24px;
+            margin-bottom: 5px;
+            margin-top: -6px;
+        }
+        .vacc-history .children p {
+            font-size: 17px;
+        }
+        .vacc-history .children .btn {
+            font-size: 18px;
+            margin-top: 5px;
+        }
+        .vacc-history .children .img-container {
+            padding-right: 0;
+        }
+    }
+    /*  SMALL DEVICES, TABLETS
+========================================================================== */
+    
+    @media only screen and (max-width: 767px) {
+        .vacc-history .hero-section {
+            height: 140px;
+        }
+        .vacc-history .hero-section h1 {
+            font-size: 24px;
+            margin-top: 30px;
+            margin-bottom: -2px;
+        }
+        .vacc-history .hero-section p {
+            font-size: 21px;
+        }
+        .vacc-history .hero-section .hero-clear {
+            clear: left;
+        }
+        .shareBtn {
+            width: 70px;
+            top: 185px;
+            right: 14%;
+        }
+        .vacc-history .divider.one {
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .vacc-history .divider.one p {
+            font-size: 21px;
+        }
+        .vacc-history .quote blockquote {
+            font-size: 17px;
+        }
+        .vacc-history .quote blockquote .before {
+            top: 28px;
+        }
+        .vacc-history .quote.one .img-container {
+            padding: 10px 70px 0px;
+        }
+        .vacc-history .quote.one p {
+            font-size: 17px;
+            text-align: center;
+        }
+        .vacc-history .sled-section .top {
+            font-size: 18px;
+            margin-top: 195px;
+            text-align: center;
+        }
+        .vacc-history .sled-section-extension {
+            display: block;
+            height: 150px;
+        }
+        .vacc-history .sled-section .stats {
+            margin-top: 20px;
+        }
+        .vacc-history .content .small-center-button {
+            text-align: center;
+        }
+        .vacc-history .content h4 {
+            font-size: 22px;
+            margin-bottom: 5px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .vacc-history .content p {
+            font-size: 16px;
+            text-align: center;
+        }
+        .vacc-history .divider.two h4 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        .vacc-history .divider.two p {
+            font-size: 17px;
+        }
+        .vacc-history .quote.two .quote-caption {
+            left: 135px;
+            font-size: 14px;
+            line-height: 1em;
+        }
+        .vacc-history .quote.two p {
+            font-size: 15px;
+        }
+        .vacc-history .quote.two .container {
+            height: 212px;
+        }
+        .vacc-history .quote.two blockquote {
+            margin-bottom: 5px;
+            margin-top: -10px;
+        }
+        .vacc-history .children h4 {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .vacc-history .children p {
+            font-size: 16px;
+            text-align: center;
+        }
+        .vacc-history .children .bottom-txt {
+            margin-bottom: 25px;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .vacc-history .hero-section {
+            height: 112px;
+        }
+        .shareBtn {
+            width: 70px;
+            top: 160px;
+            right: 11%;
+        }
+        .vacc-history .hero-section p {
+            font-size: 19px;
+        }
+        .vacc-history .divider.one p {
+            font-size: 19px;
+        }
+        .vacc-history .quote blockquote {
+            font-size: 13.5px;
+            margin: -15px 0px 4px;
+        }
+        .vacc-history .quote blockquote .before {
+            top: 22px;
+        }
+        .vacc-history .quote.one p {
+            font-size: 15px;
+        }
+        .vacc-history .sled-section .top {
+            font-size: 15px;
+        }
+        .vacc-history .sled-section {
+            height: 250px;
+        }
+        .vacc-history .sled-section .top {
+            font-size: 15px;
+            margin-top: 150px;
+        }
+        .vacc-history .sled-section .stats {
+            font-size: 20px;
+            margin-top: 5px;
+        }
+        .vacc-history .sled-section .icon {
+            max-width: 25px;
+        }
+        .vacc-history .sled-section .left {
+            width: 108px;
+        }
+        .vacc-history .sled-section .center {
+            width: 84px;
+        }
+        .vacc-history .sled-section .right {
+            width: 135px;
+        }
+        .vacc-history .sled-section .bottom {
+            font-size: 18px;
+        }
+        .vacc-history .sled-section-extension {
+            height: 115px;
+        }
+        .vacc-history .content p {
+            font-size: 15px;
+        }
+        .vacc-history .content .img-container {
+            padding: 0 80px;
+        }
+        .vacc-history .content p {
+            font-size: 14px;
+        }
+        .vacc-history .content .btn {
+            font-size: 18px;
+        }
+        .vacc-history .content {
+            padding-top: 30px;
+            padding-bottom: 15px;
+        }
+        .vacc-history .divider.two h4 {
+            font-size: 19px;
+        }
+        .vacc-history .divider.two p {
+            font-size: 15px;
+        }
+        .vacc-history .divider.two {
+            padding-top: 10px;
+            padding-bottom: 15px;
+        }
+        .vacc-history .quote.two .container {
+            height: 174px;
+        }
+        .vacc-history .quote.two .quote-caption {
+            left: 102px;
+            font-size: 13px;
+        }
+        .vacc-history .quote.two p {
+            font-size: 13px;
+        }
+        .vacc-history .quote.two blockquote.bottom {
+            margin-top: -15px;
+        }
+        .vacc-history .quote.two blockquote {
+            margin-bottom: 2px;
+            margin-top: -7px;
+        }
+        .vacc-history .children {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .vacc-history .children h4 {
+            font-size: 22px;
+        }
+        .vacc-history .children p {
+            font-size: 14px;
+        }
+        .vacc-history .children .img-container {
+            padding: 0 80px;
+        }
+        
+    }
+    /* EXTRA SMALL DEVICES, PHONES
+========================================================================== */
+    
+    @media only screen and (max-width: 479px) {
+        .vacc-history .hero-section {
+            height: 82px;
+        }
+        .vacc-history .hero-section h1 {
+            font-size: 21px;
+            margin-top: 4px;
+        }
+        .shareBtn {
+            width: 60px;
+            top: 98px;
+        }
+        .vacc-history .hero-section h1 {
+            font-size: 16px;
+        }
+        .vacc-history .quote blockquote {
+            font-size: 14px;
+        }
+        .vacc-history .quote blockquote .before {
+            top: 24px;
+        }
+        .vacc-history .divider.one {
+            padding-top: 10px;
+            padding-bottom: 5px;
+        }
+        .vacc-history .divider.one p {
+            font-size: 16px;
+        }
+        .vacc-history .quote.one p {
+            font-size: 13px;
+        }
+        .vacc-history .quote.one .img-container {
+            padding: 10px 10px 0px;
+        }
+        .vacc-history .quote.one {
+            padding-bottom: 10px;
+        }
+        .vacc-history .sled-section {
+            height: 200px;
+        }
+        .vacc-history .sled-section .top {
+            font-size: 13px;
+            margin-top: 125px;
+        }
+        .vacc-history .sled-section .stats {
+            font-size: 15px;
+            margin-top: 0px;
+        }
+        .vacc-history .sled-section .icon {
+            max-width: 18px;
+        }
+        .vacc-history .sled-section .left {
+            width: 83px;
+        }
+        .vacc-history .sled-section .center {
+            width: 65px;
+        }
+        .vacc-history .sled-section .right {
+            width: 103px;
+        }
+        .vacc-history .sled-section .bottom {
+            font-size: 15px;
+            margin-top: 0px;
+        }
+        .vacc-history .sled-section-extension {
+            height: 125px;
+        }
+        .vacc-history .content .img-container {
+            padding: 0px 30px;
+        }
+        .vacc-history .content h4 {
+            font-size: 18px;
+        }
+        .vacc-history .content p {
+            font-size: 13px;
+        }
+        .vacc-history .content .top {
+            padding-bottom: 15px;
+        }
+        .vacc-history .content .img-container p {
+            font-size: 14px;
+        }
+        .vacc-history .divider.two h4 {
+            font-size: 16px;
+        }
+        .vacc-history .divider.two p {
+            font-size: 13px;
+        }
+        .vacc-history .quote.two .container {
+            height: 280px;
+        }
+        .vacc-history .quote.two .col-xxs-12 {
+            width: 100%;
+            margin-left: auto;
+        }
+        .vacc-history .quote-two-extension {
+            display: block;
+            background-color: #41737c;
+            border-top: 1px solid #a7a7a7;
+            height: 172px;
+        }
+        .vacc-history .quote.two blockquote {
+            margin-bottom: 6px;
+            margin-top: 275px;
+        }
+        .vacc-history .quote.two blockquote, .vacc-history .quote.two p {
+            width: 340px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .vacc-history .quote.two .quote-caption {
+            left: 121px;
+        }
+        .vacc-history .children h4 {
+            font-size: 18px;
+        }
+        .vacc-history .children p {
+            font-size: 13px;
+        }
+        .vacc-history .children .img-container {
+            padding: 0px 40px;
+        }
+
+        @media only screen and (max-width: 456px) {
+            .vacc-history .hero-section .res-br {
+                display: block;
+            }
+        }
+
+        @media only screen and (max-width: 370px) {
+            .vacc-history .quote.two .container {
+                height: 232px;
+            }
+            .vacc-history .quote.two .quote-caption {
+                left: 102px;
+            }
+            .vacc-history .quote.two blockquote, .vacc-history .quote.two p {
+                width: 290px;
+            }
+            .vacc-history .quote.two blockquote {
+                margin-top: 227px;
+            }
+            .vacc-history .children .img-container {
+                padding: 0px 30px;  
+            }
+        }
+    }

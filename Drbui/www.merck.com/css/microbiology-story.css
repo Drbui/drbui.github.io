@@ -1,0 +1,413 @@
+body{
+	/*overflow: hidden;*/
+}
+
+sup { 
+	    line-height: 23px;
+}
+
+.mm-listview{
+	text-align: left;
+}
+
+/* ==========================================================================
+   0. PAGE GLOBALS
+   ========================================================================== */
+	.shareBtn {
+		cursor: pointer;
+		position: relative;
+		z-index: 99;
+		width: 110px;
+		margin-top: 2%;
+		margin-right: 0px;
+	}
+	.shareBtn img {
+		max-width: 90%;
+	}
+	.btn { border-radius: 0; }
+
+	.row-centered {
+    text-align:center;
+	}
+
+	.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+	}
+	.col-fixed-left {
+    /* custom width */
+    width:385px;
+	}
+	.col-fixed-right {
+    /* custom width */
+    width:320px;
+	vertical-align: top;
+	}
+	.carousel-control {
+	margin-top: 225px !important;
+	}
+
+	.m-t{
+		margin-top: 35px;
+	}
+
+	.plain-template .divider p {
+		font-size: 24px;
+	}
+    
+/* 0.1. HERO SECTION
+   ========================================================================== */
+	.plain-template .main-hero-section {
+		background-color: #ffffff;
+		margin-top: 106px;
+		background-image: url("http://www.merck.com/images/about/featured_stories/microbiology-story/mb_bg_hero.jpg");
+		background-repeat: no-repeat;
+		background-size: cover !important;
+		background-position: left top;
+		overflow: hidden;
+		background-size: 100%;
+		padding-bottom: 80px;
+	}
+	.plain-template .main-hero-section h1 {
+		text-transform: uppercase;
+		color: white;
+		font-size: 40px;
+		position: relative;
+		line-height: 50px;
+		padding-top: 50px;
+	}
+
+	.plain-template .main-hero-section span[class='blue']{
+		color:#64C7D1;
+	}
+
+
+/* 0.2. DIVIDER SECTION
+   ========================================================================== */
+ 	
+	.plain-template .divider {
+		padding: 40px 0px;
+	}
+
+ 	.plain-template .divider.tealBackground {
+		background-color: #009793;
+	}
+	.plain-template .divider.tealBackground p {
+		color: #ffffff;
+	}
+	.whiteBackground { background: #fff; }
+	.plain-template .divider.whiteBackground h1 {
+		color: #7684AA;
+		font-size: 32px;
+		line-height: 1.2em;
+	}
+
+	.tex-blue{
+		color: #243444;
+		line-height: 1.2em;
+	}
+
+	.plain-template .divider.blueBackground{
+		background-color: #293645;
+	}
+
+	.plain-template .divider.blueBackground h1 {
+		color: #64C7D1;
+		font-size: 32px;
+	}
+
+	.plain-template .divider.blueBackground p {
+		color: #ffffff;
+		margin-bottom: 25px;
+	}
+
+
+	.plain-template .divider.tealBackground.asm {
+		background-color: #009793;
+		background-image: url("http://www.merck.com/images/about/featured_stories/microbiology-story/mb_overlay_circles_bg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover !important;
+		background-position: left top;
+		overflow: hidden;
+		background-size: 100%;
+	}
+
+	.quote .before {
+	    font-family: "Times New Roman",serif;
+	    font-size: 4em;
+	    margin-right: 0.05em;
+	    position: relative;
+	    top: 35px;
+	}
+
+	.quote .after {
+	    font-family: "Times New Roman",serif;
+	    font-size: 1.5em;
+	    margin-right: 0.05em;
+	    position: relative;
+	    top: 5px;
+	}
+
+	.quote .sign{
+		font-size: 20px;
+	}
+
+	.plain-template .divider.grayBackground {
+		background-color: #E9E9E9;
+	}
+
+	.plain-template .divider.grayBackground p {
+		text-align: center;
+	}
+	
+	.btn-more{
+		margin-top: 15px;
+        background-color: #009893;
+        color:#ffffff;
+        border: none;
+        padding: 10px;
+        border-radius: 0px; 
+        font-size: 18px;
+    }
+
+    .btn-more:visited{
+        background-color:#009893;
+        color:  #ffffff;
+    }
+
+    .btn-more:hover{
+        background-color:#009893;
+        color:  #ffffff;
+    }
+
+    .imageCaption{
+    	font-size: 20px;
+    	padding-top: 10px;
+    }
+
+
+	/* 	-0.9. IPAD PORTRAIT
+	========================================================================== */
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 		
+	
+		.plain-template .main-hero-section {
+		background-position: center top;
+		}
+		
+
+	}
+
+	/* 	-0.9. IPAD LANDSCAPE
+	========================================================================== */
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 	
+
+		
+	}
+}
+
+
+/* 	-0.9. LARGE DEVICES, WIDE SCREENS
+	========================================================================== */
+	@media only screen and (max-width : 1199px){
+		.plain-template .main-hero-section {
+			background-color: #ffffff;
+		}
+		.plain-template .main-hero-section h1 {
+		    font-size: 45px;
+			position: relative;
+			top: -20px;
+			line-height: 42px;
+			padding-bottom: 40px;
+		}
+		.shareBtn img {
+		    max-width: 70%;
+		}
+		.shareBtn {
+			right: 5%;
+		}
+
+		
+	}
+
+/* 	-1.0 MEDIUM DEVICES, DESKTOPS
+	========================================================================== */
+	@media only screen and (max-width : 991px){
+		.plain-template .main-hero-section {
+		    margin-top: 0px;
+		}
+		.plain-template .main-hero-section h1 {
+		    font-size: 32px;
+			position: relative;
+			top: -35px;
+			line-height: 35px;
+			padding-bottom: 10px;
+		}
+		.plain-template .divider {
+		    padding: 20px 0px;
+		}
+
+		.m-t{
+			margin-top: 20px;
+		}
+		
+		.m-b{
+			margin-bottom: 25px;
+		}
+
+	}
+/* 	-1.2 SMALL DEVICES, TABLETS
+	========================================================================== */
+	@media only screen and (max-width : 767px){
+
+		.plain-template .main-hero-section h1 {
+		    font-size: 20px;
+			position: relative;
+			top: -5px;
+			line-height: 18px;
+			padding-top: 20px;
+			padding-bottom: 10px;
+			text-align: left;
+		}
+		.plain-template .main-hero-section p {
+		    font-size: 20px;
+		    line-height: 28px;
+		    padding-bottom: 10px;
+			text-align: left;
+		}
+		.plain-template .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.shareBtn {
+			width: 80px;
+			right: 0%;
+		}
+
+		.plain-template .divider {
+		    padding: 20px 0px;
+		}
+
+		.plain-template .divider p {
+		    font-size: 15px;
+		}
+
+		body{
+			text-align: center;
+		}
+
+		.plain-template .main-hero-section .share-icon{
+		    right: 2%;
+		}
+
+		.plain-template .main-hero-section img{
+			width: 140px;
+		}
+
+		.plain-template  .divider p{
+			font-size: 18px;
+		}
+
+		.quote .sign{
+			font-size: 16px;
+		}
+
+		.m-t{
+			margin-top: 20px;
+		}
+
+		.m-b{
+			margin-bottom: 25px;
+		}
+
+
+	}
+/* 	-1.3EXTRA SMALL DEVICES, PHONES
+	========================================================================== */
+	@media only screen and (max-width : 479px){
+    	.row .col-xxs-12 {
+    		width: 100% !important;
+    	}
+		.plain-template .main-hero-section {
+			padding: 0px 0px 20px;
+		}
+		.plain-template .main-hero-section h1 {
+		    font-size: 16px;
+		    position: relative;
+		    margin: 0px auto;
+		    padding-bottom: 0px;
+		    text-align: left;
+		}
+		.plain-template .main-hero-section .col-xs-12 {
+			padding: 0px;
+		}
+		.plain-template .main-hero-section p {
+		    font-size: 15px;
+		    line-height: 1.2em;
+		    padding-bottom: 10px;
+			text-align: left;
+		}
+		.plain-template .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: left;
+		}
+		.shareBtn {
+			width: 70px;
+			right: 100px;
+		}
+		.plain-template .divider {
+		    padding: 20px 0px;
+		}
+
+		.plain-template  .divider p{
+			font-size: 18px;
+		}
+		
+		.plain-template .main-hero-section img{
+			width: 50%;
+		}
+
+		.plain-template .main-hero-section .share-icon{
+		    width: 34%;
+		    top: 10px;
+		    right: 2%;
+		}
+
+		.plain-template .main-hero-section img{
+			width: 78px;
+		}
+
+
+		.plain-template .divider.tealBackground p {
+			color: #ffffff;
+			font-size: 20px;
+		}
+
+
+		.shareBtn{
+			margin-right: 0px;
+		}
+
+		.btn-more{
+			width: 100%;
+			font-size: 16px;
+		}
+
+		.quote .sign{
+			font-size: 16px;
+		}
+
+		.m-t{
+			margin-top: 20px;
+		}
+
+		.m-b{
+			margin-bottom: 25px;
+		}
+	
+	}

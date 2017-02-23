@@ -1,0 +1,264 @@
+h1, h2, h3, h4, h5, h6, #thank-you {
+	font-family: "UniversLTW01-47LightCn","Arial Narrow", Arial, sans-serif;
+}
+#page address, #page p, #page ul{
+	font-size: 18px;
+}
+a:hover {
+	text-decoration: none;
+}
+h4 {
+	font-size: 24px;
+	color: #768DCF;
+}
+iframe {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  border: 0;
+}
+i {
+	color: #676464;
+}
+td {
+	vertical-align: middle;
+}
+.header-container {
+	position: relative;
+  height: inherit;
+}
+.content_container {
+  padding-top: 15px;
+}
+#page {
+	font-family: "Univers LT W01_45 Light","Arial Narrow", Arial, sans-serif;	
+}
+.vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+  height: 20em;
+}
+.parallax {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.parallax img {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+  transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+  margin-right: auto;
+  margin-left: 50%;
+}
+#thank-you {
+  animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    -ms-animation-duration: 3s;
+    -o-animation-duration: 3s;
+  text-align: center;
+  color: white;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  bottom: 10%;
+  width: 100%;
+  padding: 0 3em;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";       /* IE 8 */
+  filter: alpha(opacity=50);  /* IE 5-7 */
+  -moz-opacity: 0.5;          /* Netscape */
+  -khtml-opacity: 0.5;        /* Safari 1.x */
+  opacity: 0.5;  
+}
+
+.accordion {
+    list-style-type: none;
+    margin: 0 0 30px;
+    padding: 0;
+}
+.accordion ul {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.accordion li {
+    cursor: pointer;
+    display: block;
+    float: left;
+    list-style-type: none;
+    margin: 3px 0;
+    padding: 0;
+    width: 100%;
+}
+.accordion li.active > a {
+    background: url("http://www.merck.com/images/faq_close_arrow.gif") no-repeat scroll left center;
+}
+.accordion li div {
+    background: #fff none repeat scroll 0 0;
+    clear: both;
+    cursor: auto;
+    display: block;
+    float: left;
+    padding: 5px 20px 5px 35px;
+}
+.accordion li div p {
+    margin-bottom: 0;
+}
+.accordion a {
+    background: url("http://www.merck.com/images/faq_open_arrow.gif") no-repeat scroll left center;
+    color: #768dc1 !important;
+    cursor: pointer;
+    display: block;
+    font-size: 1.25em;
+    padding: 0 0 0 10px;
+    text-decoration: none;
+}
+.accordion li ul {
+    margin: 0 0 0 30px;
+}
+.accordion li ul li {
+}
+.accordion li ul li.active > a {
+    background: rgba(0, 0, 0, 0) url("http://www.merck.com/images/close.gif") no-repeat scroll left 0.2em;
+}
+.accordion li ul li a {
+    background: rgba(0, 0, 0, 0) url("http://www.merck.com/images/open.gif") no-repeat scroll left 0.2em;
+    color: #676767 !important;
+    font-size: 1.25em;
+    padding: 0 0 0 20px;
+}
+.accordion li ul li ul li a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #289392 !important;
+    float: left;
+    font-size: inherit;
+    padding: 0;
+}
+.accordion li ul li ul li a:hover {
+    text-decoration: underline;
+}
+.accordion li ul li a.web_link {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #289392 !important;
+    display: inline-block;
+    padding: 0;
+}
+.accordion li ul li a.web_link:hover {
+    text-decoration: underline;
+}
+.accordion li ul li ul.faq_contact {
+    display: block !important;
+    list-style: outside none disc;
+    margin-bottom: 15px;
+}
+.accordion li ul li ul.faq_contact li {
+    background: transparent url("http://www.merck.com/images/global/bullet-point.gif") no-repeat scroll left 0.3em;
+    font-size: 1.25em;
+    padding: 0 0 0 15px;
+}
+.accordion li ul li p a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #289392 !important;
+    display: inline-block;
+    font-size: inherit;
+    padding: 0;
+}
+.accordion li ul li p a:hover {
+    text-decoration: underline;
+}
+.accordion li ul li ul.faq_contact li a {
+    display: inline;
+    float: none;
+}
+/*IE 8 Styles*/
+#ie-image-container {
+	height: 30em;
+	display: table;
+	background: url("http://www.merck.com/images/contact/contact_us_merck_lobby.jpg") no-repeat;
+	width: 100%;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+		src='../contact/img/contact_us_merck_lobby.html',
+		sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+  	src='/contact/img/contact_us_merck_lobby.jpg',
+  	sizingMethod='scale')";
+} 
+#thank-you-ie {
+  text-align: center;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+}
+#thank-you-ie p {
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
+  padding: 2%;
+  font-size: 32px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: 0;
+}
+@media (min-width: 1024px) {
+  #thank-you {
+    font-size: 45px;
+  }
+}
+@media (max-width: 1024px) {
+  #thank-you {
+    font-size: 36px;
+  }
+  #upper-gwynedd-pic {
+    background-position: left center;
+  }
+}
+@media (max-width: 991px){
+  .parallax-container { 
+  padding-top: 19px !important; 
+  margin-top: 0 !important;
+  position: relative;
+  z-index: 9;
+}
+.parallax {
+  background: #fff;
+}
+.parallax img { 
+  background: #fff; 
+  padding-top: 19px; 
+  position: relative !important;
+}
+}
+@media (max-width: 768px) {
+  #join-the-convo {
+    padding-bottom: 1em;
+  }
+  #section-4 h4 {
+    margin-top: 17em;
+  }
+  #thank-you {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  #thank-you { font-size: 20px; line-height: 1.0em;}
+}

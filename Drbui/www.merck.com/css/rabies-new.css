@@ -1,0 +1,424 @@
+.shareBtn {
+    cursor: pointer;
+    position: absolute;
+    right: 0%;
+    top: 20px;
+    z-index: 99;
+    width: 90px;
+}
+
+.main-hero-section {
+    position: relative;
+    background-image: url("http://www.merck.com/images/about/rabies-new/rabies-hero.jpg");
+    background-position: center left;
+    background-size: cover;
+    height: 655px;
+    margin-top: 127px;
+}
+
+.main-hero-section .header-overlay {
+	padding-top: 25px;
+	padding-bottom: 25px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+}
+
+.main-hero-section h1 {
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 83px;
+    color: #EB6750;
+    text-shadow: 0 1px 1px #666;
+    text-align: center;
+}
+
+.main-hero-section p {
+    color: #fff;
+    text-shadow: 0 1px 1px #555;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 48px;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.divider {
+    background: #303A43;
+    overflow-x: hidden;
+}
+
+.divider p {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2.2em;
+}
+
+.divider p.bold-text {
+    font-weight: bold;
+}
+
+.divider span {
+    font-size: 60px;
+    color: #68c8c6;
+}
+
+
+/*---------------*/
+
+
+/***** Oscar *****/
+
+
+/*---------------*/
+
+figure.effect-oscar {
+    /*background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+	background: linear-gradient(45deg, #22682a 0%,#9b4a1b 40%,#3a342a 100%);*/
+    background: -webkit-linear-gradient(45deg, #00877c 0%, #00877c 40%, #00877c 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: linear-gradient(45deg, #00877c 0%, #00877c 40%, #00877c 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+figure.effect-oscar img {
+    opacity: 0.9;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+
+figure.effect-oscar figcaption {
+    padding: 3em;
+    background-color: rgba(58, 52, 42, 0.7);
+    -webkit-transition: background-color 0.35s;
+    transition: background-color 0.35s;
+}
+
+figure.effect-oscar figcaption::before {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    content: '';
+}
+
+figure.effect-oscar h2 {
+    margin: 20% 0 10px 0;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    text-align: center;
+}
+
+figure.effect-oscar figcaption::before,
+figure.effect-oscar p {
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+figure.effect-oscar:hover h2 {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+figure.effect-oscar:hover figcaption::before,
+figure.effect-oscar:hover p {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    color: #fff;
+}
+
+figure.effect-oscar:hover figcaption {
+    background-color: rgba(58, 52, 42, 0);
+}
+
+figure.effect-oscar:hover img {
+    opacity: 0.2;
+}
+
+
+/*---------------*/
+
+
+/*** End Oscar ***/
+
+
+/*---------------*/
+
+
+.gallery-container .india,
+.gallery-container .africa {
+    padding: 0;
+}
+
+.gallery-container .africa figcaption,
+.gallery-container .india figcaption {
+    position: absolute;
+    z-index: 1;
+    background: transparent;
+}
+
+.gallery-container .africa p,
+.gallery-container .india p {
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.gallery-container .africa p a,
+.gallery-container .india p a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.gallery-container .africa h2,
+.gallery-container .india h2 {
+    background: #00877c;
+    height: 200px;
+    width: 200px;
+    display: table;
+    bottom: 25%;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 26px;
+    left: 30%;
+    position: relative;
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.gallery-container .africa h2 span,
+.gallery-container .india h2 span {
+    color: #879637;
+    font-size: 40px;
+}
+
+.content-container {
+    padding: 25px 0;
+    background: #00877c;
+}
+
+.content-container h4 {
+    color: #71fadf;
+    font-size: 30px;
+}
+
+.content-container p {
+    color: #fff;
+}
+
+.didyouknow-container {
+    padding: 25px 0;
+    background: #f2f2f2;
+}
+
+.didyouknow-container h2 {
+	font-size: 36px;
+}
+
+.didyouknow-container p {
+	font-size: 20px;
+}
+
+
+.timer1 {
+    color: #b1215b;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.percent {
+    color: #b1215b;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.counter {
+    text-align: center;
+}
+
+.counter p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+@media (max-width: 1199px) {
+
+	.shareBtn {
+		right: 3%;
+		top: 30px;
+		width: 75px;
+	}
+	.main-hero-section h1 {
+		font-size: 70px;
+	}
+	.main-hero-section {
+		height: 555px;
+	}
+	.counter p {
+		font-size: 38px;
+	}
+	.main-hero-section h1 {
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 991px) {
+	.shareBtn {
+		top: 10px;
+	}
+	.main-hero-section {
+	    height: 430px;
+	    margin-top: 0px;
+	}
+	.main-hero-section h1 {
+		font-size: 52px;
+		line-height: 1.2em;
+	}
+	.main-hero-section p {
+		font-size: 36px;
+		line-height: 1.2em;
+	}
+	.gallery-container .india,
+	.gallery-container .africa {
+		height: 600px;
+		overflow: hidden;
+	}
+	.gallery-container .africa h2,
+	.gallery-container .india h2 {
+		left: 50%;
+		margin-left: -100px;
+	}
+	.timer1 {
+		font-size: 70px;
+	}
+	.percent {
+		font-size: 70px;
+	}
+	.counter p {
+		font-size: 28px;
+	}
+	.didyouknow-container h2 {
+		font-size: 28px;
+	}
+	.didyouknow-container p {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 767px) {
+	.shareBtn {
+		top: 26px;
+		right: 1%;
+	}
+	.main-hero-section {
+		height: 312px;
+	}
+	.main-hero-section p {
+		font-size: 23px;
+	}
+	.main-hero-section h1 {
+		font-size: 41px;
+		margin-top: 0px;
+	}
+	.gallery-container .india, .gallery-container .africa {
+		height: 571px;
+	}
+}
+
+@media (max-width: 479px) {
+
+	.shareBtn {
+		top: 29px;
+		right: 0%;
+		width: 55px;
+	}
+	.main-hero-section .col-xxs {
+		width: 100%;
+		margin: 0;
+	}
+	.main-hero-section {
+		height: 220px;
+	}
+	.main-hero-section h1 {
+		font-size: 37px;
+	}
+	.main-hero-section p {
+		font-size: 17px;
+	}
+	.main-hero-section .header-overlay {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.divider p {
+		font-size: 17px;
+	}
+	.divider span {
+		font-size: 40px;
+	}
+	figure.effect-oscar h2 {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+	figure.effect-oscar figcaption {
+		background-color: rgba(58, 52, 42, 0);
+	}
+	figure.effect-oscar figcaption::before, figure.effect-oscar p {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		color: #fff;
+	}
+	figure.effect-oscar {
+		background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+		background: linear-gradient(45deg, #22682a 0%,#9b4a1b 40%,#3a342a 100%);
+		background: -webkit-linear-gradient(45deg, #00877c 0%, #00877c 40%, #00877c 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+		background: linear-gradient(45deg, #00877c 0%, #00877c 40%, #00877c 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	}
+	figure.effect-oscar img {
+		opacity: 0.2;
+	}
+	.gallery-container .africa h2, .gallery-container .india h2 {
+		height: auto;
+		width: auto;
+		padding: 10px;
+		left: 50%;
+		margin-left: -78px;
+		font-size: 16px;
+		border-radius: 0;
+	}
+	.gallery-container .africa figcaption, .gallery-container .india figcaption {
+		padding: 5px 25px;
+	}
+	.gallery-container .africa p, .gallery-container .india p {
+		margin-top: 5px;
+	}
+	.gallery-container .africa h2 span, .gallery-container .india h2 span {
+		font-size: 28px;
+	}
+	.gallery-container .india, .gallery-container .africa {
+		height: 380px;
+	}
+	.gallery-container .africa p, .gallery-container .india p {
+		font-size: 14px;
+	}
+	.didyouknow-container {
+		padding: 0px 0 20px;
+	}
+	.didyouknow-container p {
+		font-size: 16px;
+	}
+	.didyouknow-container h2 {
+		font-size: 24px;
+	}
+}

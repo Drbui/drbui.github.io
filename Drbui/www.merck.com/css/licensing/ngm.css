@@ -1,0 +1,268 @@
+body { padding-top: 127px; }
+h2 { font-size: 32px;
+    margin: 50px 0;}
+    p { font-size: 24px; }
+
+    .hero_container {
+        background-color: #337478;
+        background-image: url('http://www.merck.com/images/licensing/licensing_header.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+        height: 235px;
+        top: 0;
+    }
+    .hero_container .page-title {
+        bottom: 10px;
+        position: absolute;
+    }
+    .hero_container h2 {
+        bottom: auto;
+        left: 0;
+        text-transform: capitalize;
+        position: relative;
+        top: auto;
+        width: auto;
+        font-size: 35px;
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+    .shareBtn { margin-top: 3% !important; }
+    .shareBtn {
+        cursor: pointer;
+        position: relative;
+        z-index: 99;
+        width: 110px;
+        margin-top: 10px !important;
+    }
+    .shareBtn img { width: 70%; }
+
+    .content-section {
+        background-color: #fff;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .quote-section {
+        background-size: cover !important;
+        background-color: #46bbca;
+        color: #fff;
+        padding-top: 80px;
+        height: 395px;
+    }
+
+    .quote-section.chen {
+        background: url('http://www.merck.com/images/licensing/quote_chen.jpg') left top no-repeat scroll;
+    }
+
+    .quote-section.steve {
+        background: url('http://www.merck.com/images/licensing/quote_steve_hoge.jpg') left top no-repeat scroll;
+    }
+
+    .quote span { font-family: "Times New Roman", serif;
+    font-weight: bold; }
+    .quote .left-quote {
+        font-size: 3em;
+        position: relative;
+        top: 25px;
+        left: -5px;
+    }
+    .quote { font-size: 38px; }
+    .quote-section .caption { padding-left:  60px; }
+
+    .half-img-section .img-half {
+        background: url('http://www.merck.com/images/licensing/liquid-nitrogen.jpg') right top no-repeat scroll;
+        background-size: cover;
+        background-color: #46bbca;
+        color: #fff;
+        padding-top: 80px;
+    }
+    .half-img-section .img-half2 {
+        background: url('http://www.merck.com/images/licensing/group-meeting.jpg') right top no-repeat scroll;
+        background-size: cover;
+        background-color: #46bbca;
+        color: #fff;
+        padding-top: 80px;
+    }
+    .half-img-section .img-half,
+    .half-img-section .img-half2,
+    .half-img-section .content-half {
+        height: 395px;
+    }
+
+
+    .half-img-section .content-half {
+        background-color: #428ec5;
+        padding-top: 60px;
+    }
+
+    .half-img-section .content-half p {
+        color: #fff;
+        font-size: 34px;
+    }
+
+    .press-releases {
+        background-color: #f1f1f1;
+        padding-bottom: 80px;
+    }
+
+    .whitebox {
+        background-color: #fff;
+        padding: 15px;
+    }
+    .whitebox .date {
+        color: #797979;
+        font-weight: bold;
+    }
+
+    .whitebox a {
+        font-size: .9em;
+    }
+
+    /* @media (max-width: 1024px){
+        .hero_container {
+            background-position: center center;
+        }
+    } */
+
+    @media (max-width: 1199px){
+        .hero-image h4 {
+            font-size: 36px;
+        }
+        p {
+            font-size: 22px;
+        }
+        h2 {
+            font-size: 30px;
+            margin: 40px 0;
+        }
+        .quote-section.stephane {
+            padding-top: 15px;
+            height: 255px;
+        }
+        .quote { font-size: 30px; }
+    }
+
+    @media (max-width: 991px){
+        body { padding-top: 0; }
+        .shareBtn { margin-top: 10px !important; }
+        .shareBtn img { width: 72px; }
+        .hero-image h4 {
+            font-size: 32px;
+        }
+        p {
+            font-size: 20px;
+        }
+        h2 {
+            font-size: 26px;
+            margin: 30px 0;
+        }
+        .half-img-section .img-half, .half-img-section .img-half2, .half-img-section .content-half {
+            height: 340px;
+        }
+        .half-img-section .content-half p {
+            margin-top: 40px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .content_container, .footer_container {
+            margin-top: 0;
+        }
+        .hero_container {
+            background-position: 80% center;
+        }
+        .hero_container h2 {
+            font-size: 28px;
+        }
+        .hero-image { height: 400px; }
+        .shareBtn { width: 60px; }
+        .shareBtn img { width: 100%; }
+        .hero-image h4 {
+            font-size: 30px;
+        }
+        .content-section {
+            padding-top: 20px;
+            padding-bottom: 15px;
+        }
+        p {
+            font-size: 18px;
+        }
+        h2 {
+            font-size: 23px;
+            margin: 30px 0;
+        }
+        .quote-section.stephane {
+            height: 200px;
+        }
+        .quote {
+            font-size: 20px;
+        }
+        .quote .left-quote {
+            top: 19px;
+        }
+        .quote-section .caption {
+            padding-left: 10px;
+        }
+        .quote-section {
+            padding-top: 25px;
+            height: 230px;
+        }
+        .half-img-section .content-half p {
+            font-size: 28px;
+            margin-top: 0px;
+        }
+        .half-img-section .img-half, .half-img-section .img-half2, .half-img-section .content-half {
+            height: 255px;
+        }
+
+    }
+
+    @media (max-width: 667px) {
+        .hero_container h2 {
+            font-size: 22px;
+        }
+    }
+
+    @media (max-width: 479px) {
+        .shareBtn { margin-top: 5px !important; }
+        .hero-image h1 {
+            font-size: 27px;
+            line-height: normal;
+        }
+        .hero-image h4 {
+            font-size: 20px;
+            font-weight: normal;
+        }
+        p {
+            font-size: 16px;
+        }
+        h2 {
+            font-size: 19px;
+            margin: 20px 0;
+        }
+        .quote-section.stephane {
+            padding-top: 0px;
+            height: 150px;
+        }
+        .quote {
+            font-size: 14px;
+        }
+
+        .quote-section .caption {
+            font-size: 14px;
+        }
+        .quote-section {
+            padding-top: 0px;
+            height: 165px;
+        }
+        .half-img-section .content-half p {
+            font-size: 23px;
+        }
+        .half-img-section .img-half, .half-img-section .img-half2, .half-img-section .content-half {
+            height: 200px;
+        }
+        .half-img-section .content-half {
+            padding-top: 35px;
+        }
+    }

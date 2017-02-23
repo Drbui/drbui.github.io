@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.merck.com/share/share-site.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Feb 2017 23:25:01 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Tell a Friend about Merck.com</title>
+
+<style type="text/css">
+BODY {
+margin:0px;
+font:normal 12px Arial, Helvetica, sans-serif;
+color:#000000;
+}
+
+.bodyContent {
+font:normal 12px Arial, Helvetica, sans-serif;
+color:#000000;
+line-height:150%;
+padding-left:10px;
+padding-right:10px;
+}
+
+INPUT {
+font:normal 12px Arial, Helvetica, sans-serif;
+color:#000000;
+}
+
+.error_mesg {
+font:normal 12px Arial, Helvetica, sans-serif;
+color:#ff0000;
+}
+
+.bodyHeading {
+font:bold 16px Arial, Helvetica, sans-serif;
+color:#000000;
+line-height:150%;
+padding-left:15px;
+}
+
+A {
+font:normal 12px Arial, Helvetica, sans-serif;
+color:#148b78;
+text-decoration:underline;
+}
+
+A:hover {
+text-decoration:none;
+}
+
+.redText {
+font:normal 12px Arial, Helvetica, sans-serif;
+color:#ff0000;
+}
+
+.button {
+font:bold 12px Arial, Helvetica, sans-serif;
+color:#148b78;
+background-color:#EEEEEE;
+border:1px solid #a1a1a1;
+}
+
+div.submit { width:139px; height:26px; background: url(http://www.merck.com/images/form-elements/submit_grey.gif) no-repeat; }
+div.submit:hover { background-image: url(http://www.merck.com/images/form-elements/submit_orange.gif); }
+
+</style>
+
+<script languate="javascript" src="utils.js"></script>
+
+<script language="javascript" type="text/javascript" >
+
+var openerPath;
+try {
+  openerPath = window.opener.location.pathname+window.opener.location.search; 
+  
+}
+catch(e){
+  openerPath = "../index.html"
+}
+//alert(openerPath);
+function validateForm(theForm)
+{
+  var errcount = 0;
+
+  errcount += countFieldErrors(theForm, "fromEmail", "err_fromEmail", true, "email");
+  errcount += countFieldErrors(theForm, "yourName", "err_yourName", true);
+  errcount += countFieldErrors(theForm, "toEmail", "err_toEmail", true, "email");
+
+  if( errcount > 0 )
+  {
+     document.getElementById("err_main").style.display = "inline";
+     return false;
+  }
+  else
+     return true;
+}
+
+function setNavState2(){/*stub*/}
+
+function onBodyLoad()
+{
+   document.emailForm.toEmail.focus();
+}
+
+function submitForm()
+{
+   var form = document.forms[0];
+
+   form.pagePath.value = openerPath;
+   if(validateForm(form) == true)
+      form.submit();
+}
+
+</script>
+</head>
+
+<body topmargin="0" leftmargin="0" onload="javascript: onBodyLoad();">
+
+<img src="http://www.merck.com/images/global/small_banner.jpg" width="463" height="75" /><br/>
+<br/>
+
+<span class="bodyHeading">Share this Page</span>
+
+<p class="bodyContent">
+You can send an e-mail to a friend with a link to the current web page by filling out this form and clicking submit.
+</p>
+
+<p class="bodyContent">
+*Indicates required field
+</p>
+
+<p>
+<div id="err_main" class="error_mesg" style="display:none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please correct the following field(s):</div>
+</p>
+
+<form name="emailForm" action="http://www.merck.com/htbin/share/share_site.cgi" method="post">
+  <input type="hidden" name="pagePath" value="/" />
+  <table width="100%" border="0" cellspacing="0" cellpadding="2">
+    <tr valign="middle">
+      <td width="200" class="bodyContent"><span class="redText">*</span> <strong>Recipient's E-mail Address:</strong></td>
+      <td width="190"><input type="text" name="toEmail" size="30" maxlength="60" /></td>
+      <td width="110">&nbsp;<div id="err_toEmail" class="error_mesg"></div></td>
+    </tr>
+    <tr valign="middle">
+      <td class="bodyContent"><span class="redText">*</span> <strong>Your Name:</strong></td>
+      <td><input type="text" name="yourName" size="30" maxlength="20" /></td>
+      <td>&nbsp;<div id="err_yourName" class="error_mesg"></div></td>
+    </tr>
+    <tr valign="middle">
+      <td class="bodyContent"><span class="redText">*</span> <strong>Your E-mail Address:</strong></td>
+      <td><input type="text" name="fromEmail" size="30" maxlength="60" /></td>
+      <td>&nbsp;<div id="err_fromEmail" class="error_mesg"></div></td>
+    </tr>
+    <tr>
+      <td colspan="3" height="10"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><a href="javascript:submitForm();"><div class="submit"></div></a></td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</form>
+
+<p class="bodyContent">
+No personal information (including e-mail addresses) about you or the recipient will be collected from this e-mail notification feature offered by Merck &amp; Co., Inc.
+</p>
+
+</body>
+
+<!-- Mirrored from www.merck.com/share/share-site.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Feb 2017 23:25:02 GMT -->
+</html>

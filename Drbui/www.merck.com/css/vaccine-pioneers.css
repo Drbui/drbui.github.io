@@ -1,0 +1,484 @@
+            /* ==========================================================================
+   PAGE GLOBALS
+   ========================================================================== */
+        
+        .shareBtn {
+            cursor: pointer;
+            position: absolute;
+            right: 15%;
+            z-index: 99;
+            top: 25px;
+        }
+        
+        .btn {
+            border: medium none;
+            border-radius: 0px;
+            background-color: #009994;
+            color: #FFF !important;
+        }
+        
+        .btn:hover {
+            color: #000 !important;
+            border: 1px solid #939393;
+            margin-bottom: -2px;
+        }
+        
+        .btn:active {
+            background-color: #E6E6E6;
+        }
+        
+        @media only screen and (max-width: 479px) {
+            .col-xxs-12 {
+                width: 100%;
+            }
+            .col-xxs-hidden {
+                display: none;
+            }
+        }
+        /* HERO SECTION
+   ========================================================================== */
+        
+        .vacc-pioneers .hero-section {
+            background-image: url("http://www.merck.com/images/about/vaccine-pioneers/vp_bg_hero.jpg");
+            background-size: 150%;
+            background-position: right top;
+            margin-top: 105px;
+            height: 403px;
+        }
+        
+        .vacc-pioneers .hero-section h1 {
+            font-size: 60px;
+            font-weight: bold;
+            color: #FFF;
+            margin-top: 100px;
+            line-height: 1em;
+        }
+        /* CONTENT SECTIONS
+    ========================================================================== */
+        
+        .vacc-pioneers .content.one {
+            padding-top: 40px;
+            padding-bottom: 30px;
+            background-color: #243444;
+            color: #ffffff;
+        }
+        
+        .vacc-pioneers .content.one p {
+            font-size: 24px;
+            margin-top: 35px;
+        }
+        
+        .vacc-pioneers .content.one .left-content p {
+            text-align: center;
+            font-size: 16px;
+            margin-top: 0px;
+        }
+        
+        .vacc-pioneers .content.one .left-content img {
+            border: 1px solid #989898;
+        }
+        
+        .vacc-pioneers .content.two {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: #c5e7eb;
+            color: #243444;
+        }
+        
+        .vacc-pioneers .content.two p {
+            font-size: 24px;
+            margin-top: 15px;
+        }
+        
+        .vacc-pioneers .content.two img {
+            padding: 0 30px;
+        }
+        /* QUOTES SECTIONS
+    ========================================================================== */
+        
+        .vacc-pioneers .quote blockquote {
+            color: #6e0048;
+            border-left: none;
+            padding: 0;
+            text-align: center;
+        }
+        
+        .vacc-pioneers .quote blockquote .before {
+            font-family: 'Times New Roman', serif;
+            margin-right: 0.05em;
+            position: relative;
+            font-size: 4em;
+            top: 45px;
+        }
+        
+        .vacc-pioneers .quote blockquote .after {
+            font-family: 'Times New Roman', serif;
+        }
+        
+        .vacc-pioneers .quote .quote-caption {
+            text-align: center;
+        }
+        
+        .vacc-pioneers .quote.one {
+            padding-bottom: 20px;
+            background-color: #ffffff;
+        }
+        
+        .vacc-pioneers .quote.one h4 {
+            font-size: 32px;
+            text-align: center;
+            margin: 50px 0;
+            font-weight: normal;
+        }
+        
+        .vacc-pioneers .quote p {
+            font-size: 24px;
+        }
+        
+        .vacc-pioneers .quote.one p.first-pg {
+            margin-bottom: 35px;
+        }
+        
+        .vacc-pioneers .quote blockquote {
+            font-size: 30px;
+            line-height: 1em;
+        }
+        
+        .vacc-pioneers .quote.one blockquote.top-quote {
+            margin-top: -50px;
+        }
+        
+        .vacc-pioneers .quote.one p.quote-caption {
+            font-size: 18px;
+        }
+        
+        .vacc-pioneers .quote.two {
+            padding-top: 50px;
+            padding-bottom: 30px;
+            text-align: center;
+            background-color: #ffffff;
+        }
+        
+        .vacc-pioneers .quote.two blockquote.top-quote {
+            margin-top: -30px;
+        }
+        /* VIDEO BOX
+    ========================================================================== */
+        
+        .myIframe {
+            position: relative;
+            padding-bottom: 42.1%;
+            padding-top: 30px;
+            height: 0;
+            -webkit-overflow-scrolling: touch;
+            border: solid black 0px;
+        }
+        
+        .myIframe .thevideo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .vacc-pioneers .video-box .video-credit {
+            position: relative;
+        }
+        
+        .vacc-pioneers .video-box .video-credit p {
+            position: absolute;
+            font-size: 26px;
+            padding-right: 10px;
+            position: absolute;
+            right: 20px;
+            bottom: 0px;
+            color: #ffffff;
+        }
+        
+        .vacc-pioneers .video-box .video-overlay {
+            position: absolute;
+            bottom: 410px;
+        }
+        
+        .vacc-pioneers .video-box .video-overlay p {
+            font-weight: bold;
+            color: #ffffff;
+            text-align: center;
+            font-size: 34px;
+        }
+        
+        .vacc-pioneers .video-box .video-overlay .overlay-text {
+            display: inline-block;
+            float: left;
+            width: 50%;
+        }
+        
+        .vacc-pioneers .video-box .video-overlay .overlay-text p {
+            display: inline-block;
+            float: left;
+            font-size: 38px;
+        }
+        
+        .vacc-pioneers .video-box .video-overlay .play-icon {
+            display: inline-block;
+            float: left;
+            width: 25%;
+            padding-left: 5%;
+        }
+        /* LEARN-MORE SECTION
+    ========================================================================== */
+        
+        .vacc-pioneers .learn-more {
+            background-color: #e7e6e9;
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+        
+        .vacc-pioneers .learn-more h4 {
+            font-size: 40px;
+            margin-top: 35px;
+            margin-bottom: 0px;
+        }
+        
+        .vacc-pioneers .learn-more p {
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+        
+        .vacc-pioneers .learn-more .img-container {
+            padding: 15px;
+        }
+        
+        .vacc-pioneers .learn-more img {
+            border: 1px solid #989898;
+        }
+        
+        .vacc-pioneers .learn-more .btn {
+            font-size: 22px;
+            padding: 4px 18px;
+        }
+        /*  LARGE DEVICES, WIDE SCREENS
+    ========================================================================== */
+        
+        @media only screen and (max-width: 1499px) {
+            .vacc-pioneers .hero-section {
+                height: 322px;
+            }
+        }
+        
+        @media only screen and (max-width: 1199px) {
+            .vacc-pioneers .hero-section {
+                height: 266px;
+            }
+            .vacc-pioneers .hero-section h1 {
+                font-size: 50px;
+                margin-top: 75px;
+            }
+            .vacc-pioneers .content.one p {
+                margin-top: 5px;
+            }
+            .vacc-pioneers .content.one .left-content p {
+                font-size: 14px;
+            }
+            .vacc-pioneers .content.two img {
+                padding: 0;
+            }
+            .vacc-pioneers .quote.one blockquote.top-quote {
+                margin-top: -30px;
+            }
+            .vacc-pioneers .quote blockquote {
+                font-size: 29px;
+            }
+            .vacc-pioneers .learn-more h4 {
+                margin-top: 20px;
+            }
+            .shareBtn {
+                right: 5%;
+            }
+        }
+        /*  MEDIUM DEVICES, DESKTOPS
+    ========================================================================== */
+        
+        @media only screen and (max-width: 991px) {
+            .shareBtn {
+                top: 80px;
+                width: 110px;
+            }
+            .vacc-pioneers .hero-section {
+                margin-top: 0px;
+                height: 206px;
+            }
+            .vacc-pioneers .hero-section h1 {
+                font-size: 40px;
+                margin-top: 70px;
+            }
+            .vacc-pioneers .content.one p,
+            .vacc-pioneers .content.two p {
+                font-size: 19px;
+            }
+            .vacc-pioneers .quote.one h4 {
+                font-size: 30px;
+                margin: 40px 0px;
+            }
+            .vacc-pioneers .quote p {
+                font-size: 19px;
+            }
+            .vacc-pioneers .quote blockquote {
+                font-size: 22px;
+            }
+            .vacc-pioneers .quote blockquote .before {
+                top: 35px;
+            }
+            .vacc-pioneers .quote.one p.quote-caption {
+                font-size: 15px;
+            }
+            .vacc-pioneers .quote.two blockquote.top-quote {
+                margin-top: -15px;
+            }
+            .vacc-pioneers .learn-more h4 {
+                font-size: 32px;
+                margin-top: 15px;
+            }
+            .vacc-pioneers .learn-more p {
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+            .vacc-pioneers .learn-more .btn {
+                font-size: 18px;
+            }
+            .vacc-pioneers .learn-more .img-container {
+                padding: 5px;
+            }
+            .vacc-pioneers .learn-more {
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
+            /*  SMALL DEVICES, TABLETS
+    ========================================================================== */
+            @media only screen and (max-width: 767px) {
+                .vacc-pioneers .hero-section {
+                    height: 161px;
+                }
+                .vacc-pioneers .hero-section h1 {
+                    font-size: 24px;
+                    margin-top: 40px;
+                }
+                .vacc-pioneers .hero-section .hero-clear {
+                    clear: left;
+                }
+                .shareBtn {
+                    width: 90px;
+                    top: 80px;
+                }
+                .vacc-pioneers .content.one p,
+                .vacc-pioneers .content.two p {
+                    font-size: 15px;
+                    text-align: center;
+                }
+                .vacc-pioneers .content.one .left-content img {
+                    width: 210px;
+                }
+                .vacc-pioneers .content.two p {
+                    margin-top: 0px;
+                }
+                .vacc-pioneers .quote.one p.first-pg {
+                    margin-bottom: 20px;
+                }
+                .vacc-pioneers .quote p {
+                    font-size: 16px;
+                    margin-bottom: 0px;
+                }
+                .vacc-pioneers .quote.one blockquote.top-quote {
+                    margin-top: 10px;
+                }
+                .vacc-pioneers .quote blockquote {
+                    font-size: 19px;
+                }
+                .vacc-pioneers .quote blockquote .before {
+                    top: 28px;
+                }
+                .vacc-pioneers .quote.two blockquote.top-quote {
+                    margin-top: 0px;
+                }
+                .vacc-pioneers .learn-more h4 {
+                    font-size: 26px;
+                    margin-top: 33px;
+                }
+                .vacc-pioneers .learn-more p {
+                    font-size: 22px;
+                }
+                .vacc-pioneers .learn-more .btn {
+                    font-size: 15px;
+                }
+            }
+            @media only screen and (max-width: 600px) {
+                .vacc-pioneers .hero-section {
+                    height: 129px;
+                }
+                .vacc-pioneers .learn-more h4 {
+                    margin-top: 15px;
+                }
+            }
+            /* EXTRA SMALL DEVICES, PHONES
+    ========================================================================== */
+            @media only screen and (max-width: 479px) {
+                .vacc-pioneers .hero-section {
+                    height: 100px;
+                }
+                .vacc-pioneers .hero-section h1 {
+                    font-size: 21px;
+                    margin-top: 25px;
+                }
+                .shareBtn {
+                    width: 80px;
+                    top: 45px;
+                }
+                .vacc-pioneers .hero-section h1 {
+                    font-size: 16px;
+                }
+                .vacc-pioneers .content-one .left-content {
+                    padding: 0px 50px;
+                }
+                .vacc-pioneers .content.one p,
+                .vacc-pioneers .content.two p {
+                    font-size: 14px;
+                }
+                .vacc-pioneers .content.two {
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                }
+                .vacc-pioneers .quote blockquote {
+                    font-size: 16px;
+                }
+                .vacc-pioneers .quote.one h4 {
+                    font-size: 25px;
+                    margin: 25px 0px;
+                }
+                .vacc-pioneers .learn-more h4 {
+                    font-size: 24px;
+                    margin-top: 6px;
+                }
+                .vacc-pioneers .learn-more p {
+                    font-size: 17px;
+                    margin-bottom: 12px;
+                }
+                .vacc-pioneers .learn-more .img-container {
+                    padding: 0;
+                }
+                .vacc-pioneers .learn-more .btn {
+                    font-size: 12px;
+                }
+            }
+            @media only screen and (max-width: 370px) {
+                .vacc-pioneers .hero-section {
+                    height: 86px;
+                }
+                .vacc-pioneers .learn-more h4 {
+                    font-size: 20px;
+                    margin-top: 0;
+                }
+                .vacc-pioneers .learn-more p {
+                    font-size: 15px;
+                }
+            }

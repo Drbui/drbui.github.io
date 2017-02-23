@@ -1,0 +1,602 @@
+.btn {
+    border-radius: 0;
+    background-color: #009994 !important;
+    color: #fff !important;
+    font-size: 17px;
+}
+
+.shareBtn {
+	cursor: pointer;
+	position: absolute;
+	right: 20%;
+	top: -28px;
+	z-index: 99;
+	width: 90px;
+}
+
+.hero-section {
+    background-image: url("http://www.merck.com/images/about/amr/amr1_bg_hero.jpg");
+    background-position: center right;
+    background-size: cover;
+    height: 360px;
+    margin-top: 127px;
+}
+
+
+#page .hero-section p {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 0;
+    margin-top: 110px;
+}
+
+.divider {
+	background-color: #243444;
+	text-align: center;
+	font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#page .divider p {
+	color:  #fff;
+}
+
+h2 {
+	text-align: center;
+	font-size: 34px;
+	margin-bottom: 35px;
+	font-weight: normal;
+	line-height: 1em;
+}
+#page p {
+	font-size: 22px;
+	color: #243444;
+}
+
+.our-history {
+	background-color: #fff;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.our-history img {
+	display:  block;	
+	margin:  0 auto;
+	width:  110px;
+}
+.our-history .our-history-line {
+	position:  absolute;
+	border-top: 5px solid #6176a3;
+	width: 65%;
+	left: 50%;
+	margin-left: -32.5%;
+	top:  34px;
+}
+#page .our-history p {
+	text-align: center;
+	color: #243444;
+	margin-top: 20px;
+}
+.committed {
+	background-color: #009894;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.committed h2 {
+	color:  #fff;
+}
+#page .committed p {
+	color:  #fff;
+	text-align: center;
+	margin-top: 20px;
+}
+.committed img {
+	display:  block;
+	margin:  0 auto;
+	width:  170px;
+}
+
+.half-section .half-container {
+	width: 585px;
+	float:  left;
+	padding-left:  15px;
+	padding-right:  15px;
+}
+
+.half-section .left-half .half-container {
+	float: right;
+}
+
+.left-half, .right-half {
+	width: 50%;
+	float:  left;
+}
+
+.right-half.switchfloat {
+	float: right;
+}
+
+.half-section h2 {
+	text-align:  left;
+}
+
+.half-section.three .right-half, .half-section.four .left-half {
+	background-color: #fff;
+}
+.half-section.two .left-half {
+	background-color: #e0e0e0;
+}
+
+.half-section .btn {
+	margin-top: 30px;
+}
+
+.quote {
+	font-size: 26px;
+	color: #fff;
+	line-height: 1.2em;
+	margin-top: 5px;
+}
+
+.quote .qmark.large {
+	font-size: 3em;
+	position: relative;
+	top: 25px;
+	left: -5px;
+	line-height: 0;
+}
+
+.quote .qmark {
+	font-family: "Times New Roman", serif;
+	font-weight: bold;
+}
+.quote .caption {
+	color: #fff;
+	padding-top: 20px;
+	font-size: 22px;
+}
+
+.half-section.one .right-half {
+	background-color: #243444;
+	padding-top:  50px;
+}
+
+.half-section.one, .half-section.one .left-half, .half-section.one .right-half {
+	height: 490px;
+}
+
+.half-section.one .left-half {
+	background-image: url("http://www.merck.com/images/about/amr/amr1_hermsen.jpg");
+	background-position: top right;
+	background-size: cover;
+}
+
+
+.half-section.two, .half-section.two .left-half, .half-section.two .right-half {
+	height: 490px;
+}
+
+.half-section.two .left-half {
+	padding-top:  50px;
+}
+.half-section.two .right-half {
+	background-image: url("http://www.merck.com/images/about/amr/amr1_therien.jpg");
+	background-position: top left;
+	background-size: cover;
+}
+.half-section.two h2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.half-section.two h3 {
+	margin-top: 10px;
+	margin-bottom: 35px;
+	font-weight:  normal;
+}
+
+.solution {
+	background-color: #243444;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.solution h2 {
+	color: #6bcad4;
+}
+#page .solution p {
+	color:  #fff;
+	text-align: center;
+}
+.solution img {
+	display: block;
+	margin:  40px auto 0;
+	width: 160px;
+}
+.solution .title {
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+.half-section.three, .half-section.three .right-half, .half-section.three .left-half {
+	height: 490px;
+}
+
+.half-section.three .right-half {
+	padding-top:  50px;
+}
+.half-section.three .left-half {
+	background-image: url("http://www.merck.com/images/about/amr/amr1_collaborations.jpg");
+	background-position: top right;
+	background-size: cover;
+}
+.half-section.three h2 {
+	margin-top: 0px;
+}
+#page .half-section.three p {
+	margin-bottom: 20px;
+}
+
+
+.half-section.four, .half-section.four .left-half, .half-section.four .right-half {
+	height: 490px;
+}
+
+.half-section.four .left-half {
+	padding-top:  50px;
+}
+.half-section.four .right-half {
+	background-image: url("http://www.merck.com/images/about/amr/amr1_race.jpg");
+	background-position: top left;
+	background-size: cover;
+}
+
+.half-section.four h2 {
+	margin-top: 0px;
+}
+
+.additional-info {
+	background-color: #a3dad8;
+	padding-top: 30px;
+	padding-bottom: 80px;
+}
+
+.additional-info img {
+	width:  50%;
+	float: left;
+	margin-right: 15px;
+}
+
+#page .additional-info p {
+	color: #243444;
+	margin-top: 45px;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+
+@media (max-width: 1199px) {
+	.shareBtn {
+		top: -15px;
+	}
+	.hero-section {
+		height: 310px;
+	}
+	#page .hero-section p {
+		font-size: 40px;
+		margin-top: 95px;
+	}
+	#page p {
+		font-size: 20px;
+	}
+	h2 {
+		font-size: 32px;
+	}
+	.our-history img {
+		width: 100px;
+	}
+	.our-history .our-history-line {
+		top: 27px;
+	}
+	.half-section.two, .half-section.two .left-half, .half-section.two .right-half {
+		height: 430px;
+	}
+	.quote {
+		font-size: 24px;
+	}
+	.half-section.three, .half-section.three .right-half, .half-section.three .left-half {
+		height: 430px;
+	}
+	.half-section.two .left-half {
+		padding-top: 30px;
+	}
+	.committed img {
+		width: 150px;
+	}
+	.half-section .half-container {
+		width: 485px;
+	}
+	.half-section.one .right-half {
+		padding-top: 30px;
+	}
+	.half-section.three, .half-section.three .right-half, .half-section.three .left-half {
+		height: 430px;
+	}
+	.half-section.four, .half-section.four .left-half, .half-section.four .right-half {
+		height: 430px;
+	}
+	#page .additional-info p {
+		margin-top: 35px;
+	}
+	
+}
+
+@media (max-width: 991px) {
+	.shareBtn {
+		top: 60px;
+	}
+	.hero-section {
+		margin-top: 0;
+	}
+	.hero-section {
+		height: 255px;
+	}
+	#page .hero-section p {
+		font-size: 36px;
+		margin-top: 70px;
+	}
+	#page p {
+		font-size: 19px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	.our-history .our-history-line {
+		top: 27px;
+	}
+	.committed img {
+		width: 130px;
+	}
+	.half-section .half-container {
+		width: 375px;
+	}
+	.btn {
+		font-size: 13px;
+	}
+	.half-section .btn {
+		margin-top: 15px;
+	}
+	.quote {
+		font-size: 20px;
+	}
+	.quote .caption {
+		padding-top: 5px;
+		font-size: 18px;
+	}
+	.half-section.one, .half-section.one .left-half, .half-section.one .right-half {
+		height: 375px;
+	}
+	.half-section.one .right-half {
+		padding-top: 15px;
+	}
+	.half-section.two h3 {
+		margin-bottom: 10px;
+	}
+	.half-section.two, .half-section.two .left-half, .half-section.two .right-half {
+		height: 375px;
+	}
+	.solution img {
+		width: 100px;
+	}
+	.half-section.three h2 {
+		margin-bottom: 15px;
+	}
+	.half-section.four h2 {
+		margin-bottom: 15px;
+	}
+	.half-section.three, .half-section.three .right-half, .half-section.three .left-half {
+		height: 360px;
+	}
+	.half-section.three .right-half {
+		padding-top: 25px;
+	}
+	#page .half-section.three p {
+		margin-bottom: 10px;
+	}
+	.half-section.four, .half-section.four .left-half, .half-section.four .right-half {
+		height: 360px;
+	}
+	#page .additional-info p {
+		margin-top: 25px;
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 767px) {
+	.shareBtn {
+		top: 50px;
+		width: 75px;
+	}
+	.hero-section {
+		height: 155px;
+	}
+	#page .hero-section p {
+		font-size: 28px;
+		margin-top: 40px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	#page p {
+		font-size: 17px;
+	}
+	#page .our-history p {
+		margin-bottom: 30px;
+	}
+	.our-history {
+		padding-top: 15px;
+		padding-bottom: 20px;
+	}
+	.our-history img {
+		width: 90px;
+	}
+	#page .committed p {
+		margin-bottom: 30px;
+	}
+	.committed {
+		padding-top: 15px;
+		padding-bottom: 20px;
+	}
+	.committed img {
+		width: 90px;
+	}
+	.left-half, .right-half, .half-section .half-container {
+		width: 100%;
+	}
+	.half-section.one .left-half, .half-section.two .right-half {
+		height: 255px;
+	}
+	.half-section.one,
+	.half-section.two,
+	.half-section.three,
+	.half-section.four {
+		height: auto;
+		overflow: auto;
+	}
+
+	.half-section.one .right-half,
+	.half-section.two .left-half,
+	.half-section.three .right-half,
+	.half-section.four .left-half {
+		height: auto;
+	}
+	.half-section.one .right-half {
+		padding-top: 15px;
+		padding-bottom: 30px;
+	}
+	.half-section.two .left-half {
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+	.half-section.two h2 {
+		margin-bottom: 10px;
+	}
+	.half-section.two h3 {
+		margin-bottom: 25px;
+	}
+	.btn {
+		font-size: 17px;
+	}
+	.half-section.one .btn {
+		width: 430px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.half-section.two .btn, .half-section.four .btn, .additional-info .btn {
+		width: 115px;
+	}
+	.solution {
+		padding-top: 15px;
+		padding-bottom: 30px;
+	}
+	.solution img {
+		margin: 25px auto 0;
+	}
+	.half-section.three .left-half {
+		background-position: left top;
+		background-size: 110%;
+	}
+	.half-section.four .right-half {
+		background-position: right top;
+		background-size: 110%;
+	}
+	.half-section.three .left-half, .half-section.four .right-half {
+		height: 245px;
+	}
+	.half-section.one .left-half, .half-section.two .right-half {
+		height: 255px;
+	}
+	.half-section.four .left-half {
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+	.additional-info {
+		padding-top: 10px;
+		padding-bottom: 50px;
+	}
+	#page .additional-info p {
+		margin-top: 25px;
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 479px) {
+	.shareBtn {
+		top: 40px;
+		width: 65px;
+		right: 10%;
+	}
+	.hero-section {
+		height: 100px;
+	}
+	#page .hero-section p {
+		font-size: 22px;
+		margin-top: 25px;
+	}
+	#page p {
+		font-size: 15px;
+	}
+	h2 {
+		font-size: 26px;
+	}
+	h2 {
+		font-size: 26px;
+		margin-top: 10px;
+		margin-bottom: 30px;
+	}
+	.our-history {
+		padding-bottom: 0px;
+	}
+	.our-history img {
+		width: 80px;
+	}
+	.committed {
+		padding-bottom: 0px;
+	}
+	.quote {
+		font-size: 16px;
+	}
+	.quote .qmark.large {
+		top: 16px;
+	}
+	.quote .caption {
+		font-size: 15px;
+	}
+	.btn {
+		font-size: 10px;
+	}
+	.half-section.one .btn {
+		width: 100%;
+	}
+	.solution img {
+		margin: 15px auto 0;
+		width: 70px;
+	}
+	.half-section.two h3 {
+		margin-bottom: 15px;
+	}
+	.half-section.three .left-half, .half-section.four .right-half {
+		height: 163px;
+	}
+	.half-section.two .btn, .half-section.four .btn, .additional-info .btn {
+		width: 80px;
+	}
+	#page .additional-info p {
+		margin-top: 0px;
+		font-size: 15px;
+		margin-bottom: 10px;
+	}
+}

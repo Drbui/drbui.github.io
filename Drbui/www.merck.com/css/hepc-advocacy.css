@@ -1,0 +1,385 @@
+/**
+ * Description: Hepatitis C advocacy.
+ * Version: 3.0
+ * Last update: 09/24/2015
+ * Author: John Schibelli <jschibelli@spigroup.com>
+ *
+ * Summary:
+ *
+ *	0. PAGE GLOBALS
+ *	0.1. MAIN-HERO SECTION
+ *	0.2. DIVIDER-ONE
+ *	0.3. CONTENT-SECTION
+ *	0.4. DIVIDER-TWO
+ *	0.5. SECOND-HERO
+ *	0.6. DIVIDER-THREE
+ *	0.7. CONTENT-SECTION-TWO
+ *
+ * 	MEDIA QUERIES
+ *		-0.9. LARGE DEVICES, WIDE SCREENS
+ *		-1.0. MEDIUM DEVICES, DESKTOPS
+ *		-1.2. SMALL DEVICES, TABLETS
+ *		-1.3. EXTRA SMALL DEVICES, PHONES
+ *		-1.4. CUSTOM, iPHONE RETINA
+ */
+
+/* ==========================================================================
+   0. PAGE GLOBALS
+   ========================================================================== */
+	.hepc-advocacy .blue-grey {
+		color: #37424a;
+	}
+	.hepc-advocacy .orange {
+		color: #f59030;
+	}
+	.hepc-advocacy .white {
+		color: #ffffff;
+	}
+	.hepc-advocacy .bold-text {
+		font-weight: bold;
+	}
+	.hepc-advocacy .uppercase {
+		text-transform: uppercase;
+	}
+	.hepc-advocacy .text-center	 {
+		text-align: center;
+	}
+	.hepc-advocacy .text-left {
+		text-align: left;
+	}
+	.shareBtn {
+		cursor: pointer;
+		position: absolute;
+		right: 15%;
+		z-index: 99;
+	}
+    .quote-large {
+        font-family: 'Times New Roman', serif;
+        position: relative;
+        font-size: 75px;
+        line-height: 0.5em;
+        top: 15px;
+    }
+    .quote-large.white {
+        color: #fff;
+    }
+    .quote {
+        font-family: 'Times New Roman', serif;
+    }
+    blockquote {
+    	margin: 10px 0;
+    	border: none;
+    }
+    blockquote p {
+        font-size: 30px !important;
+        font-weight: bold;
+    }
+    blockquote p.white {
+        color: #fff;
+    }
+    blockquote p.teal {
+    	color: #159a95;
+    }
+    blockquote .caption {
+        font-size: 20px;
+        font-weight: normal;
+    }
+/* 0.1. MAIN-HERO SECTION
+   ========================================================================== */
+	.hepc-advocacy .main-hero-section {
+		background-color: #243444;
+		margin-top: 105px;
+
+	}
+	.hepc-advocacy .main-hero-section h1 {
+		font-size: 60px;
+		position: relative;
+		top: 45px;
+		line-height: 60px;
+		padding-bottom: 40px;
+	}
+	.hepc-advocacy .main-hero-section p {
+		font-size: 28px;
+		line-height: 28px;
+		padding-bottom: 10px;
+	}
+/* 0.2. DIVIDER-ONE
+   ========================================================================== */
+   	.hepc-advocacy .divider-one,
+   	.hepc-advocacy .divider-two {
+   	background-color: #6acad3;
+   	}
+ 	.hepc-advocacy .divider-one h2,
+ 	.hepc-advocacy .divider-two h2 {
+		color: #37424a;
+		font-size: 25px;
+		font-weight: normal;
+		padding-top: 10px;
+		padding-bottom: 10px;;;
+ 	}
+/* 0.3 CONTENT-SECTION
+   ========================================================================== */
+	.hepc-advocacy .content-section,
+	 .hepc-advocacy .content-section-two {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.hepc-advocacy .content-section p,
+	.hepc-advocacy .content-section-two p {
+		font-size: 20px;
+		color: #37424a;
+	}
+	.hepc-advocacy .content-section .quote {
+		font-size: 26px;
+		font-weight: 900;
+		padding-top: 45px;
+		padding-bottom: 20px;
+	}
+	.hepc-advocacy .content-section p.quote span.upper-quote{
+		background: url('http://www.merck.com/images/about/hepc-advocacy/advocacy_upper_quotes.png') no-repeat 0 0;
+		width: 45px;
+		padding-bottom: 20px;
+		padding-right: 50px;
+		position: relative;
+		bottom: 15px;
+	}
+	.hepc-advocacy .content-section span.open-quote {
+		font-family: "Times New Roman", Georgia, Serif;
+		font-size: 30px;
+		padding-left: 5px;
+		position: relative;
+		top: 5px;
+	}
+	.hepc-advocacy .content-section span.close-quote {
+		font-family: "Times New Roman", Georgia, Serif;
+		font-size: 30px;
+		padding-right: 5px;
+		position: relative;
+		top: 5px;
+		font-weight: bold;
+	}
+
+/* 0.4 DIVIDER-TWO
+   ========================================================================== */
+	.hepc-advocacy .divider-two h2 span.quotes{
+		background: url('http://www.merck.com/images/about/hepc-advocacy/advocacy_quotes.png') no-repeat 0 0;
+		width: 45px;
+		padding-bottom: 20px;
+		padding-right: 50px;
+		position: relative;
+		bottom: 10px;
+	}
+	.hepc-advocacy .divider-two span.close-quote {
+		font-family: "Times New Roman", Georgia, Serif;
+		font-size: 34px;
+		padding-right: 5px;
+		position: relative;
+		top: 4px;
+		font-weight: bold;
+	}
+/* 0.5. SECOND-HERO
+   ========================================================================== */
+   	.hepc-advocacy .second-hero {
+   		background-color: #159a95;
+   		padding-top: 40px;
+   	}
+   	.hepc-advocacy .second-hero p.lead {
+		font-size: 26px;
+		margin-bottom: 0px;
+   	}
+   	.hepc-advocacy  .second-hero p.lower-lead {
+		font-size: 20px;
+		padding-bottom: 25px;
+   	}
+
+   	.hepc-advocacy .second-hero span.cta-head {
+   		font-size: 25px;
+   	}
+   	.hepc-advocacy .second-hero .thumbnail {
+   		background: none;
+   		border: 0px;
+   	}
+   	.hepc-advocacy .second-hero .caption {
+   		font-size: 20px;
+   		text-align: center;
+   	}
+   	.hepc-advocacy .second-hero .caption p,
+   	.hepc-advocacy .divider-three .caption p {
+   		color: #ffffff;
+   		font-style: 25px;
+   	}
+/* 0.6. DIVIDER-THREE
+   ========================================================================== */
+   	.hepc-advocacy .divider-three  {
+   		background-color: #243444;
+   		padding-top: 40px;
+   		padding-bottom: 10px;
+   	}
+   	.hepc-advocacy .divider-three .thumbnail {
+   		background: none;
+   		border: 0px;
+   	}
+   	.hepc-advocacy .divider-three .thumbnail img {
+		padding-bottom: 20px;
+   	}
+   	.hepc-advocacy .divider-three .caption {
+   		font-size: 18px;
+   		text-align: center;
+   	}
+   	.hepc-advocacy .divider-three .caption.text-left {
+   		font-size: 26px;
+   		text-align: left;
+   		padding-bottom: 15px;;
+   	}
+/* 0.7. CONTENT-SECTION-TWO
+   ========================================================================== */
+   	.hepc-advocacy .content-section-two .sm-xs-img {
+   		padding-bottom: 20px;
+   	}
+/* 0.8. LOWER-HERO
+   ========================================================================== */
+   	.hepc-advocacy .lower-hero {
+   		background-color: #6acad3;
+   		padding-top: 30px;
+   		padding-bottom: 30px;
+   	}
+   	   	.hepc-advocacy .lower-hero p.lead{
+   			font-size: 35px;
+   			margin-bottom: 0px;
+   	   	}
+ 	.hepc-advocacy .lower-hero h2 {
+		color: #37424a;
+		font-size: 25px;
+		font-weight: normal;
+		margin-top: 0px;;
+	}
+
+/* 	-0.9. LARGE DEVICES, WIDE SCREENS
+	========================================================================== */
+	@media only screen and (max-width : 1200px){
+		.hepc-advocacy .main-hero-section {
+			background-color: #243444;
+			margin-top: 121px;
+		}
+		.hepc-advocacy .main-hero-section h1 {
+		    font-size: 55px;
+		    position: relative;
+		    top: 45px;
+		    line-height: 60px;
+		    padding-bottom: 40px;
+		}
+		.shareBtn {
+			right: 5%;
+		}
+	}
+/* 	-1.0 MEDIUM DEVICES, DESKTOPS
+	========================================================================== */
+	@media only screen and (max-width : 992px){
+		.hepc-advocacy .main-hero-section {
+			background-color: #243444;
+		    margin-top: 0px;
+		}
+		.hepc-advocacy .main-hero-section .light-grey-bg {
+			background: #3f5463;
+		}
+		.hepc-advocacy .main-hero-section h1 {
+		    font-size: 50px;
+		    position: relative;
+		    top: 45px;
+		    line-height: 60px;
+		    padding-bottom: 60px;
+		}
+		.hepc-advocacy .main-hero-section p.sm-xs-padd {
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+	}
+/* 	-1.2 SMALL DEVICES, TABLETS
+	========================================================================== */
+	@media only screen and (max-width : 768px){
+
+		.hepc-advocacy .main-hero-section h1 {
+		    font-size: 36px;
+		    position: relative;
+		    top: 30px;
+		    line-height: 60px;
+		    padding-bottom: 0px;
+		    text-align: center;
+		}
+		.hepc-advocacy .main-hero-section p {
+		    font-size: 20px;
+		    line-height: 28px;
+		    padding-bottom: 10px;
+		}
+		.hepc-advocacy .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.hepc-advocacy .content-section .quote {
+		    font-size: 26px;
+		    color: #159a95;
+		    font-weight: 900;
+		    padding-top: 45px;
+		    padding-bottom: 20px;
+		    text-align: center;
+		}
+		.hepc-advocacy .divider-one h2, .hepc-advocacy .divider-two h2 {
+		    color: #37424a;
+		    font-size: 25px;
+		    font-weight: normal;
+		    padding-top: 10px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.shareBtn {
+			width: 125px;
+			right: 2%;
+		}
+	}
+/* 	-1.3EXTRA SMALL DEVICES, PHONES
+	========================================================================== */
+	@media only screen and (max-width : 480px){
+		.hepc-advocacy .main-hero-section h1 {
+		    font-size: 20px;
+		    position: relative;
+		    margin: 0 auto;
+		    padding-bottom: 0;
+		    text-align: center;
+		}
+		.hepc-advocacy .main-hero-section p {
+		    font-size: 15px;
+		    line-height: 1.2em;
+		    padding-bottom: 10px;
+		}
+		.hepc-advocacy .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.hepc-advocacy .divider-one h2, .hepc-advocacy .divider-two h2 {
+		    color: #37424a;
+		    font-size: 22px;
+		    font-weight: normal;
+		    padding-top: 5px;
+		    padding-bottom: 5px;
+		}
+		.hepc-advocacy .content-section .quote {
+		    font-size: 22px;
+		    color: #159a95;
+		    font-weight: 900;
+		    padding-top: 45px;
+		    padding-bottom: 20px;
+		    text-align: center;
+		}
+		.hepc-advocacy iframe.embed-responsive-item {
+			margin-left: -18px;
+		}
+		.hepc-advocacy .second-hero .caption {
+			font-size: 15px;
+		}
+		.shareBtn {
+			width: 100px;
+			right: 0;
+		}
+	}

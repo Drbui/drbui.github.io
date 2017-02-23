@@ -1,0 +1,1231 @@
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+html.mm-background .mm-page { overflow: hidden; }
+.content-section { background: #fff; }
+.row.row-sm { background: #fff; }
+.hiv-anniversary .row {
+    /*margin-right: 0px;*/
+}
+/*==========  HIV Anniversary October 2015  ==========*/
+
+.lead {
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+.content-section p.lead {
+  color: #6176a3;
+  padding: 0px;
+  text-align: center;
+}
+
+.header_section { background: transparent; }
+/*====================================
+=            HERO SECTION            =
+====================================*/
+.jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-bottom: 0px;
+}
+.jumbotron .jumbo-inner {
+    position: absolute;
+    top: 200px;
+    visibility: hidden;
+}
+.jumbotron .jumbo-inner h1 {
+    font-size: 85px;
+    color: #243444;
+    width: 59%;
+    line-height: 70px;
+    /*visibility: visible;*/
+}
+.jumbotron .jumbo-inner p {
+    font-size: 50px;
+    color: #6e0048;
+    margin-bottom: 0px;
+    line-height: 49px;
+}
+.jumbotron .jumbo-inner sup {
+    font-size: 50px;
+    line-height: 0;
+    position: relative;
+    top: 30px;
+}
+.jumbotron img {
+    width:100%;
+}
+
+.hero-section #slideSpace {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.hero-section #slideSpace #slides_1 .slides-container {
+    background: url('http://www.merck.com/images/about/tired_bg_hero.jpg') no-repeat 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 900px;
+}
+.hero-section #slideSpace #slides_1 .slides-container img#heroImages {
+    padding-top: 122px;
+}
+.heros-section #slideSpace #slides_1 .slide-container .slides-header-content {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    text-align: right;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------
+\
+/* Carousel base class */
+
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+    z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+
+.carousel .item {
+    height: 500px;
+    background-color: #777;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+/*=======================================
+=            CONTENT-SECTION            =
+=======================================*/
+
+.content-section {
+    padding: 55px 0;
+}
+.content-section p {
+    font-size: 20px;
+    padding: 0 15px;
+}
+.content-section.two{
+    background-color: #00958f;
+}
+.content-section.two p {
+    color: white;
+}
+.content-section.three .info {
+    padding-top: 15px;
+}
+ .content-section.three .text-bottom {
+    padding-top: 80px;
+    text-align: center;
+    /*font-size: 28px;*/
+ }
+
+/*=====================================
+=            STATS SECTION            =
+=====================================*/
+
+.scroller-stats {
+    color: white;
+    background-color: #243444;
+    padding: 34px 0 53px;
+}
+.scroller-stats p.h2 {
+    color: #243444;
+    font-size: 23px;
+    font-weight: normal;
+}
+.scroller-stats p.h2.bold-text {
+    color: #243444;
+    font-size: 23px;
+    font-weight: bold;
+}
+.scroller-stats .count-one-text {
+    margin-left: 0px !important;
+    position: relative;
+    left: 20px;
+    top: 28px;
+}
+.scroller-stats #count-one {
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+.scroller-stats #count-one:after {
+    padding-left: 10px;
+    font-size: 117px;
+    font-weight: bold;
+}
+.scroller-stats #count-one.timer {
+    margin-left: -5px !important;
+}
+.scroller-stats .countOne-scroll .col-lg-2,
+.scroller-stats .countOne-scroll .col-md-2 {
+    padding: 0px;
+    width: 11%;
+}
+.scroller-stats .countOne-scroll .col-lg-3,
+.scroller-stats .countOne-scroll .col-md-3 {
+    padding-top: 40px;
+}
+.scroller-stats img.pill-bottle {
+    width: 65%;
+    padding-top: 30px;
+}
+.scroller-stats img.hand {
+    width: 78%;
+    padding-top: 30px;
+}
+.scroller-stats .countOne-stat {
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 44px;
+}
+.scroller-stats a {
+    color: #243444;
+    font-size: 23px;
+    text-decoration: none;
+}
+.scroller-stats #count-two {
+    font-size: 75px;
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+.scroller-stats #count-two:after {
+    padding-left: 10px;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+
+.scroller-stats .countTwo-scroll .counter-caption{
+    display: inline-block;
+    position: relative;
+}
+
+.scroller-stats #count-one {
+    /*font-size: 70px;*/
+    /*margin: 0px;*/
+}
+
+.scroller-stats .countOne-scroll .counter-caption{
+    /* font-size: 30px; */
+    /*font-weight: bold;*/
+    display: inline-block;
+    /* bottom: 35px; */
+    position: relative;
+    /* left: 6px; */
+}
+
+.countTwo-scroll .counter-two-circle {
+    background-image: url("http://www.merck.com/images/about/hiv_bg_stats.png");
+    background-repeat: no-repeat;
+    /*background-size: 230px;*/
+}
+
+.countOne-scroll .counter-one-circle {
+    /* position: relative;
+    left: 115px;
+    top: 15px; */
+    background-image: url("http://www.merck.com/images/about/hiv_bg_stats.png");
+    /* background-size: 140px; */
+    background-repeat: no-repeat;
+    /* background-position: 3px -1px; */
+    overflow: visible;
+    padding-top: 10px;
+    color: white;
+}
+/*===========================================
+=            DIVIDER SECTIONS               =
+===========================================*/
+
+.divider-one {
+    background-color: #6e0048;
+    height: 100%;
+    color: #178f8b;
+}
+.divider-one .container {
+    padding: 40px 0;
+}
+.divider-one p {
+    color: #ffffff;
+    font-size: 26px;
+}
+
+.divider-two {
+    background-color: #178f8b;
+    height: 100%;
+}
+.divider-two p {
+    /* font-size: 20px; */
+    color: white;
+    padding: 20px 50px;
+}
+
+/*=======================================
+=            NUMBER SCROLLER            =
+=======================================*/
+
+.number-scroller p {
+    font-size: 22px;
+}
+.number-scroller p.h2 {
+    color: #000;
+    font-weight: normal;
+}
+
+/* =====================================
+=            video section            =
+=====================================*/
+
+.video-box .img-responsive {
+    width: 100%;
+}
+.video-box-heading {
+    padding: 75px 0 0px;
+    border-bottom: 8px solid #890059;
+}
+.video-box .col-lg-12,
+.video-box .col-md-12 {
+    padding-right: 0px;
+}
+.video-box .col-lg-8,
+.vodeo-box .col-sm-8 {
+    padding-right: 0px;
+}
+.video-box {
+    background-color: #c5e7eb;
+    padding: 50px 0 50px 0;
+}
+.video-box .col-lg-4,
+.video-box .col-md-4,
+.video-box .col-sm-4 {
+    padding-right: 0px;
+    width: 33.2%;
+}
+.video-two-three .col-lg-6,
+.video-two-three .col-md-6,
+.video-two-three .col-sm-6 {
+    padding-bottom: 16px;
+    padding-right: 0px;
+    width: 50%;
+}
+.video-four-five .col-lg-6,
+.video-four-five .col-md-6,
+.video-four-five .col-sm-6 {
+    padding-right: 0px;
+}
+.video-box .video-title p {
+    /*color: #00958f;
+    font-size: 40px;*/
+    text-align: center;
+}
+.video-box .video-caption p{
+    color: #243444;
+    font-size: 22px;
+}
+
+
+body {
+    font-family: "UniversLTW01-47LightCn", "Arial Narrow", Arial, sans-serif;
+    font-size: 16px;
+}
+.border-bottom {
+    border-bottom: 1px solid #fff;
+}
+.border-left {
+    border-left: 1px solid #fff;
+}
+.uppercase {
+    text-decoration: uppercase;
+}
+.border-left {
+    border-left: 1px solid #ccc;
+}
+.spacing {
+    margin-bottom: 30px;
+}
+.spacing-10px {
+    margin: 10px 0;
+}
+.fa-search {
+    color: #fff;
+}
+.fa-twitter,
+.fa-facebook,
+.fa-envelope-o {
+    font-size: 1.5em;
+    margin-top: 28px;
+    position: relative;
+    left: 40px;
+}
+input[type=search] {
+    background: transparent url('http://www.merck.com/images/search-black.png') no-repeat 9px center;
+    border: none;
+    padding: 9px 28px 9px 32px;
+    width: 55px;
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    border-radius: 10em;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+input[type=search]:focus {
+    width: 130px;
+    background-color: #fff;
+    border-color: #6dcff6;
+    -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+    -moz-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+    box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+}
+/* placeholder */
+
+input:-moz-placeholder {
+    color: #999;
+}
+input::-webkit-input-placeholder {
+    color: #999;
+}
+.content-container {
+    padding: 25px 0;
+}
+.content-container h4 {
+    color: #71fadf;
+    font-size: 30px;
+}
+.content-container p {
+    color: #fff;
+}
+.footer-container {
+    background: #00877c;
+    padding: 15px 0;
+}
+footer ul li {
+    color: #fff;
+}
+footer ul li a {
+    color: #fff;
+}
+footer ul li a:hover {
+    color: #fff;
+}
+footer p {
+    color: #fff;
+}
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'feathericons';
+    src: url('../fonts/feathericons/feathericons3869.html?-8is7zf');
+    src: url('../fonts/feathericons/feathericonsd41d.html?#iefix-8is7zf') format('embedded-opentype'), url('../fonts/feathericons/feathericons3869-2.html?-8is7zf') format('woff'), url('../fonts/feathericons/feathericons3869-3.html?-8is7zf') format('truetype'), url('../fonts/feathericons/feathericons3869-4.html?-8is7zf#feathericons') format('svg');
+}
+/*======================================
+=            media quieries            =
+======================================*/
+
+@media (max-width: 990px) {
+    .divider-two p {
+        padding: 20px 0;
+    }
+    .content-section {
+        padding: 25px 0;
+    }
+    .scroller-stats #count-one {
+        font-size: 84px;
+    }
+
+    .scroller-stats #count-one {
+        font-size: 84px;
+        margin-left: -20px;
+    }
+    .scroller-stats #count-two {
+        font-size: 62px;
+        margin-bottom: -10px;
+        font-weight: bold;
+    }
+
+    .scroller-stats #count-one:after {
+        padding-left: 10px;
+        font-size: 84px;
+    }
+    .scroller-stats #count-two {
+        font-size: 48px;
+        margin-bottom: -10px;
+        font-weight: bold;
+    }
+    .scroller-stats #count-two:after {
+        /* padding-left: 10px; */
+        font-size: 48px;
+        font-weight: bold;
+    }
+    .countTwo-scroll {
+        margin-top: 13px;
+        position: relative;
+        right: 20px;
+    }
+}
+@media (max-width: 767px) {
+
+.rally-image{
+    max-width: 50%;
+}
+
+.links-image{
+    max-width: 80%;
+}
+.shareBtn {
+    width: 100%;
+}
+
+}
+    @media (max-device-width: 320px) {
+        .jumbotron {
+            padding: 0px;
+        }
+        .jumbotron .jumbo-inner {
+            position: absolute;
+            top: 100px;
+            visibility: hidden;
+        }
+        .hands-divider {
+            background: url('http://www.merck.com/images/about/bg_hands.jpg') no-repeat 0 0;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center;
+            height: 175px;
+        }
+    }
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+
+        .divider-two p {
+            font-size: 16px;
+        }
+        .countTwo-scroll {
+            margin-top: 0;
+            position: relative;
+            right: 0;
+            padding-right: 30px;
+        }
+        .countTwo-scroll .counter-two-circle {
+            width: 80px;
+            background-size: 75px auto;
+            padding-left: 0px;
+            padding-bottom: 10px;
+            margin-right: 0px;
+            background-position: 0px 0px;
+        }
+        .scroller-stats #count-two {
+            font-size: 30px;
+            font-weight: bold;
+            position: relative;
+            bottom: -8px;
+            margin-bottom: -10px;
+            margin-left: 21px;
+        }
+        .scroller-stats .countTwo-scroll .counter-caption {
+            font-size: 19px;
+            margin-left: 13px;
+            bottom: 7px;
+        }
+        .scroller-stats #count-one {
+            font-size: 50px;
+            position: relative;
+            right: -4px;
+            bottom: 5px;
+        }
+        .countOne-scroll .counter-one-circle {
+            background-size: 75px auto;
+            margin-right: -35px;
+        }
+        .scroller-stats .countOne-scroll .counter-caption {
+            font-size: 19px;
+            position: relative;
+            bottom: 45px;
+            left: -12px;
+        }
+        .scroller-stats {
+            font-size: 16px;
+        }
+        .jumbotron {
+            padding: 0px;
+        }
+
+        .video-box .video-text {
+            padding: 0 !important;
+        }
+        .video-box .video iframe {
+            width: 260px;
+            height: 195px;
+            margin-bottom: 20px;
+        }   
+        .shareBtn {
+            position: relative;
+            visibility: visible;
+            top: -110px;
+            right: 15px;
+        }
+        .jumbotron .jumbo-inner {
+            position: absolute;
+            top: 90px;
+            visibility: hidden;
+            width:100%;
+        }
+        .jumbotron .jumbo-inner h1 {
+            font-size: 15px;
+            color: #009994;
+            width: 67%;
+            line-height: 16px;
+            margin-bottom: 5px;
+            padding-left: 20px;
+		}
+        .jumbotron .jumbo-inner p {
+            font-size: 15px;
+            color: #FFF;
+            margin-bottom: 0px;
+            line-height: 8px;
+            padding-left: 20px;
+        }
+        .jumbotron .jumbo-inner sup {
+            font-size: 30px;
+            line-height: 0;
+            position: relative;
+            top: 15px;
+        }
+        .jumbotron .jumbo-inner .text-container {
+            width: 211px;
+        }
+        .row-sm {
+            height: 150px;
+        }
+        .content-section {
+            padding: 25px 0 25px;
+        }
+        .content-section p {
+            font-size: 16px;
+            padding: 0 15px;
+        }
+        .divider-one p {
+            color: #ffffff;
+            font-size: 16px;
+            padding: 0 15px 0 15px;
+        }
+        .divider-one div.container {
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .divider-one p.apoc-director {
+            color: #ffffff;
+            font-size: 18px;
+            padding: 0 67px;
+        }
+        .divider-one p.divider-one-quote {
+            color: #fffff;
+            font-size: 26px;
+        }
+        .scroller-stats img.pill-bottle {
+            width: 40%;
+            padding-top: 30px;
+        }
+        .scroller-stats #count-one {
+            position: relative;
+            font-size: 30px;
+            right: -9px;
+            bottom: 30px;
+        }
+        .scroller-stats .countOne-stat {
+            font-size: 35px;
+            font-weight: bold;
+            line-height: 35px;
+            position: relative;
+            bottom: 14px;
+
+        }
+        .scroller-stats img.hand {
+            width: 40%;
+            padding-top: 30px;
+        }
+        .scroller-stats p.h2 {
+            color: #243444;
+            font-size: 20px;
+            font-weight: normal;
+        }
+        .content-section p.lead {
+          margin-bottom: 20px;
+          font-size: 20px;
+          font-weight: 300;
+          line-height: 1.2;
+          color: #7d8590;
+        }
+        .content-section.three .info p {
+            padding-bottom: 15px;
+            max-width: 100%;
+            left: 0%;
+            position: relative;
+            text-align: center;
+        }
+        .content-section.three .lead {
+            position: relative;
+            height: initial;
+        }
+        .content-section.three p.lead.extrapad {
+            padding-top: initial;
+        }
+        .content-section.three .text-bottom {
+            padding-top: 10px;
+        }
+    }
+
+     /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+        .video-box .video-title p {
+            color: #00958F;
+            font-size: 25px;
+        }
+        .divider-two p {
+            font-size: 20px;
+        }
+        .scroller-stats .count-one-text {
+            top: 0px;
+        }
+        .countTwo-scroll {
+            padding-right: 30px;
+        }
+        .countTwo-scroll .counter-two-circle {
+            background-size: 110px auto;
+            float: right;
+            padding-top: 20px;
+            margin-right: -10px;
+            padding-left: 0px;
+            /* padding-bottom: 60px; */
+            background-position: 60px 0px;
+            width: 175px;
+            left: 30px;
+            position: relative;
+        }
+        .scroller-stats {
+            font-size: 20px;
+        }
+        .scroller-stats #count-two {
+            font-size: 50px;
+            margin-bottom: -10px;
+            font-weight: bold;
+            position: relative;
+            bottom: 15px;
+            margin-left: 88px;
+        }
+        .scroller-stats .countTwo-scroll .counter-caption {
+            font-size: 25px;
+            margin-left: 82px;
+            bottom: 35px;
+        }
+        .scroller-stats #count-one {
+            font-size: 50px;
+            position: relative;
+            right: -8px;
+            bottom: 5px;
+        }
+        .countOne-scroll .counter-one-circle {
+            background-size: 110px auto !important;
+            margin-right: -25px;
+            float: right;
+            padding-right: 35px;
+        }
+        .scroller-stats .countOne-scroll .counter-caption {
+            font-size: 25px;
+            position: relative;
+            bottom: 25px;
+            left: -5px;
+        }
+        .video-box .video iframe {
+            width: 420px;
+            height: 315px;
+        }
+        .jumbotron {
+            padding: 0px;
+        }
+        .st_sharethis_custom{
+            top: -125px;
+        }
+        .jumbotron .jumbo-inner {
+            position: absolute;
+            top: 100px;
+            visibility: hidden;
+        }
+        .jumbotron .jumbo-inner h1 {
+            font-size: 25px;
+            color: #009994;
+            width: 60%;
+            line-height: 25px;
+        }
+        .jumbotron .jumbo-inner .text-container {
+            width: 319px;
+        }
+        .shareBtn {
+            position: relative;
+            top: -86px;
+            right: 15px;
+        }
+        .row-sm {
+            height: 205px;
+        }
+        .content-section p {
+            font-size: 18px;
+            padding: 0 15px;
+        }
+        .divider-one p {
+            color: #ffffff;
+            font-size: 20px;
+            padding: 0 20px;
+        }
+        .scroller-stats img.pill-bottle {
+            width: 33%;
+            padding-top: 30px;
+        }
+        .scroller-stats img.hand {
+            width: 40%;
+            padding-top: 30px;
+        }
+        .scroller-stats .countOne-stat {
+            font-size: 35px;
+            font-weight: bold;
+            line-height: 35px;
+            position: relative;
+            bottom: 14px;
+            left: 31px;
+        }
+        .scroller-stats p.h2 {
+            color: #243444;
+            font-size: 20px;
+            font-weight: normal;
+            padding: 0 20px;
+        }
+        .content-section.three .lead {
+            position: relative;
+        }
+        .content-section.three .info p {
+            padding-bottom: 15px;
+            /* max-width: 80%;
+            left: 10%; */
+            position: relative;
+            text-align: center;
+        }
+        .content-section.three .text-bottom {
+            padding-top: 10px;
+        }
+    }
+
+     /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        .video-box .video-text {
+            /*padding: 80px 30px !important;*/
+        }
+        .video-box .video iframe {
+            width: 600px;
+            height: 451px;
+        }
+        .video-box .video-title p {
+            color: #00958F;
+            font-size: 40px;
+        }
+        .divider-two p {
+            font-size: 24px;
+        }
+        .countTwo-scroll {
+            padding-right: 0px;
+        }
+        .countTwo-scroll .counter-two-circle {
+            margin-right: -40px;
+            padding-bottom: 60px;
+            padding-top: 0px;
+            background-position: 0px 20px;
+            background-size: 140px auto;
+            padding-left: 0px;
+            width: 265px;
+            float: initial;
+        }
+        .countOne-scroll .counter-one-circle {
+            background-size: 110px auto !important;
+            margin-right: -25px;
+            float: initial;
+            padding-right: inherit;
+        }
+        .scroller-stats {
+            font-size: 22px;
+        }
+        .scroller-stats .countTwo-scroll .counter-caption{
+            font-size: 30px;
+            bottom: -10px;
+            position: relative;
+            margin-left: 30px;
+        }
+        .countOne-scroll .counter-one-circle {
+            background-size: 140px auto !important;
+            background-position: 0px 20px;
+            padding-top: 10px;
+            min-height: 160px;
+            width: 175px;
+        }
+        .scroller-stats .count-one-text {
+            top: 28px;
+        }
+        .scroller-stats .countOne-scroll .counter-caption {
+            font-size: 30px;
+            position: relative;
+            bottom: 29px;
+            left: 5px;
+        }
+        .jumbotron {
+            padding-top: 0px;
+        }
+        .shareBtn {
+            position: relative;
+            top: -150px;
+            right: -222px;
+        }
+        .jumbotron .jumbo-inner {
+            position: absolute;
+            top: 110px;
+            visibility: hidden;
+            width: 498px;
+        }
+        .jumbotron .jumbo-inner h1 {
+            font-size: 40px;
+            color: #009994;
+            width: 59%;
+            line-height: 48px;
+        }
+        .jumbotron .jumbo-inner p {
+            font-size: 35px;
+            color: #ffffff;
+            margin-bottom: 0px;
+            line-height: 35px;
+        }
+        .jumbotron .jumbo-inner sup {
+            font-size: 40px;
+            line-height: 0;
+            position: relative;
+            top: 25px;
+        }
+        .jumbotron .jumbo-inner .text-container {
+            width: 498px;
+        }
+        .scroller-stats #count-two {
+            font-size: 60px;
+            font-weight: bold;
+            text-align: left;
+            position: relative;
+            margin-left: 36px;
+            bottom: -33px;
+        }
+        .scroller-stats .communities {
+            font-size: 29px;
+            position: relative;
+            bottom: 14px;
+            font-weight: bold;
+        }
+        .scroller-stats img.pill-bottle {
+            width: 70%;
+            padding-top: 30px;
+        }
+        .scroller-stats #count-one {
+            font-size: 60px !important;
+            left: 10px;
+        }
+        .scroller-stats span.countOne-stat {
+            font-size: 35px;
+            font-weight: bold;
+            line-height: 33px;
+            position: relative;
+            bottom: 11px;
+            right: 20px;
+            left: -10px;
+        }
+        .scroller-stats .countOne-scroll .col-lg-2, .scroller-stats .countOne-scroll .col-md-2 {
+            padding: 0px;
+            /* width: 11%; */
+            margin-left: 0px;
+        }
+        .scroller-stats img.hand {
+            width: 81%;
+            padding-top: 30px;
+        }
+        .scroller-stats .communities {
+            font-size: 29px;
+            position: relative;
+            bottom: 3px;
+            font-weight: bold;
+        }
+        .scroller-stats p.h2 {
+            color: #243444;
+            font-size: 23px;
+            font-weight: normal;
+        }
+        .content-section p.lead {
+            margin-bottom: 20px;
+            font-size: 30px;
+            font-weight: 300;
+            line-height: 1.4;
+            color: #7d8590;
+            text-transform: uppercase;
+        }
+        .content-section.three .info p {
+            padding-bottom: 15px;
+            max-width: 450px;
+            left: 16.5%;
+            position: relative;
+            text-align: center;
+        }
+        .content-section.three .lead {
+            position: relative;
+        }
+        .content-section.three .text-bottom {
+            font-size: 20px;
+            padding-top: 80px;
+        }
+    }
+
+     /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+        .video-box .video iframe {
+            width: 720px;
+            height: 540px;
+        }
+        .divider-two p {
+            font-size: 24px;
+        }
+        .countTwo-scroll {
+            padding-right: 0px;
+        }
+        .countTwo-scroll .counter-two-circle {
+            margin-right: -20px;
+            padding-left: 0px;
+            background-position: 0px 0px;
+            background-size: 180px auto;
+            /*width: 318.33px;*/
+        }
+        .scroller-stats .countTwo-scroll .counter-caption {
+            font-size: 33px;
+            bottom: 10px;
+            position: relative;
+            margin-left: 45px;
+        }
+        .scroller-stats #count-two {
+            font-size: 70px;
+            margin-bottom: -10px;
+            font-weight: bold;
+            margin-left: 51px;
+            top: 20px;
+        }
+        .scroller-stats .count-one-text {
+            margin-left: 0px !important;
+            position: relative;
+            left: 20px;
+            top: 28px;
+        }
+        .countOne-scroll .counter-one-circle {
+            background-size: 180px auto !important;
+            background-position: 0px 0px;
+            padding-top: 0px;
+            min-height: 180px;
+            width: 230px;
+        }
+        .scroller-stats .countOne-scroll .counter-caption {
+            font-size: 33px;
+            bottom: 30px;
+            left: 20px;
+        }
+        .shareBtn {
+            position: relative;
+            right: -265px;
+            top: -195px;
+        }
+        .video-box .video-text {
+            padding: 0px 0 5px !important;
+            text-align: center;
+        }
+        .jumbotron .jumbo-inner {
+            top: 165px;
+            width: 677px;
+        }
+        .jumbotron .jumbo-inner .text-container {
+            width: 677px;
+        }
+        .jumbotron .jumbo-inner h1 {
+            font-size: 55px;
+            color: #009994;
+            width: 59%;
+            line-height: 58px;
+        }
+        .jumbotron {
+            padding-top: 105px;
+        }
+        .jumbotron .jumbo-inner p {
+            font-size: 40px;
+            color: #ffffff;
+            margin-bottom: 0px;
+            line-height: 40px;
+        }
+        .jumbotron .jumbo-inner sup {
+            font-size: 40px;
+            line-height: 0;
+            position: relative;
+            top: 25px;
+        }
+        .row-sm {
+            height: 230px;
+        }
+        .content-section p {
+            font-size: 20px;
+            padding: 0 15px;
+        }
+        .scroller-stats span.countOne-stat {
+            font-size: 45px;
+            font-weight: bold;
+            line-height: 40px;
+            position: relative;
+            bottom: 2px;
+            right: 20px;
+        }
+        .scroller-stats #count-one {
+            font-size: 104px;
+        }
+
+        .content-section.three .info p {
+            padding-bottom: 0px;
+            position: initial;
+            max-width: 100%;
+            left: 0%;
+        }
+        .content-section.three .lead {
+            position: relative;
+            height: 152px;
+            font-size: 28px;
+        }
+        .content-section.three p.lead.extrapad {
+            padding-top: 79px;
+        }
+        .content-section.three .text-bottom {
+            font-size: 21px;
+            padding-top: 80px;
+        }
+    }
+
+     /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+        
+        .countTwo-scroll .counter-two-circle {   
+            background-position: 0px 0px;
+            padding: 0px 50px 86px 27px;
+            background-size: 180px auto;
+            float: initial;
+            width: 385px;
+        }
+        .countOne-scroll .counter-one-circle .count-one-text {
+            top: 15px;
+        }
+        .countOne-scroll .counter-one-circle {
+            background-size: 180px auto !important;
+            background-position: 3px -1px;
+            padding-top: 10px;
+            min-height: 180px;
+            width: 280px;
+        }
+        .scroller-stats .countOne-scroll .counter-caption {
+            font-size: 35px;
+            bottom: 25px;
+            left: 17px;
+        }
+        .scroller-stats .countTwo-scroll .counter-caption {
+            font-size: 35px;
+            bottom: 10px;
+            margin-left: 18px;
+        }
+        div.countOne-scroll, div.countTwo-scroll {
+            padding-top: 25px;
+        }
+        .shareBtn {
+            position: relative;
+            right: -464px;
+            top: -229px;
+        }
+        .jumbotron .jumbo-inner h1 {
+            /*font-size: 85px;*/
+            color: #009994;
+            width: 59%;
+            line-height: 70px;
+        }
+        .jumbotron .jumbo-inner p {
+            font-size: 50px;
+            color: #ffffff;
+            margin-bottom: 0px;
+            line-height: 49px;
+        }
+        .jumbotron .jumbo-inner sup {
+            font-size: 50px;
+            line-height: 0;
+            position: relative;
+            top: 30px;
+        }
+        .scroller-stats #count-one {
+            font-size: 128px;
+            position: relative;
+            bottom: 5px;
+        }
+        .scroller-stats span.countOne-stat {
+            font-size: 57px;
+            font-weight: bold;
+            line-height: 48px;
+            position: relative;
+            bottom: 2px;
+            right: 20px;
+        }
+        .scroller-stats #count-two {
+            font-size: 70px;
+            margin-bottom: -10px;
+            font-weight: bold;
+            margin-left: 25px;
+        }
+        .divider-one p {
+            color: #ffffff;
+            font-size: 35px;
+            padding: 0 20px;
+        }
+        .divider-two p {
+            font-size: 35px;
+        }
+        .content-section p {
+            font-size: 25px;
+            padding: 0 15px;
+        }
+        .content-section.three .lead {
+            position: relative;
+            height: 126px;
+            font-size: 30px;
+        }
+        .content-section.three p.lead.extrapad {
+            padding-top: 42px;
+        }
+        .content-section.three .text-bottom {
+            font-size: 26px;
+            padding-top: 80px;
+        }
+    }
+
+
+
+.st_sharethis_custom {
+    max-width: 134px;
+    height: auto;
+    float: right;
+}

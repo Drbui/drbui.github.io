@@ -1,0 +1,926 @@
+        /* ==========================================================================
+   PAGE GLOBALS
+   ========================================================================== */
+    
+    .shareBtn {
+        cursor: pointer;
+        position: absolute;
+        right: 18%;
+        z-index: 99;
+        top: 25px;
+    }
+
+    /* HERO SECTION
+   ========================================================================== */
+    
+    .diabetes-challenge .hero-section {
+        background-image: url("http://www.merck.com/images/about/diabetes-challenge/d_bg_hero.jpg");
+        background-size: cover;
+        background-position: right center;
+        margin-top: 105px;
+        height: 470px;
+    }
+    .diabetes-challenge .hero-section .img-container {
+        margin-top: 20px;
+    }
+    .diabetes-challenge .hero-section .img-container img {
+        max-width: 50%;
+    }
+
+
+    /* DIVIDER SECTION
+    ========================================================================== */
+    
+    .diabetes-challenge .divider {
+        background-color: #243444;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .diabetes-challenge .divider p {
+        color: #ffffff;
+        text-align: center;
+        font-size: 26px;
+    }
+    .diabetes-challenge .divider .blue {
+        color: #65ccdc;
+    }
+  
+
+    /* CONTENT SECTION
+    ========================================================================== */
+    
+
+    .diabetes-challenge .content {
+        background-color: #ffffff;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    
+    .diabetes-challenge .content p {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .diabetes-challenge .content .row.top {
+        text-align: center;
+    }
+
+    .diabetes-challenge .content .img-container {
+        border-radius: 50%;
+        background-color: #009994;
+        padding: 10%;
+        width: 262px;
+        height: 262px;
+    }
+
+    .diabetes-challenge .content .img-container img {
+        width: 63px;
+        position: absolute;
+        top: 22%;
+        left: 18%;
+    }
+
+    .diabetes-challenge .content .img-container p {
+        font-size: 20px;
+        color: #ffffff;
+        float: right;
+        width: 60%;
+        margin-top: 10%;
+    }
+
+    .diabetes-challenge .content .img-container .yellow {
+        font-weight: bold;
+        color: #edd60d;
+    }
+
+
+    /* KNOW SECTION
+    ========================================================================== */
+
+        .diabetes-challenge .know {
+            background-color: #6bcad4;
+            padding-top: 20px;
+            padding-bottom: 50px;
+        }
+
+        .diabetes-challenge .know h2 {
+            color: #ffffff;
+            text-align: center;
+            font-size: 35px;
+        }
+
+        .diabetes-challenge .know p {
+            color: #ffffff;
+            text-align: center;
+            font-weight: bold;
+            font-size: 28px;
+        }
+
+        .diabetes-challenge .know p.nearly {
+            color: #ffffff;
+            position: absolute;
+            font-size: 30px;
+            width: 95%;
+            top: 36%;
+        }
+
+        .diabetes-challenge .know p.million {
+            color: #ffffff;
+            position: absolute;
+            font-size: 50px;
+            width: 95%;
+            top: 46%;
+        }
+
+        .diabetes-challenge .know .percent p {
+            color: #ffffff;
+            position: absolute;
+            font-size: 42px;
+            width: 101%;
+            top: 85px;
+            font-weight: bold;
+        }
+        .diabetes-challenge .know .percent img {
+            width: 225px;
+        }
+        .diabetes-challenge .know .usa img {
+            width: 339px;
+            margin-top: -30px;
+            padding-bottom: 15px;
+        }
+
+        .diabetes-challenge .know .img-container {
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+
+
+    /* RALLYING SECTION
+    ========================================================================== */
+
+        .diabetes-challenge .rallying {
+            background-color: #ffffff;
+            padding-top: 75px;
+            padding-bottom: 50px;
+        }
+
+        .diabetes-challenge .rallying h1 {
+            text-align: center;
+            color: #6176a3;
+            font-size: 35px;
+            margin-bottom: 75px;
+        }
+
+        .diabetes-challenge .rallying .celebs h1 {
+            font-size: 20px;
+            padding: 5px;
+            margin-bottom: 20px;
+        }
+
+        .diabetes-challenge .rallying p {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+
+
+    /* VIDEO SECTION
+    ========================================================================== */
+
+        .diabetes-challenge .video {
+            background-color: #009894;
+            padding-top: 65px;
+            padding-bottom: 65px;
+        }
+
+
+
+    /* SHINING SECTION
+    ========================================================================== */
+
+        .diabetes-challenge .shining {
+            background-color: #ffffff;
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+
+        .diabetes-challenge .shining h1 {
+            text-align: center;
+            color: #6176a3;
+            font-size: 35px;
+            margin-bottom: 75px;
+        }
+
+        .diabetes-challenge .shining p {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 40px;
+        }
+
+        .diabetes-challenge .shining .right .img-container {
+            margin-top: -33px;
+            padding: 0 70px;
+        }
+
+        .diabetes-challenge .shining .third-adults {
+            padding: 0 45px;
+            margin-top: -10px;
+            margin-bottom: -10px;
+        }
+
+        .diabetes-challenge .shining .third-adults p {
+            text-align: left;
+            margin-top: 9%;
+        }
+
+
+    /* SHARE-STORY SECTION
+    ========================================================================== */
+
+        .diabetes-challenge .share-story {
+            background-color: #243444;
+            padding-top: 50px;
+            padding-bottom: 28px;
+        }
+        .diabetes-challenge .share-story h2 {
+            text-align: center;
+            color: #6ac9d3;
+            font-size: 35px;
+            margin-bottom: 30px;
+        }
+        .diabetes-challenge .share-story p {
+            text-align: center;
+            color: #ffffff;
+            font-size: 26px;
+        }
+        .diabetes-challenge .share-story .hand4 {
+            width: 125px;
+            bottom: -30px;
+            z-index: 20;
+            position: relative;
+        }
+        .diabetes-challenge .share-story .hand3 {
+            width: 105px;
+            bottom: -30px;
+            z-index: 19;
+            position: absolute;
+            left: 26%;
+        }
+        .diabetes-challenge .share-story .hand5 {
+            width: 105px;
+            bottom: -30px;
+            z-index: 19;
+            position: absolute;
+            right: 31%;
+        }
+        .diabetes-challenge .share-story .hand2 {
+            width: 80px;
+            bottom: -30px;
+            z-index: 18;
+            position: absolute;
+            left: 23%;
+        }
+
+        .diabetes-challenge .share-story .hand6 {
+            width: 85px;
+            bottom: -30px;
+            z-index: 18;
+            position: absolute;
+            right: 27.5%;
+        }
+        .diabetes-challenge .share-story .hand1 {
+            width: 80px;
+            bottom: -30px;
+            z-index: 17;
+            position: absolute;
+            left: 13%;
+        }
+
+        .diabetes-challenge .share-story .hand7 {
+            width: 80px;
+            bottom: -30px;
+            z-index: 17;
+            position: absolute;
+            right: 17%;
+        }
+
+
+
+    /* RELATED-NEWS SECTION
+    ========================================================================== */
+
+        .diabetes-challenge .related-news {
+            background-color: #ffffff;
+            position: relative;
+            z-index: 21;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .diabetes-challenge .related-news h1 {
+            text-align: center;
+            color: #6176a3;
+            font-size: 35px;
+            margin-bottom: 75px;
+        }
+
+        .diabetes-challenge .related-news p {
+            font-size: 24px;
+        }
+
+        .diabetes-challenge .related-news .centering-margin {
+            margin-top: 60px;
+        }
+
+        .diabetes-challenge .related-news .centering-margin.fb-text {
+            padding-top: 10px;
+        }
+
+    /* 	LARGE DEVICES, WIDE SCREENS
+	========================================================================== */
+    @media only screen and (max-width: 1199px) {
+        .diabetes-challenge .hero-section {
+            height: 355px;
+        }
+        .shareBtn {
+            right: 5%;
+        }
+        .diabetes-challenge .divider p {
+            font-size: 24px;
+        }
+        .diabetes-challenge .content p {
+            font-size: 22px;
+        }
+        .diabetes-challenge .content .img-container {
+            width: 212.5px;
+            height: 212.5px;
+        }
+        .diabetes-challenge .content .img-container img {
+            width: 50px;
+            top: 23%;
+            left: 16%;
+        }
+        .diabetes-challenge .content .img-container p {
+            font-size: 18px;
+            width: 65%;
+        }
+        .diabetes-challenge .know h2 {
+            font-size: 32px;
+            margin-bottom: 45px;
+        }
+        .diabetes-challenge .know p {
+            font-size: 25px;
+        }
+        .diabetes-challenge .know p.nearly {
+            font-size: 24px;
+            width: 93%;
+        }
+        .diabetes-challenge .know p.million {
+            font-size: 40px;
+            width: 93%;
+        }
+        .diabetes-challenge .know .usa img {
+            width: 285px;
+            margin-top: -38px;
+        }
+        .diabetes-challenge .know .percent img {
+            width: 180px;
+        }
+        .diabetes-challenge .know .percent p {
+            font-size: 35px;
+            top: 69px;
+        }
+        .diabetes-challenge .rallying {
+            padding-top: 55px;
+            padding-bottom: 30px;
+        }
+        .diabetes-challenge .rallying h1 {
+            font-size: 30px;
+            margin-bottom: 50px;
+        }
+        .diabetes-challenge .rallying .celebs h1 {
+            font-size: 18px;
+        }
+        .diabetes-challenge .rallying p {
+            font-size: 22px;
+        }
+        .diabetes-challenge .video {
+            padding-top: 45px;
+            padding-bottom: 45px;
+        }
+        .diabetes-challenge .shining {
+            padding-top: 50px;
+        }
+        .diabetes-challenge .shining h1 {
+            font-size: 30px;
+        }
+        .diabetes-challenge .shining p {
+            margin-top: 35px;
+            font-size: 22px;
+        }
+        .diabetes-challenge .shining .right .img-container {
+            margin-top: -38px;
+        }
+        .diabetes-challenge .share-story h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .diabetes-challenge .share-story p {
+            font-size: 24px;
+        }
+        .diabetes-challenge .share-story .hand5 {
+            right: 27%;
+        }
+        .diabetes-challenge .share-story .hand6 {
+            right: 23.5%;
+        }
+        .diabetes-challenge .share-story .hand7 {
+            right: 11%;
+        }
+        .diabetes-challenge .share-story .hand3 {
+            left: 21%;
+        }
+        .diabetes-challenge .share-story .hand2 {
+            left: 19%;
+        }
+        .diabetes-challenge .share-story .hand1 {
+            left: 8%;
+        }
+        .diabetes-challenge .related-news h1 {
+            font-size: 30px;
+        }
+        .diabetes-challenge .related-news .centering-margin {
+            margin-top: 41px;
+        }
+        .diabetes-challenge .related-news .centering-margin.fb-logo {
+            padding-top: 5px;
+        }
+        .diabetes-challenge .related-news .centering-margin.fb-text {
+            padding-top: 0px;
+        }
+    }
+    /*  MEDIUM DEVICES, DESKTOPS
+	========================================================================== */
+    
+    @media only screen and (max-width: 991px) {
+        .shareBtn {
+            top: 80px;
+        }
+        .diabetes-challenge .hero-section {
+            margin-top: 0px;
+            height: 260px;
+        }
+        .diabetes-challenge .divider {
+            padding-top: 40px;
+            padding-bottom: 30px;
+        }
+        .diabetes-challenge .divider p {
+            font-size: 21px;
+        }
+        .diabetes-challenge .content {
+            padding-top: 45px;
+        }
+        .diabetes-challenge .content p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .diabetes-challenge .content .img-container {
+            width: 157.5px;
+            height: 157.5px;
+        }
+        .diabetes-challenge .content .img-container img {
+            width: 35px;
+            top: 15%;
+        }
+        .diabetes-challenge .content .img-container p {
+            font-size: 15px;
+            width: 67%;
+            line-height: 1em;
+            margin-top: 1%;
+        }
+        .diabetes-challenge .content .img-container img {
+            width: 35px;
+            top: 24%;
+            left: 16%;
+        }
+        .diabetes-challenge .know {
+            padding-bottom: 30px;
+        }
+        .diabetes-challenge .know p.nearly {
+            width: 89%;
+        }
+        .diabetes-challenge .know p.million {
+            width: 91%;
+        }
+        .diabetes-challenge .know h2 {
+            font-size: 29px;
+        }
+        .diabetes-challenge .know p {
+            font-size: 23px;
+        }
+        .diabetes-challenge .rallying h1 {
+            font-size: 27px;
+        }
+        .diabetes-challenge .rallying .celebs h1 {
+            font-size: 15px;
+        }
+        .diabetes-challenge .rallying p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .diabetes-challenge .shining h1 {
+            font-size: 27px;
+            margin-bottom: 55px;
+        }
+        .diabetes-challenge .shining p {
+            margin-top: 35px;
+            font-size: 18px;
+        }
+        .diabetes-challenge .shining .third-adults p {
+            margin-top: 5%;
+        }
+        .diabetes-challenge .shining .third-adults {
+            padding: 0 35px;
+            margin-top: -5px;
+            margin-bottom: -9px;
+        }
+        .diabetes-challenge .shining .right .img-container {
+            margin-top: -30px;
+        }
+        .diabetes-challenge .share-story h2 {
+            font-size: 29px;
+        }
+        .diabetes-challenge .share-story p {
+            font-size: 21px;
+        }
+        .diabetes-challenge .share-story .hand4 {
+            width: 110px;
+        }
+        .diabetes-challenge .share-story .hand5 {
+            width: 91px;
+            right: 25%;
+        }
+        .diabetes-challenge .share-story .hand6 {
+            width: 72px;
+            right: 22%;
+        }
+        .diabetes-challenge .share-story .hand7 {
+            width: 75px;
+            right: 7%;
+        }
+        .diabetes-challenge .share-story .hand3 {
+            width: 88px;
+            left: 18%;
+        }
+        .diabetes-challenge .share-story .hand2 {
+            width: 67px;
+            left: 14%;
+        }
+        .diabetes-challenge .share-story .hand1 {
+            width: 65px;
+            left: 2%;
+        }
+        .diabetes-challenge .related-news p {
+            font-size: 18px;
+        }
+        .diabetes-challenge .related-news .centering-margin {
+            margin-top: 28px;
+        }
+        .diabetes-challenge .related-news h1 {
+            margin-bottom: 30px;
+            font-size: 27px;
+        }
+
+    }   
+
+        /*  SMALL DEVICES, TABLETS
+	========================================================================== */
+        @media only screen and (max-width: 767px) {
+            .diabetes-challenge .hero-section {
+                height: 227px;
+            }
+            .shareBtn {
+                width: 90px;
+                top: 80px;
+            }
+            .diabetes-challenge .divider {
+                padding-top: 25px;
+                padding-bottom: 20px;
+            }
+            .diabetes-challenge .divider p {
+                font-size: 18px;
+            }
+            .diabetes-challenge .content {
+                padding-top: 30px;
+            }
+            .diabetes-challenge .content p {
+                font-size: 17px;
+                text-align: center;
+            }
+            .diabetes-challenge .content .img-container {
+                margin: 15px auto 20px;
+                width: 200px;
+                height: 200px;
+                padding: 25px;
+                position: relative;
+            }
+            .diabetes-challenge .content .img-container img {
+                width: 48px;
+                top: 45px;
+                left: 27px;
+            }
+            .diabetes-challenge .content .img-container p {
+                font-size: 17px;
+                text-align: left;
+                width: 90px;
+                line-height: 1em;
+                margin-top: 7px;
+                margin-right: 0px;
+            }
+            .diabetes-challenge .know .percent img {
+                width: 135px;
+            }
+            .diabetes-challenge .know .usa img {
+                margin-top: -30px;
+                width: 210px;
+            }
+            .diabetes-challenge .know h2 {
+                font-size: 26px;
+            }
+            .diabetes-challenge .know p {
+                font-size: 18px;
+            }
+            .diabetes-challenge .know .percent p {
+                font-size: 25px;
+                top: 51px;
+            }
+            .diabetes-challenge .know p.million {
+                font-size: 28px;
+                top: 47%;
+            }
+            .diabetes-challenge .know p.nearly {
+                font-size: 19px;
+            }
+            .diabetes-challenge .rallying {
+                padding-top: 35px;
+                padding-bottom: 25px;
+            }
+            .diabetes-challenge .rallying h1 {
+                font-size: 22px;
+            }
+            .diabetes-challenge .rallying p {
+                font-size: 17px;
+            }
+            .diabetes-challenge .rallying h1 {
+                margin-bottom: 25px;
+            }
+            .diabetes-challenge .video {
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+            .diabetes-challenge .shining h1 {
+                font-size: 22px;
+                margin-bottom: 30px;
+            }
+            .diabetes-challenge .shining {
+                padding-top: 35px;
+                padding-bottom: 10px;
+            }
+            .diabetes-challenge .shining p {
+                margin-top: 30px;
+                font-size: 17px;
+                margin-bottom: 30px;
+            }
+            .diabetes-challenge .shining .third-adults p {
+                margin-top: 10%;
+            }
+            .diabetes-challenge .shining .right .img-container {
+                margin-top: 0px;
+            }
+            .diabetes-challenge .share-story {
+                padding-top: 15px;
+                padding-bottom: 20px;
+            }
+            .diabetes-challenge .share-story h2 {
+                font-size: 24px;
+            }
+            .diabetes-challenge .share-story p {
+                font-size: 17px;
+            }
+            .diabetes-challenge .share-story .hands-container {
+                width: 171px;
+                height: 138px;
+                float: right;
+                position: relative;
+            }
+            .diabetes-challenge .share-story .content-container {
+                width: 250px;
+                float: left;
+            }
+            .diabetes-challenge .share-story .hand4 {
+                bottom: -90px;
+                width: 65px;
+            }
+            .diabetes-challenge .share-story .hand3 {
+                bottom: -90px;
+                width: 55px;
+                left: 20%;
+            }
+            .diabetes-challenge .share-story .hand2 {
+                bottom: -90px;
+                width: 42px;
+                left: 17%;
+            }
+            .diabetes-challenge .share-story .hand1 {
+                bottom: -90px;
+                width: 42px;
+                left: 5%;
+            }
+            .diabetes-challenge .share-story .hand5 {
+                width: 55px;
+                right: 26%;
+                bottom: -90px;
+            }
+            .diabetes-challenge .share-story .hand6 {
+                width: 47px;
+                right: 20%;
+                bottom: -90px;
+            }
+            .diabetes-challenge .share-story .hand7 {
+                width: 43px;
+                right: 7%;
+                bottom: -90px;
+            }
+            .diabetes-challenge .related-news {
+                padding-bottom: 60px;
+            }
+            .diabetes-challenge .related-news h1 {
+                margin-bottom: 20px;
+                font-size: 24px;
+            }
+            .diabetes-challenge .related-news p {
+                font-size: 17px;
+            }
+            .diabetes-challenge .related-news .share .img-container {
+                width: 100px;
+                float: right;
+            }
+            .diabetes-challenge .related-news .fb .img-container {
+                width: 100px;
+                float: right;
+            }
+            .diabetes-challenge .related-news .centering-margin {
+                margin-top: 0px;
+            }
+            .diabetes-challenge .related-news .share p {
+                margin-top: 38px;
+                width: 270px;
+                float: left;
+            }
+            .diabetes-challenge .related-news .fb{
+                margin-top: 15px;
+            }
+            .diabetes-challenge .related-news .centering-margin.fb-text {
+                padding-top: 12px;
+                width: 270px;
+                float: left;
+            }
+
+        }
+        @media only screen and (max-width: 600px) {
+            .diabetes-challenge .hero-section {
+                height: 177px;
+            }
+        }
+        /* EXTRA SMALL DEVICES, PHONES
+	========================================================================== */
+        @media only screen and (max-width: 479px) {
+            .diabetes-challenge .xxs-12 {
+                width: 100%;
+            }
+            .diabetes-challenge .xxs-hidden {
+                display: none;
+            }
+            .diabetes-challenge .hero-section {
+                height: 142px;
+            }
+            .shareBtn {
+                width: 75px;
+                top: 45px;
+                right: 16%;
+            }
+            .diabetes-challenge .hero-section .img-container {
+                margin-top: 13px;
+            }
+            .diabetes-challenge .divider p {
+                font-size: 16px;
+            }
+            .diabetes-challenge .content p {
+                font-size: 15px;
+            }
+            .diabetes-challenge .content .img-container {
+                margin: 5px auto 15px;
+                width: 180px;
+                height: 180px;
+                padding: 20px;
+            }
+            .diabetes-challenge .content .img-container img {
+                width: 38px;
+                top: 47px;
+                left: 25px;
+            }
+            .diabetes-challenge .content .img-container p {
+                font-size: 15px;
+                width: 95px;
+                margin-top: 18px;
+                margin-right: -5px;
+            }
+            .diabetes-challenge .know h2 {
+                font-size: 22px;
+            }
+            .diabetes-challenge .know p {
+                font-size: 17px;
+            }
+            .diabetes-challenge .know .usa img {
+                margin-top: -45px;
+                width: 195px;
+            }
+            .diabetes-challenge .know p.million {
+                width: 94%;
+                top: 44%;
+            }
+            .diabetes-challenge .know p.nearly {
+                width: 94%;
+                top: 34%;
+            }
+            .diabetes-challenge .know .img-container {
+                margin-top: 15px;
+            }
+            .diabetes-challenge .rallying h1 {
+                font-size: 20px;
+                margin-bottom: 15px;
+            }
+            .diabetes-challenge .rallying p {
+                font-size: 15px;
+            }
+            .diabetes-challenge .shining .third-adults p {
+                margin-top: 7%;
+            }
+            .diabetes-challenge .shining p {
+                margin-top: 10px;
+                font-size: 15px;
+            }
+            .diabetes-challenge .shining h1 {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+            .diabetes-challenge .shining .right .img-container {
+                padding: 0 40px;
+                margin-bottom: 25px;
+            }
+            .diabetes-challenge .share-story .content-container {
+                width: 100%;
+            }
+            .diabetes-challenge .share-story h2 {
+                font-size: 22px;
+                margin-bottom: 15px;
+            }
+            .diabetes-challenge .share-story p {
+                font-size: 16px;
+            }
+            .diabetes-challenge .related-news h1 {
+                font-size: 20px;
+            }
+            .diabetes-challenge .related-news p {
+                font-size: 15px;
+            }
+            .diabetes-challenge .related-news .share p {
+                margin-top: 22px;
+                width: 163px;
+                float: left;
+            }
+            .diabetes-challenge .related-news .share .img-container {
+                width: 66px;
+            }
+            .diabetes-challenge .related-news .fb .img-container {
+                width: 66px;
+            }
+            .diabetes-challenge .related-news .centering-margin.fb-text {
+                padding-top: 8px;
+                width: 178px;
+            }
+        }
+        @media only screen and (max-width: 370px) {
+            .diabetes-challenge .hero-section {
+                height: 120px;
+            }
+            .shareBtn {
+                right: 12%;
+            }
+
+            .diabetes-challenge .hero-section .img-container img {
+                max-width: 55%;
+            }
+        }

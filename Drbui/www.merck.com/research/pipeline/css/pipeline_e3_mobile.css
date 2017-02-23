@@ -1,0 +1,322 @@
+/*  _______________________________________________
+
+    PIPELINE
+    _______________________________________________  */
+ body{
+ 	background-color: rgb(235, 230, 199);
+ 	
+
+ }
+
+ .current{
+ 	font-size: 15px !important;
+ 	padding-bottom: 12px !important;
+ }
+
+
+#page-wrap { width: 100%; padding: 0; margin: 0 auto; height: 100%; }
+.info-col {  width: 100% !important; height: 100%; position:relative;/*padding: 50px 0px 0px 0px;*/ }
+.info-col h2 { text-align: center; font-weight: normal; padding: 25px 0; }
+
+.image { height: 70px; text-indent: -9999px; display: block; border-right: 0px solid white; }
+
+.phaseI { background: #8ad3da url(../images/phase2-header-transparent.png)  no-repeat; }
+.phaseII { background: #91a33d url(../images/phase3-header-transparent.png)  no-repeat; }
+.underreview { background: #f8902f url(../images/underreview-header-transparent.png)  no-repeat; }
+
+dl{ margin:0px;}
+dt { font-size: 12px; padding: 5px 5px 5px 15px;  background: #faf2ea; color: #455660; /*border-bottom: 1px solid #f8902f;*/ border-right:  1px solid #cacbcd; border-left:  1px solid #cacbcd;   height: 30px; 	font-family: Arial; line-height: 1.2em; }
+dd {  background-image: url(../images/index.html);background: #faf2ea;  position: absolute; left: -9999px; top: -9999px;  padding: 15px; color: #455660; border-right: 1px solid #cacbcd; border-left: 1px solid #cacbcd;   font-size: 13px; 	font-family: Arial;  border-bottom: 4px solid #f8902f; letter-spacing: 1px;}
+
+.phase2 {background-color: #f1fbfc; border-top:  1px solid #8ad3da; padding-top: 5px !important; padding-bottom: 22px !important; height: 100%; font-weight: normal;}
+.phase2.lastInPhase{ border-bottom:  1px solid #8ad3da;}
+/*.phase3 {margin-right: 5px; background: #f6f9ea; border-bottom:  1px solid #91a33d;}*/
+.phase3 {background-color: #f6f9ea; border-top:  1px solid #91a33d; padding-bottom: 22px !important; height: 100%; font-weight: normal;}
+.phase3.lastInPhase { border-bottom:  1px solid #91a33d;}
+.phaseUR { border-top:  1px solid #f8902f; padding-bottom: 22px !important; height: 100%; font-weight: normal;}
+.phaseUR.lastInPhase { border-bottom:  1px solid #f8902f;}
+
+.move2 { background: #F6F9EA url(../images/blue_arrow.png)  no-repeat;}
+.move3 { background: #faf2ea url(../images/green_arrow.png)  no-repeat;}
+
+.move { background: url(../images/green_arrow.png)  no-repeat;}
+.phase3move {margin-right: 5px; padding-left: 15px;  background-color: #f6f9ea; border-bottom:  1px solid #91a33d; background: url(../images/blue_arrow.png)  no-repeat;}
+
+.phase2a {background: #f1fbfc; border-left:  1px solid #cacbcd; border-bottom: 4px solid #8ad3da;   background-image: url(../images/.html); padding-top: 10px;}
+.phase3a {background: #f6f9ea;  border-bottom: 4px solid #91a33d;background-image: url(../images/.html); padding-top: 10px;}
+.phaseURa {border-bottom: 4px solid #f8902f; padding-top: 10px;}
+
+.phase2a a {color:#FF8040 !important;  }
+.phase3a a {color:#FF8040 !important;  }
+.phase3move a {color:#FF8040 !important;  }
+.curCol a {color:#FF8040 !important;  }
+
+.curCol { -moz-box-shadow: 0 0 10px rgba(0,0,0,0.2); -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.2); z-index: 1; position: relative; }
+
+#topLinksDiv{
+	width: 100%;
+	text-align: right;
+	padding-bottom: 30px;
+}
+
+#topLinksDiv ul li
+{
+	float:right;
+	list-style: none;
+	padding-left: 15px;
+	cursor: pointer;
+}
+
+#clearFiltersNavBarItem
+{
+	cursor: pointer;
+	color: #04B4AE;
+	font-weight: bold;
+}
+
+#clearFiltersLI
+{
+	padding-left: 10px;
+	border-left: 1px solid black;
+}
+
+#clearFiltersDiv{
+	width: 100%;
+	text-align: right;
+	padding-bottom: 15px;
+}
+.clearFiltersClick{
+	cursor: pointer;
+	color: #00958f;
+}
+
+#titleBlock{
+	padding-bottom: 15px;
+	margin-top: 22px;
+}
+#titleBlock h1{
+	color: #a8a8a8;
+}
+
+#titleBlock h2{
+	color: #aeaeae;
+	font-size: 14px;
+}
+
+#pipeline{
+	width: 100%;
+}
+
+#pipelineNavBar
+{
+	width: 100%;
+	background-color: #fafafa;
+	overflow: visible;
+	border-left: 1px solid #e6e6e6;
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 3px solid #686868;
+	border-right: 1px solid #e6e6e6;
+}
+
+
+#pipelineNavBar ul {
+  font-family: "UniversLTW01-47LightCn";
+  font-size: 12px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  list-style: none;
+  z-index: 10;
+  height: 100%;
+}
+
+#pipelineNavBar ul li {
+  display: block;
+  position: relative;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+
+#pipelineNavBar > ul > li {
+background: rgba(226,226,226,1);
+background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(50%, rgba(219,219,219,1)), color-stop(51%, rgba(209,209,209,1)), color-stop(100%, rgba(254,254,254,1)));
+background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
+  
+
+  border: 1px solid #CCCCCC;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #eeeeee;
+  padding: 10px;
+  display: block;
+  font-size: 16px !important;
+  vertical-align: middle;
+  text-decoration: none !important;
+}
+
+
+#pipelineNavBar > ul > li:first-child {
+	background: transparent;
+	color: #04B4AE;
+}
+#pipelineNavBar > ul > li:last-child{
+	background: transparent;
+}
+
+
+
+#pipelineNavBar ul li div:first-child{
+	float:left;
+	padding-top: 6px;
+	padding-left: 3px;	
+}
+
+#pipelineNavBar li ul { display: none; }
+
+#pipelineNavBar ul li a:first-child {
+  display: block;
+  text-decoration: none;
+  color: #04B4AE;
+  padding: 5px 15px 5px 25px;
+  margin-left: 1px;
+  white-space: nowrap;
+  width: 68px; /*was 90*/
+  height: 30px;
+}
+
+#printerLink{
+  cursor: pointer;
+  padding-left:15px;
+}
+
+#pipelineNavBar ul li a:hover { /*background: #fafafa;*/ }
+
+#pipelineNavBar li:hover ul {
+  /* display: block; */
+}
+
+#pipelineNavBar li:hover li {
+  float: none;
+  font-size: 11px;
+}
+
+#pipelineNavBar li:hover a { /*background: #fafafa;*/ }
+
+#pipelineNavBar li:hover li a:hover { /*background: #d8d8d8;*/ }
+
+#pipelineNavBar input[type='checkbox']{
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	cursor: pointer;
+}
+
+.cbxImage{
+	position: absolute;
+	left: 5px;
+	top: 2px;
+	cursor: pointer;
+}
+
+#messageDiv{
+	/* width: 500px; */
+	  width: 80%;
+	/*height: 300px;*/
+	padding-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	z-index: 20;
+	background-color: #fafafa;
+	/* top: 178px; */
+	/* top: 30%; */
+	display: none;
+	text-align: center;
+	font-size: 16px;
+	/* position: relative; */
+
+
+	position: fixed;
+  	top: 10px;
+}
+
+#messageDiv p{
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 1.0em;
+}
+
+#messageDiv ul li
+{
+	position: relative;
+	list-style: none;
+	line-height: 1.0em;
+	font-size: 0.9em;
+}
+
+#message{
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+#closeIcon{
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	cursor: pointer;
+}
+
+.subItem{
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  padding: 2px 15px 2px 25px;
+  margin-left: 1px;
+  white-space: nowrap;
+  width: 140px;
+  /*height: 30px;*/
+}
+
+#footnotes
+{
+	padding-top: 50px;
+	width: 100%;
+}
+
+.headerClick
+{
+	padding-left: 0px;
+	font-size: 12px;
+}
+
+.headerText{
+	position: absolute;
+	left: 34px;
+	top: 30px;
+	color: #ffffff;
+	font-style: italic;
+}
+
+
+#pdfSection, #forwardLookingSection, #noDutySection
+{
+	padding-top: 20px;
+}
+
+#pdfLink_sectionTitle, #forwardLookingStatementText_sectionTitle, #noDutyText_sectionTitle
+{
+	/*font-size: 12px;*/
+	font-size: 1.4em;
+	line-height: 1.4em;
+	font-weight: bold;
+	color: #768DC1;
+}
+#forwardLookingStatementText_text,
+#noDutyText_text {
+	font-size: 1.25em;	
+}

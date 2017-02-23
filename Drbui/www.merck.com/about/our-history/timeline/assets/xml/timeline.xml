@@ -1,0 +1,4276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timeline version="1">
+	<variables>
+		<!-- The following values are in Milliseconds ( 1000 = 1 sec ) -->
+		<cycleColorSpeed val="300"></cycleColorSpeed>
+		<timelineScrollSpeed val="10"></timelineScrollSpeed>
+		<moveTimelineCoverDownSpeed val="1500"></moveTimelineCoverDownSpeed>
+		<moveTimelineCoverUpSpeed val="1500"></moveTimelineCoverUpSpeed>
+        <moveCategoriesDownSpeed val="1500"></moveCategoriesDownSpeed>
+        <moveCategoriesUpSpeed val="1500"></moveCategoriesUpSpeed>
+        <moveFullDescriptionDownSpeed val="1500"></moveFullDescriptionDownSpeed>
+        <moveFullDescriptionUpSpeed val="1500"></moveFullDescriptionUpSpeed>
+
+		<!-- For a list of EASINGS you can use (below): refer to http://api.jqueryui.com/easings/ -->
+		<animationPresetTimelineCoverDown val="easeOutSine"></animationPresetTimelineCoverDown>
+		<animationPresetTimelineCoverUp val="easeOutSine"></animationPresetTimelineCoverUp>
+		<animationPresetFullDescriptionDown val="easeOutSine"></animationPresetFullDescriptionDown>;
+		<animationPresetFullDescriptionUp val="easeOutSine"></animationPresetFullDescriptionUp>
+		<animationPresetCategoriesDown val="easeOutSine"></animationPresetCategoriesDown>
+		<animationPresetCategoriesUp val="easeOutSine"></animationPresetCategoriesUp>
+	</variables>
+	<categories  defaultBackgroundColor=""
+				 defaultBackgroundImageUrl="assets/images/bkgd_FULL.png">
+		<category id="1" 
+			      backgroundColor=""
+				  backgroundImageUrl="assets/images/bkgd_business_heritage.png">
+			<name>
+				<![CDATA[
+					Business Heritage
+				]]>
+			</name>
+			<spriteSheet source="assets/images/BusinessHeritageSpriteSheet.gif"/>
+		</category>
+		<category id="2"
+				  backgroundColor=""
+				  backgroundImageUrl="assets/images/bkgd_commitment_to_health.png">
+			<name>
+				<![CDATA[
+					Commitment to Health
+				]]>
+			</name>
+			<spriteSheet source="assets/images/CommitmentToHealthSpriteSheet.gif"/>
+		</category>
+		<category id="3" 
+			      backgroundColor=""
+				  backgroundImageUrl="assets/images/bkgd_access_to_health.png">
+			<name>
+				<![CDATA[
+					Access to Health
+				]]>
+			</name>
+			<spriteSheet source="assets/images/AccessToHealthSpriteSheet.gif"/>
+		</category>
+		<category id="4"
+			      backgroundColor=""
+				  backgroundImageUrl="assets/images/bkgd_innovation.png">
+			<name>
+				<![CDATA[
+					Innovation
+				]]>
+			</name>
+			<spriteSheet source="assets/images/InnovationSpriteSheet.gif"/>
+		</category>
+		<category id="5"
+			      backgroundColor=""
+				  backgroundImageUrl="assets/images/bkgd_ethics.png">
+			<name>
+				<![CDATA[
+					Ethics & Integrity
+				]]>
+			</name>
+			<spriteSheet source="assets/images/EthicsAndIntegritySpriteSheet.gif"/>
+		</category>
+		<category id="6"
+			      backgroundColor=""
+				  backgroundImageUrl="assets/images/bkgd_diversity.png">
+			<name>
+				<![CDATA[
+					Diversity & Teamwork
+				]]>
+			</name>
+			<spriteSheet source="assets/images/DiversityAndTeamworkSpriteSheet.gif"/>
+		</category>
+	</categories>
+	<events>
+		<timePeriod year="1654">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Angel Pharmacy<br/>is founded
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1654.png">
+					<![CDATA[
+						Angel Pharmacy is founded
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1654.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1654</span><br>Angel Pharmacy (Engel Apotheke) is founded in Darmstadt, Germany.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1668">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Jacob Friedrick Merck acquires Angel Pharmacy
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1668.png">
+					<![CDATA[
+						Jacob Friedrick Merck Acquires<br/>Angel Pharmacy
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1668.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1668</span><br>The Angel Pharmacy is acquired by apothecarist Jacob Friedrick Merck.
+						This is the beginning of the family's long tradition in the field of pharmaceuticals.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1773">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Johann Heinrich Merck influences Johann Wolfgang von Goethe
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1773.png">
+					<![CDATA[
+						Johann Heinrich Merck influences the literary works of his close friend, author Johann Wolfgang von Goethe.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1773.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Johann Wolfgang von Goethe publishes his first major work, Götz von Berlichingen. Throughout his career Goethe 
+						was close friends with Johann Heinrich Merck, the son of Johann Franz Merck and brother of Johann Justus Merck. 
+						Johann Heinrich was well known for his friendship and influence on Goethe's work, which is acknowledged in Goethe's autobiography, <em>Aus meinem Leben: Dichtung und Wahrheit</em> &nbsp;(<em>From my Life: Poetry and Truth</em>; 1811–1833).
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1815">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Old Simes drug store opens
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1815.png">
+					<![CDATA[
+						Old Simes Drug Store, later owned by H. K. Mulford Co., is established.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1815.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						"Old Simes" Drug Store, a predecessor to H. K. Mulford Co., is established in Philadelphia, Pa.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1823">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						George D. Rosengarten buys chemical manufacturing business
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1823.png">
+					<![CDATA[
+						George D. Rosengarten buys out Zeitler & Seitler's chemical manufacturing business.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1823.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1823</span><br>
+						George D. Rosengarten buys chemical manufacturing business founded 
+						a year earlier in Philadelphia, Pa. The firm becomes Zeitler & Rosengarten. Over the next twenty years, 
+						the partnership changes hands several times.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1827">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						E. Merck begins manufacturing
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1827.png">
+					<![CDATA[
+						The E. Merck company begins manufacturing operations.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1827.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1827</span><br>E. Merck, Darmstadt, starts manufacturing operations under the leadership of Heinrich Emanuel Merck.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1845">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Alpheus Phineas Sharp opens an apothecary
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1845.png">
+					<![CDATA[
+						Alpheus Phineas Sharp opens an apothecary in Baltimore, MD.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1845.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1845</span><br>Alpheus Phineas Sharp rents a two-story building on the southwest corner of Pratt and Howard Streets in Baltimore, 
+						Md., and starts his own business as a merchant and apothecary.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1851">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Ernst Schering opens pharmacy
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1851a.png">
+					<![CDATA[
+						Ernst Schering opens the Green Pharmacy.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1851a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Ernst Schering opens his own pharmacy in an industrial suburb of Berlin and names it the Grüne Apotheke (Green Pharmacy).
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1851">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Louis Dohme joins A. P. Sharp's apothecary
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1851b.png">
+					<![CDATA[
+						Louis Dohme emigrates to Baltimore and begins work and study at A. P. Sharp's apothecary.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1851b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1851</span><br>15-year-old Louis Dohme emigrates with his family to Baltimore from Obenkirchen, Germany, and shows up at A.P. Sharp's 
+						apothecary asking for a job. He is hired and begins his study of pharmacy.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1853">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						E. Merck participates in the World Exhibition
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1853.png">
+					<![CDATA[
+						E. Merck displays at World Exhibition in New York.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1853.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						E. Merck hosts a display at the World Exhibition in New York City.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1860">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Louis Dohme and A.P. Sharp form Sharp & Dohme
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1860a.png">
+					<![CDATA[
+						Louis Dohme and A.P. Sharp become partners and form Sharp & Dohme.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1860a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1860</span><br>Louis Dohme becomes a partner in A.P. Sharp's apothecary shop and the name of the firm is changed to Sharp & Dohme.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1860">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Rosengarten & Sons acquires two new partners
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1860b.png">
+					<![CDATA[
+						Harry B. Rosengarten and Adolph G. Rosengarten become partners in Rosengarten & Sons.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1860b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1860</span><br>Harry B. Rosengarten and Adolph G. Rosengarten are admitted to the partnership of Rosengarten & Sons. Adolph G. 
+						later becomes Senior Major of the 15th Pennsylvania Cavalry and is killed at the battle of Murfreesborough, 
+						Tenn., in a cavalry charge.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1865">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Sharp & Dohme begins large scale manufacturing
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1865.png">
+					<![CDATA[
+						Sharp & Dohme begins large scale manufacturing.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1865.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Sharp & Dohme begins large scale manufacturing of pharmaceuticals for other pharmacists throughout the U.S. 
+						Charles E. Dohme, younger brother of Louis Dohme, learns the process for large scale production of medicine while 
+						on assignment from the U.S. Secretary of War.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1871">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Schering AG is incorporated
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1871.png">
+					<![CDATA[
+						Schering AG is incorporated.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1871.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Schering AG is incorporated.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1876">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Holtz and Glatz form Schering & Glatz
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1876.png">
+					<![CDATA[
+						Schering AG's Holtz partners with Joseph Glatz to form Schering & Glatz.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1876.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1876</span><br>Ernst Schering's colleague, J.F. Holtz, travels to the U.S. to exhibit at the Philadelphia Centennial 
+						Exposition. There he meets New York City drug importer Joseph Glatz, who soon forms a partnership with Holtz and 
+						renames his own company Schering & Glatz.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1885">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Sharp & Dohme opens New York branch
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1885.png">
+					<![CDATA[
+						Sharp & Dohme opens New York branch.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1885.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1885</span><br>Sharp & Dohme opens its first branch office in New York.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1887">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						E. Merck opens New York branch
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1887.png">
+					<![CDATA[
+						E. Merck opens a New York branch under the management of Theodore Weicker.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1887.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1887</span><br>E. Merck opens its New York branch. It is managed by Theodore Weicker, who came straight from 
+						Darmstadt to establish the first office of E. Merck in the U.S.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1888">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Schering AG hires first research chemist
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1888.png">
+					<![CDATA[
+						Schering AG hires its first research chemist, Albrecht Schmidt.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1888.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Schering AG hires its first research chemist, Albrecht Schmidt, in order to compete with other German companies producing proprietary compounds.
+					]]>
+				</fullDescription>
+			</event>
+			</timePeriod>
+			<timePeriod year="1888">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Sharp & Dohme opens Chicago, Ill. office
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1888b.png">
+					<![CDATA[
+						Sharp & Dohme opens Chicago, Ill. office.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1888b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1888</span><br>Sharp & Dohme opens a branch office in Chicago.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1888">
+			<event categories="1,4">
+				<name>
+					<![CDATA[
+						Mulford Tablet Machine introduced
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1888.png">
+					<![CDATA[
+						Henry Kendall Mulford patents a new tablet machine.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1888.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Henry Kendall Mulford patents the "Mulford Tablet Machine."
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1889">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						The first <em>Merck Index</em> published
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1889.png">
+					<![CDATA[
+						The first <em>Merck Index</em> is published.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1889.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1889</span><br>The <em>Merck Index</em> is first published. The Index is an encyclopedia of technical information on the pharmaceutical 
+						industry's products for pharmacists, doctors, dentists, veterinarians and chemists.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1891">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck & Co. is established
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1891.png">
+					<![CDATA[
+						Merck & Co. is established at the U.S. office of E. Merck.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1891.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						The U.S. office of E. Merck becomes a separate firm: Merck & Co. (The company is still partly owned by E. Merck.) 
+						This same year, George Merck travels from Germany to New York City to oversee company operations.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1891">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						H. K. Mulford Co. is incorporated
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1891b.png">
+					<![CDATA[
+						H. K. Mulford Company is incorporated in Philadelphia, Pa.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1891b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1891</span><br>H.K. Mulford Company is incorporated with Milton Campbell as president. Under his leadership, the company initiates its 
+						standardization of drug products as well as putting open formulas on labels. It also opens its laboratories to the inspection 
+						of scientifically qualified visitors, a practice almost unheard of when pharmaceutical formulas and production methods were 
+						jealously guarded "top secrets." At the time of its establishment, the company operated at 2132 Market Street in Philadelphia, Pa.<br /><br /><a href="http://www.merck.com/about/featured-stories/vaccine-history.html" target="_blank" style="color:#e1cd00; font-weight: bold;">Learn more – Vaccines: Our History, Our Legacy</a>
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1893">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck exhibits at the Columbian Exposition
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1893a.png">
+					<![CDATA[
+						Merck exhibits at the Columbian Exposition.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1893a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1893</span><br>Merck exhibits at the Columbian Exposition in Chicago, Ill.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1893">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						George Merck marries Fredericke Schenck
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1893b.png">
+					<![CDATA[
+						George Merck marries Fredericke Schenck and settles in Llewellyn, N.J.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1893b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1893</span><br>George Merck marries Fredericke Schenck. The couple purchases a home in Llewellyn Park, West Orange,	N.J., where they become neighbors and friends of the inventor Thomas Edison.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1894">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						George W. Merck is born
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1894.png">
+					<![CDATA[
+						George W. Merck is born.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1894.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1894</span><br>George W. Merck, son of George Merck, is born in New York City.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1895">
+			<event categories="2">
+				<name>
+					<![CDATA[
+						Schering AG introduces its first prescription drug
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1895.png">
+					<![CDATA[
+						Schering AG introduces its first treatment for urinary tract bacterial infections.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1895.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Schering AG begins to market its first prescription drug for the treatment of urinary tract bacterial infections.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1895">
+			<event categories="2">
+				<name>
+					<![CDATA[
+						H. K. Mulford Co. introduces first diphtheria antitoxin
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1895b.png">
+					<![CDATA[
+						H. K. Mulford Co. introduces first commercially produced diphtheria antitoxin produced in the U.S.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1895b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1895</span><br>After over a year of research conducted in the lab of Dr. Joseph McFarland, H.K Mulford was able to offer for sale the first commercial diphtheria antitoxin produced in the U.S.<br /><br /><a href="http://www.merck.com/about/featured-stories/vaccine-history.html" target="_blank" style="color:#e1cd00; font-weight: bold;">Learn more – Vaccines: Our History, Our Legacy</a>
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1897">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck & Co. opens pharmacy in Manhattan, N.Y.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1897.png">
+					<![CDATA[
+						Merck & Co. opens its own pharmacy in Manhattan, N.Y.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1897.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1897</span><br>Merck & Co. opens its own stylish pharmacy in downtown Manhattan, N.Y. The Merck Pharmacy becomes known across 
+						the U.S. and Europe for exclusively selling drugs, candies or knick-knacks, which was unheard of at the time.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1898">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						H.K. Mulford Co. introduces its smallpox vaccine
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1898.png">
+					<![CDATA[
+						H.K. Mulford Co. introduces its smallpox vaccine.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1898.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1898</span><br>H.K. Mulford's smallpox vaccine is introduced.  The company prepares the vaccine as a glycerinated lymph that can be preserved 
+						when kept at the proper temperature without appreciably affecting its potency, allowing it to be stored until it needs to be 
+						shipped to the customer.<br /><br /><a href="http://www.merck.com/about/featured-stories/vaccine-history.html" target="_blank" style="color:#e1cd00; font-weight: bold;">Learn more – Vaccines: Our History, Our Legacy</a>
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1899">
+			<event categories="1,3">
+				<name>
+					<![CDATA[
+						First <em>Merck Manual</em> is published
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1899a.png">
+					<![CDATA[
+						The first edition of the <em>Merck Manual</em> is published.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1899a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1899</span><br>The <em>Merck Manual</em> is first printed. It is known as the "Physician's Bible," containing the most up-to-date  medical information 
+						of the day and providing medical professionals with vital information on diagnoses and treatments.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1899">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Charles E. Frosst & Co. is established
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1899.png">
+					<![CDATA[
+						Charles E. Frosst & Co. is established.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1899.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Charles E. Frosst & Co. is established.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1900">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck acquires plant site in Rahway, N.J.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1900.png">
+					<![CDATA[
+						Merck acquires plant site in Rahway, N.J.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1900.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1900</span><br>Merck acquires plant site in Rahway, N.J.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1901">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Rosengarten & Sons is incorporated
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1901.png">
+					<![CDATA[
+						Rosengarten & Sons is incorporated in Pennsylvania.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1901.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Rosengarten & Sons is incorporated under the laws of the State of Pennsylvania, becoming Rosengarten & Sons, Inc.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1905">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Powers-Weightman-Rosengarten Company is established
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1905.png">
+					<![CDATA[
+						Rosengarten & Sons, Inc. take over Powers & Weightman to form a new firm.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1905.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						The plant and assets of Powers & Weightman are taken over by Rosengarten & Sons, and the name of the corporation is changed to Powers-Weightman-Rosengarten Company.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1907">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Scholl Manufacturing Co., Inc. is established
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1907a.png">
+					<![CDATA[
+						Dr. Scholl establishes his foot care company and introduces his first product.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1907a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1907</span><br>Dr. William Mathias Scholl incorporates The Scholl Manufacturing Co. to manufacture and sell his first product, the Footeazer.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1907">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						James J. Kerrigan begins working at Merck & Co.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1907b.png">
+					<![CDATA[
+						The third president of Merck & Co, James J. Kerrigan, begins working at Merck at the age of 13.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1907b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1907</span><br>James J. Kerrigan, born in New York and raised in Ireland, begins work at Merck as a messenger boy at the age of 13, 
+						shortly after returning to New York City. This is the beginning of a lifetime career with the company leading to the top executive level.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1908">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Abe Plough sells his first consumer product
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1908.png">
+					<![CDATA[
+						Abe Plough begins selling Plough's Antiseptic Healing Oil, his first consumer product.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1908.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1908</span><br>Abe Plough, a 16-year-old native of Memphis, Tenn., borrows $125 from his father to purchase carbolic acid, camphor and linseed 
+						oil, which he brews and bottles as his own liniment. Plough's Antiseptic Healing Oil is the start of Abe Plough's successful 
+						career in consumer products.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1909">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						The Sandee Company is formed
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1909.png">
+					<![CDATA[
+						The Sandee Company is formed by Sharp & Dohme.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1909.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Sharp & Dohme forms a holding company known as the Sandee Company.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1912">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck & Co. establishes its first foreign subsidiary
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1912.png">
+					<![CDATA[
+						Merck & Co. establishes its first foreign subsidiary.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1912.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1912</span><br>Merck & Co. sets up its first foreign subsidiary in Canada.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1914">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						George W. Merck begins working for Merck & Co.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1914a.png">
+					<![CDATA[
+						George W. Merck begins work at Merck & Co. in the packing and shipping department.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1914a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1914</span><br>One year prior to his graduation from Harvard University, George W. Merck begins work with Merck & Co., the company established 
+						by his father. He starts in the packing and shipping department and gradually receives training in most departments 
+						and branches of the company.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1914">
+			<event categories="3">
+				<name>
+					<![CDATA[
+						Merck publishes its "Handy Book on Sanitation"
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1914b.png">
+					<![CDATA[
+						Merck publishes its "Handy Book on Sanitation" marketing its Creolin-Pearson disinfectant.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1914b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1914</span><br>Merck first publishes its "Handy Book on Sanitation." The booklet offers useful information on the sanitary care of the 
+						household and domestic animals and guidelines for using Merck's Creolin-Pearson disinfectant.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1915">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						The Maybelline company 
+						is founded
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1915.png">
+					<![CDATA[
+						T. L. Williams founds the Maybelline cosmetics company with inspiration from his sister.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1915.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						The Maybelline Company is founded by 19-year-old T. L. Williams. After seeing his sister Mabel applying Vaseline to her eyebrows and 
+						lashes, he develops and successfully markets a product to darken and add gloss to eyelashes that he names Lash-brow-ine.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1917">
+			<event categories="1,2,5">
+				<name>
+					<![CDATA[
+						Merck's legacy companies furnish medical supplies to the U.S. military
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1917a.png">
+					<![CDATA[
+						<span style="font-size:11px;">Merck's legacy companies, H. K. Mulford Co. and Powers-Weightman-Rosengarten & Co.,  furnish medical supplies to the U.S. military.</span>
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1917a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1917</span><br>Milton Campbell and Henry Kendall Mulford of H. K. Mulford Co. and A.G. Rosengarten of Powers-Weightman-Rosengarten & Co. join the national 
+						group of manufacturers of pharmaceutical, chemical and disinfectant products furnishing medical supplies to the War and Navy Departments.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1917">
+			<event categories="1,3">
+				<name>
+					<![CDATA[
+						H. K. Mulford Co. establishes biologic depot in France
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1917b.png">
+					<![CDATA[
+						H. K. Mulford Co. establishes depot in France to supply biological products to the U.S. Army.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1917b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1917</span><br>At the request of the Surgeon General of the U.S. Army, H. K. Mulford  Co. establishes a biological depot behind the lines in France to provide 
+						adequate supplies of biological products for the U.S. Army.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+				<timePeriod year="1917">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						U.S. Alien Property Custodian seizes Merck & Co. stock
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1917c.png">
+					<![CDATA[
+						The U.S. Alien Property Custodian seizes Merck & Co. stock and sells it at public auction.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1917c.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Federal Judge A. Mitchell Palmer, who was recently appointed Alien Property Custodian, announces that the U.S. Government will seize several companies 
+						with German connections, including Merck & Co. George Merck turns over the company's stock owned by the German members of the family and runs the company 
+						as if it were his own absolutely. Nevertheless, Palmer decides to sell Merck stock at public auction.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1914-1918">
+			<event categories="1,2,5">
+				<name>
+					<![CDATA[
+						H. K. Mulford Co. <br>
+						supplies U.S. military<br>
+						with vaccines <br>during WWI
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1914-1918.png">
+					<![CDATA[
+						H. K. Mulford Co. supplies U.S. Army and Navy with millions of vaccines during WWI.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1914-1918.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1914-1918</span><br>H. K. Mulford Co. supplies the U.S. Army and Navy with millions of vaccines and serums for certain diseases throughout World War I. 
+						During this time, the director of the Biological  Laboratories at Glenolden, Dr. Parker Hitchens, becomes director of all U.S. Army Laboratories.<br /><br /><a href="http://www.merck.com/about/featured-stories/vaccine-history.html" target="_blank" style="color:#e1cd00; font-weight: bold;">Learn more – Vaccines: Our History, Our Legacy</a>
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1917-1918">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						H. K. Mulford Co. keeps horses hyperimmunized for production of <em>Antipneumococcic Serum</em>
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1917-1918.png">
+					<![CDATA[
+						<span style="font-size:11px">H. K. Mulford Co. keeps hundreds of horses hyperimmunized and ready for production of large quantities of <em>Antipneumococcic Serum</em></span>
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1917-1918.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1917-1918</span><br>Throughout the final two years of the first World War, Mulford Laboratories keeps hundreds of horses hyperimmunized with Types I, II, and III 
+						pneumococci, capable of producing 20,000 doses of <em>Antipneumococcic Serum Poly-valent</em> per week.<br /><br /><a href="http://www.merck.com/about/featured-stories/vaccine-history.html" target="_blank" style="color:#e1cd00; font-weight: bold;">Learn more – Vaccines: Our History, Our Legacy</a>
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1918">
+			<event categories="1,4">
+				<name>
+					<![CDATA[
+						Hagan Corporation is founded
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1918.png">
+					<![CDATA[
+						Hagan Corporation is founded. The company's primary product is Calgon.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1918.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1918</span><br>Hagan Corporation is organized by John M. Hopwood and Thomas A. Peebles and specializes in the development of automatic controls to regulate 
+						the supply of fuel and air to boiler furnaces. Through a collaborative effort between Hagan Corporation and the Pittsburgh Experiment Station 
+						of the Bureau of Mines, Dr. Ralph E. Hall discovers that the unique water conditioning properties of the chemical "sodium hexametaphosphate" 
+						provides an answer to the problem of scale forming on boiler tubes. The chemical is named "Calgon," meaning "calcium gone."
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1919">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						George Merck buys back the stock of Merck & Co. 
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1919.png">
+					<![CDATA[
+						George Merck buys back the stock of Merck & Co. 
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1919.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1919</span><br>George Merck buys back his own company and Merck & Co. fully separates from E. Merck.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1920">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						T. L. Williams copyrights the name Maybelline
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1920.png">
+					<![CDATA[
+						T. L. Williams copyrights the name Maybelline for his cosmetics company.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1920.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						T. L. Williams copyrights the name Maybelline for his cosmetics company, named in honor of his sister Mabel.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1920">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck organizes a fire squad
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1920b.png">
+					<![CDATA[
+						Merck organizes a fire squad. 
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1920b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1920</span><br>Merck purchases its first fire engine and forms a volunteer fire squad.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1921">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Plough Chemical Company acquires the St. Joseph brand name 
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1921.png">
+					<![CDATA[
+						Plough Chemical Company acquires the Gerstle Chemical Company and the St. Joseph brand name
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1921.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1921</span><br>Plough Chemical Company purchases The Gerstle Medicine Company of Chattanooga, Tenn., acquiring the trade name St. Joseph, an established brand name in the family medicine field for over 50 years.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1923">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Plough Chemical Company begins selling stock to the public
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1923.png">
+					<![CDATA[
+						Plough Chemical Company begins selling stock to the public.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1923.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1923</span><br>Plough Chemical Company begins selling stock to the public.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1924">
+			<event categories="2,3,5">
+				<name>
+					<![CDATA[
+						H. K. Mulford Co. rushes serum to treat bubonic plague outbreak
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1924.png">
+					<![CDATA[
+						H. K. Mulford Co. rushes Yersin Serum to Los Angeles to treat an outbreak of bubonic plague.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1924.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						6,500 doses of H.K. Mulford's Yersin Serum are rushed from its  Philadelphia laboratories to Los Angeles, Calif., to treat a deadly outbreak of the bubonic plague.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1925">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						George W. Merck becomes president of Merck & Co.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1925.png">
+					<![CDATA[
+						George W. Merck succeeds his father as president of Merck & Co.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1925.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						George Merck becomes Chairman of the Board and his son, George W. Merck, succeeds him as president of Merck & Co.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1925">
+			<event categories="2,3">
+				<name>
+					<![CDATA[
+						H. K. Mulford introduces dried vaccine
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1925.png">
+					<![CDATA[
+						H. K. Mulford introduces dried vaccine.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1925.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						H. K. Mulford introduces a dried vaccine for use in tropical countries.<br /><br /><a href="http://www.merck.com/about/featured-stories/vaccine-history.html" target="_blank" style="color:#e1cd00; font-weight: bold;">Learn more – Vaccines: Our History, Our Legacy</a>
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1925">
+			<event categories="2,3,5">
+				<name>
+					<![CDATA[
+						H. K. Mulford Co. rushes diphtheria antitoxin by dogsled to Nome, Alaska
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1925.png">
+					<![CDATA[
+						H. K. Mulford Co. rushes diphtheria antitoxin by dogsled to treat an outbreak in Nome, Alaska.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1925.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						An outbreak of diphtheria occurs in Nome, Alaska. H.K. Mulford's diphtheria antitoxin is rushed by dogsled from Nenana, Alaska, 
+						to Nome. The trip is 674 miles long and takes five days and twenty drivers and dog teams to complete. The trip is considered 
+						to be part of the inspiration  for the annual Iditarod Trail Dog Sled Race.<br /><br /><a href="http://www.merck.com/about/featured-stories/vaccine-history.html" target="_blank" style="color:#e1cd00; font-weight: bold;">Learn more – Vaccines: Our History, Our Legacy</a>  
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1926">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck & Co. transfers main offices to Rahway, N.J.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1926.png">
+					<![CDATA[
+						Merck & Co. transfers main offices to Rahway, N.J.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1926.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1926</span><br>Merck & Co. transfers its main offices from Manhattan, N.Y. to the Rahway, N.J. site.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1927">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Powers-Weightman-Rosengarten and Merck & Co. consolidate to form Merck & Co., Inc.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1927.png">
+					<![CDATA[
+						Powers-Weightman-Rosengarten and Merck & Co. consolidate to form Merck & Co., Inc.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1927.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1927</span><br>Merck & Co. merges with Powers-Weightman-Rosengarten.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1928">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Schering Corporation is established
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1928.png">
+					<![CDATA[
+						<span class="date">1928</span><br>Schering Corporation, a U.S. subsidiary of Schering AG, is established.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1928.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Julius Weltzien, director of Schering AG's international expansion, creates a new U.S. subsidiary – Schering Corporation.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1929">
+			<event categories="2">
+				<name>
+					<![CDATA[
+						Sharp & Dohme introduces SUCRETS
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1929.png">
+					<![CDATA[
+						Sharp & Dohme introduces the throat lozenges SUCRETS.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1929.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1929</span><br>Sharp & Dohme introduces an antiseptic throat lozenge marketed under the trade name SUCRETS.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1929">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						H. K. Mulford Co. merges with Sharp & Dohme
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1929b.png">
+					<![CDATA[
+						H. K. Mulford Co. merges with Sharp & Dohme.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1929b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						H. K. Mulford Co. merges with Sharp & Dohme, Inc.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1929">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Plough Chemical Company becomes Plough, Inc.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1929b.png">
+					<![CDATA[
+						Plough Chemical Company becomes Plough, Inc.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1929b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						The Plough Chemical Company changes its name to Plough, Inc.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1933">
+			<event categories="1,2">
+				<name>
+					<![CDATA[
+						Merck opens new research laboratories in Rahway, N.J.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1933a.png">
+					<![CDATA[
+						Merck opens new, expanded research facilities that consolidate operations into one building.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1933a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1933</span><br>Merck dedicates modern and expanded research laboratories in Rahway, N.J. The laboratories, including the Merck Institute for Therapeutic Research, 
+						are now all consolidated into one building. George W. Merck, whose leadership was instrumental in establishing Merck's  research organization, 
+						announces at the  dedication ceremony, "We have the faith that in this new laboratory, with the tools we have supplied, science will be advanced, 
+						knowledge increased, and human life will win ever a greater freedom from suffering and disease."
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1933">
+			<event categories="4">
+				<name>
+					<![CDATA[
+						Merck exhibits at the Century of Progress International Exposition
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1933b.png">
+					<![CDATA[
+						Merck exhibits at the Century of Progress International Exposition.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1933b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1933</span><br>Merck sponsors an exhibit at the Century of Progress International Exposition in Chicago, Ill.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1936">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Plough, Inc. lists its shares on the New York Curb Exchange
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1936a.png">
+					<![CDATA[
+						Plough, Inc. lists its shares on the New York Curb Exchange
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1936a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Plough, Inc. lists its shares on the New York Curb Exchange, which is now known as the New York Stock Exchange
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1936">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						Chemists from Merck and Bell Labs synthesize vitamin B1
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1936.png">
+					<![CDATA[
+						Chemists from Merck and Bell Labs synthesize vitamin B1, paving the way for major vitamin research at Merck.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1936.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1936</span><br>Merck chemist J. K. Cline, together with Dr. Robert Williams of Bell Labs, develops the first synthesis of vitamin B1. 
+						Within a few years, the product sharply reduces vitamin B1 deficiency (beriberi) and constitutes more than ten percent of Merck's sales.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1941">
+			<event categories="2,3">
+				<name>
+					<![CDATA[
+						Merck publishes  "Treatment of War Injuries"
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1941a.png">
+					<![CDATA[
+						Merck publishes a "Treatment of War Injuries"
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1941a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1941</span><br>Merck publishes a "Treatment of War Injuries" booklet for civilian and military physicians who may be confronted with the duty of providing medical treatment. 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1941">
+			<event categories="1,2,4">
+				<name>
+					<![CDATA[
+						Merck's Stonewall plant begins manufacturing operations
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1941b.png">
+					<![CDATA[
+						Merck's Stonewall plant opens in Elkton, Virginia, and begins manufacturing vitamins B1 and B2.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1941b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1941</span><br>"Vitamin Valley" is born. The Stonewall manufacturing site begins production in December, providing new employment opportunities to residents 
+						of the Shenandoah Valley in Depression-era Virginia. The plant, employing about 300 people, first produces vitamins B1 and B2 and pantothenic acid. 
+						Stonewall steadily adds new products and more complex processes, including manufacturing for two products, penicillin and streptomycin.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1941">
+			<event categories="2">
+				<name>
+					<![CDATA[
+						Sharp & Dohme supplies dried blood plasma to the armed forces throughout WWII
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1941c.png">
+					<![CDATA[
+						Sharp & Dohme helps save thousands of lives during WWII by producing dried blood plasma
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1941c.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1941</span><br>Sharp & Dohme's major contribution to WWII is dried blood plasma. During the first nine months of the war, Sharp & Dohme is the only company 
+						prepared to supply dried plasma to the armed forces. Military and medical authorities agree that the development of dried plasma saved thousands 
+						of men's lives and was one of the outstanding medical contributions to the war effort.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1942">
+			<event categories="2">
+				<name>
+					<![CDATA[
+						Merck begins producing penicillin "G"
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1942.png">
+					<![CDATA[
+						Merck begins producing penicillin "G" at the request of the U.S. government
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1942.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1942</span><br>At the request of the U.S. government, Merck begins producing penicillin "G." One of the first vials is shipped to New Haven, 
+						Conn., and used to treat a young woman named Anne Miller. This marks the first successful penicillin treatment of a blood infection in the U.S.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1942">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						Merck develops submerged fermentation process for producing penicillin
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1942b.png">
+					<![CDATA[
+						Merck researchers develop a submerged fermentation process to speed the production of penicillin.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1942b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1942</span><br>In cooperation with competitors to produce needed drugs for both the war effort and civilian use, the Merck research team helped develop 
+						a submerged fermentation process that speeded production of penicillin.  Merck's penicillin manufacturing begins full operation, turning 
+						out 4.18 billion units of penicillin, the first successful antibiotic.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1943">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck wins its first Army-Navy "E" Award
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1943.png">
+					<![CDATA[
+						Merck wins the first of many Army-Navy "E" Awards for production that it will receive for wartime production.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1943.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1943</span><br>Merck wins its first Army-Navy Production Award, or "E" award, for wartime production. The coveted "E" flags were on display 
+						at Rahway, N.J., Elkton, Va., and Philadelphia, Pa. plants. Both Merck & Co. and Sharp & Dohme win numerous "E" awards throughout the war.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1944">
+			<event categories="1,6">
+				<name>
+					<![CDATA[
+						Merck makes its first donation to the United Negro College Fund
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1944.png">
+					<![CDATA[
+						Merck makes its first donation to the United Negro College Fund.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1944.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Merck makes its first donation to the United Negro College Fund, launching a long-standing partnership.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1944">
+			<event categories="2,4,5,6">
+				<name>
+					<![CDATA[
+						Dr. Selman Waksman and Albert Schatz discover streptomycin
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1944a.png">
+					<![CDATA[
+						Dr. Selman Waksman and Albert Schatz discover streptomycin and Merck turns over exclusive patent rights to the drug at Waksman's request.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1944a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1944</span><br>Dr. Selman Waksman of Rutgers University and his colleague Albert Schatz discover streptomycin. Waksman received support from Merck's chemists, 
+						use of the testing facilities at the Merck Institute, and assurance that pilot plant facilities would be available for producing substances. In 
+						exchange, Merck received patent rights to any processes Dr. Waksman developed. Dr. Waksman, concerned that he had "turned over valuable public-health 
+						processes to a single organization for commercial exploitation," asked Merck to abandon these valuable patent rights. Looking beyond issues of short 
+						term profitability, George W. Merck turned over the patents to a Rutgers foundation, which licensed all applicants to produce the drug.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1944">
+			<event categories="4,6">
+				<name>
+					<![CDATA[
+						Dr. Lewis Sarett synthesizes cortisone
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1944b.png">
+					<![CDATA[
+						Dr. Lewis Sarett synthesizes cortisone.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1944b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1944</span><br>After two years of intensive research, Merck chemist Dr. Lewis Sarett synthesizes cortisone, however, not in quantities sufficient for testing. 
+						Dr. Max Tishler, aided by Dr. Jacob van de Kamp, spends the next two years solving the developmental puzzles of cortisone manufacturing, and in 
+						1948 with cortisone in pilot plant production, they were able to make amounts sufficient for the tests that established the drug as the first 
+						breakthrough in the treatment of rheumatoid arthritis. 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1944">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Plough, Inc. purchases  radio station
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1944c.png">
+					<![CDATA[
+						Plough, Inc. purchases a radio station in Memphis, Tenn.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1944c.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1944</span><br>Plough, Inc. enters the broadcasting field with the purchase of radio station WMPS, Memphis, Tenn.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1944">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Benjamin Green debuts COPPERTONE
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1944d.png">
+					<![CDATA[
+						Benjamin Green debuts COPPERTONE Suntan Cream.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1944d.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1944</span><br>Benjamin Green debuts his COPPERTONE Suntan Cream product, a mixture he created by cooking cocoa butter in a granite coffee 
+						pot on his wife's stove and testing each batch on his own bald head. He was bought out in 1950 by three investors who set up 
+						Douglas Laboratories Corporation and later establish a sales force, incorporating it under the name The COPPERTONE Sales Corporation.  
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1947">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Plough, Inc. introduces ST. JOSEPH ASPIRIN FOR CHILDREN
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1947.png">
+					<![CDATA[
+						Plough, Inc. introduces ST. JOSEPH ASPIRIN FOR CHILDREN.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1947.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1947</span><br>Plough, Inc. introduces ST. JOSEPH ASPIRIN FOR CHILDREN.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1948">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						Schering Corporation introduces TRIMETON
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1948a.png">
+					<![CDATA[
+						Schering Corporation introduces its antihistamine, TRIMETON.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1948a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1948</span><br>Schering Corporation's antihistamine, TRIMETON &mdash; the result of an experiment to produce an analgesic gone wrong &mdash; is launched and 
+						is the predecessor of CHLOR-TRIMETON. CHLOR-TRIMETON is launched in 1949.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1948">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						Merck introduces S.Q.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1948b.png">
+					<![CDATA[
+						Merck introduces the animal health product S.Q.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1948b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1949</span><br>After five years of extensive testing, Merck brings S.Q. (sulfaquinoxaline) to market. The product, 
+						used to prevent coccidiosis, a poultry disease, ushers Merck into the animal health field.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1948">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Sharp & Dohme acquires plant site in West Point, Pa.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1948c.png">
+					<![CDATA[
+						Sharp & Dohme acquires plant site in West Point, Pa.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1948c.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1948</span><br>Sharp & Dohme purchases a plant in West Point, Pa., where it centralizes its operations previously conducted at 
+						Ridgeway, Glenolden, and Philadelphia, Pa.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1949">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						Vitamin B12 is introduced as a treatment for pernicious anemia
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1949.png">
+					<![CDATA[
+						Vitamin B12 is introduced as a treatment for pernicious anemia.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1949.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1949</span><br>Vitamin B12 is introduced as a treatment for pernicious anemia. Merck researcher Karl Folkers and team isolated Vitamin B12 after nearly nine years of research.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1950">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						James J. Kerrigan is named president of Merck & Co., Inc.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1950a.png">
+					<![CDATA[
+						James J. Kerrigan succeeds George W. Merck as president of Merck & Co., Inc.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1950a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1950</span><br>James J. Kerrigan succeeds George W. Merck as president of Merck & Co. 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1950">
+			<event categories="1,6">
+				<name>
+					<![CDATA[
+						As a result of his collaboration with Merck, Dr. Edward C. Kendall of the Mayo Clinic is awarded a Nobel prize
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1950b.png">
+					<![CDATA[
+						As a result of his collaboration with Merck, Dr. Edward C. Kendall receives a Nobel Prize in Physiology or Medicine.  
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1950b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1950</span><br>The Nobel Prize in Physiology or Medicine is awarded jointly to Dr. Edward C. Kendall, Tadeus Reichstein and Philip Showalter Hench for their 
+						discoveries relating to hormones of the adrenal cortex, their structure and biological effects. Dr. Kendall, of the Mayo Clinic, and Merck's 
+						Dr. Lewis Sarett began collaborating on the cortisone synthesis process in 1941, and in 1948 – led by Merck's Dr. Max Tishler and 
+						Dr. Jacob van de Kamp  -- the first large scale synthesis of Compound E (cortisone) was completed at Merck.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1950">
+			<event categories="1,6">
+				<name>
+					<![CDATA[
+						George W. Merck makes his well-known "medicine is for the people" speech 
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1950.png">
+					<![CDATA[
+						George W. Merck makes his well-known "medicine is for the people, it is not for the profits" speech at the Medical College of Virginia.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1950.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						George W. Merck gives a talk at the Medical College of Virginia at Richmond during which he makes the well-known statement: "We must try to remember 
+						that medicine is for the patient. We try never to forget that medicine is for the people. It is not for the profits. The profits follow, and if we 
+						have remembered that, they have never failed to appear. The better we have remembered it, the larger they have been."
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1952">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						George W. Merck appears on the cover of TIME magazine
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1952a.png">
+					<![CDATA[
+						George W. Merck appears on the cover of TIME magazine.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1952a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1952</span><br>The cover story of TIME, "What the Doctor Ordered," profiles Merck's history, its business and George W. Merck.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1952">
+			<event categories="1,2,6">
+				<name>
+					<![CDATA[
+						Dr. Selman Waksman is awarded a Nobel prize
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1952b.png">
+					<![CDATA[
+						Dr. Selman Waksman receives a Nobel Prize for the discovery of <em>Streptomycin</em>
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1952b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1952</span><br>Dr. Selman Waksman, a researcher at Rutgers University, receives the Nobel Prize in Physiology or Medicine for his 
+						discovery of Streptomycin. The drug was developed with the support of the Merck Institute for Therapeutic Research 
+						through a formal agreement created in 1939.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1953">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck merges with Sharp & Dohme
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1953a.png">
+					<![CDATA[
+						Merck merges with the Philadelphia-based pharmaceutical company, Sharp & Dohme, Inc.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1953a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1953</span><br>Merck merges with Philadelphia-based Sharp & Dohme. The combined company now has a larger sales and distribution network to complement 
+						the research labs of both organizations. Subsequently, management creates an entirely new entity, Merck Sharp & Dohme International (MSDI), 
+						to market the company's pharmaceuticals around the world.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1953">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						<em>Little Miss Coppertone</em> makes her debut
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1953b.png">
+					<![CDATA[
+						<em>Little Miss Coppertone</em> makes her debut, advertising the COPPERTONE brand of suncare products.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1953b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1954</span><br><em>Little Miss Coppertone</em>, the Coppertone icon, makes her debut, advertising the COPPERTONE brand of suncare products.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1954">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						Merck introduces COGENTIN (benztropine mesylate)
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1954.png">
+					<![CDATA[
+						Merck introduces COGENTIN (benztropine mesylate).
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1954.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Merck introduces COGENTIN (benztropine mesylate).
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1955">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						John T. Connor is named president and CEO of Merck & Co.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1955b.png">
+					<![CDATA[
+						John T. Connor is named president and CEO, succeeding James J. Kerrigan.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1955b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1955</span><br>John T. Connor is named president and CEO of Merck & Co., succeeding James J. Kerrigan.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1955">
+			<event categories="1,2,3">
+				<name>
+					<![CDATA[
+						The first edition of the <em>Merck Veterinary Manual</em> is published
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1955.png">
+					<![CDATA[
+						The first edition of the <em>Merck Veterinary Manual</em> is published.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1955a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						The first edition of the <em>Merck Veterinary Manual</em> is published.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1956">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Dr. Maurice Hilleman joins Merck
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1956.png">
+					<![CDATA[
+						Dr. Maurice Hilleman joins the Merck Institute for Therapeutic Research.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1956.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1956</span><br>Dr. Maurice Hilleman joins Merck as the director of Virus and Cell Biology Research at the Merck Institute for Therapeutic Research in West Point, Pa.<br /><br /><a href="http://www.merck.com/about/featured-stories/vaccine-history.html" target="_blank" style="color:#e1cd00; font-weight: bold;">Learn more – Vaccines: Our History, Our Legacy</a>
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1957">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Plough, Inc. acquires The Coppertone Corporation
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1957.png">
+					<![CDATA[
+						Plough, Inc. acquires The Coppertone Corporation.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1957.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1957</span><br>Plough, Inc. acquires The Coppertone Corporation, a recognized leader in the field of suntan products.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1958">
+			<event categories="1,4">
+				<name>
+					<![CDATA[
+						Plough, Inc. introduces the first safety cap for children's products
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1958.png">
+					<![CDATA[
+						Plough, Inc. introduces the first safety cap for children's products.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1958.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Plough, Inc. introduces the first safety cap for children's products, 12 years before legislation is passed requiring drug companies to 
+						do so. The cap was developed by Abe Plough due to concerns that the orange flavored <em>St. Joseph Children's Aspirin</em> might increase accidental ingestions.  
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1959">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						Kelco begins research of xanthan gum
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1959.png">
+					<![CDATA[
+						Kelco begins research of xanthan gum.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1959.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Kelco Company pursues development of a promising new biogum (later named xanthan gum), a water-controlling agent used in a wide range of consumer and 
+						industrial products including pharmaceuticals. 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1959">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Plough, Inc. acquires three new companies
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1959a.png">
+					<![CDATA[
+						Plough, Inc. acquires PAAS, Southern Shellac and WPLO, Atlanta, Ga.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1959a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1959</span><br>Plough, Inc. acquires the PAAS Company, the largest manufacturer of Easter egg colors and kits; the Southern Shellac Company, the largest producer of 
+						liquid shellac in the U.S.; and radio station WPLO, Atlanta, Ga. 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1959">
+			<event categories="1,5">
+				<name>
+					<![CDATA[
+						The George W. Merck Loan Fund is established
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1959b.png">
+					<![CDATA[
+						The George W. Merck Loan Fund for medical interns and residents is established.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1959b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1959</span><br>The Merck Company Foundation establishes a $400,000 George W. Merck Loan Fund to assist medical interns and residents seeking postgraduate 
+						training in teaching hospitals before entering practice. The program intends to help 60 to 100 young doctors annually from 18 different medical schools.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1960">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Plough, Inc. acquires two household products brands
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1960.png">
+					<![CDATA[
+						Plough, Inc. acquires The Webb Products Company and Dicks-Armstrong-Pontius, both household products brands.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1960.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1960</span><br>Plough, Inc. acquires The Webb Products Companies of San Bernardino, Calif., and Norcross, Ga. Its nationally famous line of "do-it-yourself" household 
+						products are sold under the "Duratite" label and include Duratite Wood Dough and Surfacing Putty, the second largest selling products of their type in 
+						the country. Later that year, Plough, Inc. acquires Dicks-Armstrong-Pontius, Inc., a manufacturer of household products.  
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1961">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						The SPAFAS company is established
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1961a.png">
+					<![CDATA[
+						The SPAFAS, specific pathogen-free avian supplies, company is founded in Norwich, Conn.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1961a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1961</span><br>SPAFAS, an acronym for "specific pathogen-free avian supplies," is started in Norwich, Conn., by Raymond Davis and Dr. Roy Luginbuhl. 
+						The company develops and produces specific pathogen-free fertile eggs for medical research and vaccine production.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1961">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Plough Laboratories, Inc. is formed
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1961.png">
+					<![CDATA[
+						Plough, Inc. forms a pharmaceutical division, Plough Laboratories, Inc.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1961.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Plough, Inc. forms Plough Laboratories, Inc., a wholly owned subsidiary operating separately from the parent company as a pharmaceutical division in the prescription drug field.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1962">
+			<event categories="1,3">
+				<name>
+					<![CDATA[
+						The Pimpri, India manufacturing facility opens
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1962.png">
+					<![CDATA[
+						Merck works with government of India to open a manufacturing plant in Pimpri.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1962.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1962</span><br>Merck works with the government of India to open a manufacturing facility in Pimpri, India. 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1963">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						Merck introduces RUBEOVAX (Measles Virus Vaccine, Live, Attenuated)
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1963.png">
+					<![CDATA[
+						Merck introduces RUBEOVAX (Measles Virus Vaccine, Live, Attenuated).
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1963.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1963</span><br>Merck introduces RUBEOVAX (Measles Virus Vaccine, Live, Attenuated).<br /><br /><a href="http://www.merck.com/about/featured-stories/vaccine-history.html" target="_blank" style="color:#e1cd00; font-weight: bold;">Learn more – Vaccines: Our History, Our Legacy</a>
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1965">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Henry W. Gadsden is named president and CEO of Merck & Co., Inc.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1965.png">
+					<![CDATA[
+						Henry W. Gadsden succeeds John T. Connor as president and CEO of Merck & Co., Inc.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1965.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1965</span><br>Henry W. Gadsden succeeds John T. Connor as president and CEO of Merck & Co, Inc. 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1967">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Plough, Inc. acquires Maybelline cosmetics
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1967a.png">
+					<![CDATA[
+						Plough, Inc. acquires Maybelline cosmetics.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1967a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1967</span><br>Plough, Inc. acquires Maybelline cosmetics.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1967">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						Merck introduces MUMPSVAX (Mumps Virus Vaccine, Live)
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1967.png">
+					<![CDATA[
+						Merck introduces   MUMPSVAX (Mumps Virus Vaccine, Live) developed by Dr. Maurice Hilleman
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1967.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Merck introduces MUMPSVAX (Mumps Virus Vaccine, Live) developed by Dr. Maurice Hilleman with a culture from the throat of his young daughter, Jeryl Lynn.<br /><br /><a href="http://www.merck.com/about/featured-stories/vaccine-history.html" target="_blank" style="color:#e1cd00; font-weight: bold;">Learn more – Vaccines: Our History, Our Legacy</a>
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1968">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck & Co., Inc. acquires Calgon Corporation
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1968.png">
+					<![CDATA[
+						Merck & Co., Inc. acquires the water treatment chemicals and services company Calgon Corporation.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1968.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1968</span><br>Merck & Co., Inc. acquires Calgon Corporation, one of the nation's leading suppliers of water treatment chemicals and services.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1969">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						Merck introduces MERUVAX II &nbsp;(Rubella Virus Vaccine, Live)
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1969a.png">
+					<![CDATA[
+						Merck introduces MERUVAX II &nbsp;(Rubella Virus Vaccine, Live).
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1969a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1969</span><br>After nine years of research, Merck introduces MERUVAX II &nbsp;(Rubella Virus Vaccine, Live).<br /><br /><a href="http://www.merck.com/about/featured-stories/vaccine-history.html" target="_blank" style="color:#e1cd00; font-weight: bold;">Learn more – Vaccines: Our History, Our Legacy</a>
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1969">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck & Co, Inc. acquires Chibret Laboratories
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1969b.png">
+					<![CDATA[
+						Merck & Co, Inc. acquires Chibret Laboratories.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1969b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1969</span><br>Chibret Laboratories, a major France-based manufacturer of ophthalmic products, is acquired by Merck.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1971">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Schering Corporation and Plough, Inc. merge
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1971a.png">
+					<![CDATA[
+						Schering Corporation merges with consumer products company Plough, Inc.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1971a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1971</span><br>Schering Corporation and Plough, Inc. merge to form Schering-Plough Corporation. Abe Plough is made Chairman of the Board.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1971">
+
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						Merck introduces M-M-R II (Measles, Mumps and Rubella Virus Vaccine, Live)
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1971.png">
+					<![CDATA[
+						Merck introduces M-M-R II (Measles, Mumps and Rubella Virus Vaccine, Live).
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1971.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Merck introduces M-M-R II (Measles, Mumps and Rubella Virus Vaccine, Live).<br /><br /><a href="http://www.merck.com/about/featured-stories/vaccine-history.html" target="_blank" style="color:#e1cd00; font-weight: bold;">Learn more – Vaccines: Our History, Our Legacy</a>
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1971">
+			<event categories="2">
+				<name>
+					<![CDATA[
+						Merck introduces DEPTAVAC-HVT (Marek's disease vaccine) 
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1971.png">
+					<![CDATA[
+						Merck introduces DEPTAVAC-HVT (Marek's disease vaccine) for poultry.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1971.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Maurice Hilleman introduces veterinary DEPTAVAC-HVT (Marek's disease vaccine).<br /><br /><a href="http://www.merck.com/about/featured-stories/vaccine-history.html" target="_blank" style="color:#e1cd00; font-weight: bold;">Learn more – Vaccines: Our History, Our Legacy</a>
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1972">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						The Calgon Consumer Products Company Inc. is established
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1972.png">
+					<![CDATA[
+						Calgon Consumer Products Company Inc. is established as the consumer products division of Merck & Co., Inc.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1972.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						The Consumer Products Division is established as a separate subsidiary of Merck and renamed the Calgon Consumer Products Company Inc. 
+						The new company is responsible for the development, marketing and sales of all Calgon and Merck brands of consumer products and non-prescription 
+						drugs. Robert A. Fallon is named president.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1973">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck totals more than 1 billion dollars in sales this year 
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1973.png">
+					<![CDATA[
+						Merck's annual sales and total number of employees reach record numbers.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1973.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Merck has its first billion-dollar year in sales, while total number of employees reaches 25,000 for the first time.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1974">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						Merck scientists produce the first analyzable sample of a broad-spectrum antibiotic
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1974.png">
+					<![CDATA[
+						Merck scientists produce the first analyzable sample of a broad-spectrum antibiotic.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1974.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1974</span><br>Research teams under the leadership of Fred and Jean Kahan produce the first analyzable sample of a broad-spectrum antibiotic.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1974-1976">
+			<event categories="2,6">
+				<name>
+					<![CDATA[
+						COPPERTONE Solar Research Center helps determine the Sun Protection Factors
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1974-1976.png">
+					<![CDATA[
+						COPPERTONE Solar Research Center helps determine the Sun Protection Factors.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1974-1976.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1974-1976</span><br>COPPERTONE Solar Research Center works with the Food and Drug Administration to determine the Sun Protection Factors (SPF).
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1975">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						Merck gains FDA approval of drug for SINEMET (levodopa and carbidopa)
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1975.png">
+					<![CDATA[
+						<br>Merck gains FDA approval of SINEMET (levodopa and carbidopa).
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1975.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1975</span> <br />After 15 years of research, Merck gains FDA approval of SINEMET (levodopa and carbidopa).
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1976">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						John J. Horan becomes  president and CEO of Merck & Co., Inc.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1976.png">
+					<![CDATA[
+						John J. Horan succeeds Henry Gadsden as  president and CEO of Merck & Co., Inc.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1976.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1976</span><br>John J. Horan succeeds Henry Gadsden as  president and CEO of Merck & Co., Inc. 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1978">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Richard J. Bennet becomes CEO of Schering-Plough Corporation
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1978a.png">
+					<![CDATA[
+						Richard J. Bennet becomes CEO of Schering-Plough Corporation.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1978a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1978</span><br>Richard J. Bennet becomes CEO of Schering-Plough Corporation.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1978">
+			<event categories="2">
+				<name>
+					<![CDATA[
+						Merck introduces PNEUMOVAX (pneumococcal vaccine polyvalent)
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1978.png">
+					<![CDATA[
+						<span class="date">1978</span><br>Merck introduces PNEUMOVAX (pneumococcal vaccine polyvalent).
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1978.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Merck introduces PNEUMOVAX (pneumococcal vaccine polyvalent).<br /><br /><a href="http://www.merck.com/about/featured-stories/vaccine-history.html" target="_blank" style="color:#e1cd00; font-weight: bold;">Learn more – Vaccines: Our History, Our Legacy</a>
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1979">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Schering-Plough acquires Scholl, Inc.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1979a.png">
+					<![CDATA[
+						Schering-Plough acquires the foot care firm Scholl, Inc.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1979a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1979</span><br>Schering-Plough acquires Scholl, Inc., the 74-year-old Chicago, Ill., foot care firm.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1979">
+			<event categories="2">
+				<name>
+					<![CDATA[
+						Schering-Plough invests in biotechnology research
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1979.png">
+					<![CDATA[
+						Schering-Plough invests $8 million in the biotech startup Biogen.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1979.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1982</span><br>Robert Luciano, then senior vice president and future CEO of Schering-Plough, convinces the company's current CEO to invest $8 million in the small startup biotech company Biogen. 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1980">
+			<event categories="6">
+				<name>
+					<![CDATA[
+						Merck develops one of the first ever company-wide diversity training programs
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1980.png">
+					<![CDATA[
+						Merck develops one of the first ever company-wide diversity training programs.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1980.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1980</span><br>Merck is one of the first companies to develop an affirmative action training program and to deliver it to all employees, from senior executives to shop floor workers. Subsequently 125 major U.S. corporations license the program.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1982">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Robert P. Luciano becomes CEO of Schering-Plough Corporation
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1982.png">
+					<![CDATA[
+						Robert P. Luciano becomes CEO of Schering-Plough Corporation.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1982.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Robert P. Luciano becomes CEO of Schering-Plough Corporation and leads the company into the field of biotechnology.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1984">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Schering-Plough donates 50,000 rock and roll records and tapes to Memphis, Tenn., colleges and universities
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1984.png">
+					<![CDATA[
+						Schering-Plough donates 50,000 rock and roll records and tapes to Memphis, Tenn., colleges and universities.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1984.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Schering-Plough donates approximately 50,000 records and tape recordings of original releases by Memphis, Tenn., recording artists such as Elvis Presley, 
+						Jerry Lee Lewis and Isaac Hayes to three Memphis colleges and universities. The collection comes from some of the 12 stations formerly owned by Plough Broadcasting.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1985">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Dr. P. Roy Vagelos is named president and CEO of Merck & Co., Inc.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1985.png">
+					<![CDATA[
+						Dr. P. Roy Vagelos is named president and CEO of Merck & Co., Inc.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1985.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1985</span><br>Dr. P. Roy Vagelos is named president and CEO of Merck & Co., Inc. 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1985">
+			<event categories="6">
+				<name>
+					<![CDATA[
+						<em>Working Mother</em> magazine names Merck one of the top five companies in its annual "Best Companies" list
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1985b.png">
+					<![CDATA[
+						<em>Working Mother</em> magazine names Merck one of the top five companies in its annual "Best Companies" list
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1985b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<em>Working Mother</em> magazine inaugurated its "best companies" list in the mid-1980s. Merck has been named to the list consistently since then.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1986">
+			<event categories="2,4,6">
+				<name>
+					<![CDATA[
+						Merck introduces new genetically engineered vaccine for humans
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1986.png">
+					<![CDATA[
+						Merck introduces a new genetically engineered vaccine approved for use in humans.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1986.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						A research team led by Dr. Edward M. Scolnick introduces a new genetically engineered vaccine for humans. It is made from recombinant DNA instead of blood plasma.<br /><br /><a href="http://www.merck.com/about/featured-stories/vaccine-history.html" target="_blank" style="color:#e1cd00; font-weight: bold;">Learn more – Vaccines: Our History, Our Legacy</a>
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1987">
+			<event categories="2,3,5,6">
+				<name>
+					<![CDATA[
+						Merck commits to donate MECTIZAN
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1987a.png">
+					<![CDATA[
+						Merck commits to donate MECTIZAN &mdash; as much as needed for as long as needed &mdash; with the goal to help eliminate river blindness. 
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1987a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1987</span><br>Merck CEO Dr. Roy Vagelos announces Merck's commitment to donate MECTIZAN – as much as needed for as long as needed -- with the goal to help eliminate river 
+						blindness. In order to reach this goal, Merck leaders recognize that many organizations with unique skills will need to work together as a team. Thus, the 
+						Mectizan Donation Program (MDP) is created as a ground-breaking public-private partnership that becomes influential in the development of a number of other 
+						drug donation programs.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1987">
+			<event categories="2,4,6">
+				<name>
+					<![CDATA[
+						Merck introduces the first of the statin family of medicines
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1987b.png">
+					<![CDATA[
+						Merck introduces the first of the statin family of medicines.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1987b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Merck's introduces the first of the statin family of medicines to be approved by the FDA.  It emerges from 35 years of study by scientists in the U.S. and 
+						abroad, at universities, independent laboratories and at Merck.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1987">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck is named America's most admired and most innovative company
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1987c.png">
+					<![CDATA[
+						Merck is named America's most admired company by <em>Fortune</em> magazine and most innovative company by <em>Forbes</em> magazine.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1987c.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1987</span><br>For the first of seven consecutive years, <em>Fortune</em> magazine names Merck America's most admired corporation. And, in its annual industry survey, <em>Forbes</em> magazine 
+						names Merck the most innovative company in the pharmaceutical industry. 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1989">
+			<event categories="1,2">
+				<name>
+					<![CDATA[
+						Johnson & Johnson  Merck Consumer Pharmaceuticals Co. is established
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1989.png">
+					<![CDATA[
+						Johnson & Johnson Merck Consumer Pharmaceuticals Co. is established in the over-the-counter healthcare business.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1989.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						The formation of Johnson & Johnson Merck Consumer Pharmaceuticals Co. establishes Merck's presence in the over-the-counter (OTC) healthcare business.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1990">
+			<event categories="1,2,5">
+				<name>
+					<![CDATA[
+						The Children's Inn opens at the National Institutes of Health (NIH)
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1990a.png">
+					<![CDATA[
+						The Children's Inn opens as a residence for children being treated at the National Institutes of Health and their families.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1990a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1989</span><br>The Children's Inn, a residence for pediatric patients and their families on the campus of the National Institutes of Health in Bethesda, Md., opens its doors. The guest house, built 
+						with a $3.7 million grant from Merck, allows children and their families to live in a homelike environment while the children receive innovative treatments 
+						at the NIH facilities. 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod><timePeriod year="1990">
+			<event categories="1,3">
+				<name>
+					<![CDATA[
+						Merck publishes <em>The Merck Manual of Geriatrics</em>
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1990b.png">
+					<![CDATA[
+						Merck publishes the first edition of <em>The Merck Manual of Geriatrics</em>.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1990b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1990</span><br>In response to a growing elderly population, Merck publishes <em>The Merck Manual of Geriatrics</em>. 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1991">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck & Co., Inc. celebrates its 100-year anniversary
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1991a.png">
+					<![CDATA[
+						Merck & Co., Inc. celebrates its 100-year anniversary.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1991a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1991</span><br>Merck celebrates its 100th anniversary.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1991">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						The FDA approves ZOCOR (simvastatin)
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1991b.png">
+					<![CDATA[
+						The FDA approves ZOCOR (simvastatin).
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1991b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						The FDA approves ZOCOR (simvastatin) for use in the U.S.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1992">
+			<event categories="6">
+				<name>
+					<![CDATA[
+						Merck amends its EEO policy to include sexual orientation
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1992.png">
+					<![CDATA[
+						Merck amends its EEO policy to include sexual orientation.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1992.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Merck demonstrates a commitment to lesbian, gay, bisexual and transgender equal rights by voluntarily amending its corporate Equal Employment Opportunity policy to include sexual orientation.<br><br>In 2002, Merck participates in the first Human Rights Campaign Corporate Equality Index, which assesses lesbian, gay, bisexual, and transgender equality at workplaces in the U.S. In 2006 Merck achieves a 100% score in the Index.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1993">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck & Co., Inc. acquires Medco Containment Services, Inc.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1993.png">
+					<![CDATA[
+						Merck & Co., Inc. acquires Medco Containment Services, Inc. to create America's first coordinated pharmaceutical care company.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1993.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Merck acquires Medco Containment Services, Inc. to create America's first coordinated pharmaceutical care company.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1994">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Raymond V. Gilmartin becomes president and CEO of Merck & Co., Inc.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1994a.png">
+					<![CDATA[
+						Raymond V. Gilmartin succeeds P. Roy Vagelos as president and CEO of Merck & Co., Inc.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1994a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1994</span><br>Merck announces that Raymond V. Gilmartin will succeed retiring Dr. Roy Vagelos as Merck president and CEO, becoming the first outsider to hold either position 
+						in the company's 103-year history. 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1994">
+			<event categories="2,3,6">
+				<name>
+					<![CDATA[
+						Schering-Plough promotes the new Ultraviolet Index
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1994b.png">
+					<![CDATA[
+						Schering-Plough promotes the National Weather Service's new Ultraviolet Index.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1994b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Schering-Plough teams with a coalition of medical, environmental, consumer and public health groups to promote the National Weather Service's new Ultraviolet (UV) 
+						Index. The UV Index will provide daily readings of the UV risk levels as part of local forecasts in 58 cities.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1994">
+			<event categories="3,5">
+				<name>
+					<![CDATA[
+						A World Bank program to expand distribution of MECTIZAN is announced
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1994c.png">
+					<![CDATA[
+						A World Bank program to expand distribution of MECTIZAN is announced.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1994c.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1994</span><br>Retired Merck Chairman Dr. Roy Vagelos and former U.S. President Jimmy Carter announce a new World Bank grant program to expand distribution of MECTIZAN 
+						through the Mectizan Donation Program for the treatment of river blindness.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1995">
+			<event categories="2">
+				<name>
+					<![CDATA[
+						FOSAMAX (alendronate sodium) is approved by the FDA
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1995a.png">
+					<![CDATA[
+						FOSAMAX (alendronate sodium) is approved by the FDA.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1995a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						The FDA approves FOSAMAX (alendronate sodium).
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1995">
+			<event categories="4,5,6">
+				<name>
+					<![CDATA[
+						Merck and Washington University release the first human gene sequences identified in the Merck Gene Index.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1995a.png">
+					<![CDATA[
+						Merck and Washington University release the first human gene sequences identified in their collaborative project, the Merck Gene Index
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1995a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Merck and Washington University announce the public release of the first 15,000 expressed human gene sequences from their collaborative effort to 
+						identify cDNA clones for expressed human genes.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1995">
+			<event categories="2,3,5">
+				<name>
+					<![CDATA[
+						Merck announces the CRIXIVAN Program
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1995a.png">
+					<![CDATA[
+						Merck announces the CRIXIVAN Program while the drug is still in Phase III clinical trials.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1995c.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						In conjunction with the U.S. Food and Drug Administration, patients and advocacy groups, Merck decides to offer the Crixivan Program.  Through 
+						this program, Merck will make the drug available at no cost to selected patients before it is commercially available. CRIXIVAN is in Phase III 
+						of clinical trials at the time.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1995">
+			<event categories="1,3">
+				<name>
+					<![CDATA[
+						Merck unveils <em>A Gift of Sight</em> statue at world headquarters in Whitehouse Station, N.J.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1995d.png">
+					<![CDATA[
+						Merck unveils a seven-foot bronze statue, <em>A Gift of Sight</em>, at its world headquarters in Whitehouse Station, N.J.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1995d.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1995</span><br>Merck unveils a seven-foot bronze statue, <em>A Gift of Sight</em>, at its world headquarters in Whitehouse Station, N.J.  Created by R.T. 
+						Wallen of Alaska, the statue portrays a young African boy leading a blind man and has come to symbolize the fight to eliminate river blindness. 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1995">
+			<event categories="3,5">
+				<name>
+					<![CDATA[
+						The World Bank launches the African Program for Onchocerciasis
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1995e.png">
+					<![CDATA[
+						The World Bank launches a twelve-year program to control river blindness is Africa.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1995e.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1995</span><br>The World Bank launches the African Program for Onchocerciasis Control (APOC), a new twelve-year program to control river blindness in Africa using Merck's donation of <em>Mectizan</em>.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1995">
+			<event categories="1,5">
+				<name>
+					<![CDATA[
+						Merck and UNCF team up to create the UNCF/Merck Science Initiative
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1995f.png">
+					<![CDATA[
+						Merck and UNCF team up to create the UNCF/Merck Science Initiative.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1995f.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1995</span><br>Merck and UNCF (United Negro College Fund) team up to create the UNCF/Merck Science Initiative to help young African-American scientists and researchers 
+						achieve their full potential.  Established with a $20 million pledge from The Merck Company Foundation, the initiative provides financial support, hands-on training and mentoring.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1996">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Richard J. Kogan becomes CEO of Schering-Plough Corporation
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1996a.png">
+					<![CDATA[
+						Richard J. Kogan becomes CEO of Schering-Plough Corporation.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1996a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1996</span><br>Richard J. Kogan becomes CEO of Schering-Plough Corporation.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1996">
+			<event categories="1,2,4">
+				<name>
+					<![CDATA[
+						Merck opens laboratory devoted to human genetics
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1996.png">
+					<![CDATA[
+						Merck opens a laboratory devoted to human genetics at its West Point, Pa. facility. 
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1996.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Merck opens a new laboratory devoted to human genetics at its West Point, Pa., facility. The company also expands its genomics research 
+						and gene therapy projects by recruiting leading researchers.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1996">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						CRIXIVAN (INDINAVIR SULFATE) is approved by the FDA
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1996.png">
+					<![CDATA[
+						CRIXIVAN (INDINAVIR SULFATE) is approved by the FDA after a review period of 42 days.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1996.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						CRIXIVAN (INDINAVIR SULFATE) is approved by the FDA after a review period of 42 days. 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1996">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Dr. Maurice Hilleman receives a Children's Vaccine Initiative Lifetime Achievement Award
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1996d.png">
+					<![CDATA[
+						Dr. Maurice Hilleman receives a Lifetime Achievement Award from The Children's Vaccine Initiative of the World Health Organization.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1996d.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1996</span><br>The Children's Vaccine Initiative of the World Health Organization grants its Lifetime Achievement Award to Dr. Maurice Hilleman, director of 
+						the Merck Institute for Therapeutic Research.<br /><br /><a href="http://www.merck.com/about/featured-stories/vaccine-history.html" target="_blank" style="color:#e1cd00; font-weight: bold;">Learn more – Vaccines: Our History, Our Legacy</a>
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1997">
+			<event categories="1,2,4">
+				<name>
+					<![CDATA[
+						Merck forms the Merck Genome Research Institute
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1997.png">
+					<![CDATA[
+						Merck forms the Merck Genome Research Institute to research human genetic information.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1997.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Merck launches the Merck Genome Research Institute, Inc. to develop scientific technology that leads to linking human genetic traits and resolving the biological function of disease genes.  The initiative provides additional support to the Merck Gene Index project, a public database of gene sequences launched in 1994 that gives scientists worldwide unrestricted access to gene sequences and their cDNA clones.  
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1997">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Dr. Maurice Hilleman is awarded the Albert B. Sabin Gold Medal Award
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1997b.png">
+					<![CDATA[
+						Dr. Maurice Hilleman is awarded the Sabin Gold Medal Award by the Albert B. Sabin Foundation.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1997b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1997</span><br>The Albert B. Sabin Foundation awards Dr. Maurice Hilleman, director of the Merck Institute for Therapeutic Research, the Sabin Gold Medal Award. 
+						Dr. Hilleman is credited with developing more vaccines than any other person in history and pioneering the development of numerous live, killed and combination vaccines.<br /><br /><a href="http://www.merck.com/about/featured-stories/vaccine-history.html" target="_blank" style="color:#e1cd00; font-weight: bold;">Learn more – Vaccines: Our History, Our Legacy</a>
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1997">
+			<event categories="1,3">
+				<name>
+					<![CDATA[
+						<em>The Merck Manual - Home Edition</em> is first published
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1997c.png">
+					<![CDATA[
+						<em>The Merck Manual - Home Edition</em> is first published.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1997c.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1997</span><br><em>The Merck Manual of Medical Information - Home Edition</em> is first published. Based on the <em>Merck Manual</em>, the world's best-selling medical reference book, The Home 
+						Edition is designed for consumers in easy-to-understand language. The first edition sells more than two million copies.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1997">
+			<event categories="1,2">
+				<name>
+					<![CDATA[
+						Merck and Rhone-Poulenc combine to form Merial, the world's largest animal health and poultry genetics company 
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1997.png">
+					<![CDATA[
+						Merck and Rhone-Poulenc combine to form Merial, the world's largest animal health and poultry genetics company.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1997.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Merck and Rhone-Poulenc combine their animal health and poultry genetics businesses to form the stand-alone, joint venture Merial. 
+						Merial becomes the world's largest company dedicated to the discovery, manufacture and marketing of veterinary pharmaceuticals and vaccines.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="1999">
+			<event categories="2,3,5">
+				<name>
+					<![CDATA[
+						Merck helps form the African Comprehensive HIV/AIDS Partnerships
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_1999.png">
+					<![CDATA[
+						Merck joins with the Bill and Melinda Gates Foundation and the Republic of Botswana to form the African Comprehensive HIV/AIDS Partnerships.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/1999.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">1999</span><br>Merck joins with the Bill and Melinda Gates Foundation and the Republic of Botswana to form the African Comprehensive HIV/AIDS Partnerships (ACHAP). Merck 
+						and the Gates Foundation each commit $56.5 million to help Botswana implement a national HIV and AIDS strategy, with Merck also donating medicines.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2002">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck announces plans to make Merck-Medco a separate company
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2002b.png">
+					<![CDATA[
+						Merck announces plans to make Merck-Medco a separate company.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2002b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Merck announces plans to make Merck-Medco, a pharmacy benefits management subsidiary, a separate, publicly-traded company.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2003">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Fred Hassan becomes CEO of Schering-Plough
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2003.png">
+					<![CDATA[
+						Fred Hassan becomes CEO of Schering-Plough.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2003.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">2003</span><br>Fred Hassan becomes CEO of Schering-Plough.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2004">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Banyu Pharmaceutical Co., Ltd. becomes a subsidiary of Merck
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2004.png">
+					<![CDATA[
+						Banyu Pharmaceutical Co., Ltd. becomes a wholly owned subsidiary of Merck.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2004.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Building on a 50-year relationship, Banyu Pharmaceutical Co., Ltd. becomes a wholly owned subsidiary of Merck. Banyu is Merck's largest 
+						wholly owned subsidiary outside the U.S. and now extends the company's network of wholly owned operations to every major market in the world.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2005">
+			<event categories="2,3,5">
+				<name>
+					<![CDATA[
+						Merck establishes the Merck Childhood Asthma Network
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2005c.png">
+					<![CDATA[
+						Merck establishes the Merck Childhood Asthma Network.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2005c.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">2005</span><br>Merck announces the creation of the Merck Childhood Asthma Network (MCAN), a separately incorporated non-profit organization based in Washington, D.C., 
+						that will address the complex and persistent problem of asthma among children in the U.S. The Merck Company Foundation pledges to support the initiative 
+						with a commitment of up to $20 million over a four year period.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2005">
+			<event categories="3,5">
+				<name>
+					<![CDATA[
+						Merck launches the Merck Prescription Discount Program
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2005.png">
+					<![CDATA[
+						Merck launches the Merck Prescription Discount Program to help eligible uninsured Americans get the Merck medicines they need.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2005.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Merck launches the Merck Prescription Discount Program, a comprehensive prescription drug discount program designed to help eligible patients without drug coverage in the U.S.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2005">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Richard T. Clark named CEO and president of Merck & Co., Inc.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2005a.png">
+					<![CDATA[
+						Richard T. Clark succeeds Raymond V. Gilmartin as CEO and president of Merck & Co., Inc.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2005a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">2005</span><br>Richard T. Clark succeeds Raymond V. Gilmartin as president and CEO of Merck & Co., Inc.  Mr. Clark was most recently president of the Merck Manufacturing Division.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2005">
+			<event categories="2,3">
+				<name>
+					<![CDATA[
+						Merck establishes the Comprehensive HIV/AIDS Prevention and Control Cooperative Project
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2005.png">
+					<![CDATA[
+						Merck and the Ministry of Health of the People's Republic of China establish the Comprehensive HIV/AIDS Prevention and Control Cooperative Project.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2005.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						The Ministry of Health of the People's Republic of China and Merck & Co., Inc. officially establish the Comprehensive HIV/AIDS Prevention and Control Cooperative 
+						Project, a public-private partnership for HIV/AIDS prevention, treatment and care in China.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2005">
+			<event categories="2,3">
+				<name>
+					<![CDATA[
+						The Merck Childhood Asthma Network awards $10 million in grants
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2005c.png">
+					<![CDATA[
+						The Merck Childhood Asthma Network awards $10 million in grants to major urban areas facing health disparities.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2005c.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">2005</span><br>The Merck Childhood Asthma Network awards $10 million in grants to five innovative asthma programs in Chicago, Los Angeles, New York City, Philadelphia,
+						and San Juan, Puerto Rico.  The programs aim to help low-income, urban populations with high rates of pediatric asthma. 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		
+		<timePeriod year="2006">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						JANUVIA (sitagliptin) is approved by the FDA
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2006.png">
+					<![CDATA[
+						The FDA approves JANUVIA (sitagliptin).
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2006.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						The FDA approves JANUVIA (sitagliptin). 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2006">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						GARDASIL [Human Papillomavirus Quadrivalent (Types 6, 11, 16, and 18) Vaccine, Recombinant] is approved by the FDA
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2006.png">
+					<![CDATA[
+						The FDA approves GARDASIL [Human Papillomavirus Quadrivalent (Types 6, 11, 16, and 18) Vaccine, Recombinant].
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2006.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						The FDA approves GARDASIL [Human Papillomavirus Quadrivalent (Types 6, 11, 16, and 18) Vaccine, Recombinant].<br /><br /><a href="http://www.merck.com/about/featured-stories/vaccine-history.html" target="_blank" style="color:#e1cd00; font-weight: bold;">Learn more – Vaccines: Our History, Our Legacy</a>
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2007">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Schering-Plough and Organon BioSciences NV become one company
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2007.png">
+					<![CDATA[
+						Schering-Plough and Organon BioSciences NV become one company.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2007.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Schering-Plough and Organon BioSciences NV become one company.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2009">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck and Schering-Plough announce plans to merge
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2009.png">
+					<![CDATA[
+						Merck and Schering-Plough announce plans to merge. 
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2009.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Merck and Schering-Plough announce that their Boards of Directors have unanimously approved a merger agreement under which the two companies 
+						will combine under the name Merck.  Merck Chairman, President and CEO Richard T. Clark will lead the combined company.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2009">
+			<event categories="1,3,4">
+				<name>
+					<![CDATA[
+						Merck introduces The <em>Merck Manual Home Health Handbook</em> and iPhone application
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2009a.png">
+					<![CDATA[
+						Merck introduces <em>The Merck Manual Home Health Handbook</em> and iPhone application for <em>The Merck Manual - Home Edition</em>.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2009a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">2009</span><br>Merck releases <em>The Merck Manual Home Health Handbook</em> and an iPhone application, <em>The Merck Manual - Home Edition</em>. <em>The Merck Manual Home Health 
+						Handbook</em> is one of the most comprehensive medical books addressing health issues across all stages of life.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2009">
+			<event categories="6">
+				<name>
+					<![CDATA[
+						Merck named a top company for executive women
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2009.png">
+					<![CDATA[
+						Merck named a top company for executive women.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2009.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						The National Association for Female Executives names Merck to its "Top Companies for Executive Women" list for the first time. 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2010">
+			<event categories="3,5">
+				<name>
+					<![CDATA[
+						The Merck U.S. Patient Assistance Program is significantly expanded
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/2010.png">
+					<![CDATA[
+						The Merck U.S. Patient Assistance Program is significantly expanded
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2010.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						More than 50 years after it was first established Merck significantly expanded the number of medicines available through its Merck Helps&trade; patient assistance programs. That is why the company provides certain medicines and adult vaccines for free to eligible individuals who do not have prescription drug or health coverage.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2011">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Kenneth C. Frazier becomes CEO of Merck & Co., Inc.
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2011a.png">
+					<![CDATA[
+						Kenneth C. Frazier succeeds Richard T. Clark as Merck's new CEO. 
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2011a.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">2011</span><br>Kenneth C. Frazier succeeds Richard T. Clark as Merck's new CEO.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2011">
+			<event categories="2,3">
+				<name>
+					<![CDATA[
+						Merck launches its <em>Merck for Mothers</em> initiative
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2011b.png">
+					<![CDATA[
+						Merck launches its <em>Merck for Mothers</em> initiative to save the lives of mothers.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2011b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">2011</span><br>Merck launches the 10-year <em>Merck for Mothers</em> initiative, a global effort to bring the issue of maternal mortality to the forefront of global 
+						consciousness, develop new technologies and provide lifesaving solutions to women around the world.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2012">
+			<event categories="1,2,3">
+				<name>
+					<![CDATA[
+						The Mectizan Donation Program celebrates its 25th anniversary
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2012.png">
+					<![CDATA[
+						The Mectizan Donation Program celebrates its 25th anniversary.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2012.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">2012</span><br>The Mectizan Donation Program celebrates its 25th anniversary.  With the efforts of a variety of partners, including Merck's donation of more than 1 billion treatments of Mectizan to more than 117,000 communities in 28 countries in Africa, six countries in Latin America, and in Yemen, river blindness disease transmission has been interrupted – meaning no new cases have been identified – in four of the six affected countries in Latin America and nine regions in five African countries. Merck CEO Ken Frazier and former CEO Roy Vagelos participate in anniversary celebrations. 
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2013">
+			<event categories="2,3,5">
+				<name>
+					<![CDATA[
+						<em>Merck for Mothers</em> launches India initiative to help reduce maternal mortality
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2013b.png">
+					<![CDATA[
+						<em>Merck for Mothers</em> launches India initiative to help reduce maternal mortality.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2013b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">2013</span><br><a href="http://www.merckformothers.com/" target="_blank" style="color:#e1cd00; font-weight: bold;">Merck for Mothers</a> launches its India initiative.  It partners with three leading non-governmental organizations to improve the quality of healthcare that pregnant women in India receive through the private sector.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2013">
+			<event categories="1,2,3,5">
+				<name>
+					<![CDATA[
+						Merck applauds Colombia for verification of elimination of river blindness
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2013c.png">
+					<![CDATA[
+						Merck applauds Colombia for verification of elimination of river blindness.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2013c.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Merck applauds the government of Colombia, whose work with the MECTIZAN Donation Program and The Carter Center-sponsored Onchocerciasis Elimination Program for the Americas led to the Pan American Health Organization, the World Health Organization's Regional Office for the Americas (PAHO/WHO), verification of Colombia as the first country in the world to eliminate the transmission of river blindness (onchocerciasis), using MECTIZAN&reg; (ivermectin). Onchocerciasis is one of the leading causes of preventable blindness worldwide.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2014">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck completes acquisition of Idenix
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2014.png">
+					<![CDATA[
+						Merck completes acquisition of Idenix.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2014.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Merck completes tender offer to acquire Idenix.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2014">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						FDA approves BELSOMRA® (suvorexant)
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2014.png">
+					<![CDATA[
+						FDA approves BELSOMRA® (suvorexant).
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2014.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						The U.S. Food and Drug Administration approves BELSOMRA® (suvorexant).
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2014">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						Merck receives accelerated approval of KEYTRUDA® (pembrolizumab)
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2014.png">
+					<![CDATA[
+						Merck receives accelerated approval of KEYTRUDA® (pembrolizumab).
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2014.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						The U.S. Food and Drug Administration approves KEYTRUDA® (pembrolizumab). It had previously received breakthrough therapy designation from the FDA.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2014">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck completes sale of consumer care business to Bayer AG for $14.2 billion
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2014.png">
+					<![CDATA[
+						Merck completes sale of consumer care business to Bayer AG for $14.2 billion.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2014.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						Merck announces completion of the sale of the Merck Consumer Care (MCC) business to Bayer AG.  Bayer acquires Merck's over-the-counter business, including the global trademark and prescription rights for CLARITIN and AFRIN, for $14.2 billion.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2014">
+			<event categories="1,2,3,4,5,6">
+				<name>
+					<![CDATA[
+						Merck congratulates Ecuador as second country to receive PAHO/WHO verification of elimination of river blindness
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2014b.png">
+					<![CDATA[
+						Merck congratulates Ecuador as second country to receive PAHO/WHO verification of elimination of river blindness.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2014b.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">2014</span><br>Merck applauds the government of Ecuador on being the second country in the world to receive World Health Organization (WHO) verification of the elimination of river blindness (onchocerciasis) using MECTIZAN® (ivermectin).<br><br>
+						Ecuador worked in partnership with the MECTIZAN Donation Program and The Carter Center-sponsored Onchocerciasis Elimination Program for the Americas, as well as the Pan American Health Organization, the Regional Office for the Americas of the World Health Organization (PAHO/WHO), to eliminate onchocerciasis – one of the leading causes of preventable blindness worldwide.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2014">
+			<event categories="2,4">
+				<name>
+					<![CDATA[
+						FDA approves GARDASIL®9  (Human Papillomavirus 9-valent Vaccine, Recombinant)
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2014.png">
+					<![CDATA[
+						FDA approves GARDASIL®9  (Human Papillomavirus 9-valent Vaccine, Recombinant).
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2014.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						The U.S. Food and Drug Administration approves GARDASIL®9 (Human Papillomavirus 9-valent Vaccine, Recombinant).
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+		<timePeriod year="2015">
+			<event categories="1">
+				<name>
+					<![CDATA[
+						Merck completes tender offer to acquire Cubist Pharmaceuticals
+					]]>
+				</name>
+				<shortDescription imageUrl="assets/images/popup_2015.png">
+					<![CDATA[
+						Merck completes tender offer to acquire Cubist Pharmaceuticals.
+					]]>
+				</shortDescription>
+				<fullDescription imageUrl="assets/images/2015.png"
+							     imageOffsetX="-25"
+							     imageOffsetY="-60"
+								 textColor="#37424a">
+					<![CDATA[
+						<span class="date">2015</span><br>Merck completes the tender offer to acquire Cubist Pharmaceuticals, Inc.  Cubist becomes a wholly owned subsidiary of Merck, augmenting Merck’s strong foundation and opportunity for growth in the hospital acute care market.
+					]]>
+				</fullDescription>
+			</event>
+		</timePeriod>
+	</events>
+</timeline>

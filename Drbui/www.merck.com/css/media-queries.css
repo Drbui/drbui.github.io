@@ -1,0 +1,1063 @@
+@media (min-width: 1200px) {
+	.megamenu > li { margin: 0; }
+	.hero_container_inside {
+		width: 1330px;
+		margin-left: auto;
+		margin-right: auto;	
+	}
+	.jnewsbar {
+		right: auto;
+		width: 1170px;
+	}
+	.header_section .span4 {
+		width: 370px !important;	
+	}
+	.header_section .span6 {
+		width: 570px !important;	
+	}
+	.stories_section1 .stories_section_panel, .stories_section2 .stories_section_panel, .stories_section3 .stories_section_panel, .stories_section4 .stories_section_panel {
+		left: 215px;	
+	}
+	.be_well_container .span3.bewelltip img {
+		width: 93px;
+	}
+	
+}
+@media only screen and (max-width: 1199px) {
+	.hero_container h2 {
+		font-size: 18px;
+		left: 64%;
+		width: 25%;
+	}
+	.sm .span6 {
+		width: 54%;
+	}
+	.sm .span5 {
+		width: 33%;
+	}
+
+}
+@media (min-width: 1025px) and (max-width: 1199px) {
+	.header_section .span4 { width: 220px; }
+	.header_section .span6 { width: 540px; }
+	.megamenu { 
+		padding-left: 0; 
+		line-height: 1.5em;
+	}
+	.megamenu > li { margin: 0 3px; }
+	.stories_section1 .stories_section_panel, .stories_section2 .stories_section_panel, .stories_section3 .stories_section_panel, .stories_section4 .stories_section_panel { left: 184px;	}
+	.descriptionArea .title { font-size: 35px; }
+	.descriptionArea {
+		right: 65px;
+		width: 300px;
+	}
+	/*.bx-wrapper { display: none; }
+	.span3.bewelltip {
+		display: table-cell;
+		width: 220px;
+		height: 141px;
+		text-align: center;
+		vertical-align: center;
+	}*/
+	/*
+	.be_well_container .span3.bewelltip img {
+		width: 205px;
+		margin-top: 25px;
+	}*/
+	.be_well_container .span3.bewelltip img {
+		width: 93px;
+	}
+	.details h4 {
+		font-size: 11px;
+		line-height: 12px;
+	}
+}
+@media (max-width: 1024px){
+
+	.megamenu { padding-left: 5px; }
+	.megamenu > li { 
+		margin: 0; 
+		line-height: 20px;
+	}
+	.megamenu > li .megamenu_drop {
+		padding-left: 7px;	
+	}
+	.searchBox { left: 400px; }
+	.header_section .span4 {
+		width: 220px;	
+	}
+	.header_section .span6 {
+		width: 540px;	
+	}
+	.descriptionArea {
+		right: 75px;	
+		width: 290px;
+	}
+	.descriptionArea .title {
+		font-size: 35px;
+	}	
+	.descriptionArea .description {
+		width: 290px;	
+	}
+	.stories_section1 .stories_section_panel, .stories_section2 .stories_section_panel, .stories_section3 .stories_section_panel, .stories_section4 .stories_section_panel {
+		left:165px;
+		display: inline-block;	
+	}
+	/*.bx-wrapper { display: none; }
+	.be_well_container .span3.bewelltip img {
+		width: 205px;
+		margin-top: 25px;
+	}*/
+	.be_well_container .span3.bewelltip img {
+		width: 93px;
+	}
+	.details h4 {
+		font-size: 11px;
+		line-height: 12px;	
+	}
+	.crsl-items{
+	margin: 30px auto;
+}
+.crsl-item figcaption{
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+	color: #FFF;
+	background: rgba(0,0,0,.5);
+}
+.crsl-nav{
+	position: relative;
+	min-height: 1px;
+}
+.crsl-nav .previous{
+	float: left;
+}
+.crsl-nav .next{
+	float: right;
+}
+#top-bottom-menu { display: none; }
+ul.share li { margin: 0 10px; }
+	ul.share li .stLarge {
+		height: 20px;
+		width: 20px;
+		background-size: cover;
+	}
+		ul.share li .stLarge:hover {
+			background-position: 0 0;
+		}
+}
+@media (max-width: 991px){
+	.content_container{
+		background: #fff;
+	}
+}
+@media (min-width: 1024px){
+	/*.sideNav ul ul { display: none; }*/
+}
+
+@media only screen and (max-width: 979px) {
+	.megamenu > li .searchBox {
+		left: 335px;
+	}
+	.sm .span6 {
+		width: 24%;
+	}
+	.sm .span5 {
+		width: 64%;
+	}
+}
+@media (min-width: 769px) and (max-width: 991px) {
+		.header-container {
+		background-image: none;
+		height: 146px;
+	}
+	.hero_container,
+	.content_container, 
+	.footer_container { top: 146px; }
+	
+	.column_left {
+		width: 25%;
+	}
+	.column_middle,
+	.column_right {
+		width: 75%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	body { background: none !important; }
+	.header-container {
+		background-image: none;
+		height: 146px;
+	}
+	.megamenu_container { padding-top: 10px; }
+	.megamenu_container .megamenu > li .megamenu_drop {
+		padding-bottom: 9px;	
+	}
+	.megamenu > li .searchBox { left: 590px; }
+	.secondary_navigation { margin: 0; }
+	.secondary_navigation .menu-row.one_third {
+		width: 210px;	
+	}
+	.secondary_navigation .menu-row { width: 125px; }
+}
+@media (max-width: 768px){
+	ul.share li { margin: 0; }
+}
+@media (min-width: 767px) and (max-width: 768px){
+	body { background: none !important; }
+	/*.header-container {
+		height: 146px;
+	}*/
+
+	.header-container {
+		border: 0 none;
+		box-shadow: none;
+		height: 77px;
+		position: inherit;	
+	}
+	.megamenu_container { padding-top: 10px; }
+	.megamenu_container .megamenu > li .megamenu_drop {
+		padding-bottom: 9px;	
+	}
+	.megamenu > li .searchBox { left: 590px; }
+	.searchBox {
+		display: block !important;
+		left: 0;
+		margin-bottom: 30px;
+		padding-left: 20px !important;
+		width: 100%;
+	}
+	.secondary_navigation { margin: 0; }
+	.secondary_navigation .menu-row.one_third {
+		width: 210px;	
+	}
+	.secondary_navigation .menu-row { width: 125px; }
+	/*.hero_container {
+		height: 132px;
+		top: 145px;	
+	}*/
+	.hero_container h2 {
+		font-size: 15px;
+		left: 66%;
+		width: 30%;
+	}
+	/*
+	.content_container, 
+	.footer_container {
+		top: 145px;
+	}*/
+	.hero_container,
+	.content_container, 
+	.footer_container {
+		height: auto;
+		top: auto;	
+	}
+	.hero_container img { width: 100%; }
+	.bx-controls { display: none; }
+	.column_middle .col-md-6 { padding: 0; }
+	.column_left { display: none; }
+	.utility-buttons { display: none; }
+	#fb-root,
+	.fb-like-box { 
+		overflow: hidden; 
+		padding-right: 10px;
+	}
+	.sm .span6 {
+		width: 70%;
+	}
+	.sm .span5 {
+		width: 16%;
+	}	
+	.megamenu_container .megamenu > li > a.first {
+		margin-left: 10px;
+	}
+
+	.header-container #mobile_menu { text-align: right; }
+	#mobile_menu a {
+		background: url('http://www.merck.com/images/fs-naver-icon.png') no-repeat scroll left center transparent;
+		height: 40px;
+		outline: medium none;
+		padding-left: 30px;
+		position: relative;
+		text-decoration: none;
+		top: 10px;
+		width: 40px;
+	}
+	#mobile_menu a:hover,
+	#mobile_menu a:focus {
+		color: #13a29c;
+	}
+		.stories_section1 .stories_section_panel, .stories_section2 .stories_section_panel, .stories_section3 .stories_section_panel, .stories_section4 .stories_section_panel {
+		left:125px;
+		display: inline-block;	
+	}
+	.menu-t1.sideNavHeader {
+		font-size: inherit;
+		font-weight: normal;
+	}
+	.descriptionArea .title,
+	.descriptionArea .description,
+	.descriptionArea .description a {
+		color: #5F5F5F !important;	
+	}
+	.featured-stories .media { height: auto !important; }
+	#rightImageBumper img { display: none; }
+	.bewelltip { margin-bottom: 25px; }
+	.footer1 .leftcol,
+	.footer1 .rightcol,
+	.footer_container ul.legal_nav,
+	.footer2 .leftcol,
+	.footer2 .leftcol table td,
+	.footer2 .rightcol,
+	.footer2 .rightcol .social_icons {
+		text-align: center;	
+		line-height: 35px;
+	}
+	.footer2 .leftcol table { width: 100%; }
+	.footer2 .leftcol table td {
+		display: inline-block;	
+	}
+}
+@media only screen and (max-width: 991px) {
+	body { background: none !important; }
+	/*.header-container {
+		height: 146px;
+	}*/
+
+	.header-container {
+		border: 0 none;
+		box-shadow: none;
+		height: 77px;
+		position: inherit;	
+		padding-top: 0;
+	}
+	.footer_container { background: #fff; margin-top: 0 !important;;}
+	.megamenu_container { padding-top: 10px; }
+	.megamenu_container .megamenu > li .megamenu_drop {
+		padding-bottom: 9px;	
+	}
+	.megamenu > li .searchBox { left: 590px; }
+	.searchBox {
+		display: block !important;
+		left: 0;
+		margin-bottom: 30px;
+		padding-left: 20px !important;
+		width: 100%;
+	}
+	.secondary_navigation { margin: 0; }
+	.secondary_navigation .menu-row.one_third {
+		width: 210px;	
+	}
+	.secondary_navigation .menu-row { width: 125px; }
+	/*.hero_container {
+		height: 132px;
+		top: 145px;	
+	}*/
+	.hero_container h2 {
+		font-size: 15px;
+		left: 66%;
+		width: 30%;
+	}
+	/*
+	.content_container, 
+	.footer_container {
+		top: 145px;
+	}*/
+	.hero_container,
+	.content_container, 
+	.footer_container {
+		height: auto;
+		top: auto;	
+	}
+	.hero_container img { width: 100%; }
+	.bx-controls { display: none; }
+	.column_middle .col-md-6 { padding: 0; }
+	.column_left { display: none; }
+	.utility-buttons { display: none; }
+	#fb-root,
+	.fb-like-box { 
+		overflow: hidden; 
+		padding-right: 10px;
+	}
+	.sm .span6 {
+		width: 70%;
+	}
+	.sm .span5 {
+		width: 16%;
+	}	
+	.megamenu_container .megamenu > li > a.first {
+		margin-left: 10px;
+	}
+	
+		.stories_section1 .stories_section_panel, .stories_section2 .stories_section_panel, .stories_section3 .stories_section_panel, .stories_section4 .stories_section_panel {
+		left:105px;
+		display: inline-block;	
+	}
+
+	.header-container #mobile_menu { text-align: right; }
+	#mobile_menu a {
+		background: url('http://www.merck.com/images/fs-naver-icon.png') no-repeat scroll left center transparent;
+		height: 40px;
+		outline: medium none;
+		padding-left: 30px;
+		position: relative;
+		text-decoration: none;
+		top: 10px;
+		width: 40px;
+	}
+	#mobile_menu a:hover,
+	#mobile_menu a:focus {
+		color: #13a29c;
+	}
+	.menu-t1.sideNavHeader {
+		font-size: inherit;
+		font-weight: normal;
+	}
+	.descriptionArea .title,
+	.descriptionArea .description,
+	.descriptionArea .description a {
+		color: #000000 !important;	
+	}
+	.descriptionArea .title {
+		font-size: 22px;
+	}
+	.descriptionArea{
+		background-color:  rgba(255,255,255,0.8);
+		padding: 10px;
+		position:absolute;
+		left:0px;
+		top:200px;
+		width: 100%;
+		height:150px;
+		max-height:150px;
+		color: #;
+	}
+	.featured-stories .media { height: auto !important; }
+	#rightImageBumper img { display: none; }
+	.bewelltip { margin-bottom: 25px; }
+	.footer1 .leftcol,
+	.footer1 .rightcol,
+	.footer_container ul.legal_nav,
+	.footer2 .leftcol,
+	.footer2 .leftcol table td,
+	.footer2 .rightcol,
+	.footer2 .rightcol .social_icons {
+		text-align: center;	
+		line-height: 35px;
+	}
+	.footer2 .leftcol table { width: 100%; }
+	.footer2 .leftcol table td {
+		display: inline-block;	
+	}
+}
+@media (max-width: 767px) {
+	/*
+	.header-container {
+		border: 0 none;
+		box-shadow: none;
+		height: 77px;
+		position: inherit;	
+	}
+	
+	.hero_container,
+	.content_container, 
+	.footer_container {
+		height: auto;
+		top: auto;	
+	}*/
+	body { background: none !important; }
+	/*.header-container {
+		height: 146px;
+	}*/
+
+	.header-container {
+		border: 0 none;
+		box-shadow: none;
+		height: 77px;
+		position: inherit;	
+	}
+	.megamenu_container { padding-top: 10px; }
+	.megamenu_container .megamenu > li .megamenu_drop {
+		padding-bottom: 9px;	
+	}
+	.megamenu > li .searchBox { left: 590px; }
+	.searchBox {
+		display: block !important;
+		left: 0;
+		margin-bottom: 30px;
+		padding-left: 20px !important;
+		width: 100%;
+	}
+	.secondary_navigation { margin: 0; }
+	.secondary_navigation .menu-row.one_third {
+		width: 210px;	
+	}
+	.secondary_navigation .menu-row { width: 125px; }
+	/*.hero_container {
+		height: 132px;
+		top: 145px;	
+	}*/
+	.hero_container h2 {
+		font-size: 15px;
+		left: 66%;
+		width: 30%;
+	}
+	/*
+	.content_container, 
+	.footer_container {
+		top: 145px;
+	}*/
+	.hero_container,
+	.content_container, 
+	.footer_container {
+		height: auto;
+		top: auto;	
+	}
+	.hero_container img { width: 100%; }
+	.bx-controls { display: none; }
+	.column_middle .col-md-6 { padding: 0; }
+	.column_left { display: none; }
+	.utility-buttons { display: none; }
+	#fb-root,
+	.fb-like-box { 
+		overflow: hidden; 
+		padding-right: 10px;
+	}
+	.sm .span6 {
+		width: 70%;
+	}
+	.sm .span5 {
+		width: 16%;
+	}	
+	.megamenu_container .megamenu > li > a.first {
+		margin-left: 10px;
+	}
+
+	.header-container #mobile_menu { text-align: right; }
+	#mobile_menu a {
+		background: url('http://www.merck.com/images/fs-naver-icon.png') no-repeat scroll left center transparent;
+		height: 40px;
+		outline: medium none;
+		padding-left: 30px;
+		position: relative;
+		text-decoration: none;
+		top: 10px;
+		width: 40px;
+	}
+	#mobile_menu a:hover,
+	#mobile_menu a:focus {
+		color: #13a29c;
+	}
+	
+	.secondary_navigation { float: none; }
+	.secondary_navigation .menu-dropdown7 {
+			padding: 20px 10px;
+			width:478px;
+		}
+		.secondary_navigation .menu-dropdown7 p {
+			margin-top:7px;
+		}
+		.secondary_navigation .menu-dropdown7 h1 {
+			color:#2a2a2a;
+			padding-bottom:3px;
+			border-bottom:1px solid #858585;
+		}
+		.secondary_navigation .menu-dropdown7 h3 {
+			color:#2a2a2a;
+			padding-bottom:3px;
+			border-bottom:1px solid #858585;
+		}
+		.secondary_navigation .menu-dropdown7 h5 {
+			color:#2a2a2a;
+			padding-bottom:3px;
+			border-bottom:1px solid #858585;
+			margin-bottom: 0;
+		}
+		.secondary_navigation .menu-dropdown7 h6 {
+			margin-bottom: 0;
+		}
+			.secondary_navigation .menu-row.one_third {
+				display: inline-block;
+				vertical-align: text-top;
+				width: 100%;
+				margin-bottom: 15px;
+			}
+				.secondary_navigation .menu.one_third.last {
+					
+				}
+			.secondary_navigation .menu-row.one_third .image {
+				float: left;
+				margin-right: 10px;	
+				width: 88px;
+			}
+			.secondary_navigation .menu-row.one_third .desc {
+				float: left;
+				width: 380px;				
+			}
+			.secondary_navigation .menu-row.one_third .desc p {
+				font-size: 1.0em;
+			}
+	/*.menu-t1.sideNavHeader {
+		font-size: inherit;
+		font-weight: normal;
+	}*/
+.descriptionArea .title
+{
+
+	position: relative;
+	color: #000;
+	/*top: 40px;
+	left: 55px;*/
+	color: #5f5f5f;
+	/*font-family: Tahoma, Geneva, sans-serif;*/
+	font-size: 40px;
+	line-height: 1.2em;
+	font-weight: bold;
+}
+
+.descriptionArea .description
+{
+	position: relative;
+	color: #000;
+	/*top: 60px;
+	left: 36px;*/
+	color: #415560;
+	/*font-family: Tahoma, Geneva, sans-serif;*/
+	font-size: 17px;
+	line-height: 1.2em;
+	margin: 0;
+	/*width: 100%;*/
+}
+	.btn-primary { 
+		background: #13a29c;
+		color: #fff;
+		width: 100%; 
+	}
+		.btn-primary:hover { 
+			background: #13a29c;
+			color: #fff;
+			width: 100%; 
+		}		
+	.jnewsbar {
+		right: auto;
+		width: 535px !important;
+	}
+		.stories_section1 .stories_section_panel, .stories_section2 .stories_section_panel, .stories_section3 .stories_section_panel, .stories_section4 .stories_section_panel {
+		left:5px;
+		display: inline-block;	
+	}
+	
+	#footer_latest_news { 
+		width: 100%;
+		/*width: 648px !important; */
+		position: relative !important;
+		top: 0 !important;
+	}
+		#footer_latest_news.shadow { box-shadow: none; }
+		#footer_latest_news h4 a { color: #fff; }
+	.social_media_icons { 
+		text-align: left; 
+		padding-left: 8px;
+	}
+	.social_media_icons li a.chevron { display: none; }
+	#divRss {
+		position: relative;
+		z-index: 9;
+	}
+	#footer_latest_news .span9 { margin-bottom: 15px; }
+	.mosaic-block .mosaic-backdrop img { width: 100%; }
+	.stories_container { padding-bottom: 0; }
+	.stories_container .span6 .span3 {
+		width: 313px;
+		float: left;
+		margin-left: 20px;
+	}
+	.stories_container .span6 .span3.first {
+		margin-left: 0;
+	}
+	.stories_section1 .stories_section_panel, .stories_section2 .stories_section_panel, .stories_section3 .stories_section_panel, .stories_section4 .stories_section_panel {
+		left: 277px;	
+	}
+	.stories_section1 img.stories_img, .stories_section2 img.stories_img,
+	.stories_section3 img.stories_img, .stories_section4 img.stories_img {
+		width: 100%;	
+	}
+	.be_well_container { 
+		background: transparent; 
+		padding-bottom: 0;
+	}
+	.be_well_container .span3 { margin-bottom: 20px; }
+	.be_well_container .span9 .span3 {
+		width: 313px;
+		float: left;
+		margin-left: 20px;
+	}
+	.be_well_container .span9 .span3.first {
+		margin-left: 0;
+	}
+	.merck_manuals_container { padding-top: 0; }
+	.merck_manuals_container .span12 .span9 {
+		float: left;
+		width: 487px;
+	}
+	.merck_manuals_container .span12 .span3 {
+		float: left;
+		width: 160px;
+	}
+	.merck_manuals_container .span12 .span9 .span2 {
+		float: left;
+		width: 125px;
+	}
+	.merck_manuals_container .span12 .span9 .span7 {
+		float: left;
+		margin-left: 20px;
+		padding: 0;
+		width: 340px;
+	}
+	.newsticker { width: 500px !important; }
+	.newsticker_wrapper h4 { padding: 0 8px; }
+	#footer_container ul.legal_nav { text-align: left; }
+	#footer_container ul.legal_nav li:first-child { margin-left: 0; }
+	#footer_container .span3 {
+		margin-bottom: 15px;	
+	}
+	#footer_container p {
+		padding-left: 8px;
+	}
+	#footer_container ul.legal_nav {
+		padding-left: 8px;	
+	}
+	#footer_container .span9 a { padding-left: 8px; }
+	.social_media_icons { padding-left: 0; }
+	/*.bx-wrapper { display: none; }
+	.be_well_container .span3.bewelltip img {
+		width: 205px !important;
+		margin-top: 25px;
+	}*/
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 20px;
+		line-height: 25px;	
+	}
+	.header-container {
+		height: 40px;
+	}
+	.hero_container h2 {
+		font-size: 12px;
+		left: 66%;
+		width: 30%;
+		/*text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;*/
+	}
+	.ms-layer {
+		left: 210px !important;
+		width: 200px;
+	}
+	.ms-layer.desc {
+		top: 65px !important;
+	}
+	.social_icons { padding: 0; }
+	#masterslider .ms-nav-next,
+	#masterslider .ms-nav-prev,
+	#masterslider .ms-bullets {
+		display: none;
+	}
+	.privacy {
+		width: 100%;
+	}
+		.privacy td {
+			display: block;
+			text-align: center;
+			margin: 10px 0;
+		}
+	#top-bottom-menu { display: none; }	
+}
+@media (max-width: 320px) {
+	.megamenu {
+		padding-left: 0;	
+	}
+	.megamenu h2,
+	.megamenu p { display: none; }
+	.megamenu_container .megamenu .col_5,
+	.megamenu_container .megamenu .col_6 {
+		margin-left: 0;
+		margin-right: 0;	
+	}
+	.megamenu li .dropdown_container, .megamenu li .dropdown_fullwidth, .megamenu li .dropdown_multilevel {
+		padding-top: 0;	
+	}
+	.secondary_navigation { float: none; }
+	.secondary_navigation .menu-dropdown6,
+	.secondary_navigation .menu-dropdown7 { display: none; }
+	.secondary_navigation .menu-dropdown7 { display: none; }
+	.secondary_navigation .menu-drop .menu-label.quicklinks, 
+	.secondary_navigation .menu-drop .menu-label.social_media { 
+		background: none; 
+		padding-right: 0;
+	}
+	.secondary_navigation li:hover .menu-drop .menu-label.quicklinks,
+	.secondary_navigation li:hover .menu-drop .menu-label.social_media {
+		background: none;
+	}
+	.secondary_navigation .menu-button.social {
+		background: url("../img/dot_separator.png") no-repeat scroll 0 1em transparent;
+		padding: 0 10px;
+	}	
+	.span4.logo {
+		margin-bottom: 15px;	
+	}
+	.span2.worldwide {
+		margin-bottom: 15px;	
+	}
+	.megamenu_container { background-color: #00958F; }
+	.secondary_navigation .menu-button {
+		background: url("../img/dot_separator.png") no-repeat scroll 0 1em transparent;
+		line-height: 28px;
+		padding: 0 10px;
+	}
+	.secondary_navigation .menu-top .menu-right { display: none; }
+	.hero_container { /*margin-top: 10px;*/ }
+	.hero_container h2 {
+		font-size: 8px;
+		left: 66%;
+		width: 30%;
+		/*text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;*/
+	}
+	.ms-layer {
+		left: 150px !important;
+		width: 120px;
+	}
+	.ms-layer.desc {
+		top: 50px !important;
+	}
+	.stories_container .span6 .span3 {
+		width: 100%;
+		margin-left: 0;
+	}
+	/*.stories_section1 .stories_section_panel, .stories_section2 .stories_section_panel, .stories_section3 .stories_section_panel, .stories_section4 .stories_section_panel { left: 202px; }*/
+	.stories_section1 .stories_section_panel, .stories_section2 .stories_section_panel, .stories_section3 .stories_section_panel, .stories_section4 .stories_section_panel { 
+		display: none; 
+		background: none;
+	}
+	.stories_section1,
+	.stories_section2,
+	.stories_section3,
+	.stories_section4 { text-align: left; }
+	.mosaic-block .mosaic-backdrop img { width: 100%; }
+	.be_well_container {
+		background: none;	
+	}
+	.be_well_container .span9 .span3 {
+		width: 100%;
+		margin-left: 0;
+	}
+	.merck_manuals_container .span12 .span9 {
+		float: left;
+		width: 487px;
+	}
+	.merck_manuals_container .span12 .span3 {
+		float: none;
+		width: 238px;
+		text-align: center;
+	}
+	.merck_manuals_container .span12 .span9 .span2 {
+		float: none;
+		width: 238px;
+		text-align: center;
+	}
+	.merck_manuals_container .span12 .span9 .span7 {
+		float: left;
+		margin-left: 20px;
+		padding: 0;
+		width: 238px;
+	}
+	.bx-wrapper { margin-bottom: 15px; }
+	.newsticker { display: none; }
+	.newsticker_wrapper h4 { 
+		border-right: none; 
+		padding-left: 8px;
+	}
+	.social_media_icons li:first-child {
+		margin: 0 10px 0 0;
+	}
+	.social_media_icons li { 
+		margin-left: 0; 
+		margin-right: 10px;
+	}
+	#footer_container p {
+		padding-left: 8px;
+	}
+	#footer_container ul.legal_nav { padding-left: 8px; }
+	#footer_container .span9 a { padding-left: 8px; }
+	#footer_container .span9 a img { margin-bottom: 10px; }
+	.social_media_icons { padding-left: 8px; }
+	
+	.descriptionArea {
+		width: 228px;
+	}
+	.descriptionArea .description {
+		left: 15px;
+		width: 200px;
+	}
+	.descriptionArea .title {
+		font-size: 18px;
+		left: 15px;	
+		width: 200px;
+	}
+	/*#footer_latest_news { 
+		width: 238px !important; 
+	}*/
+	/*.bx-wrapper { display: none; }*/
+}
+@media (min-width: 321px) and (max-width: 480px) { 
+	.header_container .span12 { margin-bottom: 15px; }
+	.span4.logo {
+		margin-bottom: 15px;	
+	}
+	.span2.worldwide {
+		margin-bottom: 15px;	
+	}
+	.megamenu {
+		padding-left: 0;	
+	}
+	.megamenu_container { background-color: #00958F; }
+	.be_well_container {
+		margin-bottom: 10px;	
+	}
+	.secondary_navigation .menu-button {
+		background: url("../img/dot_separator.png") no-repeat scroll 0 1em transparent;
+		line-height: 28px;
+		padding: 0 10px;
+	}
+	.secondary_navigation .menu-dropdown6,
+	.secondary_navigation .menu-dropdown7 { display: none; }
+	.secondary_navigation .menu-dropdown7 { display: none; }
+	.secondary_navigation .menu-drop .menu-label.quicklinks, 
+	.secondary_navigation .menu-drop .menu-label.social_media { 
+		background: none; 
+		padding-right: 0;
+	}
+	.secondary_navigation li:hover .menu-drop .menu-label.quicklinks,
+	.secondary_navigation li:hover .menu-drop .menu-label.social_media {
+		background: none;
+	}
+	.secondary_navigation .menu-button.social {
+		background: url("../img/dot_separator.png") no-repeat scroll 0 1em transparent;
+		padding: 0 10px;
+	}
+	.secondary_navigation .menu-top .menu-right { display: none; }
+	.hero_container { margin-top: 0; }
+	.jnews-toggle { display: none; }
+	.stories_section1,
+	.stories_section2,
+	.stories_section3,
+	.stories_section4 { text-align: left; }
+	.stories_container .span6 .span3 {
+		width: 100%;
+		margin-left: 0;
+	}
+	/*.stories_section1 .stories_section_panel, .stories_section2 .stories_section_panel, .stories_section3 .stories_section_panel, .stories_section4 .stories_section_panel { left: 348px !important; }*/
+	.stories_section1 .stories_section_panel, .stories_section2 .stories_section_panel, .stories_section3 .stories_section_panel, .stories_section4 .stories_section_panel { 
+		display: none; 
+		background: none;
+	}
+	.mosaic-block .mosaic-backdrop img { width: 100%; }
+	.be_well_container {
+		background: none;	
+	}
+	.be_well_container .span9 .span3 {
+		/*width: 100%;
+		margin-left: 0;*/
+		width: 182px;
+		margin-left: 20px;
+	}
+	.merck_manuals_container .span12 .span9 {
+		float: left;
+		width: 487px;
+	}
+	.merck_manuals_container .span12 .span3 {
+		float: none;
+		width: 385px;
+		text-align: center;
+	}
+	.merck_manuals_container .span12 .span9 .span2 {
+		float: none;
+		width: 385px;
+		text-align: center;
+	}
+	.merck_manuals_container .span12 .span9 .span7 {
+		float: left;
+		margin-left: 20px;
+		padding: 0;
+		width: 385px;
+	}
+	.megamenu_dark_bar { background: #00958F; }
+	.megamenu_light .megamenu h2 {
+		font-size: 13px;
+		line-height: 0;
+	}
+	.megamenu ul.menu_sub { padding: 0; }
+	.megamenu li ul li, .megamenu li ol li { font-size: 10px; }
+	.megamenu p { font-size: 1.0em; }
+	.border_right_dotted { border-right: none; }
+	.bx-wrapper { margin-bottom: 15px; }
+	.jnewsbar {
+		right: auto;
+		width: 385px !important;
+	}
+	/*#footer_latest_news { width: 384px !important; }*/
+	#footer_container p {
+		padding-left: 8px;
+	}
+	#footer_container ul.legal_nav { padding-left: 8px; }
+	#footer_container .span9 a { padding-left: 8px; }
+	#footer_container .span9 a img { margin-bottom: 10px; }
+	.newsticker { display: none; }
+	.newsticker_wrapper h4 { 
+		border-right: none; 
+		padding-left: 8px;
+	}
+	.social_media_icons { padding-left: 8px; }
+	.social_media_icons li:first-child {
+		margin: 0 10px 0 0;
+	}
+	.social_media_icons li { 
+		margin-left: 0; 
+		margin-right: 10px;
+	}
+	/*.bx-wrapper { display: none; }*/
+	.descriptionArea {
+background-image: url('../img/white_transparent.png');
+padding: 6px 0 6px 12px;
+width: 97% !important;
+height:120px !important;
+/*height: 100px !important;*/
+overflow:visible;
+}
+.descriptionArea .title {
+font-size: 18px;
+}
+}
+
+@media (max-width: 320px) { 
+	.descriptionArea {
+top:200px;
+background-image: url('../img/white_transparent.png');
+padding: 6px 0 6px 12px;
+width: 100% !important;
+min-height:120px !important;
+/*height: 100px !important;*/
+overflow:visible;
+}
+.descriptionArea .title {
+font-size: 21px;
+}
+}
+

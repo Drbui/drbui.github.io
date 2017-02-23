@@ -1,0 +1,618 @@
+.white-text-color { color: #fff !important; }
+.light-green-bg-color { background: #d6efee !important; }
+.light-gray-bg-color { background: #e4e4e4 !important; }
+.green-bg-color { background: #009894 !important; }
+.light-green-text-color { color: #009894 !important; }
+.content-hero-container { margin: 30px 0; }
+.content-container {
+    padding: 40px 0;
+    background: #fff;
+}
+.ebola-outbreak p { font-size: 22px; color: #243444; }
+.space-bottom { margin-bottom: 30px; }
+.padding-10px { padding: 10px; }
+.padding-20px { padding: 20px; }
+.paddingtop-25px { padding-top: 25px; }
+.padding-bottom-0 { padding-bottom: 0; }
+.large-text { font-size: 170%; }
+.border-top-bottom {
+    border-top: 1px solid #009894;
+    border-bottom: 1px solid #009894;
+}
+.ebola-outbreak .main-hero-section {
+    margin-top: 105px;
+    background-color: #2B253B;
+    background-image: url("http://www.merck.com/images/research/mrl-labs/mrl_hero_img.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 485px;
+    background-size: cover;
+}
+
+
+.shareBtn {
+    width: 80px;
+    margin-top: 5% !important;
+}
+
+.ebola-btn-more {
+    background-color: #009994;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.ebola-btn-more:visited {
+    background-color: #009994;
+    color: #ffffff;
+}
+
+.ebola-btn-more:hover {
+    background-color: #009994;
+    color: #ffffff;
+}
+
+.main-hero-section .title {
+    font-size: 50px;
+    color: #ffffff;
+    /*margin-top: 200px;*/
+    font-weight: normal;
+    line-height: normal;
+}
+.main-hero-section p {
+    color: #fff;
+}
+.ebola-outbreak .divider {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    /*padding-bottom: 40px;*/
+}
+
+.ebola-outbreak .divider p { font-size: 35px; color: #009894; }
+
+.ebola-outbreak h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.ebola-outbreak .provided-support{
+    padding: 20px 0 40px 0;
+}
+
+.small-text{
+    font-size: 17px !important;
+}
+
+.partner-title{
+    /*color: #009894;*/
+    text-transform: uppercase;
+}
+
+.partner{
+    padding-top: 40px;
+}
+
+.ebola-outbreak .content-container .medical-program{
+    padding-top: 60px;
+}
+
+
+.ebola-outbreak .content {
+    background-color: #fff;
+    color: #2d3c4c;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.ebola-outbreak .additional-resources{
+    padding: 20px 0 40px 0;
+}
+
+.resources-text p{
+    text-align: center;
+    padding: 15px;
+}
+
+.footer_container {
+    top: 0;
+}
+
+.published{
+    padding-top: 30px;
+}
+
+.published p{
+    font-size: 15px;
+    color: #676767;
+}
+
+/* carousel */
+#lab-locations-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#lab-locations-carousel  .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#lab-locations-carousel  .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#lab-locations-carousel  .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#lab-locations-carousel  .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#lab-locations-carousel  .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#lab-locations-carousel  .carousel-indicators .active 
+{
+  background: #333333;
+}
+#lab-locations-carousel  img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+.carousel { margin: 0; padding: 0; }
+.carousel-indicators { display: none; }
+.carousel-control {
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: auto !important;
+    height: auto !important;
+    width: 15% !important;
+    font-size: 20px !important;
+    color: #fff !important;
+    text-align: center !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6) !important;
+    filter: alpha(opacity=50);
+    opacity: .5 !important;
+    margin-top: 0;
+    border-radius: 0;
+    border: 0;
+    background: transparent;
+}
+.carousel-control.right {
+    right: 0;
+}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+    font-size: 90px;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+.carousel-caption { 
+    text-align: left; 
+    text-shadow: none;
+    bottom: 40px;
+}
+.carousel-caption p {
+    color: #fff;
+}
+.carousel-caption a {
+    color: #fff;
+    text-decoration: underline;
+}
+.carousel-caption .btn {
+    text-shadow: none;
+    border: 1px solid #fff;
+    border-radius: 0;
+    text-decoration: none;
+}
+.footer_container {
+    margin-top: 0;
+}
+
+/**
+  MEDIA QUERIES
+*/
+@media (max-width: 1700px){
+    .carousel-caption {
+        text-align: left;
+        text-shadow: none;
+        bottom: -30px;
+    }
+}
+@media (max-width: 1600px){
+    .ebola-outbreak p {
+        font-size: 21px;
+    }
+    .carousel-caption {
+        bottom: -15px;
+    }
+}
+@media (max-width: 1550px){
+    .carousel-caption {
+        bottom: -30px;
+    }
+}
+@media (max-width: 1500px){
+    .carousel-caption {
+        bottom: 0px;
+        right: 25%;
+        left: 10%;
+    }
+    .ebola-outbreak p {
+        font-size: 19px;
+    }
+}
+@media (max-width: 1400px){
+    .carousel-caption {
+        bottom: -20px;
+    }
+}
+@media (max-width: 1350px){
+    .carousel-caption {
+        bottom: -30px;
+    }
+
+}
+@media (max-width: 1280px){
+    .carousel-caption {
+        right: 35%;
+    }
+    .ebola-outbreak p {
+        font-size: 15px;
+    }
+}
+@media (max-width: 1199px){
+    .carousel-caption {
+        right: 10%;
+        left: 20%;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #lab-locations-carousel
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #lab-locations-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #lab-locations-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #lab-locations-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+    .btn { 
+	    border-radius: 0; 
+	    padding: 6px 25px;
+	}
+	.btn.btn-fade {
+	    background: #009994 none repeat scroll 0 0;
+	    border: 1px solid #33cbc5;
+	    padding: 6px 25px;
+	    border-radius: 0;
+	    color: #fff;
+	    font-size: 18px;
+	    padding: 10px;
+	    transition: color 0.3s ease 0s, background-color 0.3s ease 0s, border-color 0.3s ease 0s;
+	    white-space: normal;
+	    z-index: 1;
+	}
+	.btn.btn-fade:hover {
+	    background: #f2f3f5 none repeat scroll 0 0;
+	    border: 1px solid #243444;
+	    color: #243444;
+	}
+    .location-kenilworth {
+	    background: url(http://www.merck.com/images/research/mrl-labs/mrl_ken_tablet.jpg);
+	    height: 325px;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+        background-position: -200px 0;
+	    width: 290px;
+	    float: left;
+	    margin-right: 25px;
+	    margin-bottom: 10px;
+	}
+	.location-westpoint {
+	    background: url(http://www.merck.com/images/research/mrl-labs/mrl_wp_tablet.jpg);
+	    height: 325px;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    width: 290px;
+	    float: left;
+	    margin-right: 25px;
+	    margin-bottom: 10px;
+	}
+	.location-upper-gwynedd {
+	    background: url(http://www.merck.com/images/research/mrl-labs/mrl_upper_tablet.jpg);
+	    height: 325px;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+        background-position: -265px 0;
+	    width: 290px;
+	    float: left;
+	    margin-right: 25px;
+	    margin-bottom: 10px;
+	}
+	.location-cambridge {
+	    background: url(http://www.merck.com/images/research/mrl-labs/mrl_cam_tablet.jpg);
+	    height: 325px;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    width: 290px;
+	    float: left;
+	    margin-right: 25px;
+	    margin-bottom: 10px;
+	}
+	.location-boston {
+	    background: url(http://www.merck.com/images/research/mrl-labs/mrl_boston_tablet.jpg);
+	    height: 325px;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+        background-position: -175px 0;
+	    width: 290px;
+	    float: left;
+	    margin-right: 25px;
+	    margin-bottom: 10px;
+	}
+	.location-bay-area {
+	    background: url(http://www.merck.com/images/research/mrl-labs/mrl_bay_tablet.jpg);
+	    height: 325px;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    width: 290px;
+	    float: left;
+	    margin-right: 25px;
+	    margin-bottom: 10px;
+	}
+	.location-rahway {
+	    background: url(http://www.merck.com/images/research/mrl-labs/mrl_rah_tablet.jpg);
+	    height: 325px;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+        background-position: -55px 0;
+	    width: 290px;
+	    float: left;
+	    margin-right: 25px;
+	    margin-bottom: 10px;
+	}
+}
+
+/*****************************************************************************/
+@media (max-width: 1280px){
+	.ebola-outbreak .main-hero-section {
+		background-position: -112px 0;
+	}
+}
+@media screen and (max-width: 1199px) {
+     .shareBtn {
+        margin-right: 20px;
+    }
+    .ebola-outbreak .main-hero-section .title {
+        margin-top: 120px;
+    }
+    .ebola-outbreak .divider {
+        font-size: 25px;
+    }
+    .paddingtop-25px{
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 1024px){
+    .ebola-outbreak .main-hero-section {
+        background-position: -210px 0;
+    }
+    .carousel-caption { 
+        right: 14%; 
+        bottom: -30px;
+    }
+
+}
+@media screen and (max-width: 991px) {
+    .ebola-outbreak .main-hero-section {
+        height: 450px;
+        margin-top: 0px;
+    }
+
+    .ebola-outbreak .main-hero-section .title {
+        margin-top: 30px;
+    }
+    .ebola-outbreak .divider {
+        font-size: 21px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+    
+    .ebola-outbreak h2 {
+        font-size: 26px;
+    }
+    
+    .ebola-outbreak .content {
+        font-size: 17px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+   
+}
+@media screen and (max-width: 768px){
+    .ebola-outbreak p{ font-size: 20px }
+	.ebola-outbreak .main-hero-section .title {
+        margin-top: 0;
+        line-height: normal;
+        font-size: 50px;
+    }
+    .ebola-outbreak .divider { padding-bottom: 15px;}
+    .ebola-outbreak .divider p {
+        font-size: 24px;
+    }
+
+    .ebola-outbreak .provided-support .small-text p {
+        font-size: 18px !important;
+    }
+
+    .ebola-outbreak .content-container .medical-program {
+        padding-top: 30px;
+    }
+    .resources-text p {
+        padding: 10px;
+    }
+    .content-container {
+        padding: 10px 0;
+    }
+    .small-text { font-size: 18px; }
+}
+
+@media screen and (max-width: 736px){
+    .content-hero-container {
+        background: url('http://www.merck.com/images/pixel2.png');
+        margin: 0;
+        padding: 0 15px;
+    }
+    .ebola-outbreak .main-hero-section {
+        height: 390px;
+        background-position: -45px 0;
+    }
+    .ebola-outbreak .main-hero-section .title {
+        margin-top: 115px;
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    .partner {
+        padding-top: 0px;
+    }
+
+    .partner-image{
+        padding: 25px 0 25px 0;
+    }
+}
+
+
+@media (max-width: 480px){
+    .content-hero-container {
+        background: url('http://www.merck.com/images/pixel2.png');
+        margin: 0;
+        padding: 0 15px;
+    }
+    .ebola-outbreak .main-hero-section {
+        height: 565px;
+        background-position: -300px 0;
+    }
+    .ebola-outbreak .main-hero-section .col-xs-12 {
+        padding: 0;
+    }
+    .ebola-outbreak .main-hero-section .title {
+        margin-top: 200px;
+        font-size: 22px;
+        padding-top: 10px;
+    }
+    .ebola-outbreak .main-hero-section p {
+        padding-bottom: 10px;
+    }
+    .ebola-outbreak h2 {
+        font-size: 22px;
+    }
+    .ebola-outbreak .divider p {
+        font-size: 22px;
+    }
+
+    .paddingtop-25px {
+        padding-top: 25px;
+    }
+	.location-kenilworth,
+	.location-westpoint,
+	.location-upper-gwynedd,
+	.location-cambridge,
+	.location-boston,
+	.location-bay-area,
+	.location-rahway
+	 {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 370px) {
+    .ebola-outbreak .main-hero-section {
+        min-height: 90px;
+    }
+    .ebola-outbreak .main-hero-section .title {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 360px){
+	.ebola-outbreak .main-hero-section .title {
+	    font-size: 22px;
+	}
+	.ebola-outbreak p { font-size: 19px; }
+}

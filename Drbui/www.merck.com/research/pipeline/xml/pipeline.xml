@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<drugPipeline version="1">
+    <printLinkURL url="" />
+    <shareLinkURL url="" />
+    <phaseColumnHeadings>
+        <columnHeading col="1"><![CDATA[ 
+12 programs<br/>
+ ]]></columnHeading>
+        <columnHeading col="2"><![CDATA[ 
+24 programs<br/>4 have advanced
+ ]]></columnHeading>
+        <columnHeading col="3"><![CDATA[ 
+4 programs<br/>
+ ]]></columnHeading>
+    </phaseColumnHeadings>
+    <ui>
+        <selectionOptions>
+            <section id="1" name="Phase">
+                <displayName><![CDATA[ 
+Phase
+ ]]></displayName>
+                <option name="Phase II" />
+                <option name="Phase III" />
+                <option name="Under Review" />
+            </section>
+            <section id="2" name="Category">
+                <displayName><![CDATA[ 
+Category
+ ]]></displayName>
+                <option name="Biologics" />
+                <option name="Small Molecule" />
+                <option name="Vaccine" />
+            </section>
+            <section id="3" name="Therapeutic Areas">
+                <displayName><![CDATA[ 
+Therapeutic<br/>Areas
+ ]]></displayName>
+                <option name="Cardiovascular Diseases" />
+                <option name="Diabetes and Endocrinology" />
+                <option name="Infectious Diseases" />
+                <option name="Neurosciences" />
+                <option name="Oncology" />
+                <option name="Respiratory and Immunology" />
+                <option name="Vaccines" />
+                <option name="Women's Health" />
+            </section>
+            <section id="5" name="Item Has Advanced">
+                <displayName><![CDATA[ 
+Advanced Since<br/>Last Update
+ ]]></displayName>
+                <option name="ItemAdvanced" />
+            </section>
+        </selectionOptions>
+    </ui>
+    <pageElements>
+        <chartTitle>
+            <title><![CDATA[ 
+Merck Pipeline<br><h2>Updated November 1, 2016</h2>
+ ]]></title>
+        </chartTitle>
+        <superscript />
+        <date />
+        <pdfLink sectionTitle="PIPELINE CHART">
+            <linkText>Merck Pipeline (November 1, 2016)</linkText>
+            <linkUrl>/research/pipeline/MerckPipeline.pdf</linkUrl>
+        </pdfLink>
+        <forwardLookingStatementText sectionTitle="Forward-Looking Statement of Merck &amp; Co., Inc., Kenilworth, N.J., USA"><![CDATA[ 
+This presentation of Merck &amp; Co., Inc., Kenilworth, N.J., USA (the “company”) includes “forward-looking statements” within the meaning of the safe harbor provisions of the U.S. Private Securities Litigation Reform Act of 1995. These statements are based upon the current beliefs and expectations of the company’s management and are subject to significant risks and uncertainties. There can be no guarantees with respect to pipeline products that the products will receive the necessary regulatory approvals or that they will prove to be commercially successful. If underlying assumptions prove inaccurate or risks or uncertainties materialize, actual results may differ materially from those set forth in the forward-looking statements.<br /><br />Risks and uncertainties include but are not limited to, general industry conditions and competition; general economic factors, including interest rate and currency exchange rate fluctuations; the impact of pharmaceutical industry regulation and health care legislation in the United States and internationally; global trends toward health care cost containment; technological advances, new products and patents attained by competitors; challenges inherent in new product development, including obtaining regulatory approval; the company’s ability to accurately predict future market conditions; manufacturing difficulties or delays; financial instability of international economies and sovereign risk; dependence on the effectiveness of the company’s patents and other protections for innovative products; and the exposure to litigation, including patent litigation, and/or regulatory actions.<br /><br />The company undertakes no obligation to publicly update any forward-looking statement, whether as a result of new information, future events or otherwise. Additional factors that could cause results to differ materially from those described in the forward-looking statements can be found in the company’s 2015 Annual Report on Form 10-K and the company’s other filings with the Securities and Exchange Commission (SEC) available at the SEC’s Internet site (<a href="http://www.sec.gov/">www.sec.gov</a>).<br />
+ ]]></forwardLookingStatementText>
+        <noDutyText sectionTitle="No Duty to Update"><![CDATA[ 
+The information contained in this chart was current as of November 1, 2016. While this pipeline chart remains on the company’s website the company assumes no duty to update the information to reflect subsequent developments. Consequently, the company will not update the information contained in the presentation and investors should not rely upon the information as current or accurate after November 1, 2016. <br /><br />The chart reflects the Merck research pipeline as of November 1, 2016. <br /><br />Candidates shown in Phase III include specific products. Candidates shown in Phase II include the most advanced compound with a specific mechanism in a given therapeutic area. Phase I candidates are not shown.
+ ]]></noDutyText>
+    </pageElements>
+    <pipeline>
+        <phase id="1" cssClasses_header="image phaseI" cssClasses_itemTitle="phase2" cssClasses_itemSummary="phase2a">
+            <name>Phase II</name>
+            <phaseItem>
+                <name><![CDATA[ 
+Asthma<br />MK-1029
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Small Molecule" />
+                    <attribute section="Therapeutic Areas" value="Respiratory and Immunology" />
+                </searchAttributes>
+                <shortSummary><![CDATA[ 
+For further information on clinical trials, please refer to: <a href="http://clinicaltrials.gov/ct2/results?term=mk-1029" target="_blank">http://clinicaltrials.gov/ct2/results?term=mk-1029</a><br /><br />
+ ]]></shortSummary>
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Cancer <br />Ovarian<br />KEYTRUDA<sup>®</sup> <br />MK-3475
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Biologics" />
+                    <attribute section="Therapeutic Areas" value="Oncology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Cancer<br />Advanced Solid Tumors<br />KEYTRUDA<sup>®</sup> <br />MK-3475<br />
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Biologics" />
+                    <attribute section="Therapeutic Areas" value="Oncology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Cancer<br />MK-2206
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Small Molecule" />
+                    <attribute section="Therapeutic Areas" value="Oncology" />
+                </searchAttributes>
+                <shortSummary><![CDATA[ 
+<b>MK-2206</b> is an orally available allosteric small-molecule inhibitor of AKT currently in clinical trials in patients with solid tumors.<br /><br />For further information on clinical trials, please refer to: <a href="http://clinicaltrials.gov/ct2/results?term=mk-2206" target="_blank">http://clinicaltrials.gov/ct2/results?term=mk-2206</a>
+ ]]></shortSummary>
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Cancer<br />MK-8628
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Small Molecule" />
+                    <attribute section="Therapeutic Areas" value="Oncology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Cancer<br />Nasopharyngeal <br />KEYTRUDA<sup>®</sup> <br />MK-3475<br />
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Biologics" />
+                    <attribute section="Therapeutic Areas" value="Oncology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Cancer<br />Primary Mediastinal Large<br />B-Cell Lymphoma <br />KEYTRUDA<sup>®</sup> <br />MK-3475
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Biologics" />
+                    <attribute section="Therapeutic Areas" value="Oncology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Cancer<br/>Prostate <br />KEYTRUDA<sup>®</sup> <br />MK-3475
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Biologics" />
+                    <attribute section="Therapeutic Areas" value="Oncology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Cough, including cough with Idiopathic Pulmonary Fibrosis<br />MK-7264
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Biologics" />
+                    <attribute section="Therapeutic Areas" value="Respiratory and Immunology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Diabetes Mellitus<br />MK-8521
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Small Molecule" />
+                    <attribute section="Therapeutic Areas" value="Diabetes and Endocrinology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Hepatitis C<br />MK-3682/MK-8408/MK-5172 (grazoprevir)<br />MK-3682B
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Small Molecule" />
+                    <attribute section="Therapeutic Areas" value="Infectious Diseases" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Pneumoconjugate Vaccine<br />V114
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Vaccine" />
+                    <attribute section="Therapeutic Areas" value="Vaccines" />
+                </searchAttributes>
+                <shortSummary><![CDATA[ 
+<b>V114</b> is an investigational vaccine currently being evaluated for its ability to provide protection against pneumococcal disease caused by serotypes contained in the vaccine.&nbsp;<br /><br />For further information on clinical trials, please refer to: <a href="http://clinicaltrials.gov/ct2/results?term=v114" target="_blank">http://clinicaltrials.gov/ct2/results?term=v114</a>
+ ]]></shortSummary>
+            </phaseItem>
+        </phase>
+        <phase id="2" cssClasses_header="image phaseII" cssClasses_itemTitle="phase3" cssClasses_itemSummary="phase3a">
+            <name>Phase III</name>
+            <phaseItem>
+                <name><![CDATA[ 
+Alzheimer's Disease<br />verubecestat<br />MK-8931
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Small Molecule" />
+                    <attribute section="Therapeutic Areas" value="Neurosciences" />
+                </searchAttributes>
+                <shortSummary><![CDATA[ 
+<b>MK-8931</b> is an orally available investigational inhibitor of beta-site amyloid precursor protein cleaving enzyme 1 (BACE) that is being evaluated in clinical trials for the treatment of Alzheimer's disease.<br /><br />For further information on clinical trials, please refer to: <a href="http://clinicaltrials.gov/ct2/results?term=mk-8931" target="_blank">http://clinicaltrials.gov/ct2/results?term=mk-8931</a>
+ ]]></shortSummary>
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Atherosclerosis<br />anacetrapib<br />MK-0859<br />
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Small Molecule" />
+                    <attribute section="Therapeutic Areas" value="Cardiovascular Diseases" />
+                </searchAttributes>
+                <shortSummary><![CDATA[ 
+<b>Anacetrapib (MK-0859)</b> is an investigational oral inhibitor of cholesteryl ester transfer protein (CETP), a plasma protein that plays a role in the cholesterol transport pathway. Anacetrapib is being evaluated for the treatment of atherosclerosis in a Phase III trial REVEAL.<br /><br />For further information on clinical trials please refer to: <a href="http://clinicaltrials.gov/ct2/results?term=MK-0859" target="_blank">http://clinicaltrials.gov/ct2/results?term=MK-0859</a>
+ ]]></shortSummary>
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Bacterial Infection<br />relebactam+imipenem/cilastatin<br />MK-7655A
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Small Molecule" />
+                    <attribute section="Therapeutic Areas" value="Infectious Diseases" />
+                </searchAttributes>
+                <shortSummary><![CDATA[ 
+<b>Relebactam (MK-7655)</b> is an investigational class A and C <span style="font-style: italic;">beta</span>-lactamase inhibitor being evaluated in clinical trials for the treatment of acute bacterial infections.<br /><br />For further information on clinical trials, please refer to: <a href="http://clinicaltrials.gov/ct2/results?term=mk-7655" target="_blank">http://clinicaltrials.gov/ct2/results?term=mk-7655</a>
+ ]]></shortSummary>
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Cancer<br />Bladder<br />KEYTRUDA<sup>®</sup><br />MK-3475
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Biologics" />
+                    <attribute section="Therapeutic Areas" value="Oncology" />
+                </searchAttributes>
+                <shortSummary><![CDATA[ 
+<font face="Arial">KEYTRUDA<sup>®</sup> (pembrolizumab), Merck’s anti-PD-1 therapy, is being investigated for use in more than 30 tumor types of cancers, as monotherapy and in combination.&nbsp; KEYTRUDA is a humanized monoclonal antibody that blocks the interaction between PD-1 (Programed Cell Death-1 protein) and its ligands, PD-L1 and PD-L2.&nbsp;&nbsp; <br /><br />For further information on clinical trials, please refer to: <a href="http://clinicaltrials.gov/ct2/results?term=mk-3475" target="_blank">http://clinicaltrials.gov/ct2/results?term=mk-3475</a></font>
+ ]]></shortSummary>
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Cancer<br />Breast <br />KEYTRUDA<sup>®</sup><br />MK-3475
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Biologics" />
+                    <attribute section="Therapeutic Areas" value="Oncology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Cancer<br />Esophageal <br />KEYTRUDA<sup>®</sup> <br />MK-3475
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Biologics" />
+                    <attribute section="Therapeutic Areas" value="Oncology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Cancer<br />Gastric <br />KEYTRUDA<sup>®</sup><br />MK-3475
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Biologics" />
+                    <attribute section="Therapeutic Areas" value="Oncology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Cancer<br />Head and Neck <br />KEYTRUDA<sup>®</sup><br />MK-3475 (EU)<br />
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Biologics" />
+                    <attribute section="Therapeutic Areas" value="Oncology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem moved="true">
+                <name><![CDATA[ 
+Cancer<br />Hodgkin Lymphoma<br />KEYTRUDA<sup>®</sup> <br />MK-3475<br />
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Biologics" />
+                    <attribute section="Therapeutic Areas" value="Oncology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem moved="true">
+                <name><![CDATA[ 
+Cancer<br />Liver&nbsp;<br />KEYTRUDA<sup>®</sup><br />MK-3475<br />
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Biologics" />
+                    <attribute section="Therapeutic Areas" value="Oncology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Cancer<br />Multiple Myeloma<br />KEYTRUDA<sup>®</sup> <br />MK-3475
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Biologics" />
+                    <attribute section="Therapeutic Areas" value="Oncology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem moved="true">
+                <name><![CDATA[ 
+Cancer<br />Renal<br />KEYTRUDA<sup>®</sup><br />MK-3475<br />
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Biologics" />
+                    <attribute section="Therapeutic Areas" value="Oncology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Cancer<p>Colorectal&nbsp;&nbsp;<br />KEYTRUDA<sup>®</sup> <br />MK-3475</p>
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Biologics" />
+                    <attribute section="Therapeutic Areas" value="Oncology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+CMV Prophylaxis in Transplant Patients<br />letermovir MK-8228<br /><br /><br />
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Small Molecule" />
+                    <attribute section="Therapeutic Areas" value="Infectious Diseases" />
+                </searchAttributes>
+                <shortSummary><![CDATA[ 
+<b>MK-8228</b> is an investigational oral, once-daily candidate for the prevention and treatment of Human Cytomegalovirus (HCMV) infection in transplant patients.<br /><br /><b>Collaboration</b><br />Merck is developing letermovir under an exclusive license agreement with AiCuris (Germany).<br />
+ ]]></shortSummary>
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Diabetes Mellitus<br />ertugliflozin+metformin<br />MK-8835B<sup>1</sup><br />
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Small Molecule" />
+                    <attribute section="Therapeutic Areas" value="Diabetes and Endocrinology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Diabetes Mellitus<br />ertugliflozin+sitagliptin<br />MK-8835A<sup>1</sup><br />
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Small Molecule" />
+                    <attribute section="Therapeutic Areas" value="Diabetes and Endocrinology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Diabetes Mellitus<br />ertugliflozin<br />MK-8835 <sup>1</sup>
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Small Molecule" />
+                    <attribute section="Therapeutic Areas" value="Diabetes and Endocrinology" />
+                </searchAttributes>
+                <shortSummary><![CDATA[ 
+<b>Ertugliflozin (MK-8835</b><b>)</b> is an investigational oral sodium glucose cotransporter (SGLT2) inhibitor being evaluated for the treatment of type 2 diabetes.<br /><br /><span style="font-weight: bold;">Collaboration</span><br />Ertugliflozin is being developed in collaboration with Pfizer, Inc.<br /><br />For further information on clinical trials, please refer to:<br /><a href="http://clinicaltrials.gov/ct2/results?term=ertugliflozin" target="_blank">http://clinicaltrials.gov/ct2/results?term=ertugliflozin</a>
+ ]]></shortSummary>
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Diabetes Mellitus<br />sitagliptin+ipragliflozin<br />MK-0431J<sup>1</sup> (Japan)<br />
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Small Molecule" />
+                    <attribute section="Therapeutic Areas" value="Diabetes and Endocrinology" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Ebola Vaccine<br />V920
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Vaccine" />
+                    <attribute section="Therapeutic Areas" value="Vaccines" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+HABP/VABP<sup>3</sup> bacterial pneumonia<br />SIVEXTRO<sup>®</sup><br />MK-1986<br />
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Small Molecule" />
+                    <attribute section="Therapeutic Areas" value="Infectious Diseases" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+HABP/VABP<sup>3</sup> bacterial pneumonia<br />ZERBAXA<sup>TM</sup> <br />MK-7625A<br />
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Small Molecule" />
+                    <attribute section="Therapeutic Areas" value="Infectious Diseases" />
+                </searchAttributes>
+                <shortSummary />
+            </phaseItem>
+            <phaseItem moved="true">
+                <name><![CDATA[ 
+Heart Failure<br />vericiguat<br />MK-1242<sup>1</sup>
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Small Molecule" />
+                    <attribute section="Therapeutic Areas" value="Cardiovascular Diseases" />
+                </searchAttributes>
+                <shortSummary><![CDATA[ 
+<font face="Arial"><b>Vericiguat (MK-1242)</b> is an investigational stimulator of soluble guanylate cyclase (sGC) currently that is being evaluated in a Phase 2b clinical trial of Patients With Heart Failure and Preserved Ejection Fraction Suffering From Worsening Chronic Heart Failure</font>
+ ]]></shortSummary>
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Herpes Zoster<br />Inactivated VZV vaccine,<br />V212
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Vaccine" />
+                    <attribute section="Therapeutic Areas" value="Vaccines" />
+                </searchAttributes>
+                <shortSummary><![CDATA[ 
+<b>V212 </b>is an investigational, inactivated varicella zoster virus (VZV) vaccine candidate. It is being evaluated for the prevention of herpes zoster (HZ) and HZ-related complications in select immunocompromised patient populations. <br /><br />For further information on clinical trials please refer to: <a target="_blank" href="http://clinicaltrials.gov/ct2/results?term=v212">http://clinicaltrials.gov/ct2/results?term=v212</a>
+ ]]></shortSummary>
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+HIV<br />doravirine<br />MK-1439
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Small Molecule" />
+                    <attribute section="Therapeutic Areas" value="Infectious Diseases" />
+                </searchAttributes>
+                <shortSummary><![CDATA[ 
+<b>MK-1439</b> is an investigational orally available HIV non-nucleoside reverse transcriptase inhibitor (NNRTI) being evaluated for the treatment of HIV infection.<br /><br />For further information on clinical trials, please refer to: <a href="http://clinicaltrials.gov/ct2/results?term=mk-1439" target="_blank">http://clinicaltrials.gov/ct2/results?term=mk-1439</a>
+ ]]></shortSummary>
+            </phaseItem>
+        </phase>
+        <phase id="3" cssClasses_header="image underreview" cssClasses_itemTitle="phaseUR" cssClasses_itemSummary="phaseURa">
+            <name>Under Review</name>
+            <phaseItem>
+                <name><![CDATA[ 
+Allergy, House Dust Mite<br />MK-8237<sup>2</sup>
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Biologics" />
+                    <attribute section="Therapeutic Areas" value="Respiratory and Immunology" />
+                </searchAttributes>
+                <shortSummary><![CDATA[ 
+<b>MK-8237 </b>is an investigational, oral Allergy Immunotherapy Tablet (AIT) being evaluated for the prevention of house dust mite allergen-induced rhinoconjunctivitis.<br /><br /><b>Collaboration</b><br />MK-8237 (SCH 039641) is being developed under an agreement with ALK-Abello, (Denmark), to develop, market and distribute tablet-based vaccines against grass pollen, house dust mites and ragweed allergies in the U.S., Canada and Mexico.<br /><br />For further information on clinical trials, please refer to: <a href="http://clinicaltrials.gov/ct2/results?term=mk-8237" target="_blank">http://clinicaltrials.gov/ct2/results?term=mk-8237</a>
+ ]]></shortSummary>
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+<i>Clostridium difficile</i> Infection<br />ZINPLAVA™<br />MK-6072 (US/EU)
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Biologics" />
+                    <attribute section="Therapeutic Areas" value="Infectious Diseases" />
+                </searchAttributes>
+                <shortSummary><![CDATA[ 
+<p><br /></p>
+ ]]></shortSummary>
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Diabetes Mellitus<br />MK-1293 <sup>1</sup><br />(US/EU)
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Small Molecule" />
+                    <attribute section="Therapeutic Areas" value="Diabetes and Endocrinology" />
+                </searchAttributes>
+                <shortSummary><![CDATA[ 
+<b>MK-1293 </b>is an investigational insulin glargine candidate being evaluated for the treatment of patients with type 1 and type 2 diabetes. For further information on clinical trials please refer to: <a href="http://clinicaltrials.gov/ct2/results?term=mk-1293">http://clinicaltrials.gov/ct2/results?term=mk-1293</a>
+ ]]></shortSummary>
+            </phaseItem>
+            <phaseItem>
+                <name><![CDATA[ 
+Pediatric Hexavalent <br />Combination Vaccine<br />V419 (US)<sup>4</sup>
+ ]]></name>
+                <searchAttributes>
+                    <attribute section="Category" value="Vaccine" />
+                    <attribute section="Therapeutic Areas" value="Vaccines" />
+                </searchAttributes>
+                <shortSummary><![CDATA[ 
+<p><font face="Arial"><b>V419</b> is an investigational pediatric hexavalent combination vaccine. V419 is being evaluated for the prevention of six infectious diseases: diphtheria, tetanus, whooping cough (Bordetella pertussis), polio (polio types 1, 2, and 3), invasive disease caused by Haemophilus influenzae type b, and hepatitis B. </font></p><p><font face="Arial">Collaboration<br />V419 is being developed as part of a partnership between Merck and Sanofi Pasteur that focuses on the development of pediatric combination vaccines. </font></p><p><font face="Arial">For further information on clinical trials please refer to: <a href="http://www.clinicaltrials.gov/ct2/results?term=v419">http://www.clinicaltrials.gov/ct2/results?term=v419</a><br /></font></p>
+ ]]></shortSummary>
+            </phaseItem>
+        </phase>
+        <footnotes>
+            <footnote symbol="1"><![CDATA[ 
+Being developed in collaboration.
+ ]]></footnote>
+            <footnote symbol="2"><![CDATA[ 
+MK-8237 was being developed as part of a North American partnership with ALK-Abello (ALK). Merck has given ALK six months' notice that it is terminating the agreement and therefore this compound will be returned to ALK.
+ ]]></footnote>
+            <footnote symbol="3"><![CDATA[ 
+Hospital-acquired bacterial pneumonia (HABP)/ventilator-associated bacterial pneumonia (VABP)
+ ]]></footnote>
+            <footnote symbol="4"><![CDATA[ 
+V419, the investigational pediatric hexavalent combination vaccine, DTaP5-IPV-Hib-HepB, is being developed in partnership with Sanofi Pasteur and if approved, will be co-promoted via a US partnership and marketed via the SPMSD joint venture in Europe. On Nov. 2, 2015, the FDA issued a CRL with respect to V419. The companies are reviewing the CRL and plan to have further discussions with the FDA.
+ ]]></footnote>
+        </footnotes>
+    </pipeline>
+</drugPipeline>

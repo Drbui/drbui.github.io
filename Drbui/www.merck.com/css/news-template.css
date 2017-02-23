@@ -1,0 +1,608 @@
+/**
+ * Description: NEWS TEMPLATE CSS.
+ * Version: 3.0
+ * Last update: 09/24/2015
+ * Author: John Schibelli <jschibelli@spigroup.com> edited by Anthony Rizzo
+ *
+ * Summary:
+ *
+ *	0. PAGE GLOBALS
+ *	0.1. MAIN-HERO SECTION
+ *	0.2. DIVIDER-ONE
+ *	0.3. CONTENT-SECTION
+ *	0.4. DIVIDER-TWO
+ *	0.5. SECOND-HERO
+ *	0.6. DIVIDER-THREE
+ *	0.7. CONTENT-SECTION-TWO
+ *
+ * 	MEDIA QUERIES
+ *		-0.9. LARGE DEVICES, WIDE SCREENS
+ *		-1.0. MEDIUM DEVICES, DESKTOPS
+ *		-1.2. SMALL DEVICES, TABLETS
+ *		-1.3. EXTRA SMALL DEVICES, PHONES
+ *		-1.4. CUSTOM, iPHONE RETINA
+ */
+
+/* ==========================================================================
+   0. PAGE GLOBALS
+   ========================================================================== */
+   .content-section { background: #fff; }
+   .row.row-sm { background: #fff; }
+   .main-hero-section .circles {
+	    background: rgba(0, 0, 0, 0) url("http://www.merck.com/images/about/lh_full_bg_hero.jpg") no-repeat scroll left top;
+    	min-height: 550px;
+   }
+   .hero-content {
+   		position: relative;
+   		top: 100px;
+   }
+	.news-template h1 {
+		font-size: 45px;
+		line-height: 1em;
+	}
+	.news-template h2 {
+		font-size: 35px;
+		line-height: 1em;
+		margin-bottom: 0;
+	}
+	.news-template .bold-text {
+		font-weight: bold;
+	}
+	.news-template .uppercase {
+		text-transform: uppercase;
+	}
+	.shareBtn {
+		cursor: pointer;
+		position: absolute;
+		right: 15%;
+		z-index: 99;
+	}
+    .quote-large {
+        font-family: 'Times New Roman', serif;
+        position: relative;
+        font-size: 75px;
+        line-height: 0.5em;
+        top: 15px;
+    }
+    .quote-large.white {
+        color: #fff;
+    }
+    .quote {
+        font-family: 'Times New Roman', serif;
+    }
+    blockquote {
+    	margin: 10px 0;
+    	border: none;
+    }
+    blockquote p {
+        font-size: 30px !important;
+        font-weight: bold;
+    }
+    blockquote p.white {
+        color: #fff;
+    }
+    blockquote .caption {
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .spacer10 {
+    	height: 10px;
+    	width: 100%;
+    	clear: both;
+    	float: none;
+    }
+    .spacer20 {
+    	height: 20px;
+    	width: 100%;
+    	clear: both;
+    	float: none;
+    }
+    .spacer30 {
+    	height: 30px;
+    	width: 100%;
+    	clear: both;
+    	float: none;
+    }
+    .pad30 {
+    	padding: 0 30px;
+    }
+    .pad40 {
+    	padding: 0 40px;
+    }
+    .pad50 {
+    	padding: 0 50px;
+    }
+/* 0.a GLOBAL COLORS
+   ========================================================================== */
+   	.bkgd_bluegray {
+   		background-color: #243444;
+   	}
+    .white {
+    	color: #ffffff;
+    }
+    .teal {
+    	color: #159a95;
+    }
+    .teal60 {
+    	color: #52b8b7;
+    }
+    .teal40 {
+    	color: #8dcbcb;
+    }
+    .teal20 {
+    	color: #c4e1df;
+    }
+    .bkgd_teal {
+    	background-color: #159a95;
+    }
+    .bkgd_teal60 {
+    	background-color: #52b8b7;
+    }
+    .bkgd_teal40 {
+    	background-color: #8dcbcb;
+    }
+    .bkgd_teal20 {
+    	background-color: #c4e1df;
+    }
+    .lightteal {
+    	color: #63ceca;
+    }
+    .lightteal60 {
+    	color: #a9dde1;
+    }
+    .lightteal40 {
+    	color: #c5e7eb;
+    }
+    .lightteal20 {
+    	color: #e0f2f2;
+    }
+    .bkgd_lightteal {
+    	background-color: #63ceca;
+    }
+    .bkgd_lightteal60 {
+    	background-color: #a9dde1;
+    }
+    .bkgd_lightteal40 {
+    	background-color: #c5e7eb;
+    }
+    .bkgd_lightteal20 {
+    	background-color: #e0f2f2;
+    }
+    .purple {
+    	color: #6d1548;
+    }
+    .purple60 {
+    	color: #9b5e7f;
+    }
+    .purple40 {
+    	color: #b88aa1;
+    }
+    .purple20 {
+    	color: #d6bdc9;
+    }
+    .bkgd_purple {
+    	background-color: #6d1548;
+    }
+    .bkgd_purple60 {
+    	background-color: #9b5e7f;
+    }
+    .bkgd_purple40 {
+    	background-color: #b88aa1;
+    }
+    .bkgd_purple20 {
+    	background-color: #d6bdc9;
+    }
+    .darkgray {
+    	color: #37424a;
+    }
+    .darkgray60 {
+    	color: #66717e;
+    }
+    .darkgray40 {
+    	color: #8e969f;
+    }
+    .darkgray20 {
+    	color: #bfc1c9;
+    }
+    .bkgd_darkgray {
+    	background-color: #37424a;
+    }
+    .bkgd_darkgray60 {
+    	background-color: #66717e;
+    }
+    .bkgd_darkgray40 {
+    	background-color: #8e969f;
+    }
+    .bkgd_darkgray20 {
+    	background-color: #bfc1c9;
+    }
+    .orange {
+    	color: #d47b22;
+    }
+    .orange60 {
+    	color: #fcb87d;
+    }
+    .orange40 {
+    	color: #fed0a4;
+    }
+    .orange20 {
+    	color: #fee5cc;
+    }
+    .bkgd_orange {
+    	background-color: #d47b22;
+    }
+    .bkgd_orange60 {
+    	background-color: #fcb87d;
+    }
+    .bkgd_orange40 {
+    	background-color: #fed0a4;
+    }
+    .bkgd_orange20 {
+    	background-color: #fee5cc;
+    }
+/* 0.b DISPLAY SIZES
+   ========================================================================== */
+	.display {
+		font-size: 25px;
+		line-height: 1em;
+		font-weight: bold;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.display_large {
+		font-size: 45px;
+		line-height: 1em;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin: 0 auto;
+		padding: 0;
+	}
+/* 0.1. MAIN-HERO SECTION
+   ========================================================================== */
+	.news-template .main-hero-section {
+		margin-top: 106px;
+	}
+	.news-template .main-hero-section h1 {
+		font-size: 60px;
+		line-height: 60px;
+		padding-bottom: 25px;
+	}
+	.news-template .main-hero-section p {
+		font-size: 28px;
+		line-height: 28px;
+		padding-bottom: 10px;
+	}
+/* 0.2. DIVIDER-ONE
+   ========================================================================== */
+ 	.news-template .divider-one h2,
+ 	.news-template .divider-two h2 {
+		font-size: 22px;
+		font-weight: normal;
+		padding-top: 10px;
+		padding-bottom: 10px;
+ 	}
+/* 0.3 CONTENT-SECTION
+   ========================================================================== */
+	.news-template .content-section,
+	 .news-template .content-section-two,
+	 .news-template .second-hero,
+	 .news-template .lower-hero,
+	 .news-template .divider-three {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.news-template .content-section p,
+	.news-template .content-section-two p {
+		font-size: 20px;
+	}
+	.news-template .content-section .quote {
+		font-size: 26px;
+		font-weight: 900;
+		padding-top: 45px;
+		padding-bottom: 20px;
+	}
+	.news-template .content-section p.quote span.upper-quote{
+		background: url('http://www.merck.com/images/about/hepc-advocacy/advocacy_upper_quotes.png') no-repeat 0 0;
+		width: 45px;
+		padding-bottom: 20px;
+		padding-right: 50px;
+		position: relative;
+		bottom: 15px;
+	}
+	.news-template .content-section span.open-quote {
+		font-family: "Times New Roman", Georgia, Serif;
+		font-size: 30px;
+		padding-left: 5px;
+		position: relative;
+		top: 5px;
+	}
+	.news-template .content-section span.close-quote {
+		font-family: "Times New Roman", Georgia, Serif;
+		font-size: 30px;
+		padding-right: 5px;
+		position: relative;
+		top: 5px;
+		font-weight: bold;
+	}
+	.video-responsive {
+		width: 640px;
+		margin: 0 auto;
+		display: block;
+	}
+
+/* 0.4 DIVIDER-TWO
+   ========================================================================== */
+	.news-template .divider-two h2 span.quotes{
+		background: url('http://www.merck.com/images/about/hepc-advocacy/advocacy_quotes.png') no-repeat 0 0;
+		width: 45px;
+		padding-bottom: 20px;
+		padding-right: 50px;
+		position: relative;
+		bottom: 10px;
+	}
+	.news-template .divider-two span.close-quote {
+		font-family: "Times New Roman", Georgia, Serif;
+		font-size: 34px;
+		padding-right: 5px;
+		position: relative;
+		top: 4px;
+		font-weight: bold;
+	}
+/* 0.5. SECOND-HERO
+   ========================================================================== */
+   	.news-template .second-hero p.lead {
+		font-size: 26px;
+		margin-bottom: 0px;
+   	}
+   	.news-template  .second-hero p.lower-lead {
+		font-size: 20px;
+   	}
+
+   	.news-template .second-hero .cta-head {
+   		font-size: 25px;
+   	}
+   	.news-template .second-hero .thumbnail {
+   		background: none;
+   		border: 0px;
+   	}
+   	.news-template .second-hero .caption {
+   		font-size: 20px;
+   	}
+   	.news-template .second-hero .caption p,
+   	.news-template .divider-three .caption p {
+   		color: #ffffff;
+   		font-style: 25px;
+   	}
+/* 0.6. DIVIDER-THREE
+   ========================================================================== */
+   	.news-template .divider-three .thumbnail {
+   		background: none;
+   		border: 0px;
+   	}
+   	.news-template .divider-three .thumbnail img {
+		padding-bottom: 20px;
+   	}
+   	.news-template .divider-three .caption {
+   		font-size: 18px;
+   		text-align: center;
+   	}
+   	.news-template .divider-three .caption.text-left {
+   		font-size: 26px;
+   		text-align: left;
+   		padding-bottom: 15px;;
+   	}
+/* 0.7. CONTENT-SECTION-TWO
+   ========================================================================== */
+   	.news-template .content-section-two .sm-xs-img {
+   		padding-bottom: 20px;
+   	}
+/* 0.8. LOWER-HERO
+   ========================================================================== */
+   	.news-template .lower-hero {
+   		padding-top: 30px;
+   		padding-bottom: 30px;
+   	}
+   	.news-template .lower-hero .thumbnail {
+   		background: none;
+   		border: 0px;
+   	}
+   	.news-template .lower-hero p.lead{
+		font-size: 30px;
+		margin-bottom: 0px;
+   	}
+ 	.news-template .lower-hero h2 {
+		font-size: 40px;
+		line-height: 1em;
+		font-weight: normal;
+		margin: 0 auto;
+		padding: 0 0 20px 0;
+	}
+
+
+/* 	-0.9. LARGE DEVICES, WIDE SCREENS
+	========================================================================== */
+	@media (max-width: 1280px){
+		.main-hero-section .circles {
+		    background-size: cover;
+		    min-height: 385px;
+		}
+		.hero-content {
+		    left: 200px;
+		    position: relative;
+		    top: 100px;
+		}
+	}
+	@media only screen and (max-width : 1200px){
+		.news-template .main-hero-section {
+			margin-top: 121px;
+		}
+		.news-template .main-hero-section h1 {
+		    font-size: 55px;
+		    position: relative;
+		    top: 45px;
+		    line-height: 60px;
+		    padding-bottom: 40px;
+		}
+		.shareBtn {
+			right: 5%;
+		}
+	}
+/* 	-1.0 MEDIUM DEVICES, DESKTOPS
+	========================================================================== */
+	@media (max-width: 1024px){
+		.main-hero-section .circles {
+		    background-size: cover;
+		    min-height: 315px;
+		}
+		.hero-content {
+		    left: 200px;
+		    position: relative;
+		    top: 30px;
+		}
+	}
+	@media only screen and (max-width : 992px){
+		.news-template .main-hero-section {
+		    margin-top: 0px;
+		}
+		.news-template .main-hero-section .light-grey-bg {
+			background: #3f5463;
+		}
+		.news-template .main-hero-section h1 {
+		    font-size: 50px;
+		    position: relative;
+		    top: 45px;
+		    line-height: 60px;
+		    padding-bottom: 60px;
+		}
+		.news-template .main-hero-section p.sm-xs-padd {
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+		.video-responsive {
+			width: 100%;
+			margin: 0 auto;
+		}
+	}
+/* 	-1.2 SMALL DEVICES, TABLETS
+	========================================================================== */
+	@media only screen and (max-width : 768px){
+		.news-template .main-hero-section h1 {
+		    font-size: 36px;
+		    position: relative;
+		    top: 0;
+		    line-height: 60px;
+		    padding-bottom: 0px;
+		}
+		.hero-content {
+		    left: 115px;
+		    position: relative;
+		    top: 30px;
+		}
+		.main-hero-section .circles {
+		    min-height: 230px;
+		}
+		.news-template .main-hero-section p {
+		    font-size: 20px;
+		    line-height: 28px;
+		    padding-bottom: 10px;
+		}
+		.news-template .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		}
+		.news-template .content-section, .news-template .divider-one, .news-template .divider-two, .news-template .lower-hero {
+			text-align: center;
+		}
+		.news-template .content-section .quote {
+		    font-size: 26px;
+		    color: #159a95;
+		    font-weight: 900;
+		    padding-top: 45px;
+		    padding-bottom: 20px;
+		    text-align: center;
+		}
+		.news-template .divider-one h2, .news-template .divider-two h2 {
+		    font-size: 25px;
+		    font-weight: normal;
+		    padding-top: 10px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.shareBtn {
+			width: 125px;
+			right: 2%;
+		}
+		.clear_padding_xs {
+			padding: 0;
+		}
+		.display {
+			font-size: 19px;
+			line-height: 1em;
+			font-weight: bold;
+			margin: 0 auto;
+			padding: 0;
+		}
+		.display_large {
+			font-size: 30px;
+			line-height: 1em;
+			font-weight: bold;
+			text-transform: uppercase;
+			margin: 0 auto;
+			padding: 0;
+		}
+	}
+/* 	-1.3EXTRA SMALL DEVICES, PHONES
+	========================================================================== */
+	@media only screen and (max-width : 480px){
+		.main-hero-section .circles {
+		    background-position: -255px 0;
+		    min-height: 230px;
+		}
+		.hero-content { left: 0; }
+		.news-template .main-hero-section h1 {
+		    font-size: 35px;
+
+		}
+		.news-template .main-hero-section p {
+		    font-size: 15px;
+		    line-height: 1.2em;
+		    padding-bottom: 10px;
+		}
+		.news-template .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		}
+		.news-template .divider-one h2, .news-template .divider-two h2 {
+		    font-size: 22px;
+		    font-weight: normal;
+		    padding-top: 5px;
+		    padding-bottom: 5px;
+		}
+		.news-template .content-section .quote {
+		    font-size: 22px;
+		    color: #159a95;
+		    font-weight: 900;
+		    padding-top: 45px;
+		    padding-bottom: 20px;
+		    text-align: center;
+		}
+		.news-template iframe.embed-responsive-item {
+			margin-left: -18px;
+		}
+		.news-template .second-hero .caption {
+			font-size: 15px;
+		}
+		.shareBtn {
+			width: 100px;
+			right: 0;
+		}
+	}/* 	-1.4EXTRA SMALL DEVICES, PHONES - LANDSCAPE
+	========================================================================== */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.col-xsl-4 {
+			width: 33.33333333%;
+		}
+		.clear_padding_xsl {
+			padding: 0;
+		}
+	}

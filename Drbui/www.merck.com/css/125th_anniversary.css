@@ -1,0 +1,879 @@
+body{
+	/*overflow: hidden;*/
+}
+
+sup { 
+	    line-height: 23px;
+}
+
+.mm-listview{
+	text-align: left;
+}
+
+
+.content-section { background: #fff; overflow: hidden;}
+.row.row-sm { background: #fff; }
+
+/* ==========================================================================
+   0. PAGE GLOBALS
+   ========================================================================== */
+	.shareBtn {
+		cursor: pointer;
+		position: relative;
+		z-index: 99;
+		width: 110px;
+		margin-top: 2%;
+		margin-right: 150px;
+	}
+	.shareBtn img {
+		max-width: 90%;
+	}
+    
+/* 0.1. HERO SECTION
+   ========================================================================== */
+	.plain-template .main-hero-section {
+		background-color: #ffffff;
+		margin-top: 128px;
+		background-image: url("http://www.merck.com/images/about/featured_stories/125th_anniversary/kids.jpg");
+		background-repeat: no-repeat;
+		-o-background-size: cover;
+		   background-size: cover;
+		background-position: left top;
+		overflow: hidden;
+		background-size: 180%;
+		padding-bottom: 30px;
+	}
+	.plain-template .main-hero-section h1 {
+		text-transform: uppercase;
+		color: teal;
+		font-size: 55px;
+		position: relative;
+		line-height: 60px;
+		padding-bottom: 130px;
+		text-align: left;
+		padding-top: 60px;
+	}
+	.plain-template .main-hero-section p {
+		font-size: 36px;
+		line-height: 28px;
+		padding-bottom: 10px;
+		top: 165px;
+    	position: relative;
+    	opacity: 0;
+    	line-height: normal;
+    	width: 80%;
+	}
+
+	.plain-template .main-hero-section img{
+		display:none;
+		width: 180px;
+	}
+
+	.plain-template .main-hero-section .container{
+		position:relative;
+	}
+
+/* 0.2. DIVIDER SECTION
+   ========================================================================== */
+ 	
+	.plain-template .divider {
+		background-color: #199995;
+		padding: 40px 0px;
+	}
+ 	.plain-template .divider p {
+		color: white;
+		font-size: 28px;
+		font-weight: normal;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
+ 	}
+
+ 	/* 0.3 CONTENT-SECTION
+   ========================================================================== */
+
+	.plain-template .content-section {
+		padding: 5px 0px;
+	}
+	.plain-template .content-section .content-img {
+		display: inline-block;
+		float: right;
+		width: 35%;
+		padding: 30px;
+		margin-top: -18px;
+	}
+	.plain-template .content-section p {
+		font-size: 24px;
+		color: #213444;
+		/*padding-right: 15%;*/
+	}
+	.plain-template .content-section p.extra-pad {
+		padding-top: 20px;
+	}
+
+	.plain-template .content-section h1 {
+		text-align: center;
+		color: #008376;
+	    font-size: 57px;
+	    font-weight: bold;
+	    line-height: normal;
+	    letter-spacing: 4px;
+	}
+
+	.plain-template .content-section h2 {
+		font-size: 33px;
+		color: #7E7D7A;
+		font-weight: normal;
+		text-align: center;
+	}
+
+	.plain-template .content-section h3 {
+		color: #008376;
+	    font-size: 30px;
+	    font-weight: normal;
+	    line-height: normal;
+	    text-align: left;
+	}
+
+	.plain-template .content-section hr{
+		color: #000000;
+	    border-style: solid;
+    	border-color: black;
+    	border-width: 1px 0 0 0;
+	}
+
+
+
+	/* Pamphlet/Did You Know section
+	===================================================*/
+	.plain-template .pamphletRow{
+		margin-top:45px;
+		margin-bottom: 11px;
+	}
+
+	.plain-template .pamphlet{
+
+		/*height: 415px;*/
+		position: absolute;
+		left: -31%;
+		height: 270px;
+		background-image: url("http://www.merck.com/images/about/featured_stories/125th_anniversary/did_you_know_curve.png");
+		background-repeat: no-repeat;
+		-o-background-size: cover;
+		background-size: cover;
+		background-position: right top;
+		
+	}
+
+
+	.plain-template .content-section .pamphlet h1 {
+	    color: #000000;
+	    font-size: 13px;
+	    font-weight: normal;
+	    line-height: normal;
+	    letter-spacing: normal;
+	    width: 50px;
+	}
+
+	.plain-template .content-section .pamphlet h2 {
+		font-size: 16px;
+	    color: #38837E;
+	    font-weight: normal;
+	    padding: 0% 15%;
+	    position: relative;
+	    width: 90%;
+	    right: -65px;
+	}
+
+	.plain-template .content-section .pamphlet > div div:nth-child(1){
+		padding-left: 0px; 
+		padding-right: 0px;
+		margin-right: 0px;
+	}
+	.plain-template .content-section .pamphlet > div div:nth-child(2){
+		background-color: #DAEDEC;
+		padding-left: 27px;
+		margin-left: 0px;
+	}
+
+	.plain-template .pamphletRowText{	
+		display: table;
+		left: 50%;
+	}
+
+	.plain-template .pamphletRowText p{
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+
+	.plain-template .pamphlet img{
+		
+	}
+
+	/*
+
+	.plain-template .tab{
+		background-color: #ffffff;
+		background-image: url("/images/about/featured_stories/125th_anniversary/pamphletTab.png");
+		background-repeat: no-repeat;
+	}
+	*/
+
+
+
+
+/*. BLINDNESS  SECTION
+   ========================================================================== */
+	.plain-template .blindness-section {
+		background-color: #ffffff;
+		background-image: url("http://www.merck.com/images/about/featured_stories/125th_anniversary/mectizan_curve.png");
+		background-repeat: no-repeat;
+		-o-background-size: cover;
+		   background-size: cover;
+		background-position: right top;
+		height: 270px;
+		left: -47%;
+		position: absolute;
+	}
+
+	.plain-template .blindness-section .container{
+		/*height: 540px;*/
+	}
+	.plain-template .blindness-section h1 {
+		text-transform: uppercase;
+		color: teal;
+		font-size: 55px;
+		position: relative;
+		line-height: 60px;
+		padding-bottom: 130px;
+		text-align: left;
+		padding-top: 60px;
+	}
+	.plain-template .blindness-section p {
+		font-size: 25px;
+	    line-height: 28px;
+	    padding-bottom: 10px;
+	    color: #ffffff;
+	    text-align: left;
+	    width: 40%;
+    	padding-top: 11%;
+	}
+
+	.plain-template .blindness-section .blindness-section-inner{
+		margin-left: 44%;
+	}
+
+	.blindnessText{
+		display: table;
+		left:50%;
+	}
+
+	.blindnessText p{
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.blindnessRow{
+		margin-bottom: 20px;
+		padding: 50px 0px;
+	}
+
+	/*. MFM  SECTION
+   ========================================================================== */
+	.plain-template .mfm-section {
+		background-color: #ffffff;
+		background-image: url("http://www.merck.com/images/about/featured_stories/125th_anniversary/mfm_curve.png");
+		background-repeat: no-repeat;
+		-o-background-size: cover;
+		   background-size: cover;
+		background-position: left top;
+		height: 270px;
+		right: -50%;
+		position: absolute;		
+	}
+
+	.plain-template .mfm-section .container{
+		/*height: 540px;*/
+	}
+	.plain-template .mfm-section h1 {
+		text-transform: uppercase;
+		color: teal;
+		font-size: 55px;
+		position: relative;
+		line-height: 60px;
+		padding-bottom: 130px;
+		text-align: left;
+		padding-top: 60px;
+	}
+	.plain-template .mfm-section p {
+		font-size: 25px;
+	    line-height: 28px;
+	    padding-bottom: 10px;
+	    color: #ffffff;
+	    padding-left: 410px;
+	    text-align: left;
+	    width: 70%;
+	    padding-top: 30px;
+	}
+
+	.mfmText{
+		display: table;
+	}
+
+	.mfmText p{
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.mfmRow{
+		margin-bottom: 50px;
+	}
+
+	/*. Ken Frazier Image  SECTION
+   ========================================================================== */
+	#kenFrazierImageContainer{
+		overflow: hidden;		
+	}
+
+	#kenFrazierImage{
+		position: relative;
+		top: -55px;
+		/*opacity: 0;*/
+		margin-left: auto;
+	    margin-right: auto;
+	    display: inline-block;
+	}
+
+	.ilb{
+		text-align: left;
+	}
+
+	/* Inforgraphic section
+    ===================================================*/
+	.plain-template .content-section .inforgraphicRow{
+		margin-top:80px;
+		margin-bottom: 30px;
+	}
+
+	.plain-template .content-section .inforgraphicRow h1{
+		color: #008376;
+    	font-size: 29px;
+    	line-height: normal;
+    	font-weight: normal;
+    	letter-spacing: normal;
+    	margin-bottom: 0px;
+    	padding-top: 30px;
+
+	}
+
+	.plain-template .content-section .inforgraphicRow h2{
+		color: #008376;
+    	font-size: 20px;
+    	line-height: normal;
+    	font-weight: normal;
+    	letter-spacing: normal;
+    	margin-bottom: 0px;
+	}
+
+	.plain-template .content-section .inforgraphicRow h3{
+		color: #008376;
+    	font-size: 22px;
+    	line-height: normal;
+    	font-weight: normal;
+    	letter-spacing: normal;
+    	font-style: italic;
+    	padding:0px;
+    	margin:0px;
+    	text-align: center;
+	}
+
+	.plain-template .content-section .inforgraphicRow a{
+   		text-decoration: none;
+   		color: #008376;
+	}
+
+	.plain-template .content-section .inforgraphicRow div:nth-child(1){
+		text-align: center;
+	}
+
+	.plain-template .content-section .inforgraphicRow div:nth-child(2){
+		text-align: center;
+	}
+
+   /*. misc
+   ========================================================================== */
+	.plain-template .content-section p.caption{
+		font-size: 14px;
+		padding: 0;
+	}
+	.plain-template .content-section .section1{
+		overflow: hidden;
+	}
+	#video1{
+		width: 100%;
+	}
+
+	#hillemanImageContainer{
+		overflow: hidden;
+		padding-left: 0px;
+	}
+
+	#hillemanImage{
+    	margin-left: auto;
+    	margin-right: auto;
+    	position: relative;	
+		margin-top: 30px;
+		margin-left: 0;
+	}
+
+	.plain-template .content-section .hillemanRow{
+		padding: 60px 0px;
+	}
+
+	.plain-template .content-section .center-content{
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	.plain-template .content-section .callout1{
+		    right: -555px;
+		    opacity: 0;
+	}
+
+
+	.plain-template .content-section .campbellCallout{
+		padding-left: 0px;
+	}
+
+	.plain-template .content-section .campbellText p{
+		display: inline;
+	}
+
+	.examplesText{
+		/*margin-bottom: 50px;*/
+	}
+
+	.plain-template .main-hero-section .share-icon {
+	    position: absolute;
+	    top: 31px;
+	    right: 17%;
+	    width: 92px;
+	 }
+	.share-icon:hover { cursor: pointer; }
+
+	.extra-padding-top{
+		padding-top: 40px !important;
+	}
+
+
+
+	/* 	-0.9. IPAD PORTRAIT
+	========================================================================== */
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 		
+		.plain-template .content-section .pamphlet{
+			position: relative;			
+		}
+		.plain-template .pamphletRowText{
+			left: inherit;
+			text-align: center;
+		}
+		.plain-template .content-section h1{
+			letter-spacing: 0px;
+		}
+
+		.plain-template .content-section h2{
+			margin-top: 0px;	
+		}
+
+		.pamphletRowText > p{
+			padding-top: 20px;
+		}
+
+		.plain-template .pamphletRow{
+			margin-top: 0px;
+		}
+
+		#page > div:nth-child(4){
+			padding: 5px 0px;
+		}
+
+		.plain-template .mfm-section {	
+			background-image: url("http://www.merck.com/images/about/featured_stories/125th_anniversary/mfm_curve_phone.png");		
+		}
+
+		.plain-template .blindness-section {
+			background-image: url("http://www.merck.com/images/about/featured_stories/125th_anniversary/mectizan_curve_phone.png");
+		}
+	}
+
+	/* 	-0.9. IPAD LANDSCAPE
+	========================================================================== */
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 	
+		/*
+		.main-hero-section{
+			border:3px solid red;
+			padding-right: 0px;
+			margin-right: 0px;
+			background-color: blue;
+			width: 100%;
+
+		}*/
+		.plain-template .content-section h1{
+			letter-spacing: 0px;
+		}
+		.plain-template .content-section h2{
+			text-align: center;
+		}
+		
+	}
+}
+
+
+/* 	-0.9. LARGE DEVICES, WIDE SCREENS
+	========================================================================== */
+	@media only screen and (max-width : 1199px){
+		.plain-template .main-hero-section {
+			background-color: #ffffff;
+		}
+		.plain-template .main-hero-section h1 {
+		    font-size: 45px;
+			position: relative;
+			top: -20px;
+			line-height: 42px;
+			padding-bottom: 40px;
+		}
+		.shareBtn img {
+		    max-width: 70%;
+		}
+		.shareBtn {
+			right: 5%;
+		}
+
+		.plain-template .pamphletRowText p{
+			/*padding-left: 100px;*/
+		}
+
+		
+	}
+
+/* 	-1.0 MEDIUM DEVICES, DESKTOPS
+	========================================================================== */
+	@media only screen and (max-width : 991px){
+		.plain-template .main-hero-section {
+		    margin-top: 0px;
+		}
+		.plain-template .main-hero-section h1 {
+		    font-size: 32px;
+			position: relative;
+			top: -35px;
+			line-height: 35px;
+			padding-bottom: 10px;
+		}
+		.plain-template .divider {
+		    padding: 20px 0px;
+		}
+		.plain-template .divider p {
+			font-size: 24px;
+		}
+		.plain-template .content-section {
+		    padding: 30px 0px;
+		}
+		.plain-template .content-section p {
+			font-size: 18px;
+		}
+		.plain-template .content-section .content-img {
+			padding: 15px;
+			margin-top: -5px;
+		}
+		.plain-template .content-section h2 {
+			font-size: 50px;
+    		text-align: center;
+		}
+
+		.plain-template .content-section .campbellText p{
+			display: block;
+    		margin-bottom: 30px;
+		}
+
+		.plain-template .content-section .pamphlet{
+			position: relative;			
+		}
+		.plain-template .pamphletRowText{
+			left: inherit;
+			text-align: center;
+		}
+
+
+	}
+/* 	-1.2 SMALL DEVICES, TABLETS
+	========================================================================== */
+	@media only screen and (max-width : 767px){
+
+		.plain-template .main-hero-section h1 {
+		    font-size: 20px;
+			position: relative;
+			top: -5px;
+			line-height: 18px;
+			padding-top: 20px;
+			padding-bottom: 10px;
+		}
+		.plain-template .main-hero-section p {
+		    font-size: 20px;
+		    line-height: 28px;
+		    padding-bottom: 10px;
+		}
+		.plain-template .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.shareBtn {
+			width: 80px;
+			right: 0%;
+		}
+		.plain-template .divider {
+		    padding: 10px 0px;
+		}
+		.plain-template .divider p {
+		    font-size: 15px;
+		}
+		.plain-template .content-section p {
+		    font-size: 15px;
+		}
+		.plain-template .content-section h2 {
+		   font-size: 39px;
+		}
+
+		.plain-template .content-section .pamphlet{
+			position: relative;
+		}
+
+		.plain-template .pamphletRowText{
+			left: inherit;
+			height: 100px !important;
+		}
+
+		body{
+			text-align: center;
+		}
+
+		.plain-template .content-section p{
+			padding-right: 0px;
+		}
+
+		.plain-template .content-section .callout1{
+			/*right: 0px;*/
+		}
+
+		.plain-template .mfm-section{
+			position: relative;
+		}
+
+		.plain-template .blindness-section{
+			position: relative;
+		}
+
+		.plain-template .blindnessText{
+			left: 0%;
+		}
+
+		.plain-template .content-section .pamphlet h2{
+			font-size: 14px;
+			right: -19px;
+		}
+
+		.plain-template .content-section .pamphletRowInfo{
+			height: auto;
+		}
+
+	    .plain-template .content-section .pamphletRow{	    
+	    	margin-top:0px;
+	    }
+
+		.plain-template .content-section .pamphletImage{ 
+			background-color: #DAEDEC;
+		}
+
+		.plain-template .pamphletRowText p{
+			padding-left: 0px;
+			padding-top: 30px;
+		}
+
+		.plain-template .content-section .campbellText p{
+			display: block;
+    		margin-bottom: 30px;
+		}
+
+		.plain-template .content-section .hillemanRow{
+			padding: 0px;
+		}
+
+		.plain-template .content-section .hillemanRow h3{
+			text-align: center;
+		}
+
+		.plain-template .content-section .blindnessText{
+			height:82px !important;
+		}
+
+		.plain-template .content-section .mfmText{
+			height:82px !important;
+		}
+
+		.plain-template .content-section h1{
+			letter-spacing: 0px;
+		}
+
+		.plain-template .main-hero-section .share-icon{
+		    right: 2%;
+		}
+
+		.blindnessRow {
+		    margin-bottom: 0;
+		    padding: 10px 0;
+		}
+
+	}
+/* 	-1.3EXTRA SMALL DEVICES, PHONES
+	========================================================================== */
+	@media only screen and (max-width : 479px){
+    	.row .col-xxs-12 {
+    		width: 100% !important;
+    	}
+		.plain-template .main-hero-section {
+			padding: 0px 0px 20px;
+		}
+		.plain-template .main-hero-section h1 {
+		    font-size: 16px;
+		    position: relative;
+		    margin: 0px auto;
+		    padding-bottom: 0px;
+		    text-align: center;
+		}
+		.plain-template .main-hero-section .col-xs-12 {
+			padding: 0px;
+		}
+		.plain-template .main-hero-section p {
+		    font-size: 15px;
+		    line-height: 1.2em;
+		    padding-bottom: 10px;
+		}
+		.plain-template .main-hero-section p.sm-xs-padd {
+		    padding-top: 15px;
+		    padding-bottom: 10px;
+		    text-align: center;
+		}
+		.shareBtn {
+			width: 70px;
+			right: 0;
+		}
+		.plain-template .divider {
+		    padding: 5px 0px;
+		}
+		.plain-template .divider p {
+		    font-size: 14px;
+		}
+		.plain-template .content-section .content-img {
+		    padding: 10px;
+		    width: 45%;
+		}
+		.plain-template .content-section p {
+		    font-size: 16px;
+		}
+		.plain-template .content-section h2 {
+		    font-size: 27px;
+		    width: 100%;
+		    right: -19px;
+		}
+		.plain-template .content-section {
+		    padding: 0px;
+		}
+
+		.plain-template .content-section h1{
+			font-size: 38px;
+		}
+
+		.plain-template .content-section .pamphlet{
+			position: relative;
+			background-image: url("http://www.merck.com/images/about/featured_stories/125th_anniversary/did_you_know_curve_phone.png");
+		}
+
+   		.plain-template .content-section .pamphletRow{	    
+	    	margin-top:0px;
+	    }
+
+
+		body{
+			text-align: center;
+		}
+
+		.plain-template .pamphletRowText{
+			left: inherit;
+		}
+
+		.plain-template .content-section p{
+			padding-right: 0px;
+		}
+
+		.plain-template .content-section .callout1{
+			/*right: 0px;*/
+		}
+
+		.plain-template .content-section .campbellText p{
+			display: block;
+    		margin-bottom: 30px;
+		}
+
+	
+		.plain-template .content-section .hillemanRow{
+			padding: 0px;
+		}
+
+		.plain-template .content-section .hillemanRow h3{
+			text-align: center;
+		}
+
+		.plain-template .content-section .hillemanRow #hillemanImage{
+			left: 15px;
+		}
+
+		.plain-template .content-section .inforgraphicRow > div{
+			margin-bottom: 90px;
+		}
+
+		.plain-template .content-section .blindnessText{
+			height:82px !important;
+			padding-top: 20px;
+		}
+
+		.plain-template .content-section .mfmText{
+			height:82px !important;
+		}
+
+		.plain-template .mfm-section {	
+			background-image: url("http://www.merck.com/images/about/featured_stories/125th_anniversary/mfm_curve_phone.png");		
+		}
+
+		.plain-template .blindness-section {
+			background-image: url("http://www.merck.com/images/about/featured_stories/125th_anniversary/mectizan_curve_phone.png");
+		}
+
+		.plain-template .main-hero-section img{
+			width: 50%;
+		}
+
+		.plain-template .main-hero-section .share-icon{
+		    width: 34%;
+		    top: 10px;
+		    right: 2%;
+		}
+
+		.plain-template .content-section h1{
+			letter-spacing: 0px;
+		}
+   
+
+	
+	}
