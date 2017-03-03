@@ -19,7 +19,7 @@
 		<meta property="og:url" content="home.html" />
 		<meta property="og:description" content="Working Together because the world is waiting." />
 		<meta property="fb:admins" content="572335063" />
-        <link rel="icon" href="../favicon.ico" />
+        <!--<link rel="icon" href="../favicon.ico" /> -->
 
         <title>Business Development &amp; Licensing</title>
 
@@ -552,8 +552,8 @@ position: absolute; cursor: default;z-index:1300 !important;
         <div class="row logo-nav-container">
 
                 <div class="col-lg-2 col-md-2 col-xs-4 logo">
-                    <a href="../index-2.html" title="Merck's Homepage"><img class="img-responsive" alt="Merck's Be Well Logo" src="http://www.merck.com/images/logo_Merck2.jpg" title="Merck Be well" /></a>
-                </div><!-- End of span5 -->
+                    <a href="../index-2.html" title="SWW OBGYN Homepage"><img class="img-responsive" alt="SWW OBGYN Logo" src="/Images/swwobgyn_SmallLogo.jpg" title="SWW OBGYN" /></a>
+                </div> <!-- End of span5 -->
 
 
                 <!-- SECONDARY NAV IS HIDDEN ON MOBILE -->
@@ -640,6 +640,7 @@ position: absolute; cursor: default;z-index:1300 !important;
         <li class="megamenu_button" style="display: none;"><a href="#_">Navigation</a></li>
 
         <!--<li style=""><a class="megamenu_drop first" href="../about/home.html">About Us</a><!-- Begin Item -->
+        <li style=""><a class="megamenu_drop first" href="../index-2.html">Home</a> </li>
             <li style=""><a class="megamenu_drop first" href="../about/Aboutus.html">About Us</a><!-- Begin Item -->
             <!--<div class="dropdown_fullwidth" style="left: -1px; top: auto; display: none;"><!-- Begin Item Container -->
                <!-- <div class="col_12">
@@ -1248,8 +1249,8 @@ position: absolute; cursor: default;z-index:1300 !important;
                             <h2 class="text-center">Contact Us</h3>
                             <p class="text-center">Monday-Thursday 7:30 am - 4:30 pm <br/>
                                         Friday: 7:30 am - 2 pm <br/> <br/>
-                                    Southwest WomanCare OBGYN <br/>
-                                    7600 Beechnut St. <br/>
+                                    Southwest WomanCare OBGYN, PLLC<br/>
+                                    7789 SOUTHWEST FWY, SUITE 400 <br/>
                                     Houston, Texas 77074 <br/>
                                     Phone: 832-649- 4273</p><br/>
                             <br />
@@ -1483,9 +1484,9 @@ position: absolute; cursor: default;z-index:1300 !important;
             </div> --><!-- End of span9 -->
             <div class="rightcol col-lg-3 col-md-3">
                 <ul class="social_icons">
-                    <li><a href="https://www.facebook.com/MerckBeWell" target="_blank"><img border="0" src="http://www.merck.com/images/icon_facebook.gif" alt="Facebook Icon"></a></li>
-                    <li><a href="https://twitter.com/merck" target="_blank"><img border="0" src="http://www.merck.com/images/icon_twitter.gif" alt="Twitter Icon"></a></li>
-                    <li class="last"><a href="https://www.linkedin.com/company/merck" target="_blank"><img border="0" src="http://www.merck.com/images/icon_linkedin.jpg" alt="Linkedin Icon"></a></li>
+                    <li><a href="" target="_blank"><img border="0" src="http://www.merck.com/images/icon_facebook.gif" alt="Facebook Icon"></a></li>
+                    <li><a href="" target="_blank"><img border="0" src="http://www.merck.com/images/icon_twitter.gif" alt="Twitter Icon"></a></li>
+                    <li class="last"><a href="" target="_blank"><img border="0" src="http://www.merck.com/images/icon_linkedin.jpg" alt="Linkedin Icon"></a></li>
                 </ul>
             </div><!-- End of rightcol -->
             <div class="clearfix"></div>
@@ -1612,7 +1613,7 @@ position: absolute; cursor: default;z-index:1300 !important;
 
         <nav id="menu" class="mobile">
     <ul style="display: none;">
-        
+        <li><a class="menu-t1 sideNavHeader" href="../index-2.html">Home</a> </li>
         <li><a class="menu-t1 sideNavHeader" href="../about/Aboutus.html">About Us</a> </li>
         <li><a class="menu-t1 sideNavHeader" href="../services/services.html">Services</a></li>
         <li><a class="menu-t1 sideNavHeader" href="../Contactus/contactus.html">Contact Us</a></li>
@@ -1672,7 +1673,7 @@ position: absolute; cursor: default;z-index:1300 !important;
 			var currentItem = $(".items").find("[href$='" + url + "']");
 			console.log(currentItem);
 
-			$(".breadcrumb").html($("<a href='../index-2.html'>Home</a>"));
+			$(".breadcrumb").html($("<a href='../index-2.html'></a>"));
 			$(currentItem.parents("li").clone().get().reverse()).each(function () {
 			    $(".breadcrumb").append(" <span class=\"slash\">/</span> ").append( $(this).children("a"));
 			});
