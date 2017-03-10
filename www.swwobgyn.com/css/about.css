@@ -284,7 +284,7 @@
         }
 		#vision-mission-section {
 			padding-top: 127px;
-			padding-bottom: 100px;
+			padding-bottom: 2px; /* about us page Top Padding*/
 		}
         .valign-content {
             display: table-cell;
